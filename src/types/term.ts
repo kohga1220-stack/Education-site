@@ -9,6 +9,10 @@ export type CategoryId =
   | 'sociology'
   | 'guidance'
   | 'ict'
+  | 'comparative'
+  | 'history'
+  | 'early-childhood'
+  | 'higher-ed'
 
 export interface Category {
   id: CategoryId
@@ -50,6 +54,10 @@ export const CATEGORIES: Category[] = [
   { id: 'sociology', label: '教育社会学', color: 'rose' },
   { id: 'guidance', label: '生徒指導・相談', color: 'pink' },
   { id: 'ict', label: 'ICT・現代的課題', color: 'indigo' },
+  { id: 'comparative', label: '比較教育・国際教育', color: 'cyan' },
+  { id: 'history', label: '教育史・制度史', color: 'stone' },
+  { id: 'early-childhood', label: '幼児教育・保育', color: 'lime' },
+  { id: 'higher-ed', label: '高等教育・大学論', color: 'fuchsia' },
 ]
 
 export const CATEGORY_MAP = Object.fromEntries(
