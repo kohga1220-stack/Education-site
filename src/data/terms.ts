@@ -8,6 +8,10 @@ import { evaluationTerms } from './terms/evaluation'
 import { sociologyTerms } from './terms/sociology'
 import { guidanceTerms } from './terms/guidance'
 import { ictTerms } from './terms/ict'
+import { comparativeTerms } from './terms/comparative'
+import { historyTerms } from './terms/history'
+import { earlyChildhoodTerms } from './terms/early-childhood'
+import { higherEdTerms } from './terms/higher-ed'
 
 export const terms = [
   ...philosophyTerms,
@@ -20,6 +24,10 @@ export const terms = [
   ...sociologyTerms,
   ...guidanceTerms,
   ...ictTerms,
+  ...comparativeTerms,
+  ...historyTerms,
+  ...earlyChildhoodTerms,
+  ...higherEdTerms,
 ]
 
 export function normalizeKana(k: string): string {
