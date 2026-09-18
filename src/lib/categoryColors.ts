@@ -12,6 +12,10 @@ export const CATEGORY_BADGE_CLASS: Record<CategoryId, string> = {
   sociology: 'bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-300',
   guidance: 'bg-pink-100 text-pink-700 dark:bg-pink-900/40 dark:text-pink-300',
   ict: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300',
+  comparative: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/40 dark:text-cyan-300',
+  history: 'bg-stone-100 text-stone-700 dark:bg-stone-900/40 dark:text-stone-300',
+  'early-childhood': 'bg-lime-100 text-lime-700 dark:bg-lime-900/40 dark:text-lime-300',
+  'higher-ed': 'bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-900/40 dark:text-fuchsia-300',
 }
 
 export const CATEGORY_DOT_CLASS: Record<CategoryId, string> = {
@@ -25,6 +29,10 @@ export const CATEGORY_DOT_CLASS: Record<CategoryId, string> = {
   sociology: 'bg-rose-500',
   guidance: 'bg-pink-500',
   ict: 'bg-indigo-500',
+  comparative: 'bg-cyan-500',
+  history: 'bg-stone-500',
+  'early-childhood': 'bg-lime-500',
+  'higher-ed': 'bg-fuchsia-500',
 }
 
 export const CATEGORY_SOLID_CLASS: Record<CategoryId, string> = {
@@ -38,4 +46,8 @@ export const CATEGORY_SOLID_CLASS: Record<CategoryId, string> = {
   sociology: 'bg-rose-600 text-white',
   guidance: 'bg-pink-600 text-white',
   ict: 'bg-indigo-600 text-white',
+  comparative: 'bg-cyan-600 text-white',
+  history: 'bg-stone-600 text-white',
+  'early-childhood': 'bg-lime-600 text-white',
+  'higher-ed': 'bg-fuchsia-600 text-white',
 }
