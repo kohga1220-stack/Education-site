@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+  @apply dark:bg-slate-900 dark:text-slate-100;
+}
+
+::selection {
+  @apply bg-primary-200 text-primary-900;
+}
+
+.prose-body p {
+  @apply mb-4 leading-relaxed;
+}
+
+.prose-body p:last-child {
+  @apply mb-0;
+}
+
+.category-badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
