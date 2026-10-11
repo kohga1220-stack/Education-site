@@ -440,7 +440,7 @@ export const systemTerms: Term[] = [
     slug: "kyoin-saiyo-shiken",
     title: "教員採用試験",
     reading: "きょういんさいようしけん",
-    kana: "きょういんさいようしけん",
+    kana: "き",
     categories: ["system"],
     summary:
       "都道府県・政令市教育委員会が公立学校教員を採用するために実施する選考試験です。",
@@ -453,7 +453,7 @@ export const systemTerms: Term[] = [
     slug: "shoninsha-kenshu",
     title: "初任者研修・中堅教諭等資質向上研修",
     reading: "しょにんしゃけんしゅう・ちゅうけんきょうゆとうししつこうじょうけんしゅう",
-    kana: "しょにんしゃけんしゅう",
+    kana: "し",
     categories: ["system"],
     summary:
       "教育公務員特例法に基づき任命権者が実施する、初任者と中堅教員向けの法定研修制度です。",
@@ -466,7 +466,7 @@ export const systemTerms: Term[] = [
     slug: "kyutokuho",
     title: "給特法",
     reading: "きゅうとくほう",
-    kana: "きゅうとくほう",
+    kana: "き",
     categories: ["system"],
     summary:
       "公立学校教員の給与に教職調整額を支給し時間外勤務手当を支給しないと定める法律です。",
@@ -479,7 +479,7 @@ export const systemTerms: Term[] = [
     slug: "shigaku-ho",
     title: "私立学校法",
     reading: "しりつがっこうほう",
-    kana: "しりつがっこうほう",
+    kana: "し",
     categories: ["system"],
     summary:
       "私立学校の自主性を重んじつつ公共性を高めるため、学校法人制度などを定める法律です。",
@@ -492,7 +492,7 @@ export const systemTerms: Term[] = [
     slug: "senshu-gakko",
     title: "専修学校・各種学校",
     reading: "せんしゅうがっこう・かくしゅがっこう",
-    kana: "せんしゅうがっこう",
+    kana: "せ",
     categories: ["system"],
     summary:
       "学校教育法第1条校以外で職業教育などを行う専修学校と各種学校の制度上の区分です。",
@@ -505,7 +505,7 @@ export const systemTerms: Term[] = [
     slug: "kosen",
     title: "高等専門学校（高専）",
     reading: "こうとうせんもんがっこう",
-    kana: "こうせん",
+    kana: "こ",
     categories: ["system"],
     summary:
       "中学校卒業後5年一貫で実践的技術者を養成する高等教育機関です。",
@@ -518,7 +518,7 @@ export const systemTerms: Term[] = [
     slug: "tsushinsei-kotogakko",
     title: "通信制高校",
     reading: "つうしんせいこうとうがっこう",
-    kana: "つうしんせいこうとうがっこう",
+    kana: "つ",
     categories: ["system"],
     summary:
       "レポート・スクーリング・試験により卒業要件を満たす、通信制課程を置く高等学校です。",
@@ -531,7 +531,7 @@ export const systemTerms: Term[] = [
     slug: "teijisei-kotogakko",
     title: "定時制高校",
     reading: "ていじせいこうとうがっこう",
-    kana: "ていじせいこうとうがっこう",
+    kana: "て",
     categories: ["system"],
     summary:
       "夜間その他特別な時間に授業を行う高等学校の課程で、多様な生徒層に対応します。",
@@ -544,7 +544,7 @@ export const systemTerms: Term[] = [
     slug: "shugaku-yuyo-menjo",
     title: "就学義務の猶予・免除",
     reading: "しゅうがくぎむのゆうよ・めんじょ",
-    kana: "しゅうがくぎむのゆうよめんじょ",
+    kana: "し",
     categories: ["system"],
     summary:
       "病弱など特別な事情がある学齢児童生徒について、保護者の願い出により就学義務を猶予・免除する制度です。",
@@ -557,7 +557,7 @@ export const systemTerms: Term[] = [
     slug: "gakko-hoken-anzen-ho",
     title: "学校保健安全法",
     reading: "がっこうほけんあんぜんほう",
-    kana: "がっこうほけんあんぜんほう",
+    kana: "か",
     categories: ["system"],
     summary:
       "児童生徒等と職員の健康の保持増進および学校の安全管理について定める法律です。",
@@ -570,7 +570,7 @@ export const systemTerms: Term[] = [
     slug: "gakko-kyushoku-ho",
     title: "学校給食法",
     reading: "がっこうきゅうしょくほう",
-    kana: "がっこうきゅうしょくほう",
+    kana: "か",
     categories: ["system"],
     summary:
       "義務教育諸学校における学校給食の普及充実と食育の推進を定める法律です。",
@@ -583,7 +583,7 @@ export const systemTerms: Term[] = [
     slug: "hekichi-kyoiku-shinko-ho",
     title: "へき地教育振興法",
     reading: "へきちきょういくしんこうほう",
-    kana: "へきちきょういくしんこうほう",
+    kana: "へ",
     categories: ["system"],
     summary:
       "教育の機会均等の観点から、へき地における教育水準の向上を図るための法律です。",
@@ -596,7 +596,7 @@ export const systemTerms: Term[] = [
     slug: "kodomo-kihon-ho",
     title: "こども基本法・こども家庭庁",
     reading: "こどもきほんほう・こどもかていちょう",
-    kana: "こどもきほんほう",
+    kana: "こ",
     categories: ["system"],
     summary:
       "子どもの権利保障を目的とする基本法と、それを推進する行政組織であるこども家庭庁の制度です。",
@@ -609,7 +609,7 @@ export const systemTerms: Term[] = [
     slug: "youji-kyoiku-mushouka",
     title: "幼児教育・保育の無償化",
     reading: "ようじきょういく・ほいくのむしょうか",
-    kana: "ようじきょういくほいくのむしょうか",
+    kana: "よ",
     categories: ["system"],
     summary:
       "2019年10月から始まった、幼稚園・保育所・認定こども園等の利用料を無償とする制度です。",
@@ -622,7 +622,7 @@ export const systemTerms: Term[] = [
     slug: "yakan-chugaku",
     title: "夜間中学",
     reading: "やかんちゅうがく",
-    kana: "やかんちゅうがく",
+    kana: "や",
     categories: ["system"],
     summary:
       "義務教育を修了できなかった人などを対象に夜間に授業を行う公立中学校の学級です。",
@@ -665,7 +665,7 @@ export const systemTerms: Term[] = [
     categories: ["system"],
     summary:
       "2022年度から普通科以外に「学際領域に関する学科」「地域社会に関する学科」の設置を可能にした、高校の学科の在り方を見直す文部科学省の改革。",
-    body: "高校普通科改革は、全高校生の約7割が在籍する普通科について、画一的なカリキュラムでは多様化する生徒のニーズに対応しきれないという課題認識のもと進められた施策である。2021年3月の学校教育法施行規則等の改正により、2022年度から「普通教育を主とする学科」として、普通科に加えて各高校が特色に応じて設置できる新学科の枠組みが整備された。具体的には、学際的・現代的な課題に対応する学びを行う「学際領域に関する学科」(通称・学際融合学科)や、地域社会が抱える課題の解決を探究する「地域社会に関する学科」(通称・地域探究学科)などが例示されている。\n\n文部科学省は2022年度以降、「新時代に対応した高等学校改革推進事業(普通科改革支援事業)」により、新学科設置に向けたカリキュラム開発や実施体制整備に取り組む高校を指定校として支援しており、全国の高校で学際融合や地域探究をテーマとした学科再編・コース新設が進んでいる。\n\n背景には、中央教育審議会が2021年1月の答申「『令和の日本型学校教育』の構築を目指して」等で示した、高校教育の多様化・individualization(個別最適化)を求める議論がある。普通科改革は、総合学科(1994年制度化)に続き高校の学科構成を見直す動きであり、生徒の主体的な進路選択や探究的な学びの充実が期待される一方、学校ごとの取組の質にばらつきが出ることも課題として指摘されている。",
+    body: "高校普通科改革は、全高校生の約7割が在籍する普通科について、画一的なカリキュラムでは多様化する生徒のニーズに対応しきれないという課題認識のもと進められた施策である。2021年3月の学校教育法施行規則等の改正により、2022年度から「普通教育を主とする学科」として、普通科に加えて各高校が特色に応じて設置できる新学科の枠組みが整備された。具体的には、学際的・現代的な課題に対応する学びを行う「学際領域に関する学科」(通称・学際融合学科)や、地域社会が抱える課題の解決を探究する「地域社会に関する学科」(通称・地域探究学科)などが例示されている。\n\n文部科学省は2022年度以降、「新時代に対応した高等学校改革推進事業(普通科改革支援事業)」により、新学科設置に向けたカリキュラム開発や実施体制整備に取り組む高校を指定校として支援しており、全国の高校で学際融合や地域探究をテーマとした学科再編・コース新設が進んでいる。\n\n背景には、中央教育審議会が2021年1月の答申「『令和の日本型学校教育』の構築を目指して」等で示した、高校教育の多様化・個別最適化を求める議論がある。普通科改革は、総合学科(1994年制度化)に続き高校の学科構成を見直す動きであり、生徒の主体的な進路選択や探究的な学びの充実が期待される一方、学校ごとの取組の質にばらつきが出ることも課題として指摘されている。",
     relatedSlugs: ["sogo-gakka", "tankyu-gakushu", "mittsu-no-policy"],
     isCanonical: true,
     tags: ["高校教育", "学科改革", "文部科学省", "探究学習"],

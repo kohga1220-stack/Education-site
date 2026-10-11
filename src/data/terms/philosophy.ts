@@ -393,7 +393,7 @@ export const philosophyTerms: Term[] = [
     slug: "andragogy",
     title: "アンドラゴジー",
     reading: "あんどらごじー",
-    kana: "A–Z",
+    kana: "あ",
     categories: ["philosophy"],
     summary:
       "子どもの学びを対象とするペダゴジーに対し、成人の自己主導的な学習の特質を体系化したマルカム・ノールズによる成人学習理論です。",
@@ -458,7 +458,7 @@ export const philosophyTerms: Term[] = [
     slug: "pragmatism-kyoiku",
     title: "プラグマティズムと教育",
     reading: "ぷらぐまてぃずむときょういく",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["philosophy"],
     summary:
       "経験の中での問題解決を真理の基準とするアメリカ発の哲学思想が、経験主義的な学習観や進歩主義教育の理論的支柱となった潮流です。",
@@ -471,7 +471,7 @@ export const philosophyTerms: Term[] = [
     slug: "kilpatrick-project-method",
     title: "プロジェクト・メソッド（キルパトリック）",
     reading: "ぷろじぇくとめそっど",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["philosophy"],
     summary:
       "デューイの弟子ウィリアム・キルパトリックが1918年に提唱した、子どもが目的を持って計画・実行する活動を通じて学ぶ指導法の理論です。",
@@ -510,7 +510,7 @@ export const philosophyTerms: Term[] = [
     slug: "anthroposophy",
     title: "人智学",
     reading: "じんちがく",
-    kana: "じ",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "ルドルフ・シュタイナーが神智学から独自に発展させた、人間と宇宙の霊的な関係性を探究する思想体系で、シュタイナー教育の理論的背景をなします。",
@@ -523,7 +523,7 @@ export const philosophyTerms: Term[] = [
     slug: "capability-approach",
     title: "ケイパビリティ・アプローチ",
     reading: "けいぱびりてぃあぷろーち",
-    kana: "A–Z",
+    kana: "け",
     categories: ["philosophy"],
     summary:
       "アマルティア・センとマーサ・ヌスバウムが発展させた、人が実際に「なりたい自分になれる自由」の幅を福祉や教育の評価基準とする理論です。",
@@ -575,7 +575,7 @@ export const philosophyTerms: Term[] = [
     slug: "plato-kyoiku",
     title: "プラトン",
     reading: "ぷらとん",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["philosophy"],
     summary:
       "古代ギリシアの哲学者(前427頃-前347頃)。『国家』において理想国家の実現には哲人王を育てる長期的教育課程が不可欠であると説き、西洋教育思想の源流を築いた。",
@@ -588,7 +588,7 @@ export const philosophyTerms: Term[] = [
     slug: "aristotle-kyoiku",
     title: "アリストテレス",
     reading: "ありすとてれす",
-    kana: "A–Z",
+    kana: "あ",
     categories: ["philosophy"],
     summary:
       "古代ギリシアの哲学者(前384-前322)。『ニコマコス倫理学』で徳を中庸の反復実践によって獲得される習慣的資質として捉え、経験主義的な人間形成論の基礎を築いた。",
@@ -614,7 +614,7 @@ export const philosophyTerms: Term[] = [
     slug: "confucianism-kyoiku",
     title: "儒教的教育思想",
     reading: "じゅきょうてききょういくしそう",
-    kana: "じ",
+    kana: "し",
     categories: ["philosophy", "history"],
     summary:
       "孔子に始まる儒教の教えに基づく教育思想。『論語』の「修己治人」を核に、人格の陶冶と社会秩序の実現を一体のものとして捉え、日本の近世教育に深い影響を与えた。",
@@ -705,7 +705,7 @@ export const philosophyTerms: Term[] = [
     slug: "martin-buber",
     title: "マルティン・ブーバー",
     reading: "まるてぃんぶーばー",
-    kana: "A–Z",
+    kana: "ま",
     categories: ["philosophy"],
     summary:
       "オーストリア生まれのユダヤ人哲学者(1878-1965)。主著『我と汝』において「我-汝」の対話的関係を人間存在の根源とし、対話を通じた全人格的な出会いを重視する教育観を提示した。",
@@ -718,7 +718,7 @@ export const philosophyTerms: Term[] = [
     slug: "habermas-kyoiku",
     title: "ユルゲン・ハーバーマス",
     reading: "はーばーます",
-    kana: "A–Z",
+    kana: "は",
     categories: ["philosophy"],
     summary:
       "ドイツの哲学者・社会学者(1929年生まれ)。フランクフルト学派第二世代の代表として『コミュニケーション的行為の理論』を展開し、対話による合意形成を重視する批判的教育理論に影響を与えた。",
@@ -731,7 +731,7 @@ export const philosophyTerms: Term[] = [
     slug: "bell-hooks-engaged-pedagogy",
     title: "ベル・フックスと関与の教育学",
     reading: "べるふっくすとかんよのきょういくがく",
-    kana: "A–Z",
+    kana: "へ",
     categories: ["philosophy"],
     summary:
       "アメリカの黒人フェミニスト思想家ベル・フックス(1952-2021)が提唱した「関与の教育学(engaged pedagogy)」。教師と学生がともに学びの共同体を築き、批判的意識の育成を目指す教育論。",
@@ -770,7 +770,7 @@ export const philosophyTerms: Term[] = [
     slug: "bildung",
     title: "ビルドゥング(陶冶)",
     reading: "びるどぅんぐ(とうや)",
-    kana: "A–Z",
+    kana: "ひ",
     categories: ["philosophy"],
     summary:
       "ドイツ語で「形成」を意味する教育学の中心概念。単なる知識・技能の習得を超え、人間が自己の内的な諸能力を全面的に開花させ人格を完成させていく過程を指す。",
@@ -783,7 +783,7 @@ export const philosophyTerms: Term[] = [
     slug: "paideia",
     title: "パイデイア",
     reading: "ぱいでいあ",
-    kana: "A–Z",
+    kana: "は",
     categories: ["philosophy"],
     summary:
       "古代ギリシア語で「教育」を意味する概念。子どもの訓育にとどまらず、共同体が成員に及ぼす教養・文化の形成全体を指し、「教育学(pedagogy)」の語源となった。",
@@ -796,7 +796,7 @@ export const philosophyTerms: Term[] = [
     slug: "jido-chushin-shugi",
     title: "児童中心主義",
     reading: "じどうちゅうしんしゅぎ",
-    kana: "じ",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "教育の目的・内容・方法を児童の立場から決定しようとする教育思想。20世紀初頭に欧米で唱えられ、大正期の日本の新教育運動にも大きな影響を与えた。",
@@ -822,7 +822,7 @@ export const philosophyTerms: Term[] = [
     slug: "carl-rogers-gakushusha-chushin",
     title: "カール・ロジャーズと学習者中心教育",
     reading: "かーるろじゃーずとがくしゅうしゃちゅうしんきょういく",
-    kana: "A–Z",
+    kana: "か",
     categories: ["philosophy", "psychology"],
     summary:
       "アメリカの心理学者カール・ロジャーズ(1902-1987)が来談者中心療法の理論を発展させ、著書『学習の自由』で提唱した、学習者の主体性と自己実現を重視する教育論。",
@@ -874,7 +874,7 @@ export const philosophyTerms: Term[] = [
     slug: "bollnow",
     title: "ボルノウ",
     reading: "ぼるのう",
-    kana: "ぼ",
+    kana: "ほ",
     categories: ["philosophy"],
     summary:
       "ドイツの哲学者・教育学者ボルノウは、実存哲学や生の哲学を踏まえて教育を人間学的に考察し、教育的雰囲気や非連続的な教育形式などの概念を示しました。",
@@ -1004,7 +1004,7 @@ export const philosophyTerms: Term[] = [
     slug: "biesta-good-education",
     title: "ビースタの「よい教育」論",
     reading: "びーすたのよいきょういくろん",
-    kana: "び",
+    kana: "ひ",
     categories: ["philosophy", "evaluation"],
     summary:
       "オランダ出身の教育理論家ビースタが、成果測定の時代に教育の目的を問い直した議論です。教育の機能を資格化・社会化・主体化の三領域でとらえ、「学習化」を批判しました。",
@@ -1043,7 +1043,7 @@ export const philosophyTerms: Term[] = [
     slug: "gandhi-nai-talim",
     title: "ガンディーのナイ・タリム（基礎教育）",
     reading: "がんでぃーのないたりむ",
-    kana: "が",
+    kana: "か",
     categories: ["philosophy", "comparative"],
     summary:
       "ガンディーが提唱したインド独自の教育構想です。1937年に基礎教育を唱え、手工芸を教育の方法とし、母語で学ぶ自給の教育を目指して、のちに生涯教育のナイ・タリムへ発展しました。",

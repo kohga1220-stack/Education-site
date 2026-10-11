@@ -74,7 +74,7 @@ export const methodsTerms: Term[] = [
     categories: ["methods", "ict"],
     summary:
       "一人ひとりの学習進度・理解度・興味関心に応じて、学習内容や進め方を調整していく学習のあり方。「指導の個別化」と「学習の個性化」からなる。",
-    body: "個別最適化学習とは、子ども一人ひとりの学習進度、理解度、興味関心、特性などに応じて、学習の内容や方法、ペースを調整していく学習のあり方を指します。文部科学省が掲げる「令和の日本型学校教育」の中核概念の一つです。\n\nこの考え方は、教師が個々の特性に応じて指導方法を柔軟に変える「指導の個別化」と、子ども自身が学習の進め方や課題を自分で選べるようにする「学習の個性化」の2つの側面から整理されます。ICT端末を使った学習履歴（スタディログ)の分析によって、一人ひとりに合った教材やドリルを提示することも技術的に可能になってきました。\n\nただし個別最適化学習は「一人で黙々と学ぶこと」だけを意味するのではなく、協働的な学びと組み合わせて実施することが重要だと文部科学省の資料でも強調されています。",
+    body: "個別最適化学習とは、子ども一人ひとりの学習進度、理解度、興味関心、特性などに応じて、学習の内容や方法、ペースを調整していく学習のあり方を指します。文部科学省が掲げる「令和の日本型学校教育」の中核概念の一つです。\n\nこの考え方は、教師が個々の特性に応じて指導方法を柔軟に変える「指導の個別化」と、子ども自身が学習の進め方や課題を自分で選べるようにする「学習の個性化」の2つの側面から整理されます。ICT端末を使った学習履歴（スタディログ）の分析によって、一人ひとりに合った教材やドリルを提示することも技術的に可能になってきました。\n\nただし個別最適化学習は「一人で黙々と学ぶこと」だけを意味するのではなく、協働的な学びと組み合わせて実施することが重要だと文部科学省の資料でも強調されています。",
     relatedSlugs: ["giga-school", "scaffolding", "kyodo-gakushu"],
     isCanonical: true,
     tags: ["指導の個別化", "学習の個性化", "令和の日本型学校教育"],
@@ -470,7 +470,7 @@ export const methodsTerms: Term[] = [
     slug: "kj-ho",
     title: "KJ法",
     reading: "けーじぇーほう",
-    kana: "け",
+    kana: "A–Z",
     categories: ["methods"],
     summary:
       "文化人類学者・川喜田二郎が考案した、雑多な情報をカードに書き出しグループ化して図解する発想整理法です。",
@@ -496,7 +496,7 @@ export const methodsTerms: Term[] = [
     slug: "ltd-gakushu",
     title: "LTD話し合い学習法",
     reading: "えるてぃーでぃーはなしあいがくしゅうほう",
-    kana: "え",
+    kana: "A–Z",
     categories: ["methods"],
     summary:
       "課題文の予習と小グループでの構造化された話し合いを組み合わせ、深い読解と対人交流を促す協同学習法です。",
@@ -509,7 +509,7 @@ export const methodsTerms: Term[] = [
     slug: "ice-model",
     title: "ICEモデル",
     reading: "あいしーいーもでる",
-    kana: "あ",
+    kana: "A–Z",
     categories: ["methods"],
     summary:
       "学びの深まりをIdeas・Connections・Extensionsの3段階で捉え、授業設計と評価に活かす枠組みです。",
@@ -639,7 +639,7 @@ export const methodsTerms: Term[] = [
     slug: "socratic-method",
     title: "ソクラテス・メソッド",
     reading: "そくらてすめそっど",
-    kana: "A–Z",
+    kana: "そ",
     categories: ["methods"],
     summary:
       "古代ギリシャの哲学者ソクラテスに由来する、教師が一連の問いを投げかけることで学習者自身に思考させ、理解を深めさせる対話型の教授法。",
@@ -652,7 +652,7 @@ export const methodsTerms: Term[] = [
     slug: "microteaching",
     title: "マイクロティーチング",
     reading: "まいくろてぃーちんぐ",
-    kana: "A–Z",
+    kana: "ま",
     categories: ["methods"],
     summary:
       "1960年代に米国スタンフォード大学で開発された教員養成技法で、短時間・少人数を対象とした模擬授業とフィードバックの反復により、特定の授業技能を安全に練習する方法。",
@@ -678,7 +678,7 @@ export const methodsTerms: Term[] = [
     slug: "think-pair-share",
     title: "シンク・ペア・シェア",
     reading: "しんくぺあしぇあ",
-    kana: "A–Z",
+    kana: "し",
     categories: ["methods"],
     summary:
       "1981年にフランク・ライマンが考案した協同学習技法で、個人思考(think)、ペアでの話し合い(pair)、全体共有(share)の3段階を通じて全員参加の発言機会を確保する。",
@@ -691,7 +691,7 @@ export const methodsTerms: Term[] = [
     slug: "just-in-time-teaching",
     title: "ジャストインタイム・ティーチング",
     reading: "じゃすといんたいむてぃーちんぐ",
-    kana: "A–Z",
+    kana: "し",
     categories: ["methods", "ict"],
     summary:
       "授業前に学習者が提出した予習課題への回答を教師が確認し、その内容に応じて授業内容を直前に調整する指導方略。1990年代に物理教育で提唱された。",
@@ -704,11 +704,11 @@ export const methodsTerms: Term[] = [
     slug: "one-minute-paper",
     title: "ミニッツペーパー",
     reading: "みにっつぺーぱー",
-    kana: "A–Z",
+    kana: "み",
     categories: ["methods", "evaluation"],
     summary:
       "授業終了の数分前に「最も重要だと思った点」と「まだ疑問が残る点」を短時間で記述させる、簡便な形成的評価・授業改善のための技法。",
-    body: "ミニッツペーパー(one-minute paper)は、授業の最後の1〜2分程度を使って、学習者にその日の授業内容について簡潔に振り返りを書かせる classroom assessment technique(教室内評価技法)の一つである。トーマス・エンジェロ(Thomas A. Angelo)とパトリシア・クロス(K. Patricia Cross)の著作を通じて広く知られるようになった。\n\n典型的な実施方法では、教師が授業終了の数分前に活動を止め、「この授業で最も重要だと思ったことは何か」「まだよくわからない点、疑問に残った点は何か」という2つの問いに無記名で短く回答させる。回答は次の授業までに教師が確認し、共通してつまずいている点があれば次回の授業で補足説明を行うなど、即座に指導改善へ反映できる点が大きな利点である。\n\n実施が容易で準備の負担がほとんどなく、大規模な講義形式の授業でも学習者一人ひとりの理解状況を把握できるため、大学教育を中心に広く普及している。発言が苦手な学習者の声を拾える手段としても評価されており、形成的評価や授業評価の一手法として位置づけられる。",
+    body: "ミニッツペーパー(one-minute paper)は、授業の最後の1〜2分程度を使って、学習者にその日の授業内容について簡潔に振り返りを書かせる 教室内評価技法(Classroom Assessment Technique)の一つである。トーマス・エンジェロ(Thomas A. Angelo)とパトリシア・クロス(K. Patricia Cross)の著作を通じて広く知られるようになった。\n\n典型的な実施方法では、教師が授業終了の数分前に活動を止め、「この授業で最も重要だと思ったことは何か」「まだよくわからない点、疑問に残った点は何か」という2つの問いに無記名で短く回答させる。回答は次の授業までに教師が確認し、共通してつまずいている点があれば次回の授業で補足説明を行うなど、即座に指導改善へ反映できる点が大きな利点である。\n\n実施が容易で準備の負担がほとんどなく、大規模な講義形式の授業でも学習者一人ひとりの理解状況を把握できるため、大学教育を中心に広く普及している。発言が苦手な学習者の声を拾える手段としても評価されており、形成的評価や授業評価の一手法として位置づけられる。",
     relatedSlugs: ["keiseiteki-hyoka", "jiko-hyoka", "faculty-development"],
     isCanonical: true,
     tags: ["形成的評価", "振り返り", "授業改善", "大学教育"],
@@ -730,7 +730,7 @@ export const methodsTerms: Term[] = [
     slug: "graphic-organizer",
     title: "グラフィックオーガナイザー",
     reading: "ぐらふぃっくおーがないざー",
-    kana: "A–Z",
+    kana: "く",
     categories: ["methods"],
     summary:
       "情報同士の関係を図形や線でつなぎ視覚的に表す学習支援ツールの総称。ベン図・概念地図・フローチャートなどが含まれ、思考の整理や記憶の定着を助ける。",
@@ -743,7 +743,7 @@ export const methodsTerms: Term[] = [
     slug: "fishbowl-discussion",
     title: "フィッシュボウル・ディスカッション",
     reading: "ふぃっしゅぼうるでぃすかっしょん",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["methods"],
     summary:
       "少人数の内側の輪(インナーサークル)が討議を行い、外側の学習者はそれを観察・記録するという二重の円構造を用いる討論技法。全員参加と発言の質の両立をねらう。",
@@ -756,7 +756,7 @@ export const methodsTerms: Term[] = [
     slug: "peer-instruction",
     title: "ピア・インストラクション",
     reading: "ぴあいんすとらくしょん",
-    kana: "A–Z",
+    kana: "ひ",
     categories: ["methods", "ict"],
     summary:
       "1990年代にハーバード大学のエリック・マズールが開発した授業法で、概念理解を問う選択式問題(コンセプトテスト)への個人解答後に少人数で議論させ、理解を深める。",
@@ -782,7 +782,7 @@ export const methodsTerms: Term[] = [
     slug: "project-approach",
     title: "プロジェクト・アプローチ",
     reading: "ぷろじぇくとあぷろーち",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["methods", "early-childhood"],
     summary:
       "リリアン・カッツとシルビア・チャードが体系化した幼児教育・初等教育の指導法で、子ども自身の興味関心から生まれたテーマを数日から数週間かけて掘り下げて探究する。",
@@ -795,7 +795,7 @@ export const methodsTerms: Term[] = [
     slug: "5e-instructional-model",
     title: "5E授業モデル",
     reading: "ふぁいぶいーじゅぎょうもでる",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["methods"],
     summary:
       "1987年にBSCS(生物科学カリキュラム研究会)のロジャー・バイビーらが開発した理科教育の指導モデル。「関与・探究・説明・発展・評価」の5段階で構成主義的に学習を組み立てる。",
@@ -951,7 +951,7 @@ export const methodsTerms: Term[] = [
     slug: "clil",
     title: "CLIL（内容言語統合型学習）",
     reading: "くりる",
-    kana: "く",
+    kana: "A–Z",
     categories: ["methods"],
     summary:
       "教科などの内容と外国語の学習を同時に行う教育手法。内容・言語・思考・協学（異文化理解）の4Cを枠組みとする。",

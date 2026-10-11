@@ -5,7 +5,7 @@ export const historyTerms: Term[] = [
     slug: "terakoya",
     title: "寺子屋",
     reading: "てらこや",
-    kana: "てらこや",
+    kana: "て",
     categories: ["history"],
     summary:
       "江戸時代に町人や農民の子どもへ読み書き算盤を教えた民間の初等教育施設です。",
@@ -18,7 +18,7 @@ export const historyTerms: Term[] = [
     slug: "hanko",
     title: "藩校",
     reading: "はんこう",
-    kana: "はんこう",
+    kana: "は",
     categories: ["history"],
     summary:
       "江戸時代に諸藩が藩士の子弟教育のために設立した武士階級向けの教育機関です。",
@@ -31,7 +31,7 @@ export const historyTerms: Term[] = [
     slug: "gakusei-1872",
     title: "学制",
     reading: "がくせい",
-    kana: "がくせい",
+    kana: "か",
     categories: ["history"],
     summary:
       "1872年に公布された日本初の近代的学校制度に関する基本法令で、国民皆学を掲げました。",
@@ -44,7 +44,7 @@ export const historyTerms: Term[] = [
     slug: "kyoikurei",
     title: "教育令",
     reading: "きょういくれい",
-    kana: "きょういくれい",
+    kana: "き",
     categories: ["history"],
     summary:
       "1879年に学制を廃止して制定された法令で、地方の実情に合わせた自由主義的な教育制度です。",
@@ -57,7 +57,7 @@ export const historyTerms: Term[] = [
     slug: "gakko-rei",
     title: "学校令",
     reading: "がっこうれい",
-    kana: "がっこうれい",
+    kana: "か",
     categories: ["history"],
     summary:
       "1886年に初代文部大臣森有礼のもとで公布された小学校令・中学校令・師範学校令などの総称です。",
@@ -70,7 +70,7 @@ export const historyTerms: Term[] = [
     slug: "shihan-gakko-seido",
     title: "師範学校制度",
     reading: "しはんがっこうせいど",
-    kana: "しはんがっこうせいど",
+    kana: "し",
     categories: ["history"],
     summary:
       "明治期に整備された小学校・中学校教員を養成するための専門教育機関の制度です。",
@@ -83,7 +83,7 @@ export const historyTerms: Term[] = [
     slug: "koto-jogakko-rei",
     title: "高等女学校令",
     reading: "こうとうじょがっこうれい",
-    kana: "こうとうじょがっこうれい",
+    kana: "こ",
     categories: ["history", "sociology"],
     summary:
       "1899年に公布された、女子中等教育機関としての高等女学校を制度化した法令です。",
@@ -96,7 +96,7 @@ export const historyTerms: Term[] = [
     slug: "jitsugyo-gakko-rei",
     title: "実業学校令",
     reading: "じつぎょうがっこうれい",
-    kana: "じつぎょうがっこうれい",
+    kana: "し",
     categories: ["history"],
     summary:
       "1899年に公布された、農業・工業・商業などの実業教育機関を制度化した法令です。",
@@ -109,7 +109,7 @@ export const historyTerms: Term[] = [
     slug: "senmon-gakko-rei",
     title: "専門学校令",
     reading: "せんもんがっこうれい",
-    kana: "せんもんがっこうれい",
+    kana: "せ",
     categories: ["history"],
     summary:
       "1903年に公布された、大学予科ではない高等教育機関としての専門学校を制度化した法令です。",
@@ -122,7 +122,7 @@ export const historyTerms: Term[] = [
     slug: "daigaku-rei-1918",
     title: "大学令",
     reading: "だいがくれい",
-    kana: "だいがくれい",
+    kana: "た",
     categories: ["history"],
     summary:
       "1918年に公布され、帝国大学以外の公立・私立大学の設置を認めた勅令です。",
@@ -135,7 +135,7 @@ export const historyTerms: Term[] = [
     slug: "kokumin-gakko-rei",
     title: "国民学校令",
     reading: "こくみんがっこうれい",
-    kana: "こくみんがっこうれい",
+    kana: "こ",
     categories: ["history"],
     summary:
       "1941年に公布され、小学校を国民学校に改称し皇国民錬成を目的とした戦時教育法令です。",
@@ -148,7 +148,7 @@ export const historyTerms: Term[] = [
     slug: "kyokasho-kokutei-seido",
     title: "教科書国定制度から検定制度への移行",
     reading: "きょうかしょこくていせいどからけんていせいどへのいこう",
-    kana: "きょうかしょこくていせいどからけんていせいどへのいこう",
+    kana: "き",
     categories: ["history"],
     summary:
       "1903年の国定教科書制度成立から戦後の検定制度確立までの、教科書制度の歴史的転換です。",
@@ -161,7 +161,7 @@ export const historyTerms: Term[] = [
     slug: "senryo-ka-kyoiku-kaikaku",
     title: "GHQによる戦後教育改革(CIE)",
     reading: "じーえいちきゅーによるせんごきょういくかいかく",
-    kana: "じーえいちきゅーによるせんごきょういくかいかく",
+    kana: "A–Z",
     categories: ["history"],
     summary:
       "連合国軍総司令部の民間情報教育局(CIE)が主導した、戦後日本の民主的教育改革です。",
@@ -174,7 +174,7 @@ export const historyTerms: Term[] = [
     slug: "beikoku-kyoiku-shisetsudan-hokokusho",
     title: "米国教育使節団報告書",
     reading: "べいこくきょういくしせつだんほうこくしょ",
-    kana: "べいこくきょういくしせつだんほうこくしょ",
+    kana: "へ",
     categories: ["history"],
     summary:
       "1946年に来日した米国教育使節団がまとめた、戦後日本の教育改革の方向性を示した報告書です。",
@@ -187,7 +187,7 @@ export const historyTerms: Term[] = [
     slug: "kyoiku-saishin-iinkai",
     title: "教育刷新委員会",
     reading: "きょういくさっしんいいんかい",
-    kana: "きょういくさっしんいいんかい",
+    kana: "き",
     categories: ["history"],
     summary:
       "1946年に内閣直属で設置され、戦後教育改革の具体案を審議した委員会です。",
@@ -200,7 +200,7 @@ export const historyTerms: Term[] = [
     slug: "gakko-kyoiku-ho-seitei",
     title: "学校教育法制定の経緯",
     reading: "がっこうきょういくほうせいていのけいい",
-    kana: "がっこうきょういくほうせいていのけいい",
+    kana: "か",
     categories: ["history"],
     summary:
       "1947年に公布された学校教育法が、六・三・三・四制の単線型学校体系を確立した歴史的経緯です。",
@@ -213,7 +213,7 @@ export const historyTerms: Term[] = [
     slug: "kyoiku-kihon-ho-seitei-keii",
     title: "教育基本法制定の経緯",
     reading: "きょういくきほんほうせいていのけいい",
-    kana: "きょういくきほんほうせいていのけいい",
+    kana: "き",
     categories: ["history"],
     summary:
       "1947年制定の教育基本法が、教育勅語に代わる教育理念として成立するまでの歴史的過程です。",
@@ -226,7 +226,7 @@ export const historyTerms: Term[] = [
     slug: "kyoiku-chokugo-haishi",
     title: "教育勅語の奉読廃止・失効確認",
     reading: "きょういくちょくごのほうどくはいしとしっこうかくにん",
-    kana: "きょういくちょくごのほうどくはいしとしっこうかくにん",
+    kana: "き",
     categories: ["history"],
     summary:
       "1948年に衆参両院で、教育勅語の学校儀式での奉読廃止と失効・排除が確認された経緯です。",
@@ -239,7 +239,7 @@ export const historyTerms: Term[] = [
     slug: "gakuto-shutsujin",
     title: "学徒出陣・学徒勤労動員",
     reading: "がくとしゅつじん・がくときんろうどういん",
-    kana: "がくとしゅつじんがくときんろうどういん",
+    kana: "か",
     categories: ["history"],
     summary:
       "太平洋戦争末期、徴兵猶予を停止して大学生等を出征させた措置と、生徒を軍需生産に動員した政策です。",
@@ -252,7 +252,7 @@ export const historyTerms: Term[] = [
     slug: "joshi-koto-shihan-gakko",
     title: "女子教育の歴史(女子高等師範学校)",
     reading: "じょしきょういくのれきし(じょしこうとうしはんがっこう)",
-    kana: "じょしきょういくのれきし",
+    kana: "し",
     categories: ["history", "sociology"],
     summary:
       "明治期に整備された女子師範学校・女子高等師範学校を中心とする、近代日本の女子教育制度の歴史です。",
@@ -265,7 +265,7 @@ export const historyTerms: Term[] = [
     slug: "kyoiku-daigaku-tenkan",
     title: "師範学校から教育大学への転換",
     reading: "しはんがっこうからきょういくだいがくへのてんかん",
-    kana: "しはんがっこうからきょういくだいがくへのてんかん",
+    kana: "し",
     categories: ["history"],
     summary:
       "戦後の学制改革により、師範学校が新制大学の教育学部・学芸大学へ再編された過程です。",
@@ -278,7 +278,7 @@ export const historyTerms: Term[] = [
     slug: "daigaku-jichi-no-rekishi",
     title: "大学の自治の歴史",
     reading: "だいがくのじちのれきし",
-    kana: "だいがくのじちのれきし",
+    kana: "た",
     categories: ["history"],
     summary:
       "戦前の学問弾圧事件を経て確立してきた、大学の自主的運営を意味する大学の自治の歴史です。",
@@ -291,7 +291,7 @@ export const historyTerms: Term[] = [
     slug: "gakko-kyushoku-no-rekishi",
     title: "学校給食の歴史",
     reading: "がっこうきゅうしょくのれきし",
-    kana: "がっこうきゅうしょくのれきし",
+    kana: "か",
     categories: ["history"],
     summary:
       "1889年の貧困児童への欠食対策に始まり、戦後の完全給食制度として定着した学校給食の歴史です。",
@@ -304,7 +304,7 @@ export const historyTerms: Term[] = [
     slug: "shugaku-ryoko-no-rekishi",
     title: "修学旅行の歴史",
     reading: "しゅうがくりょこうのれきし",
-    kana: "しゅうがくりょこうのれきし",
+    kana: "し",
     categories: ["history"],
     summary:
       "明治期の軍事色を帯びた行軍から、戦後の平和教育や体験学習へと変化してきた修学旅行の歴史です。",
@@ -317,7 +317,7 @@ export const historyTerms: Term[] = [
     slug: "juken-senso",
     title: "受験戦争という語の登場",
     reading: "じゅけんせんそうというごのとうじょう",
-    kana: "じゅけんせんそうというごのとうじょう",
+    kana: "し",
     categories: ["history", "sociology"],
     summary:
       "高度経済成長期の進学率上昇を背景に、1960年代以降に社会問題化した激しい受験競争を指す言葉です。",
@@ -330,7 +330,7 @@ export const historyTerms: Term[] = [
     slug: "kodo-keizai-seicho-ki-kyoiku-kakudai",
     title: "高度経済成長期の教育拡大",
     reading: "こうどけいざいせいちょうきのきょういくかくだい",
-    kana: "こうどけいざいせいちょうきのきょういくかくだい",
+    kana: "こ",
     categories: ["history", "sociology"],
     summary:
       "1950年代後半から70年代にかけて、産業界の人材需要を背景に高校・大学進学率が急上昇した現象です。",
@@ -343,7 +343,7 @@ export const historyTerms: Term[] = [
     slug: "senshu-gakko-seido",
     title: "専修学校制度の成立",
     reading: "せんしゅうがっこうせいどのせいりつ",
-    kana: "せんしゅうがっこうせいどのせいりつ",
+    kana: "せ",
     categories: ["history"],
     summary:
       "1975年の学校教育法改正により、1976年に新設された職業教育・実際生活に必要な能力を育む学校制度です。",
@@ -356,7 +356,7 @@ export const historyTerms: Term[] = [
     slug: "6334-sei-seiritsu-katei",
     title: "六・三・三・四制の成立過程",
     reading: "ろくさんさんよんせいのせいりつかてい",
-    kana: "ろくさんさんよんせいのせいりつかてい",
+    kana: "ろ",
     categories: ["history"],
     summary:
       "1947年前後、複線型の戦前学校体系から単線型の六・三・三・四制へ移行した具体的な制度設計の過程です。",
@@ -369,7 +369,7 @@ export const historyTerms: Term[] = [
     slug: "kyoiku-nihou",
     title: "教育二法",
     reading: "きょういくにほう",
-    kana: "きょういくにほう",
+    kana: "き",
     categories: ["history"],
     summary:
       "1954年に制定された、教員の政治的活動制限などを定めた教育公務員特例法改正と義務教育諸学校教育の政治的中立確保法です。",
@@ -655,7 +655,7 @@ export const historyTerms: Term[] = [
     slug: "ritsuryo-kokugaku",
     title: "国学(律令制の地方官学)",
     reading: "こくがく",
-    kana: "か",
+    kana: "こ",
     categories: ["history"],
     summary:
       "律令制のもとで諸国に置かれた官立の学校。国博士らが郡司の子弟などに教え、地方官人の養成を担った。江戸期の国学(思想)とは別物。",

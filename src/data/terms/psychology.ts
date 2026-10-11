@@ -434,7 +434,7 @@ export const psychologyTerms: Term[] = [
     slug: "gagne-nine-events",
     title: "ガニェの9教授事象",
     reading: "がにぇのきゅうきょうじゅじしょう",
-    kana: "が",
+    kana: "か",
     categories: ["psychology"],
     summary:
       "学習を効果的に支援するための外的働きかけを9段階に整理したガニェのインストラクショナルデザイン理論です。",
@@ -486,7 +486,7 @@ export const psychologyTerms: Term[] = [
     slug: "growth-mindset",
     title: "グロースマインドセット",
     reading: "ぐろーすまいんどせっと",
-    kana: "A–Z",
+    kana: "く",
     categories: ["psychology"],
     summary:
       "能力は努力によって伸ばせると信じる考え方で、心理学者キャロル・ドゥエックが提唱した概念です。",
@@ -538,7 +538,7 @@ export const psychologyTerms: Term[] = [
     slug: "executive-function",
     title: "実行機能",
     reading: "じっこうきのう",
-    kana: "じ",
+    kana: "し",
     categories: ["psychology"],
     summary:
       "目標達成のために思考や行動を制御する認知機能の総称で、抑制・切替え・更新の3要素から構成されます。",
@@ -551,7 +551,7 @@ export const psychologyTerms: Term[] = [
     slug: "transfer-of-learning",
     title: "学習の転移",
     reading: "がくしゅうのてんい",
-    kana: "が",
+    kana: "か",
     categories: ["psychology"],
     summary:
       "ある場面で学んだ知識や技能が別の場面での学習や課題解決に影響を及ぼす現象を指す教育心理学の概念です。",
@@ -590,7 +590,7 @@ export const psychologyTerms: Term[] = [
     slug: "pygmalion-effect",
     title: "ピグマリオン効果",
     reading: "ぴぐまりおんこうか",
-    kana: "A–Z",
+    kana: "ひ",
     categories: ["psychology"],
     summary:
       "教師の期待が児童生徒の学業成績や行動に実際に影響を与える現象で、ローゼンタール効果とも呼ばれます。",
@@ -603,7 +603,7 @@ export const psychologyTerms: Term[] = [
     slug: "stereotype-threat",
     title: "ステレオタイプ脅威",
     reading: "すてれおたいぷきょうい",
-    kana: "A–Z",
+    kana: "す",
     categories: ["psychology"],
     summary:
       "自分が属する集団への否定的な固定観念を意識することで実際にパフォーマンスが低下する現象です。",
@@ -707,7 +707,7 @@ export const psychologyTerms: Term[] = [
     slug: "positive-psychology-perma",
     title: "ポジティブ心理学とPERMAモデル",
     reading: "ぽじてぃぶしんりがくとぱーまもでる",
-    kana: "A–Z",
+    kana: "ほ",
     categories: ["psychology"],
     summary:
       "心理学者マーティン・セリグマンが提唱した、病理ではなく人間の幸福や強みに焦点を当てる「ポジティブ心理学」の枠組み。ウェルビーイングを構成する5要素(PERMA)を示すモデルとして広く用いられる。",
@@ -863,7 +863,7 @@ export const psychologyTerms: Term[] = [
     slug: "identity-status-theory",
     title: "アイデンティティ・ステイタス理論",
     reading: "あいでんてぃてぃすていたすりろん",
-    kana: "A–Z",
+    kana: "あ",
     categories: ["psychology"],
     summary:
       "心理学者マーシアが1960年代に提唱した、エリクソンのアイデンティティ概念を発展させた理論。「危機(探索)」と「関与(コミットメント)」の2軸から、青年期の自我同一性の状態を4類型に分類する。",

@@ -18,7 +18,7 @@ export const comparativeTerms: Term[] = [
     slug: "ib-baccalaureate",
     title: "IB(国際バカロレア)",
     reading: "こくさいばかろれあ",
-    kana: "こ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "スイスの財団が運営する国際教育プログラムで、修了により世界共通の大学入学資格が得られます。",
@@ -31,7 +31,7 @@ export const comparativeTerms: Term[] = [
     slug: "unesco-education",
     title: "UNESCO(国連教育科学文化機関)の教育活動",
     reading: "こくれんきょういくかがくぶんかきかんのきょういくかつどう",
-    kana: "こ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "教育・科学・文化の国際協力を担う国連専門機関で、識字やSDG4推進の中核を担います。",
@@ -44,7 +44,7 @@ export const comparativeTerms: Term[] = [
     slug: "efa-education-for-all",
     title: "EFA(万人のための教育)",
     reading: "ばんにんのためのきょういく",
-    kana: "ば",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "1990年に始まった、すべての人に基礎教育を保障することを目指す国際的な運動です。",
@@ -135,7 +135,7 @@ export const comparativeTerms: Term[] = [
     slug: "gcse-a-level",
     title: "イギリスのGCSE/Aレベル",
     reading: "じーしーえすいーえーれべる",
-    kana: "A–Z",
+    kana: "し",
     categories: ["comparative"],
     summary:
       "英国の中等教育修了資格試験GCSEと、大学進学の指標となるAレベル試験の制度です。",
@@ -239,7 +239,7 @@ export const comparativeTerms: Term[] = [
     slug: "jica-education-cooperation",
     title: "JICAの教育協力",
     reading: "じゃいかのきょういくきょうりょく",
-    kana: "し",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "日本の政府開発援助を実施する機関が行う、途上国の学校建設や授業改善などの教育支援です。",
@@ -343,7 +343,7 @@ export const comparativeTerms: Term[] = [
     slug: "pirls",
     title: "PIRLS(国際読解力調査)",
     reading: "ぱーるず",
-    kana: "は",
+    kana: "A–Z",
     categories: ["comparative", "evaluation"],
     summary:
       "小学4年生を対象に、IEAが4年ごとに実施する国際的な読解力の比較調査です。",
@@ -408,7 +408,7 @@ export const comparativeTerms: Term[] = [
     slug: "grandes-ecoles",
     title: "グランゼコール",
     reading: "ぐらんぜこーる",
-    kana: "A–Z",
+    kana: "く",
     categories: ["comparative", "higher-ed"],
     summary:
       "フランスの一般大学制度とは別に存在するエリート養成のための高等教育機関群。少数精鋭の選抜制で、政財界・行政のリーダー層を輩出してきた。",
@@ -529,7 +529,7 @@ export const comparativeTerms: Term[] = [
     categories: ["comparative"],
     summary:
       "2021年に中国政府が導入した、義務教育段階の宿題負担と学校外補習(塾)を大幅に規制する政策。学習塾業界に大きな打撃を与えた一方、規制の実効性には課題も残る。",
-    body: "双減政策(「双减」政策)は、2021年7月24日に中国共産党中央弁公庁と国務院弁公庁が共同で公布した教育政策であり、義務教育段階(小・中学生)の児童生徒に対する宿題の負担と学校外の学科系補習(塾)の負担という「二つの負担」を軽減することを目的とする。同政策により、国語・数学・英語などの学科系科目を扱う営利目的の学習塾は原則として新規設立が禁止され、既存の事業者も非営利法人への転換または事業撤退を迫られることとなった。\n\nこの政策は民間教育産業に極めて大きな衝撃を与え、政策発表直後には新東方(New Oriental Education)やTAL Education Groupといった大手教育企業の株価が暴落し、教育サービス業界全体で数ヶ月のうちに300万件を超える求人が失われたと推計されている。政策の狙いは、過熱する受験競争と家庭の教育費負担を抑制し、少子化対策の一環として子育てコストを軽減することにあったとされる。\n\nしかし、政策施行から数年が経過しても、学科系の補習需要そのものが消えたわけではなく、指導の場が民間の塾から家庭教師や学校内の放課後補習などへと形を変えて存続しているとの指摘が多い。比較教育学の観点からは、双減政策は「シャドーエデュケーション」を国家が正面から規制しようとした異例の事例として、韓国のハグォン規制や日本の学習塾行政と比較しながら論じられている。",
+    body: "双減政策(中国語では「双减」政策)は、2021年7月24日に中国共産党中央弁公庁と国務院弁公庁が共同で公布した教育政策であり、義務教育段階(小・中学生)の児童生徒に対する宿題の負担と学校外の学科系補習(塾)の負担という「二つの負担」を軽減することを目的とする。同政策により、国語・数学・英語などの学科系科目を扱う営利目的の学習塾は原則として新規設立が禁止され、既存の事業者も非営利法人への転換または事業撤退を迫られることとなった。\n\nこの政策は民間教育産業に極めて大きな衝撃を与え、政策発表直後には新東方(New Oriental Education)やTAL Education Groupといった大手教育企業の株価が暴落し、教育サービス業界全体で数ヶ月のうちに300万件を超える求人が失われたと推計されている。政策の狙いは、過熱する受験競争と家庭の教育費負担を抑制し、少子化対策の一環として子育てコストを軽減することにあったとされる。\n\nしかし、政策施行から数年が経過しても、学科系の補習需要そのものが消えたわけではなく、指導の場が民間の塾から家庭教師や学校内の放課後補習などへと形を変えて存続しているとの指摘が多い。比較教育学の観点からは、双減政策は「シャドーエデュケーション」を国家が正面から規制しようとした異例の事例として、韓国のハグォン規制や日本の学習塾行政と比較しながら論じられている。",
     relatedSlugs: ["hagwon", "shadow-education", "gaokao"],
     isCanonical: true,
     tags: ["中国", "学習塾規制", "シャドーエデュケーション", "教育政策"],
@@ -564,7 +564,7 @@ export const comparativeTerms: Term[] = [
     slug: "cambridge-international-education",
     title: "ケンブリッジ国際教育機構(Cambridge International)",
     reading: "けんぶりっじこくさいきょういくきこう",
-    kana: "A–Z",
+    kana: "け",
     categories: ["comparative"],
     summary:
       "ケンブリッジ大学が運営する国際的な資格認定機関。IGCSEやAレベルなど160以上の国・地域で通用する国際資格を提供し、IBと並ぶ代表的な国際バカロレア型カリキュラムを構成する。",
@@ -616,7 +616,7 @@ export const comparativeTerms: Term[] = [
     slug: "sadler-comparative-education",
     title: "マイケル・サドラーと比較教育学の方法論",
     reading: "まいける・さどらー",
-    kana: "A–Z",
+    kana: "ま",
     categories: ["comparative"],
     summary:
       "イギリスの教育行政官マイケル・サドラーは1900年の講演で、外国の制度を文脈から切り離して模倣する危険性を説き、近代比較教育学の方法論的出発点を築いたとされる。",
@@ -668,7 +668,7 @@ export const comparativeTerms: Term[] = [
     slug: "essa-every-student-succeeds-act",
     title: "ESSA(すべての生徒が成功する法)",
     reading: "えすさ",
-    kana: "え",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "2015年12月にオバマ大統領が署名した、アメリカの初等中等教育法。NCLB法に代わり、学力向上の責任と裁量を連邦から州へ戻した。",
@@ -850,7 +850,7 @@ export const comparativeTerms: Term[] = [
     slug: "isced",
     title: "ISCED(国際標準教育分類)",
     reading: "あいせっど",
-    kana: "あ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "各国で異なる教育制度を国際比較できるよう、ユネスコが定めた教育段階の分類基準。2011年版では教育レベルを0から8の9段階に区分する。",
@@ -863,7 +863,7 @@ export const comparativeTerms: Term[] = [
     slug: "iea-evaluation-association",
     title: "IEA(国際教育到達度評価学会)",
     reading: "あいいーえー",
-    kana: "あ",
+    kana: "A–Z",
     categories: ["comparative", "evaluation"],
     summary:
       "TIMSS、PIRLS、ICCS、ICILSなどの国際学力調査を実施する国際的な研究者組織。1958年にハンブルクで集まった研究者に起源をもつ。",
@@ -876,7 +876,7 @@ export const comparativeTerms: Term[] = [
     slug: "deseco-key-competencies",
     title: "DeSeCoとキー・コンピテンシー",
     reading: "でせこときーこんぴてんしー",
-    kana: "て",
+    kana: "A–Z",
     categories: ["comparative", "evaluation"],
     summary:
       "OECDのDeSeCo(コンピテンシーの定義と選択)プロジェクトが2003年に整理した、人生の成功と社会の機能に必要な3つのキー・コンピテンシーの枠組み。",

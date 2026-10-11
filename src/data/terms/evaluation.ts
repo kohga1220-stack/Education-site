@@ -391,7 +391,7 @@ export const evaluationTerms: Term[] = [
     slug: "irt-parameter-models",
     title: "項目反応理論のパラメータモデル",
     reading: "こうもくはんのうりろんのぱらめーたもでる",
-    kana: "こうもくはんのうりろんのぱらめーたもでる",
+    kana: "こ",
     categories: ["evaluation"],
     summary:
       "項目反応理論で項目の特性を数式で表す1〜3パラメータロジスティックモデル。識別力・困難度・当て推量の各項目パラメータを扱う。",
@@ -404,7 +404,7 @@ export const evaluationTerms: Term[] = [
     slug: "face-validity",
     title: "顔面妥当性",
     reading: "がんめんだとうせい",
-    kana: "がんめんだとうせい",
+    kana: "か",
     categories: ["evaluation"],
     summary:
       "テストや項目の見た目が測定意図と一致していると受検者や利用者に感じられる程度を示す、印象に基づく主観的な妥当性の一種である。",
@@ -417,7 +417,7 @@ export const evaluationTerms: Term[] = [
     slug: "holistic-analytic-rubric",
     title: "全体的ルーブリックと分析的ルーブリック",
     reading: "ぜんたいてきるーぶりっくとぶんせきてきるーぶりっく",
-    kana: "ぜんたいてきるーぶりっくとぶんせきてきるーぶりっく",
+    kana: "せ",
     categories: ["evaluation"],
     summary:
       "パフォーマンス課題を単一の基準で総合的に評価するか、複数の観点に分けて段階別に分析的に評価するかというルーブリックの2つの型。",
@@ -430,7 +430,7 @@ export const evaluationTerms: Term[] = [
     slug: "binet-test",
     title: "ビネー式知能検査",
     reading: "びねーしきちのうけんさ",
-    kana: "びねーしきちのうけんさ",
+    kana: "ひ",
     categories: ["evaluation"],
     summary:
       "20世紀初頭にフランスのビネーとシモンが学習困難な子どもを見つけるために開発した個別式知能検査の源流で、精神年齢の概念を初めて導入した。",
@@ -443,7 +443,7 @@ export const evaluationTerms: Term[] = [
     slug: "tanaka-binet",
     title: "田中ビネー知能検査",
     reading: "たなかびねーちのうけんさ",
-    kana: "たなかびねーちのうけんさ",
+    kana: "た",
     categories: ["evaluation"],
     summary:
       "心理学者の田中寛一がフランスのビネー式知能検査を日本の実情に合わせて翻案・標準化した個別式知能検査で、現行版は田中ビネー知能検査Vである。",
@@ -456,7 +456,7 @@ export const evaluationTerms: Term[] = [
     slug: "wisc",
     title: "ウェクスラー式知能検査(WISC)",
     reading: "うぇくすらーしきちのうけんさ",
-    kana: "うぇくすらーしきちのうけんさ",
+    kana: "う",
     categories: ["evaluation"],
     summary:
       "デイビッド・ウェクスラーが開発した児童向けの個別式知能検査で、全検査IQと複数の指標得点から知的能力の個人内差を把握できる。",
@@ -469,7 +469,7 @@ export const evaluationTerms: Term[] = [
     slug: "k-shiki-hattatsu-kensa",
     title: "新版K式発達検査",
     reading: "しんぱんけーしきはったつけんさ",
-    kana: "しんぱんけーしきはったつけんさ",
+    kana: "し",
     categories: ["evaluation"],
     summary:
       "京都で開発された日本独自の発達検査で、0歳から成人までを対象に姿勢・運動、認知・適応、言語・社会の3領域から発達を多面的に測る。",
@@ -482,7 +482,7 @@ export const evaluationTerms: Term[] = [
     slug: "kyotsu-test",
     title: "大学入学共通テスト",
     reading: "だいがくにゅうがくきょうつうてすと",
-    kana: "だいがくにゅうがくきょうつうてすと",
+    kana: "た",
     categories: ["evaluation"],
     summary:
       "2021年に大学入試センター試験を引き継いで始まった、知識・技能に加え思考力・判断力・表現力も重視する全国共通の入学者選抜試験。",
@@ -495,7 +495,7 @@ export const evaluationTerms: Term[] = [
     slug: "naishinsho",
     title: "調査書・内申点",
     reading: "ちょうさしょ・ないしんてん",
-    kana: "ちょうさしょ・ないしんてん",
+    kana: "ち",
     categories: ["evaluation"],
     summary:
       "在籍校が作成し進学先に提出する成績・活動記録の書類(調査書)と、そこに反映される各教科の評定(内申点)からなる進学選抜の資料制度。",
@@ -508,7 +508,7 @@ export const evaluationTerms: Term[] = [
     slug: "competency-based-hyoka",
     title: "コンピテンシーベース評価",
     reading: "こんぴてんしーべーすひょうか",
-    kana: "こんぴてんしーべーすひょうか",
+    kana: "こ",
     categories: ["evaluation"],
     summary:
       "知識をどれだけ習得したかではなく、実際の課題解決場面で資質・能力(コンピテンシー)をどう発揮できたかに着目する評価の考え方。",
@@ -521,7 +521,7 @@ export const evaluationTerms: Term[] = [
     slug: "hyokasha-kan-shinraisei",
     title: "評価者間信頼性",
     reading: "ひょうかしゃかんしんらいせい",
-    kana: "ひょうかしゃかんしんらいせい",
+    kana: "ひ",
     categories: ["evaluation"],
     summary:
       "複数の評価者が同一の答案やパフォーマンス、作品などを評価した際に、判定結果がどれだけ一致するかを示す信頼性の指標である。",
@@ -534,7 +534,7 @@ export const evaluationTerms: Term[] = [
     slug: "test-battery",
     title: "テストバッテリー",
     reading: "てすとばってりー",
-    kana: "てすとばってりー",
+    kana: "て",
     categories: ["evaluation"],
     summary:
       "対象者を多面的・重層的に理解するために、質問紙法や投影法、知能検査など性質の異なる複数の検査を組み合わせて実施すること。",
@@ -547,7 +547,7 @@ export const evaluationTerms: Term[] = [
     slug: "koumoku-bunseki",
     title: "項目分析",
     reading: "こうもくぶんせき",
-    kana: "こうもくぶんせき",
+    kana: "こ",
     categories: ["evaluation"],
     summary:
       "テストの各項目について通過率や識別力などの統計的な指標を算出し、良問と不適切な項目を見分けて改善するための一連の手続き。",
@@ -560,7 +560,7 @@ export const evaluationTerms: Term[] = [
     slug: "hyotei-shakudo-ho",
     title: "評定尺度法",
     reading: "ひょうていしゃくどほう",
-    kana: "ひょうていしゃくどほう",
+    kana: "ひ",
     categories: ["evaluation"],
     summary:
       "あらかじめ用意した段階的な尺度に沿って、対象の状態や態度、行動の傾向などを回答者や評価者が判定・評価する測定の方法である。",
@@ -573,7 +573,7 @@ export const evaluationTerms: Term[] = [
     slug: "chinou-shisu",
     title: "知能指数",
     reading: "ちのうしすう",
-    kana: "ちのうしすう",
+    kana: "ち",
     categories: ["evaluation"],
     summary:
       "知能検査の結果を数値化した指標で、精神年齢に基づく比率IQの方式から、現在広く用いられる偏差知能指数へと算出方法が発展した。",
@@ -664,7 +664,7 @@ export const evaluationTerms: Term[] = [
     slug: "talis",
     title: "TALIS（OECD国際教員指導環境調査）",
     reading: "たりす",
-    kana: "た",
+    kana: "A–Z",
     categories: ["evaluation", "comparative"],
     summary:
       "OECDが実施する、世界最大規模の教員・校長を対象とした国際調査。教員の働き方や専門的能力開発、学校環境などを国際比較する目的で2008年から周期的に実施されている。",
@@ -677,7 +677,7 @@ export const evaluationTerms: Term[] = [
     slug: "piaac",
     title: "PIAAC（国際成人力調査）",
     reading: "ぴあっく",
-    kana: "ひ",
+    kana: "A–Z",
     categories: ["evaluation", "comparative"],
     summary:
       "OECDが実施する16〜65歳の成人を対象とした国際調査で、読解力・数的思考力・状況が変化する状況での問題解決能力などの成人スキルを測定する。",
@@ -690,7 +690,7 @@ export const evaluationTerms: Term[] = [
     slug: "naep",
     title: "NAEP（全米学力調査）",
     reading: "なえっぷ",
-    kana: "な",
+    kana: "A–Z",
     categories: ["evaluation", "comparative"],
     summary:
       "米国で1969年から継続実施されている「全米の通信簿（The Nation's Report Card）」とも呼ばれる大規模学力調査。4・8・12年生を対象に読解・数学等の学力の経年変化や州間比較を行う。",
@@ -716,7 +716,7 @@ export const evaluationTerms: Term[] = [
     slug: "value-added-model",
     title: "バリューアデッド・モデル（付加価値モデル）",
     reading: "ばりゅーあでっどもでる",
-    kana: "A–Z",
+    kana: "は",
     categories: ["evaluation", "system"],
     summary:
       "児童生徒の過去の学力データから予測される得点と実際の得点との差を用いて、教員や学校が学力向上に与えた「付加価値」を統計的に推定しようとする評価手法。",
@@ -729,7 +729,7 @@ export const evaluationTerms: Term[] = [
     slug: "benchmark-hyoka",
     title: "ベンチマーク評価",
     reading: "べんちまーくひょうか",
-    kana: "A–Z",
+    kana: "へ",
     categories: ["evaluation"],
     summary:
       "学年末など大規模な総括的評価を待たずに、単元や学期の節目ごとに標準化されたテストを実施し、児童生徒の学習到達状況を定期的に把握して指導改善に活かす評価方法。",
@@ -768,11 +768,11 @@ export const evaluationTerms: Term[] = [
     slug: "naplan",
     title: "NAPLAN（オーストラリア全国学力・リテラシー調査）",
     reading: "なぷらん",
-    kana: "な",
+    kana: "A–Z",
     categories: ["evaluation", "comparative"],
     summary:
       "オーストラリアで2008年から毎年実施されている全国共通の学力調査で、3・5・7・9年生を対象に読解・作文・言語の決まり・計算の4領域を測定する。",
-    body: "NAPLAN（National Assessment Program – Literacy and Numeracy）は、オーストラリアの全国評価プログラム（NAP）の一環として、2008年から毎年、全国のすべての3年生・5年生・7年生・9年生を対象に実施されている学力調査である。読解（reading）、作文（writing）、言語の決まり（spelling・文法・句読法などのconventions of language）、計算（numeracy）の4領域について、全国共通の基準で児童生徒の学力を測定する。\n\n2020年は新型コロナウイルス感染症の影響で中止となったが、それ以外は毎年継続して実施されている。2022年には初めて全面的にオンライン（コンピュータベース）での実施に移行し、2023年からは実施時期がそれまでの5月から3月に前倒しされ、結果がより早期に学校・保護者に提供されるようになった。\n\nNAPLANの結果は、連邦政府や州政府が教育資源の配分や重点施策を検討する際の基礎データとして活用されるほか、各学校が自校の指導の課題を把握し、リテラシー・ニューメラシーの向上に向けた目標設定に用いる資料としても位置づけられている。一方で、結果の学校別公表（My Schoolウェブサイト）を通じた学校間の序列化や、テスト対策指導への偏り（テスト漬け）への批判も根強く、調査のあり方をめぐる議論が続いている。",
+    body: "NAPLAN（National Assessment Program – Literacy and Numeracy）は、オーストラリアの全国評価プログラム（NAP）の一環として、2008年から毎年、全国のすべての3年生・5年生・7年生・9年生を対象に実施されている学力調査である。読解（reading）、作文（writing）、言語の決まり（綴り・文法・句読法など）、計算（numeracy）の4領域について、全国共通の基準で児童生徒の学力を測定する。\n\n2020年は新型コロナウイルス感染症の影響で中止となったが、それ以外は毎年継続して実施されている。2022年には初めて全面的にオンライン（コンピュータベース）での実施に移行し、2023年からは実施時期がそれまでの5月から3月に前倒しされ、結果がより早期に学校・保護者に提供されるようになった。\n\nNAPLANの結果は、連邦政府や州政府が教育資源の配分や重点施策を検討する際の基礎データとして活用されるほか、各学校が自校の指導の課題を把握し、リテラシー・ニューメラシーの向上に向けた目標設定に用いる資料としても位置づけられている。一方で、結果の学校別公表（My Schoolウェブサイト）を通じた学校間の序列化や、テスト対策指導への偏り（テスト漬け）への批判も根強く、調査のあり方をめぐる議論が続いている。",
     relatedSlugs: ["pisa", "gcse-a-level", "hyojun-gakuryoku-kensa"],
     isCanonical: true,
     tags: ["NAPLAN", "オーストラリア", "全国学力調査", "リテラシー"],
@@ -924,7 +924,7 @@ export const evaluationTerms: Term[] = [
     slug: "yg-seikaku-kensa",
     title: "Y-G性格検査（矢田部ギルフォード性格検査）",
     reading: "わいじーせいかくけんさ",
-    kana: "わ",
+    kana: "A–Z",
     categories: ["evaluation", "psychology"],
     summary:
       "ギルフォードの検査を原型に矢田部達郎らが日本人向けに標準化した質問紙法の性格検査。12尺度120問で性格特性を測り、5つの類型にも分類する。",
@@ -1028,7 +1028,7 @@ export const evaluationTerms: Term[] = [
     slug: "cipp-model",
     title: "CIPPモデル",
     reading: "しっぷもでる",
-    kana: "し",
+    kana: "A–Z",
     categories: ["evaluation"],
     summary:
       "スタッフルビームが提唱した、背景・入力・過程・成果の四つの側面から教育プログラムを評価し、意思決定に役立てる評価モデル。",

@@ -135,7 +135,7 @@ export const guidanceTerms: Term[] = [
     slug: "peer-support",
     title: "ピアサポート",
     reading: "ぴあさぽーと",
-    kana: "A–Z",
+    kana: "ひ",
     categories: ["guidance"],
     summary:
       "児童生徒同士が仲間（ピア）として支え合う教育活動。傾聴や葛藤解決などのスキルを学んだ上で、悩みを抱える同級生や後輩に寄り添う取り組みを行う。",
@@ -148,7 +148,7 @@ export const guidanceTerms: Term[] = [
     slug: "anger-management",
     title: "アンガーマネジメント",
     reading: "あんがーまねじめんと",
-    kana: "A–Z",
+    kana: "あ",
     categories: ["guidance", "psychology"],
     summary:
       "怒りの感情と上手に付き合うための心理教育プログラム。自分の怒りのパターンを理解し、衝動的な言動を防ぐスキルを身につける。",
@@ -161,7 +161,7 @@ export const guidanceTerms: Term[] = [
     slug: "sst",
     title: "ソーシャルスキルトレーニング（SST）",
     reading: "そーしゃるすきるとれーにんぐ",
-    kana: "A–Z",
+    kana: "そ",
     categories: ["guidance", "special"],
     summary:
       "友達との関わり方や気持ちの伝え方など、対人関係に必要な社会的スキルを、練習を通して身につけさせる指導方法。",
@@ -187,7 +187,7 @@ export const guidanceTerms: Term[] = [
     slug: "young-carer",
     title: "ヤングケアラー",
     reading: "やんぐけあらー",
-    kana: "A–Z",
+    kana: "や",
     categories: ["guidance", "sociology"],
     summary:
       "本来大人が担うと想定される家族の介護や世話、家事などを日常的に行っている18歳未満の子ども。学業や友人関係への影響が懸念される。",
@@ -213,7 +213,7 @@ export const guidanceTerms: Term[] = [
     slug: "school-lawyer",
     title: "スクールロイヤー",
     reading: "すくーるろいやー",
-    kana: "A–Z",
+    kana: "す",
     categories: ["guidance", "system"],
     summary:
       "教育行政や学校が直面する法的な課題について、子どもの最善の利益の観点から継続的に助言を行う弁護士。いじめ対応や保護者対応などを支援する。",
@@ -278,7 +278,7 @@ export const guidanceTerms: Term[] = [
     slug: "kyoiku-sodan-coordinator",
     title: "教育相談コーディネーター",
     reading: "きょういくそうだんこーでぃねーたー",
-    kana: "A–Z",
+    kana: "き",
     categories: ["guidance"],
     summary:
       "学校内の教育相談体制の中心となり、児童生徒の状況把握や校内外の関係者・関係機関との連絡調整、担任へのサポートなどを担う教職員の役割。",
@@ -304,7 +304,7 @@ export const guidanceTerms: Term[] = [
     slug: "school-caste",
     title: "スクールカースト",
     reading: "すくーるかーすと",
-    kana: "A–Z",
+    kana: "す",
     categories: ["guidance", "sociology"],
     summary:
       "主に中学校・高校のクラス内で日常のコミュニケーションを通じて形成される、生徒間の暗黙の序列・グループ間の力関係を指す用語。",
@@ -317,7 +317,7 @@ export const guidanceTerms: Term[] = [
     slug: "net-ijime",
     title: "ネットいじめ",
     reading: "ねっといじめ",
-    kana: "A–Z",
+    kana: "ね",
     categories: ["guidance", "ict"],
     summary:
       "SNSやメッセージアプリなど、インターネットを介して行われるいじめ。匿名性や拡散性が高く、早期発見や解決が難しい特徴を持つ。",
@@ -369,7 +369,7 @@ export const guidanceTerms: Term[] = [
     slug: "gatekeeper",
     title: "ゲートキーパー（自殺予防）",
     reading: "げーときーぱー",
-    kana: "A–Z",
+    kana: "け",
     categories: ["guidance", "psychology"],
     summary:
       "自殺の危険を示すサインに気づき、声をかけ、話を聞き、必要な支援につなげる役割を担う人。学校では教職員向けの養成研修が行われている。",
@@ -395,7 +395,7 @@ export const guidanceTerms: Term[] = [
     slug: "jido-gyakutai-boshi-ho",
     title: "児童虐待の防止等に関する法律",
     reading: "じどうぎゃくたいのぼうしとうにかんするほうりつ",
-    kana: "じどうぎゃくたいぼうしほう",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "身体的・性的・ネグレクト・心理的の4類型を定義し、学校等に虐待の早期発見の努力義務や通告義務を課す2000年制定の法律です。",
@@ -408,7 +408,7 @@ export const guidanceTerms: Term[] = [
     slug: "manabi-no-tayoka-gakko",
     title: "学びの多様化学校",
     reading: "まなびのたようかがっこう",
-    kana: "まなびのたようかがっこう",
+    kana: "ま",
     categories: ["guidance"],
     summary:
       "不登校児童生徒の実態に配慮した特別の教育課程を編成・実施できる学校で、2023年に不登校特例校から名称が改められました。",
@@ -421,7 +421,7 @@ export const guidanceTerms: Term[] = [
     slug: "black-kosoku",
     title: "ブラック校則",
     reading: "ぶらっくこうそく",
-    kana: "ブラックコウソク",
+    kana: "ふ",
     categories: ["guidance"],
     summary:
       "地毛証明や下着の色指定など、教育的合理性を欠くとして2017年頃から社会問題化した理不尽な校則を指す通称です。",
@@ -434,7 +434,7 @@ export const guidanceTerms: Term[] = [
     slug: "seito-shido-sankino",
     title: "生徒指導の三機能論",
     reading: "せいとしどうのさんきのうろん",
-    kana: "セイトシドウノサンキノウロン",
+    kana: "せ",
     categories: ["guidance"],
     summary:
       "自己存在感・共感的人間関係・自己決定という3要素を教科の授業や学級活動の中で生かしていく生徒指導の理論です。",
@@ -447,7 +447,7 @@ export const guidanceTerms: Term[] = [
     slug: "kodomo-sos-dial",
     title: "24時間子供SOSダイヤル",
     reading: "にじゅうよじかんこどもえすおーえすだいやる",
-    kana: "24ジカンコドモSOSダイヤル",
+    kana: "に",
     categories: ["guidance"],
     summary:
       "いじめなど子供のSOS全般について夜間・休日を含め24時間無料で相談できる、文部科学省が呼びかける全国共通の電話相談窓口です。",
@@ -460,7 +460,7 @@ export const guidanceTerms: Term[] = [
     slug: "hiko-shonen-bunrui",
     title: "非行少年の分類",
     reading: "ひこうしょうねんのぶんるい",
-    kana: "ヒコウショウネンノブンルイ",
+    kana: "ひ",
     categories: ["guidance"],
     summary:
       "少年法上の非行少年は、年齢や行為の性質の違いにより犯罪少年・触法少年・ぐ犯少年という3つの類型に分類されます。",
@@ -473,7 +473,7 @@ export const guidanceTerms: Term[] = [
     slug: "shonenho-to-gakko",
     title: "少年法と学校の対応",
     reading: "しょうねんほうとがっこうのたいおう",
-    kana: "ショウネンホウトガッコウノタイオウ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "非行のあった生徒への学校の対応は、少年の健全育成と保護処分を目的とする少年法の趣旨を踏まえて行われます。",
@@ -486,7 +486,7 @@ export const guidanceTerms: Term[] = [
     slug: "ict-shusseki-atsukai",
     title: "ICT等を活用した学習活動の出席扱い",
     reading: "あいしーてぃーとうをかつようしたがくしゅうかつどうのしゅっせきあつかい",
-    kana: "ICTトウヲカツヨウシタガクシュウカツドウノシュッセキアツカイ",
+    kana: "A–Z",
     categories: ["guidance"],
     summary:
       "不登校児童生徒が自宅で行うICT等を活用した学習活動を、一定の要件を満たせば指導要録上の出席として扱える制度です。",
@@ -499,7 +499,7 @@ export const guidanceTerms: Term[] = [
     slug: "gakko-kiki-kanri",
     title: "学校危機管理",
     reading: "がっこうききかんり",
-    kana: "ガッコウキキカンリ",
+    kana: "か",
     categories: ["guidance"],
     summary:
       "事件・事故・災害の発生時に児童生徒の心身の安全を守り、教育活動の早期再開を図るための組織的な危機対応体制です。",
@@ -512,7 +512,7 @@ export const guidanceTerms: Term[] = [
     slug: "ptsd-gakko-taio",
     title: "PTSDと学校での対応",
     reading: "ぴーてぃーえすでぃーとがっこうでのたいおう",
-    kana: "PTSDトガッコウデノタイオウ",
+    kana: "A–Z",
     categories: ["guidance"],
     summary:
       "災害や事件で心的外傷を負った児童生徒に対し、安心できる学校環境を整えながら行う心のケアの基本的な対応です。",
@@ -525,7 +525,7 @@ export const guidanceTerms: Term[] = [
     slug: "grief-care",
     title: "グリーフケア",
     reading: "ぐりーふけあ",
-    kana: "グリーフケア",
+    kana: "く",
     categories: ["guidance"],
     summary:
       "身近な人との死別を経験した児童生徒の悲嘆に寄り添い、その心理的な回復のプロセスを支える支援を指します。",
@@ -538,7 +538,7 @@ export const guidanceTerms: Term[] = [
     slug: "monster-parent-ron",
     title: "モンスターペアレント論",
     reading: "もんすたーぺあれんとろん",
-    kana: "モンスターペアレントロン",
+    kana: "も",
     categories: ["guidance"],
     summary:
       "学校への過剰・理不尽な要求を行う保護者を指す通称語をめぐり、その背景や実態を慎重に検討する学術的な議論です。",
@@ -551,7 +551,7 @@ export const guidanceTerms: Term[] = [
     slug: "jishoo-koi-taio",
     title: "自傷行為への対応",
     reading: "じしょうこういへのたいおう",
-    kana: "ジショウコウイヘノタイオウ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "リストカットなどの自傷行為を発見した際、頭ごなしに叱責せず本人を責めない姿勢で背景を理解しようとする対応の考え方です。",
@@ -564,7 +564,7 @@ export const guidanceTerms: Term[] = [
     slug: "jisatsu-yobo-kyoiku",
     title: "SOSの出し方に関する教育",
     reading: "えすおーえすのだしかたにかんするきょういく",
-    kana: "SOSノダシカタニカンスルキョウイク",
+    kana: "A–Z",
     categories: ["guidance"],
     summary:
       "悩みを抱えたときに身近な信頼できる大人へ助けを求める力を育てる、自殺予防を目的とした学校での教育です。",
@@ -577,7 +577,7 @@ export const guidanceTerms: Term[] = [
     slug: "psychological-first-aid",
     title: "心理的応急処置",
     reading: "しんりてきおうきゅうしょち",
-    kana: "シンリテキオウキュウショチ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "災害や事件の直後、専門的な治療の前段階として非専門家でも実施できる人道的・実際的な心理的支援の枠組みです。",
@@ -616,7 +616,7 @@ export const guidanceTerms: Term[] = [
     slug: "gyakutai-tsuhou-gimu",
     title: "児童虐待の早期発見・通告義務",
     reading: "じどうぎゃくたいのそうきはっけん・つうこくぎむ",
-    kana: "じ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "児童虐待の防止等に関する法律に基づき、学校や教職員には虐待の早期発見に努める努力義務と、虐待を受けたと思われる児童を発見した場合に市町村や児童相談所等へ速やかに通告する義務が課されている。",
@@ -642,7 +642,7 @@ export const guidanceTerms: Term[] = [
     slug: "maltreatment",
     title: "マルトリートメント",
     reading: "まるとりーとめんと",
-    kana: "A–Z",
+    kana: "ま",
     categories: ["guidance"],
     summary:
       "虐待とまでは言い切れないが子どもの心身の発達を阻害しうる不適切な養育・関わり方全般を指す概念。加害の意図の有無にかかわらず行為自体が不適切であれば該当し、教室内での不適切指導も含めて論じられる。",
@@ -655,7 +655,7 @@ export const guidanceTerms: Term[] = [
     slug: "career-passport",
     title: "キャリア・パスポート",
     reading: "きゃりあ・ぱすぽーと",
-    kana: "A–Z",
+    kana: "き",
     categories: ["guidance"],
     summary:
       "小学校から高等学校まで、児童生徒が特別活動等の学びを通じて自らのキャリア形成を見通し振り返るポートフォリオ教材。2020年度から全国の学校で導入され、学年間・校種間で引き継がれる。",
@@ -694,7 +694,7 @@ export const guidanceTerms: Term[] = [
     slug: "assertion-training",
     title: "アサーション・トレーニング",
     reading: "あさーしょん・とれーにんぐ",
-    kana: "A–Z",
+    kana: "あ",
     categories: ["guidance"],
     summary:
       "自分の気持ちや考えを、相手の権利を尊重しながら率直かつ適切に伝える「アサーティブ」なコミュニケーションを身につけるための訓練プログラム。学校では人間関係づくりやいじめ予防の一環として実施される。",
@@ -733,7 +733,7 @@ export const guidanceTerms: Term[] = [
     slug: "trauma-informed-care",
     title: "トラウマインフォームドケア",
     reading: "とらうまいんふぉーむどけあ",
-    kana: "A–Z",
+    kana: "と",
     categories: ["guidance"],
     summary:
       "支援者が児童生徒の問題行動の背景に見えないトラウマ(心的外傷)があるかもしれないという視点を持ち、再トラウマ化を避けながら対応する支援の枠組み。北米発祥で近年日本の教育現場にも広がりつつある。",
@@ -785,7 +785,7 @@ export const guidanceTerms: Term[] = [
     slug: "jido-jiritsu-shien-shisetsu",
     title: "児童自立支援施設",
     reading: "じどうじりつしえんしせつ",
-    kana: "じ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "不良行為をなし、またはなすおそれのある児童及び家庭環境等の理由により生活指導等を要する児童を入所または通所させ、個々の状況に応じた自立支援を行う児童福祉法上の児童福祉施設。家庭裁判所の保護処分先ともなる。",
@@ -798,7 +798,7 @@ export const guidanceTerms: Term[] = [
     slug: "jisho-koui",
     title: "自傷行為",
     reading: "じしょうこうい",
-    kana: "じ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "死ぬ意図を伴わずに、自らの身体を意図的に傷つける行為の総称。カッティング(切傷)が代表例で、思春期に多くみられる。つらい感情から一時的に逃れるための対処行動である一方、自殺のリスク要因ともされる。",
@@ -824,7 +824,7 @@ export const guidanceTerms: Term[] = [
     slug: "jiko-yuyokan",
     title: "自己有用感",
     reading: "じこゆうようかん",
-    kana: "じ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "他者の役に立った、他者に喜んでもらえたという経験を通じて育まれる、自分の存在や行動が他者にとって価値があるという感覚。無条件の自己受容である自己肯定感とは区別され、生徒指導提要が重視する心理的支援の柱の一つ。",
@@ -837,7 +837,7 @@ export const guidanceTerms: Term[] = [
     slug: "gakko-keisatsu-renkei",
     title: "学校と警察の連携(学校警察連絡制度)",
     reading: "がっこうとけいさつのれんけい",
-    kana: "が",
+    kana: "か",
     categories: ["guidance"],
     summary:
       "非行の未然防止や早期対応、少年の健全育成を目的に、学校と警察(少年サポートセンター等)が情報交換や合同補導、相互連絡票の運用などを通じて協力する仕組み。学校警察連絡協議会がその中心的な枠組みとなる。",
@@ -967,7 +967,7 @@ export const guidanceTerms: Term[] = [
     slug: "gakko-anzen-sanryoiki",
     title: "学校安全の3領域と学校安全計画",
     reading: "がっこうあんぜんのさんりょういきとがっこうあんぜんけいかく",
-    kana: "が",
+    kana: "か",
     categories: ["guidance", "system"],
     summary:
       "学校安全を生活安全・交通安全・災害安全の三領域でとらえ、学校保健安全法に基づき学校安全計画で安全教育と安全管理を進める枠組み。",
@@ -1006,7 +1006,7 @@ export const guidanceTerms: Term[] = [
     slug: "cocolo-plan",
     title: "COCOLOプラン",
     reading: "こころぷらん",
-    kana: "こ",
+    kana: "A–Z",
     categories: ["guidance", "system"],
     summary:
       "文部科学省が2023年3月に取りまとめた不登校対策。学びの場の確保、心のSOSの早期発見、学校風土の見える化を三本柱とする。",
@@ -1045,7 +1045,7 @@ export const guidanceTerms: Term[] = [
     slug: "mondai-kodo-futoko-chosa",
     title: "児童生徒の問題行動・不登校等生徒指導上の諸課題に関する調査",
     reading: "じどうせいとのもんだいこうどう・ふとうこうとうせいとしどうじょうのしょかだいにかんするちょうさ",
-    kana: "じ",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "文部科学省が毎年実施する、暴力行為・いじめ・不登校・高校中退などの実態を把握する全国調査。生徒指導施策の基礎資料となる。",
@@ -1097,7 +1097,7 @@ export const guidanceTerms: Term[] = [
     slug: "qu-gakkyu-mansokudo",
     title: "Q-U（楽しい学校生活を送るためのアンケート）",
     reading: "きゅーゆー",
-    kana: "き",
+    kana: "A–Z",
     categories: ["guidance"],
     summary:
       "河村茂雄が開発した、児童生徒の学校生活の満足感と意欲、学級集団の状態を把握する心理検査。いじめや不登校の予防に活用される。",

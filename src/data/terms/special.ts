@@ -135,7 +135,7 @@ export const specialTerms: Term[] = [
     slug: "gifted-2e",
     title: "ギフテッド教育（2E教育）",
     reading: "ぎふてっどきょういく",
-    kana: "A–Z",
+    kana: "き",
     categories: ["special"],
     summary:
       "生まれつき突出した知的能力や才能を持つ子どもへの教育と、そうした才能と発達障害等を併せ持つ子ども（2E＝Twice-Exceptional）への教育を指す概念。日本ではまだ制度化されていないが文部科学省で検討が進む。",
@@ -368,7 +368,7 @@ export const specialTerms: Term[] = [
     slug: "normalization",
     title: "ノーマライゼーション",
     reading: "のーまらいぜーしょん",
-    kana: "A–Z",
+    kana: "の",
     categories: ["special"],
     summary:
       "障害の有無にかかわらず誰もが地域社会で普通の生活条件を享受できるようにすべきだとする理念。デンマークのバンク=ミケルセンが提唱し、スウェーデンのニィリエが8つの原理として体系化した。",
@@ -472,7 +472,7 @@ export const specialTerms: Term[] = [
     slug: "teacch-program",
     title: "TEACCHプログラム",
     reading: "てぃーちぷろぐらむ",
-    kana: "て",
+    kana: "A–Z",
     categories: ["special"],
     summary:
       "米国ノースカロライナ州で開発された自閉スペクトラム症の人を対象とする包括的な生涯支援プログラム。",
@@ -628,7 +628,7 @@ export const specialTerms: Term[] = [
     slug: "hokago-day-service",
     title: "放課後等デイサービス",
     reading: "ほうかごとうでいさーびす",
-    kana: "A–Z",
+    kana: "ほ",
     categories: ["special", "system"],
     summary:
       "児童福祉法に基づく障害児通所支援の一つで、就学中(小学校から高等学校まで)の障害のある子どもに、放課後や長期休業中に生活能力向上のための訓練や社会との交流の機会を提供するサービス。",
@@ -654,7 +654,7 @@ export const specialTerms: Term[] = [
     slug: "job-coach",
     title: "ジョブコーチ",
     reading: "じょぶこーち",
-    kana: "A–Z",
+    kana: "し",
     categories: ["special", "system"],
     summary:
       "職場適応援助者とも呼ばれ、障害のある人が職場に適応できるよう、就職前後に本人・事業主双方に対して直接的・専門的な支援を行う専門職。",
@@ -719,7 +719,7 @@ export const specialTerms: Term[] = [
     slug: "down-shokogun",
     title: "ダウン症候群",
     reading: "だうんしょうこうぐん",
-    kana: "A–Z",
+    kana: "た",
     categories: ["special"],
     summary:
       "21番染色体が1本多いこと(21トリソミー)を原因とする先天性の疾患で、知的障害や特徴的な身体的特徴、筋緊張の低さなどを伴うことが多く、特別支援教育においては個々の発達に応じた早期からの支援が重視される。",
@@ -732,7 +732,7 @@ export const specialTerms: Term[] = [
     slug: "aac",
     title: "拡大・代替コミュニケーション(AAC)",
     reading: "かくだいだいたいこみゅにけーしょん",
-    kana: "A–Z",
+    kana: "か",
     categories: ["special", "ict"],
     summary:
       "話す・聞く・読む・書くなどのコミュニケーションに困難のある人が、身振りや文字盤、機器などを用いて自分の意思を相手に伝えるための技法や手段の総称。ノンテク・ローテク・ハイテクに大別される。",
@@ -771,7 +771,7 @@ export const specialTerms: Term[] = [
     slug: "parent-training",
     title: "ペアレント・トレーニング",
     reading: "ぺあれんととれーにんぐ",
-    kana: "A–Z",
+    kana: "へ",
     categories: ["special"],
     summary:
       "発達障害のある子どもの保護者を対象に、行動理論に基づいて子どもの行動理解や関わり方を学ぶグループ形式のプログラム。国立肥前療養所で開発され、現在は広く発達支援の現場で活用されている。",
@@ -992,7 +992,7 @@ export const specialTerms: Term[] = [
     slug: "dn-cas-pass",
     title: "DN-CAS認知評価システムとPASS理論",
     reading: "でぃーえぬかすにんちひょうかしすてむとぱすりろん",
-    kana: "て",
+    kana: "A–Z",
     categories: ["special", "evaluation"],
     summary:
       "ダスとナグリエリによるPASS理論に基づく認知検査。プランニング・注意・同時処理・継次処理の4つの認知機能を測り、学習や行動の特性を把握する。",

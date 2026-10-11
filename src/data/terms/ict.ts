@@ -425,7 +425,7 @@ export const ictTerms: Term[] = [
     slug: "kyoiku-joho-ka-suishin-ho",
     title: "学校教育情報化推進法",
     reading: "がっこうきょういくじょうほうかすいしんほう",
-    kana: "ガッコウキョウイクジョウホウカスイシンホウ",
+    kana: "か",
     categories: ["ict"],
     summary:
       "2019年に成立した法律で、学校教育におけるICT活用の推進と、そのための環境整備を国および自治体の責務として定めています。",
@@ -438,7 +438,7 @@ export const ictTerms: Term[] = [
     slug: "tougou-komu-shien-system",
     title: "統合型校務支援システム",
     reading: "とうごうがたこうむしえんしすてむ",
-    kana: "トウゴウガタコウムシエンシステム",
+    kana: "と",
     categories: ["ict"],
     summary:
       "出欠管理・成績処理・指導要録の作成といった多様な校務を一つのシステムで一元管理し、教員の業務負担の軽減を図る仕組みです。",
@@ -451,7 +451,7 @@ export const ictTerms: Term[] = [
     slug: "vr-ar-kyoiku",
     title: "VR・AR教育活用",
     reading: "ぶいあーる・えーあーるきょういくかつよう",
-    kana: "ブイアール・エーアールキョウイクカツヨウ",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "仮想現実・拡張現実の技術を用いることで、教室では実現しにくい疑似体験や立体的な理解を授業に取り入れていくための学習方法です。",
@@ -464,7 +464,7 @@ export const ictTerms: Term[] = [
     slug: "metaverse-kyoiku",
     title: "メタバースと教育",
     reading: "めたばーすときょういく",
-    kana: "メタバーストキョウイク",
+    kana: "め",
     categories: ["ict"],
     summary:
       "インターネット上に構築された3D仮想空間にアバターとして参加し、他者との交流や学習活動を行っていく新しい形の教育のことです。",
@@ -477,7 +477,7 @@ export const ictTerms: Term[] = [
     slug: "ai-tutor",
     title: "AIチューター",
     reading: "えーあいちゅーたー",
-    kana: "エーアイチューター",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "生成AIなどを活用して個々の学習者の理解度や誤答傾向を分析し、対話形式で解説やヒントを提供していく個別指導の仕組みです。",
@@ -490,7 +490,7 @@ export const ictTerms: Term[] = [
     slug: "ai-jido-saiten",
     title: "AI自動採点",
     reading: "えーあいじどうさいてん",
-    kana: "エーアイジドウサイテン",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "人工知能を用いて選択式問題だけでなく、記述式の解答や作文なども自動的に採点・評価していく、比較的新しい教育向けの技術です。",
@@ -503,7 +503,7 @@ export const ictTerms: Term[] = [
     slug: "coding-programming-chigai",
     title: "コーディング教育とプログラミング教育の違い",
     reading: "こーでぃんぐきょういくとぷろぐらみんぐきょういくのちがい",
-    kana: "コーディングキョウイクトプログラミングキョウイクノチガイ",
+    kana: "こ",
     categories: ["ict"],
     summary:
       "特定言語の文法習得を重視するコーディング教育と、論理的な思考力の育成を主眼とするプログラミング教育との違いを指す言葉です。",
@@ -516,7 +516,7 @@ export const ictTerms: Term[] = [
     slug: "digital-kyozai-ud",
     title: "デジタル教材のユニバーサルデザイン",
     reading: "でじたるきょうざいのゆにばーさるでざいん",
-    kana: "デジタルキョウザイノユニバーサルデザイン",
+    kana: "て",
     categories: ["ict"],
     summary:
       "視覚・聴覚・発達など、多様な特性を持つ子どもたちが等しく利用できるように配慮して設計されたデジタル教材のあり方のことです。",
@@ -529,7 +529,7 @@ export const ictTerms: Term[] = [
     slug: "robotics-kyoiku",
     title: "ロボティクス教育",
     reading: "ろぼてぃくすきょういく",
-    kana: "ロボティクスキョウイク",
+    kana: "ろ",
     categories: ["ict"],
     summary:
       "ロボットの製作とプログラムによる動作制御の体験を通じて、工学的な思考力や問題解決力を育んでいくための教育活動のことです。",
@@ -542,7 +542,7 @@ export const ictTerms: Term[] = [
     slug: "data-science-kyoiku",
     title: "データサイエンス教育",
     reading: "でーたさいえんすきょういく",
-    kana: "データサイエンスキョウイク",
+    kana: "て",
     categories: ["ict"],
     summary:
       "データの収集・分析・活用を通じて課題解決力を育む教育のことで、高校情報科や大学の数理・AI教育とも密接に連動しています。",
@@ -555,7 +555,7 @@ export const ictTerms: Term[] = [
     slug: "cyber-security-kyoiku",
     title: "サイバーセキュリティ教育",
     reading: "さいばーせきゅりてぃきょういく",
-    kana: "サイバーセキュリティキョウイク",
+    kana: "さ",
     categories: ["ict"],
     summary:
       "パスワード管理や不正アクセスへの対策など、情報端末やネットワークを安全に利用するための知識と態度を育んでいくための教育です。",
@@ -568,7 +568,7 @@ export const ictTerms: Term[] = [
     slug: "disinformation-kyoiku",
     title: "フェイクニュース・ディスインフォメーション教育",
     reading: "ふぇいくにゅーす・でぃすいんふぉめーしょんきょういく",
-    kana: "フェイクニュース・ディスインフォメーションキョウイク",
+    kana: "ふ",
     categories: ["ict"],
     summary:
       "虚偽情報や意図的に発信される偽情報を見抜き、情報源を批判的に検証していくファクトチェックの力を育てるための新しい教育です。",
@@ -581,7 +581,7 @@ export const ictTerms: Term[] = [
     slug: "oer",
     title: "オープンエデュケーショナルリソース",
     reading: "おーぷんえでゅけーしょなるりそーす",
-    kana: "オープンエデュケーショナルリソース",
+    kana: "お",
     categories: ["ict"],
     summary:
       "クリエイティブ・コモンズなどのオープンライセンスのもとで無償公開され、自由に利用・改変できる教育コンテンツ全般の総称です。",
@@ -594,7 +594,7 @@ export const ictTerms: Term[] = [
     slug: "ai-rinri-kyoiku",
     title: "AI倫理教育",
     reading: "えーあいりんりきょういく",
-    kana: "エーアイリンリキョウイク",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "AIの仕組みや限界、公平性や偏見といった問題を理解し、AIと適切に付き合うための判断力を育んでいくための新しい教育です。",
@@ -607,7 +607,7 @@ export const ictTerms: Term[] = [
     slug: "school-cloud-service",
     title: "学校向けクラウドサービス",
     reading: "がっこうむけくらうどさーびす",
-    kana: "ガッコウムケクラウドサービス",
+    kana: "か",
     categories: ["ict"],
     summary:
       "Google WorkspaceやMicrosoft 365など、教育機関向けに提供されているクラウド型の学習・業務基盤を活用する取り組みです。",
@@ -685,7 +685,7 @@ export const ictTerms: Term[] = [
     slug: "digital-native",
     title: "デジタルネイティブ",
     reading: "でじたるねいてぃぶ",
-    kana: "A–Z",
+    kana: "て",
     categories: ["ict"],
     summary:
       "生まれたときからインターネットやデジタル機器が身近にあり、それらを自然に使いこなして育った世代を指す概念。",
@@ -698,7 +698,7 @@ export const ictTerms: Term[] = [
     slug: "computational-thinking",
     title: "プログラミング的思考",
     reading: "ぷろぐらみんぐてきしこう",
-    kana: "A–Z",
+    kana: "ふ",
     categories: ["ict"],
     summary:
       "課題解決に必要な手順を論理的に分解し、組み合わせて考える力。日本の学習指導要領でプログラミング教育の中核目標とされる。",
@@ -711,7 +711,7 @@ export const ictTerms: Term[] = [
     slug: "unplugged-programming",
     title: "アンプラグド・プログラミング教育",
     reading: "あんぷらぐどぷろぐらみんぐきょういく",
-    kana: "A–Z",
+    kana: "あ",
     categories: ["ict"],
     summary:
       "コンピュータを使わずにカードや身体活動でプログラミングの考え方を学ぶ指導法。低年齢の児童や機器が限られる環境でも実践できる。",
@@ -737,7 +737,7 @@ export const ictTerms: Term[] = [
     slug: "ondemand-jugyo",
     title: "オンデマンド授業",
     reading: "おんでまんどじゅぎょう",
-    kana: "A–Z",
+    kana: "お",
     categories: ["ict", "higher-ed"],
     summary:
       "録画された講義動画などを学習者が都合の良い時間に視聴して受講する授業形態。大学の遠隔授業の一類型として制度上も位置づけられる。",
@@ -815,7 +815,7 @@ export const ictTerms: Term[] = [
     slug: "study-log",
     title: "スタディ・ログ(学習ログ)",
     reading: "すたでぃろぐ",
-    kana: "A–Z",
+    kana: "す",
     categories: ["ict"],
     summary:
       "デジタル教材の利用履歴や解答結果など、児童生徒の学習過程で生じるデータの蓄積。個別最適な学びや学習分析の基盤となる。",
@@ -841,7 +841,7 @@ export const ictTerms: Term[] = [
     slug: "digital-tattoo",
     title: "デジタルタトゥー",
     reading: "でじたるたとぅー",
-    kana: "A–Z",
+    kana: "て",
     categories: ["ict"],
     summary:
       "インターネット上に一度公開された個人の投稿や情報が、完全には消去できずに残り続ける状態を、消えない入れ墨に例えた表現。",
@@ -893,7 +893,7 @@ export const ictTerms: Term[] = [
     slug: "mexcbt",
     title: "MEXCBT（文部科学省CBTシステム）",
     reading: "めくびっと",
-    kana: "め",
+    kana: "A–Z",
     categories: ["ict", "evaluation"],
     summary:
       "文部科学省が提供する、児童生徒が学校や家庭で国・自治体等の作成した問題に取り組めるCBTシステム。正式名称は「学びの保障オンライン学習システム」。",
@@ -971,7 +971,7 @@ export const ictTerms: Term[] = [
     slug: "giga-unei-shien-center",
     title: "GIGAスクール運営支援センター",
     reading: "ぎがすくーるうんえいしえんせんたー",
-    kana: "き",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "学校のICT運用を組織的・広域的に支えるため、ヘルプデスクやネットワーク調査、ICT支援人材の育成などを担う支援体制。国が整備費を補助した。",
@@ -1036,7 +1036,7 @@ export const ictTerms: Term[] = [
     slug: "samr-model",
     title: "SAMRモデル",
     reading: "さむあーるもでる",
-    kana: "さ",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "教育でのICT活用を代替・拡大・変容・再定義の4段階で捉える枠組み。ルーベン・プエンテデューラが提唱し、授業実践を振り返る視点として使われる。",
@@ -1049,7 +1049,7 @@ export const ictTerms: Term[] = [
     slug: "tpack",
     title: "TPACK",
     reading: "てぃーぱっく",
-    kana: "て",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "教科内容知識・教授法知識・技術知識の3領域とその重なりから、ICTを活用した指導に必要な教師の知識を整理する枠組み。ミシュラとコーラーが2006年に提示した。",

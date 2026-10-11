@@ -368,8 +368,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "durkheim-shakaika",
     title: "デュルケームの社会化論",
-    reading: "デュルケームのしゃかいかろん",
-    kana: "でゅるけーむのしゃかいかろん",
+    reading: "でゅるけーむのしゃかいかろん",
+    kana: "て",
     categories: ["sociology"],
     summary:
       "デュルケームが教育を社会的事実とみなし、個人の社会化過程として捉えた古典理論です。",
@@ -381,8 +381,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "mannheim-kyoiku-shakaigaku",
     title: "マンハイムの教育社会学",
-    reading: "マンハイムのきょういくしゃかいがく",
-    kana: "まんはいむのきょういくしゃかいがく",
+    reading: "まんはいむのきょういくしゃかいがく",
+    kana: "ま",
     categories: ["sociology"],
     summary:
       "知識社会学者マンハイムが教育を社会統制と民主的再建の手段として論じた理論です。",
@@ -394,8 +394,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "knowledge-and-control",
     title: "新しい教育社会学とカリキュラム社会学",
-    reading: "あたらしいきょういくしゃかいがくとカリキュラムしゃかいがく",
-    kana: "あたらしいきょういくしゃかいがくとかりきゅらむしゃかいがく",
+    reading: "あたらしいきょういくしゃかいがくとかりきゅらむしゃかいがく",
+    kana: "あ",
     categories: ["sociology"],
     summary:
       "M.F.D.ヤングらが学校知識の選別・配分自体を社会的構築物として問い直した潮流です。",
@@ -407,8 +407,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "hargreaves-kyoshi-bunka",
     title: "ハーグリーブスの教師文化論",
-    reading: "ハーグリーブスのきょうしぶんかろん",
-    kana: "はーぐりーぶすのきょうしぶんかろん",
+    reading: "はーぐりーぶすのきょうしぶんかろん",
+    kana: "は",
     categories: ["sociology"],
     summary:
       "アンディ・ハーグリーブスが学校組織内の教師集団のあり方を類型化した文化論です。",
@@ -420,8 +420,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "kyoshi-tabosei-burnout",
     title: "教師の多忙化とバーンアウト",
-    reading: "きょうしのたぼうかとバーンアウト",
-    kana: "きょうしのたぼうかとばーんあうと",
+    reading: "きょうしのたぼうかとばーんあうと",
+    kana: "き",
     categories: ["sociology"],
     summary:
       "教員の役割拡大と長時間労働が引き起こす疲弊状態を扱う教育社会学の研究領域です。",
@@ -433,8 +433,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "datsugakko-ron",
     title: "イリイチの脱学校論",
-    reading: "イリイチのだつがっこうろん",
-    kana: "いりいちのだつがっこうろん",
+    reading: "いりいちのだつがっこうろん",
+    kana: "い",
     categories: ["sociology"],
     summary:
       "イヴァン・イリイチが学校制度の独占性を批判し社会の脱制度化を提唱した理論です。",
@@ -446,8 +446,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "free-school-undo",
     title: "フリースクール運動の社会学的分析",
-    reading: "フリースクールうんどうのしゃかいがくてきぶんせき",
-    kana: "ふりーすくーるうんどうのしゃかいがくてきぶんせき",
+    reading: "ふりーすくーるうんどうのしゃかいがくてきぶんせき",
+    kana: "ふ",
     categories: ["sociology"],
     summary:
       "既存の学校制度に代わる学びの場を求める運動を社会構造の変化から捉える研究領域です。",
@@ -460,7 +460,7 @@ export const sociologyTerms: Term[] = [
     slug: "shitsuke-kaisosa",
     title: "しつけの階層差",
     reading: "しつけのかいそうさ",
-    kana: "しつけのかいそうさ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "家庭で行われる子育て・しつけの方針が社会階層によって異なることを示す研究知見です。",
@@ -473,7 +473,7 @@ export const sociologyTerms: Term[] = [
     slug: "gaikokujin-jido-seito",
     title: "外国人児童生徒の教育社会学",
     reading: "がいこくじんじどうせいとのきょういくしゃかいがく",
-    kana: "がいこくじんじどうせいとのきょういくしゃかいがく",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "外国につながる子どもの就学・学力・進路の実態と学校適応を分析する研究領域です。",
@@ -485,8 +485,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "esunishiti-kyoiku",
     title: "教育とエスニシティ",
-    reading: "きょういくとエスニシティ",
-    kana: "きょういくとえすにしてぃ",
+    reading: "きょういくとえすにしてぃ",
+    kana: "き",
     categories: ["sociology"],
     summary:
       "民族的・文化的出自の違いが学校経験や教育達成に与える影響を扱う研究テーマです。",
@@ -499,7 +499,7 @@ export const sociologyTerms: Term[] = [
     slug: "kazoku-tayoka-kyoiku",
     title: "家族の多様化と教育社会学",
     reading: "かぞくのたようかときょういくしゃかいがく",
-    kana: "かぞくのたようかときょういくしゃかいがく",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "ひとり親家庭や再婚家庭など家族形態の多様化が子どもの教育に及ぼす影響を扱う研究です。",
@@ -512,7 +512,7 @@ export const sociologyTerms: Term[] = [
     slug: "chiiki-ido-kyoiku-kikai",
     title: "地域移動と教育機会",
     reading: "ちいきいどうときょういくきかい",
-    kana: "ちいきいどうときょういくきかい",
+    kana: "ち",
     categories: ["sociology"],
     summary:
       "居住地域による学校資源・進学機会の格差と地域間移動の関係を分析する研究領域です。",
@@ -525,7 +525,7 @@ export const sociologyTerms: Term[] = [
     slug: "gakureki-kizoku",
     title: "学歴貴族論",
     reading: "がくれききぞくろん",
-    kana: "がくれききぞくろん",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "竹内洋が旧制高校・帝国大学エリートの形成過程を分析した日本のメリトクラシー研究です。",
@@ -537,8 +537,8 @@ export const sociologyTerms: Term[] = [
   {
     slug: "coleman-report",
     title: "コールマン報告",
-    reading: "コールマンほうこく",
-    kana: "こーるまんほうこく",
+    reading: "こーるまんほうこく",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "米国で1966年に発表された、学校要因より家庭背景が学力を左右すると示した大規模調査です。",
@@ -550,12 +550,12 @@ export const sociologyTerms: Term[] = [
   {
     slug: "gakko-ethnography",
     title: "学校エスノグラフィー",
-    reading: "がっこうエスノグラフィー",
-    kana: "がっこうえすのぐらふぃー",
+    reading: "がっこうえすのぐらふぃー",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "学校や教室に長期間参与観察し、日常的な相互作用から教育の実態を描く質的研究方法です。",
-    body: "学校エスノグラフィーとは、文化人類学のフィールドワークの手法を応用し、研究者が学校や教室に長期間にわたって入り込み、参与観察やインタビューを通じて教師や生徒の日常的な相互作用、慣習、意味世界を詳細に記述する質的研究方法です。統計的な調査では見えにくい、学校の中で暗黙のうちに共有されているルールや文化を明らかにすることを目的としています。\n\nイギリスのポール・ウィリスによる労働者階級の男子生徒の学校文化を描いた研究などが代表例として知られ、生徒たちが必ずしも学校の価値観に従順に従うのではなく、独自の対抗的な文化を形成しながら結果として労働者階級の地位を再生産していく過程が生き生きと描かれました。日本でも、いじめや school caste、教師の指導文化などを対象とした学校エスノグラフィー研究が蓄積されています。\n\nこの手法は、量的調査で明らかになる相関関係の背後にある具体的なメカニズムや当事者の主観的意味づけを理解する上で重要な役割を果たしており、教育社会学における質的研究の中心的な方法論の一つとして位置づけられています。",
+    body: "学校エスノグラフィーとは、文化人類学のフィールドワークの手法を応用し、研究者が学校や教室に長期間にわたって入り込み、参与観察やインタビューを通じて教師や生徒の日常的な相互作用、慣習、意味世界を詳細に記述する質的研究方法です。統計的な調査では見えにくい、学校の中で暗黙のうちに共有されているルールや文化を明らかにすることを目的としています。\n\nイギリスのポール・ウィリスによる労働者階級の男子生徒の学校文化を描いた研究などが代表例として知られ、生徒たちが必ずしも学校の価値観に従順に従うのではなく、独自の対抗的な文化を形成しながら結果として労働者階級の地位を再生産していく過程が生き生きと描かれました。日本でも、いじめやスクールカースト、教師の指導文化などを対象とした学校エスノグラフィー研究が蓄積されています。\n\nこの手法は、量的調査で明らかになる相関関係の背後にある具体的なメカニズムや当事者の主観的意味づけを理解する上で重要な役割を果たしており、教育社会学における質的研究の中心的な方法論の一つとして位置づけられています。",
     relatedSlugs: ["teikou-riron", "school-caste", "kyoshi-tabosei-burnout"],
     isCanonical: true,
     tags: ["質的研究", "参与観察", "研究方法論"],
@@ -577,7 +577,7 @@ export const sociologyTerms: Term[] = [
     slug: "waller-kyoju-no-shakaigaku",
     title: "教授の社会学(ウォーラー)",
     reading: "きょうじゅのしゃかいがく",
-    kana: "か",
+    kana: "き",
     categories: ["sociology"],
     summary:
       "アメリカの社会学者ウィラード・ウォーラーが1932年の著書『教授の社会学』で提示した理論で、教師と生徒の関係を「制度化された支配と従属」の不安定な均衡関係として描き、学校を対立と葛藤の場として分析した初期の古典的研究。",
@@ -590,7 +590,7 @@ export const sociologyTerms: Term[] = [
     slug: "credentialism-collins",
     title: "資格社会論(コリンズ)",
     reading: "しかくしゃかいろん",
-    kana: "さ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "アメリカの社会学者ランドル・コリンズが1979年の著書『資格社会』で展開した理論で、学歴・資格の拡大は労働に必要な技能の向上ではなく、地位集団間の文化的威信をめぐる競争によって生じるとし、資格インフレの構造を分析した。",
@@ -603,7 +603,7 @@ export const sociologyTerms: Term[] = [
     slug: "trow-koto-kyoiku-dankai-ron",
     title: "高等教育発展段階論(トロウ)",
     reading: "こうとうきょういくはってんだんかいろん",
-    kana: "か",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "アメリカの社会学者マーティン・トロウが1973年に提唱した理論で、高等教育の量的拡大を進学率に応じて「エリート型」「マス型」「ユニバーサル型」の3段階に区分し、それぞれの段階で高等教育の機能や性格が質的に変化するとした。",
@@ -616,7 +616,7 @@ export const sociologyTerms: Term[] = [
     slug: "boudon-ichiji-niji-koka",
     title: "一次効果・二次効果論(ブードン)",
     reading: "いちじこうか・にじこうかろん",
-    kana: "あ",
+    kana: "い",
     categories: ["sociology"],
     summary:
       "フランスの社会学者レイモン・ブードンが提唱した理論で、階層による教育達成格差を、学業成績自体に現れる「一次効果」と、進路選択における合理的判断から生じる「二次効果」の二つに分けて説明する合理的選択理論の代表的モデル。",
@@ -642,7 +642,7 @@ export const sociologyTerms: Term[] = [
     slug: "emi-jikkoteki-iji-fubyodo",
     title: "実効維持不平等仮説(EMI)",
     reading: "じっこういじふびょうどうかせつ",
-    kana: "さ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "社会学者サミュエル・ルーカスが2001年に提示した仮説で、教育達成には「量的側面(進学するか否か)」と「質的側面(どの種類の教育を受けるか)」の二つがあり、量的格差が縮小しても有利な階層は質的に有利な進路(トラック)を選び続けるとする理論。",
@@ -655,7 +655,7 @@ export const sociologyTerms: Term[] = [
     slug: "lareau-kyocho-teki-yosei",
     title: "意図的養育と自然な成長(ラロー)",
     reading: "いとてきよういくとしぜんなせいちょう",
-    kana: "あ",
+    kana: "い",
     categories: ["sociology"],
     summary:
       "アメリカの社会学者アネット・ラローが著書『不平等な子ども時代』で示した概念で、中産階級の親が子どもの能力を意図的・計画的に伸ばそうとする「意図的養育(concerted cultivation)」と、労働者階級・貧困層の親が見せる「自然な成長にまかせる養育」という異なる子育て様式の階層差を描いた。",
@@ -668,7 +668,7 @@ export const sociologyTerms: Term[] = [
     slug: "coleman-seishonen-shakai",
     title: "青年期社会論(コールマン)",
     reading: "せいねんきしゃかいろん",
-    kana: "さ",
+    kana: "せ",
     categories: ["sociology"],
     summary:
       "アメリカの社会学者ジェームズ・コールマンが1961年の著書『青年期社会』で示した知見で、高校生集団が大人社会から切り離された独自の地位序列と価値規範(スポーツ・容姿の重視、学業軽視)を持つ「青年文化」を形成していることを実証的に描いた。",
@@ -681,7 +681,7 @@ export const sociologyTerms: Term[] = [
     slug: "iyoku-kakusa",
     title: "意欲格差(インセンティブ・ディバイド)",
     reading: "いよくかくさ",
-    kana: "あ",
+    kana: "い",
     categories: ["sociology"],
     summary:
       "教育社会学者・苅谷剛彦が2001年の著書『階層化日本と教育危機』で提示した概念で、階層間の学力格差だけでなく、努力すれば報われるという学習への「意欲」自体が階層によって分化していく現象を指す。",
@@ -694,7 +694,7 @@ export const sociologyTerms: Term[] = [
     slug: "peer-culture-gakko",
     title: "ピア・カルチャー(学校における仲間文化)",
     reading: "ぴあかるちゃー",
-    kana: "は",
+    kana: "ひ",
     categories: ["sociology"],
     summary:
       "学校内で児童生徒が同世代の仲間集団の中で形成する独自の規範・言葉づかい・価値観の総称。教師の公式な指導とは別に、生徒の学習態度や進路意識、逸脱行動などに大きな影響を及ぼす非公式な文化として教育社会学で研究されてきた。",
@@ -707,7 +707,7 @@ export const sociologyTerms: Term[] = [
     slug: "symbolic-interactionism-kyoiku",
     title: "シンボリック相互作用論と教育",
     reading: "しんぼりっくそうごさようろんときょういく",
-    kana: "さ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "ジョージ・ハーバート・ミードらに由来する社会学理論で、人々が互いに意味を付与し合う相互作用を通じて自己や社会秩序が構築されると考える立場。教育社会学では教師の期待や生徒へのラベリングが自己概念を形成していく過程の分析に応用されてきた。",
@@ -720,7 +720,7 @@ export const sociologyTerms: Term[] = [
     slug: "conflict-theory-kyoiku",
     title: "コンフリクト理論(教育葛藤理論)",
     reading: "こんふりくとりろん",
-    kana: "か",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "教育を、社会全体の統合や合意形成の装置とみなす機能主義とは対照的に、階級・身分集団間の利害対立や権力闘争の産物として捉える社会学の理論的立場。学校は既存の権力関係や不平等を維持・正当化する制度として批判的に分析される。",
@@ -746,7 +746,7 @@ export const sociologyTerms: Term[] = [
     slug: "macleod-ainto-no-makin-it",
     title: "地位アスピレーションの水準化(マクロード)",
     reading: "ちいあすぴれーしょんのすいじゅんか",
-    kana: "さ",
+    kana: "ち",
     categories: ["sociology"],
     summary:
       "社会学者ジェイ・マクロードが1987年の著書『Ain't No Makin' It』で示した概念で、貧困地域の若者が置かれた構造的な限界を無意識のうちに察知し、将来への希望や進路の目標水準を現実の制約に合わせて自ら引き下げていく過程を指す。",
@@ -759,7 +759,7 @@ export const sociologyTerms: Term[] = [
     slug: "cooling-out-function",
     title: "クーリングアウト機能",
     reading: "くーりんぐあうときのう",
-    kana: "か",
+    kana: "く",
     categories: ["sociology"],
     summary:
       "社会学者バートン・クラークが1960年に提唱した概念で、高等教育機関、とりわけコミュニティカレッジが、学力や条件面で四年制大学への進学が難しい学生に対し、補習コースや進路相談などを通じて目標を穏やかに引き下げさせ、失敗による心理的打撃を和らげる機能を指す。",
@@ -772,7 +772,7 @@ export const sociologyTerms: Term[] = [
     slug: "symbolic-violence-bourdieu",
     title: "象徴的暴力(ブルデュー)",
     reading: "しょうちょうてきぼうりょく",
-    kana: "さ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "ピエール・ブルデューとジャン=クロード・パスロンが著書『再生産』で示した概念で、支配的な文化を「唯一正しい文化」として被支配層に押しつけ、それを暴力とは感じさせないまま内面化させる、教育を通じた見えない権力作用を指す。",
@@ -785,7 +785,7 @@ export const sociologyTerms: Term[] = [
     slug: "classification-framing-bernstein",
     title: "分類と枠づけ(バーンスティン)",
     reading: "ぶんるいとわくづけ",
-    kana: "は",
+    kana: "ふ",
     categories: ["sociology"],
     summary:
       "バジル・バーンスティンが1971年の論文「教育的知識の分類と枠づけ」で提示した分析概念で、教科間の境界の強さを示す「分類」と、教師・生徒間の統制の強さを示す「枠づけ」という二軸から、カリキュラムと教授法の構造を社会学的に分析する枠組み。",
@@ -811,7 +811,7 @@ export const sociologyTerms: Term[] = [
     slug: "apple-ideology-curriculum",
     title: "イデオロギーとカリキュラム(アップル)",
     reading: "いでおろぎーとかりきゅらむ",
-    kana: "あ",
+    kana: "い",
     categories: ["sociology"],
     summary:
       "アメリカの教育学者マイケル・アップルが1979年の著書『イデオロギーとカリキュラム』で展開した理論で、学校で教えられる「公式の知識(official knowledge)」が中立的なものではなく、支配集団の文化的・経済的な覇権(ヘゲモニー)を反映し再生産していると批判的に論じた。",
@@ -876,7 +876,7 @@ export const sociologyTerms: Term[] = [
     slug: "ssm-chosa",
     title: "SSM調査（社会階層と社会移動全国調査）",
     reading: "えすえすえむちょうさ",
-    kana: "え",
+    kana: "A–Z",
     categories: ["sociology"],
     summary:
       "社会階層と社会移動全国調査の略称。1955年に日本社会学会が始め、10年ごとに実施されてきた大規模調査で、出身階層・学歴・職業の関連を長期的に明らかにしてきた。",
@@ -915,7 +915,7 @@ export const sociologyTerms: Term[] = [
     slug: "bukatsu-no-shakaigaku",
     title: "部活動の社会学",
     reading: "ぶかつどうのしゃかいがく",
-    kana: "は",
+    kana: "ふ",
     categories: ["sociology"],
     summary:
       "日本の中学・高校で広く行われる部活動を、自主性という建前と教員の過重労働、生徒指導機能、進学との結びつきなどから分析する教育社会学の研究領域。",
