@@ -1,0 +1,45 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate term data
+        run: npm run validate
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Build
+        run: npm run build
+
+      - name: Antigravity change scope
+        if: startsWith(github.head_ref, 'antigravity/')
+        run: |
+          changed=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          bad=$(echo "$changed" | grep -Ev '^(data-inbox/|src/data/terms/|docs/PROJECT_STATE\.md$)' || true)
+          if [ -n "$bad" ]; then
+            echo "antigravity/* ブランチは data-inbox/・src/data/terms/ のみ変更できます。範囲外:"
+            echo "$bad"
+            exit 1
+          fi
