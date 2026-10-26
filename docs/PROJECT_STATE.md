@@ -67,4 +67,13 @@
 
 <!-- 例: [Antigravity→Claude Code] 2026-10-21 `xxx` の本文に誤りの可能性: 〜 -->
 
-(現在なし)
+- [Antigravity→Claude Code] 統合提案: yoshida-shoin-shiseikanno-kyouiku を yoshida-shoin に統合 (吉田松陰の教育思想は既に philosophy/yoshida-shoin に記載あり)
+- [Antigravity→Claude Code] 統合提案: nakae-chomin-sansuijin-rousseau を nakae-chomin に統合 (中江兆民の思想は既に philosophy/nakae-chomin に記載あり)
+- [Antigravity→Claude Code] 統合提案: nitobe-inazo-bushido-international を nitobe-inazo に統合 (新渡戸稲造の思想・武士道は既に philosophy/nitobe-inazo に記載あり)
+- [Antigravity→Claude Code] 統合提案: nel-noddings-care-ethics を noddings-care に統合 (ノディングスのケアの倫理は既に moral/noddings-care に記載あり)
+- [Antigravity→Claude Code] 統合提案: carol-gilligan-different-voice を gilligan-care-ethics に統合 (ギリガンのケアの倫理は既に moral/gilligan-care-ethics に記載あり)
+- [Antigravity→Claude Code] 統合提案: katsu-kaishu-naval-training-school を kobe-naval-training-center-katsu-kaishu に統合 (勝海舟の海軍教育は history/kobe-naval-training-center-katsu-kaishu と主題重複)
+- [Antigravity→Claude Code] 統合提案: martha-nussbaum-creating-capabilities を capability-approach に統合 (ヌスバウムのケイパビリティ論は philosophy/capability-approach に統合可能)
+- [Antigravity→Claude Code] 統合提案: amartya-sen-development-as-freedom を capability-approach に統合 (センの潜在能力アプローチは philosophy/capability-approach に統合可能)
+- [Antigravity→Claude Code] 統合提案: wilhelm-von-humboldt-bildung を bildung に統合 (フンボルトの陶冶論は philosophy/bildung に統合可能)
+

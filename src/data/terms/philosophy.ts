@@ -1210,9 +1210,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "spinoza-ethica-freedom",
-    title: "スピノザの理性的自由と陶冶",
-    reading: "すぴのざのりせいてきじゆうととうや",
-    kana: "す",
+    title: "エチカ（スピノザ）",
+    reading: "えちかすぴのざ",
+    kana: "え",
     categories: ["philosophy"],
     summary:
       "オランダの哲学者スピノザが説いた、受動的な情動を理性的な認識へと高め自立的な自由を獲得する人間形成論。",
@@ -1236,9 +1236,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "christian-wolff-enlightenment",
-    title: "クリスティアン・ヴォルフの啓蒙教育学",
-    reading: "くりすてぃあん・ゔぉるふのけいもうきょういくがく",
-    kana: "く",
+    title: "啓蒙教育学（ヴォルフ）",
+    reading: "けいもうきょういくがくうぉるふ",
+    kana: "け",
     categories: ["philosophy"],
     summary:
       "18世紀ドイツの哲学者ヴォルフが体系化した、理性の論理的訓練と道徳的徳の完成を目指す体系的教育思想。",
@@ -1249,9 +1249,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "condillac-sensualism",
-    title: "コンディヤックの感覚論的教育論",
-    reading: "こんでぃやっくのかんかくろんてききょういくろん",
-    kana: "こ",
+    title: "感覚論（コンディヤック）",
+    reading: "かんかくろんこんでぃやっく",
+    kana: "か",
     categories: ["philosophy"],
     summary:
       "フランスの哲学者コンディヤックが説いた、感覚経験を出発点として分析的に知性と精神を発達させる教育理論。",
@@ -1262,9 +1262,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "helvetius-environmentalism",
-    title: "エルヴェシウスの教育万能論",
-    reading: "えるゔぇしうすのきょういくばんのうろん",
-    kana: "え",
+    title: "教育万能論（エルヴェシウス）",
+    reading: "きょういくばんのうろんえるゔぇしうす",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "フランスの哲学者エルヴェシウスが説いた、人間は生来平等であり後天的な環境と教育が差異を生むとする思想。",
@@ -1275,9 +1275,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "diderot-encyclopedie-education",
-    title: "ディドロの百科全書派公教育構想",
-    reading: "でぃどろのひゃっかぜんしょはこうきょういくこうそう",
-    kana: "て",
+    title: "百科全書派の教育思想（ディドロ）",
+    reading: "ひゃっかぜんしょはいのきょういくしそうでぃどろ",
+    kana: "ひ",
     categories: ["philosophy"],
     summary:
       "『百科全書』の主幹ディドロが提唱した、国家による無償・義務制を基本とし科学技術を重視する公教育構想。",
@@ -1301,9 +1301,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "salzmann-schnepfenthal",
-    title: "ザルツマンの生活実践教育論",
-    reading: "ざるつまんのせいかつじっせんきょういくろん",
-    kana: "さ",
+    title: "生活実践教育（ザルツマン）",
+    reading: "せいかつじっせんきょういくざるつまん",
+    kana: "せ",
     categories: ["philosophy"],
     summary:
       "ドイツの教育者ザルツマンが創設した、豊かな自然の中で身体鍛錬と家庭的道徳生活を一体化した全人学校。",
@@ -1314,9 +1314,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "campe-children-literature",
-    title: "カンペの児童啓蒙思想",
-    reading: "かんぺのじどうけいもうしそう",
-    kana: "か",
+    title: "児童文学と啓蒙思想（カンペ）",
+    reading: "じどうぶんがくとけいもうしそうかんぺ",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "ドイツの教育者カンペが展開した、児童向け文学や対話を通じて子どもの自立心と道徳性を育てる教育思想。",
@@ -1327,9 +1327,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "wilhelm-von-humboldt-bildung",
-    title: "フンボルトの教養陶冶論",
-    reading: "ふんぼるとのきょうようとうやろん",
-    kana: "ふ",
+    title: "陶冶論（フンボルトの教養論）",
+    reading: "とうやろんふんぼるとのきょうようろん",
+    kana: "と",
     categories: ["philosophy"],
     summary:
       "ヴィルヘルム・フォン・フンボルトが説いた、人間の多様な能力を調和的かつ個性的に開花させる自己陶冶の理念。",
@@ -1353,9 +1353,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "goethe-wilhelm-meister",
-    title: "ゲーテの遍歴・教養小説論",
-    reading: "げーてのへんれき・きょうようしょうせつろん",
-    kana: "け",
+    title: "教養小説（ビルドゥングスロマン）",
+    reading: "きょうようしょうせつびるどぅんぐすろまん",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "文豪ゲーテが『ヴィルヘルム・マイスター』で描いた、若き日の挫折と社会参加を通じた全人的な人格形成の道程。",
@@ -1366,9 +1366,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "hegel-phenomenology-bildung",
-    title: "ヘーゲルの精神承認と陶冶論",
-    reading: "へーげるのせいしんしょうにんととうやろん",
-    kana: "へ",
+    title: "承認論（ヘーゲル）",
+    reading: "しょうにんろんへーげる",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "ドイツ観念論のヘーゲルが説いた、直接的な自然状態を克服し労働と相互承認を通じて普遍的精神へ至る陶冶論。",
@@ -1379,9 +1379,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "schopenhauer-will-education",
-    title: "ショーペンハウアーの意志否定と教育観",
-    reading: "しょーぺんはうあーのいしひていきょういくかん",
-    kana: "し",
+    title: "意志否定の倫理（ショーペンハウアー）",
+    reading: "いしひていのりんりしょーぺんはうあー",
+    kana: "い",
     categories: ["philosophy"],
     summary:
       "哲学者ショーペンハウアーが説いた、生の苦悩を直視し芸術的直観と同苦によって利己心を克服する教育思想。",
@@ -1392,9 +1392,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "kierkegaard-existential-individual",
-    title: "キルケゴールの単独者実存思想",
-    reading: "きるけごーるのたんどくしゃじつぞんしそう",
-    kana: "き",
+    title: "単独者（キルケゴール）",
+    reading: "たんどくしゃきるけごーる",
+    kana: "た",
     categories: ["philosophy"],
     summary:
       "デンマークの思想家キルケゴールが説いた、世間の匿名性に埋没せず自らの責任で主体的に生きる単独者の教育論。",
@@ -1405,9 +1405,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nietzsche-ubermensch-education",
-    title: "ニーチェの超人思想と自己超克論",
-    reading: "にーちぇのちょうじんしそうとじこちょうこくろん",
-    kana: "に",
+    title: "超人思想（ニーチェ）",
+    reading: "ちょうじんしそうにーちぇ",
+    kana: "ち",
     categories: ["philosophy"],
     summary:
       "哲学者ニーチェが説いた、画一的な規範を脱却し自己を絶えず乗り越えて新たな価値を創造する超人の教育論。",
@@ -1418,9 +1418,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "marx-alienation-education",
-    title: "マルクスの全人的人間解放論",
-    reading: "まるくすのぜんじんてきにんげんかいほうろん",
-    kana: "ま",
+    title: "労働疎外と人間解放（マルクス）",
+    reading: "ろうどうそがいとにんげんかいほうまるくす",
+    kana: "ろ",
     categories: ["philosophy"],
     summary:
       "カール・マルクスが説いた、資本主義における労働の疎外を克服し精神的・身体的能力を全面的に開花させる人間解放の教育論。",
@@ -1431,9 +1431,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "engels-socialism-education",
-    title: "エンゲルスの労働・教育結合論",
-    reading: "えんげるすのろうどう・きょういくけつごうろん",
-    kana: "え",
+    title: "労働と教育の結合（エンゲルス）",
+    reading: "ろうどうときょういくのけつごうえんげるす",
+    kana: "ろ",
     categories: ["philosophy"],
     summary:
       "フリードリヒ・エンゲルスが論じた、生産的労働と公教育の結合による階級格差打破と青少年の包括的発達論。",
@@ -1444,9 +1444,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "gramsci-hegemony-intellectuals",
-    title: "グラムシの有機的知識人論",
-    reading: "ぐらむしのゆうきてきちしきじんろん",
-    kana: "く",
+    title: "有機的知識人（グラムシ）",
+    reading: "ゆうきてきちしきじんぐらむし",
+    kana: "ゆ",
     categories: ["philosophy"],
     summary:
       "イタリアの思想家グラムシが説いた、市民社会の合意形成を担う有機的知識人の育成と単一学校構想。",
@@ -1457,8 +1457,8 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "adorno-erziehung-nach-auschwitz",
-    title: "アドルノの『アウシュヴィッツ以後の教育』",
-    reading: "あどるのの（あうしゅゔぃっついごのきょういく）",
+    title: "アウシュヴィッツ以後の教育（アドルノ）",
+    reading: "あうしゅゔぃっついごのきょういくあどるの",
     kana: "あ",
     categories: ["philosophy"],
     summary:
@@ -1470,9 +1470,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "horkheimer-critical-theory-education",
-    title: "ホルクハイマーの道具的理性批判と教育",
-    reading: "ほるくはいまーのどうぐてきりせいひはんときょういく",
-    kana: "ほ",
+    title: "道具的理性批判（ホルクハイマー）",
+    reading: "どうぐてきりせいひはんほるくはいまー",
+    kana: "と",
     categories: ["philosophy"],
     summary:
       "フランクフルト学派のホルクハイマーが説いた、効率性と支配に偏重した理性を反省し人間の尊厳を回復する教育論。",
@@ -1483,9 +1483,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "walter-benjamin-mimetic",
-    title: "ヴァルター・ベンヤミンの模倣能力論",
-    reading: "ゔぁるたー・べんやみんのもほうのうりょくろん",
-    kana: "う",
+    title: "模倣能力論（ベンヤミン）",
+    reading: "もほうのうりょくろんべんやみん",
+    kana: "も",
     categories: ["philosophy"],
     summary:
       "思想家ベンヤミンが論じた、子どもが遊びを通じて他者や世界と類似性を見いだし自己を変容させる模倣の教育論。",
@@ -1496,9 +1496,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "merleau-ponty-embodiment",
-    title: "メルロ＝ポンティの身体性現象学と教育",
-    reading: "めるろ・ぽんてぃのしんたいせいげんしょうがくときょういく",
-    kana: "め",
+    title: "身体論（メルロ＝ポンティ）",
+    reading: "しんたいろんめるろぽんてぃ",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "フランスの哲学者メルロ＝ポンティが説いた、世界と直接に交わる身体の経験を出発点とする人間形成の教育思想。",
@@ -1509,9 +1509,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "sartre-existential-project",
-    title: "サルトルの自由の投企と主体形成",
-    reading: "さるとるのじゆうのとうきとしゅたいけいせい",
-    kana: "さ",
+    title: "自由の投企（サルトル）",
+    reading: "じゆうのとうきさるとる",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "実存主義の哲学者サルトルが唱えた、自己の自由な決断と未来への投企を通じて責任ある自己を形成する教育観。",
@@ -1522,9 +1522,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "beauvoir-second-sex-education",
-    title: "ボーヴォワールのジェンダー形成論",
-    reading: "ぼーゔぉわーるのじぇんだーけいせいろん",
-    kana: "ほ",
+    title: "第二の性（ボーヴォワール）",
+    reading: "だいにのせいぼーゔぉわーる",
+    kana: "た",
     categories: ["philosophy"],
     summary:
       "シモーヌ・ド・ボーヴォワールが提示した、女性らしさの社会的・文化的構築性を暴き自律を促す教育思想。",
@@ -1535,9 +1535,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "levinas-totality-infinity-ethics",
-    title: "レヴィナスの他者倫理と教育的応答",
-    reading: "れゔぃなすのたしゃりんりときょういくてきおうとう",
-    kana: "れ",
+    title: "他者の顔（レヴィナス）",
+    reading: "たしゃのかおれゔぃなす",
+    kana: "た",
     categories: ["philosophy"],
     summary:
       "エマニュエル・レヴィナスが説いた、自己の枠組みに回収できない他者の呼びかけに応答する倫理的教育論。",
@@ -1548,9 +1548,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "derridian-deconstruction-pedagogy",
-    title: "デリダの脱構築と歓待の教育思想",
-    reading: "でりだのだつこうちくとかんたいのきょういくしそう",
-    kana: "て",
+    title: "脱構築と歓待（デリダ）",
+    reading: "だつこうちくとかんたいでりだ",
+    kana: "た",
     categories: ["philosophy"],
     summary:
       "哲学者デリダの思想に基づく、二項対立的な固定観念を解体し未知の他者を無条件に迎え入れる教育論。",
@@ -1561,9 +1561,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "lyotard-postmodern-condition",
-    title: "リオタールの大きな物語の終焉と知の変容",
-    reading: "りおたーるのおおきなものがたりのしゅうえんとちのへんよう",
-    kana: "り",
+    title: "ポストモダンの条件（リオタール）",
+    reading: "ぽすともだんのじょうけんりおたーる",
+    kana: "ほ",
     categories: ["philosophy"],
     summary:
       "リオタールが分析した、普遍的な普遍知への信仰が失われ多様な言語ゲームが共存する時代の教育論。",
@@ -1574,9 +1574,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "rawls-theory-of-justice-education",
-    title: "ロールズの公正としての正義と教育機会",
-    reading: "ろーるずのこうせいとしてのせいぎときょういくきかい",
-    kana: "ろ",
+    title: "正義論（ロールズ）",
+    reading: "せいぎろんろーるず",
+    kana: "せ",
     categories: ["philosophy"],
     summary:
       "哲学者ロールズが提示した、公正な機会均等と格差原理に基づく教育格差是正と正義感覚の教育論。",
@@ -1587,9 +1587,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nozick-libertarianism-education",
-    title: "ノージックの権原理論と教育の自由選択",
-    reading: "のーじっくのけんげんりろんときょういくのじゆうせんたく",
-    kana: "の",
+    title: "権原理論（ノージック）",
+    reading: "けんげんりろんのーじっく",
+    kana: "け",
     categories: ["philosophy"],
     summary:
       "ノージックが説いた、個人の権利と自己所有権に基づき国家の介入を排して自由な選択を重視する教育思想。",
@@ -1600,9 +1600,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "sandel-communitarianism-common-good",
-    title: "サンデルの共通善と共同体主義教育論",
-    reading: "さんでるのきょうつうぜんときょうどうたいしゅぎきょういくろん",
-    kana: "さ",
+    title: "共同体主義（サンデル）",
+    reading: "きょうどうたいしゅぎさんでる",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "マイケル・サンデルが説いた、孤立した個人主義を排し共同体への帰属と共通善を重んじる市民教育の思想。",
@@ -1613,9 +1613,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "charles-taylor-recognition-politics",
-    title: "チャールズ・テイラーの承認をめぐる教育論",
-    reading: "ちゃーるず・ていらーのしょうにんをめぐるきょういくろん",
-    kana: "ち",
+    title: "承認をめぐる政治（テイラー）",
+    reading: "しょうにんをめぐるせいじていらー",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "思想家テイラーが論じた、対話を通じて独自のアイデンティティを承認し尊厳を守る多文化教育の思想。",
@@ -1626,9 +1626,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "macintyre-after-virtue-practices",
-    title: "マッキンタイアの実践・徳と共同体論",
-    reading: "まっきんたいあのじっせん・とくときょうどうたいろん",
-    kana: "ま",
+    title: "美徳論（マッキンタイア）",
+    reading: "びとくろんまっきんたいあ",
+    kana: "ひ",
     categories: ["philosophy"],
     summary:
       "マッキンタイアが唱えた、共同的な実践への参加と物語的探究を通じて卓越性と徳を育む教育論。",
@@ -1639,9 +1639,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nel-noddings-care-ethics",
-    title: "ネル・ノディングスのケアの教育哲学",
-    reading: "ねる・のでぃんぐすのけあのきょういくてつがく",
-    kana: "ね",
+    title: "教育的ケア論（ノディングス）",
+    reading: "きょういくてきけあろんのでぃんぐす",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "ネル・ノディングスが構築した、配慮する者とされる者の応答的関係を教育の中心に据えるケアの哲学。",
@@ -1652,9 +1652,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "carol-gilligan-different-voice",
-    title: "キャロル・ギリガンの関係性の倫理",
-    reading: "きゃろる・ぎりがんのかんけいせいのりんり",
-    kana: "き",
+    title: "もうひとつの声（ギリガン関係性の倫理）",
+    reading: "もうひとつのこえぎりがんかんけいせいのりんり",
+    kana: "も",
     categories: ["philosophy"],
     summary:
       "心理学者ギリガンが解明した、抽象的正義とは異なる他者との結びつきと責任を重んじるケアの道徳発達論。",
@@ -1665,9 +1665,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "jean-bethke-elshtain-public-child",
-    title: "エルシュタインの公私領域と子育て論",
-    reading: "えるしゅたいんのこうしりょういきとこそだてろん",
-    kana: "え",
+    title: "公私領域と家族（エルシュタイン）",
+    reading: "こうしりょういきとかぞくえるしゅたいん",
+    kana: "こ",
     categories: ["philosophy"],
     summary:
       "思想家エルシュタインが説いた、家庭の親密性と公共的市民性の調和を目指す子育てと人間形成の思想。",
@@ -1678,9 +1678,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "jane-roland-martin-gender-trap",
-    title: "ジェーン・マーティンの教育的ジェンダー論",
-    reading: "じぇーん・まーてぃんのきょういくてきじぇんだーろん",
-    kana: "し",
+    title: "教育のジェンダー構造（マーティン）",
+    reading: "きょういくのじぇんだーこうぞうまーてぃん",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "ジェーン・マーティンが告発した、知性偏重とケアの排除という教育のジェンダー的偏りを克服する教育論。",
@@ -1691,9 +1691,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "richard-rorty-ironist-education",
-    title: "リチャード・ローティの連帯と教養のプラグマティズム",
-    reading: "りちゃーど・ろーてぃのれんたいときょうようのぷらぐまてぃずむ",
-    kana: "り",
+    title: "アイロニストの教育（ローティ）",
+    reading: "あいろにすとのきょういくろーてぃ",
+    kana: "あ",
     categories: ["philosophy"],
     summary:
       "ネオプラグマティズムのローティが提唱した、他者の苦痛への感受性と社会的連帯を育む教養教育の思想。",
@@ -1704,9 +1704,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "hilary-putnam-pluralist-pragmatism",
-    title: "パトナムの多元主義的リアリズムと教育",
-    reading: "ぱとなむのたげんしゅぎてきりありずむときょういく",
-    kana: "は",
+    title: "多元主義的リアリズム（パトナム）",
+    reading: "たげんしゅぎてきりありずむぱとなむ",
+    kana: "た",
     categories: ["philosophy"],
     summary:
       "哲学者パトナムが説いた、事実と価値の不可分性と開かれた対話に基づく多元主義的な教育哲学。",
@@ -1717,9 +1717,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "machiavelli-virtu-education",
-    title: "マキアヴェッリのヴィルトゥと政治的知性",
-    reading: "まきあゔぇっりのゔぃるとぅとせいじてきちせい",
-    kana: "ま",
+    title: "ヴィルトゥ（マキアヴェッリ）",
+    reading: "ゔぃるとぅまきあゔぇっり",
+    kana: "う",
     categories: ["philosophy"],
     summary:
       "マキアヴェッリが説いた、運命に立ち向かい国家と市民社会を守り抜く卓越した能力と政治的知性の陶冶論。",
@@ -1730,9 +1730,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "thomas-hobbes-leviathan-order",
-    title: "ホッブズの自然法と社会秩序形成",
-    reading: "ほっぶずのしぜんほうとしゃかいちつじょけいせい",
-    kana: "ほ",
+    title: "リヴァイアサン（ホッブズ）",
+    reading: "りゔぁいあさんほっぶず",
+    kana: "り",
     categories: ["philosophy"],
     summary:
       "トマス・ホッブズが説いた、自己保存の権利と理性的な自然法認識に基づく社会秩序と遵法精神の教育論。",
@@ -1743,9 +1743,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "adam-smith-moral-sentiments",
-    title: "アダム・スミスの同感論と公平な観察者",
-    reading: "あだむ・すみすのどうかんろんとこうへいなかんさつしゃ",
-    kana: "あ",
+    title: "道徳感情論（アダム・スミス）",
+    reading: "どうとくかんじょうろんあだむすみす",
+    kana: "と",
     categories: ["philosophy"],
     summary:
       "18世紀スコットランドの思想家スミスが説いた、他者への同感と内なる公平な観察者の声を通じて自律的な道徳性を育む教育思想。",
@@ -1756,9 +1756,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "john-stuart-mill-on-liberty-harm",
-    title: "J・S・ミルの危害原則と個性の教育",
-    reading: "じぇい・えす・みるのきがいげんそくとこせいのきょういく",
-    kana: "A–Z",
+    title: "危害原則（J・S・ミル）",
+    reading: "きがいげんそくじぇいえすみる",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "イギリスの思想家ミルが主著『自由論』で提示した、個性の十全な発展と危害原則に基づく自由主義的教育思想。",
@@ -1769,9 +1769,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "jeremy-bentham-utilitarian-education",
-    title: "ベンサムの功利主義と合理的道徳教育",
-    reading: "べんさむのこうりしゅぎとごうりてきどうとくきょういく",
-    kana: "へ",
+    title: "功利主義教育論（ベンサム）",
+    reading: "こうりしゅぎきょういくろんべんさむ",
+    kana: "こ",
     categories: ["philosophy"],
     summary:
       "18〜19世紀イギリスの哲学者ベンサムが唱えた、最大多数の最大幸福を目指し功利の原理に基づいて道徳と実学を教える合理的教育論。",
@@ -1782,9 +1782,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "robert-owen-new-lanark-institute",
-    title: "ロバート・オーエンの性格形成学院",
-    reading: "ろばーと・おーえんのせいかくけいせいがくいん",
-    kana: "ろ",
+    title: "性格形成新学院（オーエン）",
+    reading: "せいかくけいせいしんがくいんおーえん",
+    kana: "せ",
     categories: ["philosophy"],
     summary:
       "イギリスの社会改革家オーエンが創設した、幼児教育や協同的精神の育成を通じて人間の幸福な性格形成を目指す先駆的教育施設。",
@@ -1795,9 +1795,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "william-james-talks-to-teachers",
-    title: "ウィリアム・ジェームズの『教師への対話』",
-    reading: "うぃりあむ・じぇーむずの（きょうしへのたいわ）",
-    kana: "う",
+    title: "教師への対話（ウィリアム・ジェームズ）",
+    reading: "きょうしへのたいわうぃりあむじぇーむず",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "アメリカの哲学者・心理学者ジェームズが説いた、子どもの生来的な興味を善き習慣へと組織化する実践的心理学と教育の対話論。",
@@ -1808,9 +1808,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "george-herbert-mead-mind-self",
-    title: "G・H・ミードの主我・客我と自我形成論",
-    reading: "じー・えいち・みーどのしゅが・きゃくがとじがけいせいろん",
-    kana: "A–Z",
+    title: "主我と客我（G・H・ミード）",
+    reading: "しゅがときゃくがじーえいちみーど",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "社会心理学者ミードが説いた、他者の視点の内面化と主我・客我の対話的相互作用を通じて社会的な自我が形成される理論。",
@@ -1821,9 +1821,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "charles-cooley-looking-glass-self",
-    title: "クーリーの鏡に映った自己論",
-    reading: "くーりーのかがみにうつったじごろん",
-    kana: "く",
+    title: "鏡に映った自己（クーリー）",
+    reading: "かがみにうつったじここーりー",
+    kana: "か",
     categories: ["philosophy"],
     summary:
       "アメリカの社会学者クーリーが唱えた、他者の反応を鏡として自己像を思い描き感情を抱くことで自我が育まれる社会心理学理論。",
@@ -1860,9 +1860,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "karl-popper-open-society-fallibilism",
-    title: "カール・ポパーの開かれた社会と批判的合理主義",
-    reading: "かーる・ぽぱーのおおきなしゃかいとひはんてきごうりしゅぎ",
-    kana: "か",
+    title: "批判的合理主義（ポパー）",
+    reading: "ひはんてきごうりしゅぎぽぱー",
+    kana: "ひ",
     categories: ["philosophy"],
     summary:
       "哲学者ポパーが説いた、人間は常に誤りうる存在であるという前提と仮説の反証を通じて独断を排し、開かれた自由な社会を守る教育思想。",
@@ -1873,9 +1873,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "thomas-kuhn-structure-scientific-revolutions",
-    title: "クーンのパラダイム転換と科学認識論",
-    reading: "くーんのぱらだいむてんかんとかがくにんしきろん",
-    kana: "く",
+    title: "パラダイム論（クーン）",
+    reading: "ぱらだいむろんくーん",
+    kana: "は",
     categories: ["philosophy"],
     summary:
       "科学史家クーンが唱えた、科学の進歩は知の枠組みの非連続的な転換によって生じるという認識論と概念的転換を促す教育論。",
@@ -1886,9 +1886,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "noam-chomsky-cartesian-linguistics",
-    title: "チョムスキーの生得的言語能力と知性批判",
-    reading: "ちょむすきーのせいとくてきげんごのうりょくとちせいひはん",
-    kana: "ち",
+    title: "生得的言語獲得（チョムスキー）",
+    reading: "せいとくてきげんごかくとくちょむすきー",
+    kana: "せ",
     categories: ["philosophy"],
     summary:
       "言語学者チョムスキーが説いた、人間に生まれつき備わる創造的な言語能力の開花と権威を批判する自律的知性を育む教育思想。",
@@ -1912,9 +1912,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "richard-stanley-peters-ethics-education",
-    title: "R・S・ピーターズの教育概念分析哲学",
-    reading: "あーる・えす・ぴーたーずのきょういくがいねんぶんせきてつがく",
-    kana: "A–Z",
+    title: "教育の概念分析（R・S・ピーターズ）",
+    reading: "きょういくのがいねんぶんせきあーるえすぴーたーず",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "イギリスの哲学者ピーターズが唱えた、日常言語分析の手法を用いて教育の自律的な道徳的基準と内面的価値を明らかにする分析教育哲学。",
@@ -1925,9 +1925,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "paul-hirst-forms-of-knowledge",
-    title: "ポール・ハーストの知識の形式論",
-    reading: "ぽーる・はーすとのちしきのけいしきろん",
-    kana: "ほ",
+    title: "知識の形式（ポール・ハースト）",
+    reading: "ちしきのけいしきぽーるはーすと",
+    kana: "ち",
     categories: ["philosophy"],
     summary:
       "イギリスの哲学者ハーストが提唱した、人類が築いた多様な知識の形式を体系的に学ぶことを通じて理性的精神を培う自由教育論。",
@@ -1938,9 +1938,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "michael-oakeshott-conversation-mankind",
-    title: "オークショットの会話としての教育論",
-    reading: "おーくしょっとのかいわとしてのきょういくろん",
-    kana: "お",
+    title: "会話としての教育（オークショット）",
+    reading: "かいわとしてのきょういくおーくしょっと",
+    kana: "か",
     categories: ["philosophy"],
     summary:
       "イギリスの政治哲学者オークショットが説いた、人類が紡いできた多様な声の会話へと学習者を迎え入れる自由な教養教育の思想。",
@@ -1951,9 +1951,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "hans-georg-gadamer-hermeneutics-bildung",
-    title: "ガダマーの哲学的解釈学と地平融合",
-    reading: "がだまーのてつがくてきかいしゃくがくとちへいゆうごう",
-    kana: "か",
+    title: "地平融合（ガダマー）",
+    reading: "ちへいゆうごうがだまー",
+    kana: "ち",
     categories: ["philosophy"],
     summary:
       "ドイツの哲学者ガダマーが説いた、古典や他者との対話を通じて自らの視野を広げ新たな理解を拓く地平融合としての教養形成論。",
@@ -1964,9 +1964,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "paul-ricoeur-narrative-identity-hermeneutics",
-    title: "リクールの物語的自己同一性と人間理解",
-    reading: "りくーるのものがたりてきじこどういつせいとにんげんりかい",
-    kana: "り",
+    title: "物語的自己同一性（リクール）",
+    reading: "ものがたりてきじこどういつせいりくーる",
+    kana: "も",
     categories: ["philosophy"],
     summary:
       "フランスの哲学者リクールが提唱した、人生の経験を一つの物語として紡ぎ直すことで責任ある自己同一性を確立する解釈学的教育論。",
@@ -1977,9 +1977,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "karl-otto-apel-discourse-ethics",
-    title: "カール＝オットー・アーペルの討議倫理学",
-    reading: "かーる・おっとー・あーぺるのとうぎりんりがく",
-    kana: "か",
+    title: "討議倫理学（アーペル）",
+    reading: "とうぎりんりがくあーぺる",
+    kana: "と",
     categories: ["philosophy"],
     summary:
       "ドイツの哲学者アーペルが提唱した、言語的対話の前提にある規範に基づき対等な討議を通じて公正な合意を目指す倫理思想。",
@@ -1990,9 +1990,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "agnes-heller-everyday-life-education",
-    title: "アグネス・ヘラーの日常生活論と自己反省",
-    reading: "あぐねす・へらーのにちじょうせいかつろんとじこはんせい",
-    kana: "あ",
+    title: "日常生活の構造（ヘラー）",
+    reading: "にちじょうせいかつのこうぞうへらー",
+    kana: "に",
     categories: ["philosophy"],
     summary:
       "ハンガリーの哲学者ヘラーが唱えた、慣習化された日常生活の無自覚性を反省し主体的な思考と道徳的責任を再生させる人間形成論。",
@@ -2003,9 +2003,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "anthony-giddens-reflexive-modernity",
-    title: "ギデンズの再帰的近代性と自己プロジェクト",
-    reading: "ぎでんずのさいきてききんだいせいとじこぷろじぇくと",
-    kana: "き",
+    title: "再帰的近代性（ギデンズ）",
+    reading: "さいきてききんだいせいきでんず",
+    kana: "さ",
     categories: ["philosophy"],
     summary:
       "イギリスの社会学者ギデンズが説いた、伝統の後退した近代において自らの生き方を不断に見直し再構築し続ける自己形成の理論。",
@@ -2016,9 +2016,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "zygmunt-bauman-liquid-modernity-education",
-    title: "バウマンの液状化する現代と教育の課題",
-    reading: "ばうまんのえきじょうかするげんだいときょういくのかだい",
-    kana: "は",
+    title: "リキッド・モダニティ（バウマン）",
+    reading: "りきっどもだにてぃばうまん",
+    kana: "り",
     categories: ["philosophy"],
     summary:
       "社会学者バウマンが説いた、流動化し不確実になった消費社会において即時性を排し他者との連帯と持続的責任を培う教育思想。",
@@ -2029,9 +2029,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "ulrich-beck-risk-society-individualization",
-    title: "ウルリッヒ・ベックのリスク社会と自己責任化",
-    reading: "うるりっひ・べっくりすくしゃかいとじこせきにんか",
-    kana: "う",
+    title: "リスク社会論（ベック）",
+    reading: "りすくしゃかいろんべっく",
+    kana: "り",
     categories: ["philosophy"],
     summary:
       "ドイツの社会学者ベックが唱えた、不確実な社会で構造的矛盾が自己責任化される危険を指摘し協同的連帯を重視する教育思想。",
@@ -2042,9 +2042,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "martha-nussbaum-creating-capabilities",
-    title: "マーサ・ヌスバウムのケイパビリティ創出論",
-    reading: "まーさ・ぬすばうむのけいぱびりてぃそうしゅつろん",
-    kana: "ま",
+    title: "人間的尊厳のケイパビリティ（ヌスバウム）",
+    reading: "にんげんてきそんげんのけいぱびりてぃぬすばうむ",
+    kana: "に",
     categories: ["philosophy"],
     summary:
       "アメリカの哲学者ヌスバウムが説いた、一人ひとりの潜在能力を育み尊厳ある生を実現するための教養と人文学教育を重んじる理論。",
@@ -2055,9 +2055,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "amartya-sen-development-as-freedom",
-    title: "アマルティア・センの自由としての教育発展論",
-    reading: "あまるてぃあ・せんのじゆうとしてのきょういくはってんろん",
-    kana: "あ",
+    title: "自由としての発展（アマルティア・セン）",
+    reading: "じゆうとしてのはってんあまるてぃあせん",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "経済学者センが唱えた、教育を通じた実質的な自由と潜在能力の拡大こそが発展の真の目的であり手段であるとする教育倫理思想。",
@@ -2068,9 +2068,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nakae-toju-yomeigaku-shingaku",
-    title: "中江藤樹の良知覚醒と孝の教育",
-    reading: "なかえとうじゅのりょうちかくせいとこうのきょういく",
-    kana: "な",
+    title: "知行合一（中江藤樹）",
+    reading: "ちこうごういつなかえとうじゅ",
+    kana: "ち",
     categories: ["philosophy"],
     summary:
       "江戸初期の儒学者中江藤樹が提唱した、人間の心に生まれつき備わる善悪の判断力である良知を目覚めさせ、徳の根本としての孝を重んじる人間教育の思想。",
@@ -2081,9 +2081,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "ishida-baigan-sekimon-shingaku",
-    title: "石田梅岩の石門心学と町人倫理",
-    reading: "いしだばいがんのせきもんしんがくとちょうにんりんり",
-    kana: "い",
+    title: "石門心学（石田梅岩）",
+    reading: "せきもんしんがくいしだばいがん",
+    kana: "せ",
     categories: ["philosophy"],
     summary:
       "江戸中期の思想家石田梅岩が創始した、正直と倹約を重んじ町人の商業活動を道徳的に肯定しながら日常の心の修養を説いた実践的教育思想。",
@@ -2094,8 +2094,8 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "motoori-norinaga-mono-no-aware",
-    title: "本居宣長のもののあわれと国学精神",
-    reading: "もとおりのりながのもののあわれとこくがくせいしん",
+    title: "もののあわれ論（本居宣長）",
+    reading: "もののあわれろんもとおりのりなが",
     kana: "も",
     categories: ["philosophy"],
     summary:
@@ -2107,9 +2107,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "yoshida-shoin-shiseikanno-kyouiku",
-    title: "吉田松陰の至誠と飛耳長目",
-    reading: "よしだしょういんのしせいとひじちょうもく",
-    kana: "よ",
+    title: "飛耳長目（吉田松陰の教育姿勢）",
+    reading: "ひじちょうもくよしだしょういんのきょういくしせい",
+    kana: "ひ",
     categories: ["philosophy"],
     summary:
       "幕末の教育者吉田松陰が松下村塾で実践した、至誠を尽くす熱誠と内外の情勢を広く見極める飛耳長目に基づき、時代の変革を担う志士を育てた教育思想。",
@@ -2120,9 +2120,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "sakuma-shozan-toyo-doto-seiyo-gei",
-    title: "佐久間象山の東洋道徳・西洋芸術論",
-    reading: "さくましょうざんのとうようどうとく・せいようげいじゅつろん",
-    kana: "さ",
+    title: "東洋道徳・西洋芸術（佐久間象山）",
+    reading: "とうようどうとくせいようげいじゅつさくましょうざん",
+    kana: "と",
     categories: ["philosophy"],
     summary:
       "幕末の洋学者佐久間象山が唱えた、道徳的・精神的な基盤を東洋の伝統に置きつつ、西洋の優れた科学技術や軍事技術を積極的に導入すべきとする教育思想。",
@@ -2133,9 +2133,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "yokoi-shonan-jitsugaku-kaikoku",
-    title: "横井小楠の実学開国論と堯舜三代の道",
-    reading: "よこいしょうなんのじつがくかいこくろんとぎょうしゅんさんだいのみち",
-    kana: "よ",
+    title: "実学開国論（横井小楠）",
+    reading: "じつがくかいこくろんよこいしょうなん",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "幕末の思想家横井が提唱した、儒教の道徳的理想と西洋の民主的政治制度や合理的な科学技術を融合させ、開国による国力充実を目指した実学思想。",
@@ -2146,9 +2146,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "hashimoto-sanai-keihatsuroku",
-    title: "橋本左内の『啓発録』と稚心脱却論",
-    reading: "はしもとさないの（けいはつろく）とちしんだっきゃくろん",
-    kana: "は",
+    title: "啓発録（橋本左内）",
+    reading: "けいはつろくはしもとさない",
+    kana: "け",
     categories: ["philosophy"],
     summary:
       "幕末の福井藩士橋本左内が若き日に著した『啓発録』において、精神的自立のために幼い甘えや遊び心を捨て去る稚心脱却と立志の重要性を説いた自己陶冶論。",
@@ -2159,9 +2159,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "katsu-kaishu-naval-training-school",
-    title: "勝海舟の海軍伝習所と実践的洋学教育",
-    reading: "かつかいしゅうのかいぐんでんしゅうじょとじっせんてきようがくきょういく",
-    kana: "か",
+    title: "長崎海軍伝習所（勝海舟の洋学受容）",
+    reading: "ながさきかいぐんでんしゅうじょかつかいしゅうのようがくじゅよう",
+    kana: "な",
     categories: ["philosophy"],
     summary:
       "幕臣勝海舟が長崎海軍伝習所での学びや神戸海軍操練所の運営を通じて実践した、身分にとらわれず実力ある人材を育成する近代的な洋学・海軍技術教育。",
@@ -2172,9 +2172,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nishi-amane-hyakugaku-renkan",
-    title: "西周の『百学連環』と近代学術体系受容",
-    reading: "にしあまねの（ひゃくがくれんかん）ときんだいがくじゅつたいけいじゅよう",
-    kana: "に",
+    title: "百学連環（西周）",
+    reading: "ひゃくがくれんかんにしあまね",
+    kana: "ひ",
     categories: ["philosophy"],
     summary:
       "近代思想家の西周が『百学連環』で体系化した、西洋の近代諸学問を包括的に分類・紹介し学術用語を創出することで日本の知の近代化を拓いた教育思想。",
@@ -2185,9 +2185,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "kato-hiroyuki-social-darwinism",
-    title: "加藤弘之の進化論的国家学と人権批判",
-    reading: "かとうひろゆきのしんかろんてきこっかがくとじんけんひはん",
-    kana: "か",
+    title: "天賦人権弁（加藤弘之）",
+    reading: "てんぷじんけんべんかとうひろゆき",
+    kana: "て",
     categories: ["philosophy"],
     summary:
       "明治の思想家加藤が唱えた、社会進化論に基づき天賦人権論を否定して国家の至高性を説き、国家の生存と発展に奉仕する国民育成を志向した国家主義教育論。",
@@ -2198,9 +2198,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "ueki-emori-minken-education-rights",
-    title: "植木枝盛の自由民権論と人民教育権",
-    reading: "うえきえもりのじゆうみんけんろんとじんみんきょういくけん",
-    kana: "う",
+    title: "人民教育権論（植木枝盛）",
+    reading: "じんみんきょういくけんろんうえきえもり",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "自由民権運動の理論的指導者植木枝盛が提唱した、国家による教育独占を排し、人民の自由と主権を守るための固有の権利として教育を位置づける人民教育権思想。",
@@ -2211,9 +2211,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nakae-chomin-sansuijin-rousseau",
-    title: "中江兆民の東洋のルソー思想と共和教育",
-    reading: "なかえちょうみんのとうようのるそーしそうときょうわきょういく",
-    kana: "な",
+    title: "東洋のルソー（中江兆民）",
+    reading: "とうようのるそーなかえちょうみん",
+    kana: "と",
     categories: ["philosophy"],
     summary:
       "「東洋のルソー」と称された中江兆民が説いた、ルソーの社会契約思想を基礎に据え、主権在民の担い手となる自立した市民の批判的知性と徳性を培う共和教育論。",
@@ -2224,9 +2224,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "tokutomi-soho-commoner-democracy",
-    title: "徳富蘇峰の平民主義と青年教育論",
-    reading: "とくとみそほうのへいみんしゅぎとせいねんきょういくろん",
-    kana: "と",
+    title: "平民主義（徳富蘇峰）",
+    reading: "へいみんしゅぎとくとみそほう",
+    kana: "へ",
     categories: ["philosophy"],
     summary:
       "明治の思想家徳富が初期に唱えた、武断的な貴族主義を排して生産と労働を担う平民を中心とした社会を展望し、自立的青年の知徳を培う教育思想。",
@@ -2237,9 +2237,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "uchimura-kanzo-representative-men",
-    title: "内村鑑三の『代表的日本人』と信仰教育",
-    reading: "うちむらかんぞうの（だいひょうてきにほんじん）としんこうきょういく",
-    kana: "う",
+    title: "代表的日本人（内村鑑三）",
+    reading: "だいひょうてきにほんじんうちむらかんぞう",
+    kana: "た",
     categories: ["philosophy"],
     summary:
       "キリスト教思想家内村鑑三が『代表的日本人』などで示した、神への純粋な信仰と日本の高潔な道徳的伝統を融合させ、自律的な個の確立を目指す人格教育の理念。",
@@ -2250,9 +2250,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "nitobe-inazo-bushido-international",
-    title: "新渡戸稲造の太平洋の架け橋と武士道徳",
-    reading: "にとべいなぞうのたいへいようのかけはしとぶしどうとく",
-    kana: "に",
+    title: "武士道論（新渡戸稲造）",
+    reading: "ぶしどうろんにとべいなぞう",
+    kana: "ふ",
     categories: ["philosophy"],
     summary:
       "国際連盟事務次長や一高校長を務めた新渡戸稲造が説いた、武士道の道徳精神と西洋の教養を統合し、世界平和に貢献する国際的教養人を育成する教育思想。",
@@ -2263,9 +2263,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "kano-jigoro-seiryoku-zenyo-jita-kyoei",
-    title: "嘉納治五郎の精力善用・自他共栄思想",
-    reading: "かのうじごろうのせいりょくぜんよう・じたきょうえいしそう",
-    kana: "か",
+    title: "精力善用・自他共栄（嘉納治五郎）",
+    reading: "せいりょくぜんようじたきょうえいかのうじごろう",
+    kana: "せ",
     categories: ["philosophy"],
     summary:
       "講道館柔道の創始者が提唱した、心身のエネルギーを社会のために最善に用い、互いに助け合って共に栄えることを目指す全人的な体育・教育哲学。",
@@ -2276,9 +2276,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "tomeoka-kosuke-katei-gakko-reform",
-    title: "留岡幸助の家庭学校と感化救済教育",
-    reading: "とめおかこうすけのかていがっこうとかんかきゅうさいきょういく",
-    kana: "と",
+    title: "家庭学校（留岡幸助）",
+    reading: "かていがっこうとめおかこうすけ",
+    kana: "か",
     categories: ["philosophy"],
     summary:
       "キリスト教社会事業家の留岡幸助が家庭学校で実践した、処罰ではなく家庭的な愛情と自然の中での農労作を通じて非行少年の自立と感化を図る救済教育思想。",
@@ -2289,9 +2289,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "yajima-kajiko-temperance-women-education",
-    title: "矢嶋楫子のキリスト教禁酒矯風と女子育成",
-    reading: "やじまかじこのきりすときょうきんしゅきょうふうとじょしいくせい",
-    kana: "や",
+    title: "矯風運動（矢嶋楫子）",
+    reading: "きょうふううんどうやじまかじこ",
+    kana: "き",
     categories: ["philosophy"],
     summary:
       "キリスト教信仰に基づき禁酒運動や女性の地位向上を推進しながら、他者への奉仕と自己の尊厳を重んじる自立した女性の育成に尽くした教育思想。",
@@ -2302,9 +2302,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "tsuda-umeko-women-english-institute",
-    title: "津田梅子の全人女子高等教育思想",
-    reading: "つだうめこのぜんじんじょしこうとうきょういくしそう",
-    kana: "つ",
+    title: "女子英学塾（津田梅子）",
+    reading: "じょしえいがくじゅくつだうめこ",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "津田梅子が女子英学塾の創設を通じて実践した、良妻賢母の枠組みを超えて高度な専門的知性と豊かな教養を育み、自立した女性を育成する全人教育思想。",
@@ -2315,8 +2315,8 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "ogino-ginko-first-woman-physician",
-    title: "荻野吟子の女性開拓精神と医師養成",
-    reading: "おぎのぎんこのじょせいかいたくせいしんといしようせい",
+    title: "荻野吟子（女性医師の先駆）",
+    reading: "おぎのぎんこじょせいいしのせんく",
     kana: "お",
     categories: ["philosophy"],
     summary:
@@ -2328,9 +2328,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "toyi-yoshio-village-learning-life",
-    title: "東井義雄の村を育てる学力論",
-    reading: "とういよしおのむらをそだてるがくりょくろん",
-    kana: "と",
+    title: "村を育てる学力（東井義雄）",
+    reading: "むらをそだてるがくりょくとういよしお",
+    kana: "む",
     categories: ["philosophy"],
     summary:
       "教育実践家の東井義雄が提唱した、地域から逃げ出すための知識偏重を退け、生活に根ざし郷土の発展と人々の幸せに貢献する資質を養う教育実践思想。",
@@ -2341,9 +2341,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "hayashi-takeji-dialogue-lesson",
-    title: "林竹二の授業成立論と魂の目覚め",
-    reading: "はやしたけじのじゅぎょうせいりつろんとたましいのめざめ",
-    kana: "は",
+    title: "授業の成立（林竹二）",
+    reading: "じゅぎょうのせいりつはやしたけじ",
+    kana: "し",
     categories: ["philosophy"],
     summary:
       "教育哲学者の林竹二が提唱した、単なる知識伝達を排し、深い問いと対話によって子どもの魂を目覚めさせ自発的思考を生起させる授業実践の教育哲学。",
@@ -2354,9 +2354,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "katsuta-shuichi-ability-development",
-    title: "勝田守一の能力発達論と国民教育権",
-    reading: "かつたしゅいちののうりょくはったつろんとこくみんきょういくけん",
-    kana: "か",
+    title: "能力発達論（勝田守一）",
+    reading: "のうりょくはったつろんかつたしゅういち",
+    kana: "の",
     categories: ["philosophy"],
     summary:
       "戦後の教育学者勝田守一が展開した、能力を固定的な素質ではなく教育により開花する発達過程と捉え、国家統制に抗して国民の教育権を擁護した理論体系。",
@@ -2367,9 +2367,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "umene-satoru-curriculum-history",
-    title: "梅根悟の系統的カリキュラム論と民衆史",
-    reading: "うめねさとるのけいとうてきかりきゅらむろんとみんしゅうし",
-    kana: "う",
+    title: "系統的教育課程論（梅根悟）",
+    reading: "けいとうてききょういくかていろんうめねさとる",
+    kana: "け",
     categories: ["philosophy"],
     summary:
       "教育学者梅根悟が提唱した、人類が築き上げた文化遺産の科学的体系と民衆の生活実践を結びつけ、主体的社会認識を培う系統的カリキュラム構成論。",
@@ -2380,9 +2380,9 @@ export const philosophyTerms: Term[] = [
   },
   {
     slug: "miyazawa-kenji-peasant-art-principles",
-    title: "宮沢賢治の『農民芸術概論綱要』と総合芸術教育",
-    reading: "みやざわけんじの（のうみんげいじゅつがいろんこうよう）とそうごうげいじゅつきょういく",
-    kana: "み",
+    title: "農民芸術概論綱要（宮沢賢治）",
+    reading: "のうみんげいじゅつがいろんこうようみやざわけんじ",
+    kana: "の",
     categories: ["philosophy"],
     summary:
       "詩人宮沢賢治が『農民芸術概論綱要』で示した、労働と芸術を融合させ、宇宙的な広がりの中で自他の真の幸福を希求する総合的で創造的な人間形成の思想。",
