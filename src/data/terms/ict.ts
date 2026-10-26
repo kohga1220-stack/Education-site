@@ -1138,8 +1138,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "one-to-one-daily-use-stationery",
-    title: "1人1台端末の日常的利活用（文房具としての活用）",
-    reading: "いちにんいちだいたんまつのにちじょうてきりかつようぶんぼうぐとしてのかつよう",
+    title: "1人1台端末の日常活用",
+    reading: "いちにんいちだいたんまつのにちじょうかつよう",
     kana: "い",
     categories: ["ict"],
     summary:
@@ -1151,8 +1151,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "cloud-collaborative-learning-realtime",
-    title: "クラウド環境を活用した協働的な学びの実際",
-    reading: "くらうどかんきょうをかつようしたきょうどうてきなまなびのじっさい",
+    title: "クラウド協働学習",
+    reading: "くらうどきょうどうがくしゅう",
     kana: "く",
     categories: ["ict"],
     summary:
@@ -1164,8 +1164,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "device-take-home-learning-rules",
-    title: "端末持ち帰り学習のルール作りと家庭配慮",
-    reading: "たんまつもちかえりがくしゅうのるーるづくりとかていはいりょ",
+    title: "端末持ち帰り学習",
+    reading: "たんまつもちかえりがくしゅう",
     kana: "た",
     categories: ["ict"],
     summary:
@@ -1177,8 +1177,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "digital-liaison-notebook-parent-app",
-    title: "デジタル連絡帳と保護者向け連絡アプリの運用",
-    reading: "でじたるれんらくちょうとほごしゃむけれんらくあぷりのうんよう",
+    title: "デジタル連絡帳",
+    reading: "でじたるれんらくちょう",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1190,8 +1190,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "digital-textbook-accessibility-functions",
-    title: "学習者用デジタル教科書のアクセシビリティ機能",
-    reading: "がくしゅうしゃようでじたるきょうかしょのあくせしびりてぃきのう",
+    title: "学習者用デジタル教科書",
+    reading: "がくしゅうしゃようでじたるきょうかしょ",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -1203,8 +1203,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "teacher-digital-textbook-visual-lesson",
-    title: "指導者用デジタル教科書を活用した授業展開",
-    reading: "しどうしゃようでじたるきょうかしょをかつようしたじゅぎょうてんかい",
+    title: "指導者用デジタル教科書",
+    reading: "しどうしゃようでじたるきょうかしょ",
     kana: "し",
     categories: ["ict"],
     summary:
@@ -1216,9 +1216,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "copyright-remuneration-system-practices",
-    title: "授業目的公衆送信補償金制度の実務対応",
-    reading: "じゅぎょうもくてきこうしゅうそうしんほしょうきんせいどのじつむたいおう",
-    kana: "し",
+    title: "公衆送信補償金の実務",
+    reading: "こうしゅうそうしんほしょうきんのじつむ",
+    kana: "こ",
     categories: ["ict"],
     summary:
       "学校等の教育機関が授業目的で他人の著作物をネットワーク送信する際、一定の補償金を支払うことで個別の利用許諾なしに円滑な著作物利用を可能とする制度の実務。",
@@ -1229,8 +1229,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "creative-commons-licenses-education",
-    title: "クリエイティブ・コモンズ・ライセンスの理解",
-    reading: "くりえいてぃぶこもんずらいせんすのりかい",
+    title: "クリエイティブ・コモンズ",
+    reading: "くりえいてぃぶこもんず",
     kana: "く",
     categories: ["ict"],
     summary:
@@ -1242,8 +1242,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "open-educational-resources-utilization",
-    title: "オープン教育リソース（OER）の授業活用",
-    reading: "おーぷんきょういくりそーすおーいーあーるのじゅぎょうかつよう",
+    title: "オープン教育リソース（OER）",
+    reading: "おーぷんきょういくりそーす",
     kana: "お",
     categories: ["ict"],
     summary:
@@ -1255,8 +1255,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "learning-log-personalized-optimal-learning",
-    title: "学習ログを活用した個別最適な学びの実現",
-    reading: "がくしゅうろぐをかつようしたこべつさいてきなまなびのじつげん",
+    title: "学習ログの活用",
+    reading: "がくしゅうろぐのかつよう",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -1268,8 +1268,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "learning-analytics-early-warning-system",
-    title: "ラーニング・アナリティクスによる学習停滞把握",
-    reading: "らーにんぐあなりてぃくすによるがくしゅうていたいはあく",
+    title: "ラーニングアナリティクス活用",
+    reading: "らーにんぐあなりてぃくすかつよう",
     kana: "ら",
     categories: ["ict"],
     summary:
@@ -1281,8 +1281,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "adaptive-learning-drill-ai-questioning",
-    title: "アダプティブ・ドリル（AI個別最適出題）",
-    reading: "あだぷてぃぶどりるえーあいこべつさいてきしゅつだい",
+    title: "アダプティブ・ドリル",
+    reading: "あだぷてぃぶどりる",
     kana: "あ",
     categories: ["ict"],
     summary:
@@ -1294,8 +1294,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "digital-portfolio-learning-accumulation",
-    title: "デジタルポートフォリオによる学修成果の蓄積",
-    reading: "でじたるぽーとふぉりおによるがくしゅうせいかのちくせき",
+    title: "デジタルポートフォリオ活用",
+    reading: "でじたるぽーとふぉりおかつよう",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1307,8 +1307,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "interactive-whiteboard-screen-synchronization",
-    title: "電子黒板と個別端末の画面同期機能の活用",
-    reading: "でんしこくばんとこべつたんまつのがめんどうききのうのかつよう",
+    title: "電子黒板の画面同期",
+    reading: "でんしこくばんのがめんどうき",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1320,8 +1320,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "screen-broadcasting-system-focusing",
-    title: "画面一斉提示システムによる焦点化指導",
-    reading: "がめんいっせいていじしすてむによるしょうてんかしどう",
+    title: "画面一斉提示システム",
+    reading: "がめんいっせいていじしすてむ",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -1333,8 +1333,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "thinking-tools-cloud-based-usage",
-    title: "思考ツール（シンキングツール）のクラウド活用",
-    reading: "しこうつーるしんきんぐつーるのくらうどかつよう",
+    title: "シンキングツール活用",
+    reading: "しんきんぐつーるかつよう",
     kana: "し",
     categories: ["ict"],
     summary:
@@ -1346,8 +1346,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "concept-mapping-apps-externalization",
-    title: "概念マップ作成アプリによる思考の可視化",
-    reading: "がいねんまっぷさくせいあぷりによるしこうのかしか",
+    title: "概念マップ作成ツール",
+    reading: "がいねんまっぷさくせいつーる",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -1359,8 +1359,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "online-sticky-notes-brainstorming",
-    title: "オンライン付箋ツールを活用した意見整理",
-    reading: "おんらいんふせんつーるをかつようしたいけんせいり",
+    title: "オンライン付箋ツール",
+    reading: "おんらいんふせんつーる",
     kana: "お",
     categories: ["ict"],
     summary:
@@ -1372,9 +1372,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "collaborative-presentation-slides-co-creation",
-    title: "協働的なプレゼンテーションスライド共同作成",
-    reading: "きょうどうてきなぷれぜんてーしょんすらいどきょうどうさくせい",
-    kana: "き",
+    title: "スライド協働作成",
+    reading: "すらいどきょうどうさくせい",
+    kana: "す",
     categories: ["ict"],
     summary:
       "クラウド上のプレゼンテーションソフトを班員で同時編集し、役割分担や相互修正を行いながら質の高い発表資料を共創する学習活動。",
@@ -1385,8 +1385,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "digital-worksheet-distribution-collection",
-    title: "デジタルワークシートの配布・回収・採点",
-    reading: "でじたるわーくしーとのはいふかいしゅうさいてん",
+    title: "デジタルワークシート",
+    reading: "でじたるわーくしーと",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1398,9 +1398,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "online-polling-realtime-survey-classroom",
-    title: "オンライン投票・リアルタイム集計の授業活用",
-    reading: "おんらいんとうひょうりあるたいむしゅうけいのじゅぎょうかつよう",
-    kana: "お",
+    title: "リアルタイム集計ツール",
+    reading: "りあるたいむしゅうけいつーる",
+    kana: "り",
     categories: ["ict"],
     summary:
       "個別端末から意見や回答を即時集計してグラフ化し、学級全体の多様な考えや賛否の分布を共有して主体的な対話を活性化させる授業手法。",
@@ -1411,8 +1411,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "flipped-learning-pre-class-video-active",
-    title: "反転学習（事前動画視聴と協働授業の設計）",
-    reading: "はんてんがくしゅうじぜんどうがしちょうときょうどうじゅぎょうのせっけい",
+    title: "反転学習の設計",
+    reading: "はんてんがくしゅうのせっけい",
     kana: "は",
     categories: ["ict"],
     summary:
@@ -1424,8 +1424,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "blended-learning-integrated-course-design",
-    title: "ブレンディッド・ラーニングの総合的指導設計",
-    reading: "ぶれんでぃっどらーにんぐのそうごうてきしどうせっけい",
+    title: "ブレンディッド指導設計",
+    reading: "ぶれんでぃっどしどうせっけい",
     kana: "ふ",
     categories: ["ict"],
     summary:
@@ -1437,8 +1437,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "on-demand-video-learning-school-streaming",
-    title: "オンデマンド型反復学習動画の校内配信",
-    reading: "おんでまんどがたはんぷくがくしゅうどうがのこうないはいしん",
+    title: "オンデマンド学習動画",
+    reading: "おんでまんどがくしゅうどうが",
     kana: "お",
     categories: ["ict"],
     summary:
@@ -1450,8 +1450,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "remote-joint-classes-small-urban-schools",
-    title: "遠隔合同授業（過疎地と都市部校の協働交流）",
-    reading: "えんかくごうどうじゅぎょうかそちととしぶこうのきょうどうこうりゅう",
+    title: "遠隔合同授業",
+    reading: "えんかくごうどうじゅぎょう",
     kana: "え",
     categories: ["ict"],
     summary:
@@ -1463,9 +1463,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "international-online-cross-cultural-exchange",
-    title: "海外校とのオンライン国際協働学習の実践",
-    reading: "かいがいこうとのおんらいんこくさいきょうどうがくしゅうのじっせん",
-    kana: "か",
+    title: "オンライン国際交流学習",
+    reading: "おんらいんこくさいこうりゅうがくしゅう",
+    kana: "お",
     categories: ["ict", "higher-ed"],
     summary:
       "1人1台端末や通信システムを活用し、時差や地理的制約を越えて海外の学校と交流し、言語運用能力や異文化理解を深める協働学習の実践。",
@@ -1476,9 +1476,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "expert-researcher-remote-guest-lectures",
-    title: "専門家・研究者をつなぐ遠隔出前授業の実際",
-    reading: "せんもんかけんきゅうしゃをつなぐえんかくでまえじゅぎょうのじっさい",
-    kana: "せ",
+    title: "遠隔出前授業",
+    reading: "えんかくでまえじゅぎょう",
+    kana: "え",
     categories: ["ict"],
     summary:
       "大学や研究機関、企業の専門家と学校現場をオンラインで結び、最先端の学術知見や社会課題に触れることで児童生徒の探究心や学習意欲を高める授業実践。",
@@ -1489,8 +1489,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "remote-education-hospital-bound-students",
-    title: "病気療養児に対する遠隔授業と出席取扱規程",
-    reading: "びょうきりょうようじにたいするえんかくじゅぎょうとしゅっせきとりあつかいきてい",
+    title: "病気療養児の遠隔授業",
+    reading: "びょうきりょうようじのえんかくじゅぎょう",
     kana: "ひ",
     categories: ["ict"],
     summary:
@@ -1502,8 +1502,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "diversity-learning-schools-ict-support",
-    title: "学びの多様化学校におけるICTを活用した支援",
-    reading: "まなびのたようかがっこうにおけるあいちーてぃーをかつようしたしえん",
+    title: "学びの多様化とICT活用",
+    reading: "まなびのたようかとあいちーてぃーかつよう",
     kana: "ま",
     categories: ["ict"],
     summary:
@@ -1515,8 +1515,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "metaverse-truant-students-virtual-space",
-    title: "メタバース空間を活用した不登校居場所支援",
-    reading: "めたばーすくうかんをかつようしたふとうこういばしょしえん",
+    title: "メタバース学習空間",
+    reading: "めたばーすがくしゅうくうかん",
     kana: "め",
     categories: ["ict"],
     summary:
@@ -1528,8 +1528,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "virtual-field-trip-social-studies-enrichment",
-    title: "バーチャル社会科見学・仮想体験学習の展開",
-    reading: "ばーちゃるしゃかいかけんがくかそうたいけんがくしゅうのてんかい",
+    title: "バーチャル社会見学",
+    reading: "ばーちゃるしゃかいけんがく",
     kana: "は",
     categories: ["ict"],
     summary:
@@ -1541,8 +1541,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "vr-headset-safety-experiment-simulation",
-    title: "VR技術を活用した危険体験・科学シミュレーション",
-    reading: "ぶいあーるぎじゅつをかつようしたきけんたいけんかがくしみゅれーしょん",
+    title: "VR実験シミュレーション",
+    reading: "ぶいあーるじっけんしみゅれーしょん",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -1554,8 +1554,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "ar-technology-three-dimensional-visualization",
-    title: "AR技術を活用した立体図形・天体の視覚化学習",
-    reading: "えーあーるぎじゅつをかつようしたりったいずけいてんたいのかしかがくしゅう",
+    title: "AR視覚化学習",
+    reading: "えーあーるしかくかがくしゅう",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -1567,9 +1567,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "three-d-printing-digital-fabrication-steam",
-    title: "3Dプリンタを活用したデジタルものづくり教育",
-    reading: "すりーでぃーぷりんたをかつようしたでじたるものづくりきょういく",
-    kana: "す",
+    title: "デジタル工作教育",
+    reading: "でじたるこうさくきょういく",
+    kana: "て",
     categories: ["ict"],
     summary:
       "3次元設計ソフトで自ら設計した立体データを3Dプリンタで実際に出力し、試行錯誤を通じて創造性や工学的な問題解決能力を育むSTEAM教育の実践。",
@@ -1580,8 +1580,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "educational-robotics-hands-on-programming",
-    title: "教育用ロボットを活用した体験型プログラミング",
-    reading: "きょういくようろぼっとをかつようしたたいけんがたぷろぐらみんぐ",
+    title: "教育用ロボット活用",
+    reading: "きょういくようろぼっとかつよう",
     kana: "き",
     categories: ["ict"],
     summary:
@@ -1593,8 +1593,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "visual-programming-scratch-foundations",
-    title: "ビジュアル言語によるプログラミング導入指導",
-    reading: "びじゅあるげんごによるぷろぐらみんぐどうにゅうしどう",
+    title: "ビジュアル言語指導",
+    reading: "びじゅあるげんごしどう",
     kana: "ひ",
     categories: ["ict"],
     summary:
@@ -1606,8 +1606,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "text-based-programming-language-transition",
-    title: "テキスト型言語への発展的プログラミング指導",
-    reading: "てきすとがたげんごへのはってんてきぷろぐらみんぐしどう",
+    title: "テキスト型言語指導",
+    reading: "てきすとがたげんごしどう",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1619,8 +1619,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "microbit-sensor-control-hands-on-learning",
-    title: "小型マイコンボードを活用した計測・制御学習",
-    reading: "こがたまいこんぼーどをかつようしたけいそくせいぎょがくしゅう",
+    title: "小型マイコン計測制御",
+    reading: "こがたまいこんけいそくせいぎょ",
     kana: "こ",
     categories: ["ict"],
     summary:
@@ -1632,8 +1632,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "physical-computing-iot-education-classroom",
-    title: "フィジカル・コンピューティングとIoT教材活用",
-    reading: "ふぃじかるこんぴゅーてぃんぐとあいおーてぃーきょうざいかつよう",
+    title: "フィジカルコンピューティング",
+    reading: "ふぃじかるこんぴゅーてぃんぐ",
     kana: "ふ",
     categories: ["ict"],
     summary:
@@ -1645,9 +1645,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "algorithmic-thinking-decomposition-abstraction",
-    title: "問題分解と抽象化を促すアルゴリズム思考指導",
-    reading: "もんだいぶんかいとちゅうしょうかをうながすあるごりずむしこうしどう",
-    kana: "も",
+    title: "アルゴリズム的思考指導",
+    reading: "あるごりずむてきしこうしどう",
+    kana: "あ",
     categories: ["ict"],
     summary:
       "複雑な問題を小さな要素に分解し、本質的な特徴を抽出して共通化する抽象化の手法を学び、効率的な問題解決手順を構築するアルゴリズム思考を促す指導。",
@@ -1658,8 +1658,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "algorithm-basics-sequence-branch-loop",
-    title: "アルゴリズムの三基本構造（順次・分岐・反復）",
-    reading: "あるごりずむのさんきほんこうぞうじゅんじぶんきはんぷく",
+    title: "アルゴリズムの三基本構造",
+    reading: "あるごりずむのさんきほんこうぞう",
     kana: "あ",
     categories: ["ict"],
     summary:
@@ -1671,8 +1671,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "information-design-visualization-structure",
-    title: "情報デザイン指導（構造化と視覚的伝達技術）",
-    reading: "じょうほうでざいんしどうこうぞうかとしかくてきでんたつぎじゅつ",
+    title: "情報デザイン指導",
+    reading: "じょうほうでざいんしどう",
     kana: "し",
     categories: ["ict"],
     summary:
@@ -1684,9 +1684,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "user-interface-accessibility-principles",
-    title: "ユーザーインターフェースとアクセシビリティ",
-    reading: "ゆーざーいんたーふぇーすとあくせしびりてぃ",
-    kana: "ゆ",
+    title: "UIアクセシビリティ",
+    reading: "ゆーあーいあくせしびりてぃ",
+    kana: "A–Z",
     categories: ["ict"],
     summary:
       "障害の有無や年齢を問わず誰もが情報端末やソフトウェアを支障なく利用できるよう、操作画面の設計や支援技術への対応を考慮する原則と教育的実践。",
@@ -1697,8 +1697,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "data-science-fundamentals-collection-analysis",
-    title: "データサイエンス基礎（収集・整理・可視化）",
-    reading: "でーたさいえんすきそしゅうしゅうせいりかしか",
+    title: "データサイエンス基礎学習",
+    reading: "でーたさいえんすきそがくしゅう",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1710,8 +1710,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "ppdac-cycle-statistical-inquiry-process",
-    title: "PPDACサイクルに基づく統計的探究プロセス",
-    reading: "ぴーぴーでぃーえーしーさいくるにもとづくとうけいてきたんきゅうぷろせす",
+    title: "PPDACサイクル",
+    reading: "ぴーぴーでぃーえーしーさいくる",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -1723,8 +1723,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "spreadsheet-software-simulation-lessons",
-    title: "表計算ソフトを活用した数値シミュレーション指導",
-    reading: "ひょうけいさんそふとをかつようしたすうちしみゅれーしょんしどう",
+    title: "表計算シミュレーション",
+    reading: "ひょうけいさんしみゅれーしょん",
     kana: "ひ",
     categories: ["ict"],
     summary:
@@ -1736,8 +1736,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "big-data-open-data-school-inquiry",
-    title: "オープンデータとビッグデータの探究学習活用",
-    reading: "おーぷんでーたとびっぐでーたのたんきゅうがくしゅうかつよう",
+    title: "オープンデータ活用学習",
+    reading: "おーぷんでーたかつようがくしゅう",
     kana: "お",
     categories: ["ict"],
     summary:
@@ -1749,9 +1749,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "generative-ai-mechanisms-hallucination-risks",
-    title: "生成AIの仕組みとハルシネーションの理解",
-    reading: "せいせいえーあいのしくみとはるしねーしょんのりかい",
-    kana: "せ",
+    title: "ハルシネーション（AI）",
+    reading: "はるしねーしょん",
+    kana: "は",
     categories: ["ict"],
     summary:
       "大規模言語モデルの統計的な生成の仕組みを理解し、事実と異なる情報をもっともらしく出力するハルシネーションの危険性を学び、批判的思考を培う指導。",
@@ -1762,8 +1762,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "prompt-engineering-critical-inquiry-ai",
-    title: "プロンプト作成技術とAIを活用した探究の深化",
-    reading: "ぷろんぷとさくせいぎじゅつとえーあいをかつようしたたんきゅうのしんか",
+    title: "プロンプトエンジニアリング",
+    reading: "ぷろんぷとえんじにありんぐ",
     kana: "ふ",
     categories: ["ict"],
     summary:
@@ -1775,8 +1775,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "generative-ai-brainstorming-critical-revision",
-    title: "生成AIを用いた着想支援と主体的推敲指導",
-    reading: "せいせいえーあいをもちいたちゃくそうしえんとしゅたいてきすいこうしどう",
+    title: "生成AI推敲指導",
+    reading: "せいせいえーあいすいこうしどう",
     kana: "せ",
     categories: ["ict"],
     summary:
@@ -1788,8 +1788,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "ai-privacy-copyright-infringement-risks",
-    title: "生成AI利用における個人情報と著作権の留意点",
-    reading: "せいせいえーあいりようにおけるこじんじょうほうとちょさくけんのりゅういてん",
+    title: "生成AIと知的財産権",
+    reading: "せいせいえーあいとちてきざいさんけん",
     kana: "せ",
     categories: ["ict"],
     summary:
@@ -1801,9 +1801,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "mext-generative-ai-guidelines-k12",
-    title: "文部科学省初等中等教育段階生成AI利用指針",
-    reading: "もんぶかがくしょうしょとうちゅうとうきょういくだんかいせいせいえーあいりようししん",
-    kana: "も",
+    title: "初中等生成AI指針",
+    reading: "しょちゅうとうせいせいえーあいししん",
+    kana: "し",
     categories: ["ict"],
     summary:
       "文部科学省が初等中等教育段階における生成AIの適切な利活用と留意点を示し、教育効果の向上と児童生徒の安全確保を図る指針。",
@@ -1814,9 +1814,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "university-generative-ai-policy-academic-integrity",
-    title: "高等教育における生成AI指針と学術的誠実性",
-    reading: "こうとうきょういくにおけるせいせいえーあいししんとがくじゅつてきせいじつせい",
-    kana: "こ",
+    title: "大学生成AI方針",
+    reading: "だいがくせいせいえーあいほうしん",
+    kana: "た",
     categories: ["ict"],
     summary:
       "大学等の高等教育機関において生成AIの利活用方針を定め、論文作成や学習評価における学術的誠実性を担保するための指導指針。",
@@ -1827,8 +1827,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "ai-automated-summarization-proofreading-tools",
-    title: "AI自動要約と文章校正支援ツールの教育活用",
-    reading: "えーあいじどうようやくとぶんしょうこうせいしえんつーるのきょういくかつよう",
+    title: "AI要約校正ツール",
+    reading: "えーあいようやくこうせいつーる",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -1840,8 +1840,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "machine-translation-tools-language-learning",
-    title: "機械翻訳ツールの適切な活用と外国語学習指導",
-    reading: "きかいほんやくつーるのてきせつなかつようとがいこくごがくしゅうしどう",
+    title: "機械翻訳の指導活用",
+    reading: "きかいほんやくのしどうかつよう",
     kana: "き",
     categories: ["ict"],
     summary:
@@ -1853,8 +1853,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "digital-citizenship-responsible-participation",
-    title: "デジタル・シティズンシップと主体的社会参画",
-    reading: "でじたるしてぃずんしっぷとしゅたいてきしゃかいさんかく",
+    title: "デジタル・シティズンシップ指導",
+    reading: "でじたるしてぃずんしっぷしどう",
     kana: "て",
     categories: ["ict"],
     summary:
@@ -1866,9 +1866,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "media-literacy-critical-thinking-creators",
-    title: "送り手と受け手をつなぐメディア・リテラシー",
-    reading: "おくりてとうけてをつなぐめでぃありてらしー",
-    kana: "お",
+    title: "メディア創造リテラシー",
+    reading: "めでぃあそうぞうりてらしー",
+    kana: "め",
     categories: ["ict"],
     summary:
       "氾濫する多様なメディア情報を批判的に吟味して受容するとともに、責任ある情報発信者として主体的に表現・協働するための統合的能力。",
@@ -1879,9 +1879,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "filter-bubble-echo-chamber-cognition",
-    title: "フィルターバブルとエコーチェンバーの認識",
-    reading: "ふぃるたーばぶるとえこーちぇんばーのにんしき",
-    kana: "ふ",
+    title: "エコーチェンバー現象",
+    reading: "えこーちぇんばーげんしょう",
+    kana: "え",
     categories: ["ict"],
     summary:
       "検索アルゴリズムやSNS上で生じる情報の偏向構造を理解し、思考の狭小化や分断を防いで多角的な視点を確保するための情報教育。",
@@ -1892,9 +1892,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "deepfake-synthetic-media-critical-evaluation",
-    title: "合成メディア・ディープフェイクの識別指導",
-    reading: "ごうせいめでぃあでぃーぷふぇいくのしきべつしどう",
-    kana: "こ",
+    title: "ディープフェイク識別指導",
+    reading: "でぃーぷふぇいくしきべつしどう",
+    kana: "て",
     categories: ["ict"],
     summary:
       "高度なAI技術で生成・加工された精巧な偽動画や合成音声を批判的に検証し、情報操作や中傷被害から自身と他者を守るための識別教育。",
@@ -1905,8 +1905,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "stealth-marketing-online-ad-awareness",
-    title: "ステルスマーケティングとネット広告の識別",
-    reading: "すてるすまーけてぃんぐとねっとこうこくのしきべつ",
+    title: "ステマ広告識別指導",
+    reading: "すてまこうこくしきべつしどう",
     kana: "す",
     categories: ["ict"],
     summary:
@@ -1918,9 +1918,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "online-privacy-location-data-management",
-    title: "オンライン上のプライバシーと位置情報の管理",
-    reading: "おんらいんじょうのぷらいばしーといちじょうほうのかんり",
-    kana: "お",
+    title: "位置情報プライバシー管理",
+    reading: "いちじょうほうぷらいばしーかんり",
+    kana: "い",
     categories: ["ict"],
     summary:
       "写真や投稿に含まれる個人情報や端末の位置情報機能の危険性を理解し、プライバシー設定の適切な管理により安全を確保する教育活動。",
@@ -1931,9 +1931,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "password-management-mfa-authentication-safety",
-    title: "パスワード管理と多要素認証による安全確保",
-    reading: "ぱすわーどかんりとたようそにんしょうによるあんぜんかくほ",
-    kana: "は",
+    title: "多要素認証（教育環境）",
+    reading: "たようそにんしょう",
+    kana: "た",
     categories: ["ict"],
     summary:
       "クラウドサービス利用時の不正アクセスを防ぐため、強固なパスワード設定と多要素認証を適切に運用してアカウントの安全を守る指導。",
@@ -1944,8 +1944,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "phishing-one-click-fraud-prevention",
-    title: "フィッシング詐欺や架空請求への予防指導",
-    reading: "ふぃっしんぐさぎやかくうせいきゅうへのよぼうしどう",
+    title: "フィッシング詐欺予防指導",
+    reading: "ふぃっしんぐさぎよぼうしどう",
     kana: "ふ",
     categories: ["ict"],
     summary:
@@ -1957,9 +1957,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "malware-ransomware-infection-defense",
-    title: "マルウェア・ランサムウェア感染防止の基本",
-    reading: "まるうぇあらんさむうぇあかんせんぼうしのきほん",
-    kana: "ま",
+    title: "ランサムウェア感染防止",
+    reading: "らんさむうぇあかんせんぼうし",
+    kana: "ら",
     categories: ["ict"],
     summary:
       "コンピュータウイルスや身代金要求型不正プログラムの脅威と感染経路を把握し、端末の更新や防壁導入で学校資産とデータを守る実践。",
@@ -1970,8 +1970,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "public-wifi-security-risks-vpn-guidance",
-    title: "公衆無線LAN利用時のセキュリティ上の注意",
-    reading: "こうしゅうむせんらんりようじのせきゅりてぃじょうのちゅうい",
+    title: "公衆無線LAN利用規程",
+    reading: "こうしゅうむせんらんりようきてい",
     kana: "こ",
     categories: ["ict"],
     summary:
@@ -1983,8 +1983,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "distracted-walking-smartphone-etiquette",
-    title: "歩きスマホ等の危険性とデジタルマナー指導",
-    reading: "あるきすまほとうのきけんせいとでじたるまなーしどう",
+    title: "歩きスマホ防止指導",
+    reading: "あるきすまほぼうししどう",
     kana: "あ",
     categories: ["ict"],
     summary:
@@ -1996,8 +1996,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "screen-time-eye-strain-twenty-rule",
-    title: "端末利用時の目の健康管理と20秒遠方注視",
-    reading: "たんまつりようじのめのけんこうかんりとにはちびょうえんぽうちゅうし",
+    title: "端末利用と目の健康管理",
+    reading: "たんまつりようとめのけんこうかんり",
     kana: "た",
     categories: ["ict"],
     summary:
@@ -2009,8 +2009,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "ergonomics-screen-posture-stretch-habits",
-    title: "端末操作時の適切な姿勢とストレッチ指導",
-    reading: "たんまつそうさじのてきせつなしせいとすとれっちしどう",
+    title: "端末操作の姿勢指導",
+    reading: "たんまつそうさのしせいしどう",
     kana: "た",
     categories: ["ict"],
     summary:
@@ -2022,8 +2022,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "nighttime-screen-restriction-sleep-hygiene",
-    title: "夜間の端末利用制限と睡眠リズムの自己管理",
-    reading: "やかんのたんまつりようせいげんとすいみんりずむのじこかんり",
+    title: "夜間端末利用制限",
+    reading: "やかんたんまつりようせいげん",
     kana: "や",
     categories: ["ict"],
     summary:
@@ -2035,9 +2035,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "gaming-disorder-internet-addiction-consultation",
-    title: "ゲーム障害・ネット依存の兆候把握と相談窓口",
-    reading: "げーむしょうがいねっといぞんのちょうこうはあくとそうだんまどぐち",
-    kana: "け",
+    title: "ネット・ゲーム依存相談",
+    reading: "ねっとげーむいぞんそうだん",
+    kana: "ね",
     categories: ["ict"],
     summary:
       "端末やオンラインゲームへの過度な没頭による日常生活への支障を早期に発見し、専門機関や相談窓口と連携して適切な支援へつなげる体制。",
@@ -2048,8 +2048,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "parental-controls-family-digital-rules",
-    title: "ペアレンタルコントロールと家庭内ルール設定",
-    reading: "ぺあれんたるこんとろーるとかていないるーるせってい",
+    title: "ペアレンタルコントロール",
+    reading: "ぺあれんたるこんとろーる",
     kana: "へ",
     categories: ["ict"],
     summary:
@@ -2061,8 +2061,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "school-info-security-policy-network-separation",
-    title: "学校情報セキュリティ指針とネットワーク分離",
-    reading: "がっこうじょうほうせきゅりてぃししんとねっとわーくぶんり",
+    title: "学校情報セキュリティ基準",
+    reading: "がっこうじょうほうせきゅりてぃきじゅん",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -2074,8 +2074,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "zero-trust-architecture-educational-network",
-    title: "ゼロトラストに基づく教育ネットワーク設計",
-    reading: "ぜろとらすとにもとづくきょういくねっとわーくせっけい",
+    title: "ゼロトラスト教育NW",
+    reading: "ぜろとらすときょういくえぬだぶりゅー",
     kana: "せ",
     categories: ["ict"],
     summary:
@@ -2087,8 +2087,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "school-affairs-learning-network-integration",
-    title: "校務系・学習系端末の統合と安全なクラウド利用",
-    reading: "こうむけいがくしゅうけいたんまつのとうごうとあんぜんなくらうどりよう",
+    title: "校務系学習系NW統合",
+    reading: "こうむけいがくしゅうけいえぬだぶりゅーとうごう",
     kana: "こ",
     categories: ["ict"],
     summary:
@@ -2100,9 +2100,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "integrated-school-affairs-learning-e-portal",
-    title: "統合型校務支援システムと学習ポータルの連携",
-    reading: "とうごうがたこうむしえんしすてむとがくしゅうぽーたるのれんけい",
-    kana: "と",
+    title: "学習eポータル・校務連携",
+    reading: "がくしゅういーぽーたるこうむれんけい",
+    kana: "か",
     categories: ["ict"],
     summary:
       "校務系システムと児童生徒の学習eポータルをデータ連携させ、指導と評価の一体化や教育ビッグデータの活用による個別指導の高度化を図る構想。",
@@ -2113,8 +2113,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "educational-data-standards-mext-codes",
-    title: "教育データ標準化とコード体系の整備動向",
-    reading: "きょういくでーたひょうじゅんかところーどたいけいのせいびどうこう",
+    title: "教育データ標準化",
+    reading: "きょういくでーたひょうじゅんか",
     kana: "き",
     categories: ["ict"],
     summary:
@@ -2126,9 +2126,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "digital-cumulative-record-data-transfer",
-    title: "生徒指導データの電子化と安全な学校間移行",
-    reading: "せいとしどうでーたのでんしかとあんぜんながっこうかんいこう",
-    kana: "せ",
+    title: "指導要録の電子化移行",
+    reading: "しどうようろくのでんしかいこう",
+    kana: "し",
     categories: ["ict"],
     summary:
       "指導要録や出欠記録などの生徒指導データを電子化し、進学や転校の際に暗号化通信を用いて学校間で安全かつ迅速に引き継ぐ仕組みと運用指針。",
@@ -2139,9 +2139,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "emergency-contact-app-safety-confirmation",
-    title: "緊急連絡網アプリと安否確認システムの運用指針",
-    reading: "きんきゅうれんらくもうあぷりとあんぴかくにんしすてむのうんようししん",
-    kana: "き",
+    title: "学校緊急連絡システム",
+    reading: "がっこうきんきゅうれんらくしすてむ",
+    kana: "か",
     categories: ["ict"],
     summary:
       "災害や緊急事態の発生時に、学校から保護者や教職員へ一斉通知を配信し、児童生徒の安否情報を迅速に集約・把握するための連絡アプリ運用指針。",
@@ -2152,8 +2152,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "school-website-accessibility-standards",
-    title: "学校ウェブサイトのアクセシビリティ確保指針",
-    reading: "がっこううぇぶさいとのあくせしびりてぃかくほししん",
+    title: "学校Webアクセシビリティ",
+    reading: "がっこううぇぶあくせしびりてぃ",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -2165,8 +2165,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "official-school-social-media-guidelines",
-    title: "学校公式SNSアカウントの運用管理規程",
-    reading: "がっこうこうしきえすえぬえすあかうんとうんようかんりきてい",
+    title: "学校公式SNS運用指針",
+    reading: "がっこうこうしきえすえぬえすうんようししん",
     kana: "か",
     categories: ["ict"],
     summary:
@@ -2178,8 +2178,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "teacher-ict-competency-professional-development",
-    title: "教員のICT指導力向上研修の体系的推進",
-    reading: "きょういんのあいちーてぃーしどうりょくこうじょうけんしゅうのたいけいてきすいしん",
+    title: "教員ICT指導力研修",
+    reading: "きょういんあいちーてぃーしどうりょくけんしゅう",
     kana: "き",
     categories: ["ict"],
     summary:
@@ -2191,8 +2191,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "ict-support-staff-faculty-collaboration",
-    title: "ICT支援員の配置と教員との効果的協働体制",
-    reading: "あいちーてぃーしえんいんのはいちときょういんとのこうかてききょうどうたいせい",
+    title: "ICT支援員協働体制",
+    reading: "あいちーてぃーしえんいんきょうどうたいせい",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -2204,8 +2204,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "giga-operation-support-center-cooperation",
-    title: "GIGAスクール運営支援センターの広域連携",
-    reading: "ぎがすくーるうんえいしえんせんたーのこういきれんけい",
+    title: "GIGA運営支援センター",
+    reading: "ぎがうんえいしえんせんたー",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -2217,8 +2217,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "device-damage-loss-warranty-spare-management",
-    title: "端末の故障・破損・紛失への補償と予備機体制",
-    reading: "たんまつのこしょうはそんふんしつへのほしょうとよびきたいせい",
+    title: "端末故障予備機体制",
+    reading: "たんまつこしょうよびきたいせい",
     kana: "た",
     categories: ["ict"],
     summary:
@@ -2230,8 +2230,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "high-speed-school-lan-maintenance-standards",
-    title: "校内高速大容量通信ネットワークの維持管理",
-    reading: "こうないこうそくだいようりょうつうしんねっとわーくのいじかんり",
+    title: "校内通信NW整備基準",
+    reading: "こうないつうしんえぬだぶりゅーせいびきじゅん",
     kana: "こ",
     categories: ["ict"],
     summary:
@@ -2243,9 +2243,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "cellular-model-lte-five-g-subsidy-equity",
-    title: "LTEセルラーモデル端末の活用と通信格差是正",
-    reading: "えるてぃーいーせるらーもでるたんまつのかつようとつうしんかくさぜせい",
-    kana: "A–Z",
+    title: "セルラーモデル端末",
+    reading: "せるらーもでるたんまつ",
+    kana: "せ",
     categories: ["ict"],
     summary:
       "家庭の通信環境に左右されず公平なオンライン学習を保障するため、携帯通信網に接続可能なセルラー端末の配備や通信費補助を行う教育格差是正策。",
@@ -2256,8 +2256,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "joint-procurement-education-cloud-scale",
-    title: "教育用ICT機器の自治体共同調達と標準化",
-    reading: "きょういくようあいちーてぃーききのじちたいきょうどうちょうたつとひょうじゅんか",
+    title: "教育ICT機器共同調達",
+    reading: "きょういくあいちーてぃーきききょうどうちょうたつ",
     kana: "き",
     categories: ["ict"],
     summary:
@@ -2269,8 +2269,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "software-license-management-school-wide",
-    title: "教育用ソフトウェアのライセンス一括管理運用",
-    reading: "きょういくようそふとうぇあのらいせんすいっかつかんりうんよう",
+    title: "教育ソフト一括管理",
+    reading: "きょういくそふといっかつかんり",
     kana: "き",
     categories: ["ict"],
     summary:
@@ -2282,8 +2282,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "instructional-design-addie-model-practice",
-    title: "インストラクショナル・デザインの授業実践適用",
-    reading: "いんすとらくしょなるでざいんのじゅぎょうじっせんてきよう",
+    title: "インストラクショナルデザイン",
+    reading: "いんすとらくしょなるでざいん",
     kana: "い",
     categories: ["ict"],
     summary:
@@ -2295,9 +2295,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "gagnes-nine-events-of-instruction-practice",
-    title: "ガニェの9教授事象に基づく授業展開設計",
-    reading: "がにぇのきゅうきょうじゅじしょうにもとづくじゅぎょうてんかいせっけい",
-    kana: "か",
+    title: "9教授事象の指導設計",
+    reading: "きゅうきょうじゅじしょうのしどうせっけい",
+    kana: "き",
     categories: ["ict"],
     summary:
       "学習者の内的な情報処理を促すため、動機づけから学習定着までの働きかけを9段階の手順として体系化した教育心理学に基づく授業展開設計論。",
@@ -2308,8 +2308,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "arcs-motivation-model-learning-design",
-    title: "ARCS動機づけモデルによる学習意欲向上設計",
-    reading: "あーくすどうきづけもでるによるがくしゅういよくこうじょうせっけい",
+    title: "ARCS動機づけ設計",
+    reading: "あーくすどうきづけせっけい",
     kana: "A–Z",
     categories: ["ict"],
     summary:
@@ -2321,8 +2321,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "microlearning-short-video-module-design",
-    title: "マイクロラーニングを活用した単元学習設計",
-    reading: "まいくろらーにんぐをかつようしたたんげんがくしゅうせっけい",
+    title: "マイクロラーニング設計",
+    reading: "まいくろらーにんぐせっけい",
     kana: "ま",
     categories: ["ict"],
     summary:
@@ -2334,9 +2334,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "gamification-badges-points-learning-drive",
-    title: "ゲーミフィケーション要素を取り入れた学習設計",
-    reading: "げーみふぃけーしょんようそをとりいれたがくしゅうせっけい",
-    kana: "け",
+    title: "教育ゲーミフィケーション",
+    reading: "きょういくげーみふぃけーしょん",
+    kana: "き",
     categories: ["ict"],
     summary:
       "得点化やバッジ獲得などゲームの設計思想を学習活動に組み込み、児童生徒の達成感や反復学習への主体的な動機づけを高める授業設計。",
@@ -2347,9 +2347,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "educational-podcast-audio-content-listening",
-    title: "音声教材・ポッドキャストを活用した聴解指導",
-    reading: "おんせいきょうざいぽっどきゃすとをかつようしたちょうかいしどう",
-    kana: "お",
+    title: "教育ポッドキャスト",
+    reading: "きょういくぽっどきゃすと",
+    kana: "き",
     categories: ["ict"],
     summary:
       "配信型音声メディアを個人の情報端末で活用し、児童生徒が自らの理解速度に合わせて聞き取り能力や言語感覚を養うリスニング指導法。",
@@ -2360,8 +2360,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "online-collaborative-facilitation-skills",
-    title: "オンライン協働学習におけるファシリテーション技法",
-    reading: "おんらいんきょうどうがくしゅうにおけるふぁしりてーしょんぎほう",
+    title: "オンライン協働指導技術",
+    reading: "おんらいんきょうどうしどうぎじゅつ",
     kana: "お",
     categories: ["ict"],
     summary:
@@ -2373,8 +2373,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "hyflex-learning-flexible-attendance-design",
-    title: "ハイフレックス型授業における対面と遠隔の統合",
-    reading: "はいふれっくすがたじゅぎょうにおけるたいめんとえんかくのとうごう",
+    title: "ハイフレックス型授業",
+    reading: "はいふれっくすがたじゅぎょう",
     kana: "は",
     categories: ["ict"],
     summary:
@@ -2386,9 +2386,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "special-needs-assistive-tech-input-devices",
-    title: "特別支援教育における支援技術と入力支援機器",
-    reading: "とくべつしえんきょういくにおけるしえんぎじゅつとにゅうりょくしえんきき",
-    kana: "と",
+    title: "入力支援機器（特別支援）",
+    reading: "にゅうりょくしえんきき",
+    kana: "に",
     categories: ["ict"],
     summary:
       "障害により通常の機器操作が困難な児童生徒に対し、視線入力やスイッチ等を活用して自立的な学習や意思表出を可能にする支援技術と機器群。",
@@ -2399,8 +2399,8 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "multilingual-translation-apps-foreign-parents",
-    title: "多言語翻訳アプリを活用した外国人保護者対応",
-    reading: "たげんごほんやくあぷりをかつようしたがいこくじんほごしゃたいおう",
+    title: "多言語翻訳（保護者対応）",
+    reading: "たげんごほんやく",
     kana: "た",
     categories: ["ict"],
     summary:
@@ -2412,9 +2412,9 @@ export const ictTerms: Term[] = [
   },
   {
     slug: "open-school-digital-transformation-future",
-    title: "デジタル技術を活用した開かれた学校づくりの展望",
-    reading: "でじたるぎじゅつをかつようしたひらかれたがっこうづくりのてんぼう",
-    kana: "て",
+    title: "学校DXの推進",
+    reading: "がっこうでぃーえっくすのすいしん",
+    kana: "か",
     categories: ["ict"],
     summary:
       "クラウドや情報端末を活用して学校活動を地域・保護者に公開し、双方向の連携と透明性の高い学校運営を実現する学校DXの将来展望。",
