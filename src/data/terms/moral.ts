@@ -1074,9 +1074,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "value-conflict-moral-dilemma-setting",
-    title: "道徳的諸価値の葛藤（価値葛藤場面の設定）",
-    reading: "どうとくてきしょかちのかっとう（かちかっとうばめんのせってい）",
-    kana: "と",
+    title: "価値葛藤場面",
+    reading: "かちかっとうばめん",
+    kana: "か",
     categories: ["moral"],
     summary:
       "道徳科の授業において、相反する二つの道徳的価値が対立する場面を提示し、児童生徒が主体的に悩み判断する過程を促す指導法。",
@@ -1087,9 +1087,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "active-learning-moral-education-lessons",
-    title: "主体的・対話的で深い学びと道徳科授業",
-    reading: "しゅたいてき・たいわてきでふかいまなびとどうとくかじゅぎょう",
-    kana: "し",
+    title: "道徳科のアクティブ・ラーニング",
+    reading: "どうとくかのあくてぃぶらーにんぐ",
+    kana: "と",
     categories: ["moral"],
     summary:
       "学習指導要領が示す理念に基づき、児童生徒が自らの問題として道徳的価値を探究し、他者との協働的な対話を通じて自己の生き方を見つめる授業改革。",
@@ -1100,9 +1100,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "structured-blackboard-moral-graph-nameplate",
-    title: "構造的板書と心情グラフ・ネームプレート",
-    reading: "こうぞうてきばんしょとしんじょうぐらふ・ねーむぷれーと",
-    kana: "こ",
+    title: "心情グラフ（道徳科）",
+    reading: "しんじょうぐらふ",
+    kana: "し",
     categories: ["moral"],
     summary:
       "黒板上に登場人物の心の動きや対立する意見を整理し、名札を用いて自己の立場や変容を視覚的に明示することで深い対話を支える指導技術。",
@@ -1113,8 +1113,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "emotion-meter-visualization-moral-shift",
-    title: "心情メーター（心情の可視化と変容の把握）",
-    reading: "しんじょうめーたー（しんじょうのかしかとへんようのはあく）",
+    title: "心情メーター",
+    reading: "しんじょうめーたー",
     kana: "し",
     categories: ["moral"],
     summary:
@@ -1126,8 +1126,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "role-playing-moral-education-technique",
-    title: "役割演技（道徳授業におけるロールプレイング）",
-    reading: "やくわりえんぎ（どうとくじゅぎょうにおけるろーるぷれいんぐ）",
+    title: "役割演技（道徳科）",
+    reading: "やくわりえんぎ",
     kana: "や",
     categories: ["moral"],
     summary:
@@ -1139,8 +1139,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "dramatization-action-moral-character-empathy",
-    title: "動作化（登場人物の行動の追体験指導）",
-    reading: "どうさか（とうじょうじんぶつのこうどうのついたいけんしどう）",
+    title: "動作化（道徳指導法）",
+    reading: "どうさか",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -1152,8 +1152,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "auxiliary-questioning-moral-reflection",
-    title: "補助発問（多面的・多角的な思索を促す発問）",
-    reading: "ほじょはつもん（ためんてき・たかくてきなしさくをうながすはつもん）",
+    title: "補助発問",
+    reading: "ほじょはつもん",
     kana: "ほ",
     categories: ["moral"],
     summary:
@@ -1165,8 +1165,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "central-questioning-core-moral-theme",
-    title: "中心発問（主題の核心に迫る問いの構造）",
-    reading: "ちゅうしんはつもん（しゅだいのかくしんにせまるといのこうぞう）",
+    title: "中心発問",
+    reading: "ちゅうしんはつもん",
     kana: "ち",
     categories: ["moral"],
     summary:
@@ -1178,8 +1178,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "introduction-phase-moral-lesson-design",
-    title: "導入の工夫（学習意欲を高める問題提示）",
-    reading: "どうにゅうのくふう（がくしゅういよくをたかめるもんだいていじ）",
+    title: "道徳科の導入",
+    reading: "どうとくかのどうにゅう",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -1191,9 +1191,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "conclusion-phase-moral-reflection-life",
-    title: "終末の工夫（自己の生活や生き方の振り返り）",
-    reading: "しゅうまつのくふう（じこのせいかつややきかたのふりかえり）",
-    kana: "し",
+    title: "道徳科の終末",
+    reading: "どうとくかのしゅうまつ",
+    kana: "と",
     categories: ["moral"],
     summary:
       "授業の最終段階で、深めた道徳的価値を手がかりに自らのこれまでの生活やこれからの生き方を見つめ直させ、実践への意欲を高める工夫。",
@@ -1204,9 +1204,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "worksheet-design-moral-thinking-externalization",
-    title: "ワークシートの工夫（思考の可視化と蓄積）",
-    reading: "わーくしーとのくふう（しこうのかしかとちくせき）",
-    kana: "わ",
+    title: "道徳科ワークシート",
+    reading: "どうとくかわーくしーと",
+    kana: "と",
     categories: ["moral"],
     summary:
       "児童生徒の思考の軌跡を文字や図で表現させ、他者との対話の手がかりや自己の学びの蓄積として活用するための教材設計上の工夫。",
@@ -1217,9 +1217,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "reflection-sheet-self-evaluation-moral-growth",
-    title: "振り返りシート（自己評価と道徳的変容）",
-    reading: "ふりかえりしーと（じこひょうかとどうとくてきへんよう）",
-    kana: "ふ",
+    title: "道徳科の振り返りシート",
+    reading: "どうとくかのふりかえりしーと",
+    kana: "と",
     categories: ["moral"],
     summary:
       "授業の終わりに児童生徒が自己の学びや心の変化を記述し、自己評価を通じて自らの道徳的な成長を自覚させるための評価記録用紙。",
@@ -1230,8 +1230,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "class-newsletter-moral-sharing-parents",
-    title: "学級通信での道徳科授業の保護者共有",
-    reading: "がっきゅうつうしんでのどうとくかじゅぎょうのほごしゃきょうゆう",
+    title: "学級通信による道徳科共有",
+    reading: "がっきゅうつうしんによるどうとくかきょうゆう",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -1243,9 +1243,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "local-heritage-materials-moral-education",
-    title: "地域教材の活用（郷土の人物・伝統の教材化）",
-    reading: "ちいききょうざいのかつよう（きょうどのじんぶつ・でんとうのきょうざいか）",
-    kana: "ち",
+    title: "郷土教材（道徳科）",
+    reading: "きょうどきょうざい",
+    kana: "き",
     categories: ["moral"],
     summary:
       "地域に伝わる歴史や文化、先人の生き方を道徳科の教材として開発・活用し、郷土への誇りと公共の精神を育む教育的取り組み。",
@@ -1256,8 +1256,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "newspaper-articles-current-events-moral",
-    title: "新聞記事や時事問題を扱った道徳授業",
-    reading: "しんぶんきじやじじもんだいをあつかったどうとくじゅぎょう",
+    title: "時事教材（道徳科）",
+    reading: "じじきょうざい",
     kana: "し",
     categories: ["moral"],
     summary:
@@ -1269,8 +1269,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "visual-media-audio-materials-moral-teaching",
-    title: "写真・絵画・映像資料を活用した道徳指導",
-    reading: "しゃしん・かいが・えいぞうしりょうをかつようしたどうとくしどう",
+    title: "視覚・映像教材（道徳科）",
+    reading: "しかくえいぞうきょうざい",
     kana: "し",
     categories: ["moral"],
     summary:
@@ -1282,8 +1282,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "special-activities-moral-interconnection",
-    title: "特別活動との関連（児童会生徒会と道徳性）",
-    reading: "とくべつかつどうとのかんれん（じどうかいせいとかいとどうとくせい）",
+    title: "特別活動と道徳教育の関連",
+    reading: "とくべつかつどうとどうとくきょういくのかんれん",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -1295,8 +1295,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "school-events-moral-practical-action",
-    title: "学校行事を通じた道徳的実践力の育成",
-    reading: "がっこうぎょうじをつうじたどうとくてきじっせんりょくのいくせい",
+    title: "学校行事における道徳教育",
+    reading: "がっこうぎょうじにおけるどうとくきょういく",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -1308,8 +1308,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "integrated-study-moral-cross-curricular",
-    title: "総合的な学習の時間と道徳教育の横断的連携",
-    reading: "そうごうてきながくしゅうのじかんとどうとくきょういくのおうだんてきれんけい",
+    title: "総合的な学習と道徳の連携",
+    reading: "そうごうてきながくしゅうとどうとくのれんけい",
     kana: "そ",
     categories: ["moral"],
     summary:
@@ -1321,9 +1321,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "subject-areas-moral-infusion-approach",
-    title: "教科教育における道徳教育（全教育活動連携）",
-    reading: "きょういくきょういくにおけるどうとくきょういく（ぜんきょういくかつどうれんけい）",
-    kana: "き",
+    title: "各教科における道徳教育",
+    reading: "かくきょうかにおけるどうとくきょういく",
+    kana: "か",
     categories: ["moral"],
     summary:
       "国語や社会、理科などの各教科の特質を生かして道徳的価値に関わる心情や見方を養い、学校全体で総合的に道徳性を育む教育方針。",
@@ -1334,9 +1334,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "morning-homeroom-daily-moral-instruction",
-    title: "朝の会・帰りの会での日常的な道徳指導",
-    reading: "あさのかい・かえりのかいでのにちじょうてきなどうとくしどう",
-    kana: "あ",
+    title: "日常の道徳指導",
+    reading: "にちじょうのどうとくしどう",
+    kana: "に",
     categories: ["moral"],
     summary:
       "毎日の学級の生活リズムの中で、あいさつや生活の目標、日々の感謝や反省を共有し、日常的な道徳的実践を促す短時間の指導。",
@@ -1347,9 +1347,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "school-lunch-cleaning-civic-responsibility",
-    title: "給食・清掃指導を通じた公共心と協働の育成",
-    reading: "きゅうしょく・せいそうしどうをつうじたこうきょうしんときょうどうのいくせい",
-    kana: "き",
+    title: "学校給食・清掃指導（徳育）",
+    reading: "がっこうきゅうしょくせいそうしどう",
+    kana: "か",
     categories: ["moral"],
     summary:
       "日常の給食や清掃の協働的な当番活動を通じて、奉仕の精神や勤労の尊び、公共の場を大切にする公共心を体得させる生活指導。",
@@ -1360,8 +1360,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "club-activities-sportsmanship-etiquette",
-    title: "部活動を通じた礼儀と協調性の涵養",
-    reading: "ぶかつどうをつうじられたれいぎときょうちょうせいのかんよう",
+    title: "部活動における道徳的指導",
+    reading: "ぶかつどうにおけるどうとくてきしどう",
     kana: "ふ",
     categories: ["moral"],
     summary:
@@ -1373,8 +1373,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "classroom-goal-setting-shared-norms",
-    title: "学級目標の設定と集団規範の共有",
-    reading: "がっきゅうもくひょうのせっていとしゅうだんきはんのきょうゆう",
+    title: "学級目標と規範形成",
+    reading: "がっきゅうもくひょうときはんけいせい",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -1386,9 +1386,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "moral-climate-classroom-atmosphere",
-    title: "学級生活における道徳的雰囲気の醸成",
-    reading: "がっきゅうせいかつにおけるどうとくてきふんいきのじょうせい",
-    kana: "か",
+    title: "道徳的雰囲気",
+    reading: "どうとくてきふんいき",
+    kana: "と",
     categories: ["moral"],
     summary:
       "互いの存在を認め合い失敗を包容する温かい学級の風土を整え、児童生徒が安心して自己表出や道徳的探究を行えるようにする環境構成。",
@@ -1399,8 +1399,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "teacher-modeling-trust-relationship",
-    title: "教師のモデリング（言行一致と信頼の構築）",
-    reading: "きょうしのもでりんぐ（げんこういっちとしんらいのこうちく）",
+    title: "教師のモデリング",
+    reading: "きょうしのもでりんぐ",
     kana: "き",
     categories: ["moral"],
     summary:
@@ -1412,8 +1412,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "parent-child-dialogue-sheet-moral",
-    title: "親と子の対話シート（家庭との道徳連携）",
-    reading: "おやとこのたいわしーと（かていとのどうとくれんけい）",
+    title: "親子対話シート",
+    reading: "おやこたいわしーと",
     kana: "お",
     categories: ["moral"],
     summary:
@@ -1425,9 +1425,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "guest-speaker-community-moral-lesson",
-    title: "地域人材・外部講師による道徳授業",
-    reading: "ちいきじんざい・がいぶこうしによるどうとくじゅぎょう",
-    kana: "ち",
+    title: "外部講師による道徳授業",
+    reading: "がいぶこうしによるどうとくじゅぎょう",
+    kana: "か",
     categories: ["moral"],
     summary:
       "地域の伝統を守る人々や多様な職業人を学校に招き、実体験に基づく生きた語りを通じて児童生徒の心を動かし、共感や地域社会への貢献意識を育てる道徳授業展開。",
@@ -1438,8 +1438,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "experiential-learning-moral-reflection-cycle",
-    title: "体験活動と振り返りの往還による道徳指導",
-    reading: "たいけんかつどうとふりかえりのおうかんによるどうとくしどう",
+    title: "体験活動の道徳的内面化",
+    reading: "たいけんかつどうのどうとくてきないめんか",
     kana: "た",
     categories: ["moral"],
     summary:
@@ -1451,8 +1451,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "volunteer-activities-moral-sensitivity",
-    title: "ボランティア活動と道徳的感性の深化",
-    reading: "ぼらんてぃあかつどうとどうとくてきかんせいのしんか",
+    title: "ボランティア学習（徳育）",
+    reading: "ぼらんてぃあがくしゅう",
     kana: "ほ",
     categories: ["moral"],
     summary:
@@ -1464,8 +1464,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "disaster-prevention-life-respect-mutual-help",
-    title: "防災教育と生命尊重・共助の精神",
-    reading: "ぼうさいきょういくといのちそんちょう・きょうじょのせいしん",
+    title: "防災道徳教育",
+    reading: "ぼうさいどうとくきょういく",
     kana: "ほ",
     categories: ["moral"],
     summary:
@@ -1477,8 +1477,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "environmental-ethics-sustainable-responsibility",
-    title: "環境倫理教育（持続可能な社会への責任）",
-    reading: "かんきょうりんりきょういく（じぞくかのうなしゃかいへのせきにん）",
+    title: "環境倫理（持続可能な社会）",
+    reading: "かんきょうりんり",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -1490,8 +1490,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "animal-welfare-awe-nature-education",
-    title: "動物愛護と生命への畏敬の念の指導",
-    reading: "どうぶつあいごといのちへのいけいのねんのしどう",
+    title: "動物愛護教育",
+    reading: "どうぶつあいごきょういく",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -1503,9 +1503,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "digital-citizenship-online-moral-etiquette",
-    title: "デジタル・シティズンシップとネットモラル",
-    reading: "でじたる・してぃずんしっぷとねっともらる",
-    kana: "て",
+    title: "ネットモラル教育",
+    reading: "ねっともらるきょういく",
+    kana: "ね",
     categories: ["moral"],
     summary:
       "情報社会の善き構成員として主体的に端末を活用し、オンライン上で自他を尊重した行動をとるための資質や倫理観を育て、健全なデジタル社会に参画する態度を育む指導。",
@@ -1516,9 +1516,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "cyberbullying-prevention-human-rights",
-    title: "SNSにおける中傷防止と人権配慮の指導",
-    reading: "えすえぬえすにおけるちゅうしょうぼうしとじんけんはいりょのしどう",
-    kana: "A–Z",
+    title: "ネットいじめ防止指導",
+    reading: "ねっといじめぼうししどう",
+    kana: "ね",
     categories: ["moral"],
     summary:
       "ソーシャルメディア上での心ない投稿や仲間外れを防ぎ、見えない相手の人格や尊厳を重んじて不当な中傷に同調しない強い意志と人権感覚を養う道徳的指導。",
@@ -1529,9 +1529,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "intellectual-property-copyright-moral",
-    title: "著作権尊重と知的財産意識の育成",
-    reading: "ちょさくけんそんちょうとちてきざいさんいしきのいくせい",
-    kana: "ち",
+    title: "情報倫理（著作権尊重）",
+    reading: "じょうほうりんり",
+    kana: "し",
     categories: ["moral"],
     summary:
       "文章や音楽、画像などの創作物に込められた他者の努力や権利を尊重し、法規範と道徳的責任を理解して自律的かつ公正に情報を活用する態度を育成する指導。",
@@ -1542,9 +1542,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "consumer-education-contract-ethical-consumption",
-    title: "消費者教育と倫理的消費（エシカル消費）",
-    reading: "しょうひしゃきょういくとりんりてきしょうひ（えしかるしょうひ）",
-    kana: "し",
+    title: "エシカル消費教育",
+    reading: "えしかるしょうひきょういく",
+    kana: "え",
     categories: ["moral"],
     summary:
       "商品選択を通じて人権や環境、地域社会の課題解決に配慮する消費行動の意義を理解し、持続可能で公正な社会の形成者として責任ある消費生活を営む態度を育てる教育。",
@@ -1555,8 +1555,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "media-literacy-fake-news-critical-judgment",
-    title: "メディアリテラシーとフェイク情報への判断",
-    reading: "めでぃありてらしーとふぇいくじょうほうへのはんだん",
+    title: "メディア道徳",
+    reading: "めでぃあどうとく",
     kana: "め",
     categories: ["moral"],
     summary:
@@ -1568,9 +1568,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "diversity-respect-unconscious-bias-reduction",
-    title: "多様性の尊重と無意識の思い込みの自覚",
-    reading: "たようせいのそんちょうとむいしきのおもいこみのじかく",
-    kana: "た",
+    title: "アンコンシャス・バイアス教育",
+    reading: "あんこんしゃすばいあすきょういく",
+    kana: "あ",
     categories: ["moral"],
     summary:
       "属性や外見にとらわれず一人ひとりの尊厳や個性を認め合い、自身の中に潜む無意識の偏見に気づいて乗り越えることで、公正で温かい共生社会を築く態度を育む道徳指導。",
@@ -1581,9 +1581,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "sex-education-mutual-respect-dignity",
-    title: "性教育における生命の尊厳と自他尊重",
-    reading: "せいきょういくにおけるいのちのそんげんとじたそんちょう",
-    kana: "せ",
+    title: "自他尊重の性教育",
+    reading: "じたそんちょうのせいきょういく",
+    kana: "し",
     categories: ["moral"],
     summary:
       "自他の生命の尊厳を深く自覚し、互いの心と体を等しく大切にしながら対等で誠実な人間関係を築くための道徳的情操と倫理的判断力を培う教育的取り組み。",
@@ -1594,8 +1594,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "gender-equality-hidden-stereotypes",
-    title: "ジェンダー平等と固定観念の問い直し",
-    reading: "じぇんだーびょうどうとこていかんねんのといなおし",
+    title: "ジェンダー道徳教育",
+    reading: "じぇんだーどうとくきょういく",
     kana: "し",
     categories: ["moral"],
     summary:
@@ -1607,8 +1607,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "barrier-free-heart-disability-understanding",
-    title: "心のバリアフリーと共生社会の態度育成",
-    reading: "こころのばりあふりーときょうせいしゃかいのたいどいくせい",
+    title: "心のバリアフリー教育",
+    reading: "こころのばりあふりーきょういく",
     kana: "こ",
     categories: ["moral"],
     summary:
@@ -1620,9 +1620,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "multicultural-understanding-tolerance-spirit",
-    title: "外国人児童生徒との相互理解と寛容の精神",
-    reading: "がいこくじんじどうせいととのそうごりかいとかんようのせいしん",
-    kana: "か",
+    title: "多文化道徳教育",
+    reading: "たぶんかどうとくきょういく",
+    kana: "た",
     categories: ["moral"],
     summary:
       "文化的背景や生活習慣の違いを越えて互いの存在を尊重し合い、対等な対話を通じて偏見を排し、共に生きる寛容の精神と多文化共生の態度を培う教育実践。",
@@ -1633,8 +1633,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "intergenerational-exchange-elderly-respect",
-    title: "世代間交流を通じた敬愛と支え合いの心",
-    reading: "せだいかんこうりゅうをつうじたけいあいとささえあいのこころ",
+    title: "世代間交流学習",
+    reading: "せだいかんこうりゅうがくしゅう",
     kana: "せ",
     categories: ["moral"],
     summary:
@@ -1646,9 +1646,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "traditional-culture-seasonal-events-respect",
-    title: "年中行事や古典に親しむ態度と文化継承",
-    reading: "ねんじゅうぎょうじやこてんにしたしむたいどとぶんかけいしょう",
-    kana: "ね",
+    title: "伝統と文化の尊重指導",
+    reading: "でんとうとぶんかのそんちょうしどう",
+    kana: "て",
     categories: ["moral"],
     summary:
       "季節の行事や古典に込められた先人の思いや知恵に親しみ、日本固有の生活文化や精神的伝統の価値を実感して、未来へと大切に受け継ぐ態度を育てる指導。",
@@ -1659,9 +1659,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "ancestors-aspiration-local-development",
-    title: "郷土の発展に尽くした先人の志に学ぶ態度",
-    reading: "きょうどのはってんにつくしたせんじんのこころざしにまなぶたいど",
-    kana: "き",
+    title: "先人の志に学ぶ指導",
+    reading: "せんじんのこころざしにまなぶしどう",
+    kana: "せ",
     categories: ["moral"],
     summary:
       "地域の発展や人々の幸福のために生涯を尽くした先人の高い志や事績に触れ、郷土への感謝と誇りを抱き、地域社会の向上に主体的に寄与しようとする態度を育成する道徳指導。",
@@ -1672,8 +1672,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "national-sovereignty-global-citizenship",
-    title: "国家の主権と地球市民意識の調和",
-    reading: "こっかのしゅけんとちきゅうしみんいしきのちょうわ",
+    title: "国家主権と地球市民意識",
+    reading: "こっかしゅけんとちきゅうしみんいしき",
     kana: "こ",
     categories: ["moral"],
     summary:
@@ -1685,9 +1685,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "labor-dignity-gratitude-for-work",
-    title: "働くことの尊厳と勤労への感謝の心",
-    reading: "はたらくことのそんげんときんろうへのかんしゃのこころ",
-    kana: "は",
+    title: "勤労感謝教育",
+    reading: "きんろうかんしゃきょういく",
+    kana: "き",
     categories: ["moral"],
     summary:
       "労働を社会を支え合う尊い営みとして捉え、人々の働きに対する感謝の心を深めるとともに、自らの役割を果たして社会に貢献しようとする勤労観と実践意欲を培う道徳指導。",
@@ -1698,8 +1698,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "frugality-valuing-goods-moderation",
-    title: "物を大切にする態度と節度ある生活",
-    reading: "ものをたいせつにするたいどとせつどあるせいかつ",
+    title: "物を大切にする心",
+    reading: "ものをたいせつにするこころ",
     kana: "も",
     categories: ["moral"],
     summary:
@@ -1711,8 +1711,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "keeping-promises-responsible-action",
-    title: "約束を守ることと責任ある行動の自覚",
-    reading: "やくそくをまもることとせきにんあるこうどうのじかく",
+    title: "約束と社会的責任",
+    reading: "やくそくとしゃかいてきせきにん",
     kana: "や",
     categories: ["moral"],
     summary:
@@ -1724,9 +1724,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "honesty-sincerity-authentic-living",
-    title: "正直さと誠実な生き方の探究",
-    reading: "しょうじきさとせいじつないきかたのたんきゅう",
-    kana: "し",
+    title: "誠実な生き方",
+    reading: "せいじつないきかた",
+    kana: "せ",
     categories: ["moral"],
     summary:
       "うそやごまかしを排して自らの良心に従い、自他に対して真心をもって向き合う誠実な生き方を探究する道徳教育の取り組み。",
@@ -1737,9 +1737,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "courage-perseverance-overcoming-failure",
-    title: "失敗を恐れず挑戦する勇気と忍耐力",
-    reading: "しっぱいをおそれずちょうせんするゆうきとにんたいりょく",
-    kana: "し",
+    title: "挑戦と忍耐力",
+    reading: "ちょうせんとにんたいりょく",
+    kana: "ち",
     categories: ["moral"],
     summary:
       "困難や失敗に直面しても挫けず、目標の実現に向けて前向きに努力を続ける勇気と忍耐強い意志を育む道徳教育の指導課題。",
@@ -1750,8 +1750,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "self-affirmation-strengths-development",
-    title: "自己の良さの発見と自己肯定感の育成",
-    reading: "じこのよさのはっけんとじここうていかんのいくせい",
+    title: "自己の良さの発見指導",
+    reading: "じこのよさのはっけんしどう",
     kana: "し",
     categories: ["moral"],
     summary:
@@ -1763,9 +1763,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "friendship-mutual-support-growth",
-    title: "友だちと助け合い高め合う友情の深化",
-    reading: "ともだちとたすけあいたかめあうゆうじょうのしんか",
-    kana: "と",
+    title: "友情の深化指導",
+    reading: "ゆうじょうのしんかしどう",
+    kana: "ゆ",
     categories: ["moral"],
     summary:
       "互いの長所や短所を認め合い、支え合いながら励まし合って成長する真の友情のあり方を探究する道徳教育の取り組み。",
@@ -1776,8 +1776,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "empathy-perspective-taking-others",
-    title: "他者の立場に立って考える共感性の涵養",
-    reading: "たしゃのたちばにたってかんがえるきょうかんせいのかんよう",
+    title: "他者理解・共感性指導",
+    reading: "たしゃりかいきょうかんせいしどう",
     kana: "た",
     categories: ["moral"],
     summary:
@@ -1789,8 +1789,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "tolerance-forgiveness-accepting-others",
-    title: "寛容の心と他者の過ちを受け入れる態度",
-    reading: "かんようのこころとたしゃのあやまりをうけいれるたいど",
+    title: "寛容と許しの指導",
+    reading: "かんようとゆるしのしどう",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -1802,8 +1802,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "bystander-intervention-bullying-prevention",
-    title: "傍観者からの脱却といじめを許さない勇気",
-    reading: "ぼうかんしゃからのだっきゃくといじめをゆるさないゆうき",
+    title: "傍観者からの脱却指導",
+    reading: "ぼうかんしゃからのだっきゃくしどう",
     kana: "ほ",
     categories: ["moral"],
     summary:
@@ -1815,9 +1815,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "anger-control-assertive-communication",
-    title: "感情のコントロールと適切な自己主張指導",
-    reading: "かんじょうのこんとろーるとてきせつなじこしゅちょうしどう",
-    kana: "か",
+    title: "アサーティブ・コミュニケーション",
+    reading: "あさーてぃぶこみゅにけーしょん",
+    kana: "あ",
     categories: ["moral"],
     summary:
       "衝動的な怒りや不満を適切に抑え、相手を傷つけずに自らの考えを率直に伝える自己主張の技術と態度を育む指導。",
@@ -1828,8 +1828,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "peer-support-caring-chain-school",
-    title: "ピア・サポートによる思いやりの連鎖づくり",
-    reading: "ぴあ・さぽーとによるおもいやりのれんさづくり",
+    title: "ピア・サポート活動（道徳）",
+    reading: "ぴあさぽーとかつどう",
     kana: "ひ",
     categories: ["moral"],
     summary:
@@ -1841,9 +1841,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "belonging-self-worth-creation-classroom",
-    title: "居場所づくりと自己有用感の醸成指導",
-    reading: "いばしょづくりとじここうようかんのじょうせいしどう",
-    kana: "い",
+    title: "学級での自己有用感育成",
+    reading: "がっきゅうでのじこゆうようかんいくせい",
+    kana: "か",
     categories: ["moral"],
     summary:
       "学級において誰もが安心できる居場所を整え、他者や集団の役に立っているという自己有用感を育む教育的アプローチ。",
@@ -1854,8 +1854,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "gratitude-culture-expressing-thanks",
-    title: "感謝の気持ちを言葉で伝える態度の育成",
-    reading: "かんしゃのきもちをことばでつたえるたいどのいくせい",
+    title: "感謝の心の育成指導",
+    reading: "かんしゃのこころのいくせいしどう",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -1867,9 +1867,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "public-property-care-civic-mind",
-    title: "共有財産・公共施設を大切に扱う公徳心",
-    reading: "きょうゆうざいさん・こうきょうしせつをたいせつにあつかうこうとくしん",
-    kana: "き",
+    title: "公徳心と公共施設愛護",
+    reading: "こうとくしんとこうきょうしせつあいご",
+    kana: "こ",
     categories: ["moral"],
     summary:
       "公共物や共有財産が多くの人々の支えと税によって成り立っていることを理解し、大切に扱う公徳心を育む道徳教育。",
@@ -1880,8 +1880,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "traffic-safety-rule-compliance-spirit",
-    title: "交通安全指導とルール順守の規範意識",
-    reading: "こうつうあんぜんしどうとるーるじゅんしゅのきはんいしき",
+    title: "交通安全と規範意識",
+    reading: "こうつうあんぜんときはんいしき",
     kana: "こ",
     categories: ["moral"],
     summary:
@@ -1893,8 +1893,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "school-rule-review-autonomous-norm",
-    title: "校則の見直しを通じた規範の主体的内面化",
-    reading: "こうそくのみなおしをつうじたきはんのしゅたいてきないめんか",
+    title: "校則の見直しと規範意識",
+    reading: "こうそくのみなおしときはんいしき",
     kana: "こ",
     categories: ["moral"],
     summary:
@@ -1906,9 +1906,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "democratic-consensus-minority-respect",
-    title: "民主的な合意形成と少数意見の尊重指導",
-    reading: "みんしゅてきなごういけいせいとしょうすういけんのそんちょうしどう",
-    kana: "み",
+    title: "合意形成と少数意見尊重",
+    reading: "ごういけいせいとしょうすういけんそんちょう",
+    kana: "こ",
     categories: ["moral"],
     summary:
       "多数決に偏らず少数意見に誠実に耳を傾け、全員が納得できる解決策を対話によって模索する合意形成の指導実践。",
@@ -1919,9 +1919,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "legal-mind-rule-of-law-justice",
-    title: "法の精神と正義・公平の感覚の育成",
-    reading: "ほうのせいしんとせいぎ・こうへいのかんかくのいくせい",
-    kana: "ほ",
+    title: "リーガル・マインド育成",
+    reading: "りーがるまいんどいくせい",
+    kana: "り",
     categories: ["moral"],
     summary:
       "法の目的が個人の尊厳を守り正義と公平を実現することにあると理解し、法的な思考力と正義感を育む道徳教育。",
@@ -1932,9 +1932,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "conflict-resolution-peaceful-dialogue",
-    title: "平和的対話による対立解消のスキル",
-    reading: "へいわてきたいわによるたいりつかいしょうのすきる",
-    kana: "へ",
+    title: "対立解消スキル（道徳指導）",
+    reading: "たいりつかいしょうすきる",
+    kana: "た",
     categories: ["moral"],
     summary:
       "意見や利害の衝突が生じた際に、暴力や威圧に頼らず対話を通じて双方が納得できる和解を導く資質・能力の育成。",
@@ -1945,8 +1945,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "war-experience-transmission-peace-pledge",
-    title: "戦争体験の継承と平和への誓いの指導",
-    reading: "せんそうたいけんのけいしょうとへいわへのちかいのしどう",
+    title: "戦争体験の継承指導",
+    reading: "せんそうたいけんのけいしょうしどう",
     kana: "せ",
     categories: ["moral"],
     summary:
@@ -1958,9 +1958,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "nuclear-abolition-disarmament-education",
-    title: "核兵器廃絶と非戦の誓い（平和学習の深化）",
-    reading: "かくへいきはいぜつとひせんのちかい（へいわがくしゅうのしんか）",
-    kana: "か",
+    title: "非核・平和教育",
+    reading: "ひかくへいわきょういく",
+    kana: "ひ",
     categories: ["moral"],
     summary:
       "核兵器の非人道性と壊滅的な脅威を認識し、国際社会の一員として核廃絶と非戦の理念を深く追求する平和学習の展開。",
@@ -1971,8 +1971,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "atomic-bomb-survivor-storytelling-dialogue",
-    title: "被爆体験の語り部との対話的平和学習",
-    reading: "ひばくたいけんのかたりべとのたいわてきへいわがくしゅう",
+    title: "被爆体験の語り部学習",
+    reading: "ひばくたいけんのかたりべがくしゅう",
     kana: "ひ",
     categories: ["moral"],
     summary:
@@ -1984,8 +1984,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "refugee-assistance-humanitarian-ethics",
-    title: "難民問題と人道支援・国際貢献の倫理",
-    reading: "なんみんもんだいとじんどうしえん・こくさいこうけんのりんり",
+    title: "難民問題と人道倫理",
+    reading: "なんみんもんだいとじんどうりんり",
     kana: "な",
     categories: ["moral"],
     summary:
@@ -1997,9 +1997,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "poverty-alleviation-global-justice-concern",
-    title: "貧困問題と格差是正への倫理的関心",
-    reading: "ひんこんもんだいとかくさぜせいへのりんりてきかんしん",
-    kana: "ひ",
+    title: "世界の貧困と分配的正義",
+    reading: "せかいのひんこんとぶんぱいてきせいぎ",
+    kana: "せ",
     categories: ["moral"],
     summary:
       "国内外の貧困や経済的格差の現実を直視し、公正な配分と社会正義の実現に向けて倫理的関心を高める道徳的アプローチ。",
@@ -2010,8 +2010,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "fair-trade-global-economic-ethics",
-    title: "フェアトレードとグローバルな経済正義",
-    reading: "ふぇあとれーどとぐろーばるなけいざいせいぎ",
+    title: "フェアトレード学習",
+    reading: "ふぇあとれーどがくしゅう",
     kana: "ふ",
     categories: ["moral"],
     summary:
@@ -2023,8 +2023,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "climate-justice-intergenerational-responsibility",
-    title: "気候正義と将来世代への倫理的責任",
-    reading: "きこうせいぎとしょうらいせだいへのりんりてきせきにん",
+    title: "気候正義（将来世代の責任）",
+    reading: "きこうせいぎ",
     kana: "き",
     categories: ["moral"],
     summary:
@@ -2036,8 +2036,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "biodiversity-coexistence-nature-ethics",
-    title: "生物多様性の保全と自然との共生倫理",
-    reading: "せいぶつたようせいのほぜんとしぜんとのきょうせいりんり",
+    title: "生物多様性と共生倫理",
+    reading: "せいぶつたようせいときょうせいりんり",
     kana: "せ",
     categories: ["moral"],
     summary:
@@ -2049,9 +2049,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "bioethics-organ-transplantation-end-of-life",
-    title: "臓器移植や終末期をめぐる生命倫理の考察",
-    reading: "ぞうきいしょくやしゅうまつきをめぐるせいめいりんりのこうさつ",
-    kana: "そ",
+    title: "終末期医療と生命倫理",
+    reading: "しゅうまつきいりょうとせいめいりんり",
+    kana: "し",
     categories: ["moral"],
     summary:
       "医療技術の高度化に伴う臓器移植や終末期医療の課題を通じ、自己決定と生命の尊厳の調和について多面に深める道徳的探究。",
@@ -2062,8 +2062,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "genome-editing-genetic-ethics-school",
-    title: "ゲノム編集と生命への介入倫理の指導",
-    reading: "げのむへんしゅうといのちへのかいにゅうりんりのしどう",
+    title: "ゲノム編集と生命倫理",
+    reading: "げのむへんしゅうとせいめいりんり",
     kana: "け",
     categories: ["moral"],
     summary:
@@ -2075,8 +2075,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "ai-ethics-human-dignity-education",
-    title: "AI倫理と人間の尊厳に関する教育的探究",
-    reading: "えーあいりんりとにんげんのそんげんにかんするきょういくてきたんきゅう",
+    title: "AI時代の人間の尊厳",
+    reading: "えーあいじだいのにんげんのそんげん",
     kana: "A–Z",
     categories: ["moral"],
     summary:
@@ -2088,8 +2088,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "scientific-progress-researcher-social-responsibility",
-    title: "科学技術の進歩と研究者の社会的責任",
-    reading: "かがくぎじゅつのしんぽとけんきゅうしゃのしゃかいてきせきにん",
+    title: "科学技術倫理（責任ある研究）",
+    reading: "かがくぎじゅつりんり",
     kana: "か",
     categories: ["moral"],
     summary:
@@ -2101,9 +2101,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "sportsmanship-fair-play-education",
-    title: "スポーツマンシップとフェアプレー精神の育成",
-    reading: "すぽーつまんしっぷとふぇあぷれーせいしんのいくせい",
-    kana: "す",
+    title: "フェアプレー精神の育成",
+    reading: "ふぇあぷれーせいしんのいくせい",
+    kana: "ふ",
     categories: ["moral"],
     summary:
       "規則の遵守や公正な態度、誠実さを養い、健全な競争を通じて人格の陶冶をめざすスポーツ教育・道徳教育の実践概念。",
@@ -2114,9 +2114,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "respect-for-opponents-solidarity-sports",
-    title: "勝敗を超えた対戦相手への敬意と連帯",
-    reading: "しょうはいをこえたたいせんあいてへのけいいとれんたい",
-    kana: "し",
+    title: "対戦相手への敬意と連帯",
+    reading: "たいせんあいてへのけいいとれんたい",
+    kana: "た",
     categories: ["moral"],
     summary:
       "競技の勝敗という結果を超え、互いに競い合い高め合う良き好敵手として対戦相手を認め、友情と敬意を深める道徳的指導。",
@@ -2127,8 +2127,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "traditional-martial-arts-etiquette-spirit",
-    title: "武道・伝統芸能を通じた礼法と精神鍛錬",
-    reading: "ぶどう・でんとうげいのうをつうじられたれいほうとせいしんたんれん",
+    title: "武道における礼法指導",
+    reading: "ぶどうにおけるれいほうしどう",
     kana: "ふ",
     categories: ["moral"],
     summary:
@@ -2140,9 +2140,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "zazen-mindfulness-self-reflection-school",
-    title: "座禅・静寂の時間を活用した自己内省",
-    reading: "ざぜん・せいじゃくのじかんをかつようしたじこないせい",
-    kana: "さ",
+    title: "静寂の時間（自己内省指導）",
+    reading: "せいじゃくのじかん",
+    kana: "せ",
     categories: ["moral"],
     summary:
       "座禅や黙想による静寂の時間を学校生活に取り入れ、自らの内面と静かに向き合って情動を整える自己内省の指導手法。",
@@ -2153,9 +2153,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "life-writing-diary-moral-self-dialogue",
-    title: "日記・生活記録を通じた自己対話と自覚",
-    reading: "にっき・せいかつきろくをつうじたじこたいわとじかく",
-    kana: "に",
+    title: "生活記録・日記指導（徳育）",
+    reading: "せいかつきろくにっきしどう",
+    kana: "せ",
     categories: ["moral"],
     summary:
       "日々の出来事や心の揺らぎを日記に記し、教師の助言を媒介とした自己対話を通じて道徳的自覚を促す生活指導の伝統。",
@@ -2166,8 +2166,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "moral-action-continuous-recording-card",
-    title: "道徳的行動の継続を促す実践カード活動",
-    reading: "どうとくてきこうどうのけいぞくをうながすじっせんかーどかつどう",
+    title: "道徳実践カード活動",
+    reading: "どうとくじっせんかーどかつどう",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -2179,8 +2179,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "moral-research-designated-school-system",
-    title: "道徳教育推進校の研究指定と校内体制",
-    reading: "どうとくきょういくすいしんこうのけんきゅうしていとこうないたいせい",
+    title: "道徳教育研究指定校",
+    reading: "どうとくきょういくけんきゅうしていこう",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -2192,8 +2192,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "moral-lesson-plan-structure-alignment",
-    title: "道徳科指導案の構造（目標・展開・評価）",
-    reading: "どうとくかしどうあんのこうぞうもくひょう・てんかい・ひょうか",
+    title: "道徳科指導案の作成",
+    reading: "どうとくかしどうあんのさくせい",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -2205,9 +2205,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "self-examination-moral-learning-activity",
-    title: "道徳科における「自己を見つめる」学習活動",
-    reading: "どうとくかにおけるじこをみつめるがくしゅうかつどう",
-    kana: "と",
+    title: "自己を見つめる学習活動",
+    reading: "じこをみつめるがくしゅうかつどう",
+    kana: "し",
     categories: ["moral"],
     summary:
       "教材の客観的な分析にとどまらず、自己の生活経験や内面的な弱さを振り返り、当事者として生き方を省察する学習活動。",
@@ -2218,8 +2218,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "multiperspective-thinking-instruction-moral",
-    title: "「多面的・多角的に考える」指導の工夫",
-    reading: "ためんてき・たかくてきにかんがえるしどうのくふう",
+    title: "多面的・多角的な思考指導",
+    reading: "ためんてきたかくてきなしこうしどう",
     kana: "た",
     categories: ["moral"],
     summary:
@@ -2231,8 +2231,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "deepening-understanding-moral-values",
-    title: "道徳的諸価値についての理解を深める指導",
-    reading: "どうとくてきしょかちについてのりかいをふかめるしどう",
+    title: "道徳的価値の理解指導",
+    reading: "どうとくてきかちのりかいしどう",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -2244,8 +2244,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "ict-utilization-moral-lessons-opinion-sharing",
-    title: "道徳科授業でのICT活用（意見の可視化）",
-    reading: "どうとくかじゅぎょうでのあいちーてぃーかつよういけんのかしか",
+    title: "道徳科におけるICT活用",
+    reading: "どうとくかにおけるあいしーてぃーかつよう",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -2257,9 +2257,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "universal-design-moral-instruction",
-    title: "授業のユニバーサルデザインと道徳指導法",
-    reading: "じゅぎょうのゆにばーさるでざいんとどうとくしどうほう",
-    kana: "し",
+    title: "道徳科のユニバーサルデザイン",
+    reading: "どうとくかのゆにばーさるでざいん",
+    kana: "と",
     categories: ["moral"],
     summary:
       "学習上の困難や特性を持つ児童生徒を含め、すべての学習者が主体的に参加し道徳的価値に触れられるよう配慮した授業設計。",
@@ -2270,8 +2270,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "special-needs-consideration-moral-class",
-    title: "特別な支援を要する児童生徒への道徳の配慮",
-    reading: "とくべつなしえんをようするじどうせいとへのどうとくのはいりょ",
+    title: "特別支援を要する児童生徒への道徳指導",
+    reading: "とくべつしえんをようするじどうせいとへのどうとくしどう",
     kana: "と",
     categories: ["moral"],
     summary:
@@ -2283,8 +2283,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "truant-students-moral-education-approach",
-    title: "不登校児童生徒への道徳教育的アプローチ",
-    reading: "ふとうこうじどうせいとへのどうとくきょういくてきあぷろーち",
+    title: "不登校児童生徒への道徳的アプローチ",
+    reading: "ふとうこうじどうせいとへのどうとくてきあぷろーち",
     kana: "ふ",
     categories: ["moral"],
     summary:
@@ -2296,9 +2296,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "cross-cultural-background-moral-instruction",
-    title: "文化的背景に配慮した道徳科の指導実践",
-    reading: "ぶんかてきはいりょにはいりょしたどうとくかのしどうじっせん",
-    kana: "ふ",
+    title: "多文化配慮の道徳指導",
+    reading: "たぶんかはいりょのどうとくしどう",
+    kana: "た",
     categories: ["moral"],
     summary:
       "外国籍や多文化ルーツの児童生徒が共に学ぶ教室で、特定の慣習を絶対視せず相互の文化的背景を尊重し合う道徳教育。",
@@ -2309,9 +2309,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "early-childhood-primary-moral-transition",
-    title: "幼小接続における道徳性の芽生えと指導連携",
-    reading: "ようしょうせつぞくにおけるどうとくせいのめばえとしどうれんけい",
-    kana: "よ",
+    title: "道徳性の芽生え（幼小接続）",
+    reading: "どうとくせいのめばえ",
+    kana: "と",
     categories: ["moral"],
     summary:
       "幼児期の遊びや生活の中で育まれた道徳性の芽生えを、小学校の教科道徳における自覚的な学びへ円滑につなぐ指導連携。",
@@ -2322,8 +2322,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "nine-year-continuous-moral-curriculum",
-    title: "小中一貫教育における9年間の道徳カリキュラム",
-    reading: "しょうちゅういっかんきょういくにおけるきゅうねんかんのどうとくかりきゅらむ",
+    title: "小中一貫の道徳カリキュラム",
+    reading: "しょうちゅういっかんのどうとくかりきゅらむ",
     kana: "し",
     categories: ["moral"],
     summary:
@@ -2335,8 +2335,8 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "high-school-public-ethics-transition",
-    title: "高校「公共」における倫理的探究との接続",
-    reading: "こうこうこうきょうにおけるりんりてきたんきゅうとのせつぞく",
+    title: "公共（高校公民科）との接続",
+    reading: "こうきょうとのせつぞく",
     kana: "こ",
     categories: ["moral"],
     summary:
@@ -2348,9 +2348,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "moral-education-methodology-teacher-training",
-    title: "教職課程「道徳教育の指導法」の充実",
-    reading: "きょうしょくかていどうとくきょういくのしどうほうのじゅうじつ",
-    kana: "き",
+    title: "道徳教育の指導法（教職課程）",
+    reading: "どうとくきょういくのしどうほう",
+    kana: "と",
     categories: ["moral"],
     summary:
       "教員養成段階において道徳科の理論と実践的指導力を修得させ、授業開発や学習評価の専門性を高める教職科目の改善。",
@@ -2361,9 +2361,9 @@ export const moralTerms: Term[] = [
   },
   {
     slug: "respect-for-life-comprehensive-curriculum",
-    title: "命のつながりと先祖への敬意を育む指導",
-    reading: "いのちのつながりとせんぞへのけいいをはぐくむしどう",
-    kana: "い",
+    title: "生命のつながりと先祖への敬意",
+    reading: "せいめいのつながりとせんぞへのけいい",
+    kana: "せ",
     categories: ["moral"],
     summary:
       "世代を超えて受け継がれる生命の連続性や先人への感謝を実感させ、自己と他者の命のかけがえのなさを感得させる道徳教育。",
