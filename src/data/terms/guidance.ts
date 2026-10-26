@@ -1095,8 +1095,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "universal-prevention-tier-one-guidance",
-    title: "課題予防的生徒指導（全生徒を対象とした一次支援）",
-    reading: "かだいよぼうてきせいとしどう（ぜんせいとをたいしょうとしたいちじしえん）",
+    title: "課題予防的生徒指導（一次支援）",
+    reading: "かだいよぼうてきせいとしどう",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -1108,8 +1108,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "early-detection-intervention-tier-two",
-    title: "早期発見・早期対応の生徒指導（二次支援の実際）",
-    reading: "そうきはっけん・そうきたいおうのせいとしどう（にじしえんのじっさい）",
+    title: "早期対応の生徒指導（二次支援）",
+    reading: "そうきたいおうのせいとしどう",
     kana: "そ",
     categories: ["guidance"],
     summary:
@@ -1121,8 +1121,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "intensive-individual-support-tier-three",
-    title: "困難課題への個別対応（三次支援と専門機関連携）",
-    reading: "こんなんかだいへのこべつたいおう（さんじしえんとせんもんきかんれんけい）",
+    title: "困難課題への個別対応（三次支援）",
+    reading: "こんなんかだいへのこべつたいおう",
     kana: "こ",
     categories: ["guidance"],
     summary:
@@ -1134,8 +1134,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "truant-students-social-independence-support",
-    title: "不登校児童生徒の自立支援と社会的自立の保障",
-    reading: "ふとうこうじどうせいとのじりつしえんとしゃかいてきじりつのほしょう",
+    title: "不登校児童生徒の自立支援",
+    reading: "ふとうこうじどうせいとのじりつしえん",
     kana: "ふ",
     categories: ["guidance"],
     summary:
@@ -1147,8 +1147,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "special-room-attendance-gradual-support",
-    title: "別室登校（相談室・学習室登校の段階的支援）",
-    reading: "べっしつとうこう（そうだんしつ・がくしゅうしつとうこうのだんかいてきしえん）",
+    title: "別室登校支援",
+    reading: "べっしつとうこうしえん",
     kana: "へ",
     categories: ["guidance"],
     summary:
@@ -1160,8 +1160,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "morning-reluctance-to-school-intervention",
-    title: "登校しぶり（朝の行き渋りへの初期支援手順）",
-    reading: "とうこうしぶり（あさのゆきしぶりへのしょきしえんてじゅん）",
+    title: "登校しぶり（行き渋り支援）",
+    reading: "とうこうしぶり",
     kana: "と",
     categories: ["guidance"],
     summary:
@@ -1173,8 +1173,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "sleep-wake-rhythm-disorder-guidance",
-    title: "睡眠リズム障害と学校における生活リズム指導",
-    reading: "すいみんりずむしょうがいとがっこうにおけるせいかつりずむしどう",
+    title: "睡眠・生活リズム指導",
+    reading: "すいみんせいかつりずむしどう",
     kana: "す",
     categories: ["guidance"],
     summary:
@@ -1186,8 +1186,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "over-adaptation-burnout-prevention-students",
-    title: "過剰適応（いい子症候群と燃え尽き防止指導）",
-    reading: "かじょうてきおう（いいこしょうこうぐんともえつきぼうししどう）",
+    title: "過剰適応（いい子症候群）",
+    reading: "かじょうてきおう",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -1199,9 +1199,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "attachment-disorder-psychological-care-school",
-    title: "愛着障害と学校における心理的ケアの工夫",
-    reading: "あいちゃくしょうがいとがっこうにおけるしんりてきけあのくふう",
-    kana: "あ",
+    title: "学校における愛着ケア",
+    reading: "がっこうにおけるあいちゃくけあ",
+    kana: "か",
     categories: ["guidance"],
     summary:
       "特定の養育者との愛着形成に課題を抱える児童生徒に対し、学校を安全基地と位置づけ、一貫した温かい受容と心理的ケアを行う生徒指導。",
@@ -1212,8 +1212,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "suspected-developmental-disabilities-guidance",
-    title: "発達障害傾向のある生徒への生徒指導上の配慮",
-    reading: "はったつしょうがいけいこうのあるせいとへのせいとしどうじょうのはいりょ",
+    title: "発達特性への生徒指導配慮",
+    reading: "はったつとくせいへのせいとしどうはいりょ",
     kana: "は",
     categories: ["guidance"],
     summary:
@@ -1225,9 +1225,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "rebuilding-secure-attachment-homeroom-teacher",
-    title: "愛着関係の再構築と学級担任の関わり方",
-    reading: "あいちゃくかんけいのさいこうちくとがっきゅうたんにんのかかわりかた",
-    kana: "あ",
+    title: "学級担任の愛着関係形成",
+    reading: "がっきゅうたんにんのあいちゃくかんけいけいせい",
+    kana: "か",
     categories: ["guidance"],
     summary:
       "対人不信や情緒的不安を抱える生徒に対し、学級担任が温かい受容と一貫した態度を示し、学校における安全な人間関係を再構築する実践。",
@@ -1238,9 +1238,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "chu-ichi-gap-transition-smoothing-guidance",
-    title: "小中接続における中1ギャップの緩和指導",
-    reading: "しょうちゅうせつぞくにおけるちゅういちぎゃっぷのかんわしどう",
-    kana: "し",
+    title: "中1ギャップ緩和指導",
+    reading: "ちゅういちぎゃっぷかんわしどう",
+    kana: "ち",
     categories: ["guidance"],
     summary:
       "小学校から中学校への進学に伴う生活や学習環境の急激な変化に適応できず生じる不登校や不適応を、小中連携により未然に緩和する指導。",
@@ -1251,8 +1251,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "high-school-dropout-prevention-consultation",
-    title: "高校中退防止のための相談体制と早期介入",
-    reading: "こうこうちゅうたいぼうしのためのそうだんたいせいとそうきかいにゅう",
+    title: "高校中退防止相談体制",
+    reading: "こうこうちゅうたいぼうしそうだんたいせい",
     kana: "こ",
     categories: ["guidance"],
     summary:
@@ -1264,8 +1264,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "career-choice-autonomous-decision-support",
-    title: "進路選択における自己決定の支援指導",
-    reading: "しんろせんたくにおけるじこけっていのしえんしどう",
+    title: "進路自己決定支援",
+    reading: "しんろじこけっていしえん",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1277,8 +1277,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "vocational-readiness-test-vrt-utilization",
-    title: "職業レディネス・テスト（VRTの学校活用）",
-    reading: "しょくぎょうれでぃねす・てすと（ぶいあーるてぃーのがっこうかつよう）",
+    title: "職業レディネス・テスト（VRT）",
+    reading: "しょくぎょうれでぃねすてすと",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1290,8 +1290,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "general-aptitude-test-battery-gatb",
-    title: "一般職業適性検査（GATBの進路指導活用）",
-    reading: "いっぱんしょくぎょうてきせいけんさ（じーえーてぃーびーのしんろしどうかつよう）",
+    title: "一般職業適性検査（GATB）",
+    reading: "いっぱんしょくぎょうてきせいけんさ",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1303,8 +1303,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "career-counseling-basic-skills-listening",
-    title: "キャリアカウンセリングの基本的技法（傾聴受容）",
-    reading: "きゃりあかうんせりんぐのきほんてきぎほう（けいちょうじゅよう）",
+    title: "キャリアカウンセリング技法",
+    reading: "きゃりあかうんせりんぐぎほう",
     kana: "き",
     categories: ["guidance"],
     summary:
@@ -1316,8 +1316,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "career-information-collection-annual-plan",
-    title: "進路情報の収集と進路ガイダンスの年間計画",
-    reading: "しんろじょうほうのしゅうしゅうとしんろがいだんすのねんかんけいかく",
+    title: "進路ガイダンス年間計画",
+    reading: "しんろがいだんすねんかんけいかく",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1329,8 +1329,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "internship-pre-post-reflection-guidance",
-    title: "インターンシップ事前指導・事後指導の手順",
-    reading: "いんたーんしっぷじぜんしどう・じごしどうのてじゅん",
+    title: "インターンシップ指導手順",
+    reading: "いんたーんしっぷしどうてじゅん",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1342,8 +1342,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "statement-of-purpose-interview-coaching",
-    title: "志望理由書の添削と面接指導（自己表現の深化）",
-    reading: "しぼうりゆうしょのてんさくとめんせつしどう（じこひょうげんのしんか）",
+    title: "志望理由書・面接指導",
+    reading: "しぼうりゆうしょめんせつしどう",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1355,9 +1355,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "designated-school-recommendation-guidance",
-    title: "指定校推薦・総合型選抜における進路指導体制",
-    reading: "していこうすいせん・そうごうがたせんばつにおけるしんろしどうたいせい",
-    kana: "し",
+    title: "推薦・選抜型入試指導",
+    reading: "すいせんせんばつがたにゅうししどう",
+    kana: "す",
     categories: ["guidance"],
     summary:
       "推薦選抜や総合型選抜において、校内選考基準の公平性を担保し、生徒の多様な個性や実績を適正に評価して出願を支える組織的指導体制。",
@@ -1368,8 +1368,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "job-seeker-mock-interview-manner-training",
-    title: "就職希望生徒に対する模擬面接とマナー指導",
-    reading: "しゅうしょくきぼうせいとにたいするもぎめんせつとまなーしどう",
+    title: "就職模擬面接・マナー指導",
+    reading: "しゅうしょくもぎめんせつまなーしどう",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1381,9 +1381,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "labor-law-education-black-part-time-job",
-    title: "労働法教育と不当労働防止の事前指導",
-    reading: "ろうどうほうきょういくとふとうろうどうぼうしのじぜんしどう",
-    kana: "ろ",
+    title: "若年者への労働法教育",
+    reading: "じゃくねんしゃへのろうどうほうきょういく",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "生徒が就職やアルバイトで社会に出る前に、労働関係法規の基本を学び、不当な労働環境から自らの権利を守る力を培う未然防止指導。",
@@ -1394,8 +1394,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "scholarship-guidance-economic-support",
-    title: "奨学金制度のガイダンスと経済的進学支援",
-    reading: "しょうがくきんせいどのがいだんすとけいざいてきしんがくしえん",
+    title: "奨学金ガイダンス",
+    reading: "しょうがくきんがいだんす",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1407,8 +1407,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "student-guidance-committee-operations",
-    title: "生徒指導委員会の組織運営と校内情報共有",
-    reading: "せいとしどういいんかいのそしきうんえいとこうないじょうほうきょうゆう",
+    title: "生徒指導委員会の組織運営",
+    reading: "せいとしどういいんかいのそしきうんえい",
     kana: "せ",
     categories: ["guidance"],
     summary:
@@ -1420,8 +1420,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "annual-student-guidance-plan-targets",
-    title: "年間生徒指導計画の策定と重点指導目標",
-    reading: "ねんかんせいとしどうけいかくのさくていとじゅうてんしどうもくひょう",
+    title: "年間生徒指導計画の策定",
+    reading: "ねんかんせいとしどうけいかくのさくてい",
     kana: "ね",
     categories: ["guidance"],
     summary:
@@ -1433,8 +1433,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "classroom-management-guidance-alignment",
-    title: "学級経営案と生徒指導方針の連携強化",
-    reading: "がっきゅうけいえいあんとせいとしどうほうしんのれんけいきょうか",
+    title: "学級経営と生徒指導の連携",
+    reading: "がっきゅうけいえいとせいとしどうのれんけい",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -1446,8 +1446,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "seating-arrangement-peer-dynamics-adjustment",
-    title: "座席替えを活用した学級人間関係の調整",
-    reading: "ざせきがえをかつようしたがっきゅうにんげんかんけいのちょうせい",
+    title: "座席替えと人間関係調整",
+    reading: "ざせきがえとにんげんかんけいちょうせい",
     kana: "さ",
     categories: ["guidance"],
     summary:
@@ -1459,8 +1459,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "classroom-chores-roles-self-worth-cultivation",
-    title: "当番・係活動を通じた自己有用感の育成",
-    reading: "とうばん・かかりかつどうをつうじたじここうようかんのいくせい",
+    title: "当番・係活動での自己有用感",
+    reading: "とうばんかかりかつどうでのじこゆうようかん",
     kana: "と",
     categories: ["guidance"],
     summary:
@@ -1472,8 +1472,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "student-council-election-democratic-leadership",
-    title: "生徒会役員選挙と民主的リーダーシップ指導",
-    reading: "せいとかいやくいんせんきょとみんしゅてきりーだーしっぷしどう",
+    title: "生徒会選挙と主権者意識",
+    reading: "せいとかいせんきょとしゅけんしゃいしき",
     kana: "せ",
     categories: ["guidance"],
     summary:
@@ -1485,8 +1485,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "homeroom-activities-lhr-planning-practice",
-    title: "ホームルーム活動の年間指導計画と実践展開",
-    reading: "ほーむるーむかつどうのねんかんしどうけいかくとじっせんてんかい",
+    title: "ホームルーム活動（LHR）計画",
+    reading: "ほーむるーむかつどうけいかく",
     kana: "ほ",
     categories: ["guidance"],
     summary:
@@ -1498,8 +1498,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-bullying-prevention-policy-revision",
-    title: "学校いじめ防止基本方針の定期改定と点検",
-    reading: "がっこういじめぼうしきほんほうしんのていきかいていとてんけん",
+    title: "学校いじめ防止基本方針",
+    reading: "がっこういじめぼうしきほんほうしん",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -1511,8 +1511,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "bullying-survey-regular-administration-analysis",
-    title: "いじめアンケート調査の定期実施と分析手法",
-    reading: "いじめあんけーとちょうさのていきじっしとぶんせきしゅほう",
+    title: "いじめ定期アンケート調査",
+    reading: "いじめていきあんけーとちょうさ",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1524,8 +1524,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "bullying-initial-response-fact-finding-safety",
-    title: "いじめ初期対応（事実確認と被害生徒の保護）",
-    reading: "いじめしょきたいおう（じじつかくにんとひがいせいとのほご）",
+    title: "いじめ初動対応手順",
+    reading: "いじめしょどうたいおうてじゅん",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1537,9 +1537,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "perpetrator-guidance-reflection-rehabilitation",
-    title: "加害生徒への教育的指導と内省の深化支援",
-    reading: "かがいせいとへのきょういくてきしどうとないせいのしんかしえん",
-    kana: "か",
+    title: "いじめ加害生徒への指導",
+    reading: "いじめかがいせいとへのしどう",
+    kana: "い",
     categories: ["guidance"],
     summary:
       "いじめを行った児童生徒に対し、自らの行為が相手に与えた重大な影響を自覚させ、共感的な対話を通じて自己変革と再発防止を促す教育的指導の展開。",
@@ -1550,9 +1550,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "bystander-intervention-classroom-norms",
-    title: "傍観者への指導といじめを許さない集団規範",
-    reading: "ぼうかんしゃへのしどうといじめをゆるさないしゅうだんきはん",
-    kana: "ほ",
+    title: "いじめ傍観者への集団指導",
+    reading: "いじめぼうかんしゃへのしゅうだんしどう",
+    kana: "い",
     categories: ["guidance"],
     summary:
       "いじめを見て見ぬふりをする周囲の生徒に対し、傍観も加担と同等であると意識させ、通報や制止を促す健全な集団規範と相互信頼の風土を形成する指導。",
@@ -1563,8 +1563,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "victim-parents-trust-building-communication",
-    title: "いじめ被害生徒の保護者との信頼関係構築",
-    reading: "いじめひがいせいとのほごしゃとのしんらいかんけいこうちく",
+    title: "いじめ被害保護者対応",
+    reading: "いじめひがいほごしゃたいおう",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1576,8 +1576,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "perpetrator-parents-interview-cooperation",
-    title: "いじめ加害生徒の保護者への協力要請と面談",
-    reading: "いじめかがいせいとのほごしゃへのきょうりょくようせいとめんだん",
+    title: "いじめ加害保護者面談",
+    reading: "いじめかがいほごしゃめんだん",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1589,8 +1589,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "bullying-recognition-number-appropriate-grasp",
-    title: "いじめ認知件数の積極的把握と隠蔽防止体制",
-    reading: "いじめにんちけんすうのせっきょくてきはあくといんぺいぼうしたいせい",
+    title: "いじめの積極的認知",
+    reading: "いじめのせっきょくてきにんち",
     kana: "い",
     categories: ["guidance"],
     summary:
@@ -1602,8 +1602,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "online-slander-digital-tattoo-prevention",
-    title: "ネット上の誹謗中傷とデジタルタトゥー防止",
-    reading: "ねっとじょうのひぼうちゅうしょうとでじたるたとぅーぼうし",
+    title: "ネット誹謗中傷の防止",
+    reading: "ねっとひぼうちゅうしょうのぼうし",
     kana: "ね",
     categories: ["guidance"],
     summary:
@@ -1615,8 +1615,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "online-game-addiction-in-app-billing-response",
-    title: "オンラインゲーム依存と課金トラブルへの対応",
-    reading: "おんらいんげーむいぞんとかきんとらぶるへのたいおう",
+    title: "オンラインゲーム依存対応",
+    reading: "おんらいんげーむいぞんたいおう",
     kana: "お",
     categories: ["guidance"],
     summary:
@@ -1628,8 +1628,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "smartphone-usage-hours-academic-emotional-impact",
-    title: "スマートフォン利用時間と情緒・学習への指導",
-    reading: "すまーとふぉんりようじかんとじょうちょ・がくしゅうへのしどう",
+    title: "スマホ利用と生活時間指導",
+    reading: "すまほりようとせいかつじかんしどう",
     kana: "す",
     categories: ["guidance"],
     summary:
@@ -1641,8 +1641,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "child-abuse-prevention-checklist-school",
-    title: "児童虐待防止マニュアルと発見時チェックリスト",
-    reading: "じどうぎゃくたいぼうしまにゅあるとはっけんじちぇっくりすと",
+    title: "児童虐待チェックリスト",
+    reading: "じどうぎゃくたいちぇっくりすと",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1654,8 +1654,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "child-neglect-signs-morning-observation",
-    title: "ネグレクトの早期発見と登校時観察の視点",
-    reading: "ねぐれくとのそうきはっけんととうこうじかんさつのしてん",
+    title: "ネグレクトの早期発見",
+    reading: "ねぐれくとのそうきはっけん",
     kana: "ね",
     categories: ["guidance"],
     summary:
@@ -1667,8 +1667,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "psychological-abuse-witnessing-domestic-violence",
-    title: "面前DVと心理的虐待への学校での気付き",
-    reading: "めんぜんでぃーぶいとしんりてきぎゃくたいへのがっこうでのきづき",
+    title: "面前DV（心理的虐待）",
+    reading: "めんぜんでぃーぶい",
     kana: "め",
     categories: ["guidance"],
     summary:
@@ -1680,8 +1680,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "physical-abuse-bruises-yogo-teacher-role",
-    title: "身体的虐待の痕跡確認と養護教諭の初期対応",
-    reading: "しんたいてきぎゃくたいのこんせきかくにんとようごきょうゆのしょきたいおう",
+    title: "身体的虐待の早期発見",
+    reading: "しんたいてきぎゃくたいのそうきはっけん",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1693,9 +1693,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "welfare-office-child-consultation-center-link",
-    title: "福祉事務所・子ども家庭支援機関との連携体制",
-    reading: "ふくしじむしょ・こどもかていしえんきかんとのれんけいたいせい",
-    kana: "ふ",
+    title: "子ども家庭福祉機関との連携",
+    reading: "こどもかていふくしきかんとのれんけい",
+    kana: "こ",
     categories: ["guidance"],
     summary:
       "困窮や虐待などの複雑な家庭課題を抱える児童生徒を包括的に支援するため、学校が行政の福祉窓口や相談センターと定期的に情報共有を行う協働体制。",
@@ -1706,8 +1706,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "child-consultation-center-temporary-custody",
-    title: "児童相談所への一時保護委託と学校の連絡体制",
-    reading: "じどうそうだんじょへのいちじほごいたくとがっこうのれんらくたいせい",
+    title: "児童相談所の一時保護連携",
+    reading: "じどうそうだんじょのいちじほごれんけい",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1719,8 +1719,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "foster-home-residential-care-educational-aid",
-    title: "社会的養護下にある児童生徒への就学支援",
-    reading: "しゃかいてきようごかにあるじどうせいとへのしゅうがくしえん",
+    title: "社会的養護児童生徒の就学支援",
+    reading: "しゃかいてきようごじどうせいとのしゅうがくしえん",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1732,8 +1732,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "self-harm-first-aid-intervention-protocol",
-    title: "自傷行為の発見時の応急支援と安全確保手順",
-    reading: "じしょうこういのはっけんじのおうきゅうしえんとあんぜんかくほてじゅん",
+    title: "自傷行為の応急支援手順",
+    reading: "じしょうこういのおうきゅうしえんてじゅん",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1745,8 +1745,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "suicide-prevention-awareness-week-screening",
-    title: "自殺予防週間の啓発活動とスクリーニング調査",
-    reading: "じさつよぼうしゅうかんのけいはつかつどうとすくりーにんぐちょうさ",
+    title: "自殺予防の啓発と把握",
+    reading: "じさつよぼうのけいはつとはあく",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1758,8 +1758,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "suicidal-ideation-signs-emergency-assessment",
-    title: "自殺念慮のサイン発見と緊急アセスメント体制",
-    reading: "じさつねんりょのさいんはっけんときんきゅうあせすめんとたいせい",
+    title: "自殺念慮の緊急アセスメント",
+    reading: "じさつねんりょのきんきゅうあせすめんと",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1771,8 +1771,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "postvention-crisis-intervention-protocol",
-    title: "ポストベンション（事故後の危機介入とケア）",
-    reading: "ぽすとべんしょん（じこごのききかいにゅうとけあ）",
+    title: "ポストベンション（事後危機介入）",
+    reading: "ぽすとべんしょん",
     kana: "ほ",
     categories: ["guidance"],
     summary:
@@ -1784,8 +1784,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "sudden-death-crisis-management-all-school-assembly",
-    title: "児童生徒の急死に伴う全校集会と心理的支援",
-    reading: "じどうせいとのきゅうしにともなうぜんこうしゅうかいとしんりてきしえん",
+    title: "児童生徒急死時の集団ケア",
+    reading: "じどうせいときゅうしじのしゅうだんけあ",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -1797,8 +1797,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "trauma-screening-medical-cooperation",
-    title: "トラウマ反応の把握と専門医療機関との連携",
-    reading: "とらうまはんのうのはあくとせんもんいりょうきかんとのれんけい",
+    title: "トラウマ反応の医療連携",
+    reading: "とらうまはんのうのいりょうれんけい",
     kana: "と",
     categories: ["guidance"],
     summary:
@@ -1810,8 +1810,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "reflecting-process-multidisciplinary-meeting",
-    title: "リフレクティング・プロセス（多職種協議手法）",
-    reading: "りふれくてぃんぐ・ぷろせす（たしょくしゅきょうぎしゅほう）",
+    title: "リフレクティング・プロセス",
+    reading: "りふれくてぃんぐぷろせす",
     kana: "り",
     categories: ["guidance"],
     summary:
@@ -1823,8 +1823,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "motivational-interviewing-behavioral-change",
-    title: "動機づけ面接法（変化を促す対話技法）",
-    reading: "どうきづけめんせつほう（へんかをうながすたいわぎほう）",
+    title: "動機づけ面接（MI）",
+    reading: "どうきづけめんせつ",
     kana: "と",
     categories: ["guidance"],
     summary:
@@ -1836,8 +1836,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "narrative-therapy-externalization-problems",
-    title: "ナラティヴ・セラピー（問題の外在化と対話）",
-    reading: "ならてぃゔ・せらぴー（もんだいのがいざいかとたいわ）",
+    title: "ナラティヴ・セラピー",
+    reading: "ならてぃゔせらぴー",
     kana: "な",
     categories: ["guidance"],
     summary:
@@ -1849,8 +1849,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "solution-focused-brief-therapy-miracle-question",
-    title: "ミラクル・クエスチョン（解決志向アプローチ）",
-    reading: "みらくる・くえすちょん（かいけつしこうあぷろーち）",
+    title: "ミラクル・クエスチョン",
+    reading: "みらくるくえすちょん",
     kana: "み",
     categories: ["guidance"],
     summary:
@@ -1862,8 +1862,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "scaling-questions-progress-monitoring",
-    title: "スケーリング・クエスチョン（主観的変化測定）",
-    reading: "すけーりんぐ・くえすちょん（しゅかんてきへんかそくてい）",
+    title: "スケーリング・クエスチョン",
+    reading: "すけーりんぐくえすちょん",
     kana: "す",
     categories: ["guidance"],
     summary:
@@ -1875,8 +1875,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "finding-exceptions-positive-behavior-shifts",
-    title: "例外探し技法（問題が生じない状況の発見）",
-    reading: "れいがいさがしぎほう（もんだいがしょうじないじょうきょうのはっけん）",
+    title: "例外探しの技法",
+    reading: "れいがいさがしのぎほう",
     kana: "れ",
     categories: ["guidance"],
     summary:
@@ -1888,9 +1888,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "congruence-genuineness-listening-attitude",
-    title: "共感的一致（カウンセリングにおける傾聴態度）",
-    reading: "きょうかんてきいっち（かうんせりんぐにおけるけいちょうたいど）",
-    kana: "き",
+    title: "自己一致（傾聴態度）",
+    reading: "じこいっち",
+    kana: "し",
     categories: ["guidance"],
     summary:
       "教員や支援者が自己の内面と外面の態度を一致させ、真実味をもって児童生徒に向き合い傾聴することで深い信頼関係を築く教育相談の基本態度。",
@@ -1901,8 +1901,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "unconditional-positive-regard-human-dignity",
-    title: "無条件の肯定的関心（生徒の尊厳の受容）",
-    reading: "むじょうけんのこうていてきかんしん（せいとのそんげんのじゅよう）",
+    title: "無条件の肯定的配慮",
+    reading: "むじょうけんのこうていてきはいりょ",
     kana: "む",
     categories: ["guidance"],
     summary:
@@ -1914,8 +1914,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "counseling-newsletter-hotline-dissemination",
-    title: "教育相談だよりの発行と相談窓口の周知指導",
-    reading: "きょういくそうだんだよりのはっこうとそうだんまどぐちのしゅうちしどう",
+    title: "教育相談だよりの活用",
+    reading: "きょういくそうだんだよりのかつよう",
     kana: "き",
     categories: ["guidance"],
     summary:
@@ -1927,9 +1927,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-counselor-newsletter-faculty-training",
-    title: "スクールカウンセラー便りと教職員向け校内研修",
-    reading: "すくーるかうんせらーびよりときょうしょくいんむけこうないけんしゅう",
-    kana: "す",
+    title: "SCによる校内研修",
+    reading: "えすしーによるこうないけんしゅう",
+    kana: "A–Z",
     categories: ["guidance"],
     summary:
       "スクールカウンセラーの専門性を活用した情報発信と校内研修の推進により、教職員全体の生徒理解と教育相談スキルの向上を図る組織的取組。",
@@ -1940,9 +1940,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "ssw-home-visit-family-support-practice",
-    title: "スクールソーシャルワーカーによる家庭訪問支援",
-    reading: "すくーるそーしゃるわーかーによるかていほうもんしえん",
-    kana: "す",
+    title: "SSWによる家庭訪問支援",
+    reading: "えすえすだぶりゅーによるかていほうもんしえん",
+    kana: "A–Z",
     categories: ["guidance"],
     summary:
       "スクールソーシャルワーカーが児童生徒の家庭を直接訪問し、生活環境や福祉的課題を把握して関係機関と連携しながら解決を支える援助実践。",
@@ -1953,8 +1953,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-lawyer-legal-advice-parent-dialogue",
-    title: "スクールロイヤーによる法的助言と保護者対応法",
-    reading: "すくーるろいやーによるほうてきじょげんとほごしゃたいおうほう",
+    title: "スクールロイヤーの法的助言",
+    reading: "すくーるろいやーのほうてきじょげん",
     kana: "す",
     categories: ["guidance"],
     summary:
@@ -1966,9 +1966,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "police-juvenile-liaison-delinquency-prevention",
-    title: "警察署少年係との情報交換と非行防止指導体制",
-    reading: "けいさつしょしょうねんがかりとのじょうほうこうかんとひこうぼうししどうたいせい",
-    kana: "け",
+    title: "学校警察連絡の非行防止体制",
+    reading: "がっこうけいさつれんらくのひこうぼうしたいせい",
+    kana: "か",
     categories: ["guidance"],
     summary:
       "学校と警察署少年係が定期的に情報共有を行い、児童生徒の非行の早期発見と犯罪被害の防止を組織的に推進する連携指導体制。",
@@ -1979,8 +1979,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "probation-officer-volunteer-network-prevention",
-    title: "保護司・少年補導員との地域防犯見守り活動",
-    reading: "ほごし・しょうねんほどういんとのちいきぼうはんみまもりかつどう",
+    title: "保護司・補導員との連携",
+    reading: "ほごしほどういんとのれんけい",
     kana: "ほ",
     categories: ["guidance"],
     summary:
@@ -1992,8 +1992,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "shoplifting-theft-incident-initial-response",
-    title: "万引き・窃盗事案への初動対応と指導手順",
-    reading: "まんびき・せっとうじあんへのしょたいおうとしどうてじゅん",
+    title: "万引き・窃盗の初動対応",
+    reading: "まんびきせっとうのしょどうたいおう",
     kana: "ま",
     categories: ["guidance"],
     summary:
@@ -2005,8 +2005,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "smoking-drinking-guidance-family-collaboration",
-    title: "喫煙・飲酒事案の再発防止指導と家庭連携",
-    reading: "きつえん・いんしゅじあんのさいはつぼうししどうとかていれんけい",
+    title: "喫煙・飲酒の再発防止指導",
+    reading: "きつえんいんしゅのさいはつぼうししどう",
     kana: "き",
     categories: ["guidance"],
     summary:
@@ -2018,8 +2018,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-violence-property-damage-restoration",
-    title: "校内暴力・器物破損への指導と環境修復活動",
-    reading: "こうないぼうりょく・きぶつはそんへのしどうとかんきょうしゅうふくかつどう",
+    title: "校内暴力への対応と修復",
+    reading: "こうないぼうりょくへのたいおうとしゅうふく",
     kana: "こ",
     categories: ["guidance"],
     summary:
@@ -2031,8 +2031,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "verbal-abuse-classroom-disruption-intervention",
-    title: "暴言・授業妨害への集団指導と個別面談の実際",
-    reading: "ぼうげん・じゅぎょうぼうがいへのしゅうだんしどうとこべつめんだんのじっさい",
+    title: "暴言・授業妨害への対応",
+    reading: "ぼうげんじゅぎょうぼうがいへのたいおう",
     kana: "ほ",
     categories: ["guidance"],
     summary:
@@ -2044,8 +2044,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "student-guidance-records-documentation-storage",
-    title: "生徒指導における指導記録の作成と適正管理",
-    reading: "せいとしどうにおけるしどうきろくのさくせいとてきせいかんり",
+    title: "生徒指導記録の適正管理",
+    reading: "せいとしどうきろくのてきせいかんり",
     kana: "せ",
     categories: ["guidance"],
     summary:
@@ -2057,8 +2057,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "cumulative-record-attendance-exact-documentation",
-    title: "指導要録における出欠記録の正確な記載基準",
-    reading: "しどうようろくにおけるしゅっけつきろくのせいかくなきさいきじゅん",
+    title: "出欠記録の記載管理",
+    reading: "しゅっけつきろくのきさいかんり",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2070,8 +2070,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "suspension-procedure-learning-guarantee",
-    title: "出席停止措置の手続きと学習機会の保障体制",
-    reading: "しゅっせきていしそちのてつづきとがくしゅうきかいのほしょうたいせい",
+    title: "出席停止手続きと学習保障",
+    reading: "しゅっせきていしていづづきとがくしゅうほしょう",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2083,8 +2083,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "disciplinary-action-legal-basis-due-process",
-    title: "懲戒処分の法的根拠と弁明の機会の適正付与",
-    reading: "ちょうかいしょぶんのほうてきこんきょとべんめいのきかいのてきせいふよ",
+    title: "懲戒処分の適正手続き",
+    reading: "ちょうかいしょぶんのてきせいてつづき",
     kana: "ち",
     categories: ["guidance"],
     summary:
@@ -2096,8 +2096,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "special-reflective-guidance-lifting-criteria",
-    title: "特別指導（反省期間）の個別計画と解除基準",
-    reading: "とくべつしどう（はんせいきかん）のこべつけいかくとかいじょきじゅん",
+    title: "特別指導（反省指導の解除基準）",
+    reading: "とくべつしどう",
     kana: "と",
     categories: ["guidance"],
     summary:
@@ -2109,8 +2109,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-safety-plan-disaster-crime-traffic",
-    title: "学校安全計画の推進（防災・防犯・交通安全）",
-    reading: "がっこうあんぜんけいかくのすいしん（ぼうさい・ぼうはん・こうつうあんぜん）",
+    title: "学校安全推進の個別計画",
+    reading: "がっこうあんぜんすいしんのこべつけいかく",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -2122,8 +2122,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "intruder-response-drill-sasumata-deployment",
-    title: "不審者侵入対策とさすまた配備・防犯訓練の実際",
-    reading: "ふしんしゃしんにゅうたいさくとさすまたはいび・ぼうはんくんれんのじっさい",
+    title: "不審者対応訓練・さすまた配備",
+    reading: "ふしんしゃたいおうくんれんさすまたはいび",
     kana: "ふ",
     categories: ["guidance"],
     summary:
@@ -2135,8 +2135,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-route-safety-inspection-traffic-map",
-    title: "通学路の安全点検と交通安全マップづくり指導",
-    reading: "つうがくろのあんぜんてんけんとこうつうあんぜんまっぷづくりしどう",
+    title: "通学路安全点検・交通安全マップ",
+    reading: "つうがくろあんぜんてんけんこうつうあんぜんまっぷ",
     kana: "つ",
     categories: ["guidance"],
     summary:
@@ -2148,8 +2148,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "bicycle-safety-education-helmet-promotion",
-    title: "自転車通学安全指導とヘルメット着用推進活動",
-    reading: "じてんしゃつうがくあんぜんしどうとへるめっとちゃくようすいしんかつどう",
+    title: "自転車通学安全指導",
+    reading: "じてんしゃつうがくあんぜんしどう",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2161,8 +2161,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "heatstroke-prevention-guidelines-wbgt",
-    title: "熱中症事故防止指針と暑さ指数（WBGT測定）",
-    reading: "ねっちゅうしょうじこぼうしししんとあつさしすう（だぶりゅーびーじーてぃーそくてい）",
+    title: "熱中症予防指針（WBGT測定）",
+    reading: "ねっちゅうしょうよぼうししん",
     kana: "ね",
     categories: ["guidance"],
     summary:
@@ -2174,8 +2174,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-lunch-foreign-object-allergy-emergency",
-    title: "学校給食における異物混入・アレルギー緊急対応",
-    reading: "がっこうきゅうしょくにおけるいぶつこんにゅう・あれるぎーきんきゅうたいおう",
+    title: "学校給食アレルギー緊急対応",
+    reading: "がっこうきゅうしょくあれるぎーきんきゅうたいおう",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -2187,8 +2187,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "extracurricular-safety-accident-prevention",
-    title: "部活動事故防止指針と安全管理マニュアル作成",
-    reading: "ぶかつどうじこぼうしししんとあんぜんかんりまにゅあるさくせい",
+    title: "部活動の事故防止指針",
+    reading: "ぶかつどうのじこぼうしししん",
     kana: "ふ",
     categories: ["guidance"],
     summary:
@@ -2200,8 +2200,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "school-health-committee-organizational-health",
-    title: "学校保健委員会の運営と健康課題の組織的解決",
-    reading: "がっこうほけんいいんかいのうんえいとけんこうかだいのそしきてきかいけつ",
+    title: "学校保健委員会の組織運営",
+    reading: "がっこうほけんいいんかいのそしきうんえい",
     kana: "か",
     categories: ["guidance"],
     summary:
@@ -2213,8 +2213,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "safety-education-for-life-sexual-violence",
-    title: "性被害防止に向けた生命の安全教育の実践",
-    reading: "せいひがいぼうしにむけたせいめいのあんぜんきょういくのじっせん",
+    title: "性被害防止の安全教育",
+    reading: "せいひがいぼうしのあんぜんきょういく",
     kana: "せ",
     categories: ["guidance"],
     summary:
@@ -2226,8 +2226,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "dating-dv-prevention-education-respect",
-    title: "デートDV防止教育と対等な人間関係の学習指導",
-    reading: "でーとでぃーぶいぼうしきょういくとたいとうなにんげんかんけいのがくしゅうしどう",
+    title: "デートDV防止教育",
+    reading: "でーとでぃーぶいぼうしきょういく",
     kana: "て",
     categories: ["guidance"],
     summary:
@@ -2239,8 +2239,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "unintended-teen-pregnancy-prevention-guidance",
-    title: "10代の望まない妊娠防止と性教育の指導視点",
-    reading: "じゅうだいののぞまないにんしんぼうしとせいきょういくのしどうしてん",
+    title: "思春期の望まない妊娠防止指導",
+    reading: "ししゅんきののぞまないにんしんぼうししどう",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2252,8 +2252,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "adult-guardianship-system-school-awareness",
-    title: "成年後見制度の学校での理解と進路支援活用",
-    reading: "せいねんこうけんせいどのがっこうでのりかいとしんろしえんかつよう",
+    title: "成年後見制度と進路支援",
+    reading: "せいねんこうけんせいどとしんろしえん",
     kana: "せ",
     categories: ["guidance"],
     summary:
@@ -2265,8 +2265,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "foster-care-leavers-independence-support",
-    title: "児童養護施設退所者への自立進学支援体制",
-    reading: "じどうようごしせつたいしょしゃへのじりつしんがくしえんたいせい",
+    title: "社会的養護離脱者の進学支援",
+    reading: "しゃかいてきようごりだつしゃのしんがくしえん",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2278,8 +2278,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "juvenile-training-school-reintegration-support",
-    title: "少年院出院生徒の復学支援と学校生活適応",
-    reading: "しょうねんいんしゅついんせいとのふくがくしえんとがっこうせいかつてきおう",
+    title: "少年院出院生徒の復学支援",
+    reading: "しょうねんいんしゅついんせいとのふくがくしえん",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2291,8 +2291,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "children-independence-support-facilities-link",
-    title: "児童自立支援施設入所生徒との継続的指導連携",
-    reading: "じどうじりつしえんしせつにゅうしょせいととのけいぞくてきしどうれんけい",
+    title: "児童自立支援施設との指導連携",
+    reading: "じどうじりつしえんしせつとのしどうれんけい",
     kana: "し",
     categories: ["guidance"],
     summary:
@@ -2304,8 +2304,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "night-patrol-guidance-downtown-monitoring",
-    title: "夜間街頭指導と繁華街における青少年の見守り",
-    reading: "やかんがいとうしどうとはんかがいにおけるせいしょうねんのみまもり",
+    title: "夜間街頭指導・補導活動",
+    reading: "やかんがいとうしどうほどうかつどう",
     kana: "や",
     categories: ["guidance"],
     summary:
@@ -2317,9 +2317,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "community-volunteer-after-school-watching",
-    title: "地域ボランティアによる放課後見守り活動支援",
-    reading: "ちいきぼらんてぃあによるほうかごみまもりかつどうしえん",
-    kana: "ち",
+    title: "放課後見守り活動",
+    reading: "ほうかごみまもりかつどう",
+    kana: "ほ",
     categories: ["guidance"],
     summary:
       "放課後や下校時における児童生徒の安全確保と孤立防止のため、学校支援地域本部や保護者・高齢者等の地域ボランティアが連携する見守り活動。",
@@ -2330,8 +2330,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "counseling-room-environment-privacy-safety",
-    title: "教育相談室の環境整備（プライバシーと安心感）",
-    reading: "きょういくそうだんしつのかんきょうせいび（ぷらいばしーとあんしんかん）",
+    title: "教育相談室の環境整備",
+    reading: "きょういくそうだんしつのかんきょうせいび",
     kana: "き",
     categories: ["guidance"],
     summary:
@@ -2343,8 +2343,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "mental-health-literacy-school-curriculum",
-    title: "メンタルヘルス・リテラシー教育の授業実践",
-    reading: "めんたるへるす・りてらしーきょういくのじゅぎょうじっせん",
+    title: "メンタルヘルス・リテラシー教育",
+    reading: "めんたるへるすりてらしーきょういく",
     kana: "め",
     categories: ["guidance"],
     summary:
@@ -2356,8 +2356,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "teacher-mental-health-burnout-prevention-guidance",
-    title: "教員のメンタルヘルスと生徒指導バーンアウト予防",
-    reading: "きょういんのめんたるへるすとせいとしどうばーんあうとよぼう",
+    title: "教員の生徒指導バーンアウト予防",
+    reading: "きょういんのせいとしどうばーんあうとよぼう",
     kana: "き",
     categories: ["guidance"],
     summary:
@@ -2369,8 +2369,8 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "multilevel-instruction-model-reading-mim",
-    title: "多層指導モデルMIMを活用した早期学習支援",
-    reading: "たそうしどうもでるえむあいえむをかつようしたそうきがくしゅうしえん",
+    title: "多層指導モデルMIM",
+    reading: "たそうしどうもでるえむあいえむ",
     kana: "た",
     categories: ["guidance"],
     summary:
@@ -2382,9 +2382,9 @@ export const guidanceTerms: Term[] = [
   },
   {
     slug: "social-independence-beyond-school-return",
-    title: "学校復帰にとらわれない社会的自立支援の指針",
-    reading: "がっこうふっきにとらわれないしゃかいてきじりつしえんのししん",
-    kana: "か",
+    title: "不登校生徒の社会的自立支援指針",
+    reading: "ふとうこうせいとのしゃかいてきじりつしえんししん",
+    kana: "ふ",
     categories: ["guidance"],
     summary:
       "不登校児童生徒の登校再開のみを目標とせず、多様な学びの場や心の休養を保障しながら将来の社会的自立を促す文部科学省通知の基本理念。",
