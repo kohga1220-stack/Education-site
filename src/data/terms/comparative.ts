@@ -913,9 +913,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "comprehensive-school-uk",
-    title: "総合制中等学校（コンプレヘンシブ・スクール）",
-    reading: "そうごうせいちゅうとうがっこう（こんぷれへんしぶ・すくーる）",
-    kana: "そ",
+    title: "コンプレヘンシブスクール",
+    reading: "こんぷれへんしぶすくーる",
+    kana: "こ",
     categories: ["comparative"],
     summary:
       "イギリスにおいて、11歳での能力別選抜（11プラス試験）による教育格差を解消するため、能力や進路にかかわらず全生徒を受け入れる中等学校。",
@@ -926,8 +926,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "gesamtschule-germany",
-    title: "ゲザムトシューレ（ドイツ総合制学校）",
-    reading: "げざむとしゅーれ（どいつそうごうせいがっこう）",
+    title: "ゲザムトシューレ",
+    reading: "げざむとしゅーれ",
     kana: "け",
     categories: ["comparative"],
     summary:
@@ -939,8 +939,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "college-unique-france",
-    title: "単一コレージュ（フランス中等教育）",
-    reading: "たんいつこれーじゅ（ふらんすちゅうとうきょういく）",
+    title: "単一コレージュ",
+    reading: "たんいつこれーじゅ",
     kana: "た",
     categories: ["comparative"],
     summary:
@@ -952,9 +952,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "community-college-usa",
-    title: "アメリカのコミュニティ・カレッジ",
-    reading: "あめりかのこみゅにてぃ・かれっじ",
-    kana: "あ",
+    title: "コミュニティ・カレッジ",
+    reading: "こみゅにてぃかれっじ",
+    kana: "こ",
     categories: ["comparative"],
     summary:
       "アメリカにおいて地域住民に広く門戸を開く公立2年制高等教育機関で、4年制大学への編入教育、職業技術訓練、生涯学習を低廉な学費で提供する組織。",
@@ -965,9 +965,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "unesco-gem-report",
-    title: "グローバル教育モニタリングレポート（GEM Report）",
-    reading: "ぐろーばるきょういくもにたりんぐれぽーと（じぇむ・れぽーと）",
-    kana: "く",
+    title: "GEMレポート（ユネスコ）",
+    reading: "じぇむれぽーと",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "ユネスコが毎年刊行する教育報告書で、持続可能な開発目標SDG4および国際教育目標の達成に向けた進捗状況と世界的課題を検証・評価する文書。",
@@ -979,7 +979,7 @@ export const comparativeTerms: Term[] = [
   {
     slug: "global-citizenship-education",
     title: "地球市民教育（GCED）",
-    reading: "ちきゅうしみんきょういく（じーしーいーでぃー）",
+    reading: "ちきゅうしみんきょういく",
     kana: "ち",
     categories: ["comparative"],
     summary:
@@ -991,9 +991,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "tabunka-kyoiku-banks",
-    title: "ジェームズ・バンクスの多文化教育論",
-    reading: "じぇーむず・ばんくすのたぶんかきょういくろん",
-    kana: "し",
+    title: "バンクスの多文化教育論",
+    reading: "ばんくすのたぶんかきょういくろん",
+    kana: "は",
     categories: ["comparative"],
     summary:
       "アメリカの教育学者バンクスが提唱した多文化教育の理論体系で、多民族・多文化社会における公平な教育とカリキュラム改革の5つの次元モデル。",
@@ -1017,8 +1017,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "indigenous-peoples-education",
-    title: "先住民族の教育権と先住民族教育",
-    reading: "せんじゅうみんぞくのきょういくけんせんじゅうみんぞくきょういく",
+    title: "先住民族教育の権利",
+    reading: "せんじゅうみんぞくきょういくのけんり",
     kana: "せ",
     categories: ["comparative"],
     summary:
@@ -1030,9 +1030,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "singapore-teach-less-learn-more",
-    title: "教えることを減らし、学ぶことを増やす（TLLM）",
-    reading: "おしえることをへらし、まなぶことをふやす（てぃー・える・える・えむ）",
-    kana: "お",
+    title: "TLLM（シンガポール教育）",
+    reading: "てぃーえるえるえむ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "シンガポール政府が2000年代に導入した教育改革方針で、詰め込み型のカリキュラム内容を削減し生徒の批判的思考力や主体的探究心を深める政策。",
@@ -1056,8 +1056,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "international-accreditation",
-    title: "国際的学校評価認定機関（CIS・WASC等）",
-    reading: "こくさいてきがっこうひょうかにんていきかん（しーあいえす・わすくとう）",
+    title: "国際学校評価認定機関",
+    reading: "こくさいがっこうひょうかにんていきかん",
     kana: "こ",
     categories: ["comparative"],
     summary:
@@ -1069,8 +1069,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "unesco-associated-schools",
-    title: "ユネスコスクール（ASPnet）",
-    reading: "ゆねすこすくーる（えーえすぴーねっと）",
+    title: "ユネスコスクール",
+    reading: "ゆねすこすくーる",
     kana: "ゆ",
     categories: ["comparative"],
     summary:
@@ -1082,8 +1082,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "education-in-emergencies",
-    title: "緊急下教育（EiE）",
-    reading: "きんきゅうかきょういく（いーあいえー）",
+    title: "緊急下の教育（EiE）",
+    reading: "きんきゅうかのきょういく",
     kana: "き",
     categories: ["comparative"],
     summary:
@@ -1095,8 +1095,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "south-korea-hagwon-regulation",
-    title: "韓国の深夜塾規制と公教育正常化政策",
-    reading: "かんこくのしんやじゅくきせいとこうきょういくせいじょうかせいさく",
+    title: "韓国の深夜塾規制",
+    reading: "かんこくのしんやじゅくきせい",
     kana: "か",
     categories: ["comparative"],
     summary:
@@ -1108,8 +1108,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "japan-international-cooperation-education",
-    title: "JICAの基礎教育協力と授業研究支援",
-    reading: "じぇいかのかそきょういくきょうりょくとじゅぎょうけんきゅうしえん",
+    title: "JICA基礎教育協力",
+    reading: "じぇいかきそきょういくきょうりょく",
     kana: "A–Z",
     categories: ["comparative"],
     summary:
@@ -1122,7 +1122,7 @@ export const comparativeTerms: Term[] = [
   {
     slug: "european-qualifications-framework",
     title: "欧州資格枠組み（EQF）",
-    reading: "おうしゅうしかくわくぐみ（いーきゅーえふ）",
+    reading: "おうしゅうしかくわくぐみ",
     kana: "お",
     categories: ["comparative"],
     summary:
@@ -1134,8 +1134,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "global-education-cluster",
-    title: "教育クラスター（人道支援調整）",
-    reading: "きょういくくらすたー（じんどうしえんちょうせい）",
+    title: "教育クラスター（人道支援）",
+    reading: "きょういくくらすたー",
     kana: "き",
     categories: ["comparative"],
     summary:
@@ -1147,9 +1147,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "unesco-futures-of-education",
-    title: "ユネスコ『教育の未来』報告書",
-    reading: "ゆねすこ（きょういくのみらい）ほうこくしょ",
-    kana: "ゆ",
+    title: "教育の未来報告書",
+    reading: "きょういくのみらいほうこくしょ",
+    kana: "き",
     categories: ["comparative"],
     summary:
       "2021年にユネスコの国際委員会が公表した、気候変動や分断が進む世界において教育を共有財として再構想するための「新たな社会契約」提言書。",
@@ -1173,9 +1173,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "sweden-grundskola-comprehensive-school",
-    title: "スウェーデンの包括学校（グルンドスコーラ）",
-    reading: "すうぇーでんのほうかつがっこう（ぐるんどすこーら）",
-    kana: "す",
+    title: "グルンドスコーラ",
+    reading: "ぐるんどすこーら",
+    kana: "く",
     categories: ["comparative"],
     summary:
       "スウェーデンにおいて1962年に法制化された、7歳から16歳までの児童生徒が選抜なしに一貫して学ぶ9年制の義務教育包括学校制度。",
@@ -1186,8 +1186,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "norway-inclusive-education-system",
-    title: "ノルウェーの包括教育制度と連帯の精神",
-    reading: "のるうぇーのほうかつきょういくせいどとれんたいのせいしん",
+    title: "ノルウェー包括教育",
+    reading: "のるうぇーほうかつきょういく",
     kana: "の",
     categories: ["comparative"],
     summary:
@@ -1199,8 +1199,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "iceland-egalitarian-school-system",
-    title: "アイスランドの教育制度と徹底した平等主義",
-    reading: "あいすらんどのきょういくせいどとてっていしたびょうどうしゅぎ",
+    title: "アイスランド教育制度",
+    reading: "あいすらんどきょういくせいど",
     kana: "あ",
     categories: ["comparative"],
     summary:
@@ -1212,8 +1212,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "canada-provincial-educational-sovereignty",
-    title: "カナダの州主権教育制度（連邦教育省の不在）",
-    reading: "かなだのしゅうしゅけんきょういくせいど（れんぽうきょういくしょうのふざい）",
+    title: "カナダ州主権教育制度",
+    reading: "かなだしゅうしゅけんきょういくせいど",
     kana: "か",
     categories: ["comparative"],
     summary:
@@ -1225,9 +1225,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "canada-french-immersion-program",
-    title: "カナダのフレンチ・イマージョン教育プログラム",
-    reading: "かなだのふれんち・いまーじょんきょういくぷろぐらむ",
-    kana: "か",
+    title: "フレンチ・イマージョン",
+    reading: "ふれんちいまーじょん",
+    kana: "ふ",
     categories: ["comparative"],
     summary:
       "英語を母語とする児童生徒に対し、算数や社会などの教科学習をフランス語で行うことで高度な二言語併用能力を育成するカナダ発祥の教育手法。",
@@ -1238,8 +1238,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "australian-curriculum-acara-framework",
-    title: "オーストラリアの全国カリキュラム（ACARA）",
-    reading: "おーすとらりあのぜんこくかりきゅらむ（えーしーえーあーるえー）",
+    title: "オーストラリア全国教育課程",
+    reading: "おーすとらりあぜんこくきょういくかてい",
     kana: "お",
     categories: ["comparative"],
     summary:
@@ -1251,9 +1251,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "new-zealand-tomorrows-schools-reform",
-    title: "ニュージーランドの学校自治（明日の学校改革）",
-    reading: "にゅーじーらんどのがっこうじち（あすのがっこうかいかく）",
-    kana: "に",
+    title: "明日の学校改革",
+    reading: "あすのがっこうかいかく",
+    kana: "あ",
     categories: ["comparative"],
     summary:
       "1989年に断行された、教育行政の地方中間機関を廃止して各学校の保護者主体の理事会に運営権限を直接委譲した徹底的な学校自治改革。",
@@ -1264,8 +1264,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "switzerland-multilingual-cantonal-education",
-    title: "スイスの複言語教育と州主権教育制度",
-    reading: "すいすのふくげんごきょういくとしゅうしゅけんきょういくせいど",
+    title: "スイス複言語教育制度",
+    reading: "すいすふくげんごきょういくせいど",
     kana: "す",
     categories: ["comparative"],
     summary:
@@ -1277,8 +1277,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "austria-new-secondary-school-reform",
-    title: "オーストリアの分岐型学校制度と新中等学校改革",
-    reading: "おーすとりあのぶんきがたがっこうせいどとしんちゅうとうがっこうかいかく",
+    title: "オーストリア新中等学校",
+    reading: "おーすとりあしんちゅうとうがっこう",
     kana: "お",
     categories: ["comparative"],
     summary:
@@ -1290,8 +1290,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "netherlands-freedom-of-education-subsidy",
-    title: "オランダの教育の自由と公私完全無差別助成",
-    reading: "おらんだのきょういくのじゆうとこうしかんぜんむさべつじょせい",
+    title: "オランダ教育の自由制度",
+    reading: "おらんだきょういくのじゆうせいど",
     kana: "お",
     categories: ["comparative"],
     summary:
@@ -1303,8 +1303,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "belgium-linguistic-community-education",
-    title: "ベルギーの言語共同体別教育自治制度",
-    reading: "べるぎーのげんごきょうどうたいべつきょういくじちせいど",
+    title: "ベルギー言語共同体教育",
+    reading: "べるぎーげんごきょうどうたいきょういく",
     kana: "へ",
     categories: ["comparative"],
     summary:
@@ -1316,8 +1316,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "ireland-primary-secondary-school-system",
-    title: "アイルランドの初等・中等学校教育体系",
-    reading: "あいるらんどのしょとう・ちゅうとうがっこうきょういくたいけい",
+    title: "アイルランド教育体系",
+    reading: "あいるらんどきょういくたいけい",
     kana: "あ",
     categories: ["comparative"],
     summary:
@@ -1329,8 +1329,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "italy-integrazione-scolastica-inclusive",
-    title: "イタリアの完全インクルーシブ教育（養護学級廃止）",
-    reading: "いたりあのかんぜんいんくるーしぶきょういく（ようごがっきゅうはいし）",
+    title: "イタリア完全インクルーシブ",
+    reading: "いたりあかんぜんいんくるーしぶ",
     kana: "い",
     categories: ["comparative"],
     summary:
@@ -1342,9 +1342,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "spain-eso-compulsory-secondary-education",
-    title: "スペインの義務中等教育（ESO制度）",
-    reading: "すぺいんのぎむちゅうとうきょういく（いーえすおーせいど）",
-    kana: "す",
+    title: "ESO（スペイン義務中等教育）",
+    reading: "いーえすおー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "12歳から16歳までの前期中等教育を包括化し、早期選抜を排除して共通基礎教育と多様な進路探索を保障するスペインの義務教育制度。",
@@ -1355,9 +1355,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "portugal-teip-educational-priority-areas",
-    title: "ポルトガルの教育改革と優先教育領域制度",
-    reading: "ぽるとがるのきょういくかいかくとゆうせんきょういくりょういきせいど",
-    kana: "ほ",
+    title: "TEIP（ポルトガル優先領域）",
+    reading: "てぃーいーあいぴー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "社会経済的な困難を抱える地域の学校群を指定し、傾斜的な予算配分と福祉連携により教育格差の是正を図るポルトガルの重点支援政策。",
@@ -1368,9 +1368,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "estonia-digital-education-proge-tiiger",
-    title: "エストニアのデジタル教育推進（プログラミング）",
-    reading: "えすとにあのでじたるきょういくすいしん（ぷろぐらみんぐ）",
-    kana: "え",
+    title: "プロゲ・ティーゲル",
+    reading: "ぷろげてぃーげる",
+    kana: "ふ",
     categories: ["comparative"],
     summary:
       "国家の電子化戦略と連携し、初等教育の初期段階からプログラミングや論理的思考教育を全国展開したエストニアの革新的な教育施策。",
@@ -1381,8 +1381,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "poland-structural-education-reforms",
-    title: "ポーランドの中等教育再編と学力向上改革",
-    reading: "ぽーらんどのちゅうとうきょういくさいへんとがくりょくこうじょうかいかく",
+    title: "ポーランド中等教育改革",
+    reading: "ぽーらんどちゅうとうきょういくかいかく",
     kana: "ほ",
     categories: ["comparative"],
     summary:
@@ -1394,8 +1394,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "czech-republic-basic-school-system",
-    title: "チェコの基礎学校制度（9年制義務教育）",
-    reading: "ちぇこのきそがっこうせいど（きゅうねんせいぎむきょういく）",
+    title: "チェコ基礎学校制度",
+    reading: "ちぇこきそがっこうせいど",
     kana: "ち",
     categories: ["comparative"],
     summary:
@@ -1407,8 +1407,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "hungary-eight-grade-general-school",
-    title: "ハンガリーの一般学校制度と複線型中等教育",
-    reading: "はんがりーのいっぱんがっこうせいどとふくせんがたちゅうとうきょういく",
+    title: "ハンガリー一般学校制度",
+    reading: "はんがりーいっぱんがっこうせいど",
     kana: "は",
     categories: ["comparative"],
     summary:
@@ -1420,8 +1420,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "russia-eleven-year-general-education",
-    title: "ロシアの11年制普通教育学校体系",
-    reading: "ろしあのじゅういちねんせいふつうきょういくがっこうたいけい",
+    title: "ロシア普通教育学校制度",
+    reading: "ろしあふつうきょういくがっこうせいど",
     kana: "ろ",
     categories: ["comparative"],
     summary:
@@ -1433,8 +1433,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "china-nine-year-compulsory-education",
-    title: "中国の九年一貫義務教育制度の展開",
-    reading: "ちゅうごくのきゅうねんいっかんぎむきょういくせいどのてんかい",
+    title: "中国九年一貫義務教育",
+    reading: "ちゅうごくきゅうねんいっかんぎむきょういく",
     kana: "ち",
     categories: ["comparative"],
     summary:
@@ -1446,8 +1446,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "china-zhongkao-senior-high-exam",
-    title: "中国の中考（高級中学入試と文理分岐選抜）",
-    reading: "ちゅうごくのちゅうこう（こうきゅうちゅうがくにゅうしとぶんりぶんきせんばつ）",
+    title: "中考（中国高校入試）",
+    reading: "ちゅうこう",
     kana: "ち",
     categories: ["comparative"],
     summary:
@@ -1459,8 +1459,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "china-key-high-schools-vocational-ratio",
-    title: "中国の重点高校制度と普職比率規制政策",
-    reading: "ちゅうごくのじゅうてんこうこうせいどとふしょくひりつきせいせいさく",
+    title: "中国重点高校制度",
+    reading: "ちゅうごくじゅうてんこうこうせいど",
     kana: "ち",
     categories: ["comparative"],
     summary:
@@ -1472,9 +1472,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "hong-kong-hkdse-diploma-curriculum",
-    title: "香港の中学文憑試験（HKDSEカリキュラム）",
-    reading: "ほんこんのちゅうがくぶんぴょうしけん（えいちけーでぃーえすいーかりきゅらむ）",
-    kana: "ほ",
+    title: "HKDSE（香港文憑試験）",
+    reading: "えいちけーでぃーえすいー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "2012年に導入された、4教科の核心科目と多様な選択科目、校内評価を統合して学力を総合判定する香港の中等教育修了統一試験。",
@@ -1485,8 +1485,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "taiwan-twelve-year-basic-education",
-    title: "台湾の十二年国民基本教育と探究カリキュラム",
-    reading: "たいわんのじゅうにねんこくみんきほんきょういくとたんきゅうかりきゅらむ",
+    title: "台湾十二年国民基本教育",
+    reading: "たいわんじゅうにねんこくみんきほんきょういく",
     kana: "た",
     categories: ["comparative"],
     summary:
@@ -1498,9 +1498,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "taiwan-cap-junior-high-comprehensive-assessment",
-    title: "台湾の国中教育会考（評価基準と選抜制度）",
-    reading: "たいわんのこくちゅうきょういくかいこうひょうかきじゅんとせんばつせいど",
-    kana: "た",
+    title: "国中教育会考（台湾）",
+    reading: "こくちゅうきょういくかいこう",
+    kana: "こ",
     categories: ["comparative"],
     summary:
       "台湾の中学校修了段階で実施される標準化学力評価であり、点数序列化を是正して基準準拠評価を導入し、学習改善と高校入試の資料として活用される制度。",
@@ -1511,8 +1511,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "south-korea-free-semester-system-inquiry",
-    title: "韓国の自由学期制（試験を課さない探究学期）",
-    reading: "かんこくのじゆうがっきせいしけんをかさないたんきゅうがっき",
+    title: "韓国自由学期制",
+    reading: "かんこくじゆうがっきせい",
     kana: "か",
     categories: ["comparative"],
     summary:
@@ -1524,9 +1524,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "singapore-full-subject-based-banding",
-    title: "シンガポールの科目別複線化（FSBB改革）",
-    reading: "しんがぽーるのかもくべつふくせんかえふえすびーびーかいかく",
-    kana: "し",
+    title: "FSBB（科目別複線化）",
+    reading: "えふえすびーびー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "シンガポールの中等教育において生徒を一括選別する固定的なコース制を廃止し、科目ごとの習熟度に応じた履修と多様な生徒が共生する学級編制を両立させる改革。",
@@ -1537,8 +1537,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "malaysia-multilingual-national-type-schools",
-    title: "マレーシアの国民型学校と多民族共生教育",
-    reading: "まれーしあのこくみんがたがっこうとたみんぞくきょうせいきょういく",
+    title: "マレーシア国民型学校",
+    reading: "まれーしあこくみんがたがっこう",
     kana: "ま",
     categories: ["comparative"],
     summary:
@@ -1550,9 +1550,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "indonesia-madrasah-islamic-education-system",
-    title: "インドネシアのイスラム学校（マドラサ体系）",
-    reading: "いんどねしあのいすらむがっこうまどらさたいけい",
-    kana: "い",
+    title: "マドラサ体系（インドネシア）",
+    reading: "まどらさたいけい",
+    kana: "ま",
     categories: ["comparative"],
     summary:
       "インドネシアにおいて一般教科と宗教教育を統合し、国家統一基準を満たしながら公教育と同等の進学資格を付与する、宗教省管轄の公的イスラム学校教育体系。",
@@ -1563,8 +1563,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "thailand-basic-education-core-curriculum",
-    title: "タイの基礎教育中核カリキュラム構造",
-    reading: "たいのきそきょういくちゅうかくかりきゅらむこうぞう",
+    title: "タイ基礎教育中核課程",
+    reading: "たいきそきょういくちゅうかくかてい",
     kana: "た",
     categories: ["comparative"],
     summary:
@@ -1576,8 +1576,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "vietnam-fundamental-comprehensive-education-reform",
-    title: "ベトナムの根本的・包括的教育改革方針",
-    reading: "べとなむのこんぽんてきほうかつてききょういくかいかくほうしん",
+    title: "ベトナム根本的教育改革",
+    reading: "べとなむこんぽんてききょういくかいかく",
     kana: "へ",
     categories: ["comparative"],
     summary:
@@ -1589,8 +1589,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "philippines-k-twelve-basic-education-reform",
-    title: "フィリピンのK-12教育改革（中等後2年新設）",
-    reading: "ふぃりぴんのけーじゅうにきょういくかいかくちゅうとうごにねんしんせつ",
+    title: "フィリピンK-12改革",
+    reading: "ふぃりぴんけーじゅうにかいかく",
     kana: "ふ",
     categories: ["comparative"],
     summary:
@@ -1602,9 +1602,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "india-sarva-shiksha-abhiyan-universal",
-    title: "インドの全人民教育運動（初等教育完全普及）",
-    reading: "いんどのぜんじんみんきょういくうんどうしょとうきょういくかんぜんふきゅう",
-    kana: "い",
+    title: "全人民教育運動（SSA）",
+    reading: "ぜんじんみんきょういくうんどう",
+    kana: "せ",
     categories: ["comparative"],
     summary:
       "インドにおいて初等教育の完全無償普及を掲げ、学校新設や教員配置、周縁層の就学支援を包括的に進めて教育権利法の基礎を築いた連邦政府の旗艦プログラム。",
@@ -1615,8 +1615,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "pakistan-dual-education-access-challenges",
-    title: "パキスタンの基礎教育格差と公私複線型構造",
-    reading: "ぱきすたんのきそきょういくかくさとこうしふくせんがたこうぞう",
+    title: "パキスタン基礎教育制度",
+    reading: "ぱきすたんきそきょういくせいど",
     kana: "は",
     categories: ["comparative"],
     summary:
@@ -1628,9 +1628,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "bangladesh-brac-non-formal-primary-schools",
-    title: "バングラデシュのBRAC非公式初等教育モデル",
-    reading: "ばんぐらでしゅのびーあーるえーしーひこうしきしょとうきょういくもでる",
-    kana: "は",
+    title: "BRAC初等学校モデル",
+    reading: "びーあーるえーしーしょとうがっこうもでる",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "バングラデシュの国際NGOが貧困層や未就学児を対象に開発した、村落密着型の少人数制と地域女性教員による実践的な非公式初等教育システム。",
@@ -1641,8 +1641,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "south-africa-post-apartheid-curriculum-reforms",
-    title: "南アフリカのアパルトヘイト後教育再編",
-    reading: "みなみあふりかのあぱるとへいとごきょういくさいへん",
+    title: "南アフリカポスト教育再編",
+    reading: "みなみあふりかぽすときょういくさいへん",
     kana: "み",
     categories: ["comparative"],
     summary:
@@ -1654,8 +1654,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "kenya-competency-based-curriculum-transition",
-    title: "ケニアのコンピテンシー基盤カリキュラム改革",
-    reading: "けにあのごんぴてんしーきばんかりきゅらむかいかく",
+    title: "ケニア能力基盤教育課程",
+    reading: "けにあのうりょくきばんきょういくかてい",
     kana: "け",
     categories: ["comparative"],
     summary:
@@ -1667,9 +1667,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "rwanda-smart-classroom-ict-transformation",
-    title: "ルワンダのスマート・クラスルーム構想",
-    reading: "るわんだのすまーとくらするーむこうそう",
-    kana: "る",
+    title: "スマート・クラスルーム構想",
+    reading: "すまーとくらするーむこうそう",
+    kana: "す",
     categories: ["comparative"],
     summary:
       "ルワンダにおいて知識集約型経済への飛躍を目指し、全国の初等中等学校にデジタル機器や通信環境を網羅的に整備して授業革新を推進する国家主導の教育構想。",
@@ -1680,9 +1680,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "brazil-ideb-basic-education-quality-index",
-    title: "ブラジルの基礎教育開発指数（IDEB指標）",
-    reading: "ぶらじるのきそきょういくかいはつしすうあいでぃーいーびーしひょう",
-    kana: "ふ",
+    title: "IDEB（ブラジル教育指数）",
+    reading: "あいでぃーいーびー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "ブラジルにおいて標準化テストの学力水準と留年率や進級率を統合して数値化し、学校や自治体の教育成果を測定・改善するために創設された総合的品質指標。",
@@ -1693,9 +1693,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "mexico-telesecundaria-rural-distance-education",
-    title: "メキシコのテレビ中学校（遠隔中等教育網）",
-    reading: "めきしこのてれびちゅうがっこうえんかくちゅうとうきょういくもう",
-    kana: "め",
+    title: "テレセクンダリア（メキシコ）",
+    reading: "てれせくんだりあ",
+    kana: "て",
     categories: ["comparative"],
     summary:
       "メキシコにおいて過疎地や山岳地域の生徒の中等教育を受ける権利を保障するため、衛星放送や映像教材と単任の指導員を活用して構築された公立遠隔教育体系。",
@@ -1706,8 +1706,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "chile-voucher-reform-inclusion-law",
-    title: "チリの教育バウチャー改革とインクルージョン法",
-    reading: "ちりのきょういくばうちゃーかいかくいんくるーじょんほう",
+    title: "チリ教育バウチャー制度",
+    reading: "ちりきょういくばうちゃーせいど",
     kana: "ち",
     categories: ["comparative"],
     summary:
@@ -1719,9 +1719,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-head-start-long-term-trajectory",
-    title: "アメリカのヘッドスタート計画の長期的効果検証",
-    reading: "あめりかのへっどすたーとけいかくのちょうきてきこうかけんしょう",
-    kana: "あ",
+    title: "ヘッドスタート効果検証",
+    reading: "へっどすたーとこうかけんしょう",
+    kana: "へ",
     categories: ["comparative"],
     summary:
       "アメリカの貧困層幼児を対象とする総合的早期介入プログラムであり、成人期に至る学歴や就労、健康への長期的な効果が実証された公的教育施策。",
@@ -1732,9 +1732,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-magnet-schools-racial-integration",
-    title: "アメリカのマグネットスクールと特色教育実践",
-    reading: "あめりかのまぐねっとすくーるととくしょくきょういくじっせん",
-    kana: "あ",
+    title: "マグネットスクール",
+    reading: "まぐねっとすくーる",
+    kana: "ま",
     categories: ["comparative"],
     summary:
       "アメリカにおいて人種隔離の解消と公立校の魅力向上を目的に創設され、科学や芸術などの高度な特色カリキュラムで多様な生徒を引きつける公立学校制度。",
@@ -1745,9 +1745,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-title-one-funding-disadvantaged-schools",
-    title: "アメリカの連邦補助金タイトルワンの配分構造",
-    reading: "あめりかのれんぽうほじょきんたいとるわんのはいぶんこうぞう",
-    kana: "あ",
+    title: "タイトルワン（連邦補助金）",
+    reading: "たいとるわん",
+    kana: "た",
     categories: ["comparative"],
     summary:
       "アメリカの初等中等教育法に基づき、貧困家庭の児童生徒が集中する学校や学区に対して重点的に連邦資金を投入し、教育の機会均等と学力向上を図る財政支援制度。",
@@ -1758,9 +1758,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-idea-individualized-education-program",
-    title: "アメリカの障害者教育法（IDEAと個別のIEP）",
-    reading: "あめりかのしょうがいしゃきょういくほうあいでぃーいーえーとこべつのあいいーぴー",
-    kana: "あ",
+    title: "個別教育計画（IEP）",
+    reading: "こべつきょういくけいかく",
+    kana: "こ",
     categories: ["comparative"],
     summary:
       "アメリカにおいて障害のある児童生徒への無償で適切な公教育を法定義務づけ、最も制限の少ない環境での個別教育計画の策定を保障する連邦法制度。",
@@ -1771,9 +1771,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-homeschooling-legal-framework-support",
-    title: "アメリカのホームスクーリングの法的保障実態",
-    reading: "あめりかのほーむすくーりんぐのほうてきほしょうじったい",
-    kana: "あ",
+    title: "米国ホームスクーリング",
+    reading: "べいこくほーむすくーりんぐ",
+    kana: "へ",
     categories: ["comparative"],
     summary:
       "アメリカにおいて学校に通学せず家庭を拠点に親や指導者が教育を行う権利が全米各州で法認され、多様な学習支援ネットワークによって支えられている教育形態。",
@@ -1784,8 +1784,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-advanced-placement-college-credit",
-    title: "アメリカのアドバンスト・プレイスメント制度",
-    reading: "あめりかのあどばんすとぷれいすめんとせいど",
+    title: "アドバンスト・プレイスメント",
+    reading: "あどばんすとぷれいすめんと",
     kana: "あ",
     categories: ["comparative"],
     summary:
@@ -1797,9 +1797,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "usa-stem-steam-national-education-policy",
-    title: "アメリカの連邦STEM・STEAM推進戦略",
-    reading: "あめりかのれんぽうえすてぃーいーえむすてぃーむすいしんせんりゃく",
-    kana: "あ",
+    title: "連邦STEM推進戦略",
+    reading: "れんぽうすてむすいしんせんりゃく",
+    kana: "れ",
     categories: ["comparative"],
     summary:
       "アメリカ連邦政府が科学技術イノベーションと産業競争力の発展を目指し、科学、技術、工学、芸術、数学の統合的教育を包括的に推進する国家戦略政策。",
@@ -1810,9 +1810,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "uk-key-stage-national-assessment-sats",
-    title: "イギリスのキーステージ学力検査（SATs）",
-    reading: "いぎりすのきーすてーじがくりょくけんささっつ",
-    kana: "い",
+    title: "SATs（英国学力検査）",
+    reading: "さっつ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "イギリスの義務教育において学年段階ごとに実施される全国標準化学力検査であり、国の学習目標への到達度測定と学校評価の基礎資料として活用される制度。",
@@ -1823,9 +1823,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "uk-ofsted-school-inspection-framework",
-    title: "イギリスの教育水準監査局（Ofsted査察）",
-    reading: "いぎりすのきょういくすいじゅんかんさきょくおふすてっどささつ",
-    kana: "い",
+    title: "Ofsted（英国教育水準局）",
+    reading: "おふすてっど",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "イギリスにおいて学校の教育水準や児童生徒の安全管理体制を客観的に評価し、教育の質保証と改善を促す独立機関による外部査察制度。",
@@ -1836,9 +1836,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "uk-free-schools-community-state-funded",
-    title: "イギリスのフリースクール（公設民営学校制度）",
-    reading: "いぎりすのふりーすくーるこうせつみんえいがっこうせいど",
-    kana: "い",
+    title: "フリースクール（英国制度）",
+    reading: "ふりーすくーる",
+    kana: "ふ",
     categories: ["comparative"],
     summary:
       "イギリスにおいて教員や保護者などの地域住民が政府から直接資金提供を受けて設置・運営する、高い自律性を持つ公設民営学校制度。",
@@ -1849,9 +1849,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "uk-public-schools-independent-elite-tradition",
-    title: "イギリスの名門私立学校（パブリックスクール）",
-    reading: "いぎりすのめいもんしりつがっこうぱぶりっくすくーる",
-    kana: "い",
+    title: "パブリックスクール（英国）",
+    reading: "ぱぶりっくすくーる",
+    kana: "は",
     categories: ["comparative"],
     summary:
       "イギリスにおいて長い歴史と独自の寄宿制教育を持ち、高度な学力育成と指導者層の育成を担ってきた伝統的な名門独立私立中等学校。",
@@ -1862,9 +1862,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "uk-sixth-form-further-education-pathways",
-    title: "イギリスのシックスス・フォーム（大学進学課程）",
-    reading: "いぎりすのしっくすすふぉーむだいがくしんがくかてい",
-    kana: "い",
+    title: "シックスス・フォーム",
+    reading: "しっくすすふぉーむ",
+    kana: "し",
     categories: ["comparative"],
     summary:
       "イギリスの後期中等教育において、大学進学資格試験であるAレベル等の取得を目指して二年間集中的に学習を行う教育課程。",
@@ -1875,9 +1875,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "uk-t-levels-technical-qualifications-reform",
-    title: "イギリスのTレベル（新技術職業資格制度）",
-    reading: "いぎりすのてぃーれべるしんぎじゅつしょくぎょうしかくせいど",
-    kana: "い",
+    title: "Tレベル（英国職業資格）",
+    reading: "てぃーれべる",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "イギリスの後期中等教育において、高度な専門技術の習得と産業界での長期実習を組み合わせた新しい技術系職業資格教育制度。",
@@ -1888,9 +1888,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "germany-grundschule-early-tracking-debate",
-    title: "ドイツの基礎学校（グルントシューレの分岐論）",
-    reading: "どいつのきそがっこうぐるんとしゅーれのぶんきろん",
-    kana: "と",
+    title: "グルントシューレ",
+    reading: "ぐるんとしゅーれ",
+    kana: "く",
     categories: ["comparative"],
     summary:
       "ドイツの初等教育を担う基礎学校において、第4学年修了時に生徒の進路が複線型の中等学校へと早期に分岐する仕組みと課題。",
@@ -1901,9 +1901,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "germany-hauptschule-restructuring-merger",
-    title: "ドイツの本課程学校（ハウプトシューレの再編）",
-    reading: "どいつのほんかていがっこうはうぷとしゅーれのさいへん",
-    kana: "と",
+    title: "ハウプトシューレ",
+    reading: "はうぷとしゅーれ",
+    kana: "は",
     categories: ["comparative"],
     summary:
       "ドイツの伝統的な複線型中等教育において、基礎的教養と職業教育を担ってきた本課程学校が直面する生徒減少と学校統廃合の動向。",
@@ -1914,9 +1914,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "germany-realschule-technical-commercial",
-    title: "ドイツの実科学校（レアールシューレの実践性）",
-    reading: "どいつのじっかがっこうれあーるしゅーれのじっせんせい",
-    kana: "と",
+    title: "レアールシューレ",
+    reading: "れあーるしゅーれ",
+    kana: "れ",
     categories: ["comparative"],
     summary:
       "ドイツの中等教育において、理論的教養と実践的な専門実務教育を両立させ、中堅技術者や事務職の養成を目指す学校制度。",
@@ -1927,9 +1927,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "germany-abitur-gymnasium-graduation-qualification",
-    title: "ドイツのアビトゥーア（大学入学資格試験）",
-    reading: "どいつのあびとぅーあだいがくにゅうがくしかくしけん",
-    kana: "と",
+    title: "アビトゥーア",
+    reading: "あびとぅーあ",
+    kana: "あ",
     categories: ["comparative"],
     summary:
       "ドイツのギムナジウム等の修了時に課され、大学進学資格を証明するとともに高度な一般的教養の習得を判定する国家統一的試験制度。",
@@ -1940,9 +1940,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "germany-berufsschule-dual-vocational-system",
-    title: "ドイツの職業学校（ベルーフスシューレの構造）",
-    reading: "どいつのしょくぎょうがっこうべるーふすしゅーれのこうぞう",
-    kana: "と",
+    title: "ベルーフスシューレ",
+    reading: "べるーふすしゅーれ",
+    kana: "へ",
     categories: ["comparative"],
     summary:
       "ドイツの伝統的なデュアルシステムにおいて、企業での実務訓練と並行して週に数日通学し、理論と教養を学ぶ公立職業学校制度。",
@@ -1953,9 +1953,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "france-ecole-maternelle-early-socialization",
-    title: "フランスの母性学校（エコール・マテルネル）",
-    reading: "ふらんすのぼせいがっこうえこーるまてるねる",
-    kana: "ふ",
+    title: "エコール・マテルネル",
+    reading: "えこーるまてるねる",
+    kana: "え",
     categories: ["comparative"],
     summary:
       "フランスにおいて3歳から5歳までの全幼児を対象とし、無償の公教育として基礎的社会化と言語発達を支援する就学前教育機関。",
@@ -1966,9 +1966,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "france-ecole-elementaire-five-year-cycle",
-    title: "フランスの初等学校（5年制の教科学習体系）",
-    reading: "ふらんすのしょとうがっこうごねんせいのきょうかがくしゅうたいけい",
-    kana: "ふ",
+    title: "エコール・エレメンテール",
+    reading: "えこーるえれめんてーる",
+    kana: "え",
     categories: ["comparative"],
     summary:
       "フランスにおいて6歳から11歳までの児童を対象とし、基礎的な知識習得と論理的思考力を養成する5年間の義務教育初等学校制度。",
@@ -1979,9 +1979,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "france-lycee-general-technologique-professionnel",
-    title: "フランスの後期中等学校（リセの3類型構造）",
-    reading: "ふらんすのこうきちゅうとうがっこうりせのさんるいけいこうぞう",
-    kana: "ふ",
+    title: "リセ（フランス後期中等学校）",
+    reading: "りせ",
+    kana: "り",
     categories: ["comparative"],
     summary:
       "フランスの後期中等教育において、普通科・技術科・職業科の3類型に分かれ、多様な進路選択と専門資格取得を保障する学校制度。",
@@ -1992,9 +1992,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "france-priority-education-networks-rep",
-    title: "フランスの教育優先ネットワーク（REP政策）",
-    reading: "ふらんすのきょういくゆうせんねっとわーくあーるいーぴーせいさく",
-    kana: "ふ",
+    title: "REP（優先教育ネットワーク）",
+    reading: "あーるいーぴー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "社会的・経済的に不利な地域の学校群に重点的に予算や教員を配分し、教育格差の是正と学力保障を目指すフランスの教育支援政策。",
@@ -2005,9 +2005,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "france-capes-agregation-teacher-competition",
-    title: "フランスの教員選抜国家試験（アグレガシオン）",
-    reading: "ふらんすのきょういんせんばつこっかしけんあぐれがしおん",
-    kana: "ふ",
+    title: "アグレガシオン（仏教員資格）",
+    reading: "あぐれがしおん",
+    kana: "あ",
     categories: ["comparative"],
     summary:
       "フランスの中等・高等教育教員を採用するために実施される、高度な学術的専門性と指導力を厳格に審査する国家競争試験制度。",
@@ -2018,9 +2018,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "unesco-learning-treasure-within-four-pillars",
-    title: "ユネスコ『学びの宝』報告書（4つの柱理念）",
-    reading: "ゆねすこまなびのたからほうこくしょよっつのはしらりねん",
-    kana: "ゆ",
+    title: "学びの宝（ドロール報告）",
+    reading: "まなびのたから",
+    kana: "ま",
     categories: ["comparative"],
     summary:
       "ユネスコの国際教育委員会が提唱した、生涯学習の基盤となる知る学習・為す学習・共に生きる学習・人間として生きる学習の4本柱。",
@@ -2031,9 +2031,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "unesco-learning-to-be-faure-report",
-    title: "ユネスコ『生きるための学習』（フォール報告）",
-    reading: "ゆねすこいきるためのがくしゅうふぉーるほうこく",
-    kana: "ゆ",
+    title: "生きるための学習（フォール報告）",
+    reading: "いきるためのがくしゅう",
+    kana: "い",
     categories: ["comparative"],
     summary:
       "ユネスコが刊行した報告書において、生涯教育の理念と「学習社会」の構築を国際的に提言し、全人的人間形成の重要性を説いた指針。",
@@ -2044,9 +2044,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "unesco-world-heritage-education-program",
-    title: "ユネスコ世界遺産教育（WHE国際学習活動）",
-    reading: "ゆねすこせかいいさんきょういくだぶりゅーえいちいーこくさいがくしゅうかつどう",
-    kana: "ゆ",
+    title: "世界遺産教育（WHE）",
+    reading: "せかいいさんきょういく",
+    kana: "せ",
     categories: ["comparative"],
     summary:
       "世界遺産の保護や文化・自然の多様性理解を通じて、青少年の国際協調精神と持続可能な社会への参画意識を育むユネスコの教育活動。",
@@ -2057,9 +2057,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "un-principles-for-responsible-management-prme",
-    title: "責任ある経営教育原則（PRME国際イニシアチブ）",
-    reading: "せきにんあるけいえいきょういくげんそくぴーあーるえむいーこくさいいにしあちぶ",
-    kana: "せ",
+    title: "PRME（責任経営教育原則）",
+    reading: "ぴーあーるえむいー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "国連が主導し、ビジネススクールや高等教育機関において持続可能性や社会的責任、倫理的価値観を組み込んだ教育を推進する原則。",
@@ -2070,8 +2070,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "oecd-talis-teaching-learning-analysis",
-    title: "OECD国際指導環境調査（TALIS分析枠組み）",
-    reading: "おーいーしーでぃーこくさいしどうかんきょうちょうさたりすぶんせきわくぐみ",
+    title: "TALIS分析枠組み",
+    reading: "たりすぶんせきわくぐみ",
     kana: "A–Z",
     categories: ["comparative"],
     summary:
@@ -2083,9 +2083,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "oecd-pisa-for-development-capacity-building",
-    title: "開発途上国のためのPISA調査（PISA-D）",
-    reading: "かいはつとじょうこくのためのぴざちょうさぴざでぃー",
-    kana: "か",
+    title: "PISA-D（開発途上国PISA）",
+    reading: "ぴざでぃー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "OECDが低・中所得国の文脈に合わせてPISA調査を適応させ、途上国の教育測定能力向上とエビデンスに基づく教育政策立案を支援する事業。",
@@ -2096,8 +2096,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "oecd-social-emotional-skills-study-sses",
-    title: "OECD社会情動的スキル調査（SSES指標）",
-    reading: "おーいーしーでぃーしゃかいじょうどうてきすきるちょうさえすえすいーえすしひょう",
+    title: "SSES（社会情動スキル調査）",
+    reading: "えすえすいーえす",
     kana: "A–Z",
     categories: ["comparative"],
     summary:
@@ -2109,9 +2109,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "world-bank-saber-education-systems-benchmarking",
-    title: "世界銀行SABER（教育システム評価枠組み）",
-    reading: "せかいぎんこうせーばーきょういくしすてむひょうかわくぐみ",
-    kana: "せ",
+    title: "SABER（世界銀行評価）",
+    reading: "せーばー",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "世界銀行が開発した、各国の教育政策や制度の運用状況を標準化された指標で客観的に評価・比較し、教育システムの基盤強化を支援する枠組み。",
@@ -2122,9 +2122,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "girls-education-advocacy-malala-fund",
-    title: "途上国女子教育支援運動と教育権擁護活動",
-    reading: "とじょうこくじょしきょういくしえんうんどうときょういくけんようごかつどう",
-    kana: "と",
+    title: "女子教育支援運動",
+    reading: "じょしきょういくしえんうんどう",
+    kana: "し",
     categories: ["comparative"],
     summary:
       "途上国におけるジェンダー不平等の解消とすべての女子への質の高い無償教育の普及を目指し、国際世論の喚起と制度改革を進める擁護活動。",
@@ -2135,8 +2135,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "south-south-triangular-education-cooperation",
-    title: "南南協力・三角協力による教育開発支援モデル",
-    reading: "なんなんきょうりょくさんかくきょうりょくによるきょういくかいはつしえんもでる",
+    title: "南南協力教育支援",
+    reading: "なんなんきょうりょくきょういくしえん",
     kana: "な",
     categories: ["comparative"],
     summary:
@@ -2148,9 +2148,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "asem-education-ministers-meeting-dialogue",
-    title: "アジア欧州会合教育大臣会合と高等教育連携",
-    reading: "あじあおうしゅうかいごうきょういくだいじんかいごうとこうとうきょういくれんけい",
-    kana: "あ",
+    title: "ASEM教育大臣会合",
+    reading: "あせむきょういくだいじんかいごう",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "アジアと欧州の教育担当大臣が集い、高等教育の質保証や単位互換の枠組み構築、学生の双方向移動を促進するために定期的に開催される対話の枠組み。",
@@ -2161,9 +2161,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "seameo-regional-education-centre-collaboration",
-    title: "東南アジア教育大臣機構（SEAMEO地域協力）",
-    reading: "とうなんあじあきょういくだいじんきこうしーめおちいききょうりょく",
-    kana: "と",
+    title: "SEAMEO（東南アジア教育）",
+    reading: "しーめお",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "東南アジア諸国の教育、科学、文化の発展と地域協力を目指して設立され、専門分野別の地域センターを通じて教員研修や教育開発を推進する国際機構。",
@@ -2174,9 +2174,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "african-union-continental-education-strategy",
-    title: "アフリカ連合大陸教育戦略（CESAフレームワーク）",
-    reading: "あふりかれんごうたいりくきょういくせんりゃくせさふれーむわーく",
-    kana: "あ",
+    title: "CESA（アフリカ教育戦略）",
+    reading: "せさ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "アフリカ連合が大陸全体の持続可能な発展と統合を目指し、教員の資質向上や科学技術教育の充実を掲げて策定した包括的な教育開発計画。",
@@ -2187,8 +2187,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "cross-cultural-fairness-international-testing",
-    title: "国際学力調査における文化的公平性の検証論",
-    reading: "こくさいがくりょくちょうさにおけるぶんかてきこうへいせいのけんしょうろん",
+    title: "国際学力調査の文化公平性",
+    reading: "こくさいがくりょくちょうさのぶんかこうへいせい",
     kana: "こ",
     categories: ["comparative"],
     summary:
@@ -2200,8 +2200,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "global-education-governance-international-agencies",
-    title: "国際機関による教育のグローバル・ガバナンス",
-    reading: "こくさいきかんによるきょういくのぐろーばるがばなんす",
+    title: "国際教育ガバナンス",
+    reading: "こくさいきょういくがばなんす",
     kana: "こ",
     categories: ["comparative"],
     summary:
@@ -2213,9 +2213,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "global-education-reform-movement-germ-critique",
-    title: "地球規模の教育改革運動批判（GERM現象論）",
-    reading: "ちきゅうきぼのきょういくかいかくうんどうひはんじゃーむげんしょうろん",
-    kana: "ち",
+    title: "GERM（教育改革運動批判）",
+    reading: "じゃーむ",
+    kana: "A–Z",
     categories: ["comparative"],
     summary:
       "市場原理やテストによる説明責任、標準化を重視する世界的な教育改革の波が教育の画一化と格差拡大を招くとする批判的理論。",
@@ -2226,9 +2226,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "national-curriculum-standardization-trends",
-    title: "ナショナル・カリキュラムの国際的標準化傾向",
-    reading: "なしょなるかりきゅらむのこくさいてきひょうじゅんかけいこう",
-    kana: "な",
+    title: "国定教育課程の国際標準化",
+    reading: "こくていきょういくかていのこくさいひょうじゅんか",
+    kana: "こ",
     categories: ["comparative"],
     summary:
       "各国の教育課程基準が、資質能力や汎用的スキルの育成を軸に国際的に共通化・収束していく現象とその課題を分析する動向。",
@@ -2239,8 +2239,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "teacher-evaluation-systems-international-comparison",
-    title: "教員評価システムの国際比較（米英仏中の動向）",
-    reading: "きょういんひょうかしすてむのこくさいひかくべいえいふつちゅうのどうこう",
+    title: "教員評価システムの国際比較",
+    reading: "きょういんひょうかしすてむのこくさいひかく",
     kana: "き",
     categories: ["comparative"],
     summary:
@@ -2252,8 +2252,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "teacher-licensing-masters-level-comparison",
-    title: "教員養成修士化の国際動向と免許制度改革",
-    reading: "きょういんようせいしゅうしかのこくさいどうこうとめんきょせいどかいかく",
+    title: "教員養成修士化の国際動向",
+    reading: "きょういんようせいしゅうしかのこくさいどうこう",
     kana: "き",
     categories: ["comparative"],
     summary:
@@ -2265,8 +2265,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "school-choice-school-district-international",
-    title: "学校選択制と通学区制度の国際比較分析",
-    reading: "がっこうせんたくせいとつうがくくせいどのこくさいひかくぶんせき",
+    title: "学校選択制の国際比較",
+    reading: "がっこうせんたくせいのこくさいひかく",
     kana: "か",
     categories: ["comparative"],
     summary:
@@ -2278,8 +2278,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "college-entrance-examinations-international",
-    title: "大学選抜試験制度の国際比較（適性と学力検査）",
-    reading: "だいがくせんばつしけんせいどのこくさいひかくてきせいとがくりょくけんさ",
+    title: "大学入学者選抜の国際比較",
+    reading: "だいがくにゅうがくしゃせんばつのこくさいひかく",
     kana: "た",
     categories: ["comparative"],
     summary:
@@ -2291,8 +2291,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "public-funding-private-schools-international",
-    title: "私立学校に対する公費助成の国際制度比較",
-    reading: "しりつがっこうにたいするこうひじょせいのこくさいせいどひかく",
+    title: "私立校公費助成の国際比較",
+    reading: "しりつこうこうひじょせいのこくさいひかく",
     kana: "し",
     categories: ["comparative"],
     summary:
@@ -2304,8 +2304,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "preschool-compulsory-education-global-trends",
-    title: "就学前教育義務化の国際的拡大動向と課題",
-    reading: "しゅうがくぜんきょういくぎむかのこくさいてきかくだいどうこうとかだい",
+    title: "就学前教育義務化の動向",
+    reading: "しゅうがくぜんきょういくぎむかのどうこう",
     kana: "し",
     categories: ["comparative"],
     summary:
@@ -2317,8 +2317,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "compulsory-education-duration-global-expansion",
-    title: "義務教育年限延長の国際動向（12年制化の潮流）",
-    reading: "ぎむきょういくねんげんえんちょうのこくさいどうこうじゅうにねんせいかのちょうりゅう",
+    title: "義務教育年限延長の国際動向",
+    reading: "ぎむきょういくねんげんえんちょうのこくさいどうこう",
     kana: "き",
     categories: ["comparative"],
     summary:
@@ -2330,8 +2330,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "grade-skipping-retention-international-practice",
-    title: "飛び級制度と原級留置（落第）の国際運用比較",
-    reading: "とびきゅうせいどとげんきゅうりゅうちらくだいのこくさいうんようひかく",
+    title: "飛び級と原級留置の国際比較",
+    reading: "とびきゅうとげんきゅうりゅうちのこくさいひかく",
     kana: "と",
     categories: ["comparative"],
     summary:
@@ -2343,8 +2343,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "indigenous-language-education-revitalization",
-    title: "先住民族言語復興教育と文化権保障の国際動向",
-    reading: "せんじゅうみんぞくげんごふっこうきょういくとぶんかけんほしょうのこくさいどうこう",
+    title: "先住民族言語復興教育",
+    reading: "せんじゅうみんぞくげんごふっこうきょういく",
     kana: "せ",
     categories: ["comparative"],
     summary:
@@ -2356,9 +2356,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "immigrant-reception-classes-integration-europe",
-    title: "欧州における移民・難民児童の初期統合学級",
-    reading: "おうしゅうにおけるいみんなんみんじどうのしょきとうごうがっきゅう",
-    kana: "お",
+    title: "移民児童初期統合学級",
+    reading: "いみんじどうしょきとうごうがっきゅう",
+    kana: "い",
     categories: ["comparative"],
     summary:
       "移住や避難に伴い新たに受け入れられた児童生徒に対し、公用語の集中指導や心理的支援を行い通常学級への円滑な移行を図る初期支援体制。",
@@ -2369,8 +2369,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "english-immersion-bilingual-development-models",
-    title: "英語イマージョン教育の国際的展開と二言語習得",
-    reading: "えいごいまーじょんきょういくのこくさいてきてんかいとにげんごしゅうとく",
+    title: "英語イマージョン教育モデル",
+    reading: "えいごいまーじょんきょういくもでる",
     kana: "え",
     categories: ["comparative"],
     summary:
@@ -2382,9 +2382,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "clil-content-language-integrated-learning-europe",
-    title: "内容言語統合型学習（欧州におけるCLIL展開）",
-    reading: "ないようげんごとうごうがたがくしゅうおうしゅうにおけるくりるてんかい",
-    kana: "な",
+    title: "欧州CLIL教育実践",
+    reading: "おうしゅうくりるきょういくじっせん",
+    kana: "お",
     categories: ["comparative"],
     summary:
       "教科内容の深い理解と言語習得、思考力と異文化理解の四要素を統合し、複言語主義を支える指導法として欧州で発展した学習アプローチ。",
@@ -2395,8 +2395,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "ib-diploma-programme-dp-curriculum-structure",
-    title: "国際バカロレア・ディプロマ（DPカリキュラム）",
-    reading: "こくさいばかろれあでぃぷろまでぃーぴーかりきゅらむ",
+    title: "国際バカロレア・ディプロマ",
+    reading: "こくさいばかろれあでぃぷろま",
     kana: "こ",
     categories: ["comparative"],
     summary:
@@ -2408,8 +2408,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "ib-career-related-programme-cp-framework",
-    title: "国際バカロレア・キャリア関連（CPの特性）",
-    reading: "こくさいばかろれあきゃりあかんれんしーぴーのとくせい",
+    title: "国際バカロレア・キャリア関連",
+    reading: "こくさいばかろれあきゃりあかんれん",
     kana: "こ",
     categories: ["comparative"],
     summary:
@@ -2421,8 +2421,8 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "international-education-indicators-benchmarking",
-    title: "国際教育指標の政策的活用とベンチマーキング",
-    reading: "こくさいきょういくしひょうのせいさくてきかつようとべんちまーきんぐ",
+    title: "国際教育指標ベンチマーク",
+    reading: "こくさいきょういくしひょうべんちまーく",
     kana: "こ",
     categories: ["comparative"],
     summary:
@@ -2434,9 +2434,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "postcolonial-approaches-comparative-education",
-    title: "比較教育学におけるポストコロニアル的探究",
-    reading: "ひかくきょういくがくにおけるぽすところにあるてきたんきゅう",
-    kana: "ひ",
+    title: "ポストコロニアル比較教育論",
+    reading: "ぽすところにあるひかくきょういくろん",
+    kana: "ほ",
     categories: ["comparative"],
     summary:
       "欧米中心主義的な教育理論や制度移植の歴史的権力構造を批判し、脱植民地化と地域固有の知の復権を目指す比較教育学の理論的視座。",
@@ -2447,9 +2447,9 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "comparative-education-qualitative-ethnography",
-    title: "比較教育学における質的・文化記述的アプローチ",
-    reading: "ひかくきょういくがくにおけるしつてきぶんかきじゅつてきあぷろーち",
-    kana: "ひ",
+    title: "質的文化記述比較教育学",
+    reading: "しつてきぶんかきじゅつひかくきょういくがく",
+    kana: "し",
     categories: ["comparative"],
     summary:
       "統計的な数値比較にとどまらず、参与観察や詳細な記録を通じて学校現場の文化的文脈や日常実践の意味を解明する比較教育学の研究手法。",
