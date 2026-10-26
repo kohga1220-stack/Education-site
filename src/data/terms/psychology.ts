@@ -1121,8 +1121,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "serial-position-effect",
-    title: "系列位置効果（初頭効果・親近効果）",
-    reading: "けいれついちはんてい（しょとうこうか・しんきんこうか）",
+    title: "系列位置効果",
+    reading: "けいれついちこうか",
     kana: "け",
     categories: ["psychology"],
     summary:
@@ -1147,8 +1147,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "encoding-specificity-principle",
-    title: "符号化特定性原理（タルヴィング）",
-    reading: "ふごうかとくていせいげんり（たるゔぃんぐ）",
+    title: "符号化特定性原理",
+    reading: "ふごうかとくていせいげんり",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -1160,8 +1160,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "procedural-declarative-memory",
-    title: "手続き的記憶と宣言的記憶",
-    reading: "てつづきてききおくろくせんげんてききおく",
+    title: "手続き的記憶",
+    reading: "てつづきてききおく",
     kana: "て",
     categories: ["psychology"],
     summary:
@@ -1173,8 +1173,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "episodic-semantic-memory",
-    title: "エピソード記憶と意味記憶",
-    reading: "えぴそーどきおくといみきおく",
+    title: "エピソード記憶",
+    reading: "えぴそーどきおく",
     kana: "え",
     categories: ["psychology"],
     summary:
@@ -1186,8 +1186,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "prospective-memory",
-    title: "展望的記憶（未来の記憶）",
-    reading: "てんぼうてききおく（みらいのきおく）",
+    title: "展望的記憶",
+    reading: "てんぼうてききおく",
     kana: "て",
     categories: ["psychology"],
     summary:
@@ -1199,8 +1199,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "childhood-amnesia",
-    title: "幼児期健忘（自伝的記憶の消失）",
-    reading: "ようじきけんぼう（じでんてききおくのしょうしつ）",
+    title: "幼児期健忘",
+    reading: "ようじきけんぼう",
     kana: "よ",
     categories: ["psychology"],
     summary:
@@ -1212,9 +1212,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "false-memory-loftus",
-    title: "偽りの記憶（虚記憶と事後情報効果）",
-    reading: "いつわりのきおく（きょきおくとじごじょうほうこうか）",
-    kana: "い",
+    title: "虚記憶（ロフタス）",
+    reading: "きょきおくろふたす",
+    kana: "き",
     categories: ["psychology"],
     summary:
       "実際には体験していない出来事を事実であると確信して思い出す現象や、事後の情報介入によって記憶内容が変容する認知の偏り。",
@@ -1225,8 +1225,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "reminiscence-ballard-ward",
-    title: "レミニセンス現象（想起の向上）",
-    reading: "れみにせんすげんしょう（そうきのこうじょう）",
+    title: "レミニセンス現象",
+    reading: "れみにせんすげんしょう",
     kana: "れ",
     categories: ["psychology"],
     summary:
@@ -1238,8 +1238,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "autobiographical-memory-bump",
-    title: "自伝的記憶とレミニセンス・バンプ",
-    reading: "じでんてききおくとれみにせんす・ばんぷ",
+    title: "自伝的記憶",
+    reading: "じでんてききおく",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1251,8 +1251,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "prototype-theory-rosch",
-    title: "プロトタイプ理論（ロッシュの概念形成）",
-    reading: "ぷろとたいぷりろん（ろっしゅのがいねんけいせい）",
+    title: "プロトタイプ理論（ロッシュ）",
+    reading: "ぷろとたいぷりろんろっしゅ",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -1264,8 +1264,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "mental-models-johnson-laird",
-    title: "メンタルモデル（心的モデル推論）",
-    reading: "めんたるもでる（しんてきもでるすいろん）",
+    title: "メンタルモデル（心的モデル）",
+    reading: "めんたるもでるしんてきもでる",
     kana: "め",
     categories: ["psychology"],
     summary:
@@ -1277,9 +1277,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "analogical-reasoning-transfer",
-    title: "アナロジー的思考（類推による問題解決）",
-    reading: "あなろじーてきしこう（るいすいによるもんだいかいけつ）",
-    kana: "あ",
+    title: "類推的思考（アナロジー）",
+    reading: "るいすいてきしこうあなろじー",
+    kana: "る",
     categories: ["psychology"],
     summary:
       "すでに知っている既知の領域の構造的関係性を、未知の新規領域へと対応づけて当てはめることで問題解決や新たな理解を導く認知過程。",
@@ -1290,8 +1290,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "heuristics-and-biases",
-    title: "ヒューリスティクスと認知バイアス",
-    reading: "ひゅーりすてぃくすとにんちばいあす",
+    title: "ヒューリスティクス",
+    reading: "ひゅーりすてぃくす",
     kana: "ひ",
     categories: ["psychology"],
     summary:
@@ -1329,8 +1329,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "confirmation-bias-education",
-    title: "確証バイアスと先入観",
-    reading: "かくしょうばいあすとせんにゅうかん",
+    title: "確証バイアス",
+    reading: "かくしょうばいあす",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -1355,8 +1355,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "fundamental-attribution-error",
-    title: "根本的な帰属の誤り（対応バイアス）",
-    reading: "こんぽんてきなきぞくのあやまり（たいおうばいあす）",
+    title: "根本的な帰属の誤り",
+    reading: "こんぽんてきなきぞくのあやまり",
     kana: "こ",
     categories: ["psychology"],
     summary:
@@ -1382,7 +1382,7 @@ export const psychologyTerms: Term[] = [
   {
     slug: "dunning-kruger-effect",
     title: "ダニング＝クルーガー効果",
-    reading: "だにんぐ・くるーがーこうか",
+    reading: "だにんぐくるーがーこうか",
     kana: "た",
     categories: ["psychology"],
     summary:
@@ -1394,8 +1394,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "elaboration-likelihood-model",
-    title: "精緻化見込みモデル（二重態度変容理論）",
-    reading: "せいちかみこみもでる（にじゅうたいどへんようりろん）",
+    title: "精緻化見込みモデル",
+    reading: "せいちかみこみもでる",
     kana: "せ",
     categories: ["psychology"],
     summary:
@@ -1407,9 +1407,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "spearman-general-factor-g",
-    title: "スピアマンの2因子説（一般因子gと特殊因子s）",
-    reading: "すぴあまんのにいんしせつ（いっぱんいんしじーととくしゅいんしえす）",
-    kana: "す",
+    title: "二因子説（スピアマン）",
+    reading: "にいんしせつすぴあまん",
+    kana: "に",
     categories: ["psychology"],
     summary:
       "人間の知能活動は、あらゆる認知課題に共通して関与する「一般因子g」と、特定の個別活動ごとに固有な「特殊因子s」から構成されるとする理論。",
@@ -1420,9 +1420,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "thurstone-primary-mental-abilities",
-    title: "サーストンの多因子説（基本的精神能力）",
-    reading: "さーすとんのたいんしせつ（きほんてきせいしんのうりょく）",
-    kana: "さ",
+    title: "多因子説（サーストン）",
+    reading: "たいんしせつさーすとん",
+    kana: "た",
     categories: ["psychology"],
     summary:
       "単一の一般知能を否定し、言語理解や空間視覚化など独立した7つの「基本的精神能力」の組み合わせによって知能が構成されるとする理論。",
@@ -1433,9 +1433,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "guilford-structure-of-intellect",
-    title: "ギルフォードの知能構造モデル（SIモデル）",
-    reading: "ぎるふぉーどのちのうこうぞうもでる（えすあいもでる）",
-    kana: "き",
+    title: "知能構造モデル（ギルフォード）",
+    reading: "ちのうこうぞうもでるぎるふぉーど",
+    kana: "ち",
     categories: ["psychology"],
     summary:
       "知能を「情報の内容」「心の働き」「生み出される所産」の3次元の立体マトリクスとして分類し、拡散的思考による創造性を重視した知能モデル。",
@@ -1446,9 +1446,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "cattell-investment-theory",
-    title: "キャッテルの投資理論（知能の発達関係）",
-    reading: "きゃってるのとうしりろん（ちのうのはったつかんけい）",
-    kana: "き",
+    title: "投資理論（キャッテル）",
+    reading: "とうしりろんきゃってる",
+    kana: "と",
     categories: ["psychology"],
     summary:
       "キャッテルが提唱した、生物学的基盤を持つ流動性知能を学習経験へ投資することにより、文化的な結晶性知能が形成されるとする知能発達理論。",
@@ -1459,8 +1459,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "binet-simon-intelligence-scale",
-    title: "ビネー・シモン式知能検査の起源",
-    reading: "びねー・しもんしきちのうけんさのきげん",
+    title: "ビネー・シモン知能検査",
+    reading: "びねーしもんちのうけんさ",
     kana: "ひ",
     categories: ["psychology"],
     summary:
@@ -1472,9 +1472,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "ratio-iq-deviation-iq",
-    title: "比率IQと偏差値IQ（DIQ）",
-    reading: "ひりつあいきゅーとへんさちあいきゅー（でぃーあいきゅー）",
-    kana: "ひ",
+    title: "偏差知能指数（DIQ）",
+    reading: "へんさちのうしすうでぃーあいきゅー",
+    kana: "へ",
     categories: ["psychology"],
     summary:
       "精神年齢と生活年齢の比率から算出する従来の比率知能指数と、同年齢集団内の相対的位置を正規分布に基づいて表す偏差知能指数という二つの知能測定方式。",
@@ -1485,7 +1485,7 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "tanaka-binet-intelligence-scale",
-    title: "田中ビネー知能検査V",
+    title: "田中ビネー知能検査V（改訂）",
     reading: "たなかびねーちのうけんさふぁいぶ",
     kana: "た",
     categories: ["psychology"],
@@ -1498,9 +1498,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "wais-intelligence-scale",
-    title: "成人用知能検査（WAIS）",
-    reading: "せいじんようちのうけんさ（うぇいす）",
-    kana: "せ",
+    title: "ウェクスラー成人知能検査（WAIS）",
+    reading: "うぇくすらーせいじんちのうけんさうぇいす",
+    kana: "う",
     categories: ["psychology"],
     summary:
       "デイビッド・ウェクスラーが開発した成人向けの個別式知能検査であり、多面的な認知領域の得点プロフィールを通じて知能水準と認知的特性を精細に測定する臨床尺度。",
@@ -1511,9 +1511,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "wisc-intelligence-scale",
-    title: "児童用知能検査（WISC）",
-    reading: "じどうようちのうけんさ（うぃすく）",
-    kana: "し",
+    title: "ウェクスラー児童知能検査（WISC）",
+    reading: "うぇくすらーじどうちのうけんさうぃすく",
+    kana: "う",
     categories: ["psychology"],
     summary:
       "五歳から十六歳十一か月を対象とする個別式知能検査であり、児童生徒の全体的な知的能力とともに複数の認知領域における得意・不得意の特性を詳細に把握する代表的心理検査。",
@@ -1524,8 +1524,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "sensory-memory-iconic-echoic",
-    title: "感覚記憶（アイコニック・メモリーとエコーイック・メモリー）",
-    reading: "かんかくきおく（あいこにっく・めもりーとえこーいっく・めもりー）",
+    title: "感覚記憶（アイコニック・エコーイック）",
+    reading: "かんかくきおくあいこにっくえこーいっく",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -1537,8 +1537,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "s-r-and-s-o-r-theory",
-    title: "S-R理論とS-O-R媒介理論",
-    reading: "えすあーるりろんとえすおーあーるばいかいりろん",
+    title: "S-R理論（刺激-反応理論）",
+    reading: "えすあーるりろんしげきはんのうりろん",
     kana: "A–Z",
     categories: ["psychology"],
     summary:
@@ -1550,8 +1550,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "reinforcement-schedules",
-    title: "強化スケジュール（4つの強化計画）",
-    reading: "きょうかすけじゅーる（よっつのきょうかけいかく）",
+    title: "強化スケジュール",
+    reading: "きょうかすけじゅーる",
     kana: "き",
     categories: ["psychology"],
     summary:
@@ -1563,8 +1563,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "extinction-spontaneous-recovery",
-    title: "消去と自発的回復（条件づけの変容）",
-    reading: "しょうきょとじはつてきかいふく（じょうけんづけのへんよう）",
+    title: "消去（条件反射）",
+    reading: "しょうきょじょうけんはんしゃ",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1576,8 +1576,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "stimulus-generalization-discrimination",
-    title: "刺激般化と弁別学習",
-    reading: "しげきはんかとべんべつがくしゅう",
+    title: "刺激般化",
+    reading: "しげきはんか",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1589,8 +1589,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "premack-principle",
-    title: "プレマックの原理（活動強化の法則）",
-    reading: "ぷれまっくのげんり（かつどうきょうかのほうそく）",
+    title: "プレマックの原理",
+    reading: "ぷれまっくのげんり",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -1602,8 +1602,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "time-out-behavior-modification",
-    title: "タイムアウト法（行動修正アプローチ）",
-    reading: "たいむあうとほう（こうどうしゅうせいあぷろーち）",
+    title: "タイムアウト法",
+    reading: "たいむあうとほう",
     kana: "た",
     categories: ["psychology"],
     summary:
@@ -1615,8 +1615,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "token-economy-system",
-    title: "トークン・エコノミー法（代償強化）",
-    reading: "とーくん・えこのみーほう（だいしょうきょうか）",
+    title: "トークン・エコノミーシステム",
+    reading: "とーくんえこのみーしすてむ",
     kana: "と",
     categories: ["psychology"],
     summary:
@@ -1628,8 +1628,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "shaping-successive-approximations",
-    title: "シェイピング法（漸次的接近法）",
-    reading: "しぇいぴんぐほう（ぜんじてきせっきんほう）",
+    title: "シェイピング法",
+    reading: "しぇいぴんぐほう",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1641,8 +1641,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "chaining-behavior-technique",
-    title: "チェイニング法（連鎖化技法）",
-    reading: "ちぇいにんぐほう（れんさかぎほう）",
+    title: "チェイニング法",
+    reading: "ちぇいにんぐほう",
     kana: "ち",
     categories: ["psychology"],
     summary:
@@ -1654,8 +1654,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "bandura-four-observational-processes",
-    title: "観察学習の4過程（バンデューラ）",
-    reading: "かんさつがくしゅうのよんかてい（ばんでゅーら）",
+    title: "観察学習の過程（バンデューラ）",
+    reading: "かんさつがくしゅうのかていばんでゅーら",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -1667,8 +1667,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "vicarious-reinforcement-modeling",
-    title: "代理強化と自己強化",
-    reading: "だいりきょうかとじこきょうか",
+    title: "代理強化（バンデューラ）",
+    reading: "だいりきょうかばんでゅーら",
     kana: "た",
     categories: ["psychology"],
     summary:
@@ -1680,8 +1680,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "social-support-four-types",
-    title: "ソーシャル・サポートの4機能",
-    reading: "そーしゃる・さぽーとのよんきのう",
+    title: "ソーシャル・サポート",
+    reading: "そーしゃるさぽーと",
     kana: "そ",
     categories: ["psychology"],
     summary:
@@ -1693,8 +1693,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "burnout-syndrome-maslach",
-    title: "バーンアウト（教師の燃え尽き症候群）",
-    reading: "ばーんあうと（きょうしのもえつきしょうこうぐん）",
+    title: "バーンアウト症候群（マスラック）",
+    reading: "ばーんあうとしょうこうぐんますらっく",
     kana: "は",
     categories: ["psychology"],
     summary:
@@ -1706,9 +1706,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "lazarus-coping-strategies",
-    title: "コーピング（ラザルスのストレス対処戦略）",
-    reading: "こーぴんぐ（らざるすのすとれすたいしょせんりゃく）",
-    kana: "こ",
+    title: "認知的コーピング（ラザルス）",
+    reading: "にんちてきこーぴんぐらざるす",
+    kana: "に",
     categories: ["psychology"],
     summary:
       "ラザルスが提唱した、認知的評価に基づきストレス状況に対処するための認知的・行動的努力であり、問題そのものを解決する手法と情動を調整する手法に大別される理論。",
@@ -1719,8 +1719,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "diathesis-stress-model",
-    title: "素質-ストレスモデル（脆弱性仮説）",
-    reading: "そしつ・すとれすもでる（ぜいじゃくせいかせつ）",
+    title: "素質-ストレスモデル",
+    reading: "そしつすとれすもでる",
     kana: "そ",
     categories: ["psychology"],
     summary:
@@ -1732,8 +1732,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "general-adaptation-syndrome-selye",
-    title: "汎適応症候群（セリエのストレス学説）",
-    reading: "はんてきおうしょうこうぐん（せりえのすとれすがくせつ）",
+    title: "汎適応症候群（セリエ）",
+    reading: "はんてきおうしょうこうぐんせりえ",
     kana: "は",
     categories: ["psychology"],
     summary:
@@ -1745,9 +1745,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "internal-working-models-attachment",
-    title: "愛着の内的作業モデル（IWM）",
-    reading: "あいちゃくのないてきさぎょうもでる（あいだぶりゅーえむ）",
-    kana: "あ",
+    title: "内的作業モデル（ボウルビィ）",
+    reading: "ないてきさぎょうもでるぼうるびぃ",
+    kana: "な",
     categories: ["psychology"],
     summary:
       "乳幼児期に養育者との間で築かれた愛着体験を基盤として形成される、自己と他者、および対人関係全般に関する無意識的な認知的枠組み・信念体系。",
@@ -1758,8 +1758,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "mentalizing-reflective-functioning",
-    title: "メンタライジングと省察機能（フォナギー）",
-    reading: "めんたらいじんぐとせいさつきのう（ふぉなぎー）",
+    title: "メンタライジング（フォナギー）",
+    reading: "めんたらいじんぐふぉなぎー",
     kana: "め",
     categories: ["psychology"],
     summary:
@@ -1771,8 +1771,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "affect-attunement-stern",
-    title: "情動調律（スターンの乳幼児間主観性）",
-    reading: "じょうどうちょうりつ（すたーんのにゅうようじかんしゅかんせい）",
+    title: "情動調律（スターン）",
+    reading: "じょうどうちょうりつすたーん",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1784,8 +1784,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "social-referencing-visual-cliff",
-    title: "社会的参照（視覚的断崖実験）",
-    reading: "しゃかいてきさんしょう（しかくてきだんがいじっけん）",
+    title: "社会的参照",
+    reading: "しゃかいてきさんしょう",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1797,9 +1797,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "identity-versus-diffusion",
-    title: "アイデンティティ対同一性拡散（青年期葛藤）",
-    reading: "あいでんてぃてぃたいどういつせいかくさん（せいねんきかっとう）",
-    kana: "あ",
+    title: "同一性対同一性拡散（エリクソン）",
+    reading: "どういつせいたいどういつせいかくさんえりくそん",
+    kana: "と",
     categories: ["psychology"],
     summary:
       "エリクソンの心理社会的発達理論における青年期の中核的発達課題であり、自己の存在意義を確立するか自分を見失うかの心理的葛藤。",
@@ -1810,8 +1810,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "second-rebellion-psychological-weaning",
-    title: "第二反抗期と心理的離乳",
-    reading: "だいにはんこうきとしんりてきりにゅう",
+    title: "第二反抗期",
+    reading: "だいにはんこうき",
     kana: "た",
     categories: ["psychology"],
     summary:
@@ -1823,8 +1823,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "marginal-man-lewin",
-    title: "境界人（マージナル・マンとレヴィン）",
-    reading: "きょうかいじん（まーじなる・まんとれゔぃん）",
+    title: "境界人（マージナル・マン）",
+    reading: "きょうかいじんまーじなるまん",
     kana: "き",
     categories: ["psychology"],
     summary:
@@ -1836,8 +1836,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "sturm-und-drang-hall",
-    title: "疾風怒濤（スタンレー・ホールの青年期論）",
-    reading: "しっぷうどとう（すたんれー・ほーるのせいねんきろん）",
+    title: "疾風怒濤の時代（ホール）",
+    reading: "しっぷうどとうのじだいほーる",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -1849,9 +1849,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "adolescent-egocentrism-elkind",
-    title: "思春期自己中心性（想像上の観客と個人神話）",
-    reading: "ししゅんきじこちゅうしんせい（そうぞうじょうのかんきゃくとこじんしんわ）",
-    kana: "し",
+    title: "想像上の観客（エルキンド）",
+    reading: "そうぞうじょうのかんきゃくえるきんど",
+    kana: "そ",
     categories: ["psychology"],
     summary:
       "エルキンドが説いた思春期特有の認知傾向であり、他者が常に自分を見ていると思い込む観客意識と自己の不滅性を信じる神話的思考。",
@@ -1862,8 +1862,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "empathy-development-hoffman",
-    title: "共感性の発達段階（ホフマンの理論）",
-    reading: "きょうかんせいのはったつだんかい（ほふまんのりろん）",
+    title: "共感性の発達段階（ホフマン）",
+    reading: "きょうかんせいのはったつだんかいほふまん",
     kana: "き",
     categories: ["psychology"],
     summary:
@@ -1875,8 +1875,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "anterograde-retrograde-amnesia",
-    title: "前向性健忘と逆行性健忘",
-    reading: "ぜんこうせいけんぼうとぎゃっこうせいけんぼう",
+    title: "前向性健忘",
+    reading: "ぜんこうせいけんぼう",
     kana: "せ",
     categories: ["psychology"],
     summary:
@@ -1888,8 +1888,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "cocktail-party-effect-attention",
-    title: "カクテルパーティー効果（選択的聴取）",
-    reading: "かくてるぱーてぃーこうか（せんたくてきちょうしゅ）",
+    title: "カクテルパーティー効果",
+    reading: "かくてるぱーてぃーこうか",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -1901,8 +1901,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "stroop-effect-interference",
-    title: "ストループ効果（認知干渉実験）",
-    reading: "すとるーぷこうか（にんちかんしょうじっけん）",
+    title: "ストループ効果",
+    reading: "すとるーぷこうか",
     kana: "す",
     categories: ["psychology"],
     summary:
@@ -1914,8 +1914,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "change-blindness-inattentional",
-    title: "変化盲と非注意性盲目",
-    reading: "へんかもうとひちゅういせいもうもく",
+    title: "変化盲",
+    reading: "へんかもう",
     kana: "へ",
     categories: ["psychology"],
     summary:
@@ -1927,8 +1927,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "implicit-memory-incidental-learning",
-    title: "潜在記憶と無意図的学習",
-    reading: "せんざいきおくとむいとてきがくしゅう",
+    title: "潜在記憶",
+    reading: "せんざいきおく",
     kana: "せ",
     categories: ["psychology"],
     summary:
@@ -1940,8 +1940,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "priming-effect-direct-indirect",
-    title: "プライミング効果（先行刺激の無意識的促進）",
-    reading: "ぷらいみんぐこうか（せんこうしげきのむいしきてきそくしん）",
+    title: "プライミング効果",
+    reading: "ぷらいみんぐこうか",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -1953,9 +1953,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "conceptual-change-naive-theories",
-    title: "概念変化と素朴理論（ナイーブ・セオリー）",
-    reading: "がいねんへんかとそぼくりろん（ないーぶ・せおりー）",
-    kana: "か",
+    title: "素朴概念（ナイーブ・セオリー）",
+    reading: "そぼくがいねんないーぶせおりー",
+    kana: "そ",
     categories: ["psychology"],
     summary:
       "日常経験から構築された学習者の直観的で誤りを含む知識枠組みを、科学的で妥当な概念体系へと再構築していく認知的変容過程。",
@@ -1966,9 +1966,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "misconceptions-intuitive-physics",
-    title: "誤概念と直観物理学",
-    reading: "ごがいねんとちょっかんぶつりがく",
-    kana: "こ",
+    title: "直観物理学（ミスコンセプション）",
+    reading: "ちょっかんぶつりがくみすこんせぷしょん",
+    kana: "ち",
     categories: ["psychology"],
     summary:
       "学習者が日常生活の感覚に基づいて形成した科学的に不正確な直観的思い込みと、物理現象に対する誤った理解の認知様式。",
@@ -1979,9 +1979,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "assimilation-accommodation-equilibration",
-    title: "同化・調節と均衡化（ピアジェ）",
-    reading: "どうか・ちょうせつときんこうか（ぴあじぇ）",
-    kana: "と",
+    title: "均衡化（ピアジェの発達理論）",
+    reading: "きんこうかぴあじぇのはったつりろん",
+    kana: "き",
     categories: ["psychology"],
     summary:
       "ピアジェが唱えた認知発達の基本機序であり、既存の枠組みへの取り込みと枠組みの変更を繰り返して調和を図る動的な適応過程。",
@@ -1992,8 +1992,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "conservation-concepts-piaget",
-    title: "保存概念の獲得（数・量・体積の保存性）",
-    reading: "ほぞんがいねんのかくとく（すう・りょう・たいせきのほぞんせい）",
+    title: "保存概念（ピアジェ）",
+    reading: "ほぞんがいねんぴあじぇ",
     kana: "ほ",
     categories: ["psychology"],
     summary:
@@ -2005,8 +2005,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "four-sources-of-self-efficacy",
-    title: "自己効力感の4つの情報源（達成・代理・言語・生理）",
-    reading: "じここうりょくかんのよっつのじょうほうげん（たっせい・だいり・げんご・せいり）",
+    title: "自己効力感の情報源",
+    reading: "じここうりょくかんのじょうほうげん",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2018,8 +2018,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "groupthink-janis-decision-making",
-    title: "集団思考（グループシンクの病理）",
-    reading: "しゅうだんしこう（ぐるーぷしんくのびょうり）",
+    title: "集団思考（グループシンク）",
+    reading: "しゅうだんしこうぐるーぷしんく",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2031,8 +2031,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "group-polarization-risky-cautious",
-    title: "集団極性化（リスキー・シフトとコーシャス・シフト）",
-    reading: "しゅうだんきょくせいか（りすきー・しふととこーしゃす・しふと）",
+    title: "集団極性化（集団分極化）",
+    reading: "しゅうだんきょくせいかしゅうだんぶんきょくか",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2045,7 +2045,7 @@ export const psychologyTerms: Term[] = [
   {
     slug: "social-loafing-ringelmann",
     title: "社会的手抜き（リンゲルマン効果）",
-    reading: "しゃかいてきてぬき（りんげるまんこうか）",
+    reading: "しゃかいてきてぬきりんげるまんこうか",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2057,8 +2057,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "social-facilitation-inhibition-zajonc",
-    title: "社会的促進と社会的抑制（ザイアンスの動因説）",
-    reading: "しゃかいてきそくしんとしゃかいてきよくせい（ざいあんすのどういんせつ）",
+    title: "社会的促進（ザイアンス）",
+    reading: "しゃかいてきそくしんざいあんす",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2070,8 +2070,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "conformity-asch-experiment",
-    title: "同調実験（アッシュの線分判断課題）",
-    reading: "どうちょうじっけん（あっしゅのせんぶんはんだんかだい）",
+    title: "同調実験（アッシュ）",
+    reading: "どうちょうじっけんあっしゅ",
     kana: "と",
     categories: ["psychology"],
     summary:
@@ -2083,8 +2083,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "milgram-obedience-to-authority",
-    title: "服従実験（ミルグラムの権威への服従）",
-    reading: "ふくじゅうじっけん（みるぐらむのけんいへのふくじゅう）",
+    title: "服従実験（ミルグラム）",
+    reading: "ふくじゅうじっけんみるぐらむ",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -2096,8 +2096,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "stanford-prison-experiment-zimbardo",
-    title: "スタンフォード監獄実験（役割の力）",
-    reading: "すたんふぉーどかんごくじっけん（やくわりのちから）",
+    title: "スタンフォード監獄実験",
+    reading: "すたんふぉーどかんごくじっけん",
     kana: "す",
     categories: ["psychology"],
     summary:
@@ -2109,8 +2109,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "minimal-group-paradigm-tajfel",
-    title: "最小集団パラダイム（内集団びいき）",
-    reading: "さいしょうしゅうだんぱらだいむ（ないしゅうだんびいき）",
+    title: "最小集団パラダイム（ターフェル）",
+    reading: "さいしょうしゅうだんぱらだいむたーふぇる",
     kana: "さ",
     categories: ["psychology"],
     summary:
@@ -2122,8 +2122,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "just-world-hypothesis-lerner",
-    title: "公正世界仮説（被害者非難の認知）",
-    reading: "こうせいせかいかせつ（ひがいしゃひなんのにんち）",
+    title: "公正世界仮説（ラーナー）",
+    reading: "こうせいせかいかせつらーなー",
     kana: "こ",
     categories: ["psychology"],
     summary:
@@ -2135,9 +2135,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "semantic-network-collins-quillian",
-    title: "コリンズとキリアンの意味ネットワークモデル",
-    reading: "こりんずときりあんのいみねっとわーくもでる",
-    kana: "こ",
+    title: "意味ネットワークモデル",
+    reading: "いみねっとわーくもでる",
+    kana: "い",
     categories: ["psychology"],
     summary:
       "人間の長期記憶における概念知識が階層的な節点と意味的結合の網の目として貯蔵され、関連概念への活性化の拡散によって情報が検索されるとする認知モデル。",
@@ -2148,8 +2148,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "thematic-apperception-test-murray",
-    title: "主題統覚検査（TAT投映法）",
-    reading: "しゅだいとうかくけんさ（てぃーえーてぃーとうえいほう）",
+    title: "主題統覚検査（TAT）",
+    reading: "しゅだいとうかくけんさてぃーえーてぃー",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2162,7 +2162,7 @@ export const psychologyTerms: Term[] = [
   {
     slug: "sentence-completion-test-sct",
     title: "文章完成法テスト（SCT）",
-    reading: "ぶんしょうかんせいほうてすと（えすしーてぃー）",
+    reading: "ぶんしょうかんせいほうてすとえすしーてぃー",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -2174,8 +2174,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "baum-test-tree-drawing",
-    title: "バウムテスト（樹木画投影検査）",
-    reading: "ばうむてすと（じゅもくがとうえいけんさ）",
+    title: "バウムテスト（樹木画テスト）",
+    reading: "ばうむてすとじゅもくがてすと",
     kana: "は",
     categories: ["psychology"],
     summary:
@@ -2187,8 +2187,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "house-tree-person-test-htp",
-    title: "HTPテスト（家・木・人描画法）",
-    reading: "えいちてぃーぴーてすと（いえ・き・ひとびょうがほう）",
+    title: "HTPテスト（描画テスト）",
+    reading: "えいちてぃーぴーてすとびょうがてすと",
     kana: "A–Z",
     categories: ["psychology"],
     summary:
@@ -2200,8 +2200,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "yatabe-guilford-personality-inventory",
-    title: "矢田部・ギルフォード性格検査（YG検査）",
-    reading: "やたべ・ぎるふぉーどせいかくけんさ（わいじーけんさ）",
+    title: "矢田部・ギルフォード性格検査",
+    reading: "やたべぎるふぉーどせいかくけんさ",
     kana: "や",
     categories: ["psychology"],
     summary:
@@ -2214,7 +2214,7 @@ export const psychologyTerms: Term[] = [
   {
     slug: "minnesota-multiphasic-personality-mmpi",
     title: "ミネソタ多面人格目録（MMPI）",
-    reading: "みねそたためんじんかくもくろく（えむえむぴーあい）",
+    reading: "みねそたためんじんかくもくろくえむえむぴーあい",
     kana: "み",
     categories: ["psychology"],
     summary:
@@ -2226,8 +2226,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "egogram-transactional-analysis",
-    title: "エゴグラムと交流分析（自我状態分析）",
-    reading: "えごぐらむとこうりゅうぶんせき（じがじょうたいぶんせき）",
+    title: "エゴグラム（交流分析）",
+    reading: "えごぐらむこうりゅうぶんせき",
     kana: "え",
     categories: ["psychology"],
     summary:
@@ -2239,8 +2239,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "sociometric-status-peer-nomination",
-    title: "ソシオメトリック・ステータス（同輩指名法）",
-    reading: "そしおめとりっく・すてーたす（どうはいしめいほう）",
+    title: "ソシオメトリック・ステータス",
+    reading: "そしおめとりっくすてーたす",
     kana: "そ",
     categories: ["psychology"],
     summary:
@@ -2252,8 +2252,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "classroom-climate-learning-environment",
-    title: "学級風土（学級環境の心理的測定）",
-    reading: "がっきゅうふうど（がっきゅうかんきょうのしんりてきそくてい）",
+    title: "学級風土（学級気候）",
+    reading: "がっきゅうふうどがっきゅうきこう",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -2265,8 +2265,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "golem-effect-negative-expectation",
-    title: "ゴーレム効果（否定的期待による成績低下）",
-    reading: "ごーれむこうか（ひていてききたいによるせいせきていか）",
+    title: "ゴーレム効果",
+    reading: "ごーれむこうか",
     kana: "こ",
     categories: ["psychology"],
     summary:
@@ -2278,9 +2278,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "misumi-pm-leadership-theory",
-    title: "三隅二不二のPMリーダーシップ理論",
-    reading: "みすみじゅうじのぴーえむりーだーしっぷりろん",
-    kana: "み",
+    title: "PM理論（三隅二不二）",
+    reading: "ぴーえむりろんみすみじゅうじ",
+    kana: "A–Z",
     categories: ["psychology"],
     summary:
       "日本の社会心理学者三隅二不二が提唱した理論であり、リーダーの行動を課題達成機能（P機能）と集団維持機能（M機能）の2軸で捉え、その相互作用を分析したモデル。",
@@ -2291,9 +2291,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "contingency-theory-fiedler",
-    title: "フィードラーの条件適応型リーダーシップ論",
-    reading: "ふぃーどらーのじょうけんてきおうがたりーだーしっぷろん",
-    kana: "ふ",
+    title: "条件適応型リーダーシップ論",
+    reading: "じょうけんてきおうがたりーだーしっぷろん",
+    kana: "し",
     categories: ["psychology"],
     summary:
       "指導者の有効性は個人の特性だけでなく集団が置かれた状況の統制しやすさとの適合によって決まると説き、普遍的な理想像を否定した状況適応型理論。",
@@ -2304,8 +2304,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "disinhibition-effect-modeling",
-    title: "脱抑制効果（観察学習による禁忌解除）",
-    reading: "だつよくせいこうか（かんさつがくしゅうによるきんきかいじょ）",
+    title: "脱抑制効果",
+    reading: "だつよくせいこうか",
     kana: "た",
     categories: ["psychology"],
     summary:
@@ -2317,8 +2317,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "types-of-conflict-lewin",
-    title: "葛藤の3類型（接近-回避のレヴィン理論）",
-    reading: "かっとうのさんるいけい（せっきん・かいひのれゔぃんりろん）",
+    title: "葛藤の3類型（レヴィン）",
+    reading: "かっとうのさんるいけいれゔぃん",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -2331,7 +2331,7 @@ export const psychologyTerms: Term[] = [
   {
     slug: "frustration-aggression-hypothesis",
     title: "フラストレーション・攻撃仮説",
-    reading: "ふらすとれーしょん・こうげきかせつ",
+    reading: "ふらすとれーしょんこうげきかせつ",
     kana: "ふ",
     categories: ["psychology"],
     summary:
@@ -2343,8 +2343,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "catharsis-effect-emotion",
-    title: "カタルシス効果（情動の浄化と発散）",
-    reading: "かたるしすこうか（じょうどうのじょうかとはっさん）",
+    title: "カタルシス効果",
+    reading: "かたるしすこうか",
     kana: "か",
     categories: ["psychology"],
     summary:
@@ -2356,8 +2356,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "zimmerman-self-regulated-cyclical",
-    title: "ジマーマンの自己調整学習循環モデル",
-    reading: "じまーまんのじこちょうせいがくしゅうじゅんかんもでる",
+    title: "自己調整学習の循環モデル",
+    reading: "じこちょうせいがくしゅうのじゅんかんもでる",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2369,9 +2369,9 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "cognitive-dissonance-reduction-process",
-    title: "認知的不協和の低減プロセス（自己説得）",
-    reading: "にんちてきふきょうわのていげんぷろせす（じこせっとく）",
-    kana: "に",
+    title: "不協和低減プロセス",
+    reading: "ふきょうわていげんぷろせす",
+    kana: "ふ",
     categories: ["psychology"],
     summary:
       "自己の信念と相反する行動をとった際に生じる不快な心理的緊張を解消するため、外部の事象や自らの態度を都合よく解釈し直して正当化する内的な自己説得の過程。",
@@ -2382,8 +2382,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "ego-depletion-baumester",
-    title: "自我消耗（自己制御リソースの枯渇仮説）",
-    reading: "じがしょうもう（じこせいぎょりそーすのこかつかせつ）",
+    title: "自我消耗（バウマイスター）",
+    reading: "じがしょうもうばうまいすたー",
     kana: "し",
     categories: ["psychology"],
     summary:
@@ -2395,8 +2395,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "hot-and-cool-executive-functions",
-    title: "ホットな実行機能とクールな実行機能",
-    reading: "ほっとなじっこうきのうとくーるなじっこうきのう",
+    title: "ホット・クール実行機能",
+    reading: "ほっとくーるじっこうきのう",
     kana: "ほ",
     categories: ["psychology"],
     summary:
@@ -2408,8 +2408,8 @@ export const psychologyTerms: Term[] = [
   },
   {
     slug: "social-cognition-perspective-taking",
-    title: "社会的視点取得（セルマンの発達水準）",
-    reading: "しゃかいてきしてんしゅとく（せるまんはったつすいじゅん）",
+    title: "社会的視点取得（セルマン）",
+    reading: "しゃかいてきしてんしゅとくせるまん",
     kana: "し",
     categories: ["psychology"],
     summary:
