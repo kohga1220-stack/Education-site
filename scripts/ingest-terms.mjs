@@ -61,6 +61,10 @@ for (const f of files) {
     const c = core(t.title)
     if (cores.has(c)) return rej(`${label}: 題名が既存「${cores.get(c)}」と実質重複`)
 
+    const urls = Array.isArray(t.sources) ? t.sources.filter((u) => /^https?:\/\//.test(u)) : []
+    if (urls.length === 0) notes.push(`${label}: sources(出典URL)がありません。裏取りした出典を1件以上記載してください`)
+    delete t.sources // サイトには保存しない(PR・履歴で確認する用)
+
     const kana = computeKana(t.title, t.reading)
     if (t.kana && t.kana !== kana) notes.push(`${label}: kana "${t.kana}" → "${kana}" に自動補正`)
     t.kana = kana

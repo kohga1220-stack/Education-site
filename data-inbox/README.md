@@ -5,6 +5,7 @@ Antigravity はここに JSON を置き、`npm run ingest` で `src/data/terms/*
 - ファイル名: `YYYYMMDD-<分野や内容>.json`(`_` で始まるファイルは無視)
 - 形式: 用語オブジェクトの**配列**
 - `kana`・`isCanonical` は省略可(自動設定)。`category`(文字列)は `categories` の代わりに使えます。
+- `sources`(出典URLの配列)は**必須扱い**。裏取りに使った一次情報・論文のURLを1件以上書く。サイトには保存されず、欠けていると取り込み時に警告が出る(PR で差し戻しの対象)。
 - slug / 題名が既存と重複する語は却下され、そのファイルには却下分だけが残ります。
 
 ```json
@@ -18,6 +19,7 @@ Antigravity はここに JSON を置き、`npm run ingest` で `src/data/terms/*
     "body": "第1段落。\n\n第2段落。\n\n第3段落。",
     "relatedSlugs": ["zpd"],
     "tags": ["別名", "提唱者"],
+    "sources": ["https://www.mext.go.jp/…", "https://www.jstage.jst.go.jp/…"],
     "diagram": { "type": "columns", "title": "任意", "items": [{ "label": "項目", "desc": "説明" }] }
   }
 ]
