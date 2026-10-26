@@ -913,7 +913,7 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kodo-kan",
-    title: "弘道館",
+    title: "弘道館（水戸藩校）",
     reading: "こうどうかん",
     kana: "こ",
     categories: ["history"],
@@ -1004,8 +1004,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "gakushu-shido-yoryo-shian-1947",
-    title: "学習指導要領一般編（試案・1947年）",
-    reading: "がくしゅうしどうようりょういっぱんぺん（しあん・せんきゅうひゃくよんじゅうななねん）",
+    title: "学習指導要領一般編（試案）",
+    reading: "がくしゅうしどうようりょういっぱんぺん",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1017,7 +1017,7 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "seijo-shogakko",
-    title: "成城小学校",
+    title: "成城小学校（新教育）",
     reading: "せいじょうしょうがっこう",
     kana: "せ",
     categories: ["history"],
@@ -1030,8 +1030,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "tamagawa-gakuen",
-    title: "玉川学園",
-    reading: "たまがわがくえん",
+    title: "玉川学園の創設",
+    reading: "たまがわがくえんのそうせつ",
     kana: "た",
     categories: ["history"],
     summary:
@@ -1043,8 +1043,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "jiyu-gakuen",
-    title: "自由学園",
-    reading: "じゆうがくえん",
+    title: "自由学園の創設",
+    reading: "じゆうがくえんのそうせつ",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1056,8 +1056,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "myojo-gakuen",
-    title: "明星学園",
-    reading: "みょうじょうがくえん",
+    title: "明星学園の創設",
+    reading: "みょうじょうがくえんのそうせつ",
     kana: "み",
     categories: ["history"],
     summary:
@@ -1069,8 +1069,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "sparta-kyoiku",
-    title: "スパルタの教育制度",
-    reading: "すぱるたのきょういくせいど",
+    title: "スパルタの教育",
+    reading: "すぱるたのきょういく",
     kana: "す",
     categories: ["history"],
     summary:
@@ -1082,8 +1082,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "athens-kyoiku",
-    title: "アテネの教育制度",
-    reading: "あてねのきょういくせいど",
+    title: "アテネの教育",
+    reading: "あてねのきょういく",
     kana: "あ",
     categories: ["history"],
     summary:
@@ -1108,8 +1108,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "jesuit-ratio-studiorum",
-    title: "イエズス会教育と学規",
-    reading: "いえずすかいきょういくとがっき",
+    title: "イエズス会学規",
+    reading: "いえずすかいがっき",
     kana: "い",
     categories: ["history"],
     summary:
@@ -1121,8 +1121,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "condorcet-public-education-report",
-    title: "コンドルセの公教育計画",
-    reading: "こんどるせのこうきょういくけいかく",
+    title: "コンドルセの教育計画",
+    reading: "こんどるせのきょういくけいかく",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -1134,9 +1134,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "butler-act-1944",
-    title: "1944年教育法（バトラー法）",
-    reading: "せんきゅうひゃくよんじゅうよねんきょういくほう（ばとらーほう）",
-    kana: "せ",
+    title: "バトラー法（1944年）",
+    reading: "ばとらーほう",
+    kana: "は",
     categories: ["history"],
     summary:
       "イギリスにおいて中等教育の無償化と義務教育年限の15歳延長を定め、初等・中等・継続教育の近代的学校体系を確立した教育法。",
@@ -1148,7 +1148,7 @@ export const historyTerms: Term[] = [
   {
     slug: "guizot-act-1833",
     title: "ギゾー法（1833年）",
-    reading: "ぎぞーほう（せんはっぴゃくさんじゅうさんねん）",
+    reading: "ぎぞーほう",
     kana: "き",
     categories: ["history"],
     summary:
@@ -1160,9 +1160,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "ritsuryo-daigakuryo-specialized-bureau",
-    title: "律令制における大学寮と専門官吏養成",
-    reading: "りつりょうせいにおけるだいがくりょうとせんもんかんりようせい",
-    kana: "り",
+    title: "大学寮の官吏養成",
+    reading: "だいがくりょうのかんりようせい",
+    kana: "た",
     categories: ["history"],
     summary:
       "古代律令制下において式部省に属し、貴族子弟を対象に儒教経典や律令、算術などを教授して官吏を養成した中央高等教育機関。",
@@ -1173,8 +1173,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kangakue-heian-aristocratic-scholars",
-    title: "勧学会（平安中期の貴族・学問結社）",
-    reading: "かんがくえへいあんちゅうきのきぞくがくもんけっしゃ",
+    title: "勧学会（平安貴族学問）",
+    reading: "かんがくえ",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1186,8 +1186,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kobun-in-wake-clan-daigaku-besso",
-    title: "弘文院（和気氏の大学別曹と学問奨励）",
-    reading: "こうぶんいんわけしのだいがくべっそうとがくもんしょうれい",
+    title: "弘文院（大学別曹）",
+    reading: "こうぶんいん",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -1199,8 +1199,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kangan-in-fujiwara-clan-daigaku-besso",
-    title: "勧学院（藤原氏の大学別曹と官吏登用）",
-    reading: "かんがくいんふじわらしのだいがくべっそうとかんりとうよう",
+    title: "勧学院（大学別曹）",
+    reading: "かんがくいん",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1212,8 +1212,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "gakkan-in-tachibana-clan-daigaku-besso",
-    title: "学館院（橘氏の大学別曹と学問基盤）",
-    reading: "がっかんいんたちばなしのだいがくべっそうとがくもんきばん",
+    title: "学館院（大学別曹）",
+    reading: "がっかんいん",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1225,8 +1225,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "shogan-in-ariwara-clan-daigaku-besso",
-    title: "奨学院（在原氏の大学別曹と皇族修学）",
-    reading: "しょうがくいんありわらしのだいがくべっそうとこうぞくしゅうがく",
+    title: "奨学院（大学別曹）",
+    reading: "しょうがくいん",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1238,8 +1238,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kanazawa-bunko-samurai-library-archive",
-    title: "金沢文庫（北条実時による武家文庫）",
-    reading: "かなざわぶんこほうじょうさねときによるぶけぶんこ",
+    title: "金沢文庫（武家文庫）",
+    reading: "かなざわぶんこ",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1251,8 +1251,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "gozan-literature-zen-monks-scholarship",
-    title: "五山文学と禅僧による儒学・学問継承",
-    reading: "ござんぶんがくとぜんそうによるじゅがくがくもんけいしょう",
+    title: "五山文学と禅僧教育",
+    reading: "ござんぶんがくとぜんそうきょういく",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -1264,8 +1264,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "setsuyoshu-muromachi-lexicon-textbook",
-    title: "節用集（中世・近世の常用字引と往来物）",
-    reading: "せつようしゅうちゅうせいきんせいのじょうようじびきとおうらいもの",
+    title: "節用集（往来物）",
+    reading: "せつようしゅう",
     kana: "せ",
     categories: ["history"],
     summary:
@@ -1277,8 +1277,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "teikin-orai-medieval-moral-textbook",
-    title: "庭訓往来（中世以降の代表的初等教科書）",
-    reading: "ていきんおうらいちゅうせいいこうのだいひょうてきしょとうきょうかしょ",
+    title: "庭訓往来（初等往来物）",
+    reading: "ていきんおうらい",
     kana: "て",
     categories: ["history"],
     summary:
@@ -1290,8 +1290,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "jitsugokyo-dojikyo-elementary-ethics",
-    title: "実語教・童子教（庶民教育の基礎倫理本）",
-    reading: "じつごきょうどうじきょうしょみんきょういくのきそりんりぼん",
+    title: "実語教・童子教",
+    reading: "じつごきょうどうじきょう",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1303,8 +1303,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kaihodo-kaibara-ekiken-private-academy",
-    title: "会輔堂（貝原益軒の私塾と教化実践）",
-    reading: "かいほどうかいばらえきけんのしじゅくときょうかじっせん",
+    title: "会輔堂（貝原益軒私塾）",
+    reading: "かいほどう",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1316,8 +1316,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kogido-ito-jinsai-ancient-learning",
-    title: "古義堂（伊藤仁斎の堀川塾と古義学教育）",
-    reading: "こぎどういとうじんさいのほりかわじゅくとこぎがくきょういく",
+    title: "古義堂（堀川塾）",
+    reading: "こぎどう",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -1329,8 +1329,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "shizutani-gakko-bizen-domain",
-    title: "閑谷学校（岡山藩による日本最古の庶民教育機関）",
-    reading: "しずたにがっこうおかやまはんによるにほんさいこのしょみんきょういくきかん",
+    title: "閑谷学校（岡山藩郷学）",
+    reading: "しずたにがっこう",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1342,8 +1342,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "narutaki-juku-siebold-western-medicine",
-    title: "鳴滝塾（シーボルトによる西洋医学教育）",
-    reading: "なるたきじゅくしーぼるとによるせいよういがくきょういく",
+    title: "鳴滝塾（シーボルト私塾）",
+    reading: "なるたきじゅく",
     kana: "な",
     categories: ["history"],
     summary:
@@ -1355,8 +1355,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "shirando-otsuki-gentaku-dutch-studies",
-    title: "芝蘭堂（大槻玄沢の蘭学教育と新元会）",
-    reading: "しらんどうおおつきげんたくのらんがくきょういくとしんげんかい",
+    title: "芝蘭堂（大槻玄沢私塾）",
+    reading: "しらんどう",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1368,8 +1368,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "shiraishi-juku-arai-shiraishi-learning",
-    title: "新井白石の学問形成と幕政教育論",
-    reading: "あらいはくせきのがくもんけいせいとばくせいきょういくろん",
+    title: "新井白石の文治政治",
+    reading: "あらいはくせきのぶんじせいじ",
     kana: "あ",
     categories: ["history"],
     summary:
@@ -1381,8 +1381,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "meirinkan-hagi-domain-school-curriculum",
-    title: "明倫館（萩藩校の教育課程と人材育成）",
-    reading: "めいりんかんはぎはんこうのきょういくかていとじんざいいくせい",
+    title: "明倫館（萩藩校）",
+    reading: "めいりんかん",
     kana: "め",
     categories: ["history"],
     summary:
@@ -1394,8 +1394,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "nisshinkan-aizu-domain-school-code",
-    title: "日新館（会津藩校における人材育成と武士道教育）",
-    reading: "にっしんかんあいづはんこうにおけるじんざいいくせいとぶしどうきょういく",
+    title: "日新館（会津藩校）",
+    reading: "にっしんかん",
     kana: "に",
     categories: ["history"],
     summary:
@@ -1407,8 +1407,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "shuyukan-fukuoka-domain-school-tradition",
-    title: "修猷館（福岡藩校の学統と近代への継承）",
-    reading: "しゅうゆうかんふくおかはんこうのがくとうときんだいへのけいしょう",
+    title: "修猷館（福岡藩校）",
+    reading: "しゅうゆうかん",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1420,8 +1420,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "yorokan-tsuwano-domain-practical-studies",
-    title: "養老館（津和野藩校の実学・洋学教育）",
-    reading: "ようろうかんつわのはんこうのじつがくようがくきょういく",
+    title: "養老館（津和野藩校）",
+    reading: "ようろうかん",
     kana: "よ",
     categories: ["history"],
     summary:
@@ -1433,8 +1433,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "zoshikan-satsuma-domain-bunbu-ryodo",
-    title: "造士館（薩摩藩校の文武両道と郷中教育）",
-    reading: "ぞうしかんさつまはんこうのぶんぶりょうどうとごうちゅうきょういく",
+    title: "造士館（薩摩藩校）",
+    reading: "ぞうしかん",
     kana: "そ",
     categories: ["history"],
     summary:
@@ -1446,8 +1446,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "jishukan-yoshida-domain-school-ethics",
-    title: "時習館（三河吉田藩校の徳育と学問奨励）",
-    reading: "じしゅうかんみかわよしだはんこうのとくいくとがくもんしょうれい",
+    title: "時習館（藩校）",
+    reading: "じしゅうかん",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1459,8 +1459,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kaiseijo-bakumatsu-western-studies",
-    title: "開成所（幕府洋学教育機関の改編と発展）",
-    reading: "かいせいじょばくふようがくきょういくきかんのかいへんとはってん",
+    title: "開成所（幕府洋学機関）",
+    reading: "かいせいじょ",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1472,9 +1472,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "igakusho-vaccination-tokyo-university-origin",
-    title: "医学所（種痘所から東京大学医学部への系譜）",
-    reading: "いがくしょしゅとうじょからとうきょうだいがくいがくぶへのけいふ",
-    kana: "い",
+    title: "幕府医学所",
+    reading: "ばくふいがくしょ",
+    kana: "は",
     categories: ["history"],
     summary:
       "安政年間に設立されたお玉が池種痘所を起源とする幕府直轄の西洋医学教育機関であり、近代洋式医学の教育と臨床研究を推進した学府。",
@@ -1485,8 +1485,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kobe-naval-training-center-katsu-kaishu",
-    title: "神戸海軍操練所（勝海舟の人材育成実践）",
-    reading: "こうべかいぐんそうれんじょかつかいしゅうのじんざいいくせいじっせん",
+    title: "神戸海軍操練所",
+    reading: "こうべかいぐんそうれんじょ",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -1498,8 +1498,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "yogakushirabesho-western-studies-transition",
-    title: "洋学調所（幕末洋学研究の改組と教育）",
-    reading: "ようがくしらべしょばくまつようがくけんきゅうのかいそときょういく",
+    title: "洋学調所",
+    reading: "ようがくしらべしょ",
     kana: "よ",
     categories: ["history"],
     summary:
@@ -1511,9 +1511,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "tokyo-normal-school-national-teacher-training",
-    title: "東京師範学校（官立近代教員養成の創始）",
-    reading: "とうきょうしはんがっこうかんりつきんだいきょういんようせいのそうし",
-    kana: "と",
+    title: "官立東京師範学校",
+    reading: "かんりつとうきょうしはんがっこう",
+    kana: "か",
     categories: ["history"],
     summary:
       "学制発布に伴い1872年に創設された、アメリカ人教師スコットの指導により近代的教授法と教員養成制度を確立した日本最初の官立師範学校。",
@@ -1524,9 +1524,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "tokyo-womens-normal-school-higher-education",
-    title: "東京女子師範学校（官立女子高等教育の出発）",
-    reading: "とうきょうじょししはんがっこうかんりつじょしこうとうきょういくのしゅっぱつ",
-    kana: "と",
+    title: "官立東京女子師範学校",
+    reading: "かんりつとうきょうじょししはんがっこう",
+    kana: "か",
     categories: ["history"],
     summary:
       "1874年に設立され翌年開校した、近代初等教育を担う女性教員の養成と官立女子高等教育の礎を築いた日本初の官立女子教育機関。",
@@ -1537,8 +1537,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "meirokusha-modern-enlightenment-society",
-    title: "明六社（森有礼・福澤諭吉らの近代啓蒙社）",
-    reading: "めいろくしゃもりありのりふくざわゆきちらのきんだいけいもうしゃ",
+    title: "明六社の結成",
+    reading: "めいろくしゃのけっせい",
     kana: "め",
     categories: ["history"],
     summary:
@@ -1550,8 +1550,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kojunsha-intellectual-social-institution",
-    title: "交詢社（福澤諭吉による実業人知識人結社）",
-    reading: "こうじゅんしゃふくざわゆきちによるじつぎょうじんちしきじんけっしゃ",
+    title: "交詢社の創設",
+    reading: "こうじゅんしゃのそうせつ",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -1563,8 +1563,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "keio-gijuku-foundation-independence-self-respect",
-    title: "慶應義塾の創設と独立自尊の学風確立",
-    reading: "けいおうぎじゅくのそうせつとどくりつじそんのがくふうかくりつ",
+    title: "慶應義塾の創設",
+    reading: "けいおうぎじゅくのそうせつ",
     kana: "け",
     categories: ["history"],
     summary:
@@ -1576,8 +1576,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "doshisha-english-school-christian-education",
-    title: "同志社英学校（新島襄によるキリスト教主義）",
-    reading: "どうししゃえいがっこうにいじまじょうによるきりすときょうしゅぎ",
+    title: "同志社英学校",
+    reading: "どうししゃえいがっこう",
     kana: "と",
     categories: ["history"],
     summary:
@@ -1589,8 +1589,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "tokyo-senmon-gakko-waseda-academic-independence",
-    title: "東京専門学校（大隈重信による学問の独立）",
-    reading: "とうきょうせんもんがっこうおおくましげのぶによるがくもんのどくりつ",
+    title: "東京専門学校（早稲田）",
+    reading: "とうきょうせんもんがっこう",
     kana: "と",
     categories: ["history"],
     summary:
@@ -1602,8 +1602,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "senshu-school-legal-economic-education",
-    title: "専修学校（近代法律・経済専門教育の興起）",
-    reading: "せんしゅうがっこうきんだいほうりつけいざいせんもんきょういくのこうき",
+    title: "専修学校（明治法律専門）",
+    reading: "せんしゅうがっこう",
     kana: "せ",
     categories: ["history"],
     summary:
@@ -1615,8 +1615,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "meiji-law-school-freedom-rights-education",
-    title: "明治法律学校（権利自由の教育理念と発展）",
-    reading: "めいじほうりつがっこうけんりじゆうのきょういくりねんとはってん",
+    title: "明治法律学校",
+    reading: "めいじほうりつがっこう",
     kana: "め",
     categories: ["history"],
     summary:
@@ -1628,8 +1628,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "english-law-school-chuo-practical-education",
-    title: "イギリス法律学校（実地応用の実学教育）",
-    reading: "いぎりすほうりつがっこうじっちおうようのじつがくきょういく",
+    title: "イギリス法律学校",
+    reading: "いぎりすほうりつがっこう",
     kana: "い",
     categories: ["history"],
     summary:
@@ -1641,8 +1641,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "freedom-people-rights-private-draft-constitutions",
-    title: "自由民権運動と私擬憲法における教育規定",
-    reading: "じゆうみんけんうんどうとしぎけんぽうにおけるきょういくきてい",
+    title: "私擬憲法の教育規定",
+    reading: "しぎけんぽうのきょういくきてい",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1654,8 +1654,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "tanaka-fujimaro-american-tour-rijikotei",
-    title: "田中不二麿の欧米視察と『理事功程』刊行",
-    reading: "たなかふじまろのおうべいしさつとりじこうていかんこう",
+    title: "田中不二麿と理事功程",
+    reading: "たなかふじまろとりじこうてい",
     kana: "た",
     categories: ["history"],
     summary:
@@ -1667,9 +1667,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "perry-arrival-coastal-defense-western-studies",
-    title: "ペリー来航と幕末海防論に伴う洋学教育導入",
-    reading: "ぺりーらいこうとばくまつかいぼうろんにともなうようがくきょういくどうにゅう",
-    kana: "へ",
+    title: "幕末海防論と洋学導入",
+    reading: "ばくまつかいぼうろんとようがくどうにゅう",
+    kana: "は",
     categories: ["history"],
     summary:
       "1853年のペリー来航を契機に海防論が高揚し、幕府や諸藩が西洋兵学や航海術、自然科学を教授する機関を設立して近代技術教育の道を開いた歴史的転換。",
@@ -1680,8 +1680,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "montessori-early-japan-introduction-1910s",
-    title: "モンテッソーリ教育の日本への初期紹介",
-    reading: "もんてっそーりきょういくのにほんへのしょきしょうかい",
+    title: "モンテッソーリ教育の日本導入",
+    reading: "もんてっそーりきょういくのにほんどうにゅう",
     kana: "も",
     categories: ["history"],
     summary:
@@ -1693,8 +1693,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "herbartian-five-step-pedagogy-meiji-japan",
-    title: "ヘルバルト派五段階教授法の明治期導入",
-    reading: "へるばるとはいごだんかいきょうじゅほうのめいじきどうにゅう",
+    title: "ヘルバルト派五段階教授法導入",
+    reading: "へるばるとはいごだんかいきょうじゅほうどうにゅう",
     kana: "へ",
     categories: ["history"],
     summary:
@@ -1706,8 +1706,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "developmental-teaching-method-takamine-hideo",
-    title: "開発教授法（高嶺秀夫と直観教育の普及）",
-    reading: "かいはつきょうじゅほうたかみねひでおとちょっかんきょういくのふきゅう",
+    title: "開発教授法（高嶺秀夫）",
+    reading: "かいはつきょうじゅほう",
     kana: "か",
     categories: ["history"],
     summary:
@@ -1719,8 +1719,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "illinois-university-kindergarten-exchange-kurahashi",
-    title: "倉橋惣三らの海外留学と大正期幼稚園改革",
-    reading: "くらはしそうぞうらのかいがいりゅうがくとたいしょうきようちえんかいかく",
+    title: "倉橋惣三の幼稚園改革",
+    reading: "くらはしそうぞうのようちえんかいかく",
     kana: "く",
     categories: ["history"],
     summary:
@@ -1732,8 +1732,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "inoue-kowashi-nationalist-education-system",
-    title: "井上毅の教育構想と国家主義的教育法制化",
-    reading: "いのうえこわしのきょういくこうそうとこっかしゅぎてききょういくほうせいか",
+    title: "井上毅の教育法制構想",
+    reading: "いのうえこわしのきょういくほうせいこうそう",
     kana: "い",
     categories: ["history"],
     summary:
@@ -1745,8 +1745,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "motoda-nagazane-confucian-imperial-rescript",
-    title: "元田永孚の儒教主義教育論と勅語起草構想",
-    reading: "もとだながざねのじゅきょうしゅぎきょういくろんとちょくごきそうこうそう",
+    title: "元田永孚の儒教主義教育論",
+    reading: "もとだながざねのじゅきょうしゅぎきょういくろん",
     kana: "も",
     categories: ["history"],
     summary:
@@ -1758,8 +1758,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kuga-katsunan-national-independence-education",
-    title: "陸羯南の国民主義教育論と自主独立精神",
-    reading: "くがかつなんのこくみんしゅぎきょういくろんとじしゅどくりつせいしん",
+    title: "陸羯南の国民主義教育論",
+    reading: "くがかつなんのこくみんしゅぎきょういくろん",
     kana: "く",
     categories: ["history"],
     summary:
@@ -1771,8 +1771,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "miyake-setsurei-seikyosha-national-essence",
-    title: "三宅雪嶺の政教社と国粋主義教育思想の展開",
-    reading: "みやけせつれいのおせいきょうしゃとこくすいしゅぎきょういくしそうのてんかい",
+    title: "三宅雪嶺と政教社",
+    reading: "みやけせつれいとせいきょうしゃ",
     kana: "み",
     categories: ["history"],
     summary:
@@ -1784,8 +1784,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "haginoya-nakajima-utako-women-waka-education",
-    title: "萩の舎（中島歌子による女子和歌・古典教育）",
-    reading: "はぎのやなかじまうたこによるじょしわかこてんきょういく",
+    title: "萩の舎（中島歌子）",
+    reading: "はぎのや",
     kana: "は",
     categories: ["history"],
     summary:
@@ -1797,8 +1797,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "shimoda-utako-practical-female-citizenship",
-    title: "下田歌子の順心女子教育と愛国婦人運動",
-    reading: "しもだうたこのじゅんしんじょしきょういくとあいこくふじんうんどう",
+    title: "下田歌子の女子教育論",
+    reading: "しもだうたこのじょしきょういくろん",
     kana: "し",
     categories: ["history"],
     summary:
@@ -1810,8 +1810,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "atomi-kakei-aesthetic-female-schooling",
-    title: "跡見花蹊の跡見女学校創設と情操教育実践",
-    reading: "あとみかけいのあとみじょがっこうそうせつとじょうそうきょういくじっせん",
+    title: "跡見花蹊の女子教育実践",
+    reading: "あとみかけいのじょしきょういくじっせん",
     kana: "あ",
     categories: ["history"],
     summary:
@@ -1823,8 +1823,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "hatoyama-haruko-kyoritsu-womens-vocational",
-    title: "鳩山春子の共立女子職業学校と自立教育",
-    reading: "はとやまはるこのきょうりつじょししょくぎょうがっこうとじりつきょういく",
+    title: "鳩山春子の女子職業教育",
+    reading: "はとやまはるこのじょししょくぎょうきょういく",
     kana: "は",
     categories: ["history"],
     summary:
@@ -1836,8 +1836,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kumamoto-western-school-janes-practical",
-    title: "熊本洋学校（ジェーンズによる全人英語指導）",
-    reading: "くまもとようがっこうじぇーんずによるぜんじんえいごしどう",
+    title: "熊本洋学校（ジェーンズ）",
+    reading: "くまもとようがっこう",
     kana: "く",
     categories: ["history"],
     summary:
@@ -1849,8 +1849,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kumamoto-band-christian-reformation-youth",
-    title: "熊本バンド（自主的キリスト教結社と青年群）",
-    reading: "くまもとばんどじしゅてききりすときょうけっしゃとせいねんぐん",
+    title: "熊本バンド",
+    reading: "くまもとばんど",
     kana: "く",
     categories: ["history"],
     summary:
@@ -1862,8 +1862,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "sapporo-band-clark-evangelical-scholarship",
-    title: "札幌バンド（クラーク門下生と近代思想形成）",
-    reading: "さっぽろばんどくらーくもんかせいときんだいしそうけいせい",
+    title: "札幌バンド",
+    reading: "さっぽろばんど",
     kana: "さ",
     categories: ["history"],
     summary:
@@ -1875,8 +1875,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "william-clark-boys-be-ambitious-legacy",
-    title: "クラーク博士の青年野望論と札幌農学校精神",
-    reading: "くらーくはくせいのせいねんやぼうろんとさっぽろのうがっこうせいしん",
+    title: "クラーク博士の青年教育",
+    reading: "くらーくはくせいのせいねんきょういく",
     kana: "く",
     categories: ["history"],
     summary:
@@ -1888,8 +1888,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "eight-major-educational-principles-taisho",
-    title: "八大教育主張（大正自由教育の思想的総括）",
-    reading: "はちだいきょういくしゅちょうたいしょうじゆうきょういくのしそうてきそうかつ",
+    title: "八大教育主張",
+    reading: "はちだいきょういくしゅちょう",
     kana: "は",
     categories: ["history"],
     summary:
@@ -1901,8 +1901,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "obara-kuniyoshi-tamagawa-whole-person-school",
-    title: "小原國芳の玉川学園開校と全人教育実践",
-    reading: "おばらくによしのたまがわがくえんかいこうとぜんじんきょういくじっせん",
+    title: "小原國芳の全人教育論",
+    reading: "おばらくによしのぜんじんきょういくろん",
     kana: "お",
     categories: ["history"],
     summary:
@@ -1914,8 +1914,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "hani-motoko-jiyu-gakuen-life-as-education",
-    title: "羽仁もと子の自由学園創設と生活即教育論",
-    reading: "はにもとこのじゆうがくえんそうせつとせいかつそくきょういくろん",
+    title: "羽仁もと子の生活即教育",
+    reading: "はにもとこのせいかつそくきょういく",
     kana: "は",
     categories: ["history"],
     summary:
@@ -1927,8 +1927,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "akai-yonekichi-myojo-gakuen-individual-growth",
-    title: "赤井米吉の明星学園創設と個性尊重教育実践",
-    reading: "あかいよねきちのみょうじょうがくえんそうせつとこせいそんちょうきょういくじっせん",
+    title: "赤井米吉の個性尊重教育",
+    reading: "あかいよねきちのこせいそんちょうきょういく",
     kana: "あ",
     categories: ["history"],
     summary:
@@ -1940,8 +1940,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "oikawa-heiji-dynamic-education-akashi",
-    title: "及川平治の動的教育論と分団式教授法の展開",
-    reading: "おいかわへいじのどうてききょういくろんとぶんだんしききょうじゅほうのてんかい",
+    title: "及川平治の動的教育論",
+    reading: "おいかわへいじのどうてききょういくろん",
     kana: "お",
     categories: ["history"],
     summary:
@@ -1953,8 +1953,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "tezuka-kishie-free-education-chiba",
-    title: "手塚岸衛の自由教育論と千葉師範附属小実践",
-    reading: "てづかきしえのじゆうきょういくろんとちばしはんふぞくしょうじっせん",
+    title: "手塚岸衛の自由教育論",
+    reading: "てづかきしえのじゆうきょういくろん",
     kana: "て",
     categories: ["history"],
     summary:
@@ -1966,8 +1966,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kinoshita-takeji-integrated-learning-nara",
-    title: "木下竹次の学習法論と合科学習の創始実践",
-    reading: "きのしたたけじのがくしゅうほうろんとごうかがくしゅうのそうしじっせん",
+    title: "木下竹次の合科学習論",
+    reading: "きのしたたけじのごうかがくしゅうろん",
     kana: "き",
     categories: ["history"],
     summary:
@@ -1979,8 +1979,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "chiba-meikichi-instinctive-education-theory",
-    title: "千葉命吉の衝動教育論と児童内面解放",
-    reading: "ちばめいきちのしょうどうきょういくろんとじどうないめんかいほう",
+    title: "千葉命吉の衝動教育論",
+    reading: "ちばめいきちのしょうどうきょういくろん",
     kana: "ち",
     categories: ["history"],
     summary:
@@ -1992,8 +1992,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "suzuki-miekichi-red-bird-magazine-children",
-    title: "鈴木三重吉の『赤い鳥』創刊と児童文化運動",
-    reading: "すずきみえきちのあかいとりそうかんとじどうぶんかうんどう",
+    title: "鈴木三重吉の『赤い鳥』",
+    reading: "すずきみえきちのあかいとり",
     kana: "す",
     categories: ["history"],
     summary:
@@ -2005,8 +2005,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "kitahara-hakushu-children-song-movement",
-    title: "北原白秋の童謡運動と芸術的言語教育",
-    reading: "きたはらはくしゅうのどうよううんどうとげいじゅつてきげんごきょういく",
+    title: "北原白秋の童謡運動",
+    reading: "きたはらはくしゅうのどうよううんどう",
     kana: "き",
     categories: ["history"],
     summary:
@@ -2018,8 +2018,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "yumeji-girls-magazine-culture-sentiment",
-    title: "大正少女雑誌文化と抒情的情操教育の形成",
-    reading: "たいしょうしょうじょざっしぶんかとじょじょうてきじょうそうきょういくのけいせい",
+    title: "大正少女文化（抒情画・情操）",
+    reading: "たいしょうしょうじょぶんか",
     kana: "た",
     categories: ["history"],
     summary:
@@ -2031,9 +2031,9 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "yamamoto-kanae-free-drawing-movement",
-    title: "山本鼎の自由画教育運動と子どもの創造性",
-    reading: "やまもとかなえのじゆうがきょういくうんどうとこどものそうぞうせい",
-    kana: "や",
+    title: "自由画教育運動（山本鼎）",
+    reading: "じゆうがきょういくうんどう",
+    kana: "し",
     categories: ["history"],
     summary:
       "洋画家の山本かなえが提唱した、手本を模倣する図画指導を退け子どもの純粋な直観と個性的創造性を肯定する自由画教育の運動。",
@@ -2044,8 +2044,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "northern-education-movement-life-realities",
-    title: "北方教育運動と生活現実に基づく綴方実践",
-    reading: "ほっぽうきょういくうんどうとせいかつげんじつにもとづくつづりかたじっせん",
+    title: "北方教育運動",
+    reading: "ほっぽうきょういくうんどう",
     kana: "ほ",
     categories: ["history"],
     summary:
@@ -2057,8 +2057,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "yamabiko-gakkou-muchaku-seikyo-life-writing",
-    title: "山彦学校（無着成恭と山形県山元中学生徒記録）",
-    reading: "やまびこがっこうむちゃくせいきょうとやまがたけんやまもとちゅうがくせいときろく",
+    title: "山彦学校（無着成恭）",
+    reading: "やまびこがっこう",
     kana: "や",
     categories: ["history"],
     summary:
@@ -2070,8 +2070,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "sasaki-kenji-life-record-pedagogy",
-    title: "佐々木賢治の生活記録論と民衆教育の実践",
-    reading: "ささきけんじのせいかつきろくろんとみんしゅうきょういくのじっせん",
+    title: "佐々木賢治の生活記録論",
+    reading: "ささきけんじのせいかつきろくろん",
     kana: "さ",
     categories: ["history"],
     summary:
@@ -2083,8 +2083,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "education-science-research-association-prewar",
-    title: "教育科学研究会の戦前活動と生活教育理論",
-    reading: "きょういくかがくけんきゅうかいのせんぜんかつどうとせいかつきょういくりろん",
+    title: "教育科学研究会（戦前活動）",
+    reading: "きょういくかがくけんきゅうかい",
     kana: "き",
     categories: ["history"],
     summary:
@@ -2096,8 +2096,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "national-spiritual-mobilization-wartime-schools",
-    title: "国民精神総動員運動と学校教育の戦時統制",
-    reading: "こくみんせいしんそうどういんうんどうとがっこうきょういくのせんじとうせい",
+    title: "国民精神総動員と戦時教育",
+    reading: "こくみんせいしんそうどういんとせんじきょういく",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -2109,8 +2109,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "imperial-citizens-cultivation-wartime-ideology",
-    title: "皇民錬成運動と滅私奉公的教化体制の浸透",
-    reading: "こうみんれんせいうんどうとめっしほうこうてききょうかたいせいのしんとう",
+    title: "皇民錬成運動",
+    reading: "こうみんれんせいうんどう",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -2122,8 +2122,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "military-officer-assignment-school-drills",
-    title: "学校配属将校制度と教練指導の全校義務化",
-    reading: "がっこうはいぞくしょうこうせいどときょうれんしどうのぜんこうぎむか",
+    title: "学校配属将校制度",
+    reading: "がっこうはいぞくしょうこうせいど",
     kana: "か",
     categories: ["history"],
     summary:
@@ -2135,8 +2135,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "renseika-wartime-integrated-curriculum",
-    title: "錬成科（修身国語国史地理の戦時総合教科）",
-    reading: "れんせいかしゅうしんこくごこくしちりのせんじそうごうきょうか",
+    title: "錬成科（国民学校）",
+    reading: "れんせいか",
     kana: "れ",
     categories: ["history"],
     summary:
@@ -2148,8 +2148,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "student-military-mobilization-suspension-lifted",
-    title: "学徒出陣令（文科系学生の徴兵猶予停止令）",
-    reading: "がくとしゅつじんれいぶんかけいがくせいのちょうへいゆうよていしれい",
+    title: "学徒出陣令",
+    reading: "がくとしゅつじんれい",
     kana: "か",
     categories: ["history"],
     summary:
@@ -2161,8 +2161,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "group-evacuation-school-children-measures",
-    title: "学童集団疎開促進要綱と都市部児童の避難",
-    reading: "がくどうしゅうだんそかいそくしんようこうととしぶじどうのひなん",
+    title: "学童集団疎開",
+    reading: "がくどうしゅうだんそかい",
     kana: "か",
     categories: ["history"],
     summary:
@@ -2174,8 +2174,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "blacked-out-textbooks-postwar-ghq-orders",
-    title: "墨塗り教科書（終戦直後占領軍指令の削除措置）",
-    reading: "すみぬりきょうかしょしゅうせんちょくごせんりょうぐんしれいのさくじょそち",
+    title: "墨塗り教科書",
+    reading: "すみぬりきょうかしょ",
     kana: "す",
     categories: ["history"],
     summary:
@@ -2187,8 +2187,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "second-us-education-mission-report-1950",
-    title: "第2次米国教育使節団報告書（1950年勧告）",
-    reading: "だいにじべいこくきょういくしせつだんほうこくしょせんきゅうひゃくごじゅうねんかんこく",
+    title: "第2次米国教育使節団報告書",
+    reading: "だいにじべいこくきょういくしせつだんほうこくしょ",
     kana: "た",
     categories: ["history"],
     summary:
@@ -2200,8 +2200,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "education-reform-council-transition-recs",
-    title: "教育刷新審議会の答申と学制改革の制度化",
-    reading: "きょういくさっしんしんぎかいのとうしんとがくせいかいかくのせいどか",
+    title: "教育刷新審議会答申",
+    reading: "きょういくさっしんしんぎかいとうしん",
     kana: "き",
     categories: ["history"],
     summary:
@@ -2213,8 +2213,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "postwar-elementary-course-of-study-1947",
-    title: "昭和22年学習指導要領（経験主義教育の導入）",
-    reading: "しょうわにじゅうにねんがくしゅうしどうようりょうけいけんしゅぎきょういくのどうにゅう",
+    title: "昭和22年学習指導要領",
+    reading: "しょうわにじゅうにねんがくしゅうしどうようりょう",
     kana: "し",
     categories: ["history"],
     summary:
@@ -2226,8 +2226,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "social-studies-subject-creation-postwar",
-    title: "戦後社会科の新設（主権者公民性育成の構想）",
-    reading: "せんごしゃかいかのしんせつしゅけんしゃこうみんせいいくせいのこうそう",
+    title: "戦後社会科の新設",
+    reading: "せんごしゃかいかのしんせつ",
     kana: "せ",
     categories: ["history"],
     summary:
@@ -2239,8 +2239,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-1951-trial-edition",
-    title: "昭和26年学習指導要領改訂（試案の発展修正）",
-    reading: "しょうわにじゅうろくねんがくしゅうしどうようりょうかいていしあんのはってんしゅうせい",
+    title: "昭和26年指導要領改訂",
+    reading: "しょうわにじゅうろくねんしどうようりょうかいてい",
     kana: "し",
     categories: ["history"],
     summary:
@@ -2252,8 +2252,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-1958-legal-binding",
-    title: "昭和33年改訂と学習指導要領法的拘束力化",
-    reading: "しょうわさんじゅうさんねんかいていとがくしゅうしどうようりょうほうてきこうそくりょくか",
+    title: "昭和33年指導要領改訂",
+    reading: "しょうわさんじゅうさんねんしどうようりょうかいてい",
     kana: "し",
     categories: ["history"],
     summary:
@@ -2265,8 +2265,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-1968-modernization",
-    title: "昭和43年改訂と教育内容の現代化推進方針",
-    reading: "しょうわよんじゅうさんねんかいていときょういくないようのげんだいかすいしんほうしん",
+    title: "昭和43年指導要領改訂",
+    reading: "しょうわよんじゅうさんねんしどうようりょうかいてい",
     kana: "し",
     categories: ["history"],
     summary:
@@ -2278,8 +2278,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-1977-yutori-origins",
-    title: "昭和52年改訂と「ゆとりある学校生活」の提唱",
-    reading: "しょうわごじゅうにねんかいていとゆとりあるがっこうせいかつのていしょう",
+    title: "昭和52年指導要領改訂",
+    reading: "しょうわごじゅうにねんしどうようりょうかいてい",
     kana: "し",
     categories: ["history"],
     summary:
@@ -2291,8 +2291,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-1989-seikatsuka",
-    title: "平成元年改訂と「生活科」新設の教育課程改革",
-    reading: "へいせいがんねんかいていとせいかつかしんせつのきょういくかていかいかく",
+    title: "平成元年指導要領改訂",
+    reading: "へいせいがんねんしどうようりょうかいてい",
     kana: "へ",
     categories: ["history"],
     summary:
@@ -2304,8 +2304,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-1998-sogo-learning",
-    title: "平成10年改訂と総合的な学習の時間の全面新設",
-    reading: "へいせいじゅうねんかいていとそうごうてきながくしゅうのじかんのぜんめんしんせつ",
+    title: "平成10年指導要領改訂",
+    reading: "へいせいじゅうねんしどうようりょうかいてい",
     kana: "へ",
     categories: ["history"],
     summary:
@@ -2317,8 +2317,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-2008-de-yutori",
-    title: "平成20年改訂と確かな学力・脱ゆとりの展開",
-    reading: "へいせいにじゅうねんかいていとたしかながくりょくだつゆとりのてんかい",
+    title: "平成20年指導要領改訂",
+    reading: "へいせいにじゅうねんしどうようりょうかいてい",
     kana: "へ",
     categories: ["history"],
     summary:
@@ -2330,8 +2330,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "course-of-study-revision-2017-three-pillars",
-    title: "平成29年改訂と主体的対話的で深い学びの実現",
-    reading: "へいせいにじゅうきゅうねんかいていとしゅたいてきたいわてきでふかいまなびのじつげん",
+    title: "平成29年指導要領改訂",
+    reading: "へいせいにじゅうきゅうねんしどうようりょうかいてい",
     kana: "へ",
     categories: ["history"],
     summary:
@@ -2343,8 +2343,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "revised-fundamental-law-of-education-2006",
-    title: "改正教育基本法（2006年制定の理念と条文）",
-    reading: "かいせいきょういくきほんほうにせんろくねんせいていのりねんとじょうぶん",
+    title: "改正教育基本法（2006年）",
+    reading: "かいせいきょういくきほんほう",
     kana: "か",
     categories: ["history"],
     summary:
@@ -2356,8 +2356,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "industrial-education-promotion-act-1951",
-    title: "産業教育振興法の制定と職業教育国庫補助制度",
-    reading: "さんぎょうきょういくしんこうほうのせいていとしょくぎょうきょういくこっこほじょせいど",
+    title: "産業教育振興法",
+    reading: "さんぎょうきょういくしんこうほう",
     kana: "さ",
     categories: ["history"],
     summary:
@@ -2369,8 +2369,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "science-education-promotion-act-1953",
-    title: "理科教育振興法の制定と実験観察設備の近代化",
-    reading: "りかきょういくしんこうほうのせいていとじっけんかんさつせつびのきんだいか",
+    title: "理科教育振興法",
+    reading: "りかきょういくしんこうほう",
     kana: "り",
     categories: ["history"],
     summary:
@@ -2382,8 +2382,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "remote-area-education-promotion-act-1954",
-    title: "へき地教育振興法の制定と教員へき地手当保障",
-    reading: "へきちきょういくしんこうほうのせいていときょういんへきらちてあてほしょう",
+    title: "へき地教育振興法の制定",
+    reading: "へきちきょういくしんこうほうのせいてい",
     kana: "へ",
     categories: ["history"],
     summary:
@@ -2395,8 +2395,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "school-lunch-act-1954-bread-milk-expansion",
-    title: "学校給食法の制定と完全給食への制度的普及",
-    reading: "がっこうきゅうしょくほうのせいていとかんぜんきゅうしょくへのせいどてきふきゅう",
+    title: "学校給食法の制定普及",
+    reading: "がっこうきゅうしょくほうのせいていふきゅう",
     kana: "か",
     categories: ["history"],
     summary:
@@ -2408,8 +2408,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "japan-scholarship-society-act-development",
-    title: "日本育英会法と公的育英奨学事業の展開史",
-    reading: "にほんいくえいかいほうとこうてきいくえいしょうがくじぎょうのてんかいし",
+    title: "日本育英会法",
+    reading: "にほんいくえいかいほう",
     kana: "に",
     categories: ["history"],
     summary:
@@ -2421,8 +2421,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "national-university-corporation-act-2003",
-    title: "国立大学法人法の制定と大学自律化ガバナンス",
-    reading: "こくりつだいがくほうじんほうのせいていとだいがくじりつかがばなんす",
+    title: "国立大学法人法",
+    reading: "こくりつだいがくほうじんほう",
     kana: "こ",
     categories: ["history"],
     summary:
@@ -2434,8 +2434,8 @@ export const historyTerms: Term[] = [
   },
   {
     slug: "teacher-license-renewal-system-history",
-    title: "教員免許更新制の導入から廃止に至る政策変遷",
-    reading: "きょういんめんきょこうしんせいのどうにゅうからはいしにいたるせいさくへんせん",
+    title: "教員免許更新制の変遷",
+    reading: "きょういんめんきょこうしんせいのへんせん",
     kana: "き",
     categories: ["history"],
     summary:
