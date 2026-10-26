@@ -1157,8 +1157,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "thinking-routines-project-zero",
-    title: "思考ルーチン（ハーバード大ゼロ・プロジェクト）",
-    reading: "しこうるーちん（はーばーどだいぜろ・ぷろじぇくと）",
+    title: "思考ルーチン（プロジェクト・ゼロ）",
+    reading: "しこうるーちんぷろじぇくとぜろ",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1170,8 +1170,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "visible-thinking-pedagogy",
-    title: "可視化思考（シンキング・ビジブル）",
-    reading: "かしかしこう（しんきんぐ・びじぶる）",
+    title: "可視化思考（思考の可視化）",
+    reading: "かしかしこうしこうのかしか",
     kana: "か",
     categories: ["methods"],
     summary:
@@ -1183,8 +1183,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "scaffolding-fading-technique",
-    title: "足場かけのフェージング（支援の漸減）",
-    reading: "あしばかけのふぇーじんぐ（しえんのぜんげん）",
+    title: "足場かけのフェージング",
+    reading: "あしばかけのふぇーじんぐ",
     kana: "あ",
     categories: ["methods"],
     summary:
@@ -1196,8 +1196,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "expert-novice-pedagogical-research",
-    title: "熟達者・初心者の認知研究と教授法",
-    reading: "じゅくたつしゃ・しょしんしゃのにんちけんきゅうときょうじゅほう",
+    title: "熟達化研究（エキスパート研究）",
+    reading: "じゅくたつかけんきゅうえきすぱーとけんきゅう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1209,9 +1209,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "supplementary-instruction-unit",
-    title: "単元未満指導と補充学習の工夫",
-    reading: "たんげんみまんしどうとほじゅうがくしゅうのくふう",
-    kana: "た",
+    title: "補充指導（ステップアップ学習）",
+    reading: "ほじゅうしどうすてっぷあっぷがくしゅう",
+    kana: "ほ",
     categories: ["methods"],
     summary:
       "短時間学習や放課後等を活用し、つまずきのある児童生徒への補充や基礎的知識の定着を図る、正規の単元枠組みを補完する組織的指導。",
@@ -1222,8 +1222,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "instruction-assessment-integration-practice",
-    title: "指導と評価の一体化の実践手法",
-    reading: "しどうとひょうかのいったいかのじっせんしゅほう",
+    title: "指導と評価の一体化の展開",
+    reading: "しどうとひょうかのいったいかのてんかい",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1248,8 +1248,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "structured-lesson-goals-reflection",
-    title: "めあてと振り返りの構造化",
-    reading: "めあてとふりかえりのこうぞうか",
+    title: "めあてと振り返り",
+    reading: "めあてとふりかえり",
     kana: "め",
     categories: ["methods"],
     summary:
@@ -1261,9 +1261,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "three-phase-lesson-structure",
-    title: "導入・展開・終末の3段階授業展開",
-    reading: "どうにゅう・てんかい・しゅうまつのさんだんかいじゅぎょうてんかい",
-    kana: "と",
+    title: "3段階授業展開（導入・展開・終末）",
+    reading: "さんだんかいじゅぎょうてんかいどうにゅうてんかいしゅうまつ",
+    kana: "さ",
     categories: ["methods"],
     summary:
       "1時間の授業を課題提示、探究・思考、まとめと振り返りの3局面に区分し、系統的かつ効果的な思考深化を促す伝統的・基本構造。",
@@ -1274,9 +1274,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "open-closed-questioning-strategies",
-    title: "開いた発問と閉じた発問の使い分け",
-    reading: "ひらいたはつもんととじたはつもんのつかいわけ",
-    kana: "ひ",
+    title: "発問の分類（開いた発問・閉じた発問）",
+    reading: "はつもんのぶんるいひらいたはつもん・とじたはつもん",
+    kana: "は",
     categories: ["methods"],
     summary:
       "一意の解を求める確認的な問いと多様な思考や表現を引き出す問いを、学習段階や目的に応じて戦略的に使い分ける教師の発問技術。",
@@ -1287,8 +1287,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "destabilizing-questioning-technique",
-    title: "ゆさぶりの発問（認識の転換）",
-    reading: "ゆさぶりのはつもん（にんしきのてんかん）",
+    title: "ゆさぶりの発問",
+    reading: "ゆさぶりのはつもん",
     kana: "ゆ",
     categories: ["methods"],
     summary:
@@ -1300,9 +1300,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "responsive-revoicing-questioning",
-    title: "切り返し発問とリボイシング",
-    reading: "きりかえしはつもんとりぼいしんぐ",
-    kana: "き",
+    title: "リボイシング（発問技術）",
+    reading: "りぼいしんぐはつもんぎじゅつ",
+    kana: "り",
     categories: ["methods"],
     summary:
       "児童生徒の発言を教員が言い直して学級全体に共有し、さらに思考を深める問いを投げ返すことで、協働的な探究を組織する指導技術。",
@@ -1313,8 +1313,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "structured-board-writing-plan",
-    title: "構造的板書計画の技術",
-    reading: "こうぞうてきばんしょけいかくのぎじゅつ",
+    title: "構造的板書",
+    reading: "こうぞうてきばんしょ",
     kana: "こ",
     categories: ["methods"],
     summary:
@@ -1326,8 +1326,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "nameplate-opinion-visualization",
-    title: "ネームプレートによる立場表明・意見可視化",
-    reading: "ねーむぷれーとによるたちばひょうめい・いけんかしか",
+    title: "ネームプレート法",
+    reading: "ねーむぷれーとほう",
     kana: "ね",
     categories: ["methods"],
     summary:
@@ -1339,8 +1339,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "gallery-walk-poster-tour",
-    title: "ギャラリーウォーク（ポスターツアー）",
-    reading: "ぎゃらりーうぉーく（ぽすたーつあー）",
+    title: "ギャラリーウォーク",
+    reading: "ぎゃらりーうぉーく",
     kana: "き",
     categories: ["methods"],
     summary:
@@ -1352,8 +1352,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "standing-and-sharing-learning",
-    title: "立ち歩き学習と情報交流活動",
-    reading: "たちあるきがくしゅうとじょうほうこうりゅうかつどう",
+    title: "立ち歩き学習",
+    reading: "たちあるきがくしゅう",
     kana: "た",
     categories: ["methods"],
     summary:
@@ -1365,8 +1365,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "expert-group-home-group-dynamics",
-    title: "エキスパート活動とホームグループの対話",
-    reading: "えきすぱーとかつどうとほーむぐるーぷのたいわ",
+    title: "エキスパート活動",
+    reading: "えきすぱーとかつどう",
     kana: "え",
     categories: ["methods"],
     summary:
@@ -1378,9 +1378,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "fishbone-cause-and-effect-diagram",
-    title: "フィッシュボーン・チャート（特性要因図）",
-    reading: "ふぃっしゅぼーん・ちゃーと（とくせいよういんず）",
-    kana: "ふ",
+    title: "特性要因図（フィッシュボーン）",
+    reading: "とくせいよういんずふぃっしゅぼーん",
+    kana: "と",
     categories: ["methods"],
     summary:
       "魚の骨の形状を用いて、ある課題や結果に対して影響を与える様々な要因を階層的に整理・分析する原因分析のための思考ツール。",
@@ -1391,8 +1391,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "pyramid-structure-thinking-tool",
-    title: "ピラミッド・チャート（思考ピラミッド）",
-    reading: "ぴらみっど・ちゃーと（しこうぴらみっど）",
+    title: "ピラミッド・チャート",
+    reading: "ぴらみっどちゃーと",
     kana: "ひ",
     categories: ["methods"],
     summary:
@@ -1404,8 +1404,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "mandala-chart-idea-generation",
-    title: "マンダラチャート（目標達成と思考展開）",
-    reading: "まんだらちゃーと（もくひょうたっせいとしこうてんかい）",
+    title: "マンダラチャート",
+    reading: "まんだらちゃーと",
     kana: "ま",
     categories: ["methods"],
     summary:
@@ -1417,8 +1417,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "venn-diagram-comparison-tool",
-    title: "ベン図を活用した比較・分類指導",
-    reading: "べんずをかつようしたひかく・ぶんるいしどう",
+    title: "ベン図（思考ツール）",
+    reading: "べんずしこうつーる",
     kana: "へ",
     categories: ["methods"],
     summary:
@@ -1430,8 +1430,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "pmi-plus-minus-interesting-method",
-    title: "PMI法（プラス・マイナス・興味深い点）",
-    reading: "ぴーえむあいほう（ぷらす・まいなす・きょうみぶかいてん）",
+    title: "PMI法（思考ツール）",
+    reading: "ぴーえむあいほうしこうつーる",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -1443,8 +1443,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "y-chart-x-chart-multidimensional",
-    title: "Yチャート・Xチャートによる多面的整理",
-    reading: "わいちゃーと・えっくすちゃーとによるためんてきせいり",
+    title: "Yチャート（思考ツール）",
+    reading: "わいちゃーとしこうつーる",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -1456,8 +1456,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "jellyfish-chart-reasoning-tool",
-    title: "クラゲチャート（理由づけ・根拠の整理）",
-    reading: "くらげちゃーと（りゆうづけ・こんきょのせいり）",
+    title: "クラゲチャート",
+    reading: "くらげちゃーと",
     kana: "く",
     categories: ["methods"],
     summary:
@@ -1469,8 +1469,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "butterfly-chart-opinion-contrast",
-    title: "バタフライチャート（対立意見の比較分析）",
-    reading: "ばたふらいちゃーと（たいりついけんのひかくぶんせき）",
+    title: "バタフライチャート",
+    reading: "ばたふらいちゃーと",
     kana: "は",
     categories: ["methods"],
     summary:
@@ -1482,8 +1482,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "diamond-ranking-prioritization",
-    title: "ダイヤモンド・ランキング（優先順位づけ法）",
-    reading: "だいやもんど・らんきんぐ（ゆうせんじゅんいづけほう）",
+    title: "ダイヤモンド・ランキング",
+    reading: "だいやもんどらんきんぐ",
     kana: "た",
     categories: ["methods"],
     summary:
@@ -1495,8 +1495,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "step-chart-process-organization",
-    title: "ステップ・チャート（時系列・手順の可視化）",
-    reading: "すてっぷ・ちゃーと（じけいれつ・てじゅんのかしか）",
+    title: "ステップ・チャート",
+    reading: "すてっぷちゃーと",
     kana: "す",
     categories: ["methods"],
     summary:
@@ -1508,9 +1508,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "coordinate-axis-thinking-sheet",
-    title: "2軸座標軸シート（位置づけと評価）",
-    reading: "にじくざひょうじくしーと（いちづけとひょうか）",
-    kana: "に",
+    title: "座標軸シート（思考ツール）",
+    reading: "ざひょうじくしーとしこうつーる",
+    kana: "さ",
     categories: ["methods"],
     summary:
       "直交する縦横二つの評価軸を設定し、複数の事象やアイデアを平面上に配置することで、相互の相対的な位置づけや特徴を多角的に分析・比較する思考ツール。",
@@ -1521,9 +1521,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "nudge-theory-classroom-design",
-    title: "ナッジ理論を活用した教室環境デザイン",
-    reading: "なっじりろんをかつようしたきょうしつかんきょうでざいん",
-    kana: "な",
+    title: "教育ナッジ（教室環境）",
+    reading: "きょういくなっじきょうしつかんきょう",
+    kana: "き",
     categories: ["methods"],
     summary:
       "行動経済学のナッジ理論を援用し、強制や罰則を用いず教室の物理的配置や掲示の工夫によって児童生徒の自発的で望ましい学習行動を促す環境設計手法。",
@@ -1534,8 +1534,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "universal-design-lesson-framework",
-    title: "授業のユニバーサルデザイン（焦点化・視覚化・共有化）",
-    reading: "じゅぎょうのゆにばーさるでざいん（しょうてんか・しかくか・きょうゆうか）",
+    title: "授業のユニバーサルデザイン",
+    reading: "じゅぎょうのゆにばーさるでざいん",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1547,8 +1547,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "small-step-instructional-method",
-    title: "スモールステップ指導（段階的達成指導）",
-    reading: "すもーるすてっぷしどう（だんかいてきたっせいしどう）",
+    title: "スモールステップの原理",
+    reading: "すもーるすてっぷのげんり",
     kana: "す",
     categories: ["methods"],
     summary:
@@ -1560,8 +1560,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "prompt-and-fading-instruction",
-    title: "プロンプトとフェイディング（教示と手引きの消去）",
-    reading: "ぷろんぷととふぇいでぃんぐ（きょうじとてびきのしょうきょ）",
+    title: "プロンプトとフェイディング",
+    reading: "ぷろんぷととふぇいでぃんぐ",
     kana: "ふ",
     categories: ["methods"],
     summary:
@@ -1573,8 +1573,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "pre-test-post-test-alignment",
-    title: "事前テスト・事後テストの授業連携",
-    reading: "じぜんてすと・じごてすとのじゅぎょうれんけい",
+    title: "事前テスト・事後テスト",
+    reading: "じぜんてすとじごてすと",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1586,8 +1586,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "self-paced-independent-learning",
-    title: "自由進度学習（自己決定型個別学習）",
-    reading: "じゆうしんどがくしゅう（じこけっていがたこべつがくしゅう）",
+    title: "自由進度学習",
+    reading: "じゆうしんどがくしゅう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1599,9 +1599,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "watari-and-zurashi-multigrade",
-    title: "複式学級の「わたり」と「ずらし」",
-    reading: "ふくしきがっきゅうの（わたり）と（ずらし）",
-    kana: "ふ",
+    title: "わたりとずらし（複式学級）",
+    reading: "わたりとずらしふくしきがっきゅう",
+    kana: "わ",
     categories: ["methods"],
     summary:
       "二つ以上の学年を同一教室で同時に指導する複式学級において、教員の直接指導の移動（わたり）と学年ごとの時間配分・活動構造の分散（ずらし）を組み合わせた授業技術。",
@@ -1612,9 +1612,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "indirect-guidance-leader-learning",
-    title: "複式指導における間接指導とリーダー学習",
-    reading: "ふくしきしどうにおけるかんせつしどうとりーだーがくしゅう",
-    kana: "ふ",
+    title: "間接指導（複式学級）",
+    reading: "かんせつしどうふくしきがっきゅう",
+    kana: "か",
     categories: ["methods"],
     summary:
       "教員が別の学年を直接指導している間、児童生徒のリーダーが司会や進行を務め、学習者同士の対話や協働によって自律的に学習を進めさせる指導形態。",
@@ -1625,8 +1625,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "keller-plan-personalized-system",
-    title: "ケラー・プラン（個別化教授システム）",
-    reading: "けらー・ぷらん（こべつかきょうじゅしすてむ）",
+    title: "ケラー・プラン（PSI）",
+    reading: "けらーぷらんぴーえすあい",
     kana: "け",
     categories: ["methods"],
     summary:
@@ -1638,8 +1638,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "winnetka-plan-common-essentials",
-    title: "ウィネトカ・プラン（共通基礎教科と創造的活動）",
-    reading: "うぃねとか・ぷらん（きょうつうきそきょうかとそうぞうてきかつどう）",
+    title: "ウィネトカ・プラン",
+    reading: "うぃねとかぷらん",
     kana: "う",
     categories: ["methods"],
     summary:
@@ -1651,8 +1651,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "jena-plan-multi-age-stammgruppe",
-    title: "イエナ・プランの基幹グループ（異年齢学級編成）",
-    reading: "いえな・ぷらんのきかんぐるーぷ（いねんれいがっきゅうへんせい）",
+    title: "イエナ・プラン（根幹集団）",
+    reading: "いえなぷらんこんかんしゅうだん",
     kana: "い",
     categories: ["methods"],
     summary:
@@ -1664,8 +1664,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "freinet-pedagogy-free-text-printing",
-    title: "フレネ教育の自由作文と学級印刷機",
-    reading: "ふれねきょういくのじゆうさくぶんとがっきゅういんさつき",
+    title: "フレネ教育（自由作文）",
+    reading: "ふれねきょういくじゆうさくぶん",
     kana: "ふ",
     categories: ["methods"],
     summary:
@@ -1677,9 +1677,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "decroly-centers-of-interest",
-    title: "オヴィド・デクロリーの興味の中心理論",
-    reading: "おゔぃど・でくろりーのきょうみのちゅうしんりろん",
-    kana: "お",
+    title: "興味の中心（デクロリー）",
+    reading: "きょうみのちゅうしんでくろりー",
+    kana: "き",
     categories: ["methods"],
     summary:
       "医師・教育者デクロリーが提唱した、子どもの本能的欲求に根ざす興味の中心を核として、観察・連合・表現の三活動により教科を統合して学ぶ全人教育理論。",
@@ -1690,8 +1690,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "montessori-sensorial-didactic-materials",
-    title: "モンテッソーリの感覚教具と誤りの自己訂正",
-    reading: "もんてっそーりのかんかくきょうぐとあやまりのじこていせい",
+    title: "モンテッソーリ感覚教具の原理",
+    reading: "もんてっそーりかんかくきょうぐのげんり",
     kana: "も",
     categories: ["methods"],
     summary:
@@ -1703,9 +1703,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "montessori-practical-life-exercises",
-    title: "モンテッソーリの日常生活の練習（秩序と自立）",
-    reading: "もんてっそーりのにちじょうせいかつのかつどう（ちつじょとじりつ）",
-    kana: "も",
+    title: "日常生活の練習（モンテッソーリ）",
+    reading: "にちじょうせいかつのれんしゅうもんてっそーり",
+    kana: "に",
     categories: ["methods"],
     summary:
       "モンテッソーリ教育の根幹をなす、身の回りの手入れや運動の調整を行う作業を通じて、意志の統御、秩序感、自立した人格を育む初期教育実践。",
@@ -1716,9 +1716,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "reggio-emilia-long-term-progettazione",
-    title: "レッジョ・エミリアのプロジェッタツィオーネ",
-    reading: "れっじょ・えみりあのぷろじぇったつぃおーね",
-    kana: "れ",
+    title: "プロジェッタツィオーネ",
+    reading: "ぷろじぇったつぃおーね",
+    kana: "ふ",
     categories: ["methods"],
     summary:
       "イタリアの幼児教育レッジョ・エミリアにおいて、固定的な指導案を排し、子どもの興味や対話に応じて予測と軌道修正を重ねながら柔軟に展開する長期プロジェクト型教育。",
@@ -1729,8 +1729,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "portfolio-interview-self-assessment",
-    title: "ポートフォリオ面談と自己省察指導",
-    reading: "ぽーとふぉりおめんだんとじこせいさつしどう",
+    title: "ポートフォリオ面談",
+    reading: "ぽーとふぉりおめんだん",
     kana: "ほ",
     categories: ["methods"],
     summary:
@@ -1742,8 +1742,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "rubric-self-and-peer-assessment",
-    title: "ルーブリックを活用した自己評価・相互評価",
-    reading: "るーぶりっくをかつようしたじこひょうか・そうごひょうか",
+    title: "ルーブリック評価の指導",
+    reading: "るーぶりっくひょうかのしどう",
     kana: "る",
     categories: ["methods"],
     summary:
@@ -1755,8 +1755,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "grasps-authentic-task-design",
-    title: "GRASPSモデルによる本質的課題設計",
-    reading: "ぐらすぷすもでるによるほんしつてきかだいせっけい",
+    title: "GRASPS（真正の評価課題）",
+    reading: "ぐらすぷすしんせいのひょうかかだい",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -1768,8 +1768,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "essential-questions-wiggins-mctighe",
-    title: "本質的な問い（エッセンシャル・クエスチョン）",
-    reading: "ほんしつてきなとい（えっせんしゃる・くえすちょん）",
+    title: "本質的な問い（逆向き設計）",
+    reading: "ほんしつてきなといぎゃくむきせっけい",
     kana: "ほ",
     categories: ["methods"],
     summary:
@@ -1781,8 +1781,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "six-facets-of-understanding",
-    title: "理解の6つの側面（ウィギンズとマクタイ）",
-    reading: "りかいのむっつのそくめん（うぃぎんずとまくたい）",
+    title: "理解の6側面（ウィギンズ）",
+    reading: "りかいのろくそくめんうぃぎんず",
     kana: "り",
     categories: ["methods"],
     summary:
@@ -1794,8 +1794,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "concept-based-curriculum-instruction",
-    title: "概念型指導法（エリクソン＆ランニング）",
-    reading: "がいねんがたしどうほう（えりくそんあんどらんにんぐ）",
+    title: "概念型指導法（CBCI）",
+    reading: "がいねんがたしどうほうしーびーしーあい",
     kana: "か",
     categories: ["methods"],
     summary:
@@ -1807,8 +1807,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "inquiry-cycle-four-phases",
-    title: "探究の4段階サイクル（設定・収集・分析・表現）",
-    reading: "たんきゅうのよんだんかいさいくる（せってい・しゅうしゅう・ぶんせき・ひょうげん）",
+    title: "探究のプロセス（4段階）",
+    reading: "たんきゅうのぷろせすよんだんかい",
     kana: "た",
     categories: ["methods"],
     summary:
@@ -1820,9 +1820,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "integrated-inquiry-unit-design",
-    title: "総合的な探究の時間の単元設計論",
-    reading: "そうごうてきたんきゅうのじかんのたんげんせっけいろん",
-    kana: "そ",
+    title: "探究の単元設計",
+    reading: "たんきゅうのたんげんせっけい",
+    kana: "た",
     categories: ["methods"],
     summary:
       "生徒の自己決定と地域・社会の諸課題を結びつけ、探究のプロセスを一貫して体験させるための体系的なカリキュラム構想・単元開発手法。",
@@ -1833,9 +1833,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "hypothesis-testing-science-inquiry",
-    title: "理科における仮説検証型探究学習",
-    reading: "りかにおけるかせつけんしょうがたたんきゅうがくしゅう",
-    kana: "り",
+    title: "仮説検証型学習（理科）",
+    reading: "かせつけんしょうがたがくしゅうりか",
+    kana: "か",
     categories: ["methods"],
     summary:
       "自然事象への疑問から科学的な仮説を構築し、条件制御に基づく実験や観察によって客観的に検証していく理科教育の探究的授業手法。",
@@ -1846,9 +1846,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "math-problem-solving-self-peer",
-    title: "算数・数学の問題解決的指導法（自力解決と練り合い）",
-    reading: "さんすう・すうがくのもんだいかいけつてきしどうほう（じりきかいけつとねりあい）",
-    kana: "さ",
+    title: "練り合い（算数・数学科）",
+    reading: "ねりあいさんすうすうがくか",
+    kana: "ね",
     categories: ["methods"],
     summary:
       "公式の注入を避け、未習の課題に対して児童生徒が自力で解法を模索し、多様な考えを持ち寄って比較・統合する問題解決型の授業法。",
@@ -1859,9 +1859,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "social-studies-issue-inquiry",
-    title: "社会科における課題追究型授業展開",
-    reading: "しゃかいかにおけるかだいついきゅうがたじゅぎょうてんかい",
-    kana: "し",
+    title: "課題追究型学習（社会科）",
+    reading: "かだいついきゅうがたがくしゅうしゃかいか",
+    kana: "か",
     categories: ["methods"],
     summary:
       "暗記中心を脱し、社会的事象の背景や現代的諸課題に対する問いを設定して、多角的な資料読解と対話を通して解決策を探究する指導法。",
@@ -1872,8 +1872,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "reading-life-design-booktalk",
-    title: "ブックトークと読書生活デザイン指導",
-    reading: "ぶっくとーくとどくしょせいかつでざいんしどう",
+    title: "ブックトーク（読書指導）",
+    reading: "ぶっくとーくどくしょしどう",
     kana: "ふ",
     categories: ["methods"],
     summary:
@@ -1885,8 +1885,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "literature-circles-book-clubs",
-    title: "ブッククラブ（文学サークルによる対話的読解）",
-    reading: "ぶっくくらぶ（ぶんがくさーくるによるたいわてきどっかい）",
+    title: "ブッククラブ（対話型読書）",
+    reading: "ぶっくくらぶたいわがたどくしょ",
     kana: "ふ",
     categories: ["methods"],
     summary:
@@ -1898,8 +1898,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "chunk-and-slash-reading-english",
-    title: "チャンク・リーディングとスラッシュ指導法",
-    reading: "ちゃんく・りーでぃんぐとすらっしゅしどうほう",
+    title: "チャンク・リーディング",
+    reading: "ちゃんくりーでぃんぐ",
     kana: "ち",
     categories: ["methods"],
     summary:
@@ -1911,8 +1911,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "shadowing-repeating-fluency",
-    title: "シャドーイングとリピーティング英語指導",
-    reading: "しゃどーいんぐとりぴーてぃんぐえいごしどう",
+    title: "シャドーイング（英語指導）",
+    reading: "しゃどーいんぐえいごしどう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -1924,8 +1924,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "phonics-instructional-methods",
-    title: "フォニックス指導法（文字と音声の規則性）",
-    reading: "ふぉにっくすしどうほう（もじとおんせいのきそくせい）",
+    title: "フォニックス教授法",
+    reading: "ふぉにっくすきょうじゅほう",
     kana: "ふ",
     categories: ["methods"],
     summary:
@@ -1937,9 +1937,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "music-expression-listening-guidance",
-    title: "音楽科における身体表現と鑑賞指導の統合",
-    reading: "おんがくかにおけるしんたいひょうげんとかんしょうしどうのとうごう",
-    kana: "お",
+    title: "身体表現指導（音楽科）",
+    reading: "しんたいひょうげんしどうおんがくか",
+    kana: "し",
     categories: ["methods"],
     summary:
       "楽曲の聴取に身体の動きを連動させ、リズムや旋律などの音楽の諸要素を体感しながら知覚・感受を深める音楽科の指導法。",
@@ -1950,9 +1950,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "art-material-dialogue-concept-creation",
-    title: "図画工作科における材料との対話と発想指導",
-    reading: "ずがこうさくかにおけるざいりょうとのたいわとはっそうしどう",
-    kana: "す",
+    title: "造形遊び（図画工作科）",
+    reading: "ぞうけいあそびずがこうさくか",
+    kana: "そ",
     categories: ["methods"],
     summary:
       "完成形をあらかじめ固定せず、多様な素材に直接触れて試行錯誤する中で新たな着想や造形を生み出していく美術教育の指導法。",
@@ -1963,9 +1963,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "tactical-modified-games-pe",
-    title: "体育科における修正ゲームとルール工夫",
-    reading: "たいいくかにおけるしゅうせいげーむとるーるくふう",
-    kana: "た",
+    title: "修正ゲーム（ボール運動系）",
+    reading: "しゅうせいげーむぼーるうんどうけい",
+    kana: "し",
     categories: ["methods"],
     summary:
       "人数や用具、ルールを柔軟に変更した簡易ゲームを行い、全員が運動の楽しさと戦術的判断を協働的に探究できる体育指導法。",
@@ -1976,9 +1976,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "pe-video-analysis-peer-coaching",
-    title: "体育科におけるICT動画相互分析指導",
-    reading: "たいいくかにおけるあいしーてぃーどうがそうごぶんせきしどう",
-    kana: "た",
+    title: "動作分析指導（体育科ICT）",
+    reading: "どうさぶんせきしどうたいいくかあいしーてぃー",
+    kana: "と",
     categories: ["methods"],
     summary:
       "情報端末で互いの運動フォームを撮影・スロー再生し、視覚的な根拠に基づいて助言し合い技能向上を図る協働的な体育指導法。",
@@ -1989,9 +1989,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "role-play-deepening-moral-education",
-    title: "道徳科における役割演技の深化法",
-    reading: "どうとくかにおけるやくわりえんぎのしんかほう",
-    kana: "と",
+    title: "役割演技法（道徳教育）",
+    reading: "やくわりえんぎほうどうとくきょういく",
+    kana: "や",
     categories: ["methods"],
     summary:
       "葛藤を抱える登場人物になりきって即興的に演じ分けることで、心情を共感的に追体験し多面的な自己省察を促す道徳科の指導法。",
@@ -2002,9 +2002,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "feeling-meter-moral-line",
-    title: "道徳科における心の数直線（心情メーター）",
-    reading: "どうとくかにおけるこころのすうちくせん（しんじょうめーたー）",
-    kana: "と",
+    title: "心の数直線（道徳科指導法）",
+    reading: "こころのすうちくせん",
+    kana: "こ",
     categories: ["methods"],
     summary:
       "対立する感情や判断の度合いを数直線上に可視化し、心の揺らぎや仲間の多様な受け止め方を比較・深思させる道徳科の指導法。",
@@ -2015,9 +2015,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "class-council-meeting-discussion",
-    title: "特別活動における学級会・話合い活動指導",
-    reading: "とくべつかつどうにおけるがっきゅうかい・はなしあいかつどうしどう",
-    kana: "と",
+    title: "学級会（話合い活動）",
+    reading: "がっきゅうかいはなしあいかつどう",
+    kana: "か",
     categories: ["methods"],
     summary:
       "学級生活の共通課題について児童生徒自らが話し合って意思決定し、民主的な合意形成と協働的実践の力を育てる特別活動の指導法。",
@@ -2028,9 +2028,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "student-moderator-committee-training",
-    title: "話合い活動における司会団育成指導",
-    reading: "はなしあいかつどうにおけるしかいだんいくせいしどう",
-    kana: "は",
+    title: "司会団育成（特別活動）",
+    reading: "しかいだんいくせいとくべつかつどう",
+    kana: "し",
     categories: ["methods"],
     summary:
       "児童生徒自身が司会や記録などの役割を担い、公正で民主的な議事進行を行えるよう教師が段階的に支援・指導する教育手法。",
@@ -2041,9 +2041,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "agenda-setting-consensus-building",
-    title: "学級会における議題設定と合意形成プロセス",
-    reading: "がっきゅうかいにおけるぎだいせっていとごういけいせいぷろせす",
-    kana: "か",
+    title: "合意形成指導（学級会）",
+    reading: "ごういけいせいしどうがっきゅうかい",
+    kana: "こ",
     categories: ["methods"],
     summary:
       "生活課題から全員で取り組む議題を見出し、多数決に偏らず互いの願いをすり合わせて納得解を共創する合意形成の指導論。",
@@ -2054,9 +2054,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "student-council-civic-empowerment",
-    title: "児童会・生徒会活動と主権者意識の育成",
-    reading: "じどうかい・せいとかいかつどうとしゅけんしゃいしきのいくせい",
-    kana: "し",
+    title: "生徒会活動（主権者教育）",
+    reading: "せいとかいかつどうしゅけんしゃきょういく",
+    kana: "せ",
     categories: ["methods"],
     summary:
       "学校生活の諸課題に主体的に向き合い、自治的な運営や社会参画の体験を通して民主的な市民としての自覚を育む教育実践法。",
@@ -2067,8 +2067,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "cross-age-group-vertical-guidance",
-    title: "縦割り班活動（異年齢集団活動）の組織指導",
-    reading: "たてわりはんかつどう（いねんれいしゅうだんかつどう）のそしきしどう",
+    title: "縦割り班活動（異年齢集団）",
+    reading: "たてわりはんかつどういねんれいしゅうだん",
     kana: "た",
     categories: ["methods"],
     summary:
@@ -2080,8 +2080,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "residential-outdoor-experiential-prep",
-    title: "集団宿泊学習・自然体験活動の事前事後指導",
-    reading: "しゅうだんしゅくはくがくしゅう・しぜんたいけんかつどうのじぜんじごしどう",
+    title: "集団宿泊活動（事前事後指導）",
+    reading: "しゅうだんしゅくはくかつどうじぜんじごしどう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -2093,8 +2093,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "school-trip-inquiry-presentation",
-    title: "修学旅行における事前探究と成果発信学習",
-    reading: "しゅうがくりょこうにおけるじぜんたんきゅうとせいかはっしんがくしゅう",
+    title: "修学旅行の探究指導",
+    reading: "しゅうがくりょこうのたんきゅうしどう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -2106,8 +2106,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "workplace-experience-manner-reflection",
-    title: "職場体験学習・インターンシップ事前事後指導",
-    reading: "しょくばたいけんがくしゅう・いんたーんしっぷじぜんじごしどう",
+    title: "職場体験学習の事前・事後指導",
+    reading: "しょくばたいけんがくしゅうのじぜんじごしどう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -2119,8 +2119,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "career-passport-reflective-guidance",
-    title: "キャリア・パスポートを活用した蓄積的対話指導",
-    reading: "きゃりあ・ぱすぽーとをかつようしたちくせきてきたいわしどう",
+    title: "キャリア・パスポートの対話指導",
+    reading: "きゃりあぱすぽーとのたいわしどう",
     kana: "き",
     categories: ["methods"],
     summary:
@@ -2132,8 +2132,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "peer-response-collaborative-writing",
-    title: "ピア・レスポンス（作文の相互推敲活動）",
-    reading: "ぴあ・れすぽんす（さくぶんのそうごすいこうかつどう）",
+    title: "ピア・レスポンス",
+    reading: "ぴあれすぽんす",
     kana: "ひ",
     categories: ["methods"],
     summary:
@@ -2145,9 +2145,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "writing-workshop-author-time",
-    title: "ライティング・ワークショップ（作家の時間）",
-    reading: "らいてぃんぐ・わーくしょっぷ（さっかのじかん）",
-    kana: "ら",
+    title: "作家の時間（ライティング）",
+    reading: "さっかのじかんらいてぃんぐ",
+    kana: "さ",
     categories: ["methods"],
     summary:
       "学習者自身が書きたい題材や形式を主体的に選び、教師による短い助言を受けながら、構想から執筆・改訂・発表までの一連の創作過程を体験する作文指導法。",
@@ -2158,9 +2158,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "reading-workshop-independent-reading",
-    title: "リーディング・ワークショップ（読者の時間）",
-    reading: "りーでぃんぐ・わーくしょっぷ（どくしゃのじかん）",
-    kana: "り",
+    title: "読者の時間（リーディング）",
+    reading: "どくしゃのじかんりーでぃんぐ",
+    kana: "と",
     categories: ["methods"],
     summary:
       "学習者が自らの興味に応じて選んだ本を自己の速度で読み、読書方略の短い指導や教師との個別対話を通じて読解力と生涯にわたる読書習慣を培う授業手法。",
@@ -2171,8 +2171,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "animacion-a-la-lectura-santos",
-    title: "読書へのアニマシオン（サントスの読書指導）",
-    reading: "どくしょへのあにましおん（さんとすのどくしょしどう）",
+    title: "読書へのアニマシオン",
+    reading: "どくしょへのあにましおん",
     kana: "と",
     categories: ["methods"],
     summary:
@@ -2184,8 +2184,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "bibliobattle-classroom-book-review",
-    title: "ビブリオバトル（知的書評合戦の授業活用）",
-    reading: "びぶりおばとる（ちてきしょひょうがっせんのじゅぎょうかつよう）",
+    title: "ビブリオバトル（授業活用）",
+    reading: "びぶりおばとるじゅぎょうかつよう",
     kana: "ひ",
     categories: ["methods"],
     summary:
@@ -2197,9 +2197,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "new-sports-inclusive-physical-education",
-    title: "ニュースポーツを活用した共生体育指導",
-    reading: "にゅーすぽーつをかつようしたきょうせいたいいくしどう",
-    kana: "に",
+    title: "インクルーシブ体育（ニュースポーツ）",
+    reading: "いんくるーしぶたいいくにゅーすぽーつ",
+    kana: "い",
     categories: ["methods"],
     summary:
       "勝敗や運動能力のみを競わず、ルールや用具の工夫を通じて運動が得意な者も苦手な者も共に参加し楽しめるニュースポーツを取り入れたインクルーシブ体育指導。",
@@ -2210,8 +2210,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "collaborative-problem-solving-pedagogy",
-    title: "協働的課題解決能力（CPS）の育成法",
-    reading: "きょうどうてきかだいかいけつのうりょく（しーぴーえす）のいくせいほう",
+    title: "協働的課題解決能力（CPS）",
+    reading: "きょうどうてきかだいかいけつのうりょくしーぴーえす",
     kana: "き",
     categories: ["methods"],
     summary:
@@ -2223,8 +2223,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "team-based-learning-tbl-classroom",
-    title: "チーム基盤型学習（TBL教育法）",
-    reading: "ちーむきばんがたがくしゅう（てぃーびーえるきょういくほう）",
+    title: "チーム基盤型学習（TBL）",
+    reading: "ちーむきばんがたがくしゅうてぃーびーえる",
     kana: "ち",
     categories: ["methods"],
     summary:
@@ -2236,9 +2236,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "problem-based-learning-pbl-tutorial",
-    title: "問題基盤型学習（PBLチュートリアル方式）",
-    reading: "もんだいきばんがたがくしゅう（ぴーびーえるちゅーとりあるほうしき）",
-    kana: "も",
+    title: "PBLチュートリアル方式",
+    reading: "ぴーびーえるちゅーとりあるほうしき",
+    kana: "A–Z",
     categories: ["methods"],
     summary:
       "未整理の実社会の事例や問題を起点に、学習者が自らの既知と未知を整理し、自己主導的に調査・学習して議論を通じて解決策を導く問題基盤型教授法。",
@@ -2249,9 +2249,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "project-internship-problem-solving",
-    title: "課題解決型インターンシップ（プロジェクト型PBL）",
-    reading: "かだいかいけつがたいんたーんしっぷ（ぷろじぇくとがたぴーびーえる）",
-    kana: "か",
+    title: "プロジェクト型インターンシップ",
+    reading: "ぷろじぇくとがたいんたーんしっぷ",
+    kana: "ふ",
     categories: ["methods"],
     summary:
       "企業や自治体の実際の現場に赴き、現場が抱える未解決の実務的課題に対して調査・分析を行い、解決策を企画・提案する実践的プロジェクト型学習法。",
@@ -2262,8 +2262,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "community-collaborative-inquiry-learning",
-    title: "地域協働型探究学習（地域課題解決学習）",
-    reading: "ちいききょうどうがたたんきゅうがくしゅう（ちいきかだいかいけつがくしゅう）",
+    title: "地域協働型探究学習",
+    reading: "ちいききょうどうがたたんきゅうがくしゅう",
     kana: "ち",
     categories: ["methods"],
     summary:
@@ -2275,8 +2275,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "service-learning-critical-reflection",
-    title: "サービスラーニングにおける省察指導の実際",
-    reading: "さーびすらーにんぐにおけるせいさつしどうのじっさい",
+    title: "サービスラーニングの省察指導",
+    reading: "さーびすらーにんぐのせいさつしどう",
     kana: "さ",
     categories: ["methods"],
     summary:
@@ -2288,8 +2288,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "unplugged-computer-science-education",
-    title: "アンプラグド・プログラミング教育法",
-    reading: "あんぷらぐど・ぷろぐらみんぐきょういくほう",
+    title: "アンプラグド・プログラミング",
+    reading: "あんぷらぐどぷろぐらみんぐ",
     kana: "あ",
     categories: ["methods"],
     summary:
@@ -2301,8 +2301,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "digital-storytelling-media-expression",
-    title: "デジタル・ストーリーテリング（DST表現教育）",
-    reading: "でじたる・すとーりーてりんぐ（でぃーえすてぃーひょうげんきょういく）",
+    title: "デジタル・ストーリーテリング",
+    reading: "でじたるすとーりーてりんぐ",
     kana: "て",
     categories: ["methods", "ict"],
     summary:
@@ -2314,8 +2314,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "prep-presentation-instructional-skill",
-    title: "PREP法を活用したプレゼンテーション指導",
-    reading: "ぷれっぷほうをかつようしたぷれぜんてーしょんしどう",
+    title: "PREP法（話法指導）",
+    reading: "ぷれっぷほうわほうしどう",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -2328,7 +2328,7 @@ export const methodsTerms: Term[] = [
   {
     slug: "question-formulation-technique-qft",
     title: "QFT法（問い作りの技術）",
-    reading: "きゅーえふてぃーほう（といづくりのぎじゅつ）",
+    reading: "きゅーえふてぃーほうといづくりのぎじゅつ",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -2340,9 +2340,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "six-thinking-hats-de-bono",
-    title: "シックス・シンキング・ハッツ（6つの思考帽子法）",
-    reading: "しっくす・しんきんぐ・はっつ（むっつのしこうぼうしほう）",
-    kana: "し",
+    title: "6つの思考帽子法（デボノ）",
+    reading: "むっつのしこうぼうしほうでぼの",
+    kana: "む",
     categories: ["methods"],
     summary:
       "客観、感情、批判、肯定、創造、統括を表す6色の思考帽子を全員で同時にかぶり替え、議論の混乱を避けて多面的な合意形成へと導く思考指導法。",
@@ -2353,8 +2353,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "scamper-idea-generation-technique",
-    title: "SCAMPER法（アイデア発展の授業技法）",
-    reading: "すかんぱーほう（あいであはってんのじゅぎょうぎほう）",
+    title: "SCAMPER法（発想法）",
+    reading: "すかんぱーほうはっそうほう",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -2366,8 +2366,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "synectics-analogical-creativity",
-    title: "シネクティクス法（類比による創造的発想法）",
-    reading: "しねくてぃくすほう（るいひによるそうぞうてきはっそうほう）",
+    title: "シネクティクス法",
+    reading: "しねくてぃくすほう",
     kana: "し",
     categories: ["methods"],
     summary:
@@ -2379,8 +2379,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "fieldwork-interview-investigation-skills",
-    title: "フィールドワークとインタビュー調査指導",
-    reading: "ふぃーるどわーくといんたびゅーちょうさしどう",
+    title: "フィールドワーク指導",
+    reading: "ふぃーるどわーくしどう",
     kana: "ふ",
     categories: ["methods"],
     summary:
@@ -2392,9 +2392,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "reciprocal-teaching-four-strategies",
-    title: "相互教授法の4つの読解ストラテジー",
-    reading: "そうごきょうじゅほうのよっつのどっかいすとらてじー",
-    kana: "そ",
+    title: "読解ストラテジー（相互教授法）",
+    reading: "どっかいすとらてじーそうごきょうじゅほう",
+    kana: "と",
     categories: ["methods"],
     summary:
       "要約、質問、明確化、予想という4つの方略を用い、教師と学習者が役割を交代しながら対話を通じて文章の深い理解を協同構築する認知心理学的教授法。",
@@ -2405,8 +2405,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "sq3r-reading-comprehension-method",
-    title: "SQ3R読解法（調査・質問・精読・暗唱・復習）",
-    reading: "えすきゅーすりーあーるどっかいほう（ちょうさ・しつもん・せいどく・あんしょう・ふくしゅう）",
+    title: "SQ3R読解法",
+    reading: "えすきゅーすりーあーるどっかいほう",
     kana: "A–Z",
     categories: ["methods"],
     summary:
@@ -2418,9 +2418,9 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "note-taking-strategies-structuring",
-    title: "要約と構造化を促すノート指導法",
-    reading: "ようやくとこうぞうかをうながすのーとしどうほう",
-    kana: "よ",
+    title: "ノート指導（要約・構造化）",
+    reading: "のーとしどうようやくこうぞうか",
+    kana: "の",
     categories: ["methods"],
     summary:
       "板書の丸写しを脱し、要約、キーワード、図解、省察欄を設けて情報を視覚的・概念的に整理させ、学習内容の深い理解と自己対話を促すノート作成指導法。",
@@ -2431,8 +2431,8 @@ export const methodsTerms: Term[] = [
   },
   {
     slug: "post-lesson-reflection-cycle",
-    title: "授業リフレクション（授業後の教師省察サイクル）",
-    reading: "じゅぎょうりふれくしょん（じゅぎょうごのきょうしせいさつさいくる）",
+    title: "授業リフレクション",
+    reading: "じゅぎょうりふれくしょん",
     kana: "し",
     categories: ["methods"],
     summary:
