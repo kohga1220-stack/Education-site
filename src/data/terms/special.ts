@@ -1603,7 +1603,7 @@ export const specialTerms: Term[] = [
     slug: "pivotal-response-treatment-prt",
     title: "ピボタル・レスポンス・トリートメント（PRT）",
     reading: "ぴぼたる・れすぽんす・とりーとめんと",
-    kana: "し",
+    kana: "ひ",
     categories: ["special"],
     summary:
       "自閉スペクトラム症児に対し、動機づけや自己管理等の中核的領域に介入することで、言語や社会性等の広範な機能改善を促す自然主義的行動介入法。",
