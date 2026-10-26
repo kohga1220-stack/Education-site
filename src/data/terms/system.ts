@@ -1118,8 +1118,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "constitution-article-26-right-duty",
-    title: "憲法第26条（教育を受ける権利と就学義務）",
-    reading: "けんぽうだいにじゅうろくじょう（きょういくをうけるけんりとしゅうがくぎむ）",
+    title: "憲法第26条（教育を受ける権利）",
+    reading: "けんぽうだいにじゅうろくじょうきょういくをうけるけんり",
     kana: "け",
     categories: ["system"],
     summary:
@@ -1131,9 +1131,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "constitution-article-20-89-religious-neutrality",
-    title: "憲法第20条・第89条と教育の公立非宗教性",
-    reading: "けんぽうだいにじゅうじょう・だいはちじゅうきゅうじょうときょういくのこうりつひしゅうきょうせい",
-    kana: "け",
+    title: "教育の宗教的中立性（憲法）",
+    reading: "きょういくのしゅうきょうてきちゅうりつせいけんぽう",
+    kana: "き",
     categories: ["system"],
     summary:
       "信教の自由と政教分離を定めた憲法規定に基づき、国公立学校における特定の宗教教育や公金支出を禁じた公教育の原則。",
@@ -1144,8 +1144,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-preamble-democracy",
-    title: "教育基本法前文（民主社会形成と平和精神）",
-    reading: "きょういくきほんほうぜんぶん（みんしゅしゃかいけいせいとへいわせいしん）",
+    title: "教育基本法前文",
+    reading: "きょういくきほんほうぜんぶん",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1157,8 +1157,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-1-aim",
-    title: "教育基本法第1条（教育の目的と人格の完成）",
-    reading: "きょういくきほんほうだいいちじょう（きょういくのもくてきとじんかくのかんせい）",
+    title: "教育の目的（教育基本法第1条）",
+    reading: "きょういくのもくてききょういくきほんほうだいいちじょう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1170,8 +1170,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-2-goals",
-    title: "教育基本法第2条（教育の目標・5つの柱）",
-    reading: "きょういくきほんほうだいにじょう（きょういくのもくひょう・いつつのはしら）",
+    title: "教育の目標（教育基本法第2条）",
+    reading: "きょういくのもくひょうきょういくきほんほうだいにじょう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1183,9 +1183,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-3-lifelong",
-    title: "教育基本法第3条（生涯学習の理念規範）",
-    reading: "きょういくきほんほうだいさんじょう（しょうがいがくしゅうのりねんきはん）",
-    kana: "き",
+    title: "生涯学習の理念（教育基本法第3条）",
+    reading: "しょうがいがくしゅうのりねんきょういくきほんほうだいさんじょう",
+    kana: "し",
     categories: ["system"],
     summary:
       "国民が生涯にわたってあらゆる機会にあらゆる場所で学習でき、その成果を社会に適切に生かせる社会の実現を定めた規定。",
@@ -1196,8 +1196,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-4-equal-opportunity",
-    title: "教育基本法第4条（教育の機会均等と障害者支援）",
-    reading: "きょういくきほんほうだいよんじょう（きょういくのきかいきんとうとしょうがいしゃしえん）",
+    title: "教育機会均等原則（教育基本法）",
+    reading: "きょういくきかいきんとうげんそくきょういくきほんほう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1209,8 +1209,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-5-compulsory",
-    title: "教育基本法第5条（義務教育の本質と授業料無償）",
-    reading: "きょういくきほんほうだいごじょう（ぎむきょういくのほんしつとじゅぎょうりょうむしょう）",
+    title: "義務教育原則（教育基本法第5条）",
+    reading: "ぎむきょういくげんそくきょういくきほんほうだいごじょう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1222,9 +1222,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-6-schools-teachers",
-    title: "教育基本法第6条（学校教育の公共性と教員の地位）",
-    reading: "きょういくきほんほうだいろくじょう（がっこうきょういくのこうきょうせいときょういんのちい）",
-    kana: "き",
+    title: "学校教育（教育基本法第6条）",
+    reading: "がっこうきょういくきょういくきほんほうだいろくじょう",
+    kana: "か",
     categories: ["system"],
     summary:
       "学校教育の高い公共性を規定し、教育を担当する教員の身分尊重と待遇適正化、職責の重要性を定めた基本規定。",
@@ -1235,9 +1235,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-7-universities",
-    title: "教育基本法第7条（大学の目的と学術研究・自治）",
-    reading: "きょういくきほんほうだいななじょう（だいがくのもくてきとがくじゅつけんきゅう・じち）",
-    kana: "き",
+    title: "大学（教育基本法第7条）",
+    reading: "だいがくきょういくきほんほうだいななじょう",
+    kana: "た",
     categories: ["system"],
     summary:
       "学術の中心としての大学の使命を高度な教育研究と社会貢献と位置づけ、その自主性・自律性の尊重を定めた基本条項。",
@@ -1248,9 +1248,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-8-private-schools",
-    title: "教育基本法第8条（私立学校の独自性と公教育性）",
-    reading: "きょういくきほんほうだいはちじょう（しりつがっこうのどくじせいとこうきょういくせい）",
-    kana: "き",
+    title: "私立学校（教育基本法第8条）",
+    reading: "しりつがっこうきょういくきほんほうだいはちじょう",
+    kana: "し",
     categories: ["system"],
     summary:
       "私立学校の持つ公の性質と独自の建学精神を尊重し、国や自治体による私学振興と教育の発展を促す基本条項。",
@@ -1261,8 +1261,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-9-teachers-training",
-    title: "教育基本法第9条（教員の職責自覚と研鑽義務）",
-    reading: "きょういくきほんほうだいきゅうじょう（きょういんのしょくせきじかくとけんさんぎむ）",
+    title: "教員（教育基本法第9条）",
+    reading: "きょういんきょういくきほんほうだいきゅうじょう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1274,9 +1274,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-10-home-education",
-    title: "教育基本法第10条（家庭教育の第一義的責任）",
-    reading: "きょういくきほんほうだいじゅうじょう（かていきょういくのだいいちぎてきせきにん）",
-    kana: "き",
+    title: "家庭教育（教育基本法第10条）",
+    reading: "かていきょういくきょういくきほんほうだいじゅうじょう",
+    kana: "か",
     categories: ["system"],
     summary:
       "子どもの教育に対する父母その他の保護者の第一義的責任を明記し、国や自治体による家庭教育支援を定めた規定。",
@@ -1287,9 +1287,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-11-early-childhood",
-    title: "教育基本法第11条（幼児期の教育と健やかな成長）",
-    reading: "きょういくきほんほうだいじゅういちじょう（ようじきのきょういくとすこやかなせいちょう）",
-    kana: "き",
+    title: "幼児期の教育（教育基本法第11条）",
+    reading: "ようじきのきょういくきょういくきほんほうだいじゅういちじょう",
+    kana: "よ",
     categories: ["system"],
     summary:
       "生涯にわたる人格形成の基盤を培う幼児期教育の重要性を位置づけ、その振興と良好な環境整備を定めた規定。",
@@ -1300,9 +1300,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-12-social-education",
-    title: "教育基本法第12条（社会教育の推進と施設振興）",
-    reading: "きょういくきほんほうだいじゅうにじょう（しゃかいきょういくのすいしんとしせつしんこう）",
-    kana: "き",
+    title: "社会教育（教育基本法第12条）",
+    reading: "しゃかいきょういくきょういくきほんほうだいじゅうにじょう",
+    kana: "し",
     categories: ["system"],
     summary:
       "社会において行われる自主的・自発的な教育活動を振興し、公民館や図書館などの社会教育施設の整備を定めた基本条項。",
@@ -1313,9 +1313,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-13-school-home-community",
-    title: "教育基本法第13条（学校・家庭・地域連携協力）",
-    reading: "きょういくきほんほうだいじゅうさんじょう（がっこう・かてい・ちいきれんけいきょうりょく）",
-    kana: "き",
+    title: "学校・家庭・地域連携（基本法13条）",
+    reading: "がっこうかていちいきれんけいきほんほうじゅうさんじょう",
+    kana: "か",
     categories: ["system"],
     summary:
       "学校、家庭、地域住民がそれぞれの役割を自覚しつつ相互に連携・協力し、社会全体で教育を支えることを明記した規定。",
@@ -1326,9 +1326,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-14-political-education",
-    title: "教育基本法第14条（政治教育と良識の涵養）",
-    reading: "きょういくきほんほうだいじゅうよんじょう（せいじきょういくとりょうしきのかんよう）",
-    kana: "き",
+    title: "政治教育（教育基本法第14条）",
+    reading: "せいじきょういくきょういくきほんほうだいじゅうよんじょう",
+    kana: "せ",
     categories: ["system"],
     summary:
       "主権者として必要な政治的良識の育成を義務づけつつ、特定の政党を支持・反対する政治的活動を公教育で禁じた基本規定。",
@@ -1339,9 +1339,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-15-religious-education",
-    title: "教育基本法第15条（宗教教育と寛容の態度）",
-    reading: "きょういくきほんほうだいじゅうごじょう（しゅうきょうきょういくとかんようのたいど）",
-    kana: "き",
+    title: "宗教教育（教育基本法第15条）",
+    reading: "しゅうきょうきょういくきょういくきほんほうだいじゅうごじょう",
+    kana: "し",
     categories: ["system"],
     summary:
       "宗教に関する一般的な教養と寛容の精神の重要性を認めつつ、国公立学校における特定の宗教的教育を厳格に禁じた規定。",
@@ -1352,9 +1352,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "fundamental-law-article-16-administration-undue",
-    title: "教育基本法第16条（教育行政と不当な支配の排除）",
-    reading: "きょういくきほんほうだいじゅうろくじょう（きょういくぎょうせいとふとうなしはいのはいじょ）",
-    kana: "き",
+    title: "不当な支配の禁止（基本法16条）",
+    reading: "ふとうなしはいのきんしきほんほうじゅうろくじょう",
+    kana: "ふ",
     categories: ["system"],
     summary:
       "教育が不当な支配に屈することなく遂行されるべき原則を明示し、国や自治体による適正な条件整備と行政運営を定めた規定。",
@@ -1365,9 +1365,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-1-scope",
-    title: "学校教育法第1条（学校の範囲と一条校の定義）",
-    reading: "がっこうきょういくほうだいいちじょう（がっこうのはんいといちじょうこうのていぎ）",
-    kana: "か",
+    title: "一条校（学校教育法第1条）",
+    reading: "いちじょうこうがっこうきょういくほうだいいちじょう",
+    kana: "い",
     categories: ["system"],
     summary:
       "幼稚園から大学、特別支援学校等に至る正規の学校の法的範囲を定め、公教育制度の中核となる一条校を定義した根幹条項。",
@@ -1378,8 +1378,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-2-founders",
-    title: "学校教育法第2条（学校設置者の適格要件）",
-    reading: "がっこうきょういくほうだいにじょう（がっこうせっちしゃのてきかくようけん）",
+    title: "学校設置者（学校教育法第2条）",
+    reading: "がっこうせっちしゃがっこうきょういくほうだいにじょう",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1391,9 +1391,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-9-disqualification",
-    title: "学校教育法第9条（校長・教員の欠格事由規定）",
-    reading: "がっこうきょういくほうだいきゅうじょう（こうちょう・きょういんのけっかくじゆうきてい）",
-    kana: "か",
+    title: "教員の欠格事由（学校教育法第9条）",
+    reading: "きょういんのけっかくじゆうがっこうきょういくほうだいきゅうじょう",
+    kana: "き",
     categories: ["system"],
     summary:
       "重い刑罰に処された者や免許状失効者など、学校の校長や教員となることができない法的な欠格事由を定めた規定。",
@@ -1404,9 +1404,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-11-corporal-punishment",
-    title: "学校教育法第11条（懲戒権の限界と体罰禁止）",
-    reading: "がっこうきょういくほうだいじゅういちじょう（ちょうかいけんのげんかいとたいばつきんし）",
-    kana: "か",
+    title: "体罰の禁止（学校教育法第11条）",
+    reading: "たいばつのきんしがっこうきょういくほうだいじゅういちじょう",
+    kana: "た",
     categories: ["system"],
     summary:
       "校長及び教員に教育的指導としての懲戒権を認める一方、いかなる場合も児童生徒への体罰を絶対的に禁止した基本条項。",
@@ -1417,8 +1417,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-12-health-management",
-    title: "学校教育法第12条（健康診断と衛生管理基準）",
-    reading: "がっこうきょういくほうだいじゅうにじょう（けんこうしんだんとえいせいかんりきじゅん）",
+    title: "学校保健（学校教育法第12条）",
+    reading: "がっこうほけんがっこうきょういくほうだいじゅうにじょう",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1430,8 +1430,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-13-closure-orders",
-    title: "学校教育法第13条（所轄庁の閉鎖命令権能）",
-    reading: "がっこうきょういくほうだいじゅうさんじょう（しょかつちょうのへいさめいれいけんのう）",
+    title: "学校閉鎖命令（学校教育法第13条）",
+    reading: "がっこうへいさめいれいがっこうきょういくほうだいじゅうさんじょう",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1443,9 +1443,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-19-school-assistance",
-    title: "学校教育法第19条（困窮家庭への就学援助措置）",
-    reading: "がっこうきょういくほうだいじゅうきゅうじょう（こんきゅうかていへのしゅうがくえんじょそち）",
-    kana: "か",
+    title: "就学援助（学校教育法第19条）",
+    reading: "しゅうがくえんじょがっこうきょういくほうだいじゅうきゅうじょう",
+    kana: "し",
     categories: ["system"],
     summary:
       "学校教育法第19条に基づき、経済的理由により就学困難な学齢児童生徒の保護者に対して市町村が必要な援助を与える就学援助の規定。",
@@ -1456,9 +1456,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-34-textbook-duty",
-    title: "学校教育法第34条（教科用図書使用義務と副教材）",
-    reading: "がっこうきょういくほうだいさんじゅうよんじょう（きょうかようとしょしようぎむとふくきょうざい）",
-    kana: "か",
+    title: "教科用図書使用義務（学教法34条）",
+    reading: "きょうかようとしょしようぎむがっきょうほうさんじゅうよんじょう",
+    kana: "き",
     categories: ["system"],
     summary:
       "文部科学大臣の検定を経た教科書等の使用義務を定め、教育の機会均等と全国的な教育水準を維持するための規定。",
@@ -1469,9 +1469,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-35-suspension-order",
-    title: "学校教育法第35条（出席停止命令の法定要件）",
-    reading: "がっこうきょういくほうだいさんじゅうごじょう（しゅっせきていしめいれいのほうていようけん）",
-    kana: "か",
+    title: "出席停止命令（学校教育法第35条）",
+    reading: "しゅっせきていしめいれいがっこうきょういくほうさんじゅうごじょう",
+    kana: "し",
     categories: ["system"],
     summary:
       "性行不良で他の児童生徒の教育に妨げがあると認める場合に、市町村教育委員会が保護者に対し命じる出席停止の規定。",
@@ -1482,9 +1482,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-education-law-article-37-principal-vice",
-    title: "学校教育法第37条（校長・副校長・教頭の職務）",
-    reading: "がっこうきょういくほうだいさんじゅうななじょう（こうちょう・ふくこうちょう・きょうとうのしょくむ）",
-    kana: "か",
+    title: "校長・教頭の職務（学教法37条）",
+    reading: "こうちょうきょうとうのしょくむがっきょうほうさんじゅうななじょう",
+    kana: "こ",
     categories: ["system"],
     summary:
       "小学校をはじめとする各学校に置かれる校長、副校長、教頭などの管理職の職務内容と指揮監督系統を定めた規定。",
@@ -1495,8 +1495,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "yogo-teacher-statutory-duties",
-    title: "養護教諭の法定職務（学校教育法第37条第12項）",
-    reading: "ようごきょうゆのほうていしょくむ（がっこうきょういくほうだいさんじゅうななじょうだいじゅうにこう）",
+    title: "養護教諭の職務（学教法37条）",
+    reading: "ようごきょうゆのしょくむがっきょうほうさんじゅうななじょう",
     kana: "よ",
     categories: ["system"],
     summary:
@@ -1508,8 +1508,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-administrative-staff-duties",
-    title: "学校事務職員の校務参画職務（学校教育法第37条第14項）",
-    reading: "がっこうじむしょくいんのこうむさんかくしょくむ（がっこうきょういくほうだいさんじゅうななじょうだいじゅうよんこう）",
+    title: "学校事務職員の職務（学教法37条）",
+    reading: "がっこうじむしょくいんのしょくむがっきょうほうさんじゅうななじょう",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1521,8 +1521,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-librarian-teacher-appointment",
-    title: "司書教諭の発令と配置義務（学校図書館法第5条）",
-    reading: "ししょきょうゆのはつれいとはいちぎむ（がっこうとしょかんほうだいごじょう）",
+    title: "司書教諭（学校図書館法第5条）",
+    reading: "ししょきょうゆがっこうとしょかんほうだいごじょう",
     kana: "し",
     categories: ["system"],
     summary:
@@ -1534,8 +1534,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-health-practitioners-trio",
-    title: "学校医・学校歯科医・学校薬剤師の職務基準",
-    reading: "がっこうい・がっこうしかい・がっこうやくざいしのしょくむきじゅん",
+    title: "学校医・学校歯科医・学校薬剤師",
+    reading: "がっこういがっこうしかいがっこうやくざいし",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1547,9 +1547,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "local-civil-service-law-fundamental-duty",
-    title: "地方公務員法上の服務根本基準と職務専念義務",
-    reading: "ちほうこうむいんほうじょうのふくむこんぽんきじゅんとしょくむせんねんぎむ",
-    kana: "ち",
+    title: "職務専念義務（地方公務員法）",
+    reading: "しょくむせんねんぎむちほうこうむいんほう",
+    kana: "し",
     categories: ["system"],
     summary:
       "公立学校教職員に適用される、全体の奉仕者としての倫理原則と勤務時間中に全力を職務に傾注すべき法的義務。",
@@ -1560,9 +1560,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "local-civil-service-law-dignity-confidentiality",
-    title: "教職員の信用失墜行為禁止と守秘義務規定",
-    reading: "きょうしょくいんのしんようしっついこういきんしとしゅひぎむきてい",
-    kana: "き",
+    title: "守秘義務と信用失墜行為の禁止",
+    reading: "しゅひぎむとしんようしっついこういのきんし",
+    kana: "し",
     categories: ["system"],
     summary:
       "教職員がその職の信用を傷つける行為を戒め、職務上知り得た秘密の漏えいを厳格に禁じる地方公務員法の服務規定。",
@@ -1573,9 +1573,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "local-civil-service-law-dispute-ban",
-    title: "地方公務員の争議行為禁止規定（地公法第37条）",
-    reading: "ちほうこうむいんのそうぎこういきんしきてい（ちこうほうだいさんじゅうななじょう）",
-    kana: "ち",
+    title: "争議行為の禁止（地公法第37条）",
+    reading: "そうぎこういのきんしちこうほうさんじゅうななじょう",
+    kana: "そ",
     categories: ["system"],
     summary:
       "地方公務員法第37条に基づき、公立学校教職員を含む地方公務員に対して争議行為を一律に禁止する規定。",
@@ -1586,9 +1586,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "dual-employment-permission-criteria",
-    title: "教職員の兼業・兼職許可基準（教育特例法第17条）",
-    reading: "きょうしょくいんのけんぎょう・けんしょくきょかきじゅん（きょういくとくれいほうだいじゅうななじょう）",
-    kana: "き",
+    title: "兼業・兼職の制限（特例法17条）",
+    reading: "けんぎょうけんしょくのせいげんとくれいほうじゅうななじょう",
+    kana: "け",
     categories: ["system"],
     summary:
       "教育公務員特例法第17条に基づき、教育に関する公務や事業に従事する場合の兼業・兼職の承認基準を定めた規定。",
@@ -1599,8 +1599,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "underperforming-teacher-management-training",
-    title: "指導力不足教員の認定と指導改善研修制度",
-    reading: "しどうりょくぶそくきょういんのにんていとしどうかいぜんけんしゅうせいど",
+    title: "指導力不足教員の指導改善研修",
+    reading: "しどうりょくふそくきょういんのしどうかいぜんけんしゅう",
     kana: "し",
     categories: ["system"],
     summary:
@@ -1612,9 +1612,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "conditional-appointment-probation-period",
-    title: "教員の条件付採用期間と正式採用判定",
-    reading: "きょういんのじょうけんつきさいようきかんとせいしきさいようはんてい",
-    kana: "き",
+    title: "条件付採用期間（教員採用）",
+    reading: "じょうけんつきさいようきかんきょういんさいよう",
+    kana: "し",
     categories: ["system"],
     summary:
       "公立学校新規採用教員に適用される1年間の試用期間であり、初任者研修を通じて教員としての適性を判定する制度。",
@@ -1625,9 +1625,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "demotion-and-administrative-leaves",
-    title: "教職員の分限処分（免職・休職・降任・降給）",
-    reading: "きょうしょくいんのぶんげんしょぶん（めんしょく・きゅうしょく・こうにん・こうきゅう）",
-    kana: "き",
+    title: "分限処分（免職・休職・降任）",
+    reading: "ぶんげんしょぶんめんしょくきゅうしょくこうにん",
+    kana: "ふ",
     categories: ["system"],
     summary:
       "勤務実績不良や心身の故障など、本人の責によらない理由で職務遂行が困難な教職員に下される行政上の処分制度。",
@@ -1638,8 +1638,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "disciplinary-actions-types-grounds",
-    title: "教職員の懲戒処分（免職・停職・減給・戒告）",
-    reading: "きょうしょくいんのちょうかいしょぶん（めんしょく・ていしょく・げんきゅう・かいこく）",
+    title: "教職員の懲戒処分（免職・停職等）",
+    reading: "きょうしょくいんのちょうかいしょぶんめんしょくていしょくとう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1651,8 +1651,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "public-school-workers-compensation",
-    title: "公立学校教職員の公務災害補償制度",
-    reading: "こうりつがっこうきょうしょくいんのこうむさいがいほしょうせいど",
+    title: "公立学校教職員の公務災害補償",
+    reading: "こうりつがっこうきょうしょくいんのこうむさいがいほしょう",
     kana: "こ",
     categories: ["system"],
     summary:
@@ -1664,8 +1664,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "teachers-union-legal-negotiation-scope",
-    title: "教職員組合の法的適格性と適法交渉の範囲",
-    reading: "きょうしょくいんくみあいのほうてきてきかくせいとてきほうこうしょうのはんい",
+    title: "教職員組合（職員団体交渉権）",
+    reading: "きょうしょくいんくみあいしょくいんだんたいこうしょうけん",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1677,8 +1677,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "asahikawa-scholastic-test-precedent",
-    title: "旭川学力テスト事件最高裁判決と教育権所在論",
-    reading: "あさひかわがくりょくてすとじけんさいこうさいはんけつときょういくけんしょざいろん",
+    title: "旭川学テ事件判決（最高裁）",
+    reading: "あさひかわがくてじけんはんけつさいこうさい",
     kana: "あ",
     categories: ["system"],
     summary:
@@ -1690,9 +1690,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "citizens-and-state-education-rights-compromise",
-    title: "国民の教育権と国家の教育権の折衷説論理",
-    reading: "こくみんのきょういくけんとこっかのきょういくけんのせっちゅうせつろんり",
-    kana: "こ",
+    title: "教育権所在論（国民・国家折衷説）",
+    reading: "きょういくけんしょざいろんこくみんこっかせっちゅうせつ",
+    kana: "き",
     categories: ["system"],
     summary:
       "教育内容の決定権をめぐり、国家による一元的介入と教育現場の絶対的自由の双方を排して調和を図る憲法解釈の法理。",
@@ -1703,9 +1703,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "local-board-of-education-statutory-powers",
-    title: "地方教育行政法における教育委員会の権限事務",
-    reading: "ちほうきょういくぎょうせいほうにおけるきょういくいいんかいのけんげんじむ",
-    kana: "ち",
+    title: "教育委員会の職務権限（地教行法）",
+    reading: "きょういくいいんかいのしょくむけんげんちきょうぎょうほう",
+    kana: "き",
     categories: ["system"],
     summary:
       "地方教育行政の組織及び運営に関する法律に基づき、学校の設置管理や教職員人事等を統括する教育委員会の職務権限。",
@@ -1716,8 +1716,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "board-of-education-meeting-disclosure",
-    title: "教育委員会会議の公開原則と会議録作成義務",
-    reading: "きょういくいいんかいかいぎのこうかいげんそくとかいぎろくさくせいぎむ",
+    title: "教育委員会会議の公開原則",
+    reading: "きょういくいいんかいかいぎのこうかいげんそく",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1729,8 +1729,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "superintendent-of-education-appointment-term",
-    title: "教育長の任命手続きと任期・服務責任",
-    reading: "きょういくちょうのにんめいてつづきとにんき・ふくむせきにん",
+    title: "教育長の任命と服務（地教行法）",
+    reading: "きょういくちょうのにんめいとしょくむちきょうぎょうほう",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1742,8 +1742,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "board-members-appointment-parent-quota",
-    title: "教育委員の任命要件と保護者委員の必置規定",
-    reading: "きょういくいいんのにんめいようけんとほごしゃいいんのひっちきてい",
+    title: "教育委員の任命と保護者委員",
+    reading: "きょういくいいんのにんめいとほごしゃいいん",
     kana: "き",
     categories: ["system"],
     summary:
@@ -1755,8 +1755,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "general-education-council-mayoral-consultation",
-    title: "総合教育会議における首長と教育委員会の協議運営",
-    reading: "そうごうきょういくかいぎにおけるしゅちょうときょういくいいんかいのきょうぎうんえい",
+    title: "総合教育会議の運営（地教行法）",
+    reading: "そうごうきょういくかいぎのうんえいちきょうぎょうほう",
     kana: "そ",
     categories: ["system"],
     summary:
@@ -1768,9 +1768,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "mayoral-education-guideline-outline",
-    title: "首長が策定する教育大綱の法的性格と効力",
-    reading: "しゅちょうがさくていするきょういくたいこうのほうてきせいかくとこうりょく",
-    kana: "し",
+    title: "教育大綱（首長策定の基本方針）",
+    reading: "きょういくたいこうしゅちょうさくていのきほんほうしん",
+    kana: "き",
     categories: ["system"],
     summary:
       "地方教育行政法に基づき地方自治体の首長が策定する、地域教育の根本的な総合方針と理念を定めた行政方針。",
@@ -1781,9 +1781,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "education-board-annual-inspection-report",
-    title: "教育委員会による事務点検・評価報告書の公表",
-    reading: "きょういくいいんかいによるじむてんけん・ひょうかほうこくしょのこうひょう",
-    kana: "き",
+    title: "点検・評価報告書（教育委員会）",
+    reading: "てんけんひょうかほうこくしょきょういくいいんかい",
+    kana: "て",
     categories: ["system"],
     summary:
       "地方教育行政法に基づき教育委員会が毎年自らの教育事務を点検・評価し、議会への提出および住民への公表を行う制度。",
@@ -1794,8 +1794,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "mext-minister-directive-powers-local-boards",
-    title: "文部科学大臣の地方教育委員会に対する是正指示権",
-    reading: "もんぶかがくだいじんのちほうきょういくいいんかいにたいするぜせいしじけん",
+    title: "文部科学大臣の是正指示権",
+    reading: "もんぶかがくだいじんのぜせいしじけん",
     kana: "も",
     categories: ["system"],
     summary:
@@ -1807,8 +1807,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-self-evaluation-guidelines",
-    title: "学校評価ガイドラインに基づく「自己評価」の実際",
-    reading: "がっこうひょうかがいどらいんにもとづく（じこひょうか）のじっさい",
+    title: "学校評価における自己評価",
+    reading: "がっこうひょうかにおけるじこひょうか",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1820,8 +1820,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-stakeholder-evaluation-practice",
-    title: "学校関係者評価の構成員と評価結果公表",
-    reading: "がっこうかんけいしゃひょうかのこうせいいんとひょうかけっかこうひょう",
+    title: "学校関係者評価（学校評価）",
+    reading: "がっこうかんけいしゃひょうかがっこうひょうか",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1833,9 +1833,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-third-party-evaluation-audit",
-    title: "学校の第三者評価（外部評価機関による検証）",
-    reading: "がっこうのだいさんしゃひょうか（がいぶひょうかきかんによるけんしょう）",
-    kana: "か",
+    title: "第三者評価（学校評価）",
+    reading: "だいさんしゃひょうかがっこうひょうか",
+    kana: "た",
     categories: ["system"],
     summary:
       "学校や設置者から独立した外部の専門家・評価機関が客観的かつ専門的な視点から教育水準と学校運営を検証する評価制度。",
@@ -1846,8 +1846,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-safety-plan-statutory-duty",
-    title: "学校安全計画の策定義務（保健安全法第27条）",
-    reading: "がっこうあんぜんけいかくのさくていぎむ（ほけんあんぜんほうだいにじゅうななじょう）",
+    title: "学校安全計画（保健安全法27条）",
+    reading: "がっこうあんぜんけいかくほけんあんぜんほうにじゅうななじょう",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1859,8 +1859,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "crisis-management-manual-evacuation-drills",
-    title: "学校危機管理マニュアルの作成と避難訓練実施義務",
-    reading: "がっこうききかんりまにゅあるのさくせいとひなんくんれんじっしぎむ",
+    title: "学校危機管理マニュアル",
+    reading: "がっこうききかんりまにゅある",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1872,8 +1872,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-entry-health-screening-procedures",
-    title: "就学時健康診断の法定手続きと就学指導連携",
-    reading: "しゅうがくじけんこうしんだんのほうていてつづきとしゅうがくしどうれんけい",
+    title: "就学時健康診断の法定手続き",
+    reading: "しゅうがくじけんこうしんだんのほうてきてつづき",
     kana: "し",
     categories: ["system"],
     summary:
@@ -1885,9 +1885,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "regular-health-checkup-items-followup",
-    title: "定期健康診断の実施項目と疾病異常の事後措置",
-    reading: "ていきけんこうしんだんのじっしこうもくとしっぺいいじょうのじごそち",
-    kana: "て",
+    title: "学校の定期健康診断",
+    reading: "がっこうのていきけんこうしんだん",
+    kana: "か",
     categories: ["system"],
     summary:
       "学校保健安全法に基づき全児童生徒を対象に毎学年6月30日までに実施され、疾病の早期発見と適切な事後指導を行う制度。",
@@ -1898,8 +1898,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-infectious-disease-suspension-types",
-    title: "学校感染症の種別分類と出席停止期間の基準",
-    reading: "がっこうかんせんしょうのしゅべつぶんるいとしゅっせきていしきかんのきじゅん",
+    title: "学校感染症と出席停止基準",
+    reading: "がっこうかんせんしょうとしゅっせきていしきじゅん",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1911,9 +1911,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "temporary-school-class-closure-statutory",
-    title: "学校の臨時休業・学級閉鎖の決定権者と要件",
-    reading: "がっこうのりんじきゅうぎょう・がっきゅうへいさのけっていけんしゃとようけん",
-    kana: "か",
+    title: "臨時休業と学級閉鎖",
+    reading: "りんじきゅうぎょうとがっきゅうへいさ",
+    kana: "り",
     categories: ["system"],
     summary:
       "感染症のまん延や災害等の非常事態に際し、学校保健安全法や学校教育法施行規則に基づき学校の全部または一部を閉鎖する制度。",
@@ -1924,8 +1924,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-environmental-sanitation-standards",
-    title: "学校環境衛生基準（換気・採光・照度・水質）",
-    reading: "がっこうかんきょうえいせいきじゅん（かんき・さいこう・しょうど・すいしつ）",
+    title: "学校環境衛生基準",
+    reading: "がっこうかんきょうえいせいきじゅん",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1937,9 +1937,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "japan-sport-council-mutual-aid-benefits",
-    title: "日本スポーツ振興センターの災害共済給付手続き",
-    reading: "にほんすぽーつしんこうせんたーのさいがいきょうさいきゅうふてつづき",
-    kana: "に",
+    title: "災害共済給付（日本スポーツ振興）",
+    reading: "さいがいきょうさいきゅうふにっぽんすぽーつしんこう",
+    kana: "さ",
     categories: ["system"],
     summary:
       "学校の管理下で発生した児童生徒の負傷・疾病・障害・死亡に対し、医療費等の共済給付金を迅速に支給する公的互助制度の手続き。",
@@ -1950,8 +1950,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-lunch-sanitation-management-standards",
-    title: "学校給食衛生管理基準に基づく衛生安全管理",
-    reading: "がっこうきゅうしょくえいせいかんりきじゅんにもとづくえいせいあんぜんかんり",
+    title: "学校給食衛生管理基準",
+    reading: "がっこうきゅうしょくえいせいかんりきじゅん",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1963,8 +1963,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-lunch-implementation-rates-food-education",
-    title: "学校給食の実施率向上と食に関する指導体制",
-    reading: "がっこうきゅうしょくのじっしりつこうじょうとしょくにかんするしどうたいせい",
+    title: "学校給食の食育指導体制",
+    reading: "がっこうきゅうしょくのしょくいくしどうたいせい",
     kana: "か",
     categories: ["system"],
     summary:
@@ -1976,9 +1976,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "textbook-adoption-authority-procedures",
-    title: "公立小中学校における教科書採択の権限と手続き",
-    reading: "こうりつしょうちゅうがっこうにおけるきょうかしょさいたくのけんげんとてつづき",
-    kana: "こ",
+    title: "教科書採択の手続き（公立小中）",
+    reading: "きょうかしょさいたくのてつづきこうりつしょうちゅう",
+    kana: "き",
     categories: ["system"],
     summary:
       "地方教育行政法に基づき公立小中学校の教科書採択権を持つ所轄教育委員会が、採択地区協議会を経て行う法定の手続き。",
@@ -1989,8 +1989,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "free-textbook-distribution-legal-scheme",
-    title: "教科書無償給与制度の財政的法的仕組み",
-    reading: "きょうかしょむしょうきゅうよせいどのざいせいてきほうてきしくみ",
+    title: "教科書無償給与の法的仕組み",
+    reading: "きょうかしょむしょうきゅうよのほうてきしくみ",
     kana: "き",
     categories: ["system"],
     summary:
@@ -2002,8 +2002,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "large-print-braille-textbooks-accessibility",
-    title: "拡大教科書・点字教科書等の給与普及制度",
-    reading: "かくだいきょうかしょ・てんじきょうかしょとうのきゅうよふきゅうせいど",
+    title: "拡大教科書・点字教科書給与",
+    reading: "かくだいきょうかしょてんじきょうかしょきゅうよ",
     kana: "か",
     categories: ["system"],
     summary:
@@ -2015,8 +2015,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "supplementary-learning-materials-guidelines",
-    title: "副教材の選定方針と適切な使用ガイドライン",
-    reading: "ふくきょうざいのせんていほうしんとてきせつなしようがいどらいん",
+    title: "副教材の使用基準（選定ガイド）",
+    reading: "ふくきょうざいのしようきじゅんせんていがいど",
     kana: "ふ",
     categories: ["system"],
     summary:
@@ -2028,8 +2028,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-facilities-eco-longevity-guidelines",
-    title: "学校施設整備指針（長寿命化改修とエコスクール）",
-    reading: "がっこうしせつせいびししん（ちょうじゅみょうかかいしゅうとえこすくーる）",
+    title: "学校施設整備指針（長寿命化）",
+    reading: "がっこうしせつせいびししんちょうじゅみょうか",
     kana: "か",
     categories: ["system"],
     summary:
@@ -2041,8 +2041,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-community-facility-open-access",
-    title: "学校体育施設・普通教室の地域開放事業",
-    reading: "がっこうたいいくしせつ・ふつうきょうしつのちいきかいほうじぎょう",
+    title: "学校施設の地域開放",
+    reading: "がっこうしせつのちいきかいほう",
     kana: "か",
     categories: ["system"],
     summary:
@@ -2054,8 +2054,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-evacuation-center-disaster-resilience",
-    title: "指定避難所としての学校施設の防災機能強化",
-    reading: "していひなんじょとしてのがっこうしせつのぼうさいきのうきょうか",
+    title: "指定避難所としての学校施設",
+    reading: "していひなんじょとしてのがっこうしせつ",
     kana: "し",
     categories: ["system"],
     summary:
@@ -2067,9 +2067,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "compulsory-education-deferral-exemption-criteria",
-    title: "学齢児童生徒の就学猶予・就学免除の厳格規定",
-    reading: "がくれいじどうせいとのしゅうがくゆうよ・しゅうがくめんじょのげんかくきてい",
-    kana: "か",
+    title: "就学義務の猶予・免除基準",
+    reading: "しゅうがくぎむのゆうよめんじょきじゅん",
+    kana: "し",
     categories: ["system"],
     summary:
       "学校教育法第18条に基づき病弱等やむを得ない事由がある場合に限り、市町村教育委員会が厳格な手続きで認める例外規定。",
@@ -2080,8 +2080,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "foreign-children-school-enrollment-guide",
-    title: "外国人児童生徒の就学促進と学籍管理の実際",
-    reading: "がいこくじんじどうせいとのしゅうがくそくしんとがくせきかんりのじっさい",
+    title: "外国人児童生徒の就学支援",
+    reading: "がいこくじんじどうせいとのしゅうがくしえん",
     kana: "か",
     categories: ["system"],
     summary:
@@ -2093,8 +2093,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "returnee-and-foreign-pupils-special-curriculum",
-    title: "帰国・外国人児童生徒のための特別教育課程編成",
-    reading: "きこく・がいこくじんじどうせいとのためのとくべつきょういくかていへんせい",
+    title: "帰国・外国人児童生徒の教育課程",
+    reading: "きこくがいこくじんじどうせいとのきょういくかてい",
     kana: "き",
     categories: ["system"],
     summary:
@@ -2106,8 +2106,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "japanese-as-second-language-pull-out-instruction",
-    title: "日本語指導の特別の教育課程（取り出し指導の制度化）",
-    reading: "にほんごしどうのとくべつのきょういくかてい（とりだししどうのせいどか）",
+    title: "日本語指導の特別の教育課程",
+    reading: "にほんごしどうのとくべつのきょういくかてい",
     kana: "に",
     categories: ["system"],
     summary:
@@ -2119,8 +2119,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "part-time-and-correspondence-credit-flexibility",
-    title: "定時制・通信制課程の単位制修得と修業年限短縮",
-    reading: "ていじせい・つうしんせいかていのたんいせいしゅうとくとしゅうぎょうねんげんたんしゅく",
+    title: "定時制・通信制の単位修得制度",
+    reading: "ていじせいつうしんせいのたんいしゅうとくせいど",
     kana: "て",
     categories: ["system"],
     summary:
@@ -2132,8 +2132,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "credit-system-high-school-grade-flexibility",
-    title: "単位制高等学校の開設要件と弾力的履修形態",
-    reading: "たんいせいこうとうがっこうのかいせつようけんとだんりょくてきりしゅうけいたい",
+    title: "単位制高等学校の開設・履修",
+    reading: "たんいせいこうとうがっこうのかいせつりしゅう",
     kana: "た",
     categories: ["system"],
     summary:
@@ -2145,9 +2145,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "integrated-course-high-school-sangyo-shakai",
-    title: "総合学科の教育課程と原則履修科目「産業社会と人間」",
-    reading: "そうごうがっかのきょういくかていとげんそくりしゅうかもく（さんぎょうしゃかいとにんげん）",
-    kana: "そ",
+    title: "産業社会と人間（総合学科）",
+    reading: "さんぎょうしゃかいとにんげんそうごうがっか",
+    kana: "さ",
     categories: ["system"],
     summary:
       "普通教育と専門教育を横断する多様な選択科目を開設し、原則必履修科目「産業社会と人間」を通じて生徒が自らの生き方や進路を主体的に探究する学科制度。",
@@ -2158,8 +2158,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "secondary-education-school-six-year-consistent",
-    title: "中等教育学校（完全6年中高一貫校の制度構造）",
-    reading: "ちゅうとうきょういくがっこう（かんぜんろくねんちゅうこういっかんこうのせいどこうぞう）",
+    title: "中等教育学校（中高一貫制度）",
+    reading: "ちゅうとうきょういくがっこうちゅうこういっかんせいど",
     kana: "ち",
     categories: ["system"],
     summary:
@@ -2171,8 +2171,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "compulsory-education-school-nine-year-system",
-    title: "義務教育学校の設置基準（4・3・2制等の教育課程編成）",
-    reading: "ぎむきょういくがっこうのせっちきじゅん（よん・さん・にせいとうのきょういくかていへんせい）",
+    title: "義務教育学校の制度設計",
+    reading: "ぎむきょういくがっこうのせいどせっけい",
     kana: "き",
     categories: ["system"],
     summary:
@@ -2184,8 +2184,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "public-night-middle-school-promotion",
-    title: "公立夜間中学校の各都道府県への設置促進施策",
-    reading: "こうりつやかんちゅうがっこうのかくとどうふけんへのせっちそくしんせさく",
+    title: "公立夜間中学校の設置促進",
+    reading: "こうりつやかんちゅうがっこうのせっちそくしん",
     kana: "こ",
     categories: ["system"],
     summary:
@@ -2197,8 +2197,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "remote-area-school-designation-allowance",
-    title: "へき地学校の級地指定基準とへき地手当給付",
-    reading: "へきちがっこうのきゅうちしていきじゅんとへきちてあてきゅうふ",
+    title: "へき地学校の級地指定・手当",
+    reading: "へきちがっこうのきゅうちしてい・てあて",
     kana: "へ",
     categories: ["system"],
     summary:
@@ -2210,8 +2210,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "special-admission-small-scale-school-system",
-    title: "小規模特認校制度（豊かな自然環境下での越境就学）",
-    reading: "しょうきぼとくにんこうせいど（ゆたかなしぜんかんきょうかでのえっきょうしゅうがく）",
+    title: "小規模特認校制度",
+    reading: "しょうきぼとくにんこうせいど",
     kana: "し",
     categories: ["system"],
     summary:
@@ -2223,8 +2223,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "elementary-junior-high-cooperative-models",
-    title: "小中連携教育・小中一貫教育の4つの推進類型",
-    reading: "しょうちゅうれんけいきょういく・しょうちゅういっかんきょういくのよっつのすいしんるいけい",
+    title: "小中一貫教育の類型",
+    reading: "しょうちゅういっかんきょういくのるいけい",
     kana: "し",
     categories: ["system"],
     summary:
@@ -2236,8 +2236,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "specialized-training-college-three-courses",
-    title: "専修学校の高等課程・専門課程・一般課程の区分体系",
-    reading: "せんしゅうがっこうのこうとうかてい・せんもんかてい・いっぱんかていのくぶんたいけい",
+    title: "専修学校の課程区分（高・専・一）",
+    reading: "せんしゅうがっこうのかていくぶんこうせんいち",
     kana: "せ",
     categories: ["system"],
     summary:
@@ -2249,8 +2249,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "upper-secondary-specialized-training-university-eligibility",
-    title: "高等専修学校修了者の大学入学資格付与基準",
-    reading: "こうとうせんしゅうがっこうしゅうりょうしゃのだいがくにゅうがくしかくふよきじゅん",
+    title: "高等専修学校修了者の大学入学資格",
+    reading: "こうとうせんしゅうがっこうしゅうりょうしゃのだいがくにゅうがくしかく",
     kana: "こ",
     categories: ["system"],
     summary:
@@ -2262,8 +2262,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "diploma-and-advanced-diploma-accreditation",
-    title: "専門士および高度専門士の称号付与基準",
-    reading: "せんもんしおよびこうどせんもんしのしょうごうふよきじゅん",
+    title: "専門士・高度専門士",
+    reading: "せんもんしこうどせんもんし",
     kana: "せ",
     categories: ["system"],
     summary:
@@ -2275,8 +2275,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "miscellaneous-school-legal-framework",
-    title: "各種学校の認可基準と学校教育法上の法的地位",
-    reading: "かくしゅがっこうのにんかきじゅんとがっこうきょういくほうじょうのほうてきちい",
+    title: "各種学校の認可基準",
+    reading: "かくしゅがっこうのにんかきじゅん",
     kana: "か",
     categories: ["system"],
     summary:
@@ -2288,8 +2288,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "special-teaching-license-recommendation-criteria",
-    title: "特別免許状の授与要件と教育委員会推薦実態",
-    reading: "とくべつめんきょじょうのじゅよようけんときょういくいいんかいすいせんじったい",
+    title: "特別免許状の授与基準",
+    reading: "とくべつめんきょじょうのじゅよきじゅん",
     kana: "と",
     categories: ["system"],
     summary:
@@ -2301,8 +2301,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "special-part-time-instructor-notification-scope",
-    title: "特別非常勤講師の届出要件と教科実技指導範囲",
-    reading: "とくべつひじょうきんこうしのとどけでようけんときょうかじつぎしどうはんい",
+    title: "特別非常勤講師の届出要件",
+    reading: "とくべつひじょうきんこうしのとどけでようけん",
     kana: "と",
     categories: ["system"],
     summary:
@@ -2314,8 +2314,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "temporary-appointed-teacher-employment-challenges",
-    title: "臨時的任用教員（常勤講師）の任用法的枠組みと処遇",
-    reading: "りんじてきにんようきょういん（じょうきんこうし）のにんようほうてきわくぐみとしょぐう",
+    title: "臨時的任用教員の任用制度",
+    reading: "りんじてきにんようきょういんのにんようせいど",
     kana: "り",
     categories: ["system"],
     summary:
@@ -2327,8 +2327,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "part-time-teacher-hourly-contract-regulations",
-    title: "非常勤講師（時間割講師）の勤務形態と労働法制",
-    reading: "ひじょうきんこうし（じかんわりこうし）のきんむけいたいとろうどうほうせい",
+    title: "非常勤講師の任用・勤務形態",
+    reading: "ひじょうきんこうしのにんようきんむけいたい",
     kana: "ひ",
     categories: ["system"],
     summary:
@@ -2340,9 +2340,9 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "head-of-instruction-statutory-establishment",
-    title: "教務主任・学年主任等の主任制の法的設置根拠",
-    reading: "きょうむしゅにん・がくねんしゅにんとうのしゅにんせいのほうてきせっちこんきょ",
-    kana: "き",
+    title: "主任制（教務主任・学年主任）",
+    reading: "しゅにんせいきょうむしゅにんがくねんしゅにん",
+    kana: "し",
     categories: ["system"],
     summary:
       "円滑な学校運営と校務分掌を推進するため、校長を助け特定の校務を整理する職として学校教育法施行規則等に明記された主任制の法的根拠。",
@@ -2353,8 +2353,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "teachers-staff-meeting-advisory-character",
-    title: "職員会議の法的性格（校長の職務補助機関としての位置づけ）",
-    reading: "しょくいんかいぎのほうてきせいかく（こうちょうのしょくむほじょきかんとしてのいちづけ）",
+    title: "職員会議の法的性格",
+    reading: "しょくいんかいぎのほうてきせいかく",
     kana: "し",
     categories: ["system"],
     summary:
@@ -2366,8 +2366,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-counselor-statutory-placement-criteria",
-    title: "スクールカウンセラー配置事業の実施要項と配置基準",
-    reading: "すくーるかんせらーはいちじぎょうのじっしようこうとはいちきじゅん",
+    title: "スクールカウンセラー配置基準",
+    reading: "すくーるかんせらーはいちきじゅん",
     kana: "す",
     categories: ["system"],
     summary:
@@ -2379,8 +2379,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-social-worker-statutory-guidelines",
-    title: "スクールソーシャルワーカー活用事業の実施指針",
-    reading: "すくーるそーしゃるわーかーかつようじぎょうのじっしししん",
+    title: "スクールソーシャルワーカー指針",
+    reading: "すくーるそーしゃるわーかーししん",
     kana: "す",
     categories: ["system"],
     summary:
@@ -2392,8 +2392,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "school-lawyer-legal-consultation-framework",
-    title: "スクールロイヤー配置・活用体制の法的枠組み",
-    reading: "すくーるろいやーはいち・かつようたいせいのほうてきわくぐみ",
+    title: "スクールロイヤー活用体制",
+    reading: "すくーるろいやーかつようたいせい",
     kana: "す",
     categories: ["system"],
     summary:
@@ -2405,8 +2405,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "community-learning-centers-kominkan-act",
-    title: "公民館の設置基準と社会教育法上の活動指針",
-    reading: "こうみんかんのせっちきじゅんとしゃかいきょういくほうじょうのかつどうししん",
+    title: "公民館の設置基準（社会教育法）",
+    reading: "こうみんかんのせっちきじゅんしゃかいきょういくほう",
     kana: "こ",
     categories: ["system"],
     summary:
