@@ -913,8 +913,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "episode-description",
-    title: "エピソード記述",
-    reading: "えぴそーどきじゅつ",
+    title: "エピソード記述法",
+    reading: "えぴそーどきじゅつほう",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -926,8 +926,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "hiyari-hatto-hoiku",
-    title: "保育におけるヒヤリハットと危機管理",
-    reading: "ほいくにおけるひやりはっととききかんり",
+    title: "保育所ヒヤリハット",
+    reading: "ほいくしょひやりはっと",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -939,8 +939,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "boshi-kenko-techo",
-    title: "母子健康手帳と乳幼児健康診査",
-    reading: "ぼしけんこうてちょうとにゅうようじけんこうしんさ",
+    title: "母子健康手帳と健診",
+    reading: "ぼしけんこうてちょうとけんしん",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -952,9 +952,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "yoji-zoukei-asobi",
-    title: "造形表現遊び",
-    reading: "ぞうけいひょうげんあそび",
-    kana: "そ",
+    title: "幼児造形表現遊び",
+    reading: "ようじぞうけいひょうげんあそび",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "幼児教育において、絵の具・粘土・紙・廃材などの多様な素材に自ら触れ、描く・作る体験を通して豊かな感性と表現力を育む遊び活動。",
@@ -965,9 +965,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "yoji-ongaku-rhythm-asobi",
-    title: "音楽表現遊び",
-    reading: "おんがくひょうげんあそび",
-    kana: "お",
+    title: "幼児音楽リズム遊び",
+    reading: "ようじおんがくりずむあそび",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "歌唱、手遊び、リトミック、楽器演奏などを通して、身近な音やリズムに親しみ、身体全体で音楽の楽しさを味わい表現する幼児教育の活動。",
@@ -978,8 +978,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "yoji-undou-asobi",
-    title: "幼児の運動遊び",
-    reading: "ようじのうんどうあそび",
+    title: "幼児の運動遊び指導",
+    reading: "ようじのうんどうあそびしどう",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -991,8 +991,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "shokuiku-jissen-hoiku",
-    title: "保育所における食育実践",
-    reading: "ほいくしょにおけるしょくいくじっせん",
+    title: "保育所の食育実践",
+    reading: "ほいくしょのしょくいくじっせん",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -1004,8 +1004,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "hoiku-kankyo-kosei",
-    title: "保育環境の構成",
-    reading: "ほいくかんきょうのこうせい",
+    title: "保育環境の構成論",
+    reading: "ほいくかんきょうのこうせいろん",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -1017,8 +1017,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "hoiku-ryoritsu-shien",
-    title: "仕事と子育ての両立支援",
-    reading: "しごととこそだてのりょうりつしえん",
+    title: "仕事と子育て両立支援",
+    reading: "しごととこそだてりょうりつしえん",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -1030,8 +1030,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "kodomo-shokudo-renkei",
-    title: "子ども食堂と地域の居場所支援",
-    reading: "こどもしょくどうとちいきのいばしょしえん",
+    title: "子ども食堂地域連携",
+    reading: "こどもしょくどうちいきれんけい",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1043,8 +1043,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "hoiku-jisshu-shido",
-    title: "保育実習と実習指導",
-    reading: "ほいくじっしゅうとじっしゅうしどう",
+    title: "保育実習指導体制",
+    reading: "ほいくじっしゅうしどうたいせい",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -1056,9 +1056,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "yoji-shakaisei-hatsutatsu",
-    title: "幼児期の自己主張と自己抑制",
-    reading: "ようじきのじこしゅちょうとじこよくせい",
-    kana: "よ",
+    title: "自己主張と自己抑制",
+    reading: "じこしゅちょうとじこよくせい",
+    kana: "し",
     categories: ["early-childhood"],
     summary:
       "幼児が遊びや集団生活での友達との葛藤や自己主張を重ねる中で、感情をコントロールし相手の気持ちに気づく自己抑制の力を育む発達過程。",
@@ -1069,8 +1069,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "shizen-taiken-hoiku",
-    title: "幼児期の自然体験と環境教育",
-    reading: "ようじきのしぜんたいけんとかんきょうきょういく",
+    title: "幼児期の自然体験学習",
+    reading: "ようじきのしぜんたいけんがくしゅう",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -1082,8 +1082,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "gakkou-hoken-yoji",
-    title: "保育施設における感染症対策と衛生管理",
-    reading: "ほいくしせつにおけるかんせんしょうたいさくとえいせいかんり",
+    title: "保育施設感染症対策",
+    reading: "ほいくしせつかんせんしょうたいさく",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -1095,8 +1095,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "hoiku-jigyo-shien",
-    title: "小規模保育事業",
-    reading: "しょうきぼほいくじぎょう",
+    title: "小規模保育事業の展開",
+    reading: "しょうきぼほいくじぎょうのてんかい",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -1121,8 +1121,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "kyotaku-homon-hoiku",
-    title: "居宅訪問型保育事業",
-    reading: "きょたくほうもんがたほいくじぎょう",
+    title: "居宅訪問型保育",
+    reading: "きょたくほうもんがたほいく",
     kana: "き",
     categories: ["early-childhood"],
     summary:
@@ -1134,8 +1134,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "kosodate-sedai-hokatsu-shien",
-    title: "子育て世代包括支援センター",
-    reading: "こそだてせだいほうかつしえんせんたー",
+    title: "子育て世代包括支援",
+    reading: "こそだてせだいほうかつしえん",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1147,9 +1147,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "yoji-kagaku-teki-asobi",
-    title: "幼児期の科学的思考の芽生え",
-    reading: "ようじきのかがくてきしこうのめばえ",
-    kana: "よ",
+    title: "科学的思考の芽生え",
+    reading: "かがくてきしこうのめばえ",
+    kana: "か",
     categories: ["early-childhood"],
     summary:
       "水・砂・光・影・風などの身近な自然現象や物の性質に好奇心を持ち、試行錯誤や見立てを通して因果関係や規則性に気づく知的な遊びの過程。",
@@ -1160,8 +1160,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "kurahashi-sozo-guided-childcare-theory",
-    title: "倉橋惣三の誘導保育論（自己活動の尊重）",
-    reading: "くらはしそうぞうのゆうどうほいくろんじこかつどうのそんちょう",
+    title: "倉橋惣三の誘導保育論",
+    reading: "くらはしそうぞうのゆうどうほいくろん",
     kana: "く",
     categories: ["early-childhood"],
     summary:
@@ -1173,9 +1173,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "kurahashi-sozo-kindergarten-essence",
-    title: "倉橋惣三の『幼稚園真諦』と保育の本質論",
-    reading: "くらはしそうぞうのようちえんしんたいとほいくのほんしつろん",
-    kana: "く",
+    title: "幼稚園真諦（保育本質）",
+    reading: "ようちえんしんたい",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "倉橋が1926年に著した『幼稚園真諦』において展開された、子どもの自発的な生活と遊びの中にこそ教育の本質が宿ると捉える保育哲学。",
@@ -1186,8 +1186,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "wada-minoru-kindergarten-play-theory",
-    title: "和田実の幼稚園教育思想と遊戯活動論",
-    reading: "わだみのるのようちえんきょういくしそうとゆうぎかつどうろん",
+    title: "和田実の幼稚園遊戯論",
+    reading: "わだみのるのようちえんゆうぎろん",
     kana: "わ",
     categories: ["early-childhood"],
     summary:
@@ -1199,8 +1199,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "oikawa-heiji-early-childhood-dynamic-method",
-    title: "及川平治の幼児動的教育法の実践展開",
-    reading: "おいかわへいじのようじどうてききょういくほうのじっせんてんかい",
+    title: "及川平治の幼児動的教育",
+    reading: "おいかわへいじのようじどうてききょういく",
     kana: "お",
     categories: ["early-childhood"],
     summary:
@@ -1212,8 +1212,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "kindergarten-order-1926-japan-first-law",
-    title: "幼稚園令（1926年制定の初公認法令）",
-    reading: "ようちえんれいせんきゅうひゃくにじゅうろくねんせいていのしょこうにんほうれい",
+    title: "幼稚園令（大正15年）",
+    reading: "ようちえんれい",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -1225,8 +1225,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "froebel-gifts-twenty-play-materials",
-    title: "恩物（フレーベル考案の20種の遊具体系）",
-    reading: "おんぶつふれーべるこうあんのにじっしゅのゆうぐたいけい",
+    title: "恩物（フレーベル遊具）",
+    reading: "おんぶつ",
     kana: "お",
     categories: ["early-childhood"],
     summary:
@@ -1238,9 +1238,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "froebel-education-of-man-sacred-play",
-    title: "フレーベルの『人間の教育』と遊びの神聖性",
-    reading: "ふれーべるのにんげんのきょういくとあそびのしんせいせい",
-    kana: "ふ",
+    title: "人間の教育（遊戯論）",
+    reading: "にんげんのきょういく",
+    kana: "に",
     categories: ["early-childhood"],
     summary:
       "フレーベルが主著『人間の教育』で主張した、子どもの遊びは内なる神性の自発的表出であり人間形成の最高段階であるとする思想。",
@@ -1251,9 +1251,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "montessori-sensitive-periods-childhood",
-    title: "モンテッソーリの敏感期（発達の感受期）",
-    reading: "もんてっそーりのびんかんきはったつのかんじゅき",
-    kana: "も",
+    title: "幼児期の敏感期",
+    reading: "ようじきのびんかんき",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "モンテッソーリが提唱した、乳幼児期に特定の能力や感覚を獲得するために環境の特定要素に異常な情熱と執着を示す限定的時期。",
@@ -1264,8 +1264,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "montessori-sensorial-materials-pink-tower",
-    title: "感覚教具（ピンクタワーと円柱さしの体系）",
-    reading: "かんかくきょうぐぴんくたわーとえんちゅうさしのたいけい",
+    title: "感覚教具（ピンクタワー）",
+    reading: "かんかくきょうぐ",
     kana: "か",
     categories: ["early-childhood"],
     summary:
@@ -1277,8 +1277,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "montessori-language-materials-sandpaper-letters",
-    title: "言語教具（砂文字板と可動文字の指導法）",
-    reading: "げんごきょうぐすなもじばんとかどうもじのしどうほう",
+    title: "言語教具（砂文字板等）",
+    reading: "げんごきょうぐ",
     kana: "け",
     categories: ["early-childhood"],
     summary:
@@ -1290,8 +1290,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "montessori-mathematics-materials-golden-beads",
-    title: "算数教具（金色のビーズと十進法の体感）",
-    reading: "さんすうきょうぐきんいろのびーずとじっしんほうのたいかん",
+    title: "算数教具（金色ビーズ）",
+    reading: "さんすうきょうぐ",
     kana: "さ",
     categories: ["early-childhood"],
     summary:
@@ -1303,9 +1303,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "reggio-emilia-atelierista-arts-specialist",
-    title: "レッジョ・エミリアのアトリエスタ（芸術専門家）",
-    reading: "れっじょえみりあのあとりえすたげいじゅつせんもんか",
-    kana: "れ",
+    title: "アトリエスタ（芸術専門）",
+    reading: "あとりえすた",
+    kana: "あ",
     categories: ["early-childhood"],
     summary:
       "イタリアのレッジョ・エミリア市で園に常駐し、多様な素材や造形活動を通して子どもの創造的探究を支える芸術専門の教育者。",
@@ -1316,9 +1316,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "reggio-emilia-pedagogista-coordination",
-    title: "レッジョ・エミリアのペダゴジスタ（教育調整員）",
-    reading: "れっじょえみりあのぺだごじすたきょういくちょうせいいん",
-    kana: "れ",
+    title: "ペダゴジスタ（教育調整）",
+    reading: "ぺだごじすた",
+    kana: "へ",
     categories: ["early-childhood"],
     summary:
       "レッジョ・エミリア市において複数の園を担当し、保育計画の立案や現職研修、保護者や地域との対話を総括・調整する教育専門職。",
@@ -1329,8 +1329,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "loris-malaguzzi-hundred-languages-children",
-    title: "子どもの100の言葉（マラグッツィの教育哲学）",
-    reading: "こどものひゃくのことばまらぐっつぃのきょういくてつがく",
+    title: "子どもの100の言葉",
+    reading: "こどものひゃくのことば",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1342,8 +1342,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "te-whariki-four-broad-principles",
-    title: "テ・ファリキの4大原則（ニュージーランド指針）",
-    reading: "てふぁりきのよんだいげんそくにゅーじーらんどししん",
+    title: "テ・ファリキの4原則",
+    reading: "てふぁりきのよんげんそく",
     kana: "て",
     categories: ["early-childhood"],
     summary:
@@ -1355,8 +1355,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "te-whariki-five-strands-learning",
-    title: "テ・ファリキの5大領域（包括的発達の視点）",
-    reading: "てふぁりきのごだいりょういきほうかつてきはったつのしてん",
+    title: "テ・ファリキの5領域",
+    reading: "てふぁりきのごりょういき",
     kana: "て",
     categories: ["early-childhood"],
     summary:
@@ -1368,8 +1368,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "uk-early-years-foundation-stage-eyfs",
-    title: "英国EYFS（初期基礎段階の学習指針）",
-    reading: "えいこくいーわいえふえすしょききそだんかいのがくしゅうししん",
+    title: "英国EYFS指針",
+    reading: "えいこくいーわいえふえすししん",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -1381,8 +1381,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "sweden-preschool-curriculum-lpfo18",
-    title: "スウェーデンの就学前学校教育指導計画",
-    reading: "すうぇーでんのしゅうがくぜんがっこうきょういくしどうけいかく",
+    title: "スウェーデン就学前計画",
+    reading: "すうぇーでんしゅうがくぜんけいかく",
     kana: "す",
     categories: ["early-childhood"],
     summary:
@@ -1394,9 +1394,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "germany-situationsansatz-early-childhood",
-    title: "ドイツのシチュエーション・アプローチ",
-    reading: "どいつのしちゅえーしょんあぷろーち",
-    kana: "と",
+    title: "シチュエーション指導",
+    reading: "しちゅえーしょんしどう",
+    kana: "し",
     categories: ["early-childhood"],
     summary:
       "ドイツで1970年代に開発された、子どもの現実の生活状況や社会的課題を出発点として自己決定能力や連帯性を育む保育理論。",
@@ -1407,8 +1407,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "waldorf-kindergarten-rhythm-natural-materials",
-    title: "ヴァルドルフ幼稚園（シュタイナーのリズム保育）",
-    reading: "ゔぁるどるふようちえんしゅたいなーのりずむほいく",
+    title: "ヴァルドルフ幼稚園保育",
+    reading: "ゔぁるどるふようちえんほいく",
     kana: "う",
     categories: ["early-childhood"],
     summary:
@@ -1420,9 +1420,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "forest-kindergarten-danish-origins-nature",
-    title: "自然結びつき保育（デンマーク発祥の森の幼稚園）",
-    reading: "しぜんむすびつきほいくでんまーくはっしょうのもりのようちえん",
-    kana: "し",
+    title: "デンマーク発祥森の幼稚園",
+    reading: "でんまーくはっしょうもりのようちえん",
+    kana: "て",
     categories: ["early-childhood"],
     summary:
       "デンマークを発祥とし、四季を通じて森や野外の自然環境の中で一日を過ごし、自発的な遊びと豊かな感性を育む保育手法。",
@@ -1433,8 +1433,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "infant-attachment-bowlby-theory-childcare",
-    title: "乳幼児期の愛着形成と保育者の応答的関わり",
-    reading: "にゅうようじきのあいちゃくけいせいとほいくしゃのおうとうてきかかわり",
+    title: "乳幼児期の愛着形成",
+    reading: "にゅうようじきのあいちゃくけいせい",
     kana: "に",
     categories: ["early-childhood"],
     summary:
@@ -1446,8 +1446,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "secure-base-ainsworth-strange-situation-care",
-    title: "安全基地としての保育者と探索活動の保障",
-    reading: "あんぜんきちとしてのほいくしゃとたんさくかつどうのほしょう",
+    title: "安全基地と探索活動",
+    reading: "あんぜんきちとたんさくかつどう",
     kana: "あ",
     categories: ["early-childhood"],
     summary:
@@ -1459,8 +1459,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "internal-working-models-infant-relationships",
-    title: "内的活動モデル（乳幼児期の対人認知枠組み）",
-    reading: "ないてきかつどうもでるにゅうようじきのたいじんにんちわくぐみ",
+    title: "内的活動モデル（乳幼児）",
+    reading: "ないてきかつどうもでる",
     kana: "な",
     categories: ["early-childhood"],
     summary:
@@ -1472,8 +1472,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "affect-attunement-intersubjectivity-stern",
-    title: "情動調律と相互主観性（スターンの乳児発達論）",
-    reading: "じょうどうちょうりつとそうごしゅかんせいすたーんのにゅうじはったつろん",
+    title: "情動調律と相互主観性",
+    reading: "じょうどうちょうりつとそうごしゅかんせい",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -1485,8 +1485,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "imitative-play-infant-development",
-    title: "模倣遊び（身振り模倣から象徴遊びへの移行）",
-    reading: "もほうあそびみぶりもほうからしょうちょうあそびへのいこう",
+    title: "模倣遊び（乳幼児）",
+    reading: "もほうあそび",
     kana: "も",
     categories: ["early-childhood"],
     summary:
@@ -1498,8 +1498,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "pretend-play-make-believe-symbolic",
-    title: "見立て遊び・つもり遊び（身近な物の象徴的活用）",
-    reading: "みたてあそびつもりあそびみぢかなもののしょうちょうてきかつよう",
+    title: "見立て遊び・つもり遊び",
+    reading: "みたてあそびつもりあそび",
     kana: "み",
     categories: ["early-childhood"],
     summary:
@@ -1511,8 +1511,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "constructive-play-blocks-clay-modelling",
-    title: "構成遊び（積み木・ブロック・粘土の造形）",
-    reading: "こうせいあそびつみきぶろっくねんどのぞうけい",
+    title: "構成遊び（造形活動）",
+    reading: "こうせいあそび",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1524,8 +1524,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "games-with-rules-tag-card-games-cooperation",
-    title: "ルール遊び（集団遊びにおける規範と協調）",
-    reading: "るーるあそびしゅうだんあそびにおけるきはんときょうちょう",
+    title: "ルール遊びの指導",
+    reading: "るーるあそびのしどう",
     kana: "る",
     categories: ["early-childhood"],
     summary:
@@ -1537,8 +1537,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "gross-motor-play-whole-body-coordination",
-    title: "粗大運動遊び（全身のバランスと協調的運動）",
-    reading: "そだいうんどうあそびぜんしんのばらんとときょうちょうてきうんどう",
+    title: "粗大運動遊びの指導",
+    reading: "そだいうんどうあそびのしどう",
     kana: "そ",
     categories: ["early-childhood"],
     summary:
@@ -1550,8 +1550,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "fine-motor-play-hand-eye-finger-skills",
-    title: "微細運動遊び（指先・手先の巧緻性と道具操作）",
-    reading: "びさいうんどうあそびゆびさきてさきのこうちせいとどうぐそうさ",
+    title: "微細運動遊びの指導",
+    reading: "びさいうんどうあそびのしどう",
     kana: "ひ",
     categories: ["early-childhood"],
     summary:
@@ -1563,8 +1563,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "sand-water-mud-play-sensory-plasticity",
-    title: "砂・水・泥遊び（感触体験と可塑性の探究活動）",
-    reading: "すなみずどろあそびかんしょくたいけんとかそせいのたんきゅうかつどう",
+    title: "砂・水・泥遊びの探究",
+    reading: "すなみずどろあそびのたんきゅう",
     kana: "す",
     categories: ["early-childhood"],
     summary:
@@ -1576,8 +1576,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "traditional-nursery-rhymes-touch-play",
-    title: "わらべうた遊びとふれあい遊びの保育的意義",
-    reading: "わらべうたあそびとふれあいあそびのほいくてきいぎ",
+    title: "わらべうた・ふれあい遊び",
+    reading: "わらべうたふれあいあそび",
     kana: "わ",
     categories: ["early-childhood"],
     summary:
@@ -1589,8 +1589,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "picture-book-shared-reading-attachment",
-    title: "絵本の読み聞かせを通じた情緒的絆の深化",
-    reading: "えほんのよみきかせをつうじたじょうちょてききずなのしんか",
+    title: "絵本の読み聞かせ指導",
+    reading: "えほんのよみきかせしどう",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -1602,8 +1602,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "storytelling-kamishibai-imagination-growth",
-    title: "素話と紙芝居（言葉からのイメージ想起指導）",
-    reading: "すばなしとかみしばいことばからのいめーじそうきしどう",
+    title: "素話と紙芝居指導",
+    reading: "すばなしとかみしばいしどう",
     kana: "す",
     categories: ["early-childhood"],
     summary:
@@ -1615,8 +1615,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "paper-puppet-theater-panel-theater-practice",
-    title: "ペープサート・パネルシアターの指導実践",
-    reading: "ぺーぷさーとぱねるしあたーのしどうじっせん",
+    title: "ペープサート・パネル劇",
+    reading: "ぺーぷさーとぱねるげき",
     kana: "へ",
     categories: ["early-childhood"],
     summary:
@@ -1628,8 +1628,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "puppet-show-dramatic-play-emotional-release",
-    title: "人形劇・劇ごっこを通じた感情表出と共感性",
-    reading: "にんぎょうげきげきごっこをつうじたかんじょうひょうしゅつときょうかんせい",
+    title: "人形劇・劇ごっこ活動",
+    reading: "にんぎょうげきげきごっこかつどう",
     kana: "に",
     categories: ["early-childhood"],
     summary:
@@ -1641,9 +1641,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "eurhythmics-dalcroze-body-rhythm-early",
-    title: "リトミック（音楽と身体表現のリズム指導）",
-    reading: "りとみっくおんがくとしんたいひょうげんのりずむしどう",
-    kana: "り",
+    title: "幼児リトミック指導",
+    reading: "ようじりとみっくしどう",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "ダルクローズが創始した、音楽を身体全体の動きで直接的に知覚・表現することで、リズム感や即時反応力、集中力を総合的に高める指導法。",
@@ -1654,8 +1654,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "expressive-body-movement-mimicry-play",
-    title: "身体表現遊び（なりきり模倣と創造的動作）",
-    reading: "しんたいひょうげんあそびなりきりもほうとそうぞうてきどうさ",
+    title: "身体表現・なりきり遊び",
+    reading: "しんたいひょうげんなりきりあそび",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -1667,8 +1667,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "finger-play-origami-string-figures-manual",
-    title: "幼児の指先遊び（折り紙・あやとり・ひも通し）",
-    reading: "ようじのゆびさきあそびおりがみあやとりひもとおし",
+    title: "幼児の指先巧緻性遊び",
+    reading: "ようじのゆびさきこうちせいあそび",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -1680,8 +1680,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "scribbling-schematic-drawing-development",
-    title: "幼児の描画発達（なぐりがきから図式表現へ）",
-    reading: "ようじのびょうがはったつなぐりがきからずしきひょうげんへ",
+    title: "幼児の描画発達過程",
+    reading: "ようじのびょうがはったつかてい",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -1693,8 +1693,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "collaborative-craft-large-scale-artworks",
-    title: "共同製作（大型段ボール等を用いた協働造形）",
-    reading: "きょうどうせいさくおおがただんぼーるとうをもちいたきょうどうぞうけい",
+    title: "共同製作（協働造形）",
+    reading: "きょうどうせいさく",
     kana: "き",
     categories: ["early-childhood"],
     summary:
@@ -1706,9 +1706,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "recycled-materials-craft-creative-transformation",
-    title: "廃材工作（身近な素材の見立てと創造活動）",
-    reading: "はいざいこうさくみぢかなそざいのみたてとそうぞうかつどう",
-    kana: "は",
+    title: "身近な廃材工作活動",
+    reading: "みぢかなはいざいこうさくかつどう",
+    kana: "み",
     categories: ["early-childhood"],
     summary:
       "空き箱やペットボトルなどの身近な不要物を別のものに見立てて加工し、素材の形状や性質を活かしながら独自の造形物を生み出す遊び。",
@@ -1719,8 +1719,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "food-education-vegetable-growing-cooking",
-    title: "幼児期の食育（野菜栽培と調理を通じた関心）",
-    reading: "ようじきのしょくいくやさいさいばいとちょうりをつうじたかんしん",
+    title: "幼児期の野菜栽培・食育",
+    reading: "ようじきのやさいさいばいしょくいく",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -1732,8 +1732,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "mealtime-manners-social-dining-atmosphere",
-    title: "給食時のマナー指導と楽しい食事環境の構成",
-    reading: "きゅうしょくじのまなーしどうとたのしいしょくじかんきょうのこうせい",
+    title: "給食マナーと食事環境",
+    reading: "きゅうしょくまなーとしょくじかんきょう",
     kana: "き",
     categories: ["early-childhood"],
     summary:
@@ -1745,8 +1745,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "eating-utensils-chopsticks-transition",
-    title: "食具の移行指導（スプーンから箸への指導）",
-    reading: "しょくぐのいこうしどうすぷーんからはしへのしどう",
+    title: "食具移行指導（箸への移行）",
+    reading: "しょくぐいこうしどう",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -1758,8 +1758,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "toilet-training-responsive-guidance",
-    title: "排泄の自立支援（個別ペースのトイレ指導）",
-    reading: "はいせつのじりつしえんこべつぺーすのといれしどう",
+    title: "排泄の自立支援指導",
+    reading: "はいせつのじりつしえんしどう",
     kana: "は",
     categories: ["early-childhood"],
     summary:
@@ -1771,8 +1771,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "dressing-undressing-self-help-skills",
-    title: "着脱の自立支援（衣服の着替えと整頓指導）",
-    reading: "ちゃくだつのじりつしえんいふくのきがえとせいとんしどう",
+    title: "着脱の自立支援指導",
+    reading: "ちゃくだつのじりつしえんしどう",
     kana: "ち",
     categories: ["early-childhood"],
     summary:
@@ -1784,8 +1784,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "nap-time-sleep-environment-sids-prevention",
-    title: "午睡時の環境整備と突然死症候群の予防策",
-    reading: "ごすいじのかんきょうせいびととつぜんししょうこうぐんのよぼうさく",
+    title: "午睡環境整備と突然死予防",
+    reading: "ごすいかんきょうせいびととつぜんしよぼう",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1797,8 +1797,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "nap-check-five-minute-monitoring-protocol",
-    title: "午睡チェック（呼吸・顔色の5分間隔点検）",
-    reading: "ごすいちぇっくこきゅうかおいろのごふんかんかくてんけん",
+    title: "午睡呼吸チェック手順",
+    reading: "ごすいこきゅうちぇっくてじゅん",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1810,8 +1810,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "handwashing-gargling-hygiene-habituation",
-    title: "手洗い・うがい指導と感染予防習慣の形成",
-    reading: "てあらいうがいしどうとかんせんよぼうしゅうかんのけいせい",
+    title: "手洗い・うがいの衛生指導",
+    reading: "てあらいうがいのえいせいしどう",
     kana: "て",
     categories: ["early-childhood"],
     summary:
@@ -1823,9 +1823,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "toothbrushing-oral-hygiene-instruction",
-    title: "歯磨き指導と幼児期の口腔衛生管理支援",
-    reading: "はみがきしどうとようじきのこうくうえいせいかんりしえん",
-    kana: "は",
+    title: "幼児の歯磨き口腔指導",
+    reading: "ようじのはみがきこうくうしどう",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "歯磨き指導と幼児期の口内衛生管理支援とは、乳幼児期から食後の歯磨き習慣を定着させ、虫歯を予防するとともに、歯と口の健康への関心を高め、生涯にわたる健康づくりの基礎を培う指導である。",
@@ -1836,8 +1836,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "rest-activity-balance-daily-routine-structure",
-    title: "活動と休息の調和（健康的な生活リズム確立）",
-    reading: "かつどうときゅうそくのちょうわけんこうてきなせいかつりずむかくりつ",
+    title: "活動と休息の生活リズム",
+    reading: "かつどうときゅうそくのせいかつりずむ",
     kana: "か",
     categories: ["early-childhood"],
     summary:
@@ -1849,8 +1849,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "morning-arrival-departure-health-inspection",
-    title: "登降園時の健康視診と保護者との対話連携",
-    reading: "とうこうえんじのけんこうししんとほごしゃとのたいわれんけい",
+    title: "登降園時の健康視診",
+    reading: "とうこうえんじのけんこうししん",
     kana: "と",
     categories: ["early-childhood"],
     summary:
@@ -1862,9 +1862,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "home-preschool-communication-notebook",
-    title: "連絡帳を通じた日々の情報共有と信頼関係",
-    reading: "れんらくちょうをつうじたひびのじょうほうきょうゆうとしんらいかんけい",
-    kana: "れ",
+    title: "保育連絡帳の連携共有",
+    reading: "ほいくれんらくちょうのれんけいきょうゆう",
+    kana: "ほ",
     categories: ["early-childhood"],
     summary:
       "連絡帳を通じた日々の情報共有と信頼関係とは、家庭と園との間で子どもの健康状態や発達の様子を双方向に記録・伝達し合い、共通理解のもとで子どもを共に育む重要な連携支援の仕組みである。",
@@ -1875,8 +1875,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "individual-parent-teacher-conference-growth",
-    title: "個人懇談における子どもの発達共有と相談",
-    reading: "こじんこんだんにおけるこどものはったつきょうゆうとそうだん",
+    title: "個人懇談（家庭連携）",
+    reading: "こじんこんだん",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1888,8 +1888,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "open-class-day-parent-participation-events",
-    title: "保育参観・保育参加を通じた家庭連携の深化",
-    reading: "ほいくさんかんほいくさんかをつうじたかていれんけいのしんか",
+    title: "保育参観・保育参加",
+    reading: "ほいくさんかんほいくさんか",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -1901,9 +1901,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "parent-association-community-building-nursery",
-    title: "保護者会・父母の会活動と園コミュニティ形成",
-    reading: "ほごしゃかいふぼのかいかつどうとえんこみゅにてぃけいせい",
-    kana: "ほ",
+    title: "園の保護者会活動",
+    reading: "えんのほごしゃかいかつどう",
+    kana: "え",
     categories: ["early-childhood"],
     summary:
       "保護者会・父母の会活動と園コミュニティ形成とは、保護者相互の交流や学び、園行事への協力を通じて孤立した育児を防ぎ、地域全体で子どもを温かく育む共助のネットワークを築く組織的活動である。",
@@ -1914,8 +1914,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "user-complaint-handling-system-preschool",
-    title: "保育所における苦情解決制度と相談体制整備",
-    reading: "ほいくしょにおけるくじょうかいけつせいどとそうだんたいせいせいび",
+    title: "保育所苦情解決制度",
+    reading: "ほいくしょくじょうかいけつせいど",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -1927,8 +1927,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "childcare-counselor-parenting-anxiety-relief",
-    title: "子育て相談と育児不安を和らげる専門的支援",
-    reading: "こそだてそうだんといくじふあんをやわらげるせんもんてきしえん",
+    title: "子育て相談・育児支援",
+    reading: "こそだてそうだんいくじしえん",
     kana: "こ",
     categories: ["early-childhood"],
     summary:
@@ -1940,9 +1940,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "early-detection-child-abuse-daycare-role",
-    title: "児童虐待の早期発見における保育士の役割",
-    reading: "じどうぎゃくたいのそうきはっけんにおけるほいくしのやくわり",
-    kana: "し",
+    title: "保育所虐待早期発見機能",
+    reading: "ほいくしょぎゃくたいそうきはっけんきのう",
+    kana: "ほ",
     categories: ["early-childhood"],
     summary:
       "児童虐待の早期発見における保育士の役割とは、日々の視診や子どもの言動、保護者の様子の変化から虐待の兆候を迅速に察知し、関係機関と連携して子どもの生命と基本的人権を守る不可欠な責務である。",
@@ -1953,9 +1953,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "special-needs-childcare-additional-staffing",
-    title: "特別な配慮を要する幼児の加配保育士配置",
-    reading: "とくべつなはいりょをようするようじのかはいほいくしはいち",
-    kana: "と",
+    title: "加配保育士の配置体制",
+    reading: "かはいほいくしのはいちたいせい",
+    kana: "か",
     categories: ["early-childhood"],
     summary:
       "特別な配慮を要する幼児の加配保育士配置とは、障害や発達上の課題を抱える子どもが安心・安全に集団生活を送り主体的に活動できるよう、基準を超えて保育士を増員配置する公的支援制度である。",
@@ -1966,9 +1966,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "suspected-developmental-delays-individual-plan",
-    title: "発達支援を要する幼児の個別の指導計画作成",
-    reading: "はったつしえんをようするようじのこべつのしどうけいかくさくせい",
-    kana: "は",
+    title: "要支援幼児個別指導計画",
+    reading: "ようしえんようじこべつしどうけいかく",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "発達支援を要する幼児の個別の指導計画作成とは、一人ひとりの発達特性や実態を詳細に把握し、具体的な教育・保育目標や環境構成、援助方針を体系的に定めて実践・評価する支援手順である。",
@@ -1979,9 +1979,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "parallel-attendance-daycare-special-support",
-    title: "児童発達支援事業所との並行通園連携体制",
-    reading: "じどうはったつしえんじぎょうしょとのへいこうつうえんれんけいたいせい",
-    kana: "し",
+    title: "療育事業所並行通園連携",
+    reading: "りょういくじぎょうしょへいこうつうえんれんけい",
+    kana: "り",
     categories: ["early-childhood"],
     summary:
       "児童発達支援事業所との並行通園連携体制とは、保育所等と専門的療育機関の双方に通園する子どもに対し、両機関が情報共有と支援方針の一致を図り、相乗的な発達援助を提供する協働の仕組みである。",
@@ -1992,8 +1992,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "itinerant-support-specialists-preschool-visits",
-    title: "巡回支援専門員による保育所等訪問と助言",
-    reading: "じゅんかいしえんせんもんいんによるほいくしょとうほうもんとじょげん",
+    title: "巡回支援専門員の助言指導",
+    reading: "じゅんかいしえんせんもんいんのじょげんしどう",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2005,9 +2005,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "multicultural-children-mother-tongue-respect",
-    title: "外国籍・多文化背景の幼児への母語尊重指導",
-    reading: "がいこくせきたぶんかはいけいのようじへのぼごそんちょうしどう",
-    kana: "か",
+    title: "多文化幼児母語尊重指導",
+    reading: "たぶんかようじぼごそんちょうしどう",
+    kana: "た",
     categories: ["early-childhood"],
     summary:
       "外国籍・多文化背景の幼児への母語尊重指導とは、異なる言語や文化的背景を持つ子どもに対し、日本語の習得を促すとともに母語やアイデンティティを尊重し、安心感と自己肯定感を育む教育的支援である。",
@@ -2018,8 +2018,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "food-allergy-elimination-substitute-safety",
-    title: "食物アレルギー除去食・代替食の安全管理",
-    reading: "しょくもつあれるぎーじょきょしょくだいたいしょくのあんぜんかんり",
+    title: "食物アレルギー代替食管理",
+    reading: "しょくもつあれるぎーだいたいしょくかんり",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2031,8 +2031,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "anaphylaxis-emergency-protocol-epipen-preschool",
-    title: "園におけるアナフィラキシー緊急時対応手順",
-    reading: "えんにおけるあなふぃらきしーきんきゅうじたいおうてじゅん",
+    title: "園児アナフィラキシー対応",
+    reading: "えんじあなふぃらきしーたいおう",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -2044,8 +2044,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "playground-environment-fixed-movable-equipment",
-    title: "園庭環境の構成（固定遊具と可動素材の配置）",
-    reading: "えんていかんきょうのこうせいこていゆうぐとかどうそざいのはいち",
+    title: "園庭環境構成（固定可動遊具）",
+    reading: "えんていかんきょうこうせい",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -2057,8 +2057,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "indoor-play-environment-zoning-movement",
-    title: "保育室の環境構成（静と動のゾーン区分と動線）",
-    reading: "ほいくしつのかんきょうこうせいせいとどうのぞーんくぶんとどうせん",
+    title: "保育室ゾーン区分と動線",
+    reading: "ほいくしつぞーんくぶんとどうせん",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -2070,8 +2070,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "toy-selection-developmental-shelving-display",
-    title: "玩具の選定基準と子どもの手の届く棚配置",
-    reading: "がんぐのせんていきじゅんとこどものてのとどくたなはいち",
+    title: "玩具選定と棚配置環境",
+    reading: "がんぐせんていとたなはいちかんきょう",
     kana: "か",
     categories: ["early-childhood"],
     summary:
@@ -2083,8 +2083,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "animal-rearing-experiences-respect-life",
-    title: "小動物・昆虫の飼育を通した生命尊重指導",
-    reading: "しょうどうぶつこんちゅうのしいくをつうじたせいめいそんちょうしどう",
+    title: "小動物飼育と生命尊重",
+    reading: "しょうどうぶつしいくとせいめいそんちょう",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2096,8 +2096,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "plant-cultivation-observation-nature-awe",
-    title: "草花の栽培と身近な自然への親しみと探究",
-    reading: "くさばなのさいばいとみぢかなしぜんへのしたしみとたんきゅう",
+    title: "草花栽培と自然探究活動",
+    reading: "くさばなさいばいとしぜんたんきゅうかつどう",
     kana: "く",
     categories: ["early-childhood"],
     summary:
@@ -2109,9 +2109,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "seasonal-traditional-events-cultural-learning",
-    title: "季節の年中行事（伝統行事体験と文化継承）",
-    reading: "きせつのねんじゅうぎょうじでんとうぎょうじたいけんとぶんかけいしょう",
-    kana: "き",
+    title: "園の季節年中行事体験",
+    reading: "えんのきせつねんじゅうぎょうじたいけん",
+    kana: "え",
     categories: ["early-childhood"],
     summary:
       "季節の移り変わりや日本の伝統行事を体験する活動であり、豊かな感性や文化的背景への親しみを育むとともに生活リズムを整える幼児教育の実践。",
@@ -2122,8 +2122,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "outdoor-excursions-nature-walks-traffic-safety",
-    title: "園外散歩を通じた地域探索と交通安全指導",
-    reading: "えんがいさんぽをつうじたちいきたんさくとこうつうあんぜんしどう",
+    title: "園外散歩と交通安全指導",
+    reading: "えんがいさんぽとこうつうあんぜんしどう",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -2135,9 +2135,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "intergenerational-community-exchange-elderly",
-    title: "地域住民・高齢者施設との世代間交流活動",
-    reading: "ちいきじゅうみんこうれいしゃしせつとのせだいかんこうりゅうかつどう",
-    kana: "ち",
+    title: "高齢者世代間交流保育",
+    reading: "こうれいしゃせだいかんこうりゅうほいく",
+    kana: "こ",
     categories: ["early-childhood"],
     summary:
       "近隣の高齢者施設や地域住民との日常的な関わりを通じて、他者を思いやる心や多様な人々への親しみを育む教育保育の取り組み。",
@@ -2148,8 +2148,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "elementary-school-visit-pre-transition-experience",
-    title: "小学校生活体験（小1見学と給食体験交流）",
-    reading: "しょうがっこうせいかつたいけんしょういちけんがくときゅうしょくたいけんこうりゅう",
+    title: "就学前小学校見学体験",
+    reading: "しゅうがくぜんしょうがっこうけんがくたいけん",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2161,8 +2161,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "transition-support-sheet-elementary-handover",
-    title: "就学支援シートを活用した小学校への引き継ぎ",
-    reading: "しゅうがくしえんしーとをかつようしたしょうがっこうへのひきつぎ",
+    title: "就学支援シート引継ぎ",
+    reading: "しゅうがくしえんしーとひきつぎ",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2174,8 +2174,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "joint-early-primary-training-lesson-study",
-    title: "保幼小合同研修会と公開保育・授業研究会",
-    reading: "ほようしょうごうどうけんしゅうかいとこうかいほいくじゅぎょうけんきゅうかい",
+    title: "保幼小合同研究協議会",
+    reading: "ほようしょうごうどうけんきゅうきょうぎかい",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -2187,9 +2187,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "transition-curriculum-play-subject-bridging",
-    title: "接続期カリキュラム（遊びから教科学習への架橋）",
-    reading: "せつぞくきかりきゅらむあそびからきょうかがくしゅうへのかきょう",
-    kana: "せ",
+    title: "架け橋期カリキュラム",
+    reading: "かけはしきかりきゅらむ",
+    kana: "か",
     categories: ["early-childhood"],
     summary:
       "幼児期の自発的な遊びを通した学びを小学校の各教科学習へと円滑につなぐため、双方の連携のもとで編成される教育課程の枠組み。",
@@ -2200,8 +2200,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "non-cognitive-skills-self-regulation-ten-forms",
-    title: "幼児期の自己調整力と協調性の具体的指導",
-    reading: "ようじきのじこちょうせいりょくときょうちょうせいのぐたいてきしどう",
+    title: "幼児期自己調整力育成",
+    reading: "ようじきじこちょうせいりょくいくせい",
     kana: "よ",
     categories: ["early-childhood"],
     summary:
@@ -2213,9 +2213,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "peer-conflict-resolution-mediation-reconciliation",
-    title: "子ども同士の葛藤の見守りと仲直りの援助法",
-    reading: "こどもどうしのかっとうのみまもりとなかなおりのえんじょほう",
-    kana: "こ",
+    title: "幼児の葛藤仲直り援助",
+    reading: "ようじのかっとうなかなおりえんじょ",
+    kana: "よ",
     categories: ["early-childhood"],
     summary:
       "遊びの中での子どもの自己主張やぶつかり合いを貴重な学びの機会と捉え、保育者が過度な介入を避けつつ仲直りへと導く指導援助。",
@@ -2226,8 +2226,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "taking-turns-waiting-visual-supports-preschool",
-    title: "順番待ちとルール理解を促す視覚的支援",
-    reading: "じゅんばんまちとるーるりかいをうながすしかくてきしえん",
+    title: "順番待ち視覚的支援",
+    reading: "じゅんばんまちしかくてきしえん",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2239,9 +2239,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "daily-reflection-sharing-outlook-tomorrow",
-    title: "一日の振り返りと明日の活動への見通し共有",
-    reading: "いちにちのふりかえりとあすのかつどうへのみとおしきょうゆう",
-    kana: "い",
+    title: "園生活の振り返り共有",
+    reading: "えんせいかつのふりかえりきょうゆう",
+    kana: "え",
     categories: ["early-childhood"],
     summary:
       "降園前の集まりで当日の楽しかった遊びや発見を言葉にして共有し、翌日の活動への興味や意欲を高め生活の連続性を培う保育の営み。",
@@ -2252,8 +2252,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "childcare-daily-journal-planning-reflection",
-    title: "保育日誌の記録と翌日指導計画への反映手法",
-    reading: "ほいくにっきのきろくとよくじつしどうけいかくへのはんえいしゅほう",
+    title: "保育日誌と指導計画反映",
+    reading: "ほいくにっきとしどうけいかくはんえい",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -2265,8 +2265,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "instructional-plan-evaluation-pdca-childcare",
-    title: "指導計画の評価反省とPDCAサイクルの実践",
-    reading: "しどうけいかくのひょうかはんせいとぴーでぃーしーえーさいくるのじっせん",
+    title: "指導計画の評価反省PDCA",
+    reading: "しどうけいかくのひょうかはんせいぴーでぃーしーえー",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2278,8 +2278,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "case-conference-childcare-understanding-peers",
-    title: "保育カンファレンス（事例検討による多面理解）",
-    reading: "ほいくかんふぁれんすじれいけんとうによるためんりかい",
+    title: "保育カンファレンス実践",
+    reading: "ほいくかんふぁれんすじっせん",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -2291,8 +2291,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "novice-childcare-worker-mentor-training",
-    title: "初任保育士研修と園内メンター指導体制",
-    reading: "しょにんほいくしけんしゅうとえんないめんたーしどうたいせい",
+    title: "初任保育士メンター指導",
+    reading: "しょにんほいくしめんたーしどう",
     kana: "し",
     categories: ["early-childhood"],
     summary:
@@ -2304,8 +2304,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "childcare-worker-career-up-training-leaders",
-    title: "保育士等キャリアアップ研修と専門リーダー育成",
-    reading: "ほいくしとうきゃりああっぷけんしゅうとせんもんりーだーいくせい",
+    title: "保育士キャリアアップ研修",
+    reading: "ほいくしきゃりああっぷけんしゅう",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -2317,8 +2317,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "in-house-research-open-childcare-quality",
-    title: "園内研究と公開保育を通じた保育の質向上",
-    reading: "えんないけんきゅうとこうかいほいくをつうじたほいくのしつこうじょう",
+    title: "園内研究と公開保育実践",
+    reading: "えんないけんきゅうとこうかいほいくじっせん",
     kana: "え",
     categories: ["early-childhood"],
     summary:
@@ -2330,9 +2330,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "preschool-self-evaluation-third-party-assessment",
-    title: "幼稚園・保育所の自己評価と第三者評価の活用",
-    reading: "ようちえんほいくしょのじこひょうかとだいさんしゃひょうかのかつよう",
-    kana: "よ",
+    title: "園の自己評価・第三者評価",
+    reading: "えんのじこひょうかだいさんしゃひょうか",
+    kana: "え",
     categories: ["early-childhood"],
     summary:
       "園自らが行う自己点検と中立的な外部専門機関による第三者評価を組み合わせ、運営の透明性と保育の質的向上を組織的に図る評価制度。",
@@ -2343,9 +2343,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "certified-kodomoen-chief-teacher-role",
-    title: "認定こども園における主幹保育教諭の役割機能",
-    reading: "にんていこどもえんにおけるしゅかんほいくきょうゆのやくわりきのう",
-    kana: "に",
+    title: "主幹保育教諭の役割機能",
+    reading: "しゅかんほいくきょうゆのやくわりきのう",
+    kana: "し",
     categories: ["early-childhood"],
     summary:
       "幼稚園と保育所の機能を併せ持つ認定こども園で、園長を補佐し幼保の一体的な教育保育の指導や職員調整を担う中核的指導職。",
@@ -2356,8 +2356,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "extended-daycare-enrichment-work-support",
-    title: "預かり保育の充実と多様な保護者就業支援",
-    reading: "あずかりほいくのじゅうじつとたようなほごしゃしゅうぎょうしえん",
+    title: "預かり保育の就業支援",
+    reading: "あずかりほいくのしゅうぎょうしえん",
     kana: "あ",
     categories: ["early-childhood"],
     summary:
@@ -2369,8 +2369,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "holiday-nighttime-childcare-safety-net",
-    title: "休日保育・夜間保育の機能と社会的セーフティ",
-    reading: "きゅうじつほいくやかんほいくのきのうとしゃかいてきせーふてぃ",
+    title: "休日保育・夜間保育事業",
+    reading: "きゅうじつほいくやかんほいくじぎょう",
     kana: "き",
     categories: ["early-childhood"],
     summary:
@@ -2382,8 +2382,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "region-limited-childcare-worker-system",
-    title: "地域限定保育士制度の仕組みと人材確保策",
-    reading: "ちいきげんていほいくしせいどのしくみとじんざいかくほさく",
+    title: "地域限定保育士の仕組み",
+    reading: "ちいきげんていほいくしのしくみ",
     kana: "ち",
     categories: ["early-childhood"],
     summary:
@@ -2395,8 +2395,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "childcare-dx-attendance-paperless-efficiency",
-    title: "保育DX（登降園管理・帳票業務のデジタル化）",
-    reading: "ほいくでぃーえっくすとうこうえんかんりちょうひょうぎょうむのでじたるか",
+    title: "保育DX登降園デジタル化",
+    reading: "ほいくでぃーえっくすとうこうえんでじたるか",
     kana: "ほ",
     categories: ["early-childhood"],
     summary:
@@ -2408,9 +2408,9 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "disaster-crime-crisis-management-preschool",
-    title: "自然災害・不審者侵入に備える園の危機管理",
-    reading: "しぜんさいがいふしんしゃしんにゅうにそなえるえんのききかんり",
-    kana: "し",
+    title: "園の防災防犯危機管理",
+    reading: "えんのぼうさいぼうはんききかんり",
+    kana: "え",
     categories: ["early-childhood"],
     summary:
       "地震や水害、不審者の侵入などのあらゆる突発的危機から乳幼児の尊い生命を守るため、事前の環境整備と実践的訓練を徹底する園の管理体制。",
@@ -2421,8 +2421,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "child-rights-advocacy-respectful-caregiving",
-    title: "乳幼児の権利擁護と不適切保育防止の徹底",
-    reading: "にゅうようじのけんりようごとふてきせつほいくぼうしのてってい",
+    title: "乳幼児の権利擁護保育",
+    reading: "にゅうようじのけんりようごほいく",
     kana: "に",
     categories: ["early-childhood"],
     summary:
@@ -2434,8 +2434,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "treasure-basket-infant-exploration",
-    title: "トレジャー・バスケット（乳児の探索活動と自然素材の活用）",
-    reading: "とれじゃーばすけっとにゅうじのたんさくかつどうとしぜんそざいのかつよう",
+    title: "トレジャー・バスケット",
+    reading: "とれじゃーばすけっと",
     kana: "と",
     categories: ["early-childhood"],
     summary:
@@ -2447,8 +2447,8 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "floorbook-approach-preschool",
-    title: "フロアブック・アプローチ（子どもの対話と探究の可視化記録）",
-    reading: "ふろあぶっくあぷろーちこどものたいわとたんきゅうのかしかきろく",
+    title: "フロアブック指導法",
+    reading: "ふろあぶっくしどうほう",
     kana: "ふ",
     categories: ["early-childhood"],
     summary:
