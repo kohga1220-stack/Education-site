@@ -1466,13 +1466,13 @@ export const ictTerms: Term[] = [
     title: "海外校とのオンライン国際協働学習の実践",
     reading: "かいがいこうとのおんらいんこくさいきょうどうがくしゅうのじっせん",
     kana: "か",
-    categories: ["ict"],
+    categories: ["ict", "higher-ed"],
     summary:
       "1人1台端末や通信システムを活用し、時差や地理的制約を越えて海外の学校と交流し、言語運用能力や異文化理解を深める協働学習の実践。",
     body: "GIGAスクール構想による1人1台端末環境の整備と高速通信網の普及に伴い、海外の学校と直接つながるオンライン国際協働学習が全国で注目されている。文部科学省が推進するグローバル人材育成の観点からも、教室にいながら海外の同世代と日常的に関わる機会の創出が重要視されている。\n\n授業では、リアルタイムのビデオ通話による対面対話や、クラウド上の共同編集ツールを用いた非同期での共同制作が展開される。児童生徒は自国の文化や身近な社会課題に関する発表資料を作成し、英語などの共通言語を用いて意見を交換しながら探究を進める。\n\nこの取り組みは、多様な背景を持つ他者と協働して新たな価値を創造する力を育む。時差や通信環境への配慮、相手国の文化やプライバシーを尊重する情報モラル教育も同時に深まり、次代の国際感覚の育成に寄与している。",
-    relatedSlugs: ["online-learning", "giga-school", "shudai-taiwa-fukai", "digital-literacy"],
+    relatedSlugs: ["online-learning", "giga-school", "shudai-taiwa-fukai", "digital-literacy", "ondemand-jugyo", "active-learning", "super-global-daigaku"],
     isCanonical: true,
-    tags: ["国際協働学習", "遠隔交流", "異文化理解", "端末活用"],
+    tags: ["国際協働学習", "遠隔交流", "異文化理解", "端末活用", "COIL", "オンライン協働学習"],
   },
   {
     slug: "expert-researcher-remote-guest-lectures",
@@ -2357,19 +2357,6 @@ export const ictTerms: Term[] = [
     relatedSlugs: ["audiolingual-method", "digital-kyozai-ud", "online-learning", "digital-literacy"],
     isCanonical: true,
     tags: ["音声教材", "聴解指導", "言語学習", "個別学習"],
-  },
-  {
-    slug: "digital-storytelling-self-expression-media",
-    title: "デジタル・ストーリーテリングによる自己表現活動",
-    reading: "でじたるすとーりーてりんぐによるじこひょうげんかつどう",
-    kana: "て",
-    categories: ["ict"],
-    summary:
-      "文章・静止画・音声・動画を自ら組み合わせて短い物語映像を制作し、豊かな自己表現力とメディア発信力を培う協働的な探究学習活動。",
-    body: "デジタル・ストーリーテリングによる自己表現活動とは、児童生徒が自らの経験や考えを、文章、写真、音声、動画などを複合的に組み合わせて短い映像作品として紡ぎ出す表現手法である。総合的な学習の時間等でメディア教育として導入される。\n\n授業では、テーマ設定と脚本作成を行った後、端末のカメラ機能で写真を撮影し、自らの声でナレーションを録音して動画編集ソフトで統合する。完成した作品をクラス内で相互に上映し、コメント機能を用いて感想や助言を伝え合う。\n\n多角的なメディアを用いた物語づくりは、言語化が苦手な子どもでも豊かな自己表現を可能にし、創造性と自己肯定感を高める。他者の視点に触れて相互理解を深める協働的な学びとなり、デジタル社会における責任ある発信態度を育む。",
-    relatedSlugs: ["digital-storytelling-media-expression", "active-learning", "digital-literacy", "digital-citizenship"],
-    isCanonical: true,
-    tags: ["自己表現", "映像制作", "表現活動", "協働対話"],
   },
   {
     slug: "online-collaborative-facilitation-skills",

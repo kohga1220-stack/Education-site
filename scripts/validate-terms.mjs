@@ -84,6 +84,9 @@ for (const t of terms) {
   if (bad.size) err(t, `日本語で使わない字(簡体字・異体字の疑い): ${[...bad].join(' ')}`)
   if (rare.size) warn(t, `JIS第1水準外の漢字(誤字でないか確認): ${[...rare].join(' ')}`)
   if (/[぀-ヿ]\s*[,.]\s*[぀-ヿ]/.test(text)) warn(t, '日本語文中に半角の , . を検出')
+  if (/[Ａ-Ｚａ-ｚ０-９]/.test(text)) warn(t, '全角の英数字(半角に統一)')
+  if (/[〇一二三四五六七八九]{2,4}年/.test(text)) warn(t, '漢数字の年号表記(算用数字に統一。例: 1980年)')
+  if (t.title.length > 30) warn(t, `題名が長すぎる(${t.title.length}字)。用語として成立する名称に絞り、補足は本文へ`)
 
   // tags / relatedSlugs の形
   for (const tag of t.tags ?? []) if (!isStr(tag)) err(t, 'tags に空要素')
