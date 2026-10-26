@@ -1068,8 +1068,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "snoezelen-multisensory",
-    title: "スヌーズレン（多感覚刺激環境）",
-    reading: "すぬーずれん（たかんかくしげきかんきょう）",
+    title: "スヌーズレン",
+    reading: "すぬーずれん",
     kana: "す",
     categories: ["special"],
     summary:
@@ -1081,8 +1081,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "deaf-education-jiratsu-katsudo",
-    title: "聴覚特別支援学校の自立活動",
-    reading: "ちょうかくとくべつしえんがっこうのじりつかつどう",
+    title: "聴覚障害の自立活動",
+    reading: "ちょうかくしょうがいのじりつかつどう",
     kana: "ち",
     categories: ["special"],
     summary:
@@ -1094,9 +1094,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "blind-orientation-mobility-white-cane",
-    title: "視覚特別支援学校の歩行訓練（白杖指導）",
-    reading: "しかくとくべつしえんがっこうのほこうくんれん（はくじょうしどう）",
-    kana: "し",
+    title: "白杖歩行指導（視覚障害）",
+    reading: "はくじょうほこうしどうしかくしょうがい",
+    kana: "は",
     categories: ["special"],
     summary:
       "視覚障害のある児童生徒が安全かつ自立して移動できるよう、空間認知の形成や白づえの基本操作技術を系統的に習得させる専門的な指導。",
@@ -1107,8 +1107,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "braille-refreshable-display",
-    title: "点字ディスプレイ（ピンディスプレイ）",
-    reading: "てんじでぃすぷれい（ぴんでぃすぷれい）",
+    title: "点字ディスプレイ",
+    reading: "てんじでぃすぷれい",
     kana: "て",
     categories: ["special"],
     summary:
@@ -1120,8 +1120,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "screen-reader-accessibility",
-    title: "スクリーンリーダーとアクセシビリティ",
-    reading: "すくりーんりーだーとあくせしびりてぃ",
+    title: "スクリーンリーダー",
+    reading: "すくりーんりーだー",
     kana: "す",
     categories: ["special"],
     summary:
@@ -1133,9 +1133,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "multimedia-daisy-textbook",
-    title: "音声教材とマルチメディアDAISY",
-    reading: "おんせいきょうざいとまるちめでぃあでいじー",
-    kana: "お",
+    title: "マルチメディアDAISY",
+    reading: "まるちめでぃあでいじー",
+    kana: "ま",
     categories: ["special"],
     summary:
       "音声とテキスト、画像を同期させ、文字をハイライトしながら読み進められる国際標準規格に基づく、読みの困難を抱える児童生徒のための電子教材。",
@@ -1146,8 +1146,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "captioning-notetaking-support",
-    title: "要約筆記とノートテイク支援",
-    reading: "ようやくひっきとのーとていくしえん",
+    title: "要約筆記・ノートテイク",
+    reading: "ようやくひっきのーとていく",
     kana: "よ",
     categories: ["special"],
     summary:
@@ -1159,9 +1159,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "hearing-aid-characteristics-environment",
-    title: "補聴器特性検査と教室音環境整備",
-    reading: "ほちょうきとくせいけんさときょうしつおんかんきょうせいび",
-    kana: "ほ",
+    title: "教室の音環境整備（補聴支援）",
+    reading: "きょうしつのおとかんきょうせいびほちょうしえん",
+    kana: "き",
     categories: ["special"],
     summary:
       "児童生徒が装用する補聴機器の音響特性を的確に把握し、教室内の反響や騒音を抑えて言葉を聞き取りやすく整える教育環境の改善手法。",
@@ -1172,9 +1172,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "roger-wireless-assistive-listening",
-    title: "ロジャー（デジタル補聴援助システム）",
-    reading: "ろじゃー（でじたるほちょうえんじょしすてむ）",
-    kana: "ろ",
+    title: "デジタル補聴援助システム（ロジャー）",
+    reading: "でじたるほちょうえんじょしすてむろじゃー",
+    kana: "て",
     categories: ["special"],
     summary:
       "教師の話す音声をワイヤレスで受信機に直接届けることで、騒音や反響、距離による減衰を克服し、難聴児の確実な聞き取りを支える支援機器。",
@@ -1198,8 +1198,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "finger-braille-tactile-sign",
-    title: "指点字と触手話（盲ろう者教育）",
-    reading: "ゆびてんじとしょくしゅわ（もうろうしゃきょういく）",
+    title: "指点字（盲ろう教育）",
+    reading: "ゆびてんじもうろうきょういく",
     kana: "ゆ",
     categories: ["special"],
     summary:
@@ -1211,8 +1211,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "deafblind-education-support",
-    title: "盲ろう児の教育支援（盲ろう教育）",
-    reading: "もうろうじのきょういくしえん（もうろうきょういく）",
+    title: "盲ろう教育（重複障害）",
+    reading: "もうろうきょういくじゅうふくしょうがい",
     kana: "も",
     categories: ["special"],
     summary:
@@ -1224,8 +1224,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "low-vision-loupe-monocular",
-    title: "弱視レンズと単眼鏡・ルーペ活用",
-    reading: "じゃくしれんずとたんがんきょう・るーぺかつよう",
+    title: "弱視レンズ・拡大鏡",
+    reading: "じゃくしれんずかくだいきょう",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1237,8 +1237,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "comuoon-dialogue-support",
-    title: "コミューン（対話支援機器の活用）",
-    reading: "こみゅーん（たいわしえんききのかつよう）",
+    title: "コミューン（対話支援機器）",
+    reading: "こみゅーんたいわしえんきき",
     kana: "こ",
     categories: ["special"],
     summary:
@@ -1250,8 +1250,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "wheelchair-mobility-barrier-free",
-    title: "車椅子操作指導とバリアフリー教育",
-    reading: "くるまいすそうさしどうとばりあふりーきょういく",
+    title: "車椅子操作指導（肢体不自由）",
+    reading: "くるまいすそうさしどうしたいふじゆう",
     kana: "く",
     categories: ["special"],
     summary:
@@ -1263,9 +1263,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "assistive-technology-special-needs",
-    title: "アシスティブ・テクノロジー（AT支援技術）",
-    reading: "あしすてぃぶ・てくのろじー（えーてぃーしえんぎじゅつ）",
-    kana: "あ",
+    title: "特別支援教育の支援技術（AT）",
+    reading: "とくべつしえんきょういくのしえんぎじゅつえーてぃー",
+    kana: "と",
     categories: ["special"],
     summary:
       "障害のある学習者が直面する生活や学習上の困難を補い、持てる力を最大限に発揮して自立と社会参加を実現するための機器や支援技術の体系。",
@@ -1276,8 +1276,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "eye-tracking-assistive-input",
-    title: "視線入力装置（アイトラッカー活用）",
-    reading: "しせんにゅうりょくそうち（あいとらっかーかつよう）",
+    title: "視線入力装置（アイトラッカー）",
+    reading: "しせんにゅうりょくそうちあいとらっかー",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1289,8 +1289,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "switch-materials-severe-motor-disabilities",
-    title: "スイッチ教材と重度障害児の意思表出",
-    reading: "すいっちきょうざいとじゅうどしょうがいじのいしひょうしゅつ",
+    title: "スイッチ教材（意思表出支援）",
+    reading: "すいっちきょうぐいしひょうしゅつしえん",
     kana: "す",
     categories: ["special"],
     summary:
@@ -1302,8 +1302,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "muscular-dystrophy-education",
-    title: "筋ジストロフィー児の教育支援",
-    reading: "きんじすとろふぃーじのきょういくしえん",
+    title: "筋ジストロフィー児の指導",
+    reading: "きんじすとろふぃーじのしどう",
     kana: "き",
     categories: ["special"],
     summary:
@@ -1315,8 +1315,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "cerebral-palsy-motor-instruction",
-    title: "脳性麻痺児の運動・動作指導",
-    reading: "のうせいまひじのうんどう・どうさしどう",
+    title: "脳性麻痺児の動作指導",
+    reading: "のうせいまひじのどうさしどう",
     kana: "の",
     categories: ["special"],
     summary:
@@ -1328,8 +1328,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "spina-bifida-urinary-care-school",
-    title: "二分脊椎症児の導尿管理と学校生活支援",
-    reading: "にぶんせきついしょうじのどうにょうかんりとがっこうせいかつしえん",
+    title: "二分脊椎症児の生活支援",
+    reading: "にぶんせきついしょうじのせいかつしえん",
     kana: "に",
     categories: ["special"],
     summary:
@@ -1341,8 +1341,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "epilepsy-seizure-emergency-school",
-    title: "てんかん発作時の緊急時対応マニュアル",
-    reading: "てんかんほっさじのきんきゅうじたいおうまにゅある",
+    title: "てんかん発作への対応",
+    reading: "てんかんほっさへのたいおう",
     kana: "て",
     categories: ["special"],
     summary:
@@ -1367,8 +1367,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "kidney-disease-dialysis-school",
-    title: "腎疾患・人工透析児の学校生活配慮",
-    reading: "じんしっかん・じんこうとうせきじのがっこうせいかつはいりょ",
+    title: "腎疾患・透析児の学校配慮",
+    reading: "じんしっかんとうせきじのがっこうはいりょ",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1380,8 +1380,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "food-allergy-epipen-school-management",
-    title: "食物アレルギーと学校エピペン指導",
-    reading: "しょくもつあれるぎーとがっこうえぴぺんしどう",
+    title: "食物アレルギー対応（エピペン）",
+    reading: "しょくもつあれるぎーたいおうえぴぺん",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1393,8 +1393,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "hospital-in-school-classroom",
-    title: "院内学級（病院内特別支援学級）",
-    reading: "いんないがっきゅう（びょういんないとくべつしえんがっきゅう）",
+    title: "院内学級",
+    reading: "いんないがっきゅう",
     kana: "い",
     categories: ["special"],
     summary:
@@ -1406,9 +1406,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "homebound-bedside-education",
-    title: "訪問学級とベッドサイド授業",
-    reading: "ほうもんがっきゅうとべっどさいどじゅぎょう",
-    kana: "ほ",
+    title: "ベッドサイド授業（訪問教育）",
+    reading: "べっどさいどじゅぎょうほうもんきょういく",
+    kana: "へ",
     categories: ["special"],
     summary:
       "重度の障害や慢性疾患等により通学が困難な児童生徒のため、教員が家庭や病床を訪問して個々の健康状態に応じた指導を行う教育形態。",
@@ -1419,8 +1419,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "body-temperature-dysregulation-classroom",
-    title: "体温調節障害と教室環境管理",
-    reading: "たいおんちょうせつしょうがいときょうしつかんきょうかんり",
+    title: "体温調節障害（教室環境）",
+    reading: "たいおんちょうせつしょうがいきょうしつかんきょう",
     kana: "た",
     categories: ["special"],
     summary:
@@ -1432,9 +1432,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "autism-physical-structuring-schedule",
-    title: "自閉症児の構造化アプローチ（物理的構造化）",
-    reading: "じへいしょうじのこうぞうかあぷろーち（ぶつりてきこうぞうか）",
-    kana: "し",
+    title: "物理的構造化（自閉症支援）",
+    reading: "ぶつりてきこうぞうかじへいしょうしえん",
+    kana: "ふ",
     categories: ["special"],
     summary:
       "教室内の空間を活動の目的ごとに家具やパーテーション等で視覚的に区切り、自閉スペクトラム症児が状況を正しく理解し安心できる環境を整える支援手法。",
@@ -1445,8 +1445,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "work-system-autism-independent-tasks",
-    title: "ワークシステム（自閉症児の自立課題設定）",
-    reading: "わーくしすてむ（じへいしょうじのじりつかだいせってい）",
+    title: "ワークシステム（自立課題）",
+    reading: "わーくしすてむじりつかだい",
     kana: "わ",
     categories: ["special"],
     summary:
@@ -1458,8 +1458,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "visual-schedules-symbols-support",
-    title: "視覚的支援（視覚シンボルと手順表）",
-    reading: "しかくてきしえん（しかくしんぼるとてじゅんひょう）",
+    title: "視覚的支援（視覚シンボル）",
+    reading: "しかくてきしえんしかくしんぼる",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1471,8 +1471,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "comic-strip-conversations-gray",
-    title: "コミック会話（視覚的対話法）",
-    reading: "こみっくかいわ（しかくてきたいわほう）",
+    title: "コミック会話（グレイ）",
+    reading: "こみっくかいわぐれい",
     kana: "こ",
     categories: ["special"],
     summary:
@@ -1484,8 +1484,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "power-card-strategy-special-interest",
-    title: "パワーカード法（興味を活用した支援）",
-    reading: "ぱわーかーどほう（きょうみをかつようしたしえん）",
+    title: "パワーカード法",
+    reading: "ぱわーかーどほう",
     kana: "は",
     categories: ["special"],
     summary:
@@ -1497,8 +1497,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "video-modeling-behavior-learning",
-    title: "ビデオモデリング（映像による行動学習）",
-    reading: "びでおもでりんぐ（えいぞうによるこうどうがくしゅう）",
+    title: "ビデオモデリング",
+    reading: "びでおもでりんぐ",
     kana: "ひ",
     categories: ["special"],
     summary:
@@ -1510,8 +1510,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "school-wide-positive-behavior-support",
-    title: "ポジティブ行動支援（学校全体での行動支援）",
-    reading: "ぽじてぃぶこうどうしえん（がっこうぜんたいでのこうどうしえん）",
+    title: "ポジティブ行動支援（SWPBS）",
+    reading: "ぽじてぃぶこうどうしえんえすだぶりゅーぴーびーえす",
     kana: "ほ",
     categories: ["special"],
     summary:
@@ -1523,8 +1523,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "functional-communication-training-fct",
-    title: "機能的コミュニケーション訓練（FCT）",
-    reading: "きのうてきこみゅにけーしょんくんれん（えふしーてぃー）",
+    title: "機能的コミュニケーション訓練",
+    reading: "きのうてきこみゅにけーしょんくんれん",
     kana: "き",
     categories: ["special"],
     summary:
@@ -1536,8 +1536,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "extinction-burst-behavior-modification",
-    title: "消去バーストと行動変容技法",
-    reading: "しょうきょばーすととこうどうへんようぎほう",
+    title: "消去バースト（行動分析）",
+    reading: "しょうきょばーすとこうどうぶんせき",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1549,8 +1549,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "prompting-and-fading-techniques",
-    title: "プロンプトとフェーディング（支援の漸減）",
-    reading: "ぷろんぷととふぇーでぃんぐ（しえんのぜんげん）",
+    title: "フェーディング（支援の漸減）",
+    reading: "ふぇーでぃんぐしえんのぜんげん",
     kana: "ふ",
     categories: ["special"],
     summary:
@@ -1562,9 +1562,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "task-analysis-step-by-step",
-    title: "タスク・アナリシス（課題分析とステップ化）",
-    reading: "たすく・あなりしす（かだいぶんせきとすてっぷか）",
-    kana: "た",
+    title: "課題分析（タスク・アナリシス）",
+    reading: "かだいぶんせきたすくあなりしす",
+    kana: "か",
     categories: ["special"],
     summary:
       "複雑な学習課題や生活行動を一連の小さな実行要素に細かく分解し、児童生徒のつまずきを特定して段階的に習得させる指導分析手法。",
@@ -1575,9 +1575,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "chaining-forward-backward-behavior",
-    title: "連鎖化（順行連鎖化と逆行連鎖化）",
-    reading: "れんさか（じゅんこうれんさかとぎゃっこうれんさか）",
-    kana: "れ",
+    title: "行動連鎖化（チェイニング）",
+    reading: "こうどうれんさかちぇいにんぐ",
+    kana: "こ",
     categories: ["special"],
     summary:
       "課題分析で分解された一連の行動要素を順番に連結して一貫した行動を完成させる技法で、最初から進める順行と最後から遡る逆行がある。",
@@ -1588,8 +1588,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "incidental-teaching-naturalistic",
-    title: "偶発学習（インシデンタル・ティーチング）",
-    reading: "ぐうはつがくしゅう（いんしでんたる・てぃーちんぐ）",
+    title: "偶発教授法（インシデンタル）",
+    reading: "ぐうはつきょうじゅほういんしでんたる",
     kana: "く",
     categories: ["special"],
     summary:
@@ -1601,9 +1601,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "pivotal-response-treatment-prt",
-    title: "ピボタル・レスポンス・トリートメント（PRT）",
-    reading: "ぴぼたる・れすぽんす・とりーとめんと（ぴーあーるてぃー）",
-    kana: "ひ",
+    title: "重要反応訓練（PRT）",
+    reading: "じゅうようはんのうくんれんぴーあーるてぃー",
+    kana: "し",
     categories: ["special"],
     summary:
       "自閉スペクトラム症児に対し、動機づけや自己管理等の中核的領域に介入することで、言語や社会性等の広範な機能改善を促す自然主義的行動介入法。",
@@ -1614,8 +1614,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "social-skills-training-roleplay-feedback",
-    title: "社会的スキル訓練（SSTの実践手法）",
-    reading: "しゃかいてきすきるくんれん（えすえすてぃーのじっせんしゅほう）",
+    title: "社会的スキル訓練の技法",
+    reading: "しゃかいてきすきるくんれんのぎほう",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1627,9 +1627,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "social-skills-group-intervention",
-    title: "ソーシャルスキル小集団指導（SSTグループワーク）",
-    reading: "そーしゃるすきるしょうしゅうだんしどう（えすえすてぃーぐるーぷわーく）",
-    kana: "そ",
+    title: "SSTグループワーク",
+    reading: "えすえすてぃーぐるーぷわーく",
+    kana: "A–Z",
     categories: ["special"],
     summary:
       "共通の対人課題を持つ少人数の児童生徒が集まり、仲間とのゲームや共同作業を通じて他者理解や協力のスキルを体験的に学ぶ指導形態。",
@@ -1640,9 +1640,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "progressive-muscle-relaxation-special",
-    title: "リラクセーション指導（漸進性筋弛緩法）",
-    reading: "りらくせーしょんしどう（ぜんしんせいきんしかんほう）",
-    kana: "り",
+    title: "漸進性筋弛緩法（指導）",
+    reading: "ぜんしんせいきんしかんほうしどう",
+    kana: "せ",
     categories: ["special"],
     summary:
       "特定の筋肉に意識的に力を込めた後に一気に脱力させ、身体の緊張と緩和の感覚を体験することで心身の安定を図る心理身体的指導法。",
@@ -1653,8 +1653,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "mindfulness-self-regulation-support",
-    title: "マインドフルネスを活用した自己調整支援",
-    reading: "まいんどふるねすをかつようしたじこちょうせいしえん",
+    title: "マインドフルネス（自己調整）",
+    reading: "まいんどふるねすじこちょうせつ",
     kana: "ま",
     categories: ["special"],
     summary:
@@ -1666,9 +1666,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "executive-function-working-memory-training",
-    title: "実行機能トレーニング（ワーキングメモリ訓練）",
-    reading: "じっこうきのうとれーにんぐ（わーきんぐめもりくんれん）",
-    kana: "し",
+    title: "ワーキングメモリ訓練（特支）",
+    reading: "わーきんぐめもりくんれんとくし",
+    kana: "わ",
     categories: ["special"],
     summary:
       "情報の保持と処理を行うワーキングメモリや衝動の抑制、思考の柔軟性を高め、学習や生活の遂行を支える認知的な支援トレーニング。",
@@ -1679,8 +1679,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "cog-tre-cognitive-training",
-    title: "コグトレ（認知機能強化トレーニング）",
-    reading: "こぐとれ（にんちきのうきょうかとれーにんぐ）",
+    title: "コグトレ（認知機能訓練）",
+    reading: "こぐとれにんちきのうくんれん",
     kana: "こ",
     categories: ["special"],
     summary:
@@ -1692,9 +1692,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "spatial-cognition-vision-training",
-    title: "空間認知障害とビジョントレーニング",
-    reading: "くうかんにんちしょうがいとびじょんとれーにんぐ",
-    kana: "く",
+    title: "ビジョントレーニング",
+    reading: "びじょんとれーにんぐ",
+    kana: "ひ",
     categories: ["special"],
     summary:
       "視空間の把握や位置関係の把握に困難がある状態に対し、眼球運動や視覚機能を系統的に鍛えることで読み書きや運動のつまずきを改善する指導法。",
@@ -1705,8 +1705,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "reading-fluency-repeated-reading-paired",
-    title: "読みの流暢性指導（反復音読・ペア読書）",
-    reading: "よみのりゅうちょうせいしどう（はんぷくおんどく・ぺあどくしょ）",
+    title: "読みの流暢性指導",
+    reading: "よみのりゅうちょうせいしどう",
     kana: "よ",
     categories: ["special"],
     summary:
@@ -1718,8 +1718,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "kanji-writing-decomposition-instruction",
-    title: "漢字の書字困難に対する分解指導",
-    reading: "かんじのしょじこんなんにたいするぶんかいしどう",
+    title: "漢字の分解指導（書字困難）",
+    reading: "かんじのぶんかいしどうしょじこんなん",
     kana: "か",
     categories: ["special"],
     summary:
@@ -1731,8 +1731,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "digital-pen-voice-input-assistive",
-    title: "デジタルペンと音声入力による学習支援",
-    reading: "でじたるぺんとおんせいにゅうりょくによるがくしゅうしえん",
+    title: "デジタルペン（学習支援）",
+    reading: "でじたるぺんがくしゅうしえん",
     kana: "て",
     categories: ["special"],
     summary:
@@ -1744,9 +1744,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "dyscalculia-number-line-manipulatives",
-    title: "計算困難に対する数直線・具体物指導",
-    reading: "けいさんこんなんにたいするすうちょくせん・ぐたいぶつしどう",
-    kana: "け",
+    title: "具体物による計算指導",
+    reading: "ぐたいぶつによるけいさんしどう",
+    kana: "く",
     categories: ["special"],
     summary:
       "数の抽象的概念や四則計算の理解に困難を持つ子どもに対し、数直線やおはじき等の具体物を用いて数量関係を可視化して促す教育的アプローチ。",
@@ -1757,9 +1757,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "co-op-approach-motor-coordination",
-    title: "発達性協調運動障害へのCO-OPアプローチ",
-    reading: "はったつせいきょうちょううんどうしょうがいへのこーおっぷあぷろーち",
-    kana: "は",
+    title: "CO-OPアプローチ",
+    reading: "こーおっぷあぷろーち",
+    kana: "A–Z",
     categories: ["special"],
     summary:
       "運動が極端に不器用な子どもに対し、本人が目標を立てて課題解決の計画・実行・確認を行う認知的方略を通じて運動スキルの獲得を目指す支援法。",
@@ -1770,8 +1770,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "sensory-profile-dunn-processing",
-    title: "感覚プロファイル（感覚処理特性検査）",
-    reading: "かんかくぷろふぁいる（かんかくしょりとくせいけんさ）",
+    title: "感覚プロファイル（ダン）",
+    reading: "かんかくぷろふぁいるだん",
     kana: "か",
     categories: ["special"],
     summary:
@@ -1796,8 +1796,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "new-kyoto-scale-psychological-development",
-    title: "新版K式発達検査の教育的活用",
-    reading: "しんばんけいしきはったつけんさのきょういくてきかつよう",
+    title: "新版K式発達検査の活用",
+    reading: "しんばんけいしきはったつけんさのかつよう",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1809,8 +1809,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "tanaka-binet-intelligence-scale-v-support",
-    title: "田中ビネー知能検査Vの支援活用",
-    reading: "たなかびねーちのうけんさふぁいぶのしえんかつよう",
+    title: "田中ビネー検査の特別支援活用",
+    reading: "たなかびねーけんさのとくべつしえんかつよう",
     kana: "た",
     categories: ["special"],
     summary:
@@ -1849,7 +1849,7 @@ export const specialTerms: Term[] = [
   {
     slug: "pep-3-psychoeducational-profile",
     title: "PEP-3（教育診断検査）",
-    reading: "ぺっぷすりー（きょういくしんだんけんさ）",
+    reading: "ぺっぷすりーきょういくしんだんけんさ",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -1862,7 +1862,7 @@ export const specialTerms: Term[] = [
   {
     slug: "cars-2-childhood-autism-rating-scale",
     title: "CARS2（小児自閉症評定尺度）",
-    reading: "かーずとう（しょうにじへいしょうひょうていしゃくど）",
+    reading: "かーずつーしょうにじへいしょうひょうていしゃくど",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -1874,8 +1874,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "ados-2-autism-diagnostic-observation",
-    title: "ADOS-2（自閉スペクトラム観察検査）",
-    reading: "えーどすとう（じへいすぺくとらむかんさつけんさ）",
+    title: "ADOS-2（自閉症観察検査）",
+    reading: "えーどすつーじへいしょうかんさつけんさ",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -1887,8 +1887,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "adi-r-autism-diagnostic-interview",
-    title: "ADI-R（自閉症診断面接改訂版）",
-    reading: "えーでぃーあいあーる（じへいしょうしんだんめんせつかいていばん）",
+    title: "ADI-R（自閉症診断面接）",
+    reading: "えーでぃーあいあーるじへいしょうしんだんめんせつ",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -1900,8 +1900,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "pars-tr-pervasive-developmental-disorders",
-    title: "PARS-TR（広汎性発達障害評定尺度）",
-    reading: "ぱーずてぃーあーる（こうはんせいはったつしょうがいひょうていしゃくど）",
+    title: "PARS-TR（発達障害評定）",
+    reading: "ぱーずてぃーあーるはったつしょうがいひょうてい",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -1913,8 +1913,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "adhd-rating-scale-rs-education",
-    title: "ADHD-RS（評価スケールの学校活用）",
-    reading: "えーでぃーえいちでぃーあーるえす（ひょうかすけーるのがっこうかつよう）",
+    title: "ADHD-RS（評価スケール）",
+    reading: "えーでぃーえいちでぃーあーるえすひょうかすけーる",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -1926,8 +1926,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "conners-3-assessment-adhd",
-    title: "コナーズ3（ADHD総合評価スケール）",
-    reading: "こなーずすりー（えーでぃーえいちでぃーそうごうひょうかすけーる）",
+    title: "コナーズ3（ADHD評価）",
+    reading: "こなーずすりーえーでぃーえいちでぃーひょうか",
     kana: "こ",
     categories: ["special"],
     summary:
@@ -1939,8 +1939,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "vineland-adaptive-behavior-scales-second",
-    title: "適応行動尺度（バインランドの活用）",
-    reading: "てきおうこうどうしゃくど（ばいんらんどのかつよう）",
+    title: "適応行動尺度（バインランド）",
+    reading: "てきおうこうどうしゃくどばいんらんど",
     kana: "て",
     categories: ["special"],
     summary:
@@ -1952,9 +1952,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "school-attendance-incentive-allowance",
-    title: "特別支援教育就学奨励費の仕組み",
-    reading: "とくべつしえんきょういくしゅうがくしょうれいひのしくみ",
-    kana: "と",
+    title: "就学奨励費（特別支援教育）",
+    reading: "しゅうがくしょうれいひとくべつしえんきょういく",
+    kana: "し",
     categories: ["special"],
     summary:
       "障害のある子どもが通学や学習に必要な経費について、保護者の経済的負担を軽減し教育の機会均等を保障するために国と自治体が支給する制度。",
@@ -1965,8 +1965,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "school-postponement-exemption-history",
-    title: "就学猶予・就学免除の歴史的変遷",
-    reading: "しゅうがくゆうよ・しゅうがくめんじょのれきてきへんせん",
+    title: "就学免除・猶予の歴史",
+    reading: "しゅうがくめんじょゆうよのれきし",
     kana: "し",
     categories: ["special"],
     summary:
@@ -1978,8 +1978,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "school-medical-care-system-nurse",
-    title: "学校における医療的ケアの実施体制と看護師配置",
-    reading: "がっこうにおけるいりょうてきけあのじっしたいせいとかんごしはいち",
+    title: "学校看護師配置体制",
+    reading: "がっこうかんごしはいちたいせい",
     kana: "か",
     categories: ["special"],
     summary:
@@ -1991,9 +1991,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "suction-care-training-teachers-specified",
-    title: "たんの吸引等指導者養成研修と教員の特定行為",
-    reading: "たんのきゅういんとうしどうしゃようせいけんしゅうときょういんのとくていこうい",
-    kana: "た",
+    title: "特定行為（たんの吸引等の教員実施）",
+    reading: "とくていこういたんのきゅういんとうのきょういんじっし",
+    kana: "と",
     categories: ["special"],
     summary:
       "所定の研修を修了した教員が、医師や看護師との連携のもとで児童生徒に対するたんの吸引や経管栄養を安全に実施するための法的位置づけと研修体制。",
@@ -2004,9 +2004,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "special-school-bus-safety-management",
-    title: "特別支援学校スクールバスの運行管理と安全対策",
-    reading: "とくべつしえんがっこうすくーるばすのうんこうかんりとあんぜんたいさく",
-    kana: "と",
+    title: "スクールバス安全運行（特支）",
+    reading: "すくーるばすあんぜんうんこうとくし",
+    kana: "す",
     categories: ["special"],
     summary:
       "多様な障害特性を持つ児童生徒が安全に通学できるよう、添乗員の配置や車いす固定、安全点検や危機管理体制を総合的に整える運行管理の仕組み。",
@@ -2017,9 +2017,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "residence-school-exchange-dual-registration",
-    title: "学校間交流（居住地校交流・副籍制度）",
-    reading: "がっこうかんこうりゅう（きょじゅうちこうこうりゅう・ふくせきせいど）",
-    kana: "か",
+    title: "居住地校交流（副籍制度）",
+    reading: "きょじゅうちこうこうりゅうふくせきせいど",
+    kana: "き",
     categories: ["special"],
     summary:
       "特別支援学校に在籍する児童生徒が地域の小中学校等と交流を行う仕組みであり、地域社会での共生やつながりの形成をめざす教育活動。",
@@ -2030,8 +2030,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "inclusive-system-model-project",
-    title: "インクルーシブ教育システム構築モデル事業",
-    reading: "いんくるーしぶきょういくしすてむこうちくもでるじぎょう",
+    title: "インクルーシブ教育システム構築事業",
+    reading: "いんくるーしぶきょういくしすてむこうちくじぎょう",
     kana: "い",
     categories: ["special"],
     summary:
@@ -2043,8 +2043,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "compulsory-special-education-1979",
-    title: "養護学校の義務制実施（1979年）",
-    reading: "ようごがっこうのぎむせいじっし（せんきゅうひゃくななじゅうきゅうねん）",
+    title: "養護学校義務制実施（1979年）",
+    reading: "ようごがっこうぎむせいじっしせんきゅうひゃくななじゅうきゅうねん",
     kana: "よ",
     categories: ["special"],
     summary:
@@ -2056,8 +2056,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "transition-to-special-needs-school-2007",
-    title: "特別支援学校への制度改編（2007年）",
-    reading: "とくべつしえんがっこうへのせいどかいへん（にせんななねん）",
+    title: "特別支援教育への転換（2007年）",
+    reading: "とくべつしえんきょういくへのてんかんにせんななねん",
     kana: "と",
     categories: ["special"],
     summary:
@@ -2069,8 +2069,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "special-class-establishment-standards",
-    title: "特別支援学級の設置基準（学校教育法第81条）",
-    reading: "とくべつしえんがっきゅうのせっちきじゅん（がっこうきょういくほうだいはちじゅういちじょう）",
+    title: "特別支援学級設置基準（学教法81条）",
+    reading: "とくべつしえんがっきゅうせっちきじゅんがっきょうほうはちじゅういちじょう",
     kana: "と",
     categories: ["special"],
     summary:
@@ -2082,8 +2082,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "resource-room-guidance-expansion-history",
-    title: "通級指導の対象障害種の拡大経緯",
-    reading: "つうきゅうしどうのたいしょうしょうがいしゅのかくだいけいい",
+    title: "通級指導の対象拡大変遷",
+    reading: "つうきゅうしどうのたいしょうかくだいへんせん",
     kana: "つ",
     categories: ["special"],
     summary:
@@ -2095,8 +2095,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "high-school-special-needs-promotion",
-    title: "高等学校における特別支援教育推進体制",
-    reading: "こうとうがっこうにおけるとくべつしえんきょういくすいしんたいせい",
+    title: "高校特別支援教育推進体制",
+    reading: "こうこうとくべつしえんきょういくすいしんたいせい",
     kana: "こ",
     categories: ["special"],
     summary:
@@ -2108,9 +2108,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "special-needs-vocational-upper-secondary",
-    title: "特別支援学校高等部の学科構成（職業学科）",
-    reading: "とくべつしえんがっこうこうとうぶのがっかこうせい（しょくぎょうがっか）",
-    kana: "と",
+    title: "高等部職業学科（特別支援学校）",
+    reading: "こうとうぶしょくぎょうがっかとくべつしえんがっこう",
+    kana: "こ",
     categories: ["special"],
     summary:
       "知的障害等を対象とする特別支援学校高等部において、企業就労や専門技能の習得に重点を置いた職業教育を行う専門学科の仕組み。",
@@ -2121,9 +2121,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "dual-system-internship-special-school",
-    title: "デュアルシステムを活用した高等部職場実習",
-    reading: "でゅあるしすてむをかつようしたこうとうぶしょくばじっしゅう",
-    kana: "て",
+    title: "特別支援デュアルシステム",
+    reading: "とくべつしえんでゅあるしすてむ",
+    kana: "と",
     categories: ["special"],
     summary:
       "学校での座学や作業学習と企業での長期的な現場実習を並行して組み合わせ、実践的な職業能力と社会適応力を養う特別支援教育の教育方式。",
@@ -2134,8 +2134,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "special-subsidiary-company-employment",
-    title: "特例子会社と障害者雇用促進法",
-    reading: "とくれいこがいしゃとしょうがいしゃこようそくしんほう",
+    title: "特例子会社（障害者雇用）",
+    reading: "とくれいこがいしゃしょうがいしゃこよう",
     kana: "と",
     categories: ["special"],
     summary:
@@ -2147,8 +2147,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "work-assessment-job-retention-support",
-    title: "就労アセスメントと就労定着支援",
-    reading: "しゅうろうあせすめんととしゅうろうていちゃくしえん",
+    title: "就労アセスメント（障害者就労）",
+    reading: "しゅうろうあせすめんとしょうがいしゃしゅうろう",
     kana: "し",
     categories: ["special"],
     summary:
@@ -2160,8 +2160,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "local-independence-support-council-children",
-    title: "自立支援協議会（子ども部会）との連携",
-    reading: "じりつしえんきょうぎかい（こどもぶかい）とのれんけい",
+    title: "自立支援協議会（子ども部会）",
+    reading: "じりつしえんきょうぎかいこどもぶかい",
     kana: "し",
     categories: ["special"],
     summary:
@@ -2173,8 +2173,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "child-development-support-center-functions",
-    title: "児童発達支援センターの機能強化",
-    reading: "じどうはったつしえんせんたーのきのうきょうか",
+    title: "児童発達支援センター",
+    reading: "じどうはったつしえんせんたー",
     kana: "し",
     categories: ["special"],
     summary:
@@ -2186,8 +2186,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "disabled-children-consultation-support-plan",
-    title: "障害児相談支援と障害児支援利用計画",
-    reading: "しょうがいじそうだんしえんとしょうがいじしえんりようけいかく",
+    title: "障害児相談支援（支援利用計画）",
+    reading: "しょうがいじそうだんしえんしえんりようけいかく",
     kana: "し",
     categories: ["special"],
     summary:
@@ -2199,9 +2199,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "parent-mentor-family-support-network",
-    title: "家族支援（ペアレント・メンターと親の会）",
-    reading: "かぞくしえん（ぺあれんと・めんたーとおやのかい）",
-    kana: "か",
+    title: "ペアレント・メンター",
+    reading: "ぺあれんとめんたー",
+    kana: "へ",
     categories: ["special"],
     summary:
       "障害のある子を育てた経験を持つ親が他の保護者の相談相手となり、共感と助言を通じて孤立を防ぎ家族全体を支えるピアサポートの枠組み。",
@@ -2212,8 +2212,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "sibling-support-special-needs",
-    title: "きょうだい児への理解と心理的支援",
-    reading: "きょうだいじへのりかいとしんりてきしえん",
+    title: "きょうだい児支援",
+    reading: "きょうだいじしえん",
     kana: "き",
     categories: ["special"],
     summary:
@@ -2225,9 +2225,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "parallel-attendance-daycare-kindergarten",
-    title: "療育と保育・幼児教育の並行通園",
-    reading: "りょういくとほいく・ようじきょういくのへいこうつうえん",
-    kana: "り",
+    title: "並行通園（療育と園の併用）",
+    reading: "へいこうつうえんりょういくとえんのへいよう",
+    kana: "へ",
     categories: ["special"],
     summary:
       "障害や発達の遅れがある幼児が、児童発達支援センター等での専門的指導と保育所・幼稚園等での集団生活を並行して経験する通園形態。",
@@ -2238,9 +2238,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "career-development-support-special-education",
-    title: "特別支援教育におけるキャリア発達支援",
-    reading: "とくべつしえんきょういくにおけるきゃりあはったつしえん",
-    kana: "と",
+    title: "キャリア発達支援（特別支援）",
+    reading: "きゃりあはったつしえんとくべつしえん",
+    kana: "き",
     categories: ["special"],
     summary:
       "小学部から高等部に至る教育活動全体を通じ、自己理解を深め人間関係を築きながら、生涯にわたる自立と社会参加の力を育む体系的な指導。",
@@ -2251,9 +2251,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "un-crpd-japan-concluding-observations-2022",
-    title: "障害者権利委員会による対日総括所見",
-    reading: "しょうがいしゃけんりいいんかいによるたいにちそうかつしょけん",
-    kana: "し",
+    title: "権利委員会対日総括所見（2022）",
+    reading: "けんりいいんかいたいにちそうかつしょけんにせんにじゅうに",
+    kana: "け",
     categories: ["special"],
     summary:
       "国連の委員会が日本政府に対し、分離された特別支援教育体制の見直しと、すべての障害児が通常の学校で共に学ぶ環境の整備を勧告した公式文書。",
@@ -2264,8 +2264,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "medical-care-child-coordinator-role",
-    title: "医療的ケア児等コーディネーターの役割",
-    reading: "いりょうてきけあじとうこーでぃねーたーのやくわり",
+    title: "医療的ケア児コーディネーター",
+    reading: "いりょうてきけあじこーでぃねーたー",
     kana: "い",
     categories: ["special"],
     summary:
@@ -2277,8 +2277,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "multidisciplinary-collaboration-pt-ot-st",
-    title: "多職種連携（PT・OT・STと教員の協働）",
-    reading: "たしょくしゅれんけい（ぴーてぃー・おーてぃー・えすてぃーときょういんのきょうどう）",
+    title: "多職種連携（リハビリ職協働）",
+    reading: "たしょくしゅれんけいりはびりしょくきょうどう",
     kana: "た",
     categories: ["special"],
     summary:
@@ -2290,9 +2290,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "ict-accessibility-guidelines-special-needs",
-    title: "特別支援教育におけるICTアクセシビリティ",
-    reading: "とくべつしえんきょういくにおけるあいちーてぃーあくせしびりてぃ",
-    kana: "と",
+    title: "ICTアクセシビリティ（特支）",
+    reading: "あいしーてぃーあくせしびりてぃとくし",
+    kana: "A–Z",
     categories: ["special"],
     summary:
       "障害のある児童生徒が学習用端末やデジタル教材を制約なく利用できるよう、文字拡大や音声読み上げ、入力支援等の操作環境を整える基準。",
@@ -2303,8 +2303,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "sensory-integration-therapy-equipment",
-    title: "感覚統合器具と前庭感覚・固有感覚指導",
-    reading: "かんかくとうごうきぐとぜんていかんかく・こゆうかんかくしどう",
+    title: "感覚統合器具（前庭・固有感覚）",
+    reading: "かんかくとうごうきぐぜんていこゆうかんかく",
     kana: "か",
     categories: ["special"],
     summary:
@@ -2316,8 +2316,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "picture-exchange-communication-phase",
-    title: "PECSのフェーズ別指導段階",
-    reading: "ぺっくすのふぇーずべつしどうだんかい",
+    title: "PECSフェーズ別指導",
+    reading: "ぺっくすふぇーずべつしどう",
     kana: "A–Z",
     categories: ["special"],
     summary:
@@ -2329,9 +2329,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "teacch-five-elements-structuring",
-    title: "TEACCHの構造化5要素",
-    reading: "てぃーちのこうぞうかごようそ",
-    kana: "A–Z",
+    title: "構造化の5要素（TEACCH）",
+    reading: "こうぞうかのごようそてぃーち",
+    kana: "こ",
     categories: ["special"],
     summary:
       "自閉症者の見通しと理解を助けるため、物理的配置や視覚的日課、作業システム等の5要素を用いて環境を分かりやすく整える支援技法。",
@@ -2342,9 +2342,9 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "voca-assistive-technology-communication",
-    title: "携帯用会話補助装置と音声出力（VOCA活用支援）",
-    reading: "けいたいようかいわほじょそうちとおんせいしゅつりょく（ぼかかつようしえん）",
-    kana: "け",
+    title: "VOCA（携帯用会話補助装置）",
+    reading: "ぼかけいたいようかいわほじょそうち",
+    kana: "A–Z",
     categories: ["special"],
     summary:
       "発話によるコミュニケーションが困難な児童生徒に対し、録音された音声や合成音声を用いて自発的な意思表出や他者との対話を支援する携帯型電子機器。",
@@ -2355,8 +2355,8 @@ export const specialTerms: Term[] = [
   },
   {
     slug: "pathological-demand-avoidance-support",
-    title: "病的不安に伴う極度な要求回避（PDAへの安心感支援）",
-    reading: "びょうてきふあんにともなうきょくどなようきゅうかいひ（ぴーでぃーえーへのあんしんかんしえん）",
+    title: "病的不安要求回避（PDA）",
+    reading: "びょうてきふあんようきゅうかいひぴーでぃーえー",
     kana: "ひ",
     categories: ["special"],
     summary:
