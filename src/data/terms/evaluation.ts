@@ -1065,8 +1065,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "item-difficulty-pass-rate-analysis",
-    title: "項目困難度（通過率・正答率の分析）",
-    reading: "こうもくこんなんど（つうかりつ・せいとうりつのぶんせき）",
+    title: "項目困難度",
+    reading: "こうもくこんなんど",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -1078,8 +1078,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "item-discrimination-index-analysis",
-    title: "項目識別力（識別指数・弁別力の分析）",
-    reading: "こうもくしきべつりょく（しきべつしすう・べんべつりょくのぶんせき）",
+    title: "項目識別力",
+    reading: "こうもくしきべつりょく",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -1091,8 +1091,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "item-information-function-iif",
-    title: "項目情報関数（測定精度の評価手法）",
-    reading: "こうもくじょうほうかんすう（そくていせいどのひょうかしゅほう）",
+    title: "項目情報関数",
+    reading: "こうもくじょうほうかんすう",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -1104,8 +1104,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "test-information-function-tif",
-    title: "テスト情報関数（テスト全体の測定精度）",
-    reading: "てすとじょうほうかんすう（てすとぜんたいのそくていせいど）",
+    title: "テスト情報関数",
+    reading: "てすとじょうほうかんすう",
     kana: "て",
     categories: ["evaluation"],
     summary:
@@ -1117,9 +1117,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "distractor-analysis-multiple-choice",
-    title: "誤答肢分析（選択肢の機能分析）",
-    reading: "ごとうしぶんせき（せんたくしのきのうぶんせき）",
-    kana: "こ",
+    title: "ディストラクター分析",
+    reading: "でぃすとらくたーぶんせき",
+    kana: "て",
     categories: ["evaluation"],
     summary:
       "多肢選択式テストにおいて、正解以外の選択肢が受検者集団に対してどのように選ばれているかを調べ、選択肢の有効性や不備を検証する分析手法。",
@@ -1130,8 +1130,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "scoring-guide-rubric-elaboration",
-    title: "採点基準表（記述式採点の精緻化）",
-    reading: "さいてんきじゅんひょう（きじゅつしきさいてんのせいちか）",
+    title: "採点基準表（ルーブリック）",
+    reading: "さいてんきじゅんひょう",
     kana: "さ",
     categories: ["evaluation"],
     summary:
@@ -1143,8 +1143,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "knowledge-skills-assessment-methods",
-    title: "知識・技能の評価方法（小テストと観察）",
-    reading: "ちしき・ぎのうのひょうかほうほう（しょうてすととかんさつ）",
+    title: "知識・技能の評価",
+    reading: "ちしきぎのうのひょうか",
     kana: "ち",
     categories: ["evaluation"],
     summary:
@@ -1156,8 +1156,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "thinking-judgment-expression-assessment",
-    title: "思考・判断・表現の評価方法（論述と発表）",
-    reading: "しこう・はんだん・ひょうげんのひょうかほうほう（ろんじゅつとはっぴょう）",
+    title: "思考・判断・表現の評価",
+    reading: "しこうはんだんひょうげんのひょうか",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -1169,8 +1169,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "proactive-attitude-learning-assessment",
-    title: "主体的に学習に取り組む態度の評価方法",
-    reading: "しゅたいてきにがくしゅうにとりくむたいどのひょうかほうほう",
+    title: "主体的な態度の評価手法",
+    reading: "しゅたいてきなたいどのひょうかしゅほう",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -1182,9 +1182,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "subjective-bias-reduction-blind-scoring",
-    title: "主観的評価のバイアス低減（複数採点）",
-    reading: "しゅかんてきひょうかのばいあすていげん（ふくすうさいてん）",
-    kana: "し",
+    title: "ブラインド採点法",
+    reading: "ぶらいんどさいてんほう",
+    kana: "ふ",
     categories: ["evaluation"],
     summary:
       "記述式試験や実技審査において、採点者の先入観や主観による偏りを抑え公平性を確保するため、氏名秘匿や複数人による独立評価を実施する手法。",
@@ -1195,8 +1195,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "halo-effect-evaluation-control",
-    title: "ハロー効果の統制（評定誤差の防止）",
-    reading: "はろーこうかのとうせい（ひょうていごさのぼうし）",
+    title: "ハロー効果（教育評価）",
+    reading: "はろーこうか",
     kana: "は",
     categories: ["evaluation"],
     summary:
@@ -1208,8 +1208,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "leniency-bias-assessment-control",
-    title: "寛大化傾向の統制（甘口評価の補正）",
-    reading: "かんだいかけいこうのとうせい（あまくちひょうかのほせい）",
+    title: "寛大化傾向（評定誤差）",
+    reading: "かんだいかけいこう",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1221,8 +1221,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "central-tendency-error-correction",
-    title: "中心化傾向の補正（中間評定への集中防止）",
-    reading: "ちゅうしんかけいこうのほせい（ちゅうかんひょうていへのしゅうちゅうぼうし）",
+    title: "中心化傾向（評定誤差）",
+    reading: "ちゅうしんかけいこう",
     kana: "ち",
     categories: ["evaluation"],
     summary:
@@ -1234,8 +1234,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "contrast-error-scoring-control",
-    title: "対比誤差の統制（直前受検者との比較歪み）",
-    reading: "たいひごさのとうせい（ちょくぜんじゅけんしゃとのひかくひずみ）",
+    title: "対比誤差（評定誤差）",
+    reading: "たいひごさ",
     kana: "た",
     categories: ["evaluation"],
     summary:
@@ -1247,8 +1247,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "proximity-error-adjacent-items",
-    title: "近接誤差の統制（隣接項目間の評価歪み）",
-    reading: "きんせつごさのとうせい（りんせつこうもくかんのひょうかひずみ）",
+    title: "近接誤差（評定誤差）",
+    reading: "きんせつごさ",
     kana: "き",
     categories: ["evaluation"],
     summary:
@@ -1260,8 +1260,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "logical-error-assessment-traits",
-    title: "論理的誤差の統制（無関係な特性の連動防止）",
-    reading: "ろんりてきごさのとうせい（むかんけいなとくせいのれんどうぼうし）",
+    title: "論理的誤差（評定誤差）",
+    reading: "ろんりてきごさ",
     kana: "ろ",
     categories: ["evaluation"],
     summary:
@@ -1273,8 +1273,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "test-retest-reliability-method",
-    title: "再検査信頼性（テスト・再テスト法）",
-    reading: "さいけんさしんらいせい（てすと・さいてすとほう）",
+    title: "再検査法（テスト再テスト法）",
+    reading: "さいけんさほう",
     kana: "さ",
     categories: ["evaluation"],
     summary:
@@ -1286,8 +1286,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "parallel-forms-reliability-method",
-    title: "平行検査信頼性（代替形式法の一貫性）",
-    reading: "へいこうけんさしんらいせい（だいたいけいしきほうのいっかんせい）",
+    title: "平行検査法（代替形式法）",
+    reading: "へいこうけんさほう",
     kana: "へ",
     categories: ["evaluation"],
     summary:
@@ -1299,8 +1299,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "split-half-reliability-spearman-brown",
-    title: "折半法（スピアマン・ブラウンの公式）",
-    reading: "せっぱんほう（すぴあまん・ぶらうんのこうしき）",
+    title: "折半法（信頼性係数）",
+    reading: "せっぱんほう",
     kana: "せ",
     categories: ["evaluation"],
     summary:
@@ -1312,8 +1312,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "kuder-richardson-formula-kr20",
-    title: "クーダー・リチャードソンの信頼性公式",
-    reading: "くーだー・りちゃーどそんのしんらいせいこうしき",
+    title: "クーダー・リチャードソン公式",
+    reading: "くーだーりちゃーどそんこうしき",
     kana: "く",
     categories: ["evaluation"],
     summary:
@@ -1325,8 +1325,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "intra-rater-reliability-consistency",
-    title: "評価者内信頼性（同一採点者の一貫性）",
-    reading: "ひょうかしゃないしんらいせい（どういつさいてんしゃのいっかんせい）",
+    title: "評価者内信頼性",
+    reading: "ひょうかしゃないしんらいせい",
     kana: "ひ",
     categories: ["evaluation"],
     summary:
@@ -1338,8 +1338,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "construct-validity-convergent-discriminant",
-    title: "構成概念妥当性（収束的・弁別的妥当性）",
-    reading: "こうせいがいねんだとうせい（しゅうそくてき・べんべつてきだとうせい）",
+    title: "構成概念妥当性",
+    reading: "こうせいがいねんだとうせい",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -1351,8 +1351,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "criterion-related-validity-predictive",
-    title: "基準関連妥当性（同時的・予測的妥当性）",
-    reading: "きじゅんかんれんだとうせい（どうじてき・よそくてきだとうせい）",
+    title: "基準関連妥当性",
+    reading: "きじゅんかんれんだとうせい",
     kana: "き",
     categories: ["evaluation"],
     summary:
@@ -1364,8 +1364,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "content-validity-curricular-coverage",
-    title: "内容的妥当性（出題範囲の網羅的検証）",
-    reading: "ないようてきだとうせい（しゅつだいはんいのおうらてきけんしょう）",
+    title: "内容的妥当性",
+    reading: "ないようてきだとうせい",
     kana: "な",
     categories: ["evaluation"],
     summary:
@@ -1377,8 +1377,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "ecological-validity-assessment-life",
-    title: "生態学的妥当性（実生活環境での評価）",
-    reading: "せいたいがくてきだとうせい（じつせいかつかんきょうでのひょうか）",
+    title: "生態学的妥当性",
+    reading: "せいたいがくてきだとうせい",
     kana: "せ",
     categories: ["evaluation"],
     summary:
@@ -1390,9 +1390,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "target-attainment-evaluation-pdca-cycle",
-    title: "目標到達度評価と指導改善サイクル",
-    reading: "もくひょうとうたつどひょうかとしどうかいぜんさいくる",
-    kana: "も",
+    title: "到達目標と評価サイクル",
+    reading: "とうたつもくひょうとひょうかさいくる",
+    kana: "と",
     categories: ["evaluation"],
     summary:
       "学習指導要領が示す到達目標に対する児童生徒の達成度を測定し、その結果を授業設計の見直しや個別支援の改善へと連続的につなげる組織的な教育評価活動。",
@@ -1403,8 +1403,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "formative-assessment-self-regulated-learning",
-    title: "自己調整を促す形成的アセスメント",
-    reading: "じこちょうせいをうながすけいせいてきあせすめんと",
+    title: "自己調整型アセスメント",
+    reading: "じこちょうせいがたあせすめんと",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -1416,8 +1416,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "feedback-timing-immediate-delayed-effects",
-    title: "フィードバックの時期と教育的効果",
-    reading: "ふぃーどばっくのじきときょういくてきこうか",
+    title: "フィードバックの時期",
+    reading: "ふぃーどばっくのじき",
     kana: "ふ",
     categories: ["evaluation"],
     summary:
@@ -1429,8 +1429,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "comment-only-marking-learning-gains",
-    title: "コメントのみによる評価（無評点フィードバック）",
-    reading: "こめんとのみによるひょうか（むひょうてんふぃーどばっく）",
+    title: "コメントのみの評価",
+    reading: "こめんとのみのひょうか",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -1442,8 +1442,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "student-generated-rubrics-co-design",
-    title: "学習者によるルーブリック作成手法",
-    reading: "がくしゅうしゃによるるーぶりっくさくせいしゅほう",
+    title: "学習者作成ルーブリック",
+    reading: "がくしゅうしゃさくせいるーぶりっく",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1455,8 +1455,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "showcase-process-portfolio-assessment",
-    title: "ショーケース型とプロセス型ポートフォリオ",
-    reading: "しょーけーすがたとぷろせすがたぽーとふぉりお",
+    title: "ショーケース・ポートフォリオ",
+    reading: "しょーけーすぽーとふぉりお",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -1468,8 +1468,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "learning-record-chart-cumulative-assessment",
-    title: "学習カルテを活用した継続的評価手法",
-    reading: "がくしゅうかるてをかつようしたけいぞくてきひょうかしゅほう",
+    title: "学習カルテ（継続的評価）",
+    reading: "がくしゅうかるて",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1481,9 +1481,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "behavioral-observation-checklist-method",
-    title: "チェックリスト法と行動観察記録手法",
-    reading: "ちぇっくりすとほうとこうどうかんさつきろくしゅほう",
-    kana: "ち",
+    title: "行動観察チェックリスト法",
+    reading: "こうどうかんさつちぇっくりすとほう",
+    kana: "こ",
     categories: ["evaluation"],
     summary:
       "あらかじめ定めた評価規準に基づいて児童生徒の学習行動や協働活動の有無を客観的に観察・記録し、指導の改善や支援に活用する観察的評価法。",
@@ -1494,8 +1494,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "likert-scale-semantic-differential-method",
-    title: "リッカート尺度と意味差判別法（SD法）",
-    reading: "りっかーとしゃくどといみさはんべつほう（えすでぃーほう）",
+    title: "リッカート尺度（評定尺度法）",
+    reading: "りっかーとしゃくど",
     kana: "り",
     categories: ["evaluation"],
     summary:
@@ -1507,8 +1507,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "anecdotal-record-observation-method",
-    title: "逸話記録法（事実と解釈の分離記述）",
-    reading: "いつわきろくほう（じじつとかいしゃくのぶんりきじゅつ）",
+    title: "逸話記録法（アネクドート）",
+    reading: "いつわきろくほう",
     kana: "い",
     categories: ["evaluation"],
     summary:
@@ -1520,8 +1520,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "sociometry-interpersonal-measurement-group",
-    title: "ソシオメトリーによる集団関係測定",
-    reading: "そしおめとりーによるしゅうだんかんけいそくてい",
+    title: "ソシオメトリック・テスト",
+    reading: "そしおめとりっくてすと",
     kana: "そ",
     categories: ["evaluation"],
     summary:
@@ -1533,8 +1533,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "guess-who-peer-assessment-technique",
-    title: "だれでしょうテスト（同輩評価技法）",
-    reading: "だれでしょうてすと（どうはいひょうかぎほう）",
+    title: "だれでしょうテスト",
+    reading: "だれでしょうてすと",
     kana: "た",
     categories: ["evaluation"],
     summary:
@@ -1546,8 +1546,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "reading-skill-test-rst-comprehension",
-    title: "リーディングスキルテストと読解力測定",
-    reading: "りーでぃんぐすきるてすととどっかいりょくそくてい",
+    title: "リーディングスキルテスト（RST）",
+    reading: "りーでぃんぐすきるてすと",
     kana: "り",
     categories: ["evaluation"],
     summary:
@@ -1559,8 +1559,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "vocabulary-assessment-lexical-competence",
-    title: "語彙力検査と語彙発達のアセスメント",
-    reading: "ごいりょくけんさとごいはったつのあせすめんと",
+    title: "語彙力検査（語彙発達測定）",
+    reading: "ごいりょくけんさ",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -1572,8 +1572,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "crt-criterion-vs-nrt-norm-referenced",
-    title: "基準準拠評価と集団準拠評価の対比",
-    reading: "きじゅんじゅんきょひょうかとしゅうだんじゅんきょひょうかのたいひ",
+    title: "基準準拠評価（CRT）",
+    reading: "きじゅんじゅんきょひょうか",
     kana: "き",
     categories: ["evaluation"],
     summary:
@@ -1585,8 +1585,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "reference-group-norm-setting",
-    title: "基準集団の設定と標準化手順",
-    reading: "きじゅんしゅうだんのせっていとひょうじゅんかてじゅん",
+    title: "基準集団（ノルム設定）",
+    reading: "きじゅんしゅうだん",
     kana: "き",
     categories: ["evaluation"],
     summary:
@@ -1598,8 +1598,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "percentile-rank-interpretation-percentiles",
-    title: "パーセンタイル順位の解釈と活用",
-    reading: "ぱーせんたいるじゅんいのかいしゃくとかつよう",
+    title: "パーセンタイル順位",
+    reading: "ぱーせんたいるじゅんい",
     kana: "は",
     categories: ["evaluation"],
     summary:
@@ -1611,8 +1611,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "stanine-score-nine-point-standardization",
-    title: "スタンダイン得点（9段階標準得点法）",
-    reading: "すたんだいんとくてん（きゅうだんかいひょうじゅんとくてんほう）",
+    title: "スタンダイン得点",
+    reading: "すたんだいんとくてん",
     kana: "す",
     categories: ["evaluation"],
     summary:
@@ -1624,8 +1624,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "t-score-z-score-standardized-metrics",
-    title: "TスコアとZスコア（標準化変換の数理）",
-    reading: "てぃーすこあとぜっとすこあ（ひょうじゅんかへんかんのすうり）",
+    title: "ZスコアとTスコア",
+    reading: "ぜっとすこあとてぃーすこあ",
     kana: "A–Z",
     categories: ["evaluation"],
     summary:
@@ -1637,8 +1637,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "normal-curve-distribution-deviation-value",
-    title: "正規分布曲線と偏差値の統計的性質",
-    reading: "せいきぶんぷきょくせんとへんさちのとうけいてきせいしつ",
+    title: "正規分布曲線（テスト統計）",
+    reading: "せいきぶんぷきょくせん",
     kana: "せ",
     categories: ["evaluation"],
     summary:
@@ -1650,9 +1650,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "outlier-detection-skewness-test-scores",
-    title: "外れ値の検出と歪度の影響分析",
-    reading: "はずれちのけんしゅつとわいどのえいきょうぶんせき",
-    kana: "は",
+    title: "歪度と外れ値分析",
+    reading: "わいどとはずれちぶんせき",
+    kana: "わ",
     categories: ["evaluation"],
     summary:
       "テスト得点分布における極端な外れ値の特定や分布の偏り度合いを分析し、試験問題の難易度や測定の信頼性を検証して適切な評価へと導く統計手法。",
@@ -1663,8 +1663,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "rasch-model-one-parameter-irt",
-    title: "ラッシュモデル（1母数項目反応モデル）",
-    reading: "らっしゅもでる（いちぼすうこうもくはんのうもでる）",
+    title: "ラッシュモデル（1母数IRT）",
+    reading: "らっしゅもでる",
     kana: "ら",
     categories: ["evaluation"],
     summary:
@@ -1676,8 +1676,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "two-parameter-logistic-model-2plm",
-    title: "2母数ロジスティックモデル（2PLM）",
-    reading: "にぼすうろじすてぃっくもでる（にぴーえるえむ）",
+    title: "2母数ロジスティックモデル",
+    reading: "にぼすうろじすてぃっくもでる",
     kana: "に",
     categories: ["evaluation"],
     summary:
@@ -1689,8 +1689,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "three-parameter-logistic-model-3plm",
-    title: "3母数ロジスティックモデル（3PLM）",
-    reading: "さんぼすうろじすてぃっくもでる（さんぴーえるえむ）",
+    title: "3母数ロジスティックモデル",
+    reading: "さんぼすうろじすてぃっくもでる",
     kana: "さ",
     categories: ["evaluation"],
     summary:
@@ -1702,8 +1702,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "polytomous-item-response-theory-model",
-    title: "多段階応答モデル（ポリトマスIRT）",
-    reading: "ただんかいはんのうもでる（ぽりとますあいあーるてぃー）",
+    title: "多段階応答モデル（ポリトマス）",
+    reading: "ただんかいおうとうもでる",
     kana: "た",
     categories: ["evaluation"],
     summary:
@@ -1715,9 +1715,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "cat-item-selection-maximum-information",
-    title: "適応型テストの項目選択アルゴリズム",
-    reading: "てきおうがたてすとのこうもくせんたくあるごりずむ",
-    kana: "て",
+    title: "CATの項目選択アルゴリズム",
+    reading: "しーえーてぃーのこうもくせんたくあるごりずむ",
+    kana: "A–Z",
     categories: ["evaluation"],
     summary:
       "受験者の解答履歴から能力値を逐次推定し、最大の測定精度をもたらす最適な難易度の問題を自動選択して出題する計算手順。",
@@ -1728,8 +1728,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "online-test-proctoring-cheating-prevention",
-    title: "オンラインテストの不正防止と公正性確保",
-    reading: "おんらいてすとのふせいぼうしとこうせいせいかくほ",
+    title: "オンライン監視（プロクタリング）",
+    reading: "おんらいんかんし",
     kana: "お",
     categories: ["evaluation"],
     summary:
@@ -1741,8 +1741,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "cbt-accessibility-tts-magnification",
-    title: "CBTのアクセシビリティ配慮機能",
-    reading: "しーびーてぃーのあくせしびりてぃはいりょきのう",
+    title: "CBTのアクセシビリティ配慮",
+    reading: "しーびーてぃーのあくせしびりてぃはいりょ",
     kana: "A–Z",
     categories: ["evaluation"],
     summary:
@@ -1754,9 +1754,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "mexcbt-national-platform-utilization",
-    title: "文部科学省CBTシステム（MEXCBT活用）",
-    reading: "もんぶかがくしょうしーびーてぃーしすてむ（めくびっとかつよう）",
-    kana: "も",
+    title: "MEXCBT活用（公的CBT）",
+    reading: "めくびっとかつよう",
+    kana: "A–Z",
     categories: ["evaluation"],
     summary:
       "文部科学省が開発した公的プラットフォームを活用し、児童生徒が端末で多様な問題に取り組み学習成果を可視化するオンライン評価の枠組み。",
@@ -1767,9 +1767,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "trend-study-anchor-item-equating",
-    title: "経年変化分析とアンカー項目法",
-    reading: "けいねんへんかぶんせきとあんかーこうもくほう",
-    kana: "け",
+    title: "アンカー項目法（テスト等化）",
+    reading: "あんかーこうもくほう",
+    kana: "あ",
     categories: ["evaluation"],
     summary:
       "異なる年度間で共通の問題を出題して測定尺度を統一し、年度ごとの学力推移や教育施策の長期的効果を客観的に比較検証する評価手法。",
@@ -1780,8 +1780,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "assessment-results-public-disclosure",
-    title: "学力調査結果の公表と説明責任",
-    reading: "がくりょくちょうさけっかのこうひょうとせつめいせきにん",
+    title: "学力調査結果の公表問題",
+    reading: "がくりょくちょうさけっかのこうひょうもんだい",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1793,8 +1793,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "school-improvement-data-informed-action",
-    title: "データに基づく学校改善計画の策定",
-    reading: "でーたにもとづくがっこうかいぜんけいかくのさくてい",
+    title: "データに基づく学校改善",
+    reading: "でーたにもとづくがっこうかいぜん",
     kana: "て",
     categories: ["evaluation"],
     summary:
@@ -1806,8 +1806,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "school-stakeholder-evaluation-committee",
-    title: "学校関係者評価の仕組みと地域協働",
-    reading: "がっこうかんけいしゃひょうかのしくみとちいききょうどう",
+    title: "学校関係者評価委員会",
+    reading: "がっこうかんけいしゃひょうかいいんかい",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1819,9 +1819,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "third-party-school-evaluation-agency",
-    title: "第三者評価機関による客観的学校評価",
-    reading: "だいさんしゃひょうかきかんによるきゃっかんてきがっこうひょうか",
-    kana: "た",
+    title: "学校第三者評価の機関評価",
+    reading: "がっこうだいさんしゃひょうかのきかんひょうか",
+    kana: "か",
     categories: ["evaluation"],
     summary:
       "学校や設置者から独立した専門機関が、標準化された基準に基づいて教育水準や学校運営を公正に審査し質保証を図る外部評価の仕組み。",
@@ -1832,8 +1832,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "teacher-self-declaration-management-by-objectives",
-    title: "教員の自己申告と目標管理制度",
-    reading: "きょういんのじこしんこくともくひょうかんりせいど",
+    title: "教員の目標管理制度",
+    reading: "きょういんのもくひょうかんりせいど",
     kana: "き",
     categories: ["evaluation"],
     summary:
@@ -1845,8 +1845,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "student-course-evaluation-survey-improvement",
-    title: "授業評価アンケートの設計と授業改善",
-    reading: "じゅぎょうひょうかあんけーとのせっけいとじゅぎょうかいぜん",
+    title: "授業評価アンケート",
+    reading: "じゅぎょうひょうかあんけーと",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -1858,8 +1858,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "curriculum-management-indicator-setting",
-    title: "カリキュラム評価の指標設定手法",
-    reading: "かりきゅらむひょうかのしひょうせっていしゅほう",
+    title: "カリキュラム評価指標",
+    reading: "かりきゅらむひょうかしひょう",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1871,8 +1871,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "logic-model-educational-program-evaluation",
-    title: "ロジックモデルを用いた教育施策評価",
-    reading: "ろじっくもでるをもちいたきょういくしさくひょうか",
+    title: "ロジックモデル（施策評価）",
+    reading: "ろじっくもでる",
     kana: "ろ",
     categories: ["evaluation"],
     summary:
@@ -1884,8 +1884,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "randomized-controlled-trial-education",
-    title: "ランダム化比較試験（教育効果の厳密測定）",
-    reading: "らんだむかひかくしけん（きょういくこうかのげんみつそくてい）",
+    title: "ランダム化比較試験（RCT）",
+    reading: "らんだむかひかくしけん",
     kana: "ら",
     categories: ["evaluation"],
     summary:
@@ -1897,8 +1897,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "difference-in-differences-education-policy",
-    title: "差の差分析（教育施策の効果検証）",
-    reading: "さのさぶんせき（きょういくしさくのこうかけんしょう）",
+    title: "差の差分析（DID法）",
+    reading: "さのさぶんせき",
     kana: "さ",
     categories: ["evaluation"],
     summary:
@@ -1910,8 +1910,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "regression-discontinuity-design-education",
-    title: "回帰不連続デザイン（選抜施策の評価）",
-    reading: "かいきふれんぞくでざいん（せんばつしさくのひょうか）",
+    title: "回帰不連続デザイン（RDD）",
+    reading: "かいきふれんぞくでざいん",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -1923,8 +1923,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "propensity-score-matching-educational-data",
-    title: "傾向スコアマッチング（観察データの検証）",
-    reading: "けいこうすこあまっちんぐ（かんさつでーたのけんしょう）",
+    title: "傾向スコアマッチング（PSM）",
+    reading: "けいこうすこあまっちんぐ",
     kana: "け",
     categories: ["evaluation"],
     summary:
@@ -1936,8 +1936,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "meta-analysis-effect-size-integration",
-    title: "メタ分析による教育実践効果の統合",
-    reading: "めたぶんせきによるきょういくじっせんこうかのとうごう",
+    title: "メタ分析（教育実践効果）",
+    reading: "めたぶんせき",
     kana: "め",
     categories: ["evaluation"],
     summary:
@@ -1949,9 +1949,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "revised-blooms-taxonomy-cognitive-process",
-    title: "ブルームの改訂版タキソノミー（認知過程）",
-    reading: "ぶるーむのかいていばんたきそのみー（にんちかてい）",
-    kana: "ふ",
+    title: "改訂版ブルーム・タキソノミー",
+    reading: "かいていばんぶるーむたきそのみー",
+    kana: "か",
     categories: ["evaluation"],
     summary:
       "学習における認知の働きを想起から創造までの6段階に整理し、授業設計や学力評価の目標を高次思考へと段階的に導く分類体系。",
@@ -1962,8 +1962,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "solo-taxonomy-structured-learning-outcomes",
-    title: "SOLO分類法（学習成果の構造的評価）",
-    reading: "そろぶんるいほう（がくしゅうせいかのこうぞうてきひょうか）",
+    title: "SOLO分類法",
+    reading: "そろぶんるいほう",
     kana: "A–Z",
     categories: ["evaluation"],
     summary:
@@ -1975,9 +1975,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "depth-of-knowledge-dok-levels",
-    title: "DOK水準分類（思考の深さの評価指標）",
-    reading: "でぃーおーけーすいじゅんぶんるい（しこうのふかさのひょうかしひょう）",
-    kana: "A–Z",
+    title: "知識の深さ（DOK水準分類）",
+    reading: "ちしきのふかさ",
+    kana: "ち",
     categories: ["evaluation"],
     summary:
       "課題を達成するために必要な思考の認知的複雑さを4段階に分類し、問題の難易度と認知の深さを区別して評価基準を整える指標体系。",
@@ -1988,9 +1988,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "authentic-task-design-real-world-context",
-    title: "オーセンティック・タスク（真正課題設計）",
-    reading: "おーせんてぃっく・たすく（しんせいかだいせっけい）",
-    kana: "お",
+    title: "真正な学習課題（真正課題）",
+    reading: "しんせいながくしゅうかだい",
+    kana: "し",
     categories: ["evaluation"],
     summary:
       "実社会で直面する現実的な文脈や制約を忠実に再現し、知識や技能を総合的に活用して問題解決に挑ませる本質的な学習課題の設計法。",
@@ -2001,8 +2001,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "performance-task-rubric-development",
-    title: "パフォーマンス課題のルーブリック開発",
-    reading: "ぱふぉーまんすかだいるーぶりっくかいはつ",
+    title: "パフォーマンス評価ルーブリック",
+    reading: "ぱふぉーまんすひょうかるーぶりっく",
     kana: "は",
     categories: ["evaluation"],
     summary:
@@ -2014,8 +2014,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "anchor-papers-benchmark-student-work",
-    title: "アンカー作品の提示（評価基準の具体化）",
-    reading: "あんかーさくひんのていじ（ひょうかきじゅんのぐたいか）",
+    title: "アンカー作品（基準作品）",
+    reading: "あんかーさくひん",
     kana: "あ",
     categories: ["evaluation"],
     summary:
@@ -2027,8 +2027,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "moderation-meeting-scoring-standardization",
-    title: "モデレーション協議（評価基準の合意形成）",
-    reading: "もでれーしょんきょうぎ（ひょうかきじゅんのごういけいせい）",
+    title: "モデレーション協議",
+    reading: "もでれーしょんきょうぎ",
     kana: "も",
     categories: ["evaluation"],
     summary:
@@ -2040,8 +2040,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "feedforward-actionable-improvement-advice",
-    title: "フィードフォワード（次への実践的助言）",
-    reading: "ふぃーどふぉわーど（つぎへのじっせんてきじょげん）",
+    title: "フィードフォワード（学習改善）",
+    reading: "ふぃーどふぉわーど",
     kana: "ふ",
     categories: ["evaluation"],
     summary:
@@ -2053,8 +2053,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "self-assessment-sheet-metacognitive-activation",
-    title: "自己評価シートによるメタ認知の活性化",
-    reading: "じこひょうかしーとによるめたにんちのかっせいか",
+    title: "自己評価シート（メタ認知）",
+    reading: "じこひょうかしーと",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -2066,8 +2066,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "peer-assessment-guidelines-rubric-based",
-    title: "ピア・フィードバックの評価ガイドライン",
-    reading: "ぴあ・ふぃーどばっくのひょうかがいどらいん",
+    title: "ピア・フィードバック指針",
+    reading: "ぴあふぃーどばっくししん",
     kana: "ひ",
     categories: ["evaluation"],
     summary:
@@ -2079,8 +2079,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "reflective-journaling-learning-trajectory",
-    title: "振り返りジャーナル（学びの軌跡の省察）",
-    reading: "ふりかえりじゃーなる（まなびのきせきのしょうさつ）",
+    title: "振り返りジャーナル（学習履歴）",
+    reading: "ふりかえりじゃーなる",
     kana: "ふ",
     categories: ["evaluation"],
     summary:
@@ -2092,8 +2092,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "digital-badges-micro-credentials-learning",
-    title: "デジタルバッジと学修歴の可視化",
-    reading: "でじたるばっじとがくしゅうれきのかしか",
+    title: "デジタルバッジ（学修歴証明）",
+    reading: "でじたるばっじ",
     kana: "て",
     categories: ["evaluation"],
     summary:
@@ -2105,8 +2105,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "competency-mapping-skill-assessment",
-    title: "コンピテンシー・マッピング（資質評価）",
-    reading: "こんぴてんしー・まっぴんぐ（ししつひょうか）",
+    title: "コンピテンシー・マッピング",
+    reading: "こんぴてんしーまっぴんぐ",
     kana: "こ",
     categories: ["evaluation"],
     summary:
@@ -2118,9 +2118,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "concept-mapping-thinking-process-evaluation",
-    title: "コンセプトマップによる概念理解の評価",
-    reading: "こんせぷとまっぷによるがいねんりかいのひょうか",
-    kana: "こ",
+    title: "概念理解のコンセプトマップ評価",
+    reading: "がいねんりかいのこんせぷとまっぷひょうか",
+    kana: "か",
     categories: ["evaluation"],
     summary:
       "学習者が主要概念をノードとし相互の関係性をラベル付きリンクで結ぶ図を描くことで、知識の構造化の度合いや思考の深さを客観的に診断・評価する手法。",
@@ -2131,9 +2131,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "classroom-dialogue-discourse-analysis-assessment",
-    title: "対話・発言記録の談話分析的評価手法",
-    reading: "たいわ・はつげんきろくのだんわぶんせきてきひょうかしゅほう",
-    kana: "た",
+    title: "発話・対話の談話分析的評価",
+    reading: "はつわたいわのだんわぶんせきてきひょうか",
+    kana: "は",
     categories: ["evaluation"],
     summary:
       "授業中の児童生徒の対話や協働的な発話記録を談話分析の手法で解析し、思考の深まりや相互作用の質を客観的に把握・評価する教育評価手法。",
@@ -2144,8 +2144,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "laboratory-practical-skills-checklist",
-    title: "実験・実習における技能評価チェックリスト",
-    reading: "じっけん・じっしゅうにおけるぎのうひょうかちぇっくりすと",
+    title: "実験・実習の技能評価",
+    reading: "じっけんじっしゅうのぎのうひょうか",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -2157,8 +2157,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "presentation-rubric-communication-content",
-    title: "プレゼンテーションの多面的評価ルーブリック",
-    reading: "ぷれぜんてーしょんのためんてきひょうかるーぶりっく",
+    title: "プレゼンテーション評価基準",
+    reading: "ぷれぜんてーしょんひょうかきじゅん",
     kana: "ふ",
     categories: ["evaluation"],
     summary:
@@ -2170,9 +2170,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "art-creation-process-portfolio-tracking",
-    title: "作品制作過程のプロセス評価（構想と推敲）",
-    reading: "さくひんせいさくかていのぷろせすひょうか（こうそうとすいこう）",
-    kana: "さ",
+    title: "制作プロセスの学習評価",
+    reading: "せいさくぷろせすのがくしゅうひょうか",
+    kana: "せ",
     categories: ["evaluation"],
     summary:
       "図画工作や美術等の表現活動において、完成品だけでなく発想や構想、試行錯誤と修正の過程をポートフォリオ等で追跡・評価する指導手法。",
@@ -2183,8 +2183,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "inquiry-process-rubric-high-school",
-    title: "探究プロセスの評価ルーブリック（高校探究）",
-    reading: "たんきゅうぷろせすのひょうかるーぶりっく（こうこうたんきゅう）",
+    title: "探究プロセスの評価",
+    reading: "たんきゅうぷろせすのひょうか",
     kana: "た",
     categories: ["evaluation"],
     summary:
@@ -2196,8 +2196,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "community-project-outcomes-assessment",
-    title: "地域協働プロジェクトの成果評価手法",
-    reading: "ちいききょうどうぷろじぇくとのせいかひょうかしゅほう",
+    title: "地域協働学習の成果評価",
+    reading: "ちいききょうどうがくしゅうのせいかひょうか",
     kana: "ち",
     categories: ["evaluation"],
     summary:
@@ -2209,8 +2209,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "essay-logical-structure-rubric-assessment",
-    title: "小論文・意見文の論理構成評価基準",
-    reading: "しょうろんぶん・いけんぶんのろんりこうせいひょうかきじゅん",
+    title: "小論文・論述の評価基準",
+    reading: "しょうろんぶんろんじゅつのひょうかきじゅん",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -2222,8 +2222,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "reading-log-passport-literacy-assessment",
-    title: "読書記録を活用した読書活動の多面評価",
-    reading: "どくしょきろくをかつようしたどくしょかつどうのためんひょうか",
+    title: "読書記録による読解評価",
+    reading: "どくしょきろくによるどっかいひょうか",
     kana: "と",
     categories: ["evaluation"],
     summary:
@@ -2235,8 +2235,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "physical-fitness-test-lifestyle-assessment",
-    title: "新体力テストと運動習慣の総合評価",
-    reading: "しんたいりょくてすととうんどうしゅうかんのそうごうひょうか",
+    title: "新体力テスト（運動能力評価）",
+    reading: "しんたいりょくてすと",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -2248,8 +2248,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "school-health-examination-data-utilization",
-    title: "学校定期健康診断データの保健指導への活用",
-    reading: "がっこうていきけんこうしんだんでーたのほけんしどうへのかつよう",
+    title: "学校定期健康診断データ活用",
+    reading: "がっこうていきけんこうしんだんでーたかつよう",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -2261,8 +2261,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "cumulative-record-transcript-transfer-protocol",
-    title: "指導要録抄本の作成と進学先への引継ぎ",
-    reading: "しどうようろくしょうほんのさくせいとしんがくさきへのひきつぎ",
+    title: "指導要録抄本の作成と送付",
+    reading: "しどうようろくしょうほんのさくせいとそうふ",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -2274,8 +2274,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "digital-transcript-portal-university-articulation",
-    title: "調査書の電子化と高大接続ポータルの活用",
-    reading: "ちょうさしょのでんしかとこうだいせつぞくぽーたるのかつよう",
+    title: "調査書電子化（高大接続）",
+    reading: "ちょうさしょでんしか",
     kana: "ち",
     categories: ["evaluation"],
     summary:
@@ -2287,8 +2287,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "annual-viewpoint-grading-summation-procedure",
-    title: "学年末における観点別評価の総括手順",
-    reading: "がくねんまつにおけるかんてんべつひょうかのそうかつてじゅん",
+    title: "観点別評価の学年総括",
+    reading: "かんてんべつひょうかのがくねんそうかつ",
     kana: "か",
     categories: ["evaluation"],
     summary:
@@ -2300,8 +2300,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "grading-scale-extremes-one-and-five-criteria",
-    title: "評定の極値判定基準（段階1と段階5の明確化）",
-    reading: "ひょうていのきょくちはんていきじゅん（だんかいいちとだんかいごのめいかくか）",
+    title: "評定の極値判定基準",
+    reading: "ひょうていのきょくちはんていきじゅん",
     kana: "ひ",
     categories: ["evaluation"],
     summary:
@@ -2313,8 +2313,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "suspension-bereavement-grading-regulations",
-    title: "出席停止・忌引等の評価上の取り扱い規程",
-    reading: "しゅっせきていし・きびきとうのひょうかじょうのとりあつかいきてい",
+    title: "出席停止時の評価取り扱い",
+    reading: "しゅっせきていしじのひょうかとりあつかい",
     kana: "し",
     categories: ["evaluation"],
     summary:
@@ -2326,8 +2326,8 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "accommodations-regular-testing-special-needs",
-    title: "定期考査における合理的配慮と個別調整",
-    reading: "ていきこうさにおけるごうりてきはいりょとこべつちょうせい",
+    title: "定期考査の合理的配慮",
+    reading: "ていきこうさのごうりてきはいりょ",
     kana: "て",
     categories: ["evaluation"],
     summary:
@@ -2339,9 +2339,9 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "assessment-transparency-parental-accountability",
-    title: "学習評価の透明性と保護者への説明責任",
-    reading: "がくしゅうひょうかのとうめいせいとほごしゃへのせつめいせきにん",
-    kana: "か",
+    title: "評価の透明性と説明責任",
+    reading: "ひょうかのとうめいせいとせつめいせきにん",
+    kana: "ひ",
     categories: ["evaluation"],
     summary:
       "学校が学習評価の基準や算出根拠、指導と評価の計画を児童生徒や保護者に分かりやすく開示・説明し、教育活動への理解と信頼を深めるための制度的責務。",
