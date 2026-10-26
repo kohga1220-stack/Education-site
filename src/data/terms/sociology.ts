@@ -1523,19 +1523,6 @@ export const sociologyTerms: Term[] = [
     tags: ["子どもの貧困", "学習環境", "教育機会", "格差連鎖"],
   },
   {
-    slug: "educational-opportunity-securing-act",
-    title: "教育機会確保法の理念",
-    reading: "きょういくきかいかくほほうのりねん",
-    kana: "き",
-    categories: ["sociology"],
-    summary:
-      "不登校児童生徒の休養の必要性を認め、学校復帰のみを前提とせずフリースクールなど多様な学びの場を公的に位置づけた2016年の法律。",
-    body: "教育機会確保法は、2016年に制定された義務教育段階における普通教育に相当する教育機会の確保等に関する法律である。従来の学校復帰を一律の目標とする指導観を改め、不登校児童生徒の休養の必要性と学校外の多様な学びの場の重要性を公的に位置づけた。\n\n従来の画一的な学校空間に適応できない子どもは、不登校を理由に学習機会から排除され、社会的孤立を深めやすかった。本法はフリースクールや教育支援センターでの学習を認め、個々の実情に即した多様な学びの選択肢を提供することで教育からの脱落を防ぐ。\n\n学校外の学びの場を制度的に認知したことで、公教育の柔軟な再編と多様性の包摂が進んだ。今後は民間施設を利用する家庭の経済的負担の軽減や、学校との情報共有と学習成果の評価基準の明確化を進め、すべての子どもの学ぶ権利を実質的に保障することが課題である。",
-    relatedSlugs: ["futoko", "futoko-shien-no-arikata-2019", "free-school-undo"],
-    isCanonical: true,
-    tags: ["教育機会確保法", "不登校支援", "多様な学び", "学校外学習"],
-  },
-  {
     slug: "alternative-school-public-substitutability",
     title: "オルタナティブ・スクール機能",
     reading: "おるたなてぃぶすくーるきのう",
@@ -1913,19 +1900,6 @@ export const sociologyTerms: Term[] = [
     tags: ["スクールソーシャルワーカー", "福祉連携", "教育相談", "貧困対策"],
   },
   {
-    slug: "community-school-management-council",
-    title: "コミュニティ・スクール機能",
-    reading: "こみゅにてぃすくーるきのう",
-    kana: "こ",
-    categories: ["sociology"],
-    summary:
-      "保護者や地域住民が学校運営に参画し、教育課程の基本方針等を協議・承認することで地域とともにある学校づくりを推進する法定制度。",
-    body: "地方教育行政の組織及び運営に関する法律に基づき導入された学校運営協議会制度は、学校の自律的運営と開かれた公教育の実現を目指すものである。地域社会との共同責任体制を構築し、官僚的な教育行政から民主的な協働ガバナンスへの転換を図る理論的背景を持つ。\n\n協議会を通じて地域住民が学校の基本方針を承認し、教職員人事への意見具申を行う権限を持つことで、教育への当事者意識が育まれる。一方で、地域の社会関係資本の豊かさによって協議会の活動水準や支援体制に格差が生じ、地域間格差が学校力に波及する側面もある。\n\n形式的な会合にとどめず、学校と地域の双方が対等に課題を共有し協働する熟議の場として機能させることが重要である。地域の教育資源を結集して子どもを多角的に見守る体制を整え、持続可能で民主的な公教育の基盤を確立していくことが期待される。",
-    relatedSlugs: ["community-school", "fundamental-law-article-13-school-home-community", "shakai-kankei-shihon", "gakko-koka-kenkyu"],
-    isCanonical: true,
-    tags: ["コミュニティ・スクール", "学校運営協議会", "地域協働", "学校自治"],
-  },
-  {
     slug: "regional-school-coordinator-volunteers",
     title: "地域学校協働活動推進員",
     reading: "ちいきがっこうきょうどうかつどうすいしんいん",
@@ -2067,19 +2041,6 @@ export const sociologyTerms: Term[] = [
     relatedSlugs: ["kyoshi-kinmu-jikan-jogen-shishin", "kyoshi-tabosei-burnout", "team-gakko"],
     isCanonical: true,
     tags: ["働き方改革", "勤務実態", "長時間労働", "教職の専門性"],
-  },
-  {
-    slug: "club-activity-community-transition-issues",
-    title: "部活動地域移行の課題",
-    reading: "ぶかつどうちいきいこうのかだい",
-    kana: "ふ",
-    categories: ["sociology"],
-    summary:
-      "学校単位の部活動を地域団体や民間機関へ委託・移行する中で、家庭の経済格差や地域の指導環境の違いが生徒の活動機会に及ぼす影響を検討する論点。",
-    body: "教員の過重労働是正と少子化に伴う学校単独での活動維持困難を理由に、中学校等の部活動を地域移行する政策が進められている。教育社会学では、学校が担ってきた課外活動の外部化が、学校化社会の再編と地域教育力の再評価として議論される。\n\n地域クラブや民間の活動では月謝や用具代などの受益者負担が発生し、家庭の所得階層による参加格差が生じる懸念がある。また指導者の質や競技種目の多様性に地域間格差が存在し、農山村部や経済的困窮家庭の生徒が活動から排除される選別機構が作動する恐れがある。\n\nすべての子どもに多様で豊かなスポーツや文化活動を保障するため、公的補助や活動場所の確保などの基盤整備が不可欠である。公教育の無償性原則と平等の理念を踏まえ、格差を放置しない地域連携ネットワークの構築が求められる。",
-    relatedSlugs: ["bukatsu-no-shakaigaku", "bukatsudo-chiiki-ikou", "community-school"],
-    isCanonical: true,
-    tags: ["部活動改革", "地域移行", "受益者負担", "教育格差"],
   },
   {
     slug: "teaching-adjustment-allowance-four-overtime-duties",

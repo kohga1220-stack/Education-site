@@ -62,9 +62,9 @@ export const methodsTerms: Term[] = [
     summary:
       "知識のインプットは動画などで事前に自宅で行い、授業時間は演習や議論などのアウトプット活動に充てる授業形式。",
     body: "反転授業（フリップド・クラスルーム）とは、従来「授業中に講義を聞き、家で宿題として演習する」という順序を入れ替え、「事前に自宅で講義動画などを視聴して知識をインプットし、授業時間は演習・議論・発表などのアウトプット活動に充てる」という授業形式です。\n\nこの形式のねらいは、限られた授業時間を、教師や仲間からの支援を受けながら理解を深める時間として最大限活用することにあります。教師は一方的に説明する時間が減る分、個々の理解につまずいている生徒への個別支援に時間を割きやすくなります。\n\nICT環境の整備やGIGAスクール構想の進展により、動画教材の配信が容易になったことで、日本の学校現場でも導入が広がっています。",
-    relatedSlugs: ["giga-school", "kobetsu-saiteki"],
+    relatedSlugs: ["giga-school", "kobetsu-saiteki", "blended-learning", "online-learning", "active-learning", "kyodo-gakushu"],
     isCanonical: true,
-    tags: ["反転学習", "動画教材"],
+    tags: ["反転学習", "動画教材", "事前視聴", "授業設計", "対面討議", "協働解決"],
   },
   {
     slug: "kobetsu-saiteki",
@@ -618,9 +618,9 @@ export const methodsTerms: Term[] = [
     summary:
       "ポイントやレベル、バッジなどゲームの要素・仕組みを学習活動に取り入れ、意欲や継続性を高める指導法です。",
     body: "ゲーミフィケーション教育とは、ポイント制、レベルアップ、バッジ、ランキング、ストーリー性のあるミッションなど、ゲームで用いられる要素や仕組みを学習活動に組み込み、学習者の意欲・没頭・継続性を高めようとする指導方法です。ゲームそのものを教材として使うシリアスゲームとは区別されます。\n\n授業実践では、ドリル学習の正答数に応じてバッジを付与する、単元をクエスト形式で提示し達成度を可視化する、グループ対抗のポイント制で協力を促すといった工夫が行われます。学習アプリやデジタルドリルにもこうした仕組みが組み込まれることが多くなっています。\n\n外発的動機づけへの過度な依存や、達成そのものが目的化してしまう懸念も指摘されており、内発的動機づけを損なわないよう、有能感や自律性の実感につながる設計を行うことが重要とされています。",
-    relatedSlugs: ["gaihatsu-doki", "naihatsu-doki", "adaptive-learning", "flow-theory"],
+    relatedSlugs: ["gaihatsu-doki", "naihatsu-doki", "adaptive-learning", "flow-theory", "arcs-model", "digital-badges-micro-credentials-learning", "active-learning"],
     isCanonical: true,
-    tags: ["動機づけ", "ICT活用", "デジタルドリル"],
+    tags: ["動機づけ", "ICT活用", "デジタルドリル", "学習達成感", "動機づけ設計", "反復練習支援"],
   },
   {
     slug: "case-method",
@@ -852,9 +852,9 @@ export const methodsTerms: Term[] = [
     summary:
       "地域社会への奉仕活動と教科の学習目標とを意図的に結び付け、活動後の省察を通して市民性と学びの両方を育む教育アプローチ。",
     body: "サービスラーニング(service-learning)とは、地域社会への奉仕活動(サービス)と教科・カリキュラム上の学習目標とを意図的に組み合わせ、その経験についての省察(リフレクション)を伴わせることで、学習効果と市民的責任の両方を高めようとする教育アプローチである。米国の全米サービスラーニング情報センター(National Service-Learning Clearinghouse)は、これを「意義ある地域奉仕活動と教科指導・省察を統合し、学習体験を豊かにし、市民的責任を教え、地域を強化する教育・学習の方策」と定義している。\n\nサービスラーニングは体験学習(経験学習)の一形態であり、単なるボランティア活動とは異なり、①地域の実際の課題やニーズに応える活動であること、②活動の前後や最中に組織的な振り返りの機会が設けられていること、③地域社会との対等な協働関係のもとで実施されることを特徴とする。活動を通じて得た経験を、教科の知識や概念と結びつけて意味づけることが重視される。\n\n高等教育では正課の授業に組み込まれたサービスラーニング科目として、初等中等教育では総合的な学習の時間やキャリア教育、シチズンシップ教育の一環として実践される。地域と学校が連携する社会に開かれた教育課程の考え方とも結びつきが深く、実社会での課題解決を通じて主体性や社会参画意識を育む取組として位置づけられる。",
-    relatedSlugs: ["experiential-learning", "career-education", "citizenship-education"],
+    relatedSlugs: ["experiential-learning", "career-education", "citizenship-education", "tankyu-gakushu", "pbl", "active-learning", "constructivism"],
     isCanonical: true,
-    tags: ["地域連携", "体験学習", "市民性教育", "省察"],
+    tags: ["地域連携", "体験学習", "市民性教育", "省察", "サービスラーニング", "省察指導"],
   },
   {
     slug: "retrieval-practice",
@@ -1219,19 +1219,6 @@ export const methodsTerms: Term[] = [
     relatedSlugs: ["jukudodo-betsu-shido", "mastery-learning", "adaptive-learning", "kobetsu-shido-keikaku"],
     isCanonical: true,
     tags: ["補充学習", "単元未満指導", "基礎基本", "習熟度"],
-  },
-  {
-    slug: "instruction-assessment-integration-practice",
-    title: "指導と評価の一体化の展開",
-    reading: "しどうとひょうかのいったいかのてんかい",
-    kana: "し",
-    categories: ["methods"],
-    summary:
-      "単元の計画段階から目標と評価規準を明確化し、授業中の形成的評価を即座に指導の改善と個々の学習調整に生かす実践的手法。",
-    body: "授業の構想段階からめざす学習の到達像と評価規準を明確にし、指導過程の中で評価を有効に機能させる実践手法である。評価を学習の成否を判定するだけの総括的活動に終わらせず、指導の改善と子どもの自己調整を促すための形成的手段と捉える理論に基づいている。\n\n指導の手順としては、まず単元の目標に対応した評価規準を設定し、逆向き設計の考え方で授業を組み立てる。授業中は学習者のノート記述や発言、相互対話の様子を小まめに把握し、つまずきが見られた場合には即座に発問や支援を修正して適切な助言を与える。\n\n指導と評価の一体化は、教員の授業改善を日常化させるとともに、児童生徒が自らの課題を自覚して学びを調整する力を高める。新学習指導要領における観点別評価を実質化し、確かな学力を育てる中核的な方法論である。",
-    relatedSlugs: ["shido-hyoka-ittaika", "keiseiteki-hyoka", "kanten-betsu-hyoka", "rubric-hyoka"],
-    isCanonical: true,
-    tags: ["指導と評価の一体化", "形成的評価", "逆向き設計", "授業設計"],
   },
   {
     slug: "perspective-based-instructional-design",
@@ -2272,19 +2259,6 @@ export const methodsTerms: Term[] = [
     relatedSlugs: ["tankyu-gakushu", "pbl", "chiiki-gakko-kyodo-katsudo", "community-school"],
     isCanonical: true,
     tags: ["地域協働", "探究学習", "地域活性化", "市民教育"],
-  },
-  {
-    slug: "service-learning-critical-reflection",
-    title: "サービスラーニングの省察指導",
-    reading: "さーびすらーにんぐのせいさつしどう",
-    kana: "さ",
-    categories: ["methods"],
-    summary:
-      "地域への社会奉仕活動と学校での学術的学習を有機的に結合させ、活動前中後の多層的な省察指導を通じて批判的思考と市民的責任感を培う実践指導法。",
-    body: "サービスラーニングにおける省察指導は、ボランティア活動などの社会貢献体験を単なる奉仕で終わらせず、学問的探究と人格的陶冶に昇華させる中核的手法である。経験を省察によって概念化し新たな行動へと結びつけるコルブの経験学習モデルを理論的支柱としている。\n\n指導は活動前・活動中・活動後の3段階で体系的に実施される。事前には訪問先の背景や社会的文脈を調べ、自らの偏見や期待を自覚させる。活動中には日記や小集団での語り合いを通じて感情の揺らぎを記録し、事後には「何が起きたか」「なぜ起きたか」「今後にどう生かすか」を深く問う省察セッションを行う。\n\n体験から得た気付きを社会構造の課題へと結びつけることで、物事を表層的に捉えず構造的に見通す批判的知性が養われる。他者への一方的な施しではなく相互理解と共生の態度を育むため、現代の主権者教育や道徳教育の高度な実践モデルとして不可欠である。",
-    relatedSlugs: ["tankyu-gakushu", "pbl", "active-learning", "constructivism"],
-    isCanonical: true,
-    tags: ["サービスラーニング", "省察指導", "経験学習", "市民教育"],
   },
   {
     slug: "unplugged-computer-science-education",

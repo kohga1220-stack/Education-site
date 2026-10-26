@@ -23,9 +23,9 @@ export const comparativeTerms: Term[] = [
     summary:
       "スイスの財団が運営する国際教育プログラムで、修了により世界共通の大学入学資格が得られます。",
     body: "国際バカロレア(IB)は1968年にジュネーブの国際バカロレア機構(IBO)が創設した国際教育プログラムです。幼児期から高校段階までPYP・MYP・DP・CPの4段階があり、DP(ディプロマ・プログラム)修了者は世界の大学への出願資格を得られます。\n\n探究型学習や批判的思考、複数言語での学習、課題論文(EE)や知の理論(TOK)の履修などを通じて、特定の国の教育課程に縛られない汎用的な資質・能力の育成を重視しています。世界150以上の国・地域の学校で導入されています。\n\n日本では文部科学省が2013年以降IB認定校の拡大を政策目標に掲げ、探究的な学習や思考力評価の充実を図るモデルとして国内教育改革にも影響を与えています。",
-    relatedSlugs: ["tankyu-gakushu", "international-school", "kikokushijo-kyoiku"],
+    relatedSlugs: ["tankyu-gakushu", "international-school", "kikokushijo-kyoiku", "concept-based-curriculum-instruction", "super-global-daigaku"],
     isCanonical: true,
-    tags: ["国際教育プログラム", "大学入学資格"],
+    tags: ["国際教育プログラム", "大学入学資格", "国際バカロレア", "中核要素", "知の理論"],
   },
   {
     slug: "unesco-education",
@@ -1596,7 +1596,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フィリピンにおいて初等中等教育十年の短縮構造を解消し、高校相当の二年を新設して計十三年制へと移行させ、国際通用性と職業準備教育の強化を実現した大改革。",
     body: "フィリピンの初等中等教育改革は、アジアで唯一存続していた十年制の初等中等教育を国際標準の十三年制へと拡大し、若者の学力と職業的実践力を高めるために断行された歴史的改革である。比較教育学では、国際的な資格通用性の確保と労働市場への円滑な移行を目指した大胆な学制改革として位置づけられる。\n\n幼児教育から始まり、初等教育六年、前期中等教育四年に加え、後期中等教育としてシニアハイスクール二年が新設された。シニアハイスクールでは、学術進学、技術・職業・家政、芸術・スポーツなどの進路別トラックが設けられ、大学進学の準備教育のみならず、就労に直結する専門技能の習得が体系化された。\n\n日本における後期中等教育の再編や普通科改革、職業教育と普通教育の連携を再考する上で、教育年限の妥当性や多様な進路需要に応える複線型トラック設計の実例として深い知見を提供する。",
-    relatedSlugs: ["rokusansei", "compulsory-education-school-nine-year-system", "right-to-education-international-law"],
+    relatedSlugs: ["rokusansei", "gimu-kyoiku-gakko", "right-to-education-international-law"],
     isCanonical: true,
     tags: ["フィリピン教育", "中等教育改革", "職業教育", "教育年限"],
   },
@@ -2324,7 +2324,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "知識基盤社会に対応するため、後期中等教育までを含む十二年間の義務就学や教育参加の義務づけを拡大する国際的な制度改革の潮流。",
     body: "義務教育年限延長の国際動向とは、初等教育や前期中等教育にとどまらず、後期中等教育修了までの十二年間を義務教育または参加義務とする世界的な改革の動きである。若年層の早期離脱を防ぎ、高度化する雇用市場への円滑な移行を支援する意図を持つ。\n\n英国では十八歳までの教育や職業訓練への参加が義務化され、就労のみで学びを終えることを防ぐ政策が定着している。多くの欧米諸国や新興国でも高校段階までの無償化や義務化が進められ、普通教育と職業教育の柔軟な複線化によって修学継続を支えている。\n\n高校進学率が極めて高い日本でも、実質的な全員就学状況を踏まえた法的年限の延長や無償化の範囲が議論されている。形式的な学歴主義に陥ることなく、多様な若者に実践的な生活力と職業能力を確実に保障するための制度構想において国際動向の検討が不可欠である。",
-    relatedSlugs: ["compulsory-education-school-nine-year-system", "secondary-education-school-six-year-consistent", "right-to-education-international-law"],
+    relatedSlugs: ["gimu-kyoiku-gakko", "secondary-education-school-six-year-consistent", "right-to-education-international-law"],
     isCanonical: true,
     tags: ["義務教育", "年限延長", "後期中等教育", "参加義務"],
   },
@@ -2337,7 +2337,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "秀でた才能を伸ばす飛び級と学力未到達を補う原級留置について、各国の学年制運用や教育文化の相違を比較検討する研究論点。",
     body: "飛び級制度と原級留置の国際運用比較は、学年の進級を実年齢に準拠させるか習熟度に準拠させるかをめぐる各国の制度設計と教育観の相違を浮き彫りにする領域である。個人の能力伸長と集団内の平等性のどちらを優先するかという根源的問いを含む。\n\n米国やフランスでは早期就学や学年の飛び級が才能児教育の一環として認められる一方、基礎学力が基準に満たない場合の原級留置も広く運用されてきた。しかし近年は留置が自己肯定感の喪失や中途退学を招くとの研究成果を受け、個別補習による進級支援への転換が進む。\n\n年齢主義的な学年進行を原則とし留置が極めてまれな日本にとって、才能教育の充実や習熟度別指導の柔軟化を考える上で貴重な比較材料となる。過度な選別感を避けつつ、個々に応じた最適な学習進度をいかに保障するかという改革の視座を与えている。",
-    relatedSlugs: ["us-education-system", "german-school-system", "credit-system-high-school-grade-flexibility"],
+    relatedSlugs: ["us-education-system", "german-school-system", "tani-sei-koko"],
     isCanonical: true,
     tags: ["飛び級", "原級留置", "才能教育", "学年制"],
   },
@@ -2392,19 +2392,6 @@ export const comparativeTerms: Term[] = [
     relatedSlugs: ["clil", "clt-communicative-language-teaching", "tblt-task-based-language-teaching", "cross-curriculum"],
     isCanonical: true,
     tags: ["内容言語統合", "多言語主義", "思考力育成", "協働学習"],
-  },
-  {
-    slug: "ib-diploma-programme-dp-curriculum-structure",
-    title: "国際バカロレア・ディプロマ",
-    reading: "こくさいばかろれあでぃぷろま",
-    kana: "こ",
-    categories: ["comparative"],
-    summary:
-      "国際的な視野を持つ探究的学習者を育てるため、十六歳から十九歳を対象に提供される厳格な学術プログラムと世界共通の大学入学資格。",
-    body: "国際バカロレアのディプロマ課程は、国際移動の多い生徒に対して世界共通の大学進学資格を授与することを目指して創設された教育体系である。全人教育の理念に基づき、批判的思考力と国際的な視野を備えた主体的学習者の育成を目的として国際的に認知されている。\n\n教育課程は六つの教科群に加えて、知の理論、課題論文、奉仕活動の三つの必須中核要素から構成される。単なる知識の暗記を排し、概念に基づく深い理解や自立的な探究論文の執筆を課すとともに、世界共通基準による厳格な外部試験と内部評価によって学力が測定される。\n\n日本でも文部科学省の推進策により認定校が増加し、国際通用性の高い資質能力の育成モデルとして高校教育改革を刺激している。世界水準の探究型カリキュラムと確固たる評価手法の実践は、日本の大学入試改革や高大接続の質的転換に極めて深い示唆を与えている。",
-    relatedSlugs: ["ib-baccalaureate", "concept-based-curriculum-instruction", "super-global-daigaku"],
-    isCanonical: true,
-    tags: ["国際バカロレア", "中核要素", "知の理論", "大学入学資格"],
   },
   {
     slug: "ib-career-related-programme-cp-framework",

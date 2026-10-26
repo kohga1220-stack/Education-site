@@ -1475,13 +1475,13 @@ export const earlyChildhoodTerms: Term[] = [
     title: "情動調律と相互主観性",
     reading: "じょうどうちょうりつとそうごしゅかんせい",
     kana: "し",
-    categories: ["early-childhood"],
+    categories: ["early-childhood", "psychology"],
     summary:
       "乳児の内的な感情状態を養育者が感じ取り異なる表現様式で共有する過程と、他者と主観的な体験を分かち合う心の共有構造を指す理論。",
     body: "情動調律とは、乳児精神医学者スターンが提唱した概念であり、養育者が乳児の動作そのものを単にまねるのではなく、その背景にある感情の強さやリズムを声や身体の動きへと変換して応じる応答的関わりを指す。この過程を通じて乳児は自己の内的体験が他者に理解されていることを実感し、自己と他者の心が通い合う相互主観性を発達させていく。\n\n保育現場における乳児保育では、保育者が子どもの発声や跳びはねる喜びに対し、同じ調子で歌うように声をかけたり優しく揺れたりする環境構成が重要となる。担当制保育や受容的な関わりを通じて情緒的な安全基地を保障し、子どもが自己の感情を安心して表出できる関係性を日々の生活の中で丁寧に築く。\n\n情動の共有体験は、後の象徴遊びや言葉を通じた他者理解の基盤となり、幼児期の自己肯定感や共感性の育ちを力強く支える。保育指針が掲げる豊かな人間性の育成に向け、乳児期からの情緒的な応答は生涯にわたる社会的情動的スキルの根幹を形成する重要な意義を持つ。",
-    relatedSlugs: ["affect-attunement-stern", "internal-working-models-attachment", "nyuji-hoiku-san-shiten", "hoikusho-hoiku-shishin"],
+    relatedSlugs: ["internal-working-models-attachment", "nyuji-hoiku-san-shiten", "hoikusho-hoiku-shishin", "bowlby", "harlow-surrogate-mother", "emotion-regulation", "ninchi-hattatsu"],
     isCanonical: true,
-    tags: ["情動調律", "相互主観性", "乳児保育", "愛着形成"],
+    tags: ["情動調律", "相互主観性", "乳児保育", "愛着形成", "スターン", "間主観性"],
   },
   {
     slug: "imitative-play-infant-development",
