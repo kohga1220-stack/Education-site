@@ -6,7 +6,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { spawnSync } from 'node:child_process'
 import {
-  CATEGORY_IDS, ROOT, TERMS_DIR, appendToCategory, computeKana, loadAllTerms,
+  CATEGORY_IDS, ROOT, TERMS_DIR, appendToCategory, computeKana, findSimilar, loadAllTerms,
 } from './lib/terms-io.mjs'
 
 const dryRun = process.argv.includes('--dry-run')
@@ -23,8 +23,7 @@ if (files.length === 0) {
 
 const existing = loadAllTerms()
 const slugs = new Set(existing.map((t) => t.slug))
-const core = (title) => title.normalize('NFKC').replace(/[（(][^）)]*[）)]/g, '').replace(/\s/g, '')
-const cores = new Map(existing.map((t) => [core(t.title), t.slug]))
+const pool = [...existing] // 既存 + 今回受理した語(同一バッチ内の重複も検出する)
 
 const leftover = {} // ファイル名 -> 却下された元データ
 const accepted = []
@@ -58,13 +57,21 @@ for (const f of files) {
     if (!Array.isArray(t.categories) || t.categories.length === 0) return rej(`${label}: categories が必要です`)
     if (!t.categories.every((c) => CATEGORY_IDS.includes(c))) return rej(`${label}: 不正なカテゴリID ${t.categories}`)
     if (slugs.has(t.slug)) return rej(`${label}: slug が既存と重複 → 取り込みません(既存の更新は Claude Code に依頼)`)
-    const c = core(t.title)
-    if (cores.has(c)) return rej(`${label}: 題名が既存「${cores.get(c)}」と実質重複`)
-
-    const urls = Array.isArray(t.sources) ? t.sources.filter((u) => /^https?:\/\//.test(u)) : []
-    if (urls.length === 0) notes.push(`${label}: sources(出典URL)がありません。裏取りした出典を1件以上記載してください`)
-    delete t.sources // サイトには保存しない(PR・履歴で確認する用)
-
+    const sim = findSimilar(t, pool)
+    if (sim) {
+      const where = `既存「${sim.other.title}」(${sim.other.slug})`
+      if (sim.level === 'reject') return rej(`${label}: ${sim.reason} → ${where}。取り込みません`)
+      if (sim.level === 'review') {
+        const why = typeof t.distinctFrom === 'string' ? t.distinctFrom.trim() : ''
+        if (why.length < 10) {
+          return rej(`${label}: ${sim.reason} → ${where}。別の用語である理由を distinctFrom(10字以上)に書くか、取り込みをやめてください`)
+        }
+        notes.push(`${label}: 類似あり(${sim.reason}) → ${where}。distinctFrom「${why}」により受理(PRで確認)`)
+      } else {
+        notes.push(`${label}: 参考: ${sim.reason} → ${where}`)
+      }
+    }
+    delete t.distinctFrom // サイトには保存しない
     const kana = computeKana(t.title, t.reading)
     if (t.kana && t.kana !== kana) notes.push(`${label}: kana "${t.kana}" → "${kana}" に自動補正`)
     t.kana = kana
@@ -72,8 +79,8 @@ for (const f of files) {
     t.tags = t.tags ?? []
     t.isCanonical = true
     slugs.add(t.slug)
-    cores.set(c, t.slug)
     accepted.push({ ...t, __from: f })
+    pool.push(t)
   })
 }
 

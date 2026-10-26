@@ -106,3 +106,54 @@ export function writeCategory(cat, terms) {
   const head = src.slice(0, src.indexOf('[\n') + 2)
   fs.writeFileSync(file, head + terms.map(serializeTerm).join('\n') + '\n]\n', 'utf8')
 }
+
+// ---- 類似題名の検出(重複登録の防止) ----
+const stripParen = (s) => s.replace(/[（(][^）)]*[）)]/g, '')
+/** 比較用の題名: 全角半角を統一し、括弧書き・空白・記号を除く */
+export const titleCore = (title) =>
+  stripParen(title.normalize('NFKC')).replace(/[\s、。・･「」『』\-ー]/g, '')
+const bigrams = (s) => {
+  const o = new Set()
+  for (let i = 0; i < s.length - 1; i++) o.add(s.slice(i, i + 2))
+  return o
+}
+const jaccard = (a, b) => {
+  let n = 0
+  for (const x of a) if (b.has(x)) n++
+  return n / (a.size + b.size - n || 1)
+}
+const readingCore = (r) => stripParen(r.normalize('NFKC')).replace(/[・ー\s]/g, '')
+
+/**
+ * 既存の用語(配列)と比べ、重複の疑いを返す。
+ *   level 'reject': 題名が同じ(括弧書き・全角半角・記号を除く)。同一概念の二重登録。例外なし
+ *   level 'review': 読みが同じ / 題名が既存の語を含む(長さの差8字以内) / 題名が似ている(類似度0.6以上)。
+ *                   別の用語である理由を入力 JSON の distinctFrom に書いた場合だけ通す
+ *   level 'warn'  : 題名が既存の語を含む(差が大きい)/ やや似ている。情報表示のみ
+ * 戻り値: { level, other(既存項目), reason } または null(最も強い一致を返す)
+ */
+const RANK = { reject: 3, review: 2, warn: 1 }
+export function findSimilar(term, existing) {
+  const core = titleCore(term.title)
+  const rd = readingCore(term.reading)
+  const bg = bigrams(core)
+  let best = null
+  const take = (level, other, reason) => {
+    if (!best || RANK[level] > RANK[best.level]) best = { level, other, reason }
+  }
+  for (const o of existing) {
+    if (o.slug === term.slug) continue
+    const oc = titleCore(o.title)
+    if (!oc || !core) continue
+    if (oc === core) return { level: 'reject', other: o, reason: '題名が同じ(括弧書き等を除く)' }
+    if (rd && rd === readingCore(o.reading)) take('review', o, '読みが同じ')
+    const contained = Math.min(oc.length, core.length) >= 4 && (oc.includes(core) || core.includes(oc))
+    const diff = Math.abs(oc.length - core.length)
+    const sim = jaccard(bg, bigrams(oc))
+    if (contained && diff <= 8) take('review', o, '題名が既存の語を含む(言い換え・小変更の疑い)')
+    else if (sim >= 0.6) take('review', o, `題名が似ている(類似度${sim.toFixed(2)})`)
+    else if (contained) take('warn', o, '題名が既存の語を含む(細分化の疑い)')
+    else if (sim >= 0.5) take('warn', o, `題名がやや似ている(類似度${sim.toFixed(2)})`)
+  }
+  return best
+}
