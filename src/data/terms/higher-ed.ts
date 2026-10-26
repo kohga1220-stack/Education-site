@@ -874,7 +874,7 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "ippan-senbatsu",
-    title: "一般選抜",
+    title: "一般選抜（大学入試）",
     reading: "いっぱんせんばつ",
     kana: "い",
     categories: ["higher-ed"],
@@ -888,7 +888,7 @@ export const higherEdTerms: Term[] = [
   {
     slug: "admissions-officer",
     title: "アドミッション・オフィサー",
-    reading: "あどみっしょん・おふぃさー",
+    reading: "あどみっしょんおふぃさー",
     kana: "あ",
     categories: ["higher-ed"],
     summary:
@@ -926,8 +926,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "daigaku-tsushin-kyoiku",
-    title: "大学通信教育",
-    reading: "だいがくつうしんきょういく",
+    title: "大学通信教育制度",
+    reading: "だいがくつうしんきょういくせいど",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -939,9 +939,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "kyoyo-kyoiku",
-    title: "教養教育",
-    reading: "きょうようきょういく",
-    kana: "き",
+    title: "大学教養教育",
+    reading: "だいがくきょうようきょういく",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "高等教育において、特定分野の専門的知見にとどまらず、自然・人文・社会科学の幅広い知見と批判的思考力、豊かな人間性を涵養する教育。",
@@ -952,7 +952,7 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "gakumon-no-jiyu",
-    title: "学問の自由",
+    title: "学問の自由（大学）",
     reading: "がくもんのじゆう",
     kana: "か",
     categories: ["higher-ed"],
@@ -965,8 +965,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "kyojukai",
-    title: "教授会",
-    reading: "きょうじゅかい",
+    title: "教授会の権能",
+    reading: "きょうじゅかいのけんのう",
     kana: "き",
     categories: ["higher-ed"],
     summary:
@@ -978,8 +978,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "gakuchou-leadership",
-    title: "学長リーダーシップ",
-    reading: "がくちょうりーだーしっぷ",
+    title: "学長リーダーシップ改革",
+    reading: "がくちょうりーだーしっぷかいかく",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -991,9 +991,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "degree-system",
-    title: "学位制度",
-    reading: "がくいせいど",
-    kana: "か",
+    title: "大学学位制度",
+    reading: "だいがくがくいせいど",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "高等教育機関における一定水準の教育課程修了や学術研究成果に対し、公的な学術的称号（学士・修士・博士・短期大学士・専門職学位）を授与する制度。",
@@ -1018,7 +1018,7 @@ export const higherEdTerms: Term[] = [
   {
     slug: "academic-advising",
     title: "アカデミック・アドバイジング",
-    reading: "あかでみっく・あどばいじんぐ",
+    reading: "あかでみっくあどばいじんぐ",
     kana: "あ",
     categories: ["higher-ed"],
     summary:
@@ -1044,7 +1044,7 @@ export const higherEdTerms: Term[] = [
   {
     slug: "daigaku-settchi-shingikai",
     title: "大学設置・学校法人審議会",
-    reading: "だいがくせっち・がっこうほうじんしんぎかい",
+    reading: "だいがくせっちがっこうほうじんしんぎかい",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1069,9 +1069,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "jitsumuka-kyoin",
-    title: "実務家教員",
-    reading: "じつむかきょういん",
-    kana: "し",
+    title: "大学実務家教員",
+    reading: "だいがくじつむかきょういん",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "企業、官公庁、医療・福祉、法曹などの現場で培った高度な実務経験や専門知識を有し、実践的な専門教育・研究を担う大学教員。",
@@ -1082,7 +1082,7 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "gakusei-chosa",
-    title: "全国学生調査",
+    title: "全国学生調査（文科省）",
     reading: "ぜんこくがくせいちょうさ",
     kana: "せ",
     categories: ["higher-ed"],
@@ -1095,8 +1095,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "daigaku-renkei-suishin-hojin",
-    title: "大学連携推進法人",
-    reading: "だいがくれんけいすいしんほうじん",
+    title: "大学連携推進法人制度",
+    reading: "だいがくれんけいすいしんほうじんせいど",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1134,9 +1134,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "faculty-organization-establishment-standards",
-    title: "大学設置基準における専任教員組織の編制方針",
-    reading: "だいがくせっちきじゅんにおけるせんにんきょういんそしきのへんせいほうしん",
-    kana: "た",
+    title: "専任教員組織の編制方針",
+    reading: "せんにんきょういんそしきのへんせいほうしん",
+    kana: "せ",
     categories: ["higher-ed"],
     summary:
       "大学が学部や学科ごとに教育研究上の目的を達成するために必要とされる専任教員の必要員数や資格、年齢構成を定めた制度基準。",
@@ -1147,9 +1147,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "campus-land-building-facilities-standards",
-    title: "校地・校舎等の施設設備基準と学修環境",
-    reading: "こうちこうしゃとうのしせつせつびきじゅんとがくしゅうかんきょう",
-    kana: "こ",
+    title: "大学施設設備基準",
+    reading: "だいがくしせつせつびきじゅん",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "大学設置基準が定める学生定員に応じた校地・校舎面積、実験実習設備、福利厚生施設等の最低設置基準と環境整備の枠組み。",
@@ -1160,8 +1160,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-library-academic-information-base",
-    title: "大学図書館の設置基準と学術情報基盤整備",
-    reading: "だいがくとしょかんのせっちきじゅんとがくじゅつじょうほうきばんせいび",
+    title: "大学図書館設置基準",
+    reading: "だいがくとしょかんせっちきじゅん",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1173,8 +1173,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "graduation-requirements-124-credits-cap",
-    title: "卒業要件124単位と年間履修登録上限の運用",
-    reading: "そつぎょうようけんひゃくにじゅうよんたんいとねんかんりしゅうとうろくじょうげんのうんよう",
+    title: "卒業要件と年間履修上限",
+    reading: "そつぎょうようけんとねんかんりしゅうじょうげん",
     kana: "そ",
     categories: ["higher-ed"],
     summary:
@@ -1186,8 +1186,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "fifteen-week-course-duration-regulations",
-    title: "15週の授業期間の確保と試験運用の基準",
-    reading: "じゅうごしゅうのじゅぎょうきかんのかくほとしけんうんようのきじゅん",
+    title: "15週授業期間基準",
+    reading: "じゅうごしゅうじゅぎょうきかんきじゅん",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1199,8 +1199,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "credit-system-45-hours-learning-syllabus",
-    title: "1単位45時間の学修時間基準とシラバス記載",
-    reading: "いちたんいよんじゅうごじかんのがくしゅうじかんきじゅんとしらばすきさい",
+    title: "1単位45時間学修基準",
+    reading: "いちたんいよんじゅうごじかんがくしゅうきじゅん",
     kana: "い",
     categories: ["higher-ed"],
     summary:
@@ -1212,8 +1212,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "pre-post-class-study-time-assignment",
-    title: "事前・事後学習の明示と自学自習の促し方",
-    reading: "じぜんじごがくしゅうのめいじとじがくじしゅうのうながしかた",
+    title: "事前事後学修の明示",
+    reading: "じぜんじごがくしゅうのめいじ",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1225,8 +1225,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "diploma-policy-degree-conferral-goals",
-    title: "ディプロマ・ポリシー（学位授与基準の具体化）",
-    reading: "でぃぷろまぽりしーがくいじゅよきじゅんのぐたいか",
+    title: "ディプロマ・ポリシー（DP）",
+    reading: "でぃぷろまぽりしー",
     kana: "て",
     categories: ["higher-ed"],
     summary:
@@ -1238,8 +1238,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "curriculum-policy-educational-structure",
-    title: "カリキュラム・ポリシー（教育課程編成方針）",
-    reading: "かりきゅらむぽりしーきょういくかていへんせいほうしん",
+    title: "カリキュラム・ポリシー（CP）",
+    reading: "かりきゅらむぽりしー",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1251,8 +1251,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "admission-policy-student-selection-profile",
-    title: "アドミッション・ポリシー（求める学生像の明示）",
-    reading: "あどみっしょんぽりしーもとめるがくせいぞうのめいじ",
+    title: "アドミッション・ポリシー（AP）",
+    reading: "あどみっしょんぽりしー",
     kana: "あ",
     categories: ["higher-ed"],
     summary:
@@ -1264,8 +1264,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "three-policies-coherence-assessment-plan",
-    title: "三つのポリシーの統合的一貫性と測定計画",
-    reading: "みっつのぽりしーのとうごうてきいっかんせいとそくていけいかく",
+    title: "三つのポリシーの統合一貫性",
+    reading: "みっつのぽりしーのとうごういっかんせい",
     kana: "み",
     categories: ["higher-ed"],
     summary:
@@ -1277,8 +1277,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "school-education-act-article-93-senate",
-    title: "学校教育法第93条における教授会の審議権限",
-    reading: "がっこうきょういくほうだいきゅうじゅうさんじょうにおけるきょうじゅかいのしんぎけんげん",
+    title: "学校教育法第93条（教授会）",
+    reading: "がっこうきょういくほうだいきゅうじゅうさんじょう",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1290,8 +1290,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-management-council-president-selection",
-    title: "大学運営協議会と学長選考・監察会議の権能",
-    reading: "だいがくうんえいきょうぎかいとがくちょうせんこうかんさつかいぎのけんのう",
+    title: "大学運営協議会・学長選考",
+    reading: "だいがくうんえいきょうぎかいがくちょうせんこう",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1303,8 +1303,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "auditor-oversight-compliance-system",
-    title: "監事の機能強化と学校法人の法令順守体制",
-    reading: "かんじのきのうきょうかとがっこうほうじんのほうれいじゅんしゅたいせい",
+    title: "学校法人監事監査体制",
+    reading: "がっこうほうじんかんじかんさたいせい",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1316,8 +1316,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "juaa-third-cycle-institutional-accreditation",
-    title: "大学基準協会による第3期機関別認証評価",
-    reading: "だいがくきじゅんきょうかいによるだいさんききかんべつにんしょうひょうか",
+    title: "大学基準協会認証評価",
+    reading: "だいがくきじゅんきょうかいにんしょうひょうか",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1329,9 +1329,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "niad-qe-certified-institutional-evaluation",
-    title: "大学改革支援・学位授与機構の認証評価事業",
-    reading: "だいがくかいかくしえんがくいじゅよきこうのにんしょうひょうかじぎょう",
-    kana: "た",
+    title: "学位授与機構認証評価",
+    reading: "がくいじゅよきこうにんしょうひょうか",
+    kana: "か",
     categories: ["higher-ed"],
     summary:
       "独立行政法人大学改革支援・学位授与機構が実施する認証評価であり、主に国公立大学を対象に教育研究活動や財務基盤の質を多面的に審査する事業。",
@@ -1342,8 +1342,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "jihee-private-university-accreditation",
-    title: "日本高等教育評価機構による私立大学評価",
-    reading: "にほんこうとうきょういくひょうかきこうによるしりつだいがくひょうか",
+    title: "日本高等教育評価機構評価",
+    reading: "にほんこうとうきょういくひょうかきこうひょうか",
     kana: "に",
     categories: ["higher-ed"],
     summary:
@@ -1355,9 +1355,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "self-inspection-evaluation-report-disclosure",
-    title: "自己点検・評価報告書の公表と外部検証手続き",
-    reading: "じこてんけんひょうかほうこくしょのこうひょうとがいぶけんしょうてつづき",
-    kana: "し",
+    title: "大学自己点検・評価報告",
+    reading: "だいがくじこてんけんひょうかほうこく",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "大学が自らの教育研究活動等の状況を継続的に点検・分析し、その結果を社会に公表するとともに第三者による検証を受ける法定手続き。",
@@ -1368,8 +1368,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "internal-quality-assurance-committee-pdca",
-    title: "内部質保証推進委員会と全学PDCAサイクル",
-    reading: "ないぶしつほしょうすいしんいいんかいとぜんがくぴーでぃーしーえーさいくる",
+    title: "内部質保証推進と全学PDCA",
+    reading: "ないぶしつほしょうすいしんとぜんがくぴーでぃーしーえー",
     kana: "な",
     categories: ["higher-ed"],
     summary:
@@ -1381,8 +1381,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "curriculum-map-matrix-learning-goals",
-    title: "カリキュラム・マップ（到達目標と科目の対応図）",
-    reading: "かりきゅらむまっぷとうたつもくひょうとかもくのたいおうず",
+    title: "カリキュラム・マップ",
+    reading: "かりきゅらむまっぷ",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1394,8 +1394,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "course-numbering-system-progressive-levels",
-    title: "科目ナンバリングによる学修段階の体系化",
-    reading: "かもくなんばりんぐによるがくしゅうだんかいのたいけいか",
+    title: "科目ナンバリングの体系化",
+    reading: "かもくなんばりんぐのたいけいか",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1407,8 +1407,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "curriculum-tree-prerequisite-sequence",
-    title: "カリキュラム・ツリーによる履修系統図の明示",
-    reading: "かりきゅらむつりーによるりしゅうけいとうずのめいじ",
+    title: "カリキュラム・ツリー",
+    reading: "かりきゅらむつりー",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1420,8 +1420,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "gpa-system-rigorous-warning-dismissal",
-    title: "GPA制度の厳格化と成績不振者への指導基準",
-    reading: "じーぴーえーせいどのげんかくかおよぶせいせきふしんしゃへのしどうきじゅん",
+    title: "GPA厳格化と指導基準",
+    reading: "じーぴーえーげんかくかとしどうきじゅん",
     kana: "A–Z",
     categories: ["higher-ed"],
     summary:
@@ -1433,8 +1433,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "rigorous-grading-distribution-guidelines",
-    title: "厳格な成績評価基準（評語と成績分布の指針）",
-    reading: "げんかくなせいせきひょうかきじゅんひょうごとせいせきぶんぷのししん",
+    title: "厳格な成績評価指針",
+    reading: "げんかくなせいせきひょうかししん",
     kana: "け",
     categories: ["higher-ed"],
     summary:
@@ -1446,8 +1446,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "grade-appeal-process-procedural-fairness",
-    title: "成績評価の不服申し立て手続きと公正性確保",
-    reading: "せいせきひょうかのふふくもうしたててつづきとこうせいせいかくほ",
+    title: "成績評価の不服申立て手続",
+    reading: "せいせきひょうかのふふくもうしたててつづき",
     kana: "せ",
     categories: ["higher-ed"],
     summary:
@@ -1459,8 +1459,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "graduation-thesis-rubric-objective-scoring",
-    title: "卒業論文・研究の評価ルーブリック作成運用",
-    reading: "そつぎょうろんぶんけんきゅうのひょうかるーぶりっくさくせいうんよう",
+    title: "卒業論文ルーブリック評価",
+    reading: "そつぎょうろんぶんるーぶりっくひょうか",
     kana: "そ",
     categories: ["higher-ed"],
     summary:
@@ -1472,8 +1472,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "e-portfolio-reflection-academic-advising",
-    title: "学修ポートフォリオを活用した面談と省察",
-    reading: "がくしゅうぽーとふぉりおをかつようしためんだんとせいさつ",
+    title: "学修ポートフォリオと省察",
+    reading: "がくしゅうぽーとふぉりおとせいさつ",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1485,8 +1485,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "academic-advisor-system-student-guidance",
-    title: "アカデミック・アドバイザー制度と履修支援",
-    reading: "あかでみっくあどばいざーせいどとりしゅうしえん",
+    title: "アカデミック・アドバイザー",
+    reading: "あかでみっくあどばいざー",
     kana: "あ",
     categories: ["higher-ed"],
     summary:
@@ -1498,8 +1498,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "first-year-seminar-academic-skills-transition",
-    title: "初年次セミナー（大学での学修技法と適応指導）",
-    reading: "しょねんじせみなーだいがくでのがくしゅうぎほうとてきおうしどう",
+    title: "初年次セミナー（導入教育）",
+    reading: "しょねんじせみなー",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1511,9 +1511,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "academic-writing-citation-plagiarism-prevention",
-    title: "論文執筆指導と研究不正・盗用の防止教育",
-    reading: "ろんぶんしっぴつしどうとけんきゅうふせいとうようのぼうしきょういく",
-    kana: "ろ",
+    title: "アカデミック・ライティング",
+    reading: "あかでみっくらいてぃんぐ",
+    kana: "あ",
     categories: ["higher-ed"],
     summary:
       "学術的誠実性に基づき、適切な引用作法や研究倫理を教育し、不正行為や文章の無断盗用を防止するための指導実践体系。",
@@ -1524,8 +1524,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "placement-testing-developmental-education",
-    title: "プレースメントテストによる習熟度別指導",
-    reading: "ぷれーすめんとてすとによるしゅうじゅくどべつしどう",
+    title: "プレースメントテスト指導",
+    reading: "ぷれーすめんとてすとしどう",
     kana: "ふ",
     categories: ["higher-ed"],
     summary:
@@ -1537,8 +1537,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "student-success-center-retention-support",
-    title: "スチューデント・サクセス（学生総合支援体制）",
-    reading: "すちゅーでんとさくせすがくせいそうごうしえんたいせい",
+    title: "スチューデントサクセス支援",
+    reading: "すちゅーでんとさくせすしえん",
     kana: "す",
     categories: ["higher-ed"],
     summary:
@@ -1550,9 +1550,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "career-center-internship-coordination",
-    title: "キャリアセンターによる就職支援と産学連携",
-    reading: "きゃりあせんたーによるしゅうしょくしえんとさんがくれんけい",
-    kana: "き",
+    title: "大学キャリアセンター機能",
+    reading: "だいがくきゃりあせんたーきのう",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "学生の社会的・職業的自立を促すため、低学年次からのキャリア教育や優良企業との産学協働インターンシップを統括する専門組織。",
@@ -1563,9 +1563,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "student-counseling-harassment-prevention",
-    title: "学生相談室の機能とハラスメント防止体制",
-    reading: "がくせいそうだんしつのきのうとはらすめんとぼうしたいせい",
-    kana: "か",
+    title: "大学学生相談・ハラスメント防止",
+    reading: "だいがくがくせいそうだんはらすめんとぼうし",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "臨床心理士等の専門家が心身の悩みや対人関係の相談に応じ、アカデミック・ハラスメントや性暴力の防止と救済を担う支援機構。",
@@ -1576,8 +1576,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "disability-student-services-accommodations",
-    title: "障がい学生支援室（合理的配慮と学修支援）",
-    reading: "しょうがいがくせいしえんしつごうりてきはいりょとがくしゅうしえん",
+    title: "障がい学生支援室（高等教育）",
+    reading: "しょうがいがくせいしえんしつ",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1589,9 +1589,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "international-student-support-peer-tutoring",
-    title: "留学生支援体制（チューター制度と生活支援）",
-    reading: "りゅうがくせいしえんたいせいちゅーたーせいどとせいかつしえん",
-    kana: "り",
+    title: "大学留学生チューター支援",
+    reading: "だいがくりゅうがくせいちゅーたーしえん",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "外国人留学生が日本の大学での学修と地域生活に円滑に適応できるよう、在学生によるチューター配置や在留支援等を行う総合体制。",
@@ -1602,8 +1602,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "english-medium-degree-programs-globalization",
-    title: "英語による学位取得プログラムの開設と運営",
-    reading: "えいごによるがくいしゅとくぷろぐらむのかいせつとうんえい",
+    title: "英語学位取得プログラム",
+    reading: "えいごがくいしゅとくぷろぐらむ",
     kana: "え",
     categories: ["higher-ed"],
     summary:
@@ -1615,9 +1615,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "double-degree-bilateral-university-programs",
-    title: "ダブル・ディグリー（複数大学間協定学位）",
-    reading: "だぶるでぃぐりーふくすうだいがくかんきょうていがくい",
-    kana: "た",
+    title: "複数大学間ダブルディグリー",
+    reading: "ふくすうだいがくかんだぶるでぃぐりー",
+    kana: "ふ",
     categories: ["higher-ed"],
     summary:
       "国内外の連携大学間での単位互換と共同指導により、所定の要件を満たした学生に対して双方の大学から各々の学位を授与する制度。",
@@ -1628,9 +1628,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "joint-degree-cooperative-curriculum-system",
-    title: "ジョイント・ディグリー（共同学位専攻制度）",
-    reading: "じょいんとでぃぐりーきょうどうがくいせんこうせいど",
-    kana: "し",
+    title: "共同学位制度（ジョイント）",
+    reading: "きょうどうがくいせいど",
+    kana: "き",
     categories: ["higher-ed"],
     summary:
       "複数の大学が共同で単一の専攻を設置し、緊密に連携した単一の共同教育課程を編成して連名の単一学位を授与する制度枠組み。",
@@ -1641,8 +1641,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "short-term-study-abroad-summer-semester",
-    title: "短期留学プログラム（サマーセッション等）",
-    reading: "たんきりゅうがくぷろぐらむさまーせっしょんとう",
+    title: "大学短期留学プログラム",
+    reading: "だいがくたんきりゅうがくぷろぐらむ",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1654,8 +1654,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "diploma-supplement-international-mobility",
-    title: "ディプロマ・サプリメント（学修歴証明書）",
-    reading: "でぃぷろまさぷりめんとがくしゅうれきしょうめいしょ",
+    title: "ディプロマ・サプリメント",
+    reading: "でぃぷろまさぷりめんと",
     kana: "て",
     categories: ["higher-ed"],
     summary:
@@ -1667,8 +1667,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "micro-credentials-higher-education-modular",
-    title: "マイクロクレデンシャル（知識技能の短期認証）",
-    reading: "まいくろくれでんしゃるちしきぎのうのたんきにんしょう",
+    title: "マイクロクレデンシャル",
+    reading: "まいくろくれでんしゃる",
     kana: "ま",
     categories: ["higher-ed"],
     summary:
@@ -1680,8 +1680,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "open-badges-digital-credentials-learning-outcomes",
-    title: "オープンバッジによる学修成果のデジタル証明",
-    reading: "おーぷんばっじによるがくしゅうせいかのでじたるしょうめい",
+    title: "オープンバッジ学修証明",
+    reading: "おーぷんばっじがくしゅうしょうめい",
     kana: "お",
     categories: ["higher-ed"],
     summary:
@@ -1693,8 +1693,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-extension-center-lifelong-learning",
-    title: "大学公開講座とエクステンション・センター",
-    reading: "だいがくこうかいこうざとえくすてんしょんせんたー",
+    title: "大学エクステンション講座",
+    reading: "だいがくえくすてんしょんこうざ",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -1706,8 +1706,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "bp-vocational-practical-capability-programs",
-    title: "職業実践力育成プログラム（文科省BP認定）",
-    reading: "しょくぎょうじっせんりょくいくせいぷろぐらむもんかしょうびーぴーにんてい",
+    title: "職業実践力育成プログラム",
+    reading: "しょくぎょうじっせんりょくいくせいぷろぐらむ",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1719,8 +1719,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "reskilling-graduate-certificate-programs",
-    title: "社会人リスキリング大学院プログラムの展開",
-    reading: "しゃかいじんりすきりんぐだいがくいんぷろぐらむのてんかい",
+    title: "社会人リスキリング大学院",
+    reading: "しゃかいじんりすきりんぐだいがくいん",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1732,8 +1732,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "auditing-student-system-credit-acquisition",
-    title: "聴講生・科目等履修生による単位認定と生涯学習",
-    reading: "ちょうこうせいかもくとうりしゅうせいによるたんいにんていとしょうがいがくしゅう",
+    title: "聴講生・科目履修と単位",
+    reading: "ちょうこうせいかもくりしゅうとたんい",
     kana: "ち",
     categories: ["higher-ed"],
     summary:
@@ -1745,8 +1745,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "extended-study-period-system-working-students",
-    title: "長期履修学生制度（社会人・育児中学生の支援）",
-    reading: "ちょうきりしゅうがくせいせいどしゃかいじんいくじちゅうがくせいのしえん",
+    title: "長期履修学生制度",
+    reading: "ちょうきりしゅうがくせいせいど",
     kana: "ち",
     categories: ["higher-ed"],
     summary:
@@ -1758,8 +1758,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "professional-graduate-schools-quality-framework",
-    title: "専門職大学院の質保証と高度専門職業人養成",
-    reading: "せんもんしょくだいがくいんのしつほしょうとこうどせんもんしょくぎょうじんようせい",
+    title: "専門職大学院の質保証",
+    reading: "せんもんしょくだいがくいんのしつほしょう",
     kana: "せ",
     categories: ["higher-ed"],
     summary:
@@ -1771,8 +1771,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "professional-school-for-teacher-education",
-    title: "教職大学院におけるスクールリーダー育成機能",
-    reading: "きょうしょくだいがくいんにおけるすくーるりーだーいくせいきのう",
+    title: "教職大学院リーダー育成",
+    reading: "きょうしょくだいがくいんりーだーいくせい",
     kana: "き",
     categories: ["higher-ed"],
     summary:
@@ -1784,8 +1784,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "law-school-juris-doctor-judicial-examination",
-    title: "法科大学院（法曹養成連携協定と修了選抜）",
-    reading: "ほうかだいがくいんほうそうようせいれんけいきょうていとしゅうりょうせんばつ",
+    title: "法科大学院・法曹養成協定",
+    reading: "ほうかだいがくいんほうそうようせいきょうてい",
     kana: "ほ",
     categories: ["higher-ed"],
     summary:
@@ -1797,8 +1797,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "business-school-case-method-instruction",
-    title: "経営管理大学院（ケースメソッド授業の実践）",
-    reading: "けいえいかんりだいがくいんけーすめそっどじゅぎょうのじっせん",
+    title: "経営管理大学院ケース教育",
+    reading: "けいえいかんりだいがくいんけーすきょういく",
     kana: "け",
     categories: ["higher-ed"],
     summary:
@@ -1810,8 +1810,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "doctoral-program-diverse-career-pathways",
-    title: "博士後期課程のキャリア多様化支援施策",
-    reading: "はかせこうきかていのきゃりあたようかしえんせさく",
+    title: "博士課程キャリア多様化支援",
+    reading: "はかせかていきゃりあたようかしえん",
     kana: "は",
     categories: ["higher-ed"],
     summary:
@@ -1823,9 +1823,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "jsps-research-fellowship-dc-pd-system",
-    title: "日本学術振興会特別研究員（学振DC・PD制度）",
-    reading: "にほんがくじゅつしんこうかいとくべつけんきゅういんがくしんでぃーしーぴーでぃーせいど",
-    kana: "に",
+    title: "学振特別研究員（DC・PD）",
+    reading: "がくしんとくべつけんきゅういん",
+    kana: "か",
     categories: ["higher-ed"],
     summary:
       "将来の学術研究を担う優れた若手研究者に対し、研究奨励金と科学研究費補助金を支給して自由な発想による研究に専念させる公的助成制度。",
@@ -1836,8 +1836,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "jst-spring-doctoral-student-support-program",
-    title: "次世代研究者挑戦的研究プログラム（SPRING支援）",
-    reading: "じせだいけんきゅうしゃちょうせんてきけんきゅうぷろぐらむすぷりんぐしえん",
+    title: "次世代研究者挑戦的研究支援",
+    reading: "じせだいけんきゅうしゃちょうせんてきけんきゅうしえん",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -1849,9 +1849,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "teaching-assistant-pre-fd-training-scheme",
-    title: "ティーチング・アシスタントの育成と指導参加",
-    reading: "てぃーちんぐあしすたんとのいくせいとしどうさんか",
-    kana: "て",
+    title: "TA育成とプレFD指導",
+    reading: "てぃーえーいくせいとぷれえふでぃーしどう",
+    kana: "A–Z",
     categories: ["higher-ed"],
     summary:
       "大学院生が学部授業等の教育補助業務に従事して経済的支援を得るとともに、将来の大学教員としての教育指導力を養うプレFD制度。",
@@ -1862,9 +1862,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "research-assistant-doctoral-research-funding",
-    title: "リサーチ・アシスタント（研究補助と経済支援）",
-    reading: "りさーちあしすたんとけんきゅうほじょとけいざいしえん",
-    kana: "り",
+    title: "RA制度と博士研究支援",
+    reading: "あーるえーせいどとはかせけんきゅうしえん",
+    kana: "A–Z",
     categories: ["higher-ed"],
     summary:
       "大学院博士課程の学生が大学の研究プロジェクトに研究補助者として参画し、研究手当の支給を受けて研究に専念できる制度枠組み。",
@@ -1875,8 +1875,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "postdoctoral-fellows-industry-academia-bridge",
-    title: "ポストドクターの産業界等への多様なキャリア展開",
-    reading: "ぽすとどくたーのさんぎょうかいとうへのたようなきゃりあてんかい",
+    title: "ポスドク産業界キャリア展開",
+    reading: "ぽすどくさんぎょうかいきゃりあてんかい",
     kana: "ほ",
     categories: ["higher-ed"],
     summary:
@@ -1888,8 +1888,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "tenure-track-system-young-researchers-autonomy",
-    title: "テニュアトラック教員の自立的研究環境整備",
-    reading: "てにゅあとらっくきょういんのじりつてきけんきゅうかんきょうせいび",
+    title: "テニュアトラック研究環境",
+    reading: "てにゅあとらっくけんきゅうかんきょう",
     kana: "て",
     categories: ["higher-ed"],
     summary:
@@ -1901,8 +1901,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "cross-appointment-university-industry-agreements",
-    title: "クロスアポイントメント協定と産学機関連携",
-    reading: "くろすあぽいんとめんときょうていとさんがくきかんれんけい",
+    title: "クロスアポイントメント産学協定",
+    reading: "くろすあぽいんとめんとさんがくきょうてい",
     kana: "く",
     categories: ["higher-ed"],
     summary:
@@ -1914,9 +1914,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "faculty-performance-evaluation-multi-domain",
-    title: "教員評価制度（教育・研究・社会貢献の多面評価）",
-    reading: "きょういんひょうかせいどきょういくけんきゅうしゃかいこうけんのためんひょうか",
-    kana: "き",
+    title: "大学教員多面評価制度",
+    reading: "だいがくきょういんためんひょうかせいど",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "大学教員の活動を教育、学術研究、社会貢献、大学運営の各領域から客観的に把握・評価し、処遇や教育改善に反映させる総合制度。",
@@ -1927,9 +1927,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "peer-observation-class-visitation-fd",
-    title: "公開授業と授業相互参観（FD実践の活性化）",
-    reading: "こうかいじゅぎょうとじゅぎょうそうごさんかんえふでぃーじっせんのかっせいか",
-    kana: "こ",
+    title: "授業相互参観（FD実践）",
+    reading: "じゅぎょうそうごさんかん",
+    kana: "し",
     categories: ["higher-ed"],
     summary:
       "教員同士が互いの講義や演習を参観し合い、授業方法や学生の反応について建設的な意見交換を行う参加型の教育改善活動。",
@@ -1940,8 +1940,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "staff-development-mandatory-professionalization",
-    title: "スタッフ・ディベロップメントの全学的展開",
-    reading: "すたっふでぃべろっぷめんとのぜんがくてきてんかい",
+    title: "スタッフディベロップメント展開",
+    reading: "すたっふでぃべろっぷめんとてんかい",
     kana: "す",
     categories: ["higher-ed"],
     summary:
@@ -1953,9 +1953,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "institutional-research-data-driven-management",
-    title: "インスティテューショナル・リサーチと大学改革",
-    reading: "いんすてぃてゅーしょなるりさーちとだいがくかいかく",
-    kana: "い",
+    title: "データ駆動型大学IR",
+    reading: "でーたくどうがただいがくあいあーる",
+    kana: "て",
     categories: ["higher-ed"],
     summary:
       "学生の学修データ、教員の研究業績、財務・入試データ等を収集・分析し、データに基づく大学経営と教学改善を支援する機能。",
@@ -1966,8 +1966,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "qualitative-transformation-undergraduate-education",
-    title: "学士課程教育の質的転換と主体的学修への転換",
-    reading: "がくしかていきょういくのしつてきてんかんとしゅたいてきがくしゅうへのてんかん",
+    title: "学士課程教育の質的転換",
+    reading: "がくしかていきょういくのしつてきてんかん",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1979,8 +1979,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "degree-program-system-flexible-curricula",
-    title: "学位プログラム制の導入と組織・課程の柔軟化",
-    reading: "がくいぷろぐらむせいのどうにゅうとそしきかていのじゅうなんか",
+    title: "学位プログラム制の導入",
+    reading: "がくいぷろぐらむせいのどうにゅう",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -1992,8 +1992,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "faculty-reorganization-establishment-exceptions",
-    title: "学部・学科再編と社会的ニーズへの即応体制",
-    reading: "がくぶがっかさいへんとしゃかいてきにーずへのそくおうたいせい",
+    title: "学部学科再編と即応体制",
+    reading: "がくぶがっかさいへんとそくおうたいせい",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -2005,8 +2005,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "regional-core-distinctive-research-universities",
-    title: "地域中核・特色ある研究大学総合振興パッケージ",
-    reading: "ちいきちゅうかくとくしょくあるけんきゅうだいがくそうごうしんこうぱっけーじ",
+    title: "地域中核特色ある研究大学",
+    reading: "ちいきちゅうかくとくしょくあるけんきゅうだいがく",
     kana: "ち",
     categories: ["higher-ed"],
     summary:
@@ -2018,8 +2018,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "universities-for-international-research-excellence",
-    title: "国際卓越研究大学制度（世界最高水準の研究環境）",
-    reading: "こくさいたくえつけんきゅうだいがくせいどせかいさいこうすいじゅんのけんきゅうかんきょう",
+    title: "国際卓越研究大学の認定",
+    reading: "こくさいたくえつけんきゅうだいがくのにんてい",
     kana: "こ",
     categories: ["higher-ed"],
     summary:
@@ -2031,8 +2031,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "designated-national-university-corporation-power",
-    title: "指定国立大学法人制度と国際競争力強化戦略",
-    reading: "していこくりつだいがくほうじんせいどとこくさいきょうそうりょくきょうかせんりゃく",
+    title: "指定国立大学法人戦略",
+    reading: "していこくりつだいがくほうじんせんりゃく",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -2044,8 +2044,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "national-university-management-expenses-grant",
-    title: "国立大学法人運営費交付金の重点配分方式",
-    reading: "こくりつだいがくほうじんうんえいひこうふきんのじゅうてんはいふんほうしき",
+    title: "国立大学運営費重点配分",
+    reading: "こくりつだいがくうんえいひじゅうてんはいふん",
     kana: "こ",
     categories: ["higher-ed"],
     summary:
@@ -2057,9 +2057,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "campus-facility-maintenance-subsidies-safety",
-    title: "施設整備費補助金による教育研究環境の長寿命化",
-    reading: "しせつせつびひほじょきんによるきょういくけんきゅうかんきょうのちょうじゅみょうか",
-    kana: "し",
+    title: "大学施設整備費補助金",
+    reading: "だいがくしせつせつびひほじょきん",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "老朽化した大学キャンパスの校舎や研究施設に対し、耐震改修や長寿命化改修、安全対策を支援する国の公的補助金制度。",
@@ -2070,8 +2070,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "private-school-subsidies-general-special",
-    title: "私立大学等経常費補助金の算定基準と機能",
-    reading: "しりつだいがくとうけいじょうひほじょきんのさんていきじゅんときのう",
+    title: "私立大学等経常費補助金",
+    reading: "しりつだいがくとうけいじょうひほじょきん",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -2083,8 +2083,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "private-universities-under-enrollment-guidance",
-    title: "私立大学の定員割れと私学事業団による経営支援",
-    reading: "しりつだいがくのていいんわれとしがくじぎょうだんによるけいえいしえん",
+    title: "私大定員割れと経営支援",
+    reading: "しだいていいんわれとけいえいしえん",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -2096,8 +2096,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "school-corporation-mergers-reorganization",
-    title: "学校法人の合併・事業譲渡と高等教育再編動向",
-    reading: "がっこうほうじんのがっぺいじぎょうじょうとうとこうとうきょういくさいへんどうこう",
+    title: "学校法人合併と事業譲渡",
+    reading: "がっこうほうじんがっぺいとじぎょうじょうとう",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -2109,8 +2109,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-cooperation-promotion-corporation",
-    title: "大学等連携推進法人制度（国公私立の連携協働）",
-    reading: "だいがくとうれんけいすいしんほうじんせいどこっこうしりつのれんけいきょうどう",
+    title: "大学等連携推進法人制度",
+    reading: "だいがくとうれんけいすいしんほうじんせいど",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -2122,8 +2122,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "professional-junior-colleges-vocational-skills",
-    title: "専門職短期大学（高度な実践技能の短期育成）",
-    reading: "せんもんしょくたんきだいがくこうどなじっせんぎのうのたんきいくせい",
+    title: "専門職短期大学制度",
+    reading: "せんもんしょくたんきだいがくせいど",
     kana: "せ",
     categories: ["higher-ed"],
     summary:
@@ -2135,8 +2135,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "kosen-five-year-curriculum-transfer-pathways",
-    title: "高等専門学校（高専）の5年一貫教育と編入学",
-    reading: "こうとうせんもんがっこうこうせんのごねんいっかんきょういくとへんにゅうがく",
+    title: "高等専門学校5年一貫教育",
+    reading: "こうとうせんもんがっこうごねんいっかんきょういく",
     kana: "こ",
     categories: ["higher-ed"],
     summary:
@@ -2148,9 +2148,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "common-test-thinking-judgment-question-design",
-    title: "大学入学共通テストにおける思考力重視の出題",
-    reading: "だいがくにゅうがくきょうつうてすとにおけるしこうりょくじゅうしのしゅつだい",
-    kana: "た",
+    title: "共通テスト思考力出題",
+    reading: "きょうつうてすとしこうりょくしゅつだい",
+    kana: "き",
     categories: ["higher-ed"],
     summary:
       "単なる知識の再生ではなく、複数の図表や対話文、日常的文脈から情報を統合・判断させ、思考力・判断力・表現力を問う出題設計。",
@@ -2161,8 +2161,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "comprehensive-selection-inquiry-interview-evaluation",
-    title: "総合型選抜における探究活動の成果・面接評価",
-    reading: "そうごうがたせんばつにおけるたんきゅうかつどうのせいかめんせつひょうか",
+    title: "総合型選抜探究活動評価",
+    reading: "そうごうがたせんばつたんきゅうかつどうひょうか",
     kana: "そ",
     categories: ["higher-ed"],
     summary:
@@ -2174,8 +2174,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "school-recommendation-selection-designated-open",
-    title: "学校推薦型選抜における調査書と志望理由書の多面評価",
-    reading: "がっこうすいせんがたせんばつにおけるちょうさしょとしぼうりゆうしょのためんひょうか",
+    title: "学校推薦型選抜多面評価",
+    reading: "がっこうすいせんがたせんばつためんひょうか",
     kana: "か",
     categories: ["higher-ed"],
     summary:
@@ -2187,8 +2187,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "general-selection-three-elements-academic-ability",
-    title: "一般選抜における学力の3要素の多面的評価",
-    reading: "いっぱんせんばつにおけるがくりょくのさんようそのためんてきひょうか",
+    title: "一般選抜学力3要素評価",
+    reading: "いっぱんせんばつがくりょくさんようそひょうか",
     kana: "い",
     categories: ["higher-ed"],
     summary:
@@ -2200,8 +2200,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "high-school-university-articulation-agreements",
-    title: "高大連携協定（高校生への大学講義開放と協働）",
-    reading: "こうだいれんけいきょうていこうこうせいへのだいがくこうぎかいほうときょうどう",
+    title: "高大連携協定（講義開放）",
+    reading: "こうだいれんけいきょうてい",
     kana: "こ",
     categories: ["higher-ed"],
     summary:
@@ -2213,9 +2213,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "open-campus-sample-lectures-information-guidance",
-    title: "出前講義とオープンキャンパスによる進路啓発",
-    reading: "でまえこうぎとおーぷんきゃんぱすによるしんろけいはつ",
-    kana: "て",
+    title: "大学出前講義とオープンキャンパス",
+    reading: "だいがくでまえこうぎとおーぷんきゃんぱす",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "大学教員が高校に出向く模擬講義や、高校生が大学を訪問して教育・学生生活を実体験する広報・進路指導プログラム。",
@@ -2226,9 +2226,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "higher-ed-study-support-screening-criteria",
-    title: "高等教育修学支援新制度の家計基準と審査運用",
-    reading: "こうとうきょういくしゅうがくしえんしんせいどのかけいきじゅんとしんさうんよう",
-    kana: "こ",
+    title: "修学支援新制度審査基準",
+    reading: "しゅうがくしえんしんせいどしんさきじゅん",
+    kana: "し",
     categories: ["higher-ed"],
     summary:
       "低所得世帯の学生を対象に授業料等減免と給付型奨学金をセットで支給する国の制度であり、住民税非課税基準と資産基準による審査枠組み。",
@@ -2239,9 +2239,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "jasso-student-loans-type-one-and-two",
-    title: "日本学生支援機構（貸与型奨学金の制度設計）",
-    reading: "にほんがくせいしえんきこうたいよがたしょうがくきのせいどせっけい",
-    kana: "に",
+    title: "JASSO貸与型制度設計",
+    reading: "じゃっそたいよがたせいどせっけい",
+    kana: "A–Z",
     categories: ["higher-ed"],
     summary:
       "独立行政法人日本学生支援機構が運営する、無利子の第一種と有利子の第二種からなる国内最大の大学生向け貸与型奨学金体系。",
@@ -2252,8 +2252,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "income-contingent-repayment-postponed-tuition",
-    title: "授業料後払い制度（所得連動型返還の仕組み）",
-    reading: "じゅぎょうりょうあとばらいせいどしょとくれんどうがたへんかんのしくみ",
+    title: "授業料後払い・所得連動返還",
+    reading: "じゅぎょうりょうあとばらいしょとくれんどうへんかん",
     kana: "し",
     categories: ["higher-ed"],
     summary:
@@ -2265,9 +2265,9 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "student-dormitory-residential-life-support",
-    title: "学生宿舎・学生寮の整備とキャンパス生活支援",
-    reading: "がくせいしゅくしゃがくせいりょうのせいびときゃんぱすせいかつしえん",
-    kana: "か",
+    title: "大学学生寮・宿舎生活支援",
+    reading: "だいがくがくせいりょうしゅくしゃせいかつしえん",
+    kana: "た",
     categories: ["higher-ed"],
     summary:
       "遠隔地出身者や留学生の生活基盤を保障し、共同生活を通じた人間形成や多文化共修を促す学生寮の近代化と運営体制。",
@@ -2278,8 +2278,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-coop-student-welfare-health-support",
-    title: "大学生協による学生福利厚生と健康推進活動",
-    reading: "だいがくせいきょうによるがくせいふくりこうせいとけんこうすいしんかつどう",
+    title: "大学生協学生福利厚生",
+    reading: "だいがくせいきょうがくせいふくりこうせい",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -2291,8 +2291,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "campus-barrier-free-universal-design-spaces",
-    title: "大学キャンパスのバリアフリー化と環境整備",
-    reading: "だいがくきゃんぱすのばりあふりーかとかんきょうせいび",
+    title: "大学キャンパスバリアフリー",
+    reading: "だいがくきゃんぱすばりあふりー",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -2304,8 +2304,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "tlo-technology-licensing-intellectual-property",
-    title: "技術移転機関（TLOによる研究成果の社会還元）",
-    reading: "ぎじゅついてんきかんてぃーえるおーによるけんきゅうせいかのしゃかいかんげん",
+    title: "技術移転機関（TLO）",
+    reading: "ぎじゅついてんきかん",
     kana: "き",
     categories: ["higher-ed"],
     summary:
@@ -2317,8 +2317,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-spin-off-startups-incubation",
-    title: "大学発ベンチャー創出支援とインキュベーション",
-    reading: "だいがくはつべんちゃーそうしゅつしえんといんきゅべーしょん",
+    title: "大学発ベンチャー創出支援",
+    reading: "だいがくはつべんちゃーそうしゅつしえん",
     kana: "た",
     categories: ["higher-ed"],
     summary:
@@ -2330,8 +2330,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "center-of-community-coc-regional-revitalization",
-    title: "地（知）の拠点大学による地域課題解決型研究",
-    reading: "ちのきょてんだいがくによるちいきかだいかいけつがたけんきゅう",
+    title: "地（知）の拠点大学COC",
+    reading: "ちのきょてんだいがくしーおーしー",
     kana: "ち",
     categories: ["higher-ed"],
     summary:
@@ -2343,8 +2343,8 @@ export const higherEdTerms: Term[] = [
   },
   {
     slug: "university-social-responsibility-sustainability",
-    title: "大学の社会的責任（USR活動と持続可能性貢献）",
-    reading: "だいがくのしゃかいてきせきにんゆーえすあーるかつどうとじぞくかのうせいこうけん",
+    title: "大学の社会的責任（USR）",
+    reading: "だいがくのしゃかいてきせきにん",
     kana: "た",
     categories: ["higher-ed"],
     summary:
