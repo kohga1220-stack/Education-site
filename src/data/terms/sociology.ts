@@ -1082,8 +1082,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "bourdieu-embodied-cultural-capital",
-    title: "身体化された文化資本（ハビトゥスと身体所作）",
-    reading: "しんたいかされたぶんかしほん（はびとぅすとしんたいしょさ）",
+    title: "身体化された文化資本",
+    reading: "しんたいかされたぶんかしほん",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1095,8 +1095,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "bourdieu-objectified-cultural-capital",
-    title: "客体化された文化資本（書籍・芸術品と家庭環境）",
-    reading: "きゃくたいかされたぶんかしほん（しょせき・げいじゅつひんとかていかんきょう）",
+    title: "客体化された文化資本",
+    reading: "きゃくたいかされたぶんかしほん",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -1108,8 +1108,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "bourdieu-institutionalized-cultural-capital",
-    title: "制度化された文化資本（学歴・公的資格の効力）",
-    reading: "せいどかされたぶんかしほん（がくれき・こうてきしかくのこうりょく）",
+    title: "制度化された文化資本",
+    reading: "せいどかされたぶんかしほん",
     kana: "せ",
     categories: ["sociology"],
     summary:
@@ -1121,8 +1121,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "bernstein-restricted-code-speech",
-    title: "制限コード（日常的・文脈依存的言語様式）",
-    reading: "せいげんこーど（にちじょうてき・ぶんみゃくいぞんてきげんごようしき）",
+    title: "制限コード",
+    reading: "せいげんこーど",
     kana: "せ",
     categories: ["sociology"],
     summary:
@@ -1134,8 +1134,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "bernstein-elaborated-code-speech",
-    title: "精密コード（脱文脈的・普遍主義的言語様式）",
-    reading: "せいみつこーど（だつぶんみゃくてき・ふへんしゅぎてきげんごようしき）",
+    title: "精密コード",
+    reading: "せいみつこーど",
     kana: "せ",
     categories: ["sociology"],
     summary:
@@ -1147,8 +1147,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "strong-and-weak-classification-knowledge",
-    title: "分類の強弱（知識領域の境界づけと権力関係）",
-    reading: "ぶんるいのきょうじゃく（ちしきりょういきのきょうかいづけとけんりょくかんけい）",
+    title: "分類の強弱（知識分類）",
+    reading: "ぶんるいのきょうじゃく",
     kana: "ふ",
     categories: ["sociology"],
     summary:
@@ -1160,8 +1160,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "strong-and-weak-framing-pedagogy",
-    title: "枠づけの強弱（授業における主導権と統制）",
-    reading: "わくづけのきょうじゃく（じゅぎょうにおけるしゅどうけんととうせい）",
+    title: "枠づけの強弱（教授統制）",
+    reading: "わくづけのきょうじゃく",
     kana: "わ",
     categories: ["sociology"],
     summary:
@@ -1173,8 +1173,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "collection-integrated-code-curriculum",
-    title: "コレクション・コードと統合コード",
-    reading: "これくしょん・こーどととうごうこーど",
+    title: "コレクション・コード",
+    reading: "これくしょんこーど",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -1186,8 +1186,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "paul-willis-counter-school-culture-lads",
-    title: "対抗文化（ウィリスのラッズ研究と労働者文化）",
-    reading: "たいこうぶんか（うぃりすのらっずけんきゅうとろうどうしゃぶんか）",
+    title: "対抗文化（ラッズ研究）",
+    reading: "たいこうぶんか",
     kana: "た",
     categories: ["sociology"],
     summary:
@@ -1199,9 +1199,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "bowles-gintis-structural-correspondence",
-    title: "学校と労働市場の構造的対応関係（ボウルズとギンティス）",
-    reading: "がっこうとろうどうしじょうのこうぞうてきたいおうかんけい（ぼうるずとぎんてぃす）",
-    kana: "か",
+    title: "対応関係（学校と労働市場）",
+    reading: "たいおうかんけい",
+    kana: "た",
     categories: ["sociology"],
     summary:
       "ボウルズとギンティスが唱えた、学校の階層的規律や賞罰関係が資本主義の労働現場における支配従属関係と構造的に相似しているとする原理。",
@@ -1212,9 +1212,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "kariya-incentive-divide-learning-gap",
-    title: "インセンティブ・ディバイド（意欲の階層差）",
-    reading: "いんせんてぃぶ・でぃばいど（いよくのかいそうさ）",
-    kana: "い",
+    title: "学習意欲の階層差",
+    reading: "がくしゅういよくのかいそうさ",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "日本の教育社会学で提唱された、学習意欲の有無が個人の自律的な資質ではなく出身家庭の階層的背景によって分断され、学力格差を拡大させる現象。",
@@ -1225,8 +1225,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "shimizu-effective-school-organization",
-    title: "効果のある学校（学力格差を克服する学校組織）",
-    reading: "こうかのあるがっこう（がくりょくかくさをこくふくするがっこうそしき）",
+    title: "効果のある学校",
+    reading: "こうかのあるがっこう",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -1238,9 +1238,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "socioeconomic-status-ses-achievement",
-    title: "家庭の社会経済的背景と学力格差",
-    reading: "かていのしゃかいけいざいてきはいけいとがくりょくかくさ",
-    kana: "か",
+    title: "SESと学力格差",
+    reading: "えすいーえすとがくりょくかくさ",
+    kana: "A–Z",
     categories: ["sociology"],
     summary:
       "保護者の所得や学歴、職業など複合的な家庭背景が子どもの学習環境や認知発達、学業成績の格差を規定する構造的な社会問題。",
@@ -1251,9 +1251,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "parentocracy-shadow-education-spending",
-    title: "ペアレントクラシーと学校外教育投資",
-    reading: "ぺあれんとくらしーとがっこうがいきょういくとうし",
-    kana: "へ",
+    title: "学校外教育投資",
+    reading: "がっこうがいきょういくとうし",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "子どもの教育達成や選抜が本人の能力や努力ではなく、親の財力や願望、学校外教育への課金力に左右される親主義的選抜状況。",
@@ -1264,9 +1264,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "early-childhood-education-parental-intensive",
-    title: "早期教育の過熱と意図的養育の広がり",
-    reading: "そうききょういくのかねつといとてきよういくのひろがり",
-    kana: "そ",
+    title: "集中養育（早期教育）",
+    reading: "しゅうちゅうよういく",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "幼児期から知育や習い事に計画的な投資を行い、子どもの認知的・非認知的スキルを意図的に育成しようとする養育行動の拡大現象。",
@@ -1277,8 +1277,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "shadow-education-cram-school-expansion",
-    title: "影の教育（学習塾・予備校の産業的拡大）",
-    reading: "かげのきょういく（がくしゅうじゅく・よびこうのさんぎょうてきかくだい）",
+    title: "学習塾の産業的展開",
+    reading: "がくしゅうじゅくのさんぎょうてきてんかい",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -1290,8 +1290,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "cram-school-attendance-income-disparity",
-    title: "通塾格差（世帯所得による学校外教育費格差）",
-    reading: "つうじゅくかくさ（せたいしょとくによるがっこうがいきょういくひかくさ）",
+    title: "通塾格差",
+    reading: "つうじゅくかくさ",
     kana: "つ",
     categories: ["sociology"],
     summary:
@@ -1303,8 +1303,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "rosenbaum-tournament-mobility-selection",
-    title: "トーナメント移動論（早期選抜と不可逆性）",
-    reading: "とーなめんといどうろん（そうきせんばつとふかぎゃくせい）",
+    title: "トーナメント移動論",
+    reading: "とーなめんといどうろん",
     kana: "と",
     categories: ["sociology"],
     summary:
@@ -1316,8 +1316,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "turner-contest-mobility-model",
-    title: "競争移動モデル（実力主義によるオープンな移動）",
-    reading: "きょうそういどうもでる（じつりょくしゅぎによるおーぷんないどう）",
+    title: "競争移動モデル",
+    reading: "きょうそういどうもでる",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -1329,8 +1329,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "turner-sponsored-mobility-model",
-    title: "庇護移動モデル（選抜エリートの早期育成）",
-    reading: "ひごいどうもでる（せんばつえりーとのそうきいくせい）",
+    title: "庇護移動モデル",
+    reading: "ひごいどうもでる",
     kana: "ひ",
     categories: ["sociology"],
     summary:
@@ -1342,9 +1342,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "tracking-differentiation-educational-opportunity",
-    title: "トラッキングによる進路分化と機会格差",
-    reading: "とらっきんぐによるしんろぶんかときかいかくさ",
-    kana: "と",
+    title: "進路分化と機会格差",
+    reading: "しんろぶんかときかいかくさ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "学力や進路志望に応じて生徒を異なる教育課程やコースに振り分けることで、生徒間の学習経験や将来の進路機会に生じる分断と格差。",
@@ -1355,8 +1355,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "high-school-stratification-tiering",
-    title: "高校の階層構造（進学校と困難校の機能分化）",
-    reading: "こうこうのかいそうこうぞう（しんがっこうとこんなんこうのきのうぶんか）",
+    title: "高校の階層構造",
+    reading: "こうこうのかいそうこうぞう",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -1368,8 +1368,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "designated-school-job-offer-system",
-    title: "指定校求人制度（高校就職の安定斡旋機能）",
-    reading: "していこうきゅうじんせいど（こうこうしゅうしょくのあんていあっせんきのう）",
+    title: "指定校求人制度",
+    reading: "していこうきゅうじんせいど",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1381,9 +1381,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "public-employment-security-school-placement",
-    title: "ハローワークと高校就職指導の連携体制",
-    reading: "はろーわーくとこうこうしゅうしょくしどうのれんけいたいせい",
-    kana: "は",
+    title: "高校就職指導と職安連携",
+    reading: "こうこうしゅうしょくしどうとしょくあんれんけい",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "職業安定法に基づき、公共職業安定所と高校が緊密に連携して求人開拓から就職相談までを組織的に行う日本の職業紹介体制。",
@@ -1394,8 +1394,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "university-filtering-screening-recruitment",
-    title: "学歴フィルター（大卒採用選抜の実態と機能）",
-    reading: "がくれきふぃるたー（だいそつさいようせんばつのじったいときのう）",
+    title: "学歴フィルター",
+    reading: "がくれきふぃるたー",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -1407,8 +1407,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "signaling-theory-spence-job-market",
-    title: "シグナリング理論（労働市場の学歴シグナル）",
-    reading: "しぐなりんぐりろん（ろうどうしじょうのがくれきしぐなる）",
+    title: "シグナリング理論",
+    reading: "しぐなりんぐりろん",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1420,8 +1420,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "screening-hypothesis-arrow-education",
-    title: "スクリーニング仮説（学歴の選抜選別機能）",
-    reading: "すくりーにんぐかせつ（がくれきのせんばつせんべつきのう）",
+    title: "スクリーニング仮説",
+    reading: "すくりーにんぐかせつ",
     kana: "す",
     categories: ["sociology"],
     summary:
@@ -1433,9 +1433,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "social-capital-accumulation-inequality",
-    title: "社会関係資本の蓄積と教育機会の格差",
-    reading: "しゃかいかんけいしほんのちくせきときょういくきかいのかくさ",
-    kana: "し",
+    title: "関係資本と教育格差",
+    reading: "かんけいしほんときょういくかくさ",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "人脈や信頼関係などの社会関係資本の多寡が、進路情報や学習環境の格差を生み出し、教育機会の不平等を世代間で再生産する構造。",
@@ -1446,8 +1446,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "strength-of-weak-ties-granovetter",
-    title: "弱い紐帯の強み（社会的ネットワークと移動）",
-    reading: "よわいちゅうたいのつよみ（しゃかいてきねっとわーくといどう）",
+    title: "弱い紐帯の強み",
+    reading: "よわいちゅうたいのつよみ",
     kana: "よ",
     categories: ["sociology"],
     summary:
@@ -1459,8 +1459,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "educational-homogamy-assortative-mating",
-    title: "学歴同類婚の進展と階層の固定化",
-    reading: "がくれきどうるいこんのしんてんとかいそうのこていか",
+    title: "学歴同類婚と階層固定化",
+    reading: "がくれきどうるいこんとかいそうこていか",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -1472,8 +1472,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "school-attendance-aid-system-disparity",
-    title: "就学援助制度の受給率と自治体間格差",
-    reading: "しゅうがくえんじょせいどのじゅきゅうりつとじちたいかんかくさ",
+    title: "就学援助の自治体格差",
+    reading: "しゅうがくえんじょのじちたいかくさ",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1485,8 +1485,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "children-cafeteria-community-support-learning",
-    title: "こども食堂と子どもの居場所づくり支援",
-    reading: "こどもしょくどうとこどものいばしょづくりしえん",
+    title: "こども食堂（子どもの居場所）",
+    reading: "こどもしょくどう",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -1498,8 +1498,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "young-carer-educational-impact-support",
-    title: "ヤングケアラーの学業影響と学校支援",
-    reading: "やんぐけあらーのがくぎょうえいきょうとがっこうしえん",
+    title: "ヤングケアラー支援体制",
+    reading: "やんぐけあらーしえんたいせい",
     kana: "や",
     categories: ["sociology"],
     summary:
@@ -1511,9 +1511,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "material-deprivation-child-poverty-home",
-    title: "学習環境の剥奪と子どもの貧困実態",
-    reading: "がくしゅうかんきょうのはくだつとこどものひんこんじったい",
-    kana: "か",
+    title: "物質的剥奪（子どもの貧困）",
+    reading: "ぶっしつてきはくだつ",
+    kana: "ふ",
     categories: ["sociology"],
     summary:
       "家庭の経済的困窮により学習机や図書、情報端末などの教育資源を欠き、学力不振や意欲低下を通じて将来の不平等を招く子どもの貧困実態。",
@@ -1524,8 +1524,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "educational-opportunity-securing-act",
-    title: "教育機会確保法と多様な学びの場",
-    reading: "きょういくきかいかくほほうとたようなまなびのば",
+    title: "教育機会確保法の理念",
+    reading: "きょういくきかいかくほほうのりねん",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -1537,9 +1537,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "alternative-school-public-substitutability",
-    title: "フリースクールの社会的機能と公教育連携",
-    reading: "ふりーすくーるのしゃかいてききのうとこうきょういくれんけい",
-    kana: "ふ",
+    title: "オルタナティブ・スクール機能",
+    reading: "おるたなてぃぶすくーるきのう",
+    kana: "お",
     categories: ["sociology"],
     summary:
       "不登校児童生徒に対し個人の自己決定を重んじる学びと居場所を提供し、公教育と連携して学習機会の保障と社会的排除の防止を担う民間施設。",
@@ -1550,8 +1550,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "homeschooling-educational-freedom-state",
-    title: "ホームスクーリングと教育の自由をめぐる議論",
-    reading: "ほーむすくーりんぐときょういくのじゆうをめぐるぎろん",
+    title: "ホームスクーリング",
+    reading: "ほーむすくーりんぐ",
     kana: "ほ",
     categories: ["sociology"],
     summary:
@@ -1563,8 +1563,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "night-junior-high-school-social-inclusion",
-    title: "公立夜間中学校の役割と共生教育",
-    reading: "こうりつやかんちゅうがっこうのやくわりときょうせいきょういく",
+    title: "公立夜間中学校の社会的機能",
+    reading: "こうりつやかんちゅうがっこうのしゃかいてききのう",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -1576,9 +1576,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "part-time-correspondence-high-school-safety",
-    title: "通信制・定時制高校のセーフティネット機能",
-    reading: "つうしんせい・ていじせいこうこうのせーふてぃねっときのう",
-    kana: "つ",
+    title: "定時制通信制の安全網",
+    reading: "ていじせいつうしんせいのあんぜんもう",
+    kana: "て",
     categories: ["sociology"],
     summary:
       "不登校や中退を経験した多様な学習者に柔軟な学びと高校卒業資格の機会を提供し、教育からの脱落と孤立を防ぐ社会的セーフティネット機能。",
@@ -1589,8 +1589,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "high-school-dropouts-social-exclusion",
-    title: "高校中退の背景要因と社会的包摂支援",
-    reading: "こうこうちゅうたいのはいけいよういんとしゃかいてきほうせつしえん",
+    title: "高校中退と社会的排除",
+    reading: "こうこうちゅうたいとしゃかいてきはいじょ",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -1602,8 +1602,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "neet-freeter-school-to-work-transition-crisis",
-    title: "若年無業者・非正規雇用の構造的発生要因",
-    reading: "じゃくねんむぎょうしゃ・ひせいきこようのこうぞうてきはっせいよういん",
+    title: "若年無業者（ニート・フリーター）",
+    reading: "じゃくねんむぎょうしゃ",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1615,8 +1615,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "early-career-instability-non-regular-work",
-    title: "初期キャリアの不安定化と若者移行支援",
-    reading: "しょききゃりあのふあんていかとわかものいこうしえん",
+    title: "初期キャリアの不安定化",
+    reading: "しょききゃりあのふあんていか",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1628,9 +1628,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "professional-universities-social-mobility",
-    title: "専門職大学・専門学校の階層移動機能",
-    reading: "せんもんしょくだいがく・せんもんがっこうのかいそういどうきのう",
-    kana: "せ",
+    title: "高等職業教育と社会移動",
+    reading: "こうとうしょくぎょうきょういくとしゃかいいどう",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "実践的な職業教育と専門技能の習得を通じて特定の産業分野での確実な就職を実現し、学歴偏重の緩和と階層移動を促進する高等教育の機能。",
@@ -1641,8 +1641,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "gender-tracking-subject-choice-stem",
-    title: "ジェンダー・トラッキング（文理選択の偏り）",
-    reading: "じぇんだー・とらっきんぐ（ぶんりせんたくのかたより）",
+    title: "ジェンダー・トラッキング",
+    reading: "じぇんだーとらっきんぐ",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1654,8 +1654,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "stem-girls-underrepresentation-equity",
-    title: "理系分野における女性の過少代表問題",
-    reading: "りけいりょういきにおけるじょせいのかしょうだいひょうもんだい",
+    title: "理系女性の過少代表",
+    reading: "りけいじょせいのかしょうだいひょう",
     kana: "り",
     categories: ["sociology"],
     summary:
@@ -1667,9 +1667,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "hidden-curriculum-gender-role-socialization",
-    title: "隠れたカリキュラムと性別役割の刷り込み",
-    reading: "かくれたかりきゅらむとせいべつやくわりのすりこみ",
-    kana: "か",
+    title: "性別役割社会化（学校）",
+    reading: "せいべつやくわりしゃかいか",
+    kana: "せ",
     categories: ["sociology"],
     summary:
       "明示的な教育計画にはない学校の日常的慣行や教師の言動を通じて、無意識のうちに伝統的な性別役割分業の規範が子どもに伝達される機制。",
@@ -1680,9 +1680,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "single-sex-vs-coeducational-socialization",
-    title: "男女別学と共学のジェンダー社会化比較",
-    reading: "だんじょべつがくときょうがくのじぇんだーしゃかいかひかく",
-    kana: "た",
+    title: "別学と共学の社会化比較",
+    reading: "べつがくときょうがくのしゃかいかひかく",
+    kana: "へ",
     categories: ["sociology"],
     summary:
       "男女別学と男女共学が児童生徒の自尊感情、学業達成、性別役割意識に与える影響を比較し、ジェンダー平等の実現に向けた教育環境を検証する。",
@@ -1693,8 +1693,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "club-activities-gender-norms-practices",
-    title: "部活動における規範形成とジェンダー慣行",
-    reading: "ぶかつどうにおけるきはんけいせいとじぇんだーかんこう",
+    title: "部活動のジェンダー構造",
+    reading: "ぶかつどうのじぇんだーこうぞう",
     kana: "ふ",
     categories: ["sociology"],
     summary:
@@ -1706,9 +1706,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "female-leadership-underrepresentation-schools",
-    title: "教員組織における女性管理職比率の課題",
-    reading: "きょういんそしきにおけるじょせいかんりしょくひりつのかだい",
-    kana: "き",
+    title: "女性管理職の過少比率",
+    reading: "じょせいかんりしょくのかしょうひりつ",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "教員全体に占める女性の割合が高いにもかかわらず、校長等の管理職に占める比率が著しく低い構造的課題と、その是正に向けた組織改革。",
@@ -1719,8 +1719,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "foreign-children-educational-access-issues",
-    title: "外国人集住地域における子どもの就学実態",
-    reading: "がいこくじんしゅうじゅうちいきにおけるこどものしゅうがくじったい",
+    title: "外国人児童の就学課題",
+    reading: "がいこくじんじどうのしゅうがくかだい",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -1732,9 +1732,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "jsl-japanese-second-language-social-inclusion",
-    title: "外国人児童生徒への日本語指導と社会的統合",
-    reading: "がいこくじんじどうせいとへのにほんごしどうとしゃかいてきとうごう",
-    kana: "か",
+    title: "JSL指導と社会的包摂",
+    reading: "じぇいえすえるしどうとしゃかいてきほうせつ",
+    kana: "A–Z",
     categories: ["sociology"],
     summary:
       "外国にルーツを持つ子どもに対する日本語指導を通じて、学習権を保障し学校や地域社会への適応と参加を促す教育実践および社会的包摂の取り組み。",
@@ -1745,9 +1745,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "semilingualism-double-limited-bilingual",
-    title: "母語保持と学習言語習得の教育課題",
-    reading: "ぼごほじとがくしゅうげんごしゅうとくのきょういくかだい",
-    kana: "ほ",
+    title: "セミリンガル問題",
+    reading: "せみりんがるもんだい",
+    kana: "せ",
     categories: ["sociology"],
     summary:
       "外国にルーツを持つ児童生徒が母語と第二言語の双方が十分に発達せず思考力や学力形成に困難を抱える現象と、母語教育の重要性をめぐる教育課題。",
@@ -1758,8 +1758,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "newcomer-immigrant-high-school-transition",
-    title: "ニューカマー生徒の高校進学と社会的移動",
-    reading: "にゅーかまーせいとのこうこうしんがくとしゃかいてきいどう",
+    title: "ニューカマー生徒の進路移動",
+    reading: "にゅーかまーせいとのしんろいどう",
     kana: "に",
     categories: ["sociology"],
     summary:
@@ -1771,8 +1771,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "special-admissions-foreign-students-quota",
-    title: "外国人生徒のための特別選抜枠の設置と機能",
-    reading: "がいこくじんせいとのためのとくべつせんばふわくのせっちときのう",
+    title: "外国人生徒の特別選抜枠",
+    reading: "がいこくじんせいとのとくべつせんばつわく",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -1784,8 +1784,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "multicultural-families-home-school-gap",
-    title: "多文化家族と学校との協働における障壁",
-    reading: "たぶんかかぞくとがっこうとのきょうどうにおけるしょうへき",
+    title: "多文化家族と学校協働",
+    reading: "たぶんかかぞくとがっこうきょうどう",
     kana: "た",
     categories: ["sociology"],
     summary:
@@ -1797,8 +1797,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "minority-culture-assimilationist-schooling",
-    title: "同化主義教育への批判と文化的アイデンティティ",
-    reading: "どうかしゅぎきょういくへのひはんとぶんかてきあいでんてぃてぃ",
+    title: "同化主義教育批判",
+    reading: "どうかしゅぎきょういくひはん",
     kana: "と",
     categories: ["sociology"],
     summary:
@@ -1810,9 +1810,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "peer-hierarchy-popular-voting-system",
-    title: "学級内の序列構造と人気投票（同輩集団のヒエラルキー）",
-    reading: "がっきゅうないのじょれつこうぞうとにんきとうひょう（どうはいしゅうだんのひえらるきー）",
-    kana: "か",
+    title: "同輩集団の序列構造",
+    reading: "どうはいしゅうだんのじょれつこうぞう",
+    kana: "と",
     categories: ["sociology"],
     summary:
       "児童生徒の同輩集団の中でコミュニケーション能力や容姿などに基づき非公式に形成される序列構造と、その維持メカニズムを分析する概念。",
@@ -1823,9 +1823,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "peer-pressure-group-conformity-classroom",
-    title: "同調圧力と集団凝集性の教育社会学",
-    reading: "どうちょうあつりょくとしゅうだんぎょうしゅうせいのきょういくしゃかいがく",
-    kana: "と",
+    title: "学級内の同調圧力",
+    reading: "がっきゅうないのどうちょうあつりょく",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "学級などの小集団において成員の一体感や団結が高まる一方で、異質な他者を排除し一様な行動を強制する同調圧力の力学を解明する研究領域。",
@@ -1836,8 +1836,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "mobbing-collective-exclusion-structure",
-    title: "集団的排除のメカニズムといじめの構造",
-    reading: "しゅうだんてきはいじょのめかにずむといじめのこうぞう",
+    title: "集団的排除の構造",
+    reading: "しゅうだんてきはいじょのこうぞう",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1849,8 +1849,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "social-media-hyperconnection-youth",
-    title: "SNSによる常時接続と若者のコミュニケーション",
-    reading: "えすえぬえすによるじょうじせつぞくとわかもののこみゅにけーしょん",
+    title: "SNSによる常時接続",
+    reading: "えすえぬえすによるじょうじせつぞく",
     kana: "A–Z",
     categories: ["sociology"],
     summary:
@@ -1862,8 +1862,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "recognition-need-and-anxiety-education",
-    title: "承認欲求と承認不安の教育社会学的考察",
-    reading: "しょうにんよっきゅうとしょうにんふあんのきょういくしゃかいがくてきこうさつ",
+    title: "承認欲求と承認不安",
+    reading: "しょうにんよっきゅうとしょうにんふあん",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1875,8 +1875,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "character-switching-interaction-ritual",
-    title: "「キャラ」の使い分けと対人関係の調整儀礼",
-    reading: "きゃらのつかいわけとたいじんかんけいのちょうせいぎれい",
+    title: "キャラの使い分け儀礼",
+    reading: "きゃらのつかいわけぎれい",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -1888,8 +1888,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "child-abuse-mandated-reporting-school",
-    title: "児童虐待の早期発見と学校の通告体制",
-    reading: "じどうぎゃくたいのそうきはっけんとがっこうのつうこくたいせい",
+    title: "児童虐待の学校通告義務",
+    reading: "じどうぎゃくたいのがっこうつうこくぎむ",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1901,9 +1901,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "school-social-worker-welfare-cooperation",
-    title: "スクールソーシャルワーカーと福祉機関連携",
-    reading: "すくーるそーしゃるわーかーとふくしきかんれんけい",
-    kana: "す",
+    title: "SSWと福祉連携",
+    reading: "えすえすだぶりゅーとふくしれんけい",
+    kana: "A–Z",
     categories: ["sociology"],
     summary:
       "児童生徒の抱える困難を個人の内面だけでなく環境や社会構造との相互作用として捉え、福祉機関と連携して生活環境を包括的に支援する専門職実践。",
@@ -1914,9 +1914,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "community-school-management-council",
-    title: "学校運営協議会制度（コミュニティ・スクール）",
-    reading: "がっこううんえいきょうぎかいせいど（こみゅにてぃ・すくーる）",
-    kana: "か",
+    title: "コミュニティ・スクール機能",
+    reading: "こみゅにてぃすくーるきのう",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "保護者や地域住民が学校運営に参画し、教育課程の基本方針等を協議・承認することで地域とともにある学校づくりを推進する法定制度。",
@@ -1927,8 +1927,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "regional-school-coordinator-volunteers",
-    title: "地域学校協働活動推進員の配置と活動実態",
-    reading: "ちいきがっこうきょうどうかつどうすいしんいんのはいちとかつどうじったい",
+    title: "地域学校協働活動推進員",
+    reading: "ちいきがっこうきょうどうかつどうすいしんいん",
     kana: "ち",
     categories: ["sociology"],
     summary:
@@ -1940,8 +1940,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "school-consolidation-community-impact",
-    title: "学校統廃合が地域コミュニティに与える影響",
-    reading: "がっこうとうはいごうがちいきこみゅにてぃにあたえるえいきょう",
+    title: "学校統廃合と地域影響",
+    reading: "がっこうとうはいごうとちいきえいきょう",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -1953,9 +1953,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "remote-high-school-attraction-project",
-    title: "過疎地域における高校魅力化と地域みらい留学",
-    reading: "かそちいきにおけるこうこうみりょくかとちいきみらいりゅうがく",
-    kana: "か",
+    title: "高校魅力化プロジェクト",
+    reading: "こうこうみりょくかぷろじぇくと",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "生徒減少に直面する過疎地域の高校が独自の探究教育を展開し、全国からの進学者を受け入れて学校存続と地域活性化を目指す政策的実践。",
@@ -1966,8 +1966,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "small-scale-multigrade-classroom-sociology",
-    title: "小規模校・複式学級の教育社会学的意義",
-    reading: "しょうきぼこう・ふくしきがっきゅうのきょういくしゃかいがくてきいぎ",
+    title: "小規模校・複式学級の機能",
+    reading: "しょうきぼこうふくしきがっきゅうのきのう",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -1979,8 +1979,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "public-expenditure-education-gdp-ratio",
-    title: "教育への公財政支出対GDP比の国際比較",
-    reading: "きょういくへのこうざいせいししゅつたいじーでぃーぴーひのこくさいひかく",
+    title: "教育公財政支出対GDP比",
+    reading: "きょういくこうざいせいししゅつたいじーでぃーぴーひ",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -1992,8 +1992,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "early-childhood-free-education-redistribution",
-    title: "幼児教育・保育無償化政策の再配分効果",
-    reading: "ようじきょういく・ほいくむしょうかせいさくのさいはいぶんこうか",
+    title: "幼児教育無償化の再配分効果",
+    reading: "ようじきょういくむしょうかのさいはいぶんこうか",
     kana: "よ",
     categories: ["sociology"],
     summary:
@@ -2005,9 +2005,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "higher-ed-aid-tuition-reduction-grants",
-    title: "高等教育修学支援新制度の階層間配分実態",
-    reading: "こうとうきょういくしゅうがくしえんしんせいどのかいそうかんはいぶんじったい",
-    kana: "こ",
+    title: "修学支援新制度の配分実態",
+    reading: "しゅうがくしえんしんせいどのはいぶんじったい",
+    kana: "し",
     categories: ["sociology"],
     summary:
       "低所得世帯の学生を対象とした授業料減免と給付型奨学金の支給制度が、大学進学の階層格差をどの程度緩和しているかを検証する研究課題。",
@@ -2018,8 +2018,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "education-voucher-school-choice-market",
-    title: "教育バウチャー制度と教育市場化の是非",
-    reading: "きょういくばうちゃーせいどときょういくしじょうかのぜひ",
+    title: "教育バウチャー制度",
+    reading: "きょういくばうちゃーせいど",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -2031,8 +2031,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "privatization-for-profit-special-zone-schools",
-    title: "学校教育の民間開放と構造改革特区校",
-    reading: "がっこうきょういくのみんかんかいほうとこうぞうかいかくとっくこう",
+    title: "株式会社立学校（特区校）",
+    reading: "かぶしきがいしゃりつがっこう",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -2044,9 +2044,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "pfi-method-school-facility-development",
-    title: "PFI手法による学校施設整備と公共性",
-    reading: "ぴーえふあいしゅほうによるがっこうしせつせいびとこうきょうせい",
-    kana: "A–Z",
+    title: "学校PFI手法",
+    reading: "がっこうぴーえふあいしゅほう",
+    kana: "か",
     categories: ["sociology"],
     summary:
       "民間資金や経営ノウハウを活用して学校施設の設計や維持管理を行う手法の導入と、公教育の公共性や教育環境の担保をめぐる社会学的課題。",
@@ -2057,9 +2057,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "teacher-work-style-reform-policy",
-    title: "学校における働き方改革と勤務実態",
-    reading: "がっこうにおけるはたらきかたかいかくときんむじったい",
-    kana: "か",
+    title: "教員の働き方改革",
+    reading: "きょういんのはたらきかたかいかく",
+    kana: "き",
     categories: ["sociology"],
     summary:
       "教員の長時間労働や過重業務の背景を分析し、学校組織の業務改善や勤務環境の適正化を通じて持続可能な学校教育を目指す政策課題。",
@@ -2070,8 +2070,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "club-activity-community-transition-issues",
-    title: "部活動の地域移行と受益者負担・指導格差",
-    reading: "ぶかつどうのちいきいこうとじゅえきしゃふたんしどうかくさ",
+    title: "部活動地域移行の課題",
+    reading: "ぶかつどうちいきいこうのかだい",
     kana: "ふ",
     categories: ["sociology"],
     summary:
@@ -2083,8 +2083,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "teaching-adjustment-allowance-four-overtime-duties",
-    title: "教職調整額制度と超勤4項目の法的課題",
-    reading: "きょうしょくちょうせいがくせいどとちょうきんよんこうもくのほうてきかだい",
+    title: "教職調整額と超勤4項目",
+    reading: "きょうしょくちょうせいがくとちょうきんよんこうもく",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -2096,8 +2096,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "teacher-shortage-recruitment-crisis",
-    title: "教員不足の構造的要因と採用競争率低下",
-    reading: "きょういんぶそくのこうぞうてきよういんとさいようきょうそうりつていか",
+    title: "教員不足と採用競争率",
+    reading: "きょういんぶそくとさいようきょうそうりつ",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -2109,8 +2109,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "teacher-life-course-work-life-balance",
-    title: "教員のライフコースとワークライフバランス",
-    reading: "きょういんのらいふこーすとわーくらいふばらんす",
+    title: "教員のライフコース",
+    reading: "きょういんのらいふこーす",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -2122,8 +2122,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "female-teacher-career-childcare-reintegration",
-    title: "女性教員のキャリア形成と職場復帰支援",
-    reading: "じょせいきょういんのきゃりあけいせいとしょくばふっきしえん",
+    title: "女性教員のキャリア継続",
+    reading: "じょせいきょういんのきゃりあけいぞく",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -2135,8 +2135,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "generational-shift-teacher-mentorship",
-    title: "教員組織の世代交代と若手教員育成の課題",
-    reading: "きょういんそしきのせだいこうたいとわかてきょういんいくせいのかだい",
+    title: "教員組織の世代交代",
+    reading: "きょういんそしきのせだいこうたい",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -2148,8 +2148,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "collegiality-restructuring-school-organization",
-    title: "教員の同僚性の変容とチーム学校の構築",
-    reading: "きょういんのどうりょうせいのへんようとちーむがっこうのこうちく",
+    title: "教員の同僚性変容",
+    reading: "きょういんのどうりょうせいへんよう",
     kana: "き",
     categories: ["sociology"],
     summary:
@@ -2161,8 +2161,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "accountability-reform-outcomes-based-pressures",
-    title: "成果重視の教育改革と学校の説明責任",
-    reading: "せいかじゅうしのきょういくかいかくとがっこうのせつめいせきにん",
+    title: "成果重視と学校の説明責任",
+    reading: "せいかじゅうしとがっこうのせつめいせきにん",
     kana: "せ",
     categories: ["sociology"],
     summary:
@@ -2174,8 +2174,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "school-performance-disclosure-market-pressure",
-    title: "学校情報の公開と保護者による学校評価",
-    reading: "がっこうじょうほうのこうかいとほごしゃによるがっこうひょうか",
+    title: "学校情報公開と市場化",
+    reading: "がっこうじょうほうこうかいとしじょうか",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -2187,8 +2187,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "parent-complaints-school-conflict-resolution",
-    title: "保護者の過度な要求と学校の紛争対応体制",
-    reading: "ほごしゃのかどなようきゅうとがっこうのふんそうたいおうたいせい",
+    title: "保護者要求と学校紛争対応",
+    reading: "ほごしゃようきゅうとがっこうふんそうたいおう",
     kana: "ほ",
     categories: ["sociology"],
     summary:
@@ -2200,8 +2200,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "school-safety-crisis-management-liability",
-    title: "学校事故・事件における安全配慮義務と責任",
-    reading: "がっこうじこじけんにおけるあんぜんはいりょぎむとせきにん",
+    title: "学校事故と安全配慮義務",
+    reading: "がっこうじことあんぜんはいりょぎむ",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -2213,9 +2213,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "black-school-rules-human-rights-debate",
-    title: "厳格な校則（ブラック校則）をめぐる議論",
-    reading: "げんかくなこうそくぶらっくこうそくをめぐるぎろん",
-    kana: "け",
+    title: "ブラック校則問題",
+    reading: "ぶらっくこうそくもんだい",
+    kana: "ふ",
     categories: ["sociology"],
     summary:
       "下着の色の指定や理不尽な頭髪規制など、人権侵害の恐れがある厳格な校則の実態と、生徒の主体的な見直し運動をめぐる教育論争。",
@@ -2226,8 +2226,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "hair-dress-code-student-bodily-autonomy",
-    title: "頭髪・服装指導と子どもの身体的自己決定権",
-    reading: "とうはつふくそうしどうとこどものしんたいてきじこけっていけん",
+    title: "頭髪指導と自己決定権",
+    reading: "とうはつしどうとじこけっていけん",
     kana: "と",
     categories: ["sociology"],
     summary:
@@ -2239,8 +2239,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "genderless-school-uniforms-choice",
-    title: "ジェンダーレス制服の導入と生徒の選択権",
-    reading: "じぇんだーれすせいふくのどうにゅうとせいとのせんたくけん",
+    title: "ジェンダーレス制服",
+    reading: "じぇんだーれすせいふく",
     kana: "し",
     categories: ["sociology"],
     summary:
@@ -2252,8 +2252,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "institutionalization-childhood-managed-society",
-    title: "子ども期の管理化と自由な時間空間の喪失",
-    reading: "こどもきのかんりかとじゆうなじかんくうかんのしょうしつ",
+    title: "子ども期の管理化",
+    reading: "こどもきのかんりか",
     kana: "こ",
     categories: ["sociology"],
     summary:
@@ -2265,9 +2265,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "loss-of-playgrounds-physical-activity-decline",
-    title: "遊び場の減少と子どもの身体活動の変化",
-    reading: "あそびばのげんしょうとこどものしんたいかつどうのへんか",
-    kana: "あ",
+    title: "子どもの遊び場減少問題",
+    reading: "こどものあそびばげんしょうもんだい",
+    kana: "こ",
     categories: ["sociology"],
     summary:
       "都市化や治安意識の高まりに伴う空き地や公園の遊び制限が、子どもの体力低下や身体活動格差を引き起こす社会的要因の探究。",
@@ -2278,8 +2278,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "screen-time-digital-divide-habits",
-    title: "デジタル端末の利用時間と生活習慣の格差",
-    reading: "でじたるたんまつのりようじかんとせいかつしゅうかんのかくさ",
+    title: "デジタル利用と生活習慣格差",
+    reading: "でじたるりようとせいかつしゅうかんかくさ",
     kana: "て",
     categories: ["sociology"],
     summary:
@@ -2291,8 +2291,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "individualization-family-educational-burden",
-    title: "家族の個人化と教育責任の家庭集中",
-    reading: "かぞくのこじんかときょういくせきにんのかていしゅうちゅう",
+    title: "家族の個人化と教育負担",
+    reading: "かぞくのこじんかときょういくふたん",
     kana: "か",
     categories: ["sociology"],
     summary:
@@ -2304,8 +2304,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "single-parent-poverty-educational-attainment",
-    title: "ひとり親家庭の経済状況と子どもの進学機会",
-    reading: "ひとりおやかていのけいざいじょうきょうとこどものしんがくきかい",
+    title: "ひとり親家庭の進学機会",
+    reading: "ひとりおやかていのしんがくきかい",
     kana: "ひ",
     categories: ["sociology"],
     summary:
@@ -2317,9 +2317,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "grandparental-educational-asset-transfer",
-    title: "祖父母による教育資金贈与と世代間移転",
-    reading: "そふぼによるきょういくしきんぞうよとせだいかんいてん",
-    kana: "そ",
+    title: "教育資金の一括贈与非課税",
+    reading: "きょういくしきんのいっかつぞうよひかぜい",
+    kana: "き",
     categories: ["sociology"],
     summary:
       "祖父母世代の資産が教育資金非課税制度などを通じて孫世代へと早期移転し、家庭の富裕度が教育格差を固定化させる社会現象の考察。",
@@ -2330,8 +2330,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "non-cognitive-skills-new-inequality-divide",
-    title: "非認知能力の重視と新たな格差の発生構造",
-    reading: "ひにんちのうりょくのじゅうしとあらたなかくさのはっせいこうぞう",
+    title: "非認知能力と新たな教育格差",
+    reading: "ひにんちのうりょくとあらたなきょういくかくさ",
     kana: "ひ",
     categories: ["sociology"],
     summary:
@@ -2343,9 +2343,9 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "post-meritocracy-shifting-notions-ability",
-    title: "能力観の歴史的変容とポスト・メリトクラシー",
-    reading: "のうりょくかんのれきてきへんようとぽすとめりとくらしー",
-    kana: "の",
+    title: "ポスト・メリトクラシー",
+    reading: "ぽすとめりとくらしー",
+    kana: "ほ",
     categories: ["sociology"],
     summary:
       "学力や業績に基づく能力主義の限界が露呈する中で、偶発性や社会的条件を考慮した公正な能力観と評価の在り方を問い直す思想的潮流。",
@@ -2356,8 +2356,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "transnational-educational-mobility-international",
-    title: "トランスナショナルな教育移動と国際学校",
-    reading: "とらんすなしょなるなきょういくいどうとこくさいがっこう",
+    title: "トランスナショナル教育移動",
+    reading: "とらんすなしょなるきょういくいどう",
     kana: "と",
     categories: ["sociology"],
     summary:
@@ -2369,8 +2369,8 @@ export const sociologyTerms: Term[] = [
   },
   {
     slug: "school-education-public-goods-revitalization",
-    title: "社会的共通資本としての公教育の再構築",
-    reading: "しゃかいてききょうつうしほんとしてのこうきょういくのさいこうちく",
+    title: "社会的共通資本としての公教育",
+    reading: "しゃかいてききょうつうしほんとしてのこうきょういく",
     kana: "し",
     categories: ["sociology"],
     summary:
