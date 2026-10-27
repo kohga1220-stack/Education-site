@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import type { Term } from '@/types/term'
+import type { TermSummary } from '@/types/term'
 import { CATEGORY_MAP } from '@/types/term'
 import { CATEGORY_BADGE_CLASS } from '@/lib/categoryColors'
 import FavoriteButton from './FavoriteButton'
 
-export default function TermCard({ term }: { term: Term }) {
+export default function TermCard({ term }: { term: TermSummary }) {
   return (
     <Link
       href={`/terms/${term.slug}`}

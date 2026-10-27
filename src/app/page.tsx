@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getAllTerms } from '@/lib/terms'
+import { getAllTerms, toSummary } from '@/lib/terms'
 import { CATEGORIES } from '@/types/term'
 import { CATEGORY_BADGE_CLASS } from '@/lib/categoryColors'
 import TermExplorer from '@/components/TermExplorer'
@@ -29,7 +29,7 @@ export default function HomePage() {
       </section>
 
       <section>
-        <TermExplorer allTerms={allTerms} />
+        <TermExplorer allTerms={allTerms.map(toSummary)} />
       </section>
 
       <section className="grid grid-cols-2 gap-3 sm:grid-cols-5">

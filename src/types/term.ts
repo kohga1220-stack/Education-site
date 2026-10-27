@@ -77,3 +77,9 @@ export const KANA_ROWS: { label: string; kana: string[] }[] = [
   { label: 'わ行', kana: ['わ', 'を', 'ん'] },
   { label: 'A–Z', kana: ['A–Z'] },
 ]
+
+/** 一覧・検索・カードに必要な項目だけ(本文 body は含めない)。クライアントへ渡す量を減らすために使う */
+export type TermSummary = Pick<
+  Term,
+  'slug' | 'title' | 'reading' | 'kana' | 'categories' | 'summary' | 'tags'
+>

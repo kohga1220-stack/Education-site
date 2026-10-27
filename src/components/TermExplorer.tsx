@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import type { CategoryId, Term } from '@/types/term'
+import type { CategoryId, TermSummary } from '@/types/term'
 import { KANA_ROWS } from '@/types/term'
 import { filterTerms, sortByReading } from '@/lib/terms'
 import { FAVORITES_EVENT, getFavorites } from '@/lib/favorites'
@@ -10,12 +10,15 @@ import KanaIndex from './KanaIndex'
 import CategoryFilter from './CategoryFilter'
 import TermCard from './TermCard'
 
-export default function TermExplorer({ allTerms }: { allTerms: Term[] }) {
+const PAGE_SIZE = 60
+
+export default function TermExplorer({ allTerms }: { allTerms: TermSummary[] }) {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<CategoryId | null>(null)
   const [kanaRowLabel, setKanaRowLabel] = useState<string | null>(null)
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [favorites, setFavorites] = useState<string[]>([])
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
   useEffect(() => {
     setFavorites(getFavorites())
@@ -23,6 +26,11 @@ export default function TermExplorer({ allTerms }: { allTerms: Term[] }) {
     window.addEventListener(FAVORITES_EVENT, handler)
     return () => window.removeEventListener(FAVORITES_EVENT, handler)
   }, [])
+
+  // 絞り込み条件が変わったら表示件数を最初に戻す
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [query, category, kanaRowLabel, favoritesOnly])
 
   const kanaRow = useMemo(() => {
     if (!kanaRowLabel) return null
@@ -68,15 +76,27 @@ export default function TermExplorer({ allTerms }: { allTerms: Term[] }) {
 
       {filtered.length > 0 ? (
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((term) => (
+          {filtered.slice(0, visibleCount).map((term) => (
             <TermCard key={term.slug} term={term} />
           ))}
         </div>
-      ) : (
+      ) : null}
+
+      {filtered.length > visibleCount ? (
+        <button
+          type="button"
+          onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+          className="mx-auto rounded-full bg-primary-600 px-6 py-2.5 text-sm font-medium text-white transition hover:bg-primary-700"
+        >
+          さらに表示({Math.min(PAGE_SIZE, filtered.length - visibleCount)}件 / 残り{filtered.length - visibleCount}件)
+        </button>
+      ) : null}
+
+      {filtered.length === 0 ? (
         <p className="rounded-xl border border-dashed border-slate-300 py-12 text-center text-sm text-slate-500 dark:border-slate-700 dark:text-slate-400">
           条件に一致する用語が見つかりませんでした。
         </p>
-      )}
+      ) : null}
     </div>
   )
 }
