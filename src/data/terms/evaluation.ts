@@ -669,7 +669,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "OECDが実施する16〜65歳の成人を対象とした国際調査で、読解力・数的思考力・状況が変化する状況での問題解決能力などの成人スキルを測定する。",
     body: "PIAAC（Programme for the International Assessment of Adult Competencies、国際成人力調査）は、OECDが実施する成人のスキルを評価・分析するプログラムであり、その中心となる調査が「成人スキル調査（Survey of Adult Skills）」である。16歳から65歳までの成人を対象としたコンピュータベースの家庭訪問調査で、読解力（literacy）、数的思考力（numeracy）、そしてテクノロジーを活用した問題解決能力（第2サイクルでは適応的問題解決能力）を測定する。\n\n第1サイクルは2011年から2018年にかけて3回に分けて実施され、39か国で約24万5千人の成人が調査に参加した（これは約11億5千万人の成人人口を代表する規模である）。第2サイクルは31の国・地域で実施され、2022〜2023年に第1回のデータ収集が行われ、結果は2024年12月に公表された。日本もPIAACに参加しており、成人の読解力・数的思考力が国際的に高い水準にあることなどが示されている。\n\nPISAが15歳児童生徒の学力を測定するのに対し、PIAACは学校教育を終えた成人が実生活や職業の場でどの程度スキルを保持・活用しているかを把握することを目的とし、各国が成人の能力開発やリカレント教育、労働市場政策を検討する際の基礎データとして活用されている。",
-    relatedSlugs: ["pisa", "recurrent-kyoiku-koto", "oecd-education", "shogai-gakushu"],
+    relatedSlugs: ["pisa", "recurrent-kyoiku", "oecd-education", "shogai-gakushu"],
     isCanonical: true,
     tags: ["PIAAC", "OECD", "成人スキル", "国際比較調査"],
   },
