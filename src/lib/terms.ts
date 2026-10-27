@@ -1,8 +1,21 @@
 import { terms, normalizeKana } from '@/data/terms'
-import type { CategoryId, Term } from '@/types/term'
+import type { CategoryId, Term, TermSummary } from '@/types/term'
 
 export function getAllTerms(): Term[] {
   return terms
+}
+
+/** 一覧用に body などを除いた軽量版(トップページのクライアント側データを小さく保つ) */
+export function toSummary(t: Term): TermSummary {
+  return {
+    slug: t.slug,
+    title: t.title,
+    reading: t.reading,
+    kana: t.kana,
+    categories: t.categories,
+    summary: t.summary,
+    tags: t.tags,
+  }
 }
 
 export function getTermBySlug(slug: string): Term | undefined {
@@ -43,14 +56,14 @@ export function searchTerms(query: string): Term[] {
   })
 }
 
-export function filterTerms(
-  allTerms: Term[],
+export function filterTerms<T extends TermSummary>(
+  allTerms: T[],
   {
     query,
     category,
     kanaRow,
   }: { query?: string; category?: CategoryId | null; kanaRow?: string[] | null }
-): Term[] {
+): T[] {
   let result = allTerms
 
   if (query && query.trim()) {
@@ -78,6 +91,6 @@ export function filterTerms(
   return result
 }
 
-export function sortByReading(list: Term[]): Term[] {
+export function sortByReading<T extends { reading: string }>(list: T[]): T[] {
   return [...list].sort((a, b) => a.reading.localeCompare(b.reading, 'ja'))
 }
