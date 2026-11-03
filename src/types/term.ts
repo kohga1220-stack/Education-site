@@ -43,6 +43,8 @@ export interface Term {
   tags: string[]
   /** 裏取りに使った出典のURL。CIで到達と題名の記載を確認したものだけが入る */
   sources?: string[]
+  /** 教職教養などの試験で、まず押さえたい基本語(編集部が選定) */
+  exam?: boolean
 }
 
 export const CATEGORIES: Category[] = [
@@ -84,4 +86,4 @@ export const KANA_ROWS: { label: string; kana: string[] }[] = [
 export type TermSummary = Pick<
   Term,
   'slug' | 'title' | 'reading' | 'kana' | 'categories' | 'summary' | 'tags'
-> & { hasSources?: boolean }
+> & { hasSources?: boolean; exam?: boolean }

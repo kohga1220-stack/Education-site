@@ -16,6 +16,7 @@ export function toSummary(t: Term): TermSummary {
     summary: t.summary,
     tags: t.tags,
     ...(t.sources?.length ? { hasSources: true } : {}),
+    ...(t.exam ? { exam: true } : {}),
   }
 }
 

@@ -75,6 +75,7 @@ export function serializeTerm(t) {
     `    relatedSlugs: ${arr(t.relatedSlugs ?? [])},`,
     `    isCanonical: true,`,
   ]
+  if (t.exam) lines.push('    exam: true,')
   if (t.diagram) {
     const d = t.diagram
     lines.push(
