@@ -3,9 +3,11 @@
 export default function SearchBar({
   value,
   onChange,
+  onFocus,
 }: {
   value: string
   onChange: (value: string) => void
+  onFocus?: () => void
 }) {
   return (
     <div className="relative">
@@ -27,7 +29,8 @@ export default function SearchBar({
         inputMode="search"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="用語名・キーワードで検索（例：足場掛け、評価、ICT）"
+        onFocus={onFocus}
+        placeholder="用語名・本文のキーワードで検索（例：足場掛け、評価、ICT。空白で絞り込み）"
         className="w-full rounded-xl border border-slate-300 bg-white py-3 pl-11 pr-4 text-sm text-slate-800 shadow-sm outline-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:focus:ring-primary-900"
       />
       {value && (
