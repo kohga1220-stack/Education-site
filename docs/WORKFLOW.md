@@ -51,3 +51,6 @@ npm run validate && git add -A && git commit -m "rebase: 用語を再取り込�
 - `GITHUB_TOKEN` によるマージは別ワークフローを起動しないため、自動マージ専用の GitHub Action は置いていない。各エージェントが CI の緑を確認して自分でマージする。
 - GitHub MCP の `push_files` は日本語の大きなファイルを壊すことがあった。**`git push` を使う**。
 - `package-lock.json` はコミットしない(CI は `npm install`)。
+
+## 孤立語の確認(任意)
+`node scripts/suggest-related.mjs`(Node 22.18 以上)は、他の語の `relatedSlugs` に一度も出てこない語(孤立語)を数え、同じタグ・同分野・本文での言及などから、リンク元の候補を提案する。`--apply` で既存語の `relatedSlugs` に追記し、`--list` で提案しても残る孤立語を一覧する。用語ページは、本文中に出てくる他の用語名を自動でリンクにし、「この用語を参照している用語」も表示する(`src/lib/autolink.ts`)。
