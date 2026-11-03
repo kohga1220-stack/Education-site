@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from 'react'
 import type { CategoryId, TermSummary } from '@/types/term'
 import { KANA_ROWS } from '@/types/term'
 import { filterTerms, sortByReading } from '@/lib/terms'
+import { computeScores, fromIndex, makeSnippet, prepare, type IndexEntry, type PreparedEntry } from '@/lib/search'
+import { loadSearchIndex } from '@/lib/searchIndexClient'
 import { FAVORITES_EVENT, getFavorites } from '@/lib/favorites'
 import SearchBar from './SearchBar'
 import KanaIndex from './KanaIndex'
@@ -37,17 +39,54 @@ export default function TermExplorer({ allTerms }: { allTerms: TermSummary[] }) 
     return KANA_ROWS.find((r) => r.label === kanaRowLabel)?.kana ?? null
   }, [kanaRowLabel])
 
+  // 全文検索インデックス(本文つき)。最初に検索欄を触ったときに一度だけ読み込む
+  const [rawIndex, setRawIndex] = useState<IndexEntry[] | null>(null)
+  const [indexError, setIndexError] = useState(false)
+  const startLoadingIndex = () => {
+    if (rawIndex || indexError) return
+    loadSearchIndex()
+      .then(setRawIndex)
+      .catch(() => setIndexError(true))
+  }
+  useEffect(() => {
+    if (query.trim()) startLoadingIndex()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query])
+
+  // 本文が届くまでは、手元の題名・読み・要約・タグだけで検索する
+  const localIndex = useMemo<PreparedEntry[]>(
+    () => prepare(allTerms.map((t) => ({ slug: t.slug, title: t.title, reading: t.reading, summary: t.summary, tags: t.tags }))),
+    [allTerms],
+  )
+  const fullIndex = useMemo<PreparedEntry[] | null>(() => (rawIndex ? prepare(fromIndex(rawIndex)) : null), [rawIndex])
+  const bodyBySlug = useMemo(() => new Map(rawIndex?.map((e) => [e.s, e.b]) ?? []), [rawIndex])
+
+  const scores = useMemo(() => computeScores(fullIndex ?? localIndex, query), [fullIndex, localIndex, query])
+
   const filtered = useMemo(() => {
-    let result = filterTerms(allTerms, { query, category, kanaRow })
+    let result = filterTerms(allTerms, { category, kanaRow })
+    if (scores) result = result.filter((t) => scores.has(t.slug))
     if (favoritesOnly) {
       result = result.filter((t) => favorites.includes(t.slug))
     }
-    return sortByReading(result)
-  }, [allTerms, query, category, kanaRow, favoritesOnly, favorites])
+    if (!scores) return sortByReading(result)
+    // 検索中は関連度の高い順(同点は読み順)
+    return sortByReading(result).sort((a, b) => (scores.get(b.slug) ?? 0) - (scores.get(a.slug) ?? 0))
+  }, [allTerms, scores, category, kanaRow, favoritesOnly, favorites])
+
+  // 本文だけに当たった語には、当たった箇所の抜粋を添える
+  const snippetFor = (t: TermSummary): string | null => {
+    if (!query.trim() || !fullIndex) return null
+    const q = query.toLowerCase()
+    const head = `${t.title}${t.reading}${t.summary}${t.tags.join('')}`.toLowerCase()
+    const tokens = q.split(/[\s\u3000]+/).filter(Boolean)
+    if (tokens.every((tok) => head.includes(tok))) return null
+    return makeSnippet(bodyBySlug.get(t.slug) ?? '', query)
+  }
 
   return (
     <div className="flex flex-col gap-5">
-      <SearchBar value={query} onChange={setQuery} />
+      <SearchBar value={query} onChange={setQuery} onFocus={startLoadingIndex} />
 
       <div className="flex flex-col gap-3">
         <KanaIndex selected={kanaRowLabel} onChange={setKanaRowLabel} />
@@ -72,12 +111,17 @@ export default function TermExplorer({ allTerms }: { allTerms: TermSummary[] }) 
         </button>
       </div>
 
-      <p className="text-sm text-slate-500 dark:text-slate-400">{filtered.length}件の用語</p>
+      <p className="text-sm text-slate-500 dark:text-slate-400">
+        {filtered.length}件の用語
+        {query.trim() && !fullIndex && !indexError && '(本文も検索しています…)'}
+        {query.trim() && indexError && '(本文の検索データを読み込めなかったため、題名・要約・タグのみで検索しています)'}
+        {scores && fullIndex && '(関連度の高い順)'}
+      </p>
 
       {filtered.length > 0 ? (
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.slice(0, visibleCount).map((term) => (
-            <TermCard key={term.slug} term={term} />
+            <TermCard key={term.slug} term={term} snippet={snippetFor(term)} />
           ))}
         </div>
       ) : null}
