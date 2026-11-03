@@ -23,3 +23,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 全文検索インデックス(ビルド時に生成)
+/public/search-index.json

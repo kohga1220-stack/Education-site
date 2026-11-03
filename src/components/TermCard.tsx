@@ -4,7 +4,7 @@ import { CATEGORY_MAP } from '@/types/term'
 import { CATEGORY_BADGE_CLASS } from '@/lib/categoryColors'
 import FavoriteButton from './FavoriteButton'
 
-export default function TermCard({ term }: { term: TermSummary }) {
+export default function TermCard({ term, snippet }: { term: TermSummary; snippet?: string | null }) {
   return (
     <Link
       href={`/terms/${term.slug}`}
@@ -22,6 +22,11 @@ export default function TermCard({ term }: { term: TermSummary }) {
       <p className="line-clamp-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
         {term.summary}
       </p>
+      {snippet && (
+        <p className="rounded-md bg-amber-50 px-2 py-1 text-xs leading-relaxed text-amber-900 dark:bg-amber-900/20 dark:text-amber-100">
+          本文: {snippet}
+        </p>
+      )}
       <div className="mt-1 flex flex-wrap gap-1.5">
         {term.categories.map((c) => (
           <span key={c} className={`category-badge ${CATEGORY_BADGE_CLASS[c]}`}>
