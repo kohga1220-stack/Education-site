@@ -101,7 +101,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "特定の保育士が特定の子どもの食事・排せつ・睡眠を継続して担当し、愛着関係を築く乳児保育の方法。",
     body: "育児担当制保育とは、主に0〜2歳児クラスにおいて、決まった保育士が決まった少人数の子どもの食事・排せつ・着替え・睡眠といった生活面の世話を継続して担当する保育の方法です。日によって担当が変わる「一斉的な世話」とは異なり、同じ大人との繰り返しの関わりを通じて、子どもが安心感や信頼感を持てるようにすることをねらいとしています。\n\nこの方法は、特定の大人との安定した関係が乳幼児期の情緒の発達に重要であるとするアタッチメント（愛着）研究の知見を、保育の現場での具体的な実践に落とし込んだものと位置づけられます。子ども一人ひとりの生活リズムに合わせて対応できる点も特徴です。\n\n近年、多くの保育所で導入が進んでおり、保育士配置基準の改善とあわせて、より丁寧な乳児保育を実現する手立てとして注目されています。",
-    relatedSlugs: ["bowlby", "hoikushi-haichi-kijun", "seikatsu-asobi-manabi"],
+    relatedSlugs: ["bowlby", "hoikushi-haichi-kijun", "seikatsu-asobi-manabi", "affect-attunement-intersubjectivity-stern"],
     isCanonical: true,
     tags: ["乳児保育", "愛着形成", "担当制"],
   },
@@ -244,7 +244,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2015年施行の、幼児教育・保育と地域の子育て支援を総合的に推進する制度。認定こども園制度の普及等を柱とする。",
     body: "子ども・子育て支援新制度は、2012年に成立した子ども・子育て関連3法に基づき、2015年（平成27年）4月に本格施行された制度です。すべての子どもに質の高い幼児期の学校教育・保育を保障するとともに、地域の子育て支援を総合的に推進することを目的としています。\n\n主な柱として、幼稚園と保育所の機能を併せ持つ認定こども園制度の普及、地域の実情に応じた小規模保育や家庭的保育などの「地域型保育」の創設、地域子育て支援拠点事業や一時預かり事業といった地域子ども・子育て支援事業の充実が挙げられます。\n\n財源には消費税率引き上げによる増収分の一部が充てられ、市町村が地域のニーズに基づいて「市町村子ども・子育て支援事業計画」を策定し、給付や事業を計画的に実施する仕組みとなっています。",
-    relatedSlugs: ["nintei-kodomoen", "ichiji-azukari-jigyo", "chiiki-kosodate-shien-kyoten", "taiki-jido-mondai"],
+    relatedSlugs: ["nintei-kodomoen", "ichiji-azukari-jigyo", "chiiki-kosodate-shien-kyoten", "taiki-jido-mondai", "jigyosho-nai-hoiku", "kyotaku-homon-hoiku"],
     isCanonical: true,
     tags: ["2015年施行", "認定こども園", "地域型保育"],
   },
@@ -296,7 +296,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2019年10月開始。3〜5歳児クラス全世帯等の幼稚園・保育所・認定こども園等の利用料を無償とする制度。",
     body: "幼児教育・保育の無償化は、2019年（令和元年）10月から実施されている制度で、幼稚園・保育所・認定こども園等を利用する3歳から5歳までの子どもの利用料（保育料）を、原則としてすべての世帯を対象に無償とするものです。0〜2歳児クラスについては、住民税非課税世帯が無償化の対象となります。\n\n認可外保育施設や一時預かり事業、病児保育事業などについても、保育の必要性の認定を受けた場合には一定の上限額まで利用料が助成の対象となります。財源には消費税率10%への引き上げによる増収分の一部が充てられています。\n\nこの施策は、子育て世帯の経済的負担の軽減とともに、幼児教育の重要性への社会的関心の高まりを背景に実現しました。一方で、無償化が保育需要をさらに押し上げ、待機児童問題や保育士不足に影響を与えるとの指摘もあります。",
-    relatedSlugs: ["kodomo-kosodate-shien-shinseido", "taiki-jido-mondai", "heckman-youji-kyoiku-toshi", "nintei-kodomoen", "kyoiku-kikai-kinto", "kodomo-kihon-ho"],
+    relatedSlugs: ["kodomo-kosodate-shien-shinseido", "taiki-jido-mondai", "heckman-youji-kyoiku-toshi", "nintei-kodomoen", "kyoiku-kikai-kinto", "kodomo-kihon-ho", "early-childhood-free-education-redistribution"],
     isCanonical: true,
     tags: ["2019年10月", "利用料無償化", "子育て支援", "幼児教育無償化", "認定こども園"],
   },
@@ -413,7 +413,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児期の教育の基本原理。幼児が身近な環境に主体的に関わり、直接的・具体的な体験を通して学ぶことを重視する保育の考え方。",
     body: "「環境を通して行う教育」は、幼稚園教育要領が幼児期の教育の基本として掲げる中核的な原理である。幼児期の子どもは、大人が言葉で説明して教え込むよりも、興味・関心をもって自ら周囲の環境に関わり、そこで得られる直接的・具体的な体験を通して学ぶ方が効果的であるという考え方に立つ。ここでいう環境とは、人、物、自然、時間、空間など、幼児を取り巻くあらゆる要素を含む広い概念である。\n\nこの考え方のもとでは、保育者の役割は一方的に知識や技能を教え込むことではなく、幼児の発達に必要な体験が得られるよう、計画的に環境を構成し、必要に応じて援助することにある。例えば、絵本コーナーの配置や自然物を取り入れた園庭づくり、季節の行事の設定などは、いずれも幼児の主体的な学びを引き出すための環境構成の工夫である。保育者は幼児の遊びの様子を見取りながら、環境を再構成し続ける専門性が求められる。\n\nこの原理は、小学校以降の教科書を用いた系統的な教育とは異なる、幼児期特有の学びの在り方を支える理論的基盤であり、遊びを通した総合的な指導や5領域の考え方とも密接に結びついている。OECDが提唱する子ども中心の教育観とも共通する点が多く、国際的な幼児教育の潮流とも整合的な考え方である。",
-    relatedSlugs: ["asobi-sogoteki-shido", "go-ryoiki", "youchien-kyoiku-yoryo", "mimamoru-hoiku"],
+    relatedSlugs: ["asobi-sogoteki-shido", "go-ryoiki", "youchien-kyoiku-yoryo", "mimamoru-hoiku", "kurahashi-sozo-guided-childcare-theory"],
     isCanonical: true,
     tags: ["幼稚園教育要領", "保育原理", "環境構成", "体験学習"],
   },
@@ -426,7 +426,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "イタリア北部レッジョ・エミリア市発祥の幼児教育法。プロジェクト活動、アトリエリスタ、ドキュメンテーションを特徴とし、子どもを有能な学び手として捉える。",
     body: "レッジョ・エミリア・アプローチは、第二次世界大戦後のイタリア・レッジョ・エミリア市で、教育者ローリス・マラグッツィと地域の保護者たちが協働して築き上げた幼児教育の実践哲学である。市立の乳幼児施設を中心に発展し、「子どもは生まれながらにして有能で、好奇心にあふれ、自ら学びを構築していく主体である」という子ども観を基盤としている。子どもには絵画、言葉、身体表現など多様な表現方法があるという意味で「子どもの100の言葉」という詩的な表現がしばしば引用される。\n\n実践面での大きな特徴は、数週間から数か月にわたり子どもたちが小グループで一つのテーマを探究する「プロジェクト活動」、造形活動を専門的に支援する「アトリエリスタ」と教育学の専門知識をもつ「ペダゴジスタ」の配置、そして活動の過程を写真・映像・子どもの言葉などで記録し可視化する「ドキュメンテーション」である。ドキュメンテーションは保護者や地域との対話の材料となるとともに、子ども自身が自分の学びを振り返る手段としても機能する。\n\n日本では2000年代以降、保育の質向上への関心の高まりとともにレッジョ・エミリア・アプローチへの注目が高まり、保育記録（ドキュメンテーション）の手法として国内の保育所・幼稚園にも部分的に取り入れられている。モンテッソーリ教育と並んで、子どもの主体性を重視する国際的な幼児教育モデルの代表例として比較教育学的にも参照される。",
-    relatedSlugs: ["montessori", "hoiku-documentation", "project-approach", "hoiku-no-shitsu"],
+    relatedSlugs: ["montessori", "hoiku-documentation", "project-approach", "hoiku-no-shitsu", "reggio-emilia-atelierista-arts-specialist", "reggio-emilia-pedagogista-coordination", "loris-malaguzzi-hundred-languages-children", "constructive-play-blocks-clay-modelling"],
     isCanonical: true,
     tags: ["レッジョ・エミリア", "国際比較", "ドキュメンテーション", "プロジェクト活動"],
   },
@@ -452,7 +452,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "児童福祉法に基づく国家資格。保育所等で乳幼児の保育や保護者への保育指導を行う専門職で、指定保育士養成校の卒業または保育士試験合格により取得できる。",
     body: "保育士は、児童福祉法第18条の4に規定される国家資格であり、専門的知識及び技術をもって、児童の保育並びに児童の保護者に対する保育に関する指導を行うことを業とする者と定義される。資格取得の方法は主に2つあり、都道府県知事が指定する保育士養成施設（短期大学・大学・専門学校等）を卒業する方法と、年2回実施される保育士試験に合格する方法がある。かつては「保母」という名称であったが、1999年の児童福祉法施行令改正により、男女を問わない名称として「保育士」に統一された。また、2003年の法改正により、保育士は名称独占資格として法定化された。\n\n保育士の勤務先は保育所が中心であるが、幼保連携型認定こども園、乳児院、児童養護施設、障害児入所施設など、児童福祉施設全般に及ぶ。近年は保育需要の増大に対して保育士の担い手不足が深刻な社会課題となっており、処遇改善加算による賃金水準の引き上げや、保育士試験の年2回実施化、保育士修学資金貸付制度の拡充など、人材確保に向けた施策が継続的に講じられている。\n\n保育士配置基準の見直しや、保育の質の確保・向上との両立をめぐる議論、幼稚園教諭免許状との併有を促す特例制度の運用なども、保育士制度をめぐる現在進行形の政策課題である。",
-    relatedSlugs: ["hoikushi-haichi-kijun", "hoikushi-shogu-kaizen", "hoikukyoyu", "taiki-jido-mondai"],
+    relatedSlugs: ["hoikushi-haichi-kijun", "hoikushi-shogu-kaizen", "hoikukyoyu", "taiki-jido-mondai", "childcare-worker-career-up-training-leaders"],
     isCanonical: true,
     tags: ["国家資格", "児童福祉法", "保育士不足", "処遇改善"],
   },
@@ -465,7 +465,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2012年に文部科学省が策定した、幼児が毎日合計60分以上、楽しく体を動かすことを推奨する指針。多様な動きの獲得と体力・運動能力の基礎づくりを目的とする。",
     body: "幼児期運動指針は、2012年（平成24年）に文部科学省の幼児期運動指針策定委員会がまとめた、幼児期における望ましい身体活動の在り方を示す指針である。生活の便利化や外遊びの機会の減少により、子どもの体力・運動能力の低下や、運動習慣の二極化（よく体を動かす子と、そうでない子の差の拡大）が懸念されたことを背景に策定された。\n\n指針の中心的なメッセージは「幼児は様々な遊びを中心に、毎日、合計60分以上、楽しく体を動かすことが大切です」という点にある。特定のスポーツ種目の技能習得を早期に目指すのではなく、鬼ごっこや縄跳び、固定遊具遊びなど多様な遊びを通じて、体を動かす楽しさを実感しながら、走る・跳ぶ・投げるといった基本的な動きを幅広く獲得することが重視されている。あわせて、①多様な動きが経験できるように様々な遊びを取り入れること、②楽しく体を動かす時間を確保すること、③発達の特性に応じた遊びを提供することという3つの方向性が示されている。\n\nこの指針は法的な強制力を伴うものではないが、幼稚園教育要領における領域「健康」のねらい及び内容や、保育所保育指針における運動に関する記述とも関連づけられ、幼児教育・保育の現場における運動遊びの計画立案の参考として広く活用されている。近年はスポーツ庁が指針の周知や効果検証を引き継いでおり、子どもの体力低下への対応策の一つとして位置づけられている。",
-    relatedSlugs: ["go-ryoiki", "youchien-kyoiku-yoryo", "shocho-asobi", "asobi-sogoteki-shido"],
+    relatedSlugs: ["go-ryoiki", "youchien-kyoiku-yoryo", "shocho-asobi", "asobi-sogoteki-shido", "gross-motor-play-whole-body-coordination"],
     isCanonical: true,
     tags: ["幼児期運動指針", "文部科学省", "運動遊び", "体力・運動能力"],
   },
@@ -530,7 +530,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "子どもの発達や幸福に資する保育環境・実践の良さを表す概念。保育者の配置基準といった構造の質と、日々の関わりといったプロセスの質の両面から議論される。",
     body: "「保育の質」は、保育所や幼稚園、認定こども園における保育の営みが、子どもの健やかな発達や心身の幸福（ウェルビーイング）にどれだけ資するものであるかを問う概念である。OECDの国際調査「国際幼児教育・保育従事者調査(TALIS Starting Strong)」など国際的な議論の枠組みを踏まえ、日本でも保育の質に関する検討が政策的に進められてきた。\n\n保育の質は大きく「構造の質」と「プロセスの質」に分けて論じられることが多い。構造の質とは、保育士配置基準、施設・設備の面積基準、保育者の資格や研修体制など、比較的数値で捉えやすい条件を指す。一方プロセスの質とは、保育者と子どもとの応答的な関わり、子ども同士の相互作用、遊びや環境構成の在り方など、日々の保育実践の内実を指し、数値化が難しいが子どもの経験の質に直結するとされる。近年は、保育所保育指針にも位置づけられる保育の記録・自己評価・第三者評価の仕組みが、プロセスの質を可視化し改善につなげる手法として注目されている。\n\n待機児童解消に向けた保育の量的拡大が進められる一方で、量の拡大が質の低下を招かないようにする両立が政策課題として強く意識されており、こども家庭庁の設置後も、保育所等における自己評価ガイドラインの整備や、保育士配置基準の改善など、保育の質の向上に向けた取り組みが続けられている。",
-    relatedSlugs: ["hoikushi-haichi-kijun", "taiki-jido-mondai", "hoiku-documentation", "reggio-emilia-approach"],
+    relatedSlugs: ["hoikushi-haichi-kijun", "taiki-jido-mondai", "hoiku-documentation", "reggio-emilia-approach", "reggio-emilia-pedagogista-coordination", "preschool-self-evaluation-third-party-assessment"],
     isCanonical: true,
     tags: ["保育の質", "OECD", "プロセスの質", "第三者評価"],
   },
@@ -543,7 +543,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "小学校入学直後の児童が、幼児期の遊びを通した学びの経験を生かしながら、小学校の学習や生活に主体的に適応できるよう編成される合科的・関連的なカリキュラム。",
     body: "スタートカリキュラムとは、小学校に入学した児童が、幼稚園・保育所・認定こども園で育んできた学びや生活の経験を土台にしながら、無理なく小学校の学習や生活へ移行できるよう、入学当初の時期に編成される合科的・関連的なカリキュラムである。国立教育政策研究所が2015年に『スタートカリキュラム スタートブック』を刊行するなど、幼小接続の具体策として全国の教育委員会・学校での導入が進められてきた。\n\nスタートカリキュラムの特徴は、国語・算数といった教科ごとの時間割を入学直後から厳格に適用するのではなく、生活科を中心に据えながら他教科の内容を合科的に組み合わせ、学校探検や自己紹介、朝の会といった活動を通して、遊びの中で身につけた学びの芽生えを、教科等の学習へと段階的につなげていく点にある。急激な環境の変化による児童の不安やつまずきを緩和し、いわゆる「小1プロブレム」の予防にも資すると位置づけられている。\n\n小学校側が編成するスタートカリキュラムに対し、就学前施設側で5歳児後半に編成される接続期のカリキュラムはアプローチカリキュラムと呼ばれ、両者は対になる概念として、幼保小の関係者が協働して接続期の教育を充実させる「幼保小の架け橋プログラム」などの取り組みの中核をなしている。",
-    relatedSlugs: ["approach-curriculum", "youshou-setsuzoku", "shogaku1-problem", "sodachite-hoshii-sugata"],
+    relatedSlugs: ["approach-curriculum", "youshou-setsuzoku", "shogaku1-problem", "sodachite-hoshii-sugata", "transition-curriculum-play-subject-bridging"],
     isCanonical: true,
     tags: ["幼保小接続", "スタートカリキュラム", "小学校入学"],
   },
@@ -608,7 +608,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ある物を別の物に見立てたり、自分以外の役割を演じたりする遊び。2歳頃から本格化し、想像力や言語能力、社会性の発達に重要な役割を果たす。",
     body: "象徴遊びとは、目の前にない物や状況を頭の中でイメージし、別の物で代用したり、自分とは異なる役割を演じたりする遊びの総称であり、いわゆる「ごっこ遊び」や「見立て遊び」を含む概念である。発達心理学者ピアジェは、感覚運動的な段階から表象的な思考へと移行する過程で象徴機能が発達し、それが象徴遊びとして表れると説明した。積み木を電話に見立てる、バナナを電話に見立てて話す真似をするといった行動が初期の代表例である。\n\n1歳半頃から見立て遊びの芽生えが見られ、2歳頃には「見立て」から「つもり」へと発展し、3歳から5歳頃にかけては、母親役や店員役など特定の役割を担い、他の子どもとやりとりをしながら展開する「ごっこ遊び」へと複雑化していく。ごっこ遊びには、役割を分担し、状況設定に沿ってストーリーを展開させ、他者の視点を想像する力が必要とされ、想像力や言語能力、他者理解の発達を促す重要な機会となる。\n\n象徴遊びは、幼稚園教育要領における「表現」の領域とも深く関わり、保育の現場では、ままごとコーナーや衣装、小道具などを意図的に環境として用意することで、子どもの象徴遊びが豊かに展開されるよう援助が行われる。ヴィゴツキーは、ごっこ遊びにおいて子どもがルールに従いながら自分をコントロールする経験が、後の自己制御能力の発達にもつながると論じている。",
-    relatedSlugs: ["kyodo-chui-sanko-kankei", "go-ryoiki", "asobi-sogoteki-shido", "ninchi-hattatsu"],
+    relatedSlugs: ["kyodo-chui-sanko-kankei", "go-ryoiki", "asobi-sogoteki-shido", "ninchi-hattatsu", "imitative-play-infant-development", "pretend-play-make-believe-symbolic"],
     isCanonical: true,
     tags: ["象徴遊び", "ごっこ遊び", "想像力", "発達心理学"],
   },
@@ -738,7 +738,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "厚生労働省が2011年に策定し、2019年に改訂した、保育所でのアレルギー疾患対応の指針。かかりつけ医が記入する生活管理指導表に基づく対応が基本となる。",
     body: "保育所におけるアレルギー対応ガイドラインは、食物アレルギーやアナフィラキシー、気管支ぜん息、アトピー性皮膚炎、アレルギー性結膜炎・鼻炎などのアレルギー疾患のある子どもへの保育所での対応をまとめたものです。厚生労働省が2011年3月に策定し、保育所保育指針の改定や関係法令の整備を受けて、2019年に改訂されました。\n\n2019年の改訂版では、アレルギー対応は医師が記入する「生活管理指導表」に基づいて行うことが基本とされました。この指導表は、医師、保護者、保育所をつなぐコミュニケーションの道具と位置づけられています。構成は基本編と実践編に再編され、保育所と医療機関、行政、消防などの関係機関との連携についても整理されました。緊急時個別対応票や除去解除申請書などの参考様式も示されています。\n\n保育の現場では、誤食を防ぐための調理・配膳の確認体制、職員間の情報共有、エピペンの扱いを含む緊急時対応の訓練が重要になります。除去が必要な食材を安全に守りつつ、子どもが他の子どもと一緒に食事を楽しめるよう配慮することも求められます。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "hoiku-no-shitsu", "gakko-hoken-anzen-ho", "hoiku-jiko-boshi"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "hoiku-no-shitsu", "gakko-hoken-anzen-ho", "hoiku-jiko-boshi", "food-allergy-elimination-substitute-safety"],
     isCanonical: true,
     tags: ["健康安全", "食物アレルギー", "保育所"],
   },
@@ -803,7 +803,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2016年度に始まった、企業が従業員向けに設置する保育施設の整備費・運営費を国が助成する制度。待機児童対策の受け皿として拡大した。",
     body: "企業主導型保育事業は、2016年度に子ども・子育て支援法の改正によって創設された制度で、企業が従業員の働き方に合わせて設置・運営する事業所内保育施設などに、整備費と運営費を助成するものです。財源は事業主が拠出する子ども・子育て拠出金で、待機児童対策として民間企業の力を活用する狙いがありました。\n\n夜間や休日の勤務、短時間勤務の非正規従業員など、認可保育所では対応しにくい多様な働き方に柔軟に対応できる点が特徴とされます。また、共同設置・共同利用や、地域の子どもを受け入れる地域枠の設定も可能です。内閣府の所管で、助成の審査や支給の実務は公益財団法人の児童育成協会に委託されてきました。\n\n一方で、認可外保育施設に位置づけられる施設が多いため、保育の質や安全の確保、助成の審査の適正さが課題として指摘されています。事業の運営の実態や所管の変更を含め、最新の状況は公的資料で確認する必要があります。",
-    relatedSlugs: ["kodomo-kosodate-shien-shinseido", "taiki-jido-mondai", "ninkagai-hoiku-shisetsu", "hoiku-no-shitsu"],
+    relatedSlugs: ["kodomo-kosodate-shien-shinseido", "taiki-jido-mondai", "ninkagai-hoiku-shisetsu", "hoiku-no-shitsu", "jigyosho-nai-hoiku"],
     isCanonical: true,
     tags: ["待機児童", "保育制度", "事業所内保育"],
   },
@@ -816,7 +816,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2016年3月に国が策定した、保育施設等での重大事故の予防と、発生時の適切な対応をまとめたガイドライン。睡眠中や食事中などの場面ごとの注意点を示す。",
     body: "教育・保育施設等における事故防止及び事故発生時の対応のためのガイドラインは、保育施設での死亡事故などの重大事故が毎年発生していることを受けて、2016年3月に策定されました。2015年に施行された子ども・子育て支援新制度の運営基準で、事故発生時の対応などを定めた指針の整備が義務づけられたことが背景にあります。\n\nガイドラインは、事故の予防と、事故が起きた際の対応の両面を扱います。睡眠中の窒息事故を防ぐため、やわらかい布団やぬいぐるみを避けること、ひもを置かないこと、口の中に異物がないか確認することなどが例として示されています。食事中の誤嚥を防ぐための食材や形状の工夫、プールや水遊びでの監視、また、事故発生後の救急対応、保護者への連絡、関係機関への報告、再発防止のための検証も重視されます。\n\n担当は現在、こども家庭庁成育局の安全対策課です。保育者が日常の保育のなかで危険を予測する力を高める研修や、ヒヤリハットの共有が、事故防止の基本とされます。認可外保育施設も含め、すべての施設に関わる課題です。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "ninkagai-hoiku-shisetsu", "hoiku-allergy-taio", "gakko-hoken-anzen-ho"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "ninkagai-hoiku-shisetsu", "hoiku-allergy-taio", "gakko-hoken-anzen-ho", "nap-check-five-minute-monitoring-protocol"],
     isCanonical: true,
     tags: ["安全管理", "事故防止", "保育施設"],
   },
@@ -959,7 +959,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児教育において、絵の具・粘土・紙・廃材などの多様な素材に自ら触れ、描く・作る体験を通して豊かな感性と表現力を育む遊び活動。",
     body: "幼稚園教育要領および保育所保育指針における領域「表現」の中核をなす活動であり、描画、粘土細工、紙工作、木工、廃材利用など、視覚的・触覚的な素材を使って自らのイメージを形にする創造的な遊びである。\n\n子どもの造形活動は、乳児期の「なぐりがき」から始まり、描いたものに意味づけをする象徴期、目に見える形を自分なりの図式で描く図式期へと発達する。完成した作品の上手・下手を評価するのではなく、素材の感触を楽しみ、思いを自由に発散させ、試行錯誤する「造形活動のプロセスそのもの」を尊重することが指導の基本となる。\n\n子どもが自発的に素材を選び、自由な発想で工夫できるよう、保育室に多様な素材や用具を使いやすく配置する環境構成や、保育者が子どもの表現意図に共感的に寄り添う関わりが重視される。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "yoji-ongaku-rhythm-asobi", "go-ryoiki"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "yoji-ongaku-rhythm-asobi", "go-ryoiki", "constructive-play-blocks-clay-modelling"],
     isCanonical: true,
     tags: ["領域表現", "造形活動", "感性の育成", "描画発達"],
   },
@@ -1024,7 +1024,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保護者が就労と育児を両立できるよう、延長保育・病児保育・育児休業給付などの制度や地域子育て支援施策を整備・推進する包括的支援。",
     body: "保護者が就業を継続しながら安心して子どもを生み育てられるよう、社会全体で育児と仕事の調和を図る制度的・実践的施策の総称である。少子化対策および女性のキャリア形成支援の中核的課題として位置づけられている。\n\n具体的な保育施策としては、早朝や夜間に対応する延長保育、休日保育、体調不良児や病気の回復期に対応する病児・病後児保育、企業主導型保育事業の拡充などが挙げられる。また、労働法制面では、育児休業給付金や出生時育児休業、短時間勤務制度の義務化などが連動して整備されている。\n\n保育所は単に子どもを預かる場所にとどまらず、多忙な保護者の負担軽減や心理的孤立を防ぐ相談窓口として、連絡帳のデジタル化や送迎時の丁寧なコミュニケーションによる共育てのパートナーとしての役割を担っている。",
-    relatedSlugs: ["encho-hoiku", "byoji-hoiku", "byogoji-hoiku"],
+    relatedSlugs: ["encho-hoiku", "byoji-hoiku", "byogoji-hoiku", "kigyo-shudogata-hoiku"],
     isCanonical: true,
     tags: ["ワークライフバランス", "延長保育", "産後パパ育休", "子育て支援"],
   },
@@ -1115,7 +1115,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "企業や事業所が自社の従業員の乳幼児を保育するために設置・運営する地域型保育施設で、地域枠を設けて近隣住民の子どもを受け入れる事業。",
     body: "子ども・子育て支援新制度に基づく地域型保育事業の一つであり、企業や病院などの事業主が、自社の従業員が勤務しながら育児を行えるよう事業所内または近隣に開設する保育施設である。\n\n利用定員は従業員枠と、地域の待機児童解消に貢献するために設けられる地域枠で構成される。主として0〜2歳児を対象とし、職場の近隣で預けられる利便性や、親の勤務形態に柔軟に合わせた保育時間の提供が可能な点が大きなメリットである。\n\nなお、2016年度からは内閣府主導で助成される企業主導型保育事業も創設され、多様な働き方に対応する事業所主導の保育基盤整備が急速に進展している。",
-    relatedSlugs: ["hoiku-jigyo-shien", "hoiku-ryoritsu-shien", "kodomo-kosodate-shien-shinseido"],
+    relatedSlugs: ["hoiku-jigyo-shien", "hoiku-ryoritsu-shien", "kodomo-kosodate-shien-shinseido", "kigyo-shudogata-hoiku"],
     isCanonical: true,
     tags: ["地域型保育", "事業所内保育", "地域枠", "両立支援"],
   },
@@ -1193,7 +1193,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "和田実が大正から昭和初期に展開した、子どもの心身の発達に即して遊戯や唱歌を中心的な教育手段として位置づけた幼稚園教育論。",
     body: "和田実は明治末期から昭和前期にかけて活躍した教育者であり、日本における幼稚園教育の確立に多大な功績を残した。東洋英和女学校付属幼稚園などで実践を重ね、従来の形式的な恩物教育から脱却して、子どもの身体的・精神的な発達段階に合致した生活遊戯を教育の中心に据える教育思想を展開した。\n\n和田の実践論では、幼児の身体の調和的な発達を促すリズム運動や唱歌遊戯が極めて重視された。園の日常保育において、保育者は画一的な動作を強制するのではなく、幼児が自然に興味を抱く身近な動植物や生活の情景を題材に取り入れ、全身を使って楽しく表現できる集団遊戯の環境と援助手順を組織した。\n\n和田が提唱した遊戯活動論は、現代の幼児教育における身体表現やリトミック、集団的なルール遊びの指導法の源流となった。小学校体育や音楽への円滑な接続の基盤となるとともに、幼児が集団の中で身体を動かし心を通わせ合う体験の価値を先駆的に明らかにした点に大きな意義がある。",
-    relatedSlugs: ["kurahashi-sozo", "youchien-kyoiku-yoryo", "youchien-kyoiku-yoryo-hensen", "froebel"],
+    relatedSlugs: ["kurahashi-sozo", "youchien-kyoiku-yoryo", "youchien-kyoiku-yoryo-hensen", "froebel", "games-with-rules-tag-card-games-cooperation"],
     isCanonical: true,
     tags: ["和田実", "遊戯活動", "唱歌遊戯", "幼児教育史"],
   },
@@ -1284,7 +1284,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "モンテッソーリ教育において、触覚や視覚を活用した砂文字板や木製可動文字を用い、話すことから書くことへ自然に導く指導法。",
     body: "モンテッソーリ教育における言語教具は、幼児期特有の言語の敏感期を捉え、多様な言葉の獲得から文字の読み書きへと無理なく誘うために設計された。文字を単なる知識として暗記させるのではなく、子ども自身の内面にある言葉の欲求を触覚や運動感覚と結合させ、自発的な表現力を開花させる理論的背景を有する。\n\n指導の実践では、木板に砂紙で文字が貼られた砂文字板を指先でなぞりながら音を声に出すことで、文字の形と筆順と発音を感覚的に統合させる。さらに、まだ鉛筆を上手に握れない段階でも、木製の切り抜き文字である可動文字を自由に並べる活動を通して、頭の中に思い浮かんだ単語や文章を組み立てる喜びを体験させる。\n\nこの指導法は、書く動作を運動の要素と思考の要素に分解して個別指導を可能にし、子どもの急速な表現意欲の開花を促す。小学校国語科への円滑な接続をもたらすとともに、子どもが自己の考えを主体的に言語化する生涯にわたる対話能力の基盤を養う。",
-    relatedSlugs: ["montessori", "montessori-practical-life-exercises", "montessori-sensorial-didactic-materials", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["montessori", "montessori-practical-life-exercises", "montessori-sensorial-didactic-materials", "youchien-kyoiku-yoryo", "montessori-mathematics-materials-golden-beads"],
     isCanonical: true,
     tags: ["言語教具", "モンテッソーリ", "砂文字板", "可動文字"],
   },
@@ -1297,7 +1297,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "モンテッソーリ教育において、金色ビーズなどの教具を操作し、量感と数字を一致させながら十進法や四則演算を体感する指導法。",
     body: "モンテッソーリの算数教具は、幼児期に芽生える秩序感や数への興味を支え、抽象的な数学の原理を具体物の操作によって感覚的に把握させる目的で考案された。数という抽象概念を直接頭に教え込むのではなく、手で持てる重さや量感として体験させることで、論理的思考の確固たる土台を構築する思想的背景を持つ。\n\n具体的な指導では、1粒のビーズ、10粒をつなげた棒、100粒を平面的に並べた正方形板、1000粒を立体にした立方体という金色のビーズ教具を用いる。子どもはこれらを実際に手で持ち運んで量感と十進法の繰り上がりを視覚的・触覚的に理解し、カードの数字と照合しながら四則演算を遊ぶように学ぶ。\n\n具体物から抽象概念へと段階的に進む算数教具の体験は、算数への苦手意識を生じさせず、自ら法則を発見する知的な喜びを育てる。小学校算数科の位取りや計算の基礎概念へと円滑に接続し、自立的な問題解決能力と探究心を就学前期に確かなものとする教育的意義を持つ。",
-    relatedSlugs: ["montessori", "montessori-sensorial-didactic-materials", "piaget-play-stages", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["montessori", "montessori-sensorial-didactic-materials", "piaget-play-stages", "youchien-kyoiku-yoryo", "montessori-language-materials-sandpaper-letters"],
     isCanonical: true,
     tags: ["算数教具", "モンテッソーリ", "金色ビーズ", "十進法"],
   },
@@ -1349,7 +1349,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ニュージーランドの就学前指針において、子どもの主体性や全人発達、家族や関係性の重視を定めた4つの根本原則。",
     body: "ニュージーランドの幼児教育カリキュラム「テ・ファリキ」は、多様性を尊重する国家指針である。その基盤として「能力付与（エンパワメント）」「全人的発達」「家族と地域社会」「関係性」という4大原則が掲げられ、子どもの権利と多文化共生の理念を体現している。\n\n園の現場において保育者は、この4原則を日々のあらゆる援助の根底に据える。子ども自身の自己決定権を尊重して遊びを選択させ、認知機能だけでなく身体や情緒、精神を含む調和的な発達を支援する。さらに、保護者や地域住民を教育の協働パートナーとして園に迎え入れ、豊かな人間関係の中で学びを組織する。\n\nテ・ファリキの4大原則は、世界各国から最も先進的な幼児教育アプローチの一つとして称賛されている。日本の幼保連携型認定こども園や保育所保育指針における子どもの主体性尊重、家庭・地域連携の強化という課題に対しても、カリキュラムの根本思想として重要な指針を提供している。",
-    relatedSlugs: ["te-whariki", "youho-renkei-kyoiku-hoiku-yoryo", "hoikusho-hoiku-shishin", "hogosha-shien-hoiku"],
+    relatedSlugs: ["te-whariki", "youho-renkei-kyoiku-hoiku-yoryo", "hoikusho-hoiku-shishin", "hogosha-shien-hoiku", "te-whariki-five-strands-learning"],
     isCanonical: true,
     tags: ["テファリキ", "ニュージーランド", "カリキュラム", "多文化共生"],
   },
@@ -1362,7 +1362,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ニュージーランドのテ・ファリキ指針が定める、幸福感、所属感、貢献、コミュニケーション、探究の5つの包括的な学習領域。",
     body: "テ・ファリキにおける5大領域は、4大原則という縦糸に対して横糸として織り込まれる学習領域である。「健康と幸福」「所属感」「貢献」「コミュニケーション」「探究」から構成され、教科の枠組みではなく幼児の発達と生活の全体性を包括的に支える枠組みとして設計されている。\n\n園の実践では、子どもが安心できる居場所を感じ、健康で情緒が安定した生活を送り、他者との協同の中で自己の役割を果たし、多様な方法で思いを伝え、環境に主体的に関わって発見を楽しむことができるよう、統合的な遊びの環境が構成される。\n\nこの5大領域に基づく評価手法として個別の記述的記録が用いられ、子どもの強みや関心の育ちが可視化される。日本の幼児教育における健康・人間関係・環境・言葉・表現の5領域の見直しや、非認知能力を重視した幼保小接続のあり方に多大な示唆を与えている。",
-    relatedSlugs: ["te-whariki", "youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin", "hoiku-documentation"],
+    relatedSlugs: ["te-whariki", "youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin", "hoiku-documentation", "te-whariki-four-broad-principles"],
     isCanonical: true,
     tags: ["テファリキ", "学習領域", "探究活動", "包括的発達"],
   },
@@ -1557,7 +1557,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "指先や手先の細やかな運動と目と手の協応を促し、ハサミやスプーンなどの道具を的確に操作する力を培う幼児期の遊び活動。",
     body: "微細運動遊びとは、手や指先の細やかな筋肉を意図通りに動かし、目と手の協応動作や道具の的確な操作性を獲得していく遊びである。大脳皮質の運動野において手指の領域が極めて広大であることからも、幼児期における手先の活動は認知発達や知的探究と密接に関連している。\n\n保育現場では、ひも通しやシール貼り、ペグ差し、粘土細工やハサミ切りなど、発達段階に応じた魅力的な教具や素材をコーナーに配置する。保育者は道具の安全な持ち方を実演して示し、無理に矯正せず子どものペースで試行錯誤を反復できるよう温かく見守る配慮を行う。\n\n手先を自在に操る達成感は、子どもの集中力や根気強さを育てる。生活習慣の自立や就学後の鉛筆の保持、ノートへの筆記活動、図画工作といった教科学習を支える身体的基盤として、幼児期における豊かな微細運動の経験は不可欠である。",
-    relatedSlugs: ["yoji-zoukei-asobi", "montessori-practical-life-exercises", "asobi-sogoteki-shido", "hoiku-kankyo-kosei"],
+    relatedSlugs: ["yoji-zoukei-asobi", "montessori-practical-life-exercises", "asobi-sogoteki-shido", "hoiku-kankyo-kosei", "finger-play-origami-string-figures-manual"],
     isCanonical: true,
     tags: ["微細運動", "手先操作", "目と手の協応", "道具活用"],
   },
@@ -1635,7 +1635,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "人形や劇の登場人物に自己を投影し、日常では抑圧されがちな感情を安全に表現しながら他者への共感性と社会性を培う劇的活動。",
     body: "人形劇や劇ごっこは、子どもが人形や役割を介して自己の感情や願望を仮構の世界で表出する総合的な表現活動である。ドラマセラピーの知見にも通じる情緒的なカタルシス効果を持ち、幼児教育における感情教育や社会的情動的スキルの育成において極めて高い教育的意義を有する。\n\n園では、手袋人形や指人形、衣装や大道具などを保育室に準備し、子どもが自由に役になりきれるコーナーを設ける。保育者は無理に筋書きを押しつけることなく、子どもの即興的な言葉や演技を温かく受け止め、悪役や葛藤の場面も肯定的に展開できるよう劇の進行を支える。\n\n他者の立場に立って演技し感情を共有する経験は、視点取得能力や思いやりの心を飛躍的に育てる。仲間と共通の物語を創り上げる劇ごっこの協同体験は、小学校における集団活動や対話的な学びの基盤となる確かな社会性を培う。",
-    relatedSlugs: ["shocho-asobi", "yoji-shakaisei-hatsutatsu", "asobi-sogoteki-shido", "social-emotional-learning"],
+    relatedSlugs: ["shocho-asobi", "yoji-shakaisei-hatsutatsu", "asobi-sogoteki-shido", "social-emotional-learning", "catharsis-effect-emotion"],
     isCanonical: true,
     tags: ["人形劇", "劇ごっこ", "感情表出", "共感性"],
   },
@@ -1648,7 +1648,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ダルクローズが創始した、音楽を身体全体の動きで直接的に知覚・表現することで、リズム感や即時反応力、集中力を総合的に高める指導法。",
     body: "リトミックとは、スイスの作曲家ダルクローズが体系化した音楽教育法であり、聴覚で捉えた音楽の速度や強弱、リズムを身体運動へと直結させて表現する実践である。幼児の心身の調和的発達を図り、感性や自律的行動力を養うアプローチとして国内外の教育現場で広く導入されている。\n\n園の活動では、ピアノの即興演奏に合わせて子どもたちが室内を歩いたり止まったり、動物の動きを模倣したりする。保育者は音楽の変化を即座に察知して動きを切り替える遊びを導入し、子どもが緊張と解放の感覚を楽しみながら自己の身体を思い通りにコントロールできるよう促す。\n\n音を聴き取って瞬時に判断し身体を動かす訓練は、高い集中力と空間認知、自己統制力を培う。音楽と身体が一体となる心地よい体験は、情操を豊かにし、就学後の教科学習全般に必要な注意持続力や協調的表現力の強固な土台を築く。",
-    relatedSlugs: ["dalcroze-eurhythmics", "yoji-ongaku-rhythm-asobi", "yoji-undou-asobi", "asobi-sogoteki-shido"],
+    relatedSlugs: ["dalcroze-eurhythmics", "yoji-ongaku-rhythm-asobi", "yoji-undou-asobi", "asobi-sogoteki-shido", "music-expression-listening-guidance"],
     isCanonical: true,
     tags: ["リトミック", "リズム指導", "身体表現", "ダルクローズ"],
   },
@@ -1674,7 +1674,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "折り紙やあやとり、ひも通しなどを通じて手指の巧みな操作性と目と手の協応を養い、幾何学的感覚や集中力を培う伝統的・感覚的活動。",
     body: "折り紙やあやとり、ひも通しなどの指先遊びは、手先の細やかな筋肉を使い、正確な位置決めや力加減を調整する伝統的かつ感覚的な遊びである。手の機能発達と脳の活性化を促し、形態の対称性や幾何学的概念を具体物を通して体得する教育的価値を併せ持つ。\n\n園では、子どもの手の大きさに合った折り紙や太さの異なるひも、穴の開いた木製ビーズなどをトレイに小分けして準備する。保育者は子どもの隣に座って手元を分かりやすく見せ、角をそろえて折るコツやひもを通す手順を個別に応じ、できた喜びを共に分かち合う援助を行う。\n\n手指を精密にコントロールして作品を完成させる過程は、高い集中力と見通しを持ってやり遂げる粘り強さを育む。空間把握能力や手先の確かな操作力は、就学後の書字や算数の図形理解、理科工作などの学習活動を支える確実な土台となる。",
-    relatedSlugs: ["yoji-zoukei-asobi", "montessori-practical-life-exercises", "asobi-sogoteki-shido", "hoiku-kankyo-kosei"],
+    relatedSlugs: ["yoji-zoukei-asobi", "montessori-practical-life-exercises", "asobi-sogoteki-shido", "hoiku-kankyo-kosei", "fine-motor-play-hand-eye-finger-skills"],
     isCanonical: true,
     tags: ["指先遊び", "折り紙", "あやとり", "手先操作"],
   },
@@ -1856,7 +1856,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "登降園時の健康視診と保護者との対話連携とは、子どもの顔色や体温、機嫌、外傷等を視診で把握するとともに、家庭での様子を保護者と直接情報交換し、安全な保育と家庭支援を実現する日常的実践である。",
     body: "登降園時の健康視診と保護者との対話連携は、保育所保育指針や幼稚園教育要領に示された健康観察と家庭連携を具現化する基本的実践である。子どもの健康状態の把握は集団感染の予防や事故防止の起点であり、保護者との日々の対話は保育の連続性を保ち、子どもの発達を共に支える協働体制を築くために不可欠である。\n\n登園時には、子どもの表情、顔色、目や皮膚の状態、歩き方、機嫌を直接観察し、前夜の睡眠時間や朝食の摂取状況、発熱や怪我の有無を保護者から聞き取る。降園時には、園での活動や昼食の様子、午睡の状況、小さな変化や育ちの姿を保護者に丁寧に伝え、互いに感謝や労いを交わしながら信頼関係を深める。\n\n細やかな視診と対話により、子どもの小さな体調変化や心理的不安を早期に察知し、個に応じた適切な配慮を行うことができる。家庭と園が子どもの姿を共有し一体となって温かく見守る安心感は、子どもの情緒の安定と主体的な活動意欲を促し、小学校就学へとつながる豊かな育ちを力強く支える。",
-    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "boshi-kenko-techo"],
+    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "boshi-kenko-techo", "individual-parent-teacher-conference-growth"],
     isCanonical: true,
     tags: ["健康視診", "健康観察", "登降園", "保護者支援"],
   },
@@ -1869,7 +1869,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "連絡帳を通じた日々の情報共有と信頼関係とは、家庭と園との間で子どもの健康状態や発達の様子を双方向に記録・伝達し合い、共通理解のもとで子どもを共に育む重要な連携支援の仕組みである。",
     body: "連絡帳を通じた日々の情報共有と信頼関係は、保育所保育指針等の家庭連携指針に基づき、家庭と園が密接につながり子どもの育ちを支える基盤的道具である。特に乳幼児期においては家庭と園での生活の連続性が極めて重要であり、書面や電子連絡帳を通じた双方向の対話によって保護者支援と質の高い保育が実現される。\n\n家庭からは睡眠時間や排便、食事、家庭での様子が記録され、保育者は園での遊びの具体的な出来事や情緒の変化、友だちとの関わりを肯定的に記述して返す。失敗やつまずきも成長の過程として温かい視点で共有し、育児の喜びや悩みに寄り添う言葉を添えることで、保護者の安心感を支える。\n\n連絡帳を通じた継続的な記録の蓄積は、子どもの固有の個性や成長の歩みを振り返る貴重な資料となる。家庭と園が同じ視点で子どもの主体的な成長を見守り協働する姿勢は、子どもの自己肯定感を高め、小学校接続期における家庭との継続的な連携や生活習慣の自立に向けた確かな架け橋となる。",
-    relatedSlugs: ["hogosha-shien-hoiku", "hoiku-documentation", "hoikusho-hoiku-shishin"],
+    relatedSlugs: ["hogosha-shien-hoiku", "hoiku-documentation", "hoikusho-hoiku-shishin", "victim-parents-trust-building-communication"],
     isCanonical: true,
     tags: ["連絡帳", "家庭連携", "情報共有", "信頼関係"],
   },
@@ -1882,7 +1882,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "個人懇談における子どもの発達共有と相談とは、保育者と保護者が一対一で対話し、園と家庭での生活や遊びの様子を共有しながら、育児の悩みや発達課題について共に考え協働を深める面談活動である。",
     body: "個人懇談における子どもの発達共有と相談は、幼稚園教育要領や保育所保育指針が掲げる保護者支援と幼児理解の深化を目的とした重要な面談機会である。集団場面では伝えきれない個別の発達状況や家庭の教育方針、育児不安に深く向き合い、家庭と園が協働して子どもを育てる関係性を築くために制度化されている。\n\n保育者は日頃の観察記録や作品、活動の様子を整理して面談に臨み、子どもの長所や主体的な遊びの姿を具体的に伝える。保護者の思いや家庭での悩みを傾聴的態度で受け止め、一方的な助言に偏ることなく、子どものより良い育ちに向けて何ができるかを共に探る対話の手順を大切にする。\n\n個人懇談を通して保育者と保護者の相互理解が深まることは、保護者の育児不安の軽減と養育力の向上をもたらし、家庭での情緒的安定へと直結する。園と家庭が一貫した方針で寄り添う安心感の中で、子どもは自己を十分に発揮し、小学校生活へとつながる社会性や主体的な意欲を豊かに育んでいく。",
-    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "chiiki-kosodate-shien-kyoten"],
+    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "chiiki-kosodate-shien-kyoten", "open-class-day-parent-participation-events"],
     isCanonical: true,
     tags: ["個人懇談", "保護者面談", "発達理解", "相談支援"],
   },
@@ -1895,7 +1895,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育参観・保育参加を通じた家庭連携の深化とは、保護者が園での集団生活や遊びの場面を参観・体験することで、幼児理解を深め、保育者と共に子どもの豊かな育ちを支える協働関係を構築する実践である。",
     body: "保育参観・保育参加を通じた家庭連携の深化は、保育所保育指針や幼稚園教育要領における保護者との連携・子育て支援の重要施策である。家庭では見られない集団の中での子どもの姿や友だちとの関わりを可視化し、園の教育・保育方針への理解と共感を高め、家庭と園の信頼関係を強固にする目的を持つ。\n\n保育参観では、子どもたちの自由な遊びや一斉活動を静かに見守る形式をとり、保育参加では保護者が一日保育士や活動の補助者として実際に子どもと触れ合う体験を設ける。保育者は子どもの行動の背景にある発達の意味を懇談会等で丁寧に解説し、保護者同士の交流や語り合いの場も併せて構成する。\n\n自分の親が園の活動に関心を持ち関わってくれる経験は、子どもに深い安心感と誇りをもたらし、園生活への主体的な適応を促す。保護者自身も我が子の成長や他児との協調性を実感することで視野を広げ、小学校就学期に向けた親子の結びつきと地域社会における育児協働の基盤が形成される。",
-    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "youchien-kyoiku-yoryo", "individual-parent-teacher-conference-growth"],
     isCanonical: true,
     tags: ["保育参観", "保育参加", "家庭連携", "協働"],
   },
@@ -2038,7 +2038,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "園におけるアナフィラキシー緊急時対応手順とは、急激なアレルギー発症時に補助治療剤の投与や救急要請、保護者連絡等を迅速かつ的確に行い、子どもの生命を救うための実践的危機管理手順である。",
     body: "園におけるアナフィラキシー緊急時対応手順は、文部科学省や厚生労働省のアレルギー対応指針に基づき策定された、一刻を争う生命危機に対応するための危機管理規程である。呼吸器や循環器等に生じる重篤な全身症状に対し、全職員が即座に役割分担し、迷わず救命処置を実行できる体制が不可欠とされている。\n\n症状発現時には直ちに症状観察を行い、血圧低下や呼吸困難等の危険兆候を認めた場合、処方されている自己注射薬の投与をためらわずに実施する。並行して救急通報、園内本部への伝達、保護者連絡、救命器具の準備を分担して進める。平時から模擬訓練を重ね、全職員が迅速に行動できる手順を反復習熟する。\n\n万全の緊急対応体制の確立は、施設全体の安全基盤を強固にし、配慮を要する子どももその保護者も安心して日々の集団生活に参加できる信頼を生む。危機管理意識に支えられた安心な環境の中で、子どもは自らの健康に自信を持ち、小学校進学後も自立して安全に行動できる主体性の芽を育んでいく。",
-    relatedSlugs: ["hoiku-allergy-taio", "food-allergy-epipen-school-management", "hoiku-jiko-boshi"],
+    relatedSlugs: ["hoiku-allergy-taio", "food-allergy-epipen-school-management", "hoiku-jiko-boshi", "epilepsy-seizure-emergency-school"],
     isCanonical: true,
     tags: ["アレルギー", "緊急対応", "安全管理", "危機管理"],
   },
@@ -2090,7 +2090,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "小動物・昆虫の飼育を通した生命尊重指導とは、ウサギや昆虫等の生き物の世話や観察を通して、生命の尊さや不思議さに気づき、思いやりや優しい心を育む総合的な情操教育の実践である。",
     body: "小動物・昆虫の飼育を通した生命尊重指導は、幼稚園教育要領や保育所保育指針の「環境」領域において、自然や身近な生き物への愛護精神を育む重要課題として位置づけられている。実体験が希薄化しやすい現代社会において、生きている存在に直接触れ、その生命の営みや不可逆性に直面する経験は道徳的感性の根幹を成す。\n\n園では、ウサギ、モルモット、カメ、昆虫などを飼育し、子どもが日々の餌やり、清掃、観察に主体的に関われる役割分担を構成する。生き物が嫌がることや命のはかなさを知らせ、優しくなでる・静かに見守る関わり方を保育者が手本となって示す。誕生の喜びとともに死に直面した際には、命の重みを全員で深く受け止める。\n\n自分より小さく弱い生き物の命を大切に育む体験は、他者への共感性や痛みに寄り添う優しい心を豊かに醸成する。生命に対する畏敬の念は、小学校の生活科や理科、道徳科での学びへと有機的につながり、すべての命を尊重し共に生きようとする成熟した人間性の確かな礎となる。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "shizen-taiken-hoiku", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "shizen-taiken-hoiku", "youchien-kyoiku-yoryo", "plant-cultivation-observation-nature-awe"],
     isCanonical: true,
     tags: ["飼育活動", "生命尊重", "自然体験", "感性"],
   },
@@ -2103,7 +2103,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "草花の栽培と身近な自然への親しみと探究とは、植物の水やりや観察を通して、生長の喜びや季節の移ろいを感じ取り、自然の美しさや生命の営みに対する豊かな好奇心と探究心を培う指導である。",
     body: "草花の栽培と身近な自然への親しみと探究は、幼稚園教育要領等の「環境」領域に基づき、幼児の科学的な見方や自然への親愛の情を培う重要な保育活動である。種から芽が出て花が咲き実を結ぶ自然の循環を身近で体験することは、目まぐるしく変化する現代において、生命の尊さや時間の連続性を体得する貴重な機会となる。\n\n園庭の花壇やプランターを活用し、アサガオやヒマワリ、季節の草花を子どもと共に植え、毎日の水やりや手入れを分担する。葉の形や手触り、匂いの変化、集まる虫たちの観察を促し、気づいたことを言葉や絵で表現できるよう援助する。思うように生長しない困難にも出会わせ、土や日光の働きについて共に考える。\n\n愛情を注いで育てた植物が開花したときの感動は、子どもの達成感と自然への畏敬の念を深め、主体的な探究心を飛躍的に育てる。生命を慈しむ豊かな感性は、小学校の生活科や理科における科学的探究学習の確かな基盤となり、自然と調和しながら持続可能な社会を生きる豊かな人間性の土台を形作る。",
-    relatedSlugs: ["shizen-taiken-hoiku", "kankyo-wo-tsujita-kyoiku", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["shizen-taiken-hoiku", "kankyo-wo-tsujita-kyoiku", "youchien-kyoiku-yoryo", "animal-rearing-experiences-respect-life"],
     isCanonical: true,
     tags: ["栽培活動", "自然体験", "科学的探究", "生命尊重"],
   },
@@ -2116,7 +2116,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "季節の移り変わりや日本の伝統行事を体験する活動であり、豊かな感性や文化的背景への親しみを育むとともに生活リズムを整える幼児教育の実践。",
     body: "季節の年中行事は、七夕や月見、節分など日本の伝統的な文化や生活様式を幼児期の発達に合わせて体験する教育活動である。幼稚園教育要領や保育所保育指針の「環境」や「言葉」の領域に位置づけられ、四季の自然の美しさや地域の歴史、生活の知恵に親しむことを目的としている。\n\n園の実践では、単に行事の当日を祝うだけでなく、行事にまつわる物語の読み聞かせや由来の紹介、行事食の調理体験、飾り付けの共同制作などを日々の遊びに組み込む。子ども自らが季節の草花や素材に触れ、仲間と協力して準備を進める過程を重視した環境構成を行う。\n\nこれらの体験は、見通しを持った生活習慣の形成や地域社会への愛着、多文化理解の素地を養う。現代の核家族化や地域関係の希薄化の中で、園での伝統行事の体験は子どもが豊かな情緒を育み、世代を超えた文化を自然に受け継いでいく貴重な機会となっている。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "kankyo-wo-tsujita-kyoiku", "shizen-taiken-hoiku"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "kankyo-wo-tsujita-kyoiku", "shizen-taiken-hoiku", "traditional-culture-seasonal-events-respect"],
     isCanonical: true,
     tags: ["年中行事", "伝統文化", "体験学習", "季節感"],
   },
@@ -2233,7 +2233,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "足形マットや絵カードなどの視覚的な手がかりを活用し、言葉の理解が未熟な幼児でも順番や規則を直感的に把握できるよう工夫する支援技術。",
     body: "順番待ちとルール理解を促す視覚的支援は、遊具の利用や手洗いなどの集団生活において、視覚的な手がかりを用いて自律的な行動を導く援助手法である。特別支援教育の構造化の理念を園全体に応用したものであり、すべての幼児が安心かつ公平に園生活を送るための環境構成に位置づく。\n\n具体的な環境設定として、手洗い場や滑り台の待機場所に足形の印を床に貼ったり、利用順を示すカードや砂時計を設置したりする。保育者は言葉だけで注意するのではなく、目に見える目印を指さしながら「ここに並ぼうね」と促し、子どもが自発的に待機できる仕組みを整える。\n\n視覚的な手がかりがあることで、待つことの見通しが立ち、衝動的な行動や子ども同士の衝突が大幅に減少する。自ら規則を守れた達成感は自己統制力と自己肯定感を高め、小学校での集団生活や学習規律の遵守へと無理なく移行する大きな助けとなる。",
-    relatedSlugs: ["hoiku-kankyo-kosei", "shogaiji-hoiku", "kankyo-wo-tsujita-kyoiku"],
+    relatedSlugs: ["hoiku-kankyo-kosei", "shogaiji-hoiku", "kankyo-wo-tsujita-kyoiku", "visual-schedules-symbols-support"],
     isCanonical: true,
     tags: ["視覚的支援", "構造化", "ルール理解", "自己統制"],
   },

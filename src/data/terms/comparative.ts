@@ -10,7 +10,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "PISA好成績で注目された、平等性と教師の専門性を重視する北欧の学校制度です。",
     body: "フィンランドの教育制度は、7歳就学、9年間の総合基礎学校(ペルスコウル)、無償の給食・教材、能力別選抜をほぼ行わない仕組みを特徴とし、2000年代のPISA調査で高順位を記録して世界的に注目されました。\n\n教員は全員修士号を持つ専門職として社会的地位が高く、国が定める大枠のナショナルコアカリキュラムのもとで、学校や教師に大きな裁量が与えられています。標準テストや競争的な学校選択がほとんどなく、地域間格差が小さいことも特徴です。\n\n日本では、教員の高度専門性の確立や、過度な競争を抑えた学習環境づくりの参考事例として、フィンランドの制度がしばしば比較教育学の文脈で取り上げられます。",
-    relatedSlugs: ["pisa", "jenaplan", "folkehojskole"],
+    relatedSlugs: ["pisa", "jenaplan", "folkehojskole", "peruskoulu-finland"],
     isCanonical: true,
     tags: ["北欧教育", "学力調査", "教員専門性"],
   },
@@ -23,7 +23,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "スイスの財団が運営する国際教育プログラムで、修了により世界共通の大学入学資格が得られます。",
     body: "国際バカロレア(IB)は1968年にジュネーブの国際バカロレア機構(IBO)が創設した国際教育プログラムです。幼児期から高校段階までPYP・MYP・DP・CPの4段階があり、DP(ディプロマ・プログラム)修了者は世界の大学への出願資格を得られます。\n\n探究型学習や批判的思考、複数言語での学習、課題論文(EE)や知の理論(TOK)の履修などを通じて、特定の国の教育課程に縛られない汎用的な資質・能力の育成を重視しています。世界150以上の国・地域の学校で導入されています。\n\n日本では文部科学省が2013年以降IB認定校の拡大を政策目標に掲げ、探究的な学習や思考力評価の充実を図るモデルとして国内教育改革にも影響を与えています。",
-    relatedSlugs: ["tankyu-gakushu", "international-school", "kikokushijo-kyoiku", "concept-based-curriculum-instruction", "super-global-daigaku"],
+    relatedSlugs: ["tankyu-gakushu", "international-school", "kikokushijo-kyoiku", "concept-based-curriculum-instruction", "super-global-daigaku", "ib-career-related-programme-cp-framework", "ib-middle-years-programme"],
     isCanonical: true,
     tags: ["国際教育プログラム", "大学入学資格", "国際バカロレア", "中核要素", "知の理論"],
   },
@@ -49,7 +49,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1990年に始まった、すべての人に基礎教育を保障することを目指す国際的な運動です。",
     body: "EFA(万人のための教育)は、1990年にタイのジョムティエンで開催された「万人のための教育世界会議」を契機に始まった国際的な教育運動です。すべての子どもと成人が基礎教育を受けられるようにすることを共通目標としました。\n\n2000年のダカール行動枠組みでは、初等教育の完全普及、成人識字率の向上、教育におけるジェンダー格差の解消など6つの目標が設定され、UNESCOが調整機関としてEFAグローバルモニタリングレポートを毎年公表しました。\n\nEFAの目標は2015年のミレニアム開発目標(MDGs)と並行して進められ、その後継としてSDG4に発展的に引き継がれており、途上国の教育開発政策の基盤となっています。",
-    relatedSlugs: ["sdg4", "unesco-education", "literacy-education-developing"],
+    relatedSlugs: ["sdg4", "unesco-education", "literacy-education-developing", "jomtien-declaration"],
     isCanonical: true,
     tags: ["国際開発", "基礎教育"],
   },
@@ -153,7 +153,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "企業実習と職業学校の学習を組み合わせたドイツ発の職業教育・訓練制度です。",
     body: "デュアルシステム(二元制職業教育訓練)は、ドイツで長く発達してきた職業教育の仕組みで、生徒が企業に見習い(アズビ)として雇用されながら実地訓練を受けると同時に、週に数日は職業学校(ベルーフスシューレ)で理論を学ぶ形態です。\n\n300以上の認定職種ごとに国が定める訓練規則に基づき、企業・商工会議所・職業学校が協力して人材育成を行い、修了後は国家資格に相当する資格を取得できます。若年失業率の低さに寄与する制度として国際的に評価されています。\n\n学校教育と職業実践を早期から結びつける仕組みとして、日本の専門高校教育やインターンシップ制度の充実を考える上での比較事例とされています。",
-    relatedSlugs: ["career-education", "shikaku-shogai-kyoiku"],
+    relatedSlugs: ["career-education", "shikaku-shogai-kyoiku", "germany-berufsschule-dual-vocational-system"],
     isCanonical: true,
     tags: ["ドイツ教育", "職業教育"],
   },
@@ -426,7 +426,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1965年に開始された米国の低所得家庭向け就学前教育プログラム。「貧困との闘い」政策の一環として、子どもの健康・栄養・発達を包括的に支援する。",
     body: "ヘッドスタート計画は、リンドン・ジョンソン大統領の「貧困との闘い(War on Poverty)」政策の一環として1965年に開始された、低所得家庭の未就学児を対象とする包括的な早期教育プログラムである。当初は夏季の8週間プログラムとして数千人規模を想定していたが、開始直後から56万人以上の子どもが参加する大規模事業となった。教育面の支援にとどまらず、健康診断、栄養、心理社会的発達、家庭支援までを一体的に提供する点に特徴がある。\n\n1994年にはプログラムが拡充され、妊婦や0〜3歳児とその家族を対象とする「アーリー・ヘッドスタート」が新設された。現在までに延べ3,700万人以上の子どもと家族が本プログラムの恩恵を受けたとされ、2007年の再授権法(Improving Head Start for School Readiness Act)により質の向上に関する規定が強化されている。運営は連邦政府から地域の実施機関への補助金という形をとり、地域の実情に応じた柔軟な運営が可能である。\n\n比較教育学の観点からは、ヘッドスタート計画は就学前教育投資の経済的効果を検証したヘックマンの研究などとも関連づけて論じられることが多く、貧困の世代間連鎖を断ち切るための早期介入政策の代表例として国際的に参照されている。ただし、その長期的効果をめぐっては研究者の間で評価が分かれており、プログラムの質のばらつきや効果の持続性が継続的な検証課題となっている。",
-    relatedSlugs: ["heckman-youji-kyoiku-toshi", "hinkon-no-rensa"],
+    relatedSlugs: ["heckman-youji-kyoiku-toshi", "hinkon-no-rensa", "usa-head-start-long-term-trajectory"],
     isCanonical: true,
     tags: ["アメリカ", "就学前教育", "貧困対策", "早期介入"],
   },
@@ -439,7 +439,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2002年に米国で成立した連邦教育法。標準テストによる説明責任を全州に義務づけたが、後に批判を受け2015年に「全生徒成功法」へと改正された。",
     body: "落ちこぼれ防止法(No Child Left Behind Act、NCLB法)は、2002年1月にブッシュ大統領が署名して成立した米国の連邦教育法であり、1965年の初等中等教育法(ESEA)を大幅に改正するものであった。各州に対して毎年の標準学力テストの実施と結果の公表を義務づけ、一定期間内に目標水準(適正年次進捗、AYP)に達しない学校には人事介入や再編といった段階的な制裁措置を課す仕組みを導入した点が最大の特徴である。\n\nこの法律は、テストの結果によって学校を格付けし、連邦政府が教育内容に強く関与する仕組みを持ち込んだことから、教育現場における「テスト対策偏重」やカリキュラムの狭隘化を招いたとして批判を浴びた。特に低所得層や特別支援を必要とする子どもが多い学校ほど制裁を受けやすいという構造的な問題も指摘され、2015年12月にオバマ政権下で後継法である「全生徒成功法(Every Student Succeeds Act、ESSA)」が制定され、連邦の関与を弱め、説明責任の設計を各州に委ねる方向へと転換した。\n\n比較教育学の視点では、NCLB法から ESSA への転換は、中央集権的な説明責任システムと地方分権との間で揺れ動く教育ガバナンスの典型例として扱われ、日本の全国学力・学習状況調査など各国の学力テスト政策を考察する際の比較対象としてしばしば参照される。",
-    relatedSlugs: ["zenkoku-gakuryoku-chosa", "assessment-policy", "hyoka-kijun"],
+    relatedSlugs: ["zenkoku-gakuryoku-chosa", "assessment-policy", "hyoka-kijun", "elementary-secondary-education-act-esea"],
     isCanonical: true,
     tags: ["アメリカ", "教育法", "学力テスト", "説明責任"],
   },
@@ -452,7 +452,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "オーストラリアで2008年から実施されている全国統一学力テスト。3・5・7・9年生を対象に読み書きと数的能力を毎年測定し、教育資源配分などに活用される。",
     body: "NAPLAN(National Assessment Program – Literacy and Numeracy)は、オーストラリアの全州・準州で2008年から毎年実施されている全国統一の学力テストであり、3年生・5年生・7年生・9年生を対象に、読解・作文・言語のきまり(綴り・文法・句読点)・数的能力の4領域を測定する。2020年は新型コロナウイルスの影響で中止となったが、それ以外は毎年継続して実施されており、2023年からは実施時期が5月から3月へと早められ、結果がより早期に活用できるようになった。\n\nNAPLANの結果は複数の目的で利用される。連邦・州政府は結果をもとに予算配分の優先順位を検討し、学校は自校の弱点分野を把握して指導計画の改善に、教員は個々の生徒への介入策の立案にそれぞれ活用する。結果は学校ごとに公開される「マイスクール(My School)」ウェブサイトを通じて保護者や地域社会にも共有され、学校選択の材料ともなっている。\n\n一方で、学校の序列化や「テストのための指導」への偏重、公開データによる学校間の過度な比較といった副作用も指摘されており、日本の全国学力・学習状況調査やイギリスのSATsなど、各国の全国一斉学力テスト政策と比較しながら、説明責任と教育の質保証のあり方を論じる際の重要な事例となっている。",
-    relatedSlugs: ["zenkoku-gakuryoku-chosa", "gcse-a-level", "assessment-policy", "pisa", "hyojun-gakuryoku-kensa"],
+    relatedSlugs: ["zenkoku-gakuryoku-chosa", "gcse-a-level", "assessment-policy", "pisa", "hyojun-gakuryoku-kensa", "australian-curriculum-acara-framework", "uk-key-stage-national-assessment-sats"],
     isCanonical: true,
     tags: ["オーストラリア", "学力テスト", "全国調査", "説明責任", "NAPLAN", "全国学力調査"],
   },
@@ -478,7 +478,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ロシアで2009年から全国的に導入された、高校卒業資格と大学入学資格を兼ねる統一試験。入試における縁故や汚職の是正を目的として整備された。",
     body: "統一国家試験(Единый государственный экзамен、通称EGE)は、ロシア連邦において高校最終学年で実施される全国統一の試験制度であり、2001年から一部地域で試験的に導入された後、2009年から全国で義務化された。数学(基礎・応用いずれか)とロシア語が必修科目であり、物理・化学・生物・歴史・社会・文学・外国語などから選択科目を追加で受験する。採点は100点満点で行われ、科目ごとに合格に必要な最低点が設定されている。\n\nEGEの最大の特徴は、高校の卒業試験としての機能と大学の入学試験としての機能を一本化した点にある。従来、ロシアの大学入試は各大学が個別に実施しており、縁故や賄賂による不正入学が社会問題化していたが、EGEの導入によって成績評価の客観性と透明性を高め、地方の生徒にも大都市の有力大学への進学機会を開くことが企図された。現在のロシアの大学入試では、在学中の成績や課外活動よりもEGEの点数がほぼ唯一の決定的な要素となっている。\n\n比較教育学の観点からは、EGEは大学入試における選抜方法の標準化・客観化を進める政策の代表例として、韓国のスヌン(大学修学能力試験)やフランスのバカロレアなど、一発勝負型の統一試験を持つ他国の制度と比較しながら論じられることが多い。",
-    relatedSlugs: ["suneung", "baccalaureat", "daigaku-nyugaku-kyotsu-test"],
+    relatedSlugs: ["suneung", "baccalaureat", "daigaku-nyugaku-kyotsu-test", "russia-eleven-year-general-education"],
     isCanonical: true,
     tags: ["ロシア", "大学入試", "統一試験", "説明責任"],
   },
@@ -491,7 +491,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2009年にインドで制定された、6〜14歳の全ての子どもに無償・義務の初等教育を保障する法律。2010年施行以降、就学率の向上に大きく寄与した。",
     body: "RTE法(Right of Children to Free and Compulsory Education Act, 2009)は、2002年の憲法第86次改正によって新設された憲法第21A条(教育を受ける権利)を具体化するため、インド議会が2009年8月に制定し、2010年4月1日から施行した法律である。同法は、6歳から14歳までの全ての子どもに対して、一定の質的水準を満たす通常の学校における無償かつ義務の初等教育を受ける権利を保障しており、障害のある子どもについては6歳から18歳までを対象とする規定も設けられている。\n\n同法は、教室・飲料水設備・衛生環境・男女別トイレの設置基準や教員の勤務時間の規定など、学校が満たすべき最低基準を具体的に定めているほか、私立学校に対しても近隣地域の恵まれない家庭の子どもを一定割合(25%)受け入れることを義務づけている点が特徴である。施行後、2009年から2016年にかけて中等教育の前段階にあたる上級初等段階(6〜8学年)の就学者数が約19.4%増加するなど、就学率の向上に大きな成果を上げた。\n\n一方で、教員不足や施設整備の遅れ、農村部と都市部の格差など、法の理念と実施現場との乖離も課題として指摘されている。比較教育学の観点からは、RTE法は「万人のための教育(EFA)」やSDG4が掲げる普遍的な基礎教育の権利保障を、発展途上国が国内法によって具体化した代表的な事例として位置づけられる。",
-    relatedSlugs: ["efa-education-for-all", "sdg4", "literacy-education-developing"],
+    relatedSlugs: ["efa-education-for-all", "sdg4", "literacy-education-developing", "india-nep-2020"],
     isCanonical: true,
     tags: ["インド", "教育を受ける権利", "義務教育", "法制度"],
   },
@@ -504,7 +504,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1992年にスウェーデンで導入されたバウチャー制度に基づく学校選択制度。公立・私立を問わず生徒一人当たりの補助金が学校に支給され、保護者は学校を自由に選択できる。",
     body: "スウェーデンは1992年、教育の運営権限を地方自治体や学校現場に委譲する一連の改革の一環として、全国規模の教育バウチャー制度(スコールペング)を導入した。この制度のもとでは、公立学校と、独立採算で運営される「フリスコーラ(自由学校)」のいずれを選んでも、生徒一人当たり同額の公的補助金が学校側に支給され、保護者は住んでいる自治体に関わらず学校を自由に選択できる。フリスコーラは授業料を徴収せず、給食や教材も無償で提供される点で公立学校と変わらない一方、非営利団体だけでなく営利企業による運営も認められている。\n\nこの制度により、フリスコーラに通う生徒の割合は全国平均で約18%に達しており、これは米国のチャータースクールの在籍率(約6%)を大きく上回る。フリスコーラは国が定めるナショナルカリキュラムに従う義務を負い、学校監査庁(スコールインスペクショネン)による監督を受けるが、公立学校と同様の質の保証を受けながら、独自の教育理念や指導方法を打ち出せる点が特徴である。\n\nしかし、学校選択の自由化は同時に、社会経済的背景や移民の有無による学校間の分離(セグリゲーション)を助長しているとの批判も強く、2012年前後にはスウェーデンの生徒の学力がPISA調査で参加国中最も大きく低下するなど、教育の質への懸念も指摘された(その後2015年調査では国際平均並みまで回復)。比較教育学においては、市場原理に基づく学校選択制度の効果と限界を検討する代表的な事例として頻繁に取り上げられている。",
-    relatedSlugs: ["charter-school", "parentocracy", "pisa"],
+    relatedSlugs: ["charter-school", "parentocracy", "pisa", "education-voucher-school-choice-market"],
     isCanonical: true,
     tags: ["スウェーデン", "バウチャー制度", "学校選択制", "教育の市場化"],
   },
@@ -517,7 +517,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "オランダ憲法第23条が保障する、宗教・思想に基づいて学校を設立・運営する自由。19世紀末の「柱状化」社会を背景に確立し、公立・私立の別なく国が平等に財政支援する制度を支えている。",
     body: "オランダの教育制度を特徴づける「教育の自由(vrijheid van onderwijs)」は、憲法第23条に定められた原則であり、学校設立の自由・教育内容編成の自由・教育理念決定の自由の3つの要素からなる。この原則は、19世紀後半から20世紀にかけてオランダ社会がプロテスタント・カトリック・自由主義(公立・世俗)という「柱(pillar)」に分かれて生活していた「柱状化(verzuiling)」の時代に、各宗派・思想集団が自らの信条に基づく学校を持つ権利を求めた政治的妥協の産物として1917年に確立された。\n\n同条は、公立学校と私立学校(宗教立・理念立学校)に対して政府が同等の財政支援を行うことを義務づけている点が最大の特徴であり、私立学校であっても公立学校とほぼ同水準の公的資金を受け取りながら、独自の教育理念に基づく学校運営が可能である。20世紀には仏教・イスラームなど新たな宗派学校も加わり、モンテッソーリ校やイエナプラン校のようなオルタナティブ教育の私立学校も同じ枠組みの中で公的支援を受けて運営されている。\n\n近年では、思想・信条の自由という理念が、差別の禁止や機会の平等といった別の憲法上の要請と緊張関係に立つとの議論も起きており、学校選択の自由と教育の質・公平性の両立が課題とされている。比較教育学的には、公私二元体制を統合した「準市場型」学校制度の先駆的事例として、スウェーデンのフリスコーラ制度などと並んで参照されることが多い。",
-    relatedSlugs: ["sweden-friskola", "jenaplan", "montessori"],
+    relatedSlugs: ["sweden-friskola", "jenaplan", "montessori", "netherlands-freedom-of-education-subsidy"],
     isCanonical: true,
     tags: ["オランダ", "教育の自由", "学校選択制", "公私二元制度"],
   },
@@ -530,7 +530,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2021年に中国政府が導入した、義務教育段階の宿題負担と学校外補習(塾)を大幅に規制する政策。学習塾業界に大きな打撃を与えた一方、規制の実効性には課題も残る。",
     body: "双減政策(中国語では「双减」政策)は、2021年7月24日に中国共産党中央弁公庁と国務院弁公庁が共同で公布した教育政策であり、義務教育段階(小・中学生)の児童生徒に対する宿題の負担と学校外の学科系補習(塾)の負担という「二つの負担」を軽減することを目的とする。同政策により、国語・数学・英語などの学科系科目を扱う営利目的の学習塾は原則として新規設立が禁止され、既存の事業者も非営利法人への転換または事業撤退を迫られることとなった。\n\nこの政策は民間教育産業に極めて大きな衝撃を与え、政策発表直後には新東方(New Oriental Education)やTAL Education Groupといった大手教育企業の株価が暴落し、教育サービス業界全体で数ヶ月のうちに300万件を超える求人が失われたと推計されている。政策の狙いは、過熱する受験競争と家庭の教育費負担を抑制し、少子化対策の一環として子育てコストを軽減することにあったとされる。\n\nしかし、政策施行から数年が経過しても、学科系の補習需要そのものが消えたわけではなく、指導の場が民間の塾から家庭教師や学校内の放課後補習などへと形を変えて存続しているとの指摘が多い。比較教育学の観点からは、双減政策は「シャドーエデュケーション」を国家が正面から規制しようとした異例の事例として、韓国のハグォン規制や日本の学習塾行政と比較しながら論じられている。",
-    relatedSlugs: ["hagwon", "shadow-education", "gaokao"],
+    relatedSlugs: ["hagwon", "shadow-education", "gaokao", "china-nine-year-compulsory-education"],
     isCanonical: true,
     tags: ["中国", "学習塾規制", "シャドーエデュケーション", "教育政策"],
   },
@@ -582,7 +582,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "学校教育の内容を模倣する形で行われる学校外の民間補習・個別指導の総称。香港大学のマーク・ブレイらの研究により国際比較教育学の重要な概念として確立された。",
     body: "シャドーエデュケーション(shadow education)とは、学校のカリキュラムの内容や進度を「影」のように追いかける形で行われる、学習塾や家庭教師などの学校外有償補習教育を指す概念であり、香港大学のユネスコ比較教育学講座教授マーク・ブレイの一連の研究によって国際比較教育学における重要な分析枠組みとして確立された。学校のカリキュラムが変われば補習の内容も追随して変化するという点で「影」に例えられ、正規の学校教育と密接に連動しながらもそれとは別の存在として発達してきたことが特徴である。\n\nこの現象は日本・韓国・香港・台湾など東アジア地域で古くから顕著であったが、近年ではアジアの他地域に加え、アフリカ・ヨーロッパ・北米にも急速に拡大していることが国際比較研究によって明らかにされている。シャドーエデュケーションは家庭の教育費支出の相当部分を占め、多くの雇用を生み出す一方で、正規の学校教育のあり方にも「バックウォッシュ(波及)効果」を及ぼし、学校の指導内容や評価方法にまで影響を与えることが指摘されている。\n\n比較教育学的には、シャドーエデュケーションの規模や形態は各国の入試制度・学歴社会の構造・家計の教育投資行動と密接に関連しており、家庭の経済力による教育格差を拡大させる要因としても分析される。韓国のハグォン、中国の学科系補習(双減政策の規制対象)、日本の学習塾はいずれもこの概念の代表的な事例として、国際比較研究の対象とされている。",
-    relatedSlugs: ["hagwon", "china-shuangjian", "gakureki-shakai"],
+    relatedSlugs: ["hagwon", "china-shuangjian", "gakureki-shakai", "shadow-education-cram-school-expansion"],
     isCanonical: true,
     tags: ["比較教育学", "学校外教育", "マーク・ブレイ", "教育格差"],
   },
@@ -608,7 +608,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "スタンフォード大学の社会学者ジョン・マイヤーらが提唱した、世界規模で共有される制度的な価値・規範(世界文化)が各国の教育制度の同型化を促すとする理論。",
     body: "世界文化理論(world culture theory、世界社会論・世界ポリティ理論とも呼ばれる)は、アメリカの社会学者ジョン・W・マイヤーが1970年代以降に展開した社会学的新制度主義の理論であり、国家主権、個人の権利、合理的進歩といった観念を中核とする「世界文化」が近代化を通じて世界中に広く浸透し、各国の学校制度や大学制度、義務教育の理念などを驚くほど類似した形へと収斂させていると説明する。\n\nこの理論の重要な貢献は、経済発展の水準や政治体制、宗教的伝統、統治の仕組みなどが大きく異なる国々の間でも、なぜ初等教育の就学率が同じように拡大し、類似したカリキュラムや学校制度のモデルが世界中に広まったのかを、従来の機能主義的な説明では十分に捉えきれなかった現象として明らかにした点にある。マイヤーらは、こうした同型化の背景には、国連やユネスコといった国際機関、国際NGO、専門家ネットワークなどが担う「世界文化」の伝播作用があると論じた。\n\n比較教育学においては、この理論は各国の教育制度が独自の文化的・歴史的文脈から発展するという伝統的な見方に対する重要な対抗理論として位置づけられ、PISAやSDG4のような国際的な教育目標・評価の枠組みが世界規模で受け入れられていく現象を説明する際の理論的基盤としても参照される。",
-    relatedSlugs: ["policy-borrowing-lending", "sdg4", "unesco-education"],
+    relatedSlugs: ["policy-borrowing-lending", "sdg4", "unesco-education", "policy-convergence-education"],
     isCanonical: true,
     tags: ["比較教育学", "社会学理論", "グローバル化", "教育制度の同型化"],
   },
@@ -660,7 +660,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカでは教育の権限が憲法上おもに州に留保され、実務は学区の教育委員会が担う。連邦政府は補助金や法律を通じて間接的に関与する分権型の制度である。",
     body: "合衆国憲法には教育に関する明文の規定がなく、連邦に委任されていない権限は州に留保されるとする修正第10条を根拠として、公教育の責任は各州が負うと整理される。このため日本の文部科学省のような全国一律の教育行政機関は存在せず、学校制度の年限区分(5-3-4制や6-3-3制など)や義務教育年齢、教員免許の要件も州や学区によって異なる。\n\n行政は一般に、州教育局が政策や基準を定め、その下の学区(スクール・ディストリクト)の教育委員会が学校運営の実務を担い、各学校が教育を提供するという三層構造で理解される。学区の教育委員会は住民の選挙で委員が選ばれる例が多く、地域住民が学校運営に関与する伝統が強い。財源も州や地方の税収が中心である。\n\n一方、連邦政府は補助金の交付とその条件づけを通じて全国の教育に大きな影響を及ぼしてきた。初等中等教育法(ESEA)の流れをくむ「落ちこぼれ防止法(NCLB法)」や「ESSA」は、その代表例である。現在の連邦教育省は1970年代末に内閣級の省として発足したとされるが、その権限は限定的で、連邦と州の役割分担は今も政治的な論争点となっている。",
-    relatedSlugs: ["no-child-left-behind", "essa-every-student-succeeds-act", "common-core", "charter-school"],
+    relatedSlugs: ["no-child-left-behind", "essa-every-student-succeeds-act", "common-core", "charter-school", "canada-provincial-educational-sovereignty"],
     isCanonical: true,
     tags: ["アメリカ", "教育行政", "地方分権"],
   },
@@ -712,7 +712,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ドイツでは教育権限が州にあり、基礎学校(4年)の後に基幹学校・実科学校・ギムナジウムなどに分かれる分岐型の制度が伝統的に続いてきた。",
     body: "ドイツの教育は連邦制のもとで各州の文化高権(教育主権)に属し、学校制度の細部は州ごとに異なる。多くの州では4年制の基礎学校(グルントシューレ)を終えた時点で、子どもの進路に応じた中等教育段階の学校種を選ぶ。学校種の調整は、各州文部大臣による常設会議(KMK)が担う。\n\n伝統的な分岐型では、主に就職して職業訓練へ進む生徒向けの基幹学校(ハウプトシューレ、5年制)、中級の職業や職業教育学校への進学を想定した実科学校(レアルシューレ、6年制)、大学進学を目指すギムナジウム(8年制または9年制)に分かれる。これらを一つにまとめた総合制学校も存在するが、州による差が大きい。旧東ドイツ地域では、基幹学校と実科学校を統合した学校種を設ける州が多い。\n\nこの制度は早期の進路分化により職業教育(デュアルシステム)と接続しやすい反面、出身階層による進路の固定化が批判されてきた。PISAでその傾向が明らかになったことから、学校種の統合や再編が各州で進んだ。",
-    relatedSlugs: ["german-dual-system", "german-pisa-shock", "tracking", "kyoiku-kakusa"],
+    relatedSlugs: ["german-dual-system", "german-pisa-shock", "tracking", "kyoiku-kakusa", "germany-grundschule-early-tracking-debate", "germany-hauptschule-restructuring-merger"],
     isCanonical: true,
     tags: ["ドイツ", "学校制度", "早期進路分化"],
   },
@@ -829,7 +829,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2000年4月のダカールの世界教育フォーラムで採択された、2015年までに万人のための教育(EFA)を達成するための6つの目標を含む行動枠組み。",
     body: "ダカール行動枠組み(Dakar Framework for Action)は、2000年4月26日から28日にセネガルのダカールで開かれた世界教育フォーラムで採択され、164か国の政府が合意したとされる。1990年の「万人のための教育世界会議」(ジョムティエン会議)から10年間の成果を検証した「EFA2000年評価」を踏まえ、2015年までの達成を目ざす国際合意として策定された。\n\n枠組みは6つの目標を掲げた。(1)幼児期のケアと教育の拡大、(2)無償で良質な初等教育の完全普及、(3)青年・成人の学習とライフスキル、(4)成人識字率の50%改善、(5)ジェンダー平等(2005年までに男女格差を解消、2015年までに平等を達成)、(6)教育の質の向上である。HIV/エイズ、教員、教育の質、紛争・緊急時の教育、情報技術などの重点課題も示された。\n\nEFAの進捗は、ユネスコの『EFAグローバル・モニタリング・レポート』が検証した。2015年までに全目標は達成されなかったが、就学の拡大に貢献した。その課題は、インチョン宣言とSDG4に引き継がれている。",
-    relatedSlugs: ["efa-education-for-all", "sdg4", "incheon-declaration", "unesco-education"],
+    relatedSlugs: ["efa-education-for-all", "sdg4", "incheon-declaration", "unesco-education", "world-education-forum"],
     isCanonical: true,
     tags: ["EFA", "ユネスコ", "国際目標"],
   },
@@ -842,7 +842,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2015年5月に韓国・仁川の世界教育フォーラムで採択され、SDG4(質の高い教育)の実現に向けた国際教育の方針を示した宣言と、同年11月に採択された行動枠組み。",
     body: "インチョン宣言は、ユネスコがユニセフ、世界銀行、UNFPA、UNDP、UNウィメン、UNHCRとともに主催し、2015年5月19日から22日に韓国の仁川で開かれた世界教育フォーラム2015で採択された。2030年に向けた教育の目標として、すべての人に開かれた、公平で質の高い教育と生涯学習の機会の保障を掲げる。これは2030アジェンダ(持続可能な開発目標)に含まれるSDG4の達成を目ざすものである。\n\n宣言を受けて策定された「教育2030行動枠組み」は、2015年11月4日にパリで開かれたハイレベル会合で、184の加盟国と教育関係者により採択された。SDG4の実施、調整、資金調達、モニタリングの方法を示している。\n\nダカール行動枠組みのEFA目標が主に基礎教育に焦点を当てていたのに対し、2030年の枠組みは、教育の質と学習成果、公平性と包摂、生涯学習、高等教育や技術・職業教育までを含む広い視野を持つ点が特徴とされる。各国は国家目標を設定してSDG4の進捗を報告する。",
-    relatedSlugs: ["sdg4", "dakar-framework-for-action", "efa-education-for-all", "unesco-education"],
+    relatedSlugs: ["sdg4", "dakar-framework-for-action", "efa-education-for-all", "unesco-education", "world-education-forum"],
     isCanonical: true,
     tags: ["SDG4", "ユネスコ", "国際目標"],
   },
@@ -1063,7 +1063,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "インターナショナルスクール等の教育水準を国際的な基準に基づいて審査・認証し、卒業生に世界各国の大学入学資格を保障する民間評価組織。",
     body: "世界各地に所在するインターナショナルスクールや在外教育施設、私立学校等の教育カリキュラム、教員組織、施設設備、財務運営などを国際基準に基づき審査・認証する第三者評価機関である。\n\n代表的な機関として、欧州に本部を置くCISや、アメリカ教育省認定の地域評価団体であるWASC、NEASCなどがある。厳格な自己評価と外部調査団による実地審査を経て認定が付与される。\n\n文部科学省は、CISやWASC等の国際的評価団体の認定を受けた教育施設の12年の課程を修了した者に対し、日本の大学入学資格を正式に認めている。グローバル人材の移動や国境を越える初等中等教育の質保証を支える不可欠なインフラである。",
-    relatedSlugs: ["international-school", "ib-baccalaureate", "cross-border-higher-education"],
+    relatedSlugs: ["international-school", "ib-baccalaureate", "cross-border-higher-education", "wasc-accreditation"],
     isCanonical: true,
     tags: ["アクレディテーション", "CIS", "WASC", "大学入学資格"],
   },
@@ -1076,7 +1076,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ユネスコ憲章の理念を実践するため、持続可能な開発のための教育（ESD）や平和・異文化理解を推進する世界規模の学校間ネットワーク。",
     body: "1953年にユネスコが開始した国際的な学校ネットワークであり、正式名称を「ユネスコ・協同学校プロジェクト・ネットワーク」という。世界180カ国以上、1万校以上の幼稚園・小・中・高校・教員養成機関が加盟している。\n\nユネスコ憲章に掲げられた「心の中に平和の砦を築く」という精神を教育現場で実践することを目的とし、世界市民教育、持続可能な開発のための教育（ESD）、平和と人権、気候変動教育、異文化理解学習などをカリキュラムに導入している。\n\n日本は世界で最もユネスコスクール加盟校数が多い国の一つであり、地域社会や国内外の学校とオンライン・相互交流を通じて連携しながら、持続可能な社会の担い手を育む学校づくりの拠点として機能している。",
-    relatedSlugs: ["unesco-constitution", "sdg4", "global-citizenship-education"],
+    relatedSlugs: ["unesco-constitution", "sdg4", "global-citizenship-education", "unesco-world-heritage-education-program", "un-decade-of-esd"],
     isCanonical: true,
     tags: ["ユネスコ", "ASPnet", "ESD", "平和教育"],
   },
@@ -1141,7 +1141,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "紛争や大災害の被災地において、国連機関・NGO・政府等が連携し教育支援の重複や空白を防ぐための国際的な人道支援調整メカニズム。",
     body: "国連人道問題調整事務所が主導する人道支援改革の一環として2006年に設置された、緊急事態下における教育支援の国際調整枠組みである。ユニセフと国際NGOセーブ・ザ・チルドレンが共同でグローバル・クラスターのリード機関を務める。\n\n大規模な自然災害や武力紛争が発生した際、現地に多数の国際機関、現地政府、NGO、民間ドナーが参入するため、支援の重複や空白が生じるリスクがある。教育クラスターは、被災地での被害状況や教育ニーズを共同でアセスメントし、各機関の担当地域・活動内容を迅速に調整する役割を担う。\n\n学校再開のための資機材供与、仮設学習スペースの確保、教員への緊急時研修、心理社会的支援の導入など、限られた人道支援リソースを最も効果的に分配し、危機下の子どもたちの命と教育機会を防護するための要となっている。",
-    relatedSlugs: ["education-in-emergencies", "unicef-education", "refugee-education"],
+    relatedSlugs: ["education-in-emergencies", "unicef-education", "refugee-education", "refugee-assistance-humanitarian-ethics"],
     isCanonical: true,
     tags: ["人道支援", "国連クラスター", "ユニセフ", "人道調整"],
   },
@@ -1193,7 +1193,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "「すべての人のための学校」を基本理念とし、障害の有無に関わらず地域の通常学級で共に学ぶことを徹底したノルウェーの公教育制度。",
     body: "ノルウェーの包括教育制度は、「すべての人のための学校（En skole for alle）」という基本理念と社会の連帯の精神に基づき発展した。1990年代初頭の法改正により、特殊学校を段階的に全廃し、障害のある子どもも含めたすべての児童生徒を原則として地域の通常学校・通常学級に包摂する徹底した統合教育を実現した。\n\n初等および前期中等教育を合わせた10年制の義務教育（グルンンスコーレ）において、個別教育計画の策定や補助教員の配置を通じて個々の学習ニーズに応える。学校現場では競争よりも協働や連帯が重視され、民主的な意思決定への参画や他者理解を育む市民性教育がカリキュラム全体に組み込まれている。\n\n日本の特別支援教育におけるインクルーシブ教育システムの推進や、共生社会の形成を目指す学校改革において、ノルウェーの通常学級を基盤とした手厚い支援体制と共同体意識の醸成は、制度設計および指導実践の両面で多くの示唆を提供している。",
-    relatedSlugs: ["inclusive-education", "finland-education-system", "nordic-education-model", "un-crpd-japan-concluding-observations-2022"],
+    relatedSlugs: ["inclusive-education", "finland-education-system", "nordic-education-model", "un-crpd-japan-concluding-observations-2022", "italy-integrazione-scolastica-inclusive"],
     isCanonical: true,
     tags: ["包括教育", "ノルウェー", "インクルーシブ教育", "通常学級"],
   },
@@ -1245,7 +1245,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "連邦政府と各州の協同によりACARAが策定した、学習領域・汎用的能力・領域横断的優先事項の3次元で構成される全国共通カリキュラム。",
     body: "オーストラリアの全国カリキュラムは、2008年のメルボルン宣言を契機として設立された独立機関「オーストラリア教育課程評価報告機構（ACARA）」によって開発された。州ごとの教育内容の差異を解消し、国全体としての教育水準の向上と公正な教育機会を保障するために策定された国家的一元基準である。\n\nカリキュラムは、基礎的な学習領域（国語、数学、理科、社会等）、思考力や倫理的理解などの汎用的能力、先住民の歴史文化や持続可能性といった領域横断的優先事項の3次元マトリクスで構造化されている。全国学力テスト（NAPLAN）や学校情報公開サイトと連動し、各校の学習達成状況の可視化と質保証が図られている。\n\n日本の学習指導要領における「資質・能力の3つの柱」の育成や、教科横断的な探究学習のカリキュラム・マネジメント、客観的な学習評価の設計を検討する上で、オーストラリアの立体的な枠組みと質保証のシステムは有益なモデルとなる。",
-    relatedSlugs: ["curriculum-management", "cross-curriculum", "oecd-learning-compass-2030", "pisa"],
+    relatedSlugs: ["curriculum-management", "cross-curriculum", "oecd-learning-compass-2030", "pisa", "naplan-australia"],
     isCanonical: true,
     tags: ["オーストラリア", "カリキュラム", "汎用的能力", "質保証"],
   },
@@ -1284,7 +1284,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "10歳での早期分岐による格差固定化を解消するため、前期中等教育を包括化・共通カリキュラム化したオーストリアの構造的学校改革。",
     body: "オーストリアにおける新中等学校（Neue Mittelschule）改革は、伝統的な複線型中等教育制度がもたらす早期選抜の弊害を是正するために推進された。初等教育修了時（10歳）で学術的なギムナジウムと実科的な本学校（ハウプトシューレ）に児童を分かつ構造が、家庭環境による教育格差を固定化しているとの批判が契機となった。\n\n改革では、10歳から14歳までの前期中等段階において、本学校を新中等学校へと順次改組した。学力による早期の選抜や分離を避け、共通カリキュラムのもとでチームティーチングや個に応じた習熟度別指導を実施し、すべての生徒にギムナジウム上級段階や職業系中等学校への進学の道を開いた。\n\n日本における早期受験競争や習熟度別授業のあり方、中高一貫教育と公立標準校の格差問題などを検討する上で、複線型の選抜性を緩和し、基礎学力の保障と進路の可能性維持を両立させようとしたオーストリアの試行錯誤は示唆深い。",
-    relatedSlugs: ["gymnasium", "gesamtschule-germany", "pisa", "tracking"],
+    relatedSlugs: ["gymnasium", "gesamtschule-germany", "pisa", "tracking", "germany-hauptschule-restructuring-merger"],
     isCanonical: true,
     tags: ["オーストリア", "新中等学校", "分岐型教育", "教育改革"],
   },
@@ -1336,7 +1336,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1970年代に特殊学校や養護学級を全面的に廃止し、障害のあるすべての児童生徒を地域の通常学級に受け入れるイタリアの完全包摂教育制度。",
     body: "イタリアにおける学校統合（インテグラツィオーネ・スコラスティカ）は、1977年の法律第517号によって世界に先駆けて断行された。従来の隔離的な特殊学校や養護学級を原則として全廃し、重度を含むすべての障害児が地域の通常学校・通常学級で共に学ぶ完全なインクルーシブ教育を法制化した。\n\n通常学級に障害のある生徒を受け入れるにあたり、学級規模の上限を20名前後に縮小するとともに、専任の「支援担当教員（インセニャンテ・ディ・ソステニョ）」を配置する。地域の医療機関や福祉機関、家庭と共同で個別教育計画（PEI）を作成し、学級担任と支援教員が協力して授業と生活支援を一体的に提供する。\n\n国連の障害者権利委員会から分離された特別支援教育の是正勧告を受けている日本にとって、半世紀近くにわたり通常教育の枠内で障害児の教育権と共生社会を具現化してきたイタリアの実践は、最も根本的な参照軸となる。",
-    relatedSlugs: ["inclusive-education", "inclusive-system-model-project", "un-crpd-japan-concluding-observations-2022", "nordic-education-model"],
+    relatedSlugs: ["inclusive-education", "inclusive-system-model-project", "un-crpd-japan-concluding-observations-2022", "nordic-education-model", "norway-inclusive-education-system"],
     isCanonical: true,
     tags: ["インクルーシブ教育", "イタリア", "通常学級", "特別支援教育"],
   },
@@ -1427,7 +1427,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "初等・基本普通・中等普通の3段階を一貫して学ぶ11年制学校と、国家統一試験による厳格な修了・進学管理を特徴とするロシアの学校体系。",
     body: "ロシア連邦の普通教育学校（シコーラ）は、ソ連時代の教育遺産を継承しつつ、市場経済化と国家的一体性の再構築を目指して再編された11年制の学校体系である。広大な連邦全域において教育の質を均一に保つため、連邦国家教育標準（FSES）に基づく厳格なカリキュラム統制が行われている。\n\n制度は初等普通教育（4年）、基本普通教育（5年）、中等普通教育（2年）の計11年間からなり、同一の学校で一貫して学ぶ形態が広く普及している。9年修了時の国家最終認証や、11年修了時に課される全国統一の「国家統一試験（EGE）」によって学力が客観的に判定され、その成績が高等教育機関への入学選抜に直結する。\n\n日本の大学入学共通テスト改革や高校教育の質保証、全国学力・学習状況調査の利活用を議論するにあたり、11年間の一貫した学年構造と強力な統一試験によって全国水準を担保しようとするロシアの教育体制は、国家統制と能力主義のあり方を考える比較材料となる。",
-    relatedSlugs: ["pisa", "curriculum-management", "meritocracy", "oecd-education"],
+    relatedSlugs: ["pisa", "curriculum-management", "meritocracy", "oecd-education", "ege-russia"],
     isCanonical: true,
     tags: ["ロシア", "普通教育", "国家統一試験", "学校体系"],
   },
@@ -1752,7 +1752,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカの初等中等教育法に基づき、貧困家庭の児童生徒が集中する学校や学区に対して重点的に連邦資金を投入し、教育の機会均等と学力向上を図る財政支援制度。",
     body: "アメリカの連邦補助金タイトルワンは、1965年制定の初等中等教育法の中核をなし、教育格差の是正を目的に連邦政府が展開する最大の教育財政支援制度である。比較教育学では、地方分権的な教育制度下において、連邦政府が財政配分を通じて教育の公平性と最低水準を保障する再配分機能として位置づけられる。\n\n貧困層の児童生徒が多く在籍する学校や学区に対して算定基準に基づき補助金が重点配分される。全校生徒の貧困率が高い学校では全校型プログラムの対象となり、補助教員の配置、少人数指導、放課後学習支援、教育機材の整備など、学校全体の学習環境の改善に資金を柔軟に活用することが認められている。\n\n地方自治体の財政力格差が学校の教育条件に直結しやすい構造に対し、国の財政調整によって困窮地域を重点支援する枠組みは、日本の就学援助や学校への加配措置を考える上で大きな示唆を与える。",
-    relatedSlugs: ["us-education-system", "kyoiku-kakusa", "charter-school"],
+    relatedSlugs: ["us-education-system", "kyoiku-kakusa", "charter-school", "elementary-secondary-education-act-esea"],
     isCanonical: true,
     tags: ["アメリカ教育", "連邦補助金", "教育財政", "格差是正"],
   },
@@ -1765,7 +1765,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカにおいて障害のある児童生徒への無償で適切な公教育を法定義務づけ、最も制限の少ない環境での個別教育計画の策定を保障する連邦法制度。",
     body: "アメリカの障害者教育法は、障害のあるすべての子どもに対して無償かつ適切な公教育を受ける権利を確立した画期的な連邦法である。比較教育学においては、排除されてきた障害児の就学権を法的に打ち立て、インクルーシブ教育の世界的潮流を決定づけた制度的規範として広く認識されている。\n\n対象となる子ども一人ひとりの教育的ニーズに基づき、教員、専門職、保護者が協同して法的拘束力を持つ個別の教育計画を作成する。さらに、可能な限り通常学級に近い最も制限の少ない環境において教育を提供することが原則とされ、通常教育への最大限の参加と個別の特別支援が両立されている。\n\n日本における個別の教育支援計画や指導計画の実効性の確保、通常学級における特別支援教育の充実、多職種連携や保護者参加のあり方を法制度面から深化させる上で不可欠な参照基準となる。",
-    relatedSlugs: ["inclusive-system-model-project", "us-education-system", "juufuku-shogai-kyoiku"],
+    relatedSlugs: ["inclusive-system-model-project", "us-education-system", "juufuku-shogai-kyoiku", "individuals-with-disabilities-education-act-idea"],
     isCanonical: true,
     tags: ["アメリカ教育", "障害者教育法", "個別の教育計画", "包摂的教育"],
   },
@@ -1791,7 +1791,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカの高校生が在学中に大学水準の高度な科目を履修し、統一試験の成績に応じて大学進学後の単位認定や選抜時の評価を得られる標準化された高大接続制度。",
     body: "アメリカのアドバンスト・プレイスメント制度は、高校生に対して大学初年次レベルの学術的な挑戦機会を提供する全米規模の標準化教育プログラムである。比較教育学においては、中等教育と高等教育を円滑に架橋し、優秀な生徒の才能を伸長させる高大接続の先駆的枠組みとして位置づけられる。\n\n大学理事会が定めた統一基準に基づき高校で多様な専門科目が開講され、毎年実施される厳格な統一試験で五段階評価が行われる。一定以上の優秀な成績を収めた生徒に対しては、多くの大学が入学後の卒業要件単位として認定したり、大学入学者選抜において高い学習意欲の証明として評価する。\n\n日本の高校における探究学習の高度化や早期履修制度、高校と大学の接続を円滑にする教育課程の柔軟化を検討する上で、卓越した能力を持つ生徒の意欲を伸ばす制度設計として大いに参考となる。",
-    relatedSlugs: ["ib-baccalaureate", "baccalaureat", "us-education-system"],
+    relatedSlugs: ["ib-baccalaureate", "baccalaureat", "us-education-system", "digital-transcript-portal-university-articulation"],
     isCanonical: true,
     tags: ["アメリカ教育", "高大接続", "大学単位認定", "才能教育"],
   },
@@ -1843,7 +1843,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "イギリスにおいて教員や保護者などの地域住民が政府から直接資金提供を受けて設置・運営する、高い自律性を持つ公設民営学校制度。",
     body: "イギリスのフリースクールとは、2010年以降の保守党政権下で導入された公設民営学校制度である。教員、保護者、慈善団体、企業などの多様な主体が政府から直接予算配分を受けて学校を設立し、地域の教育需要に応じた特色ある教育を展開できるように構想された。\n\n本制度の学校は、地方教育当局の直接的な統制から独立しており、教育課程の編成、教員の人事採用や給与設定、学校運営の日程決定において広範な裁量権を持つ。一方で、公教育としての説明責任を果たすため、国の教育水準監査局による定期査察の対象となる。\n\n学校選択制の拡大や民間活力の活用による教育の活性化が期待される反面、特定層への偏りや公立学校との競合などの課題も議論されている。日本のコミュニティ・スクールや特区学校制度の発展を検討する上で、示唆に富む事例である。",
-    relatedSlugs: ["charter-school", "gakko-sentakusei", "community-school"],
+    relatedSlugs: ["charter-school", "gakko-sentakusei", "community-school", "alternative-school-public-substitutability"],
     isCanonical: true,
     tags: ["フリースクール", "公設民営学校", "学校選択制", "教育改革"],
   },
@@ -1960,7 +1960,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フランスにおいて3歳から5歳までの全幼児を対象とし、無償の公教育として基礎的社会化と言語発達を支援する就学前教育機関。",
     body: "フランスの母性学校（エコール・マテルネル）とは、19世紀末のフェリー法等を経て発展した、満3歳から義務教育就学前までの幼児を対象とする公立の就学前教育機関である。2019年には満3歳からの教育が法的に義務化され、公教育の一環として完全無償で提供される。\n\n本校の教育課程は、単なる保育や預かりにとどまらず、言語能力の発達、身体表現、集団行動の規律、自己表出の育成を重視する体系的な指導計画を持つ。教員は小学校教員と同等の国家資格と修士水準の学歴を有し、専門的な教育指導を担う。\n\n家庭環境による格差を早期に緩和し、すべての子どもに就学準備と社会的統合の基盤を保障する機能を持つ。日本の幼児教育・保育の無償化政策や幼保連携型認定こども園の展開において、幼児教育の公教育性と質的保証を考える上で極めて重要なモデルである。",
-    relatedSlugs: ["starting-strong-oecd", "hoikusho-hoiku-shishin", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["starting-strong-oecd", "hoikusho-hoiku-shishin", "youchien-kyoiku-yoryo", "france-ecole-elementaire-five-year-cycle"],
     isCanonical: true,
     tags: ["エコールマテルネル", "母性学校", "就学前教育", "フランス教育"],
   },
@@ -1973,7 +1973,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フランスにおいて6歳から11歳までの児童を対象とし、基礎的な知識習得と論理的思考力を養成する5年間の義務教育初等学校制度。",
     body: "フランスの初等学校（エコール・エレマンテール）とは、満6歳から始まる5年間の初等教育機関である。国家が定める統一カリキュラムに基づき、国民としての基本的共通教養と批判的思考力を育成する共和主義的公教育の基盤として設計されている。\n\n学年進行は「基礎学習サイクル」と「深化サイクル」に区分され、母語であるフランス語の精確な運用と読解、算数・数学的思考、市民道徳教育が徹底される。学年末には到達度評価が行われ、習熟度が不十分な場合には留年措置も適用される厳格な学習保障を特徴とする。\n\n基礎的学力の定着と論理的自己表現の育成を両立させる教育手法は、高い学術的成果を生み出す基盤となっている。日本の小学校教育における確かな学力の育成、指導と評価の一体化、さらには主体的・対話的で深い学びの推進に対して、多くの比較視座を提供する。",
-    relatedSlugs: ["curriculum-management", "timss", "pisa"],
+    relatedSlugs: ["curriculum-management", "timss", "pisa", "france-ecole-maternelle-early-socialization"],
     isCanonical: true,
     tags: ["初等学校", "基礎教育", "教育サイクル", "フランス教育"],
   },
@@ -2311,7 +2311,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "幼児教育の格差是正と発達保障を目的として、義務教育の開始年齢を引き下げ就学前教育を義務化する世界的な政策拡大動向。",
     body: "就学前教育義務化の国際的拡大動向とは、乳幼児期における質の高い教育機会をすべての子どもに保障するため、就学義務の開始年齢を引き下げる各国の政策的潮流である。早期教育投資が将来の貧困予防や学力向上に高い効果を持つとする科学的知見が後押ししている。\n\nフランスでは義務教育開始年齢を三歳に引き下げ、幼児学校における言語発達や社会性の育成を国家責任として徹底している。欧州や中南米の諸国でも五歳前後からの就学前学級の義務化が進み、保育の質保証や公費負担の拡大を通じた制度統合が図られている。\n\n日本においても幼児教育の無償化が実施されたが、制度上の義務化や幼保の一元化にはなお多くの議論が残されている。家庭の養育責任と公の教育保障の境界をいかに再設定するかという課題に対し、国際的な義務化政策の成果と課題は重要な指針となる。",
-    relatedSlugs: ["starting-strong-oecd", "start-curriculum", "inclusive-early-childhood-education"],
+    relatedSlugs: ["starting-strong-oecd", "start-curriculum", "inclusive-early-childhood-education", "early-childhood-education-parental-intensive"],
     isCanonical: true,
     tags: ["就学前教育", "義務化", "幼児教育", "格差是正"],
   },
@@ -2480,7 +2480,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "現代社会の課題を自らの問題として捉え、持続可能な未来を築くための価値観や行動力を育む教育活動。",
     body: "気候変動、環境破壊、貧困、生物多様性の損失など地球規模の諸課題を自らの問題として捉え、持続可能な社会の創り手を育む教育実践である。2002年の持続可能な開発に関する世界首脳会議（ヨハネスブルグ・サミット）において日本政府とNGOが提唱したことを契機に国際的な推進が始まった。\n\n教育課程においては、知識の伝達にとどまらず、批判的思考力、未来予測力、多面的思考、他者との協働力といった資質・能力の育成を目指す。環境教育、人権教育、国際理解教育、平和教育などの個別領域を横断的に統合し、探究型・問題解決型の学習を展開する点が特徴である。\n\n国連のSDGs（目標4のターゲット4.7）において全目標達成の鍵として位置づけられており、ユネスコスクールなどを拠点として国内外の学校教育や社会教育の現場で導入が進められている。",
-    relatedSlugs: ["unesco-associated-schools", "sdg4", "unesco-futures-of-education", "unesco-learning-treasure-within-four-pillars"],
+    relatedSlugs: ["unesco-associated-schools", "sdg4", "unesco-futures-of-education", "unesco-learning-treasure-within-four-pillars", "environmental-ethics-sustainable-responsibility", "unesco-world-heritage-education-program", "un-decade-of-esd"],
     isCanonical: true,
     tags: ["ESD", "持続可能性", "ユネスコ", "環境教育"],
   },
@@ -2506,7 +2506,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "高等教育の学位や履修歴の国際的な公正・円滑な承認を世界的規模で保障するユネスコの国際条約。",
     body: "2019年11月の第40回ユネスコ総会において採択され、2023年3月5日に正式発効した国際条約である。従来の地域別条約（欧州のリスボン条約やアジア太平洋の東京規約など）を統合・包括し、世界規模での高等教育資格の承認基準を定めた初の多国間条約となった。日本は2022年9月に受諾書を寄託した。\n\n本条約は、締約国間で実質的な差異（substantial differences）が証明されない限り、他国で取得した学位や履修実績を公正かつ透明性をもって承認することを義務づけている。また、従来の正規教育修了資格だけでなく、避難民や難民の修学歴の柔軟な認定、オンライン教育やマイクロクレデンシャルなどの多様な学修成果の承認も対象としている。\n\n高等教育の国際化と国境を越えた学生・研究者の移動が加速する中、越境教育における国際的な質保証と学歴詐欺の防止を両立させる世界標準の枠組みとして機能している。",
-    relatedSlugs: ["bologna-process", "unesco-education", "cross-border-higher-education", "erasmus-programme"],
+    relatedSlugs: ["bologna-process", "unesco-education", "cross-border-higher-education", "erasmus-programme", "lisbon-recognition-convention", "tokyo-convention-higher-ed"],
     isCanonical: true,
     tags: ["高等教育", "資格承認", "ユネスコ", "国際移動"],
   },
@@ -2519,7 +2519,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "欧州高等教育圏における高等教育の資格や修学歴の公正な相互承認の原則を定めた1997年の多国間条約。",
     body: "欧州評議会とユネスコの共催により1997年にポルトガルのリスボンで採択された「欧州地域における高等教育の資格の承認に関する条約」である。ボローニャ・プロセスを通じて形成された欧州高等教育圏（EHEA）における学生や研究者の移動自由を支える法的支柱となった。\n\n条約の中核原則は「実質的な差異の原則（substantial differences principle）」であり、受入国側が自国の資格と申請者の資格との間に明確かつ実質的な相違を立証できない限り、原則として承認しなければならないという挙証責任の転換を定めている。また、各締約国に国内情報センター（NIC）を設置し、透明性の高い情報提供を行うことを規定した。\n\nリスボン条約が確立した承認原則は、その後のアジア太平洋地域の東京規約や高等教育資格承認世界条約のモデルとなり、現代の国際資格承認制度の世界標準を形作った。",
-    relatedSlugs: ["bologna-process", "erasmus-programme", "cross-border-higher-education", "european-qualifications-framework"],
+    relatedSlugs: ["bologna-process", "erasmus-programme", "cross-border-higher-education", "european-qualifications-framework", "global-convention-higher-ed-qualifications", "tokyo-convention-higher-ed"],
     isCanonical: true,
     tags: ["欧州教育", "資格承認", "ボローニャプロセス", "高等教育"],
   },
@@ -2532,7 +2532,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アジア太平洋地域において高等教育の学位や履修歴の公正な承認と学生の国際移動を促進するユネスコ規約。",
     body: "2011年11月に東京で開催されたユネスコ締約国国際会議で採択され、2018年2月に発効した「アジア太平洋地域における高等教育の資格の承認に関する規約」である。1983年の旧バンコク規約を現代の大学間交流やグローバル化に合わせて全面的に改定したものである。日本は2017年12月に締結した。\n\n本規約は、アジア太平洋諸国間における高等教育資格の承認手続を迅速・公正・透明に行うための共通原則を規定している。また、各締約国に高等教育制度や認可校の情報を国内外に発信する公式な国内情報センター（NIC）の設置を義務づけており、日本では大学改革支援・学位授与機構に「NIC-Japan」が開設された。\n\n多様な言語・文化・教育制度が混在するアジア太平洋地域において、留学生交流や共同学位プログラムの質保証を支える中核的な地域的枠組みとなっている。",
-    relatedSlugs: ["cross-border-higher-education", "bologna-process", "unesco-education"],
+    relatedSlugs: ["cross-border-higher-education", "bologna-process", "unesco-education", "global-convention-higher-ed-qualifications", "lisbon-recognition-convention"],
     isCanonical: true,
     tags: ["アジア太平洋", "資格承認", "ユネスコ", "国際教育"],
   },
@@ -2545,7 +2545,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1965年に米国で制定された、低所得層児童生徒の学力向上支援を中核とする包括的連邦教育法。",
     body: "1965年にリンドン・ジョンソン政権の「貧困との戦い」政策の一環として制定された、米国の初等中等教育に対する包括的な連邦支援法（Elementary and Secondary Education Act）である。教育権限が州に帰属する米国において、教育機会の均等と格差是正を目的に連邦政府が財政支援を行う契機となった。\n\n法の最大の柱は「タイトルI（Title I）」であり、低所得世帯の児童生徒が集中する学区や学校に対して多額の連邦補助金を交付し、基礎学力の保障や補習プログラムの実施を支援する。本法は定期的に改定（再授権）されており、2002年の「落ちこぼれ防止法（NCLB法）」や2015年の「すべての生徒が成功する法（ESSA）」の母法である。\n\n連邦政府による教育への関与と各州の教育自治との緊張関係を内包しつつも、社会的弱者への教育的公正を保障するための制度的基盤として米国の教育政策を主導し続けている。",
-    relatedSlugs: ["us-education-system", "no-child-left-behind", "essa-every-student-succeeds-act", "head-start-program"],
+    relatedSlugs: ["us-education-system", "no-child-left-behind", "essa-every-student-succeeds-act", "head-start-program", "usa-title-one-funding-disadvantaged-schools"],
     isCanonical: true,
     tags: ["アメリカ教育", "連邦法", "教育機会均等", "教育財政"],
   },
@@ -2675,7 +2675,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "国際バカロレア機構が提供する、3歳から12歳の子どもの全人的発達を促す探究型カリキュラム枠組み。",
     body: "国際バカロレア機構（IBO）が1997年に導入した、3歳から12歳（幼稚園・小学校相当段階）の児童を対象とする国際教育プログラム（Primary Years Programme）である。教科学習の枠を超え、子どもの知的好奇心と批判的思考力を育む全人教育を重視している。\n\nカリキュラムは「私たちは誰なのか」「私たちはどのような場所に生きているのか」など6つの教科横断的テーマに沿って編成される。児童自らが問いを立てて調査・探究するユニット学習を中心に据え、プログラムの最終学年では学びの集大成として共同研究プロジェクトを発表する「エキシビション（成果発表会）」が行われる。\n\n幼児教育から初等教育への滑らかな接続と、主体的に学び続ける学習者像（インクワイアラー）の育成において国際的な評価が高く、世界各国の公立・私立小学校で導入が拡大している。",
-    relatedSlugs: ["ib-baccalaureate", "ib-diploma-programme", "international-school"],
+    relatedSlugs: ["ib-baccalaureate", "ib-diploma-programme", "international-school", "ib-middle-years-programme"],
     isCanonical: true,
     tags: ["国際バカロレア", "IBPYP", "初等教育", "探究学習"],
   },
@@ -2714,7 +2714,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "子どもの学校出席や定期健診の受診を条件に貧困世帯へ現金を支給し教育機会を保障する社会支援政策。",
     body: "貧困層の世帯に対して、子どもを学校に通わせること（出席率80〜85パーセント以上など）や定期的な予防接種・健康診断を受けることを条件として現金を直接給付する社会支援政策（Conditional Cash Transfers）である。1990年代後半にメキシコ（プログレサ／オポチュニダデス）やブラジル（ボルサ・ファミリア）で導入され、世界銀行などの支援を受けて世界中に普及した。\n\n本政策は、日々の生活困窮から子どもを児童労働に従事させざるを得ない世帯に対し、就学に伴う機会費用（子どもの労働収入の喪失）を補償する仕組みを持つ。給付金の受取人を原則として母親とすることで、家計内の支出が子どもの教育や栄養に優先配分されるよう設計されている。\n\nランダム化比較試験（RCT）を含む多くの学術的実証研究によって、就学率の向上や児童労働の削減、女子教育の継続に対する顕著な効果が実証されており、教育格差と貧困の世代間連鎖を断ち切る強力な開発政策として評価されている。",
-    relatedSlugs: ["jica-education-cooperation", "sdg4", "education-gini-index"],
+    relatedSlugs: ["jica-education-cooperation", "sdg4", "education-gini-index", "mexico-telesecundaria-rural-distance-education"],
     isCanonical: true,
     tags: ["教育開発", "貧困削減", "就学支援", "条件付き現金給付"],
   },
@@ -2831,7 +2831,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "教育制度を各国の歴史・社会的諸条件や国民性の表れとして捉える歴史主義的比較教育学の理論。",
     body: "コロンビア大学ティーチャーズ・カレッジ教授を務めたアイザック・レオン・カンデル（Isaac L. Kandel, 1881–1965）が確立した近代比較教育学の方法論体系である。主著『比較教育論（Comparative Education）』（1933年）を通じて比較教育学を本格的な学問分野として体系化した。\n\nカンデルは、教育制度や学校慣行は単独で存在するのではなく、各国家固有の歴史的伝統、政治的理念、社会経済的要因、そして「国民性（National Character）」の生きた表現であると主張した。そのため、他国の制度を表面的な記述にとどまらず、その制度を生み出した背後にある思想や歴史的動機を解明する歴史的・動態的アプローチを重視した。\n\n他国の制度を安易に借用・移植することの危険性を警告し、自国の教育を客観的に再評価するための知的枠組みを提供した功績により、比較教育学における古典的巨頭として位置づけられている。",
-    relatedSlugs: ["sadler-comparative-education", "jullien-comparative-education", "policy-borrowing-lending", "bereday-comparative-method"],
+    relatedSlugs: ["sadler-comparative-education", "jullien-comparative-education", "policy-borrowing-lending", "bereday-comparative-method", "hans-comparative-education"],
     isCanonical: true,
     tags: ["比較教育学", "方法論", "国民性", "教育理論"],
   },
@@ -2857,7 +2857,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ポパーの批判的合理主義に基づき教育政策の課題解決と結果予測を科学的に行う比較教育学の方法論。",
     body: "ロンドン大学教育研究所（IOE）教授を務めたブライアン・ホームズ（Brian Holmes, 1920–1993）が確立した比較教育学の方法論体系である。哲学者カール・ポパーの批判的合理主義やジョン・デューイの問題解決理論を応用し、主著『問題アプローチによる比較教育学』（1965年）等で展開された。\n\nホームズは、伝統的な歴史記述的アプローチを脱し、現代の教育的課題を分析・解決するための実証的政策科学として比較教育学を再構築した。問題の選定と分析、仮説（政策解決策）の提示、関連する初期条件・文脈（法制度、規範、制度構造）の同定、そして政策導入に伴う意図せざる結果の予測・検証という論理的ステップを提唱した。\n\n単なる制度紹介を超えて、教育政策の意思決定や改革シミュレーションに資する科学的予測の手法を確立し、応用社会科学としての比較教育学の発展を牽引した。",
-    relatedSlugs: ["kandel-comparative-education", "bereday-comparative-method", "policy-borrowing-lending", "sadler-comparative-education"],
+    relatedSlugs: ["kandel-comparative-education", "bereday-comparative-method", "policy-borrowing-lending", "sadler-comparative-education", "karl-popper-open-society-fallibilism"],
     isCanonical: true,
     tags: ["比較教育学", "問題解決", "批判的合理主義", "方法論"],
   },
