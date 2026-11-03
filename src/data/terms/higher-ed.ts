@@ -36,7 +36,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "高校教育・大学入学者選抜・大学教育を一体的に改革す〈2014年答申以降の政策です。",
     body: "高大接続改革は、中央教育審議会が2014年に答申した「新しい時代にふさわしい高大接続の実現に向けた高等学校教育、大学教育、大学入学者選抜の一体的改革について」を起点とする一連の政策です。知識偏重からの脱却と学力の三要素の育成・評価を掲げました。\n\n改革の柱として、大学入試センター試験に代わる大学入学共通テストの導入、多面的・総合的な評価を重視する入学者選抜改革、高校での「主体的・対話的で深い学び」の推進が一体的に進められました。\n\n記述式問題の導入や英語民間試験の活用は実施直前で見送られるなど紙余曲折もありましたが、高校と大学の接続を学力試験だけでなく多面的評価で捉え直す方向性は現在の入試改革にも引き継がれています。",
-    relatedSlugs: ["daigaku-nyugaku-kyotsu-test", "chukyo-shin", "shishitsu-noryoku", "sogo-gakushu", "kanten-betsu-hyoka"],
+    relatedSlugs: ["daigaku-nyugaku-kyotsu-test", "chukyo-shin", "shishitsu-noryoku", "sogo-gakushu", "kanten-betsu-hyoka", "digital-transcript-portal-university-articulation"],
     isCanonical: true,
     tags: ["入試改革", "答申", "大学入試改革", "思考力評価"],
   },
@@ -49,7 +49,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "2021年に大学入試センター試験を引き継いで始まった、知識・技能に加え思考力・判断力・表現力も重視する全国共通の入学者選抜試験。",
     body: "大学入学共通テストは、2020年1月を最後に廃止された大学入試センター試験に代わり、2021年1月から実施されている全国規模の大学入学者選抜のための試験です。独立行政法人大学入試センターが実施主体となり、例年1月中旬の2日間にわたって行われる点はセンター試験の枠組みを引き継いでいます。\n\n導入の背景には、知識・技能の習得だけでなく、思考力・判断力・表現力等をより重視して評価しようとする大学入試改革の流れがあります。当初は数学・国語への記述式問題の導入や英語民間検定試験の活用も検討されましたが、採点の公平性や地域間格差への懸念から見送られ、結果としてマークシート方式を中心とする点はセンター試験と大きく変わらない形で実施が始まりました。\n\n各大学は共通テストの成績を用いて、独自の個別学力検査と組み合わせた選抜や、共通テストのみで合否を決める選抜など多様な入試方式を設計しています。出題内容は、複数の資料を読み解いて考察させる問題や、日常的・社会的な場面設定を伴う問題が増えるなど、資質・能力の評価を意識した構成が図られています。",
-    relatedSlugs: ["koudai-setsuzoku-kaikaku", "hensachi", "gakushu-shido-yoryo", "hyojun-gakuryoku-kensa", "koko-sotsugyo-teido-nintei-shiken"],
+    relatedSlugs: ["koudai-setsuzoku-kaikaku", "hensachi", "gakushu-shido-yoryo", "hyojun-gakuryoku-kensa", "koko-sotsugyo-teido-nintei-shiken", "center-shiken", "common-test-thinking-judgment-question-design"],
     isCanonical: true,
     tags: ["大学入試", "共通テスト", "選抜"],
   },
@@ -62,7 +62,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学教員が授業内容・方法を改善し組織的に教育力を高めるための研修活動の総称。日本では2008年に大学設置基準改正で実施が義務化された。",
     body: "ファカルティ・ディベロップメント(FD)とは、大学教員が自らの授業内容・方法を改善し向上させるための組織的な取り組みの総称である。授業公開・検討会、新任教員研修、学生による授業評価アンケートの活用、教育方法に関するワークショップなど、大学ごとに多様な形態で実施されている。米国の大学で発展した概念が1990年代以降に日本にも導入され、大学教育改革の重要な柱と位置づけられるようになった。\n\n日本では2008年の大学設置基準改正により、大学院を含む全ての大学がFDを組織的に実施することが義務化された。これは、教員の授業は専門分野の研究能力があれば自然にできるという従来の前提を見直し、教育の質を担保するための制度的な仕組みとして教育方法の研鑽を位置づけたものである。認証評価制度においてもFDの実施状況は評価項目の一つとなっており、各大学はFD委員会やセンターを設置して組織的な取り組みを進めている。\n\n近年は、教員の教育活動だけでなく、職員の資質向上を図るスタッフ・ディベロップメント(SD)も2017年の大学設置基準改正で義務化され、FDとSDを一体的に推進する大学も増えている。また、アクティブラーニングやICT活用授業の普及に伴い、FDの内容もオンライン授業の設計や学修成果の可視化など、新たな教育課題に対応する方向へと広がっている。",
-    relatedSlugs: ["staff-development", "three-policy", "naibu-shitsu-hosho", "syllabus-seibi-gimuka", "ninsho-hyoka-seido", "institutional-research-ir"],
+    relatedSlugs: ["staff-development", "three-policy", "naibu-shitsu-hosho", "syllabus-seibi-gimuka", "ninsho-hyoka-seido", "institutional-research-ir", "student-course-evaluation-survey-improvement"],
     isCanonical: true,
     tags: ["FD", "大学教員", "授業改善", "設置基準"],
   },
@@ -88,7 +88,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "授業科目の到達目標や評価方法を明示するシラバスの作成・公表が大学設置基準で義務化されました。",
     body: "シラバスとは、各授業科目の到達目標、授業計画、成績評価の方法・基準、教科書や参考文献などをあらかじめ学生に示す講義要項のことです。学生が主体的に履修を選択し学修計画を立てるための基礎資料となります。\n\n1990年代以降、大学の自己点検・評価が求められる中でシラバスの整備が進み、大学設置基準の改正を通じて全授業科目でのシラバス作成と公表が制度上義務づけられるようになりました。\n\n近年はディプロマ・ポリシーやカリキュラム・ポリシーとの整合性を示し、科目ナンバリングと連動させることで、学生が学位取得までの学修の道筋を体系的に把握できるようにする取り組みが進んでいます。",
-    relatedSlugs: ["daigaku-secchi-kijun", "kamoku-numbering-seido", "three-policy"],
+    relatedSlugs: ["daigaku-secchi-kijun", "kamoku-numbering-seido", "three-policy", "syllabus-sakusei-shishin"],
     isCanonical: true,
     tags: ["シラバス", "履修"],
   },
@@ -140,7 +140,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "実践的な職業教育を行う新たな大学種別として2019年に制度化されました。",
     body: "専門職大学は、特定の職業に必要な実践的かつ応用的な能力を育成することを目的とする新しい高等教育機関の種別で、2017年の学校教育法改正により制度化され、2019年4月に第1号校が開学しました。\n\n卒業には従来の大学と同様に4年制(専門職短期大学は2年または3年制)で学位が授与されますが、卒業単位の3分の1以上を実習・実技科目とすることや、企業内実習(臨地実務実習)を必修とすることなど、理論と実務を架橋するカリキュラムが特徴です。\n\n専任教員の一定割合を実務家教員とすることも求められており、専門学校が培ってきた職業教育の要素を高等教育制度の中に位置づけ直す試みとして注目されています。",
-    relatedSlugs: ["daigaku-secchi-keitai", "senmonshoku-daigakuin", "sangaku-renkei"],
+    relatedSlugs: ["daigaku-secchi-keitai", "senmonshoku-daigakuin", "sangaku-renkei", "professional-universities-social-mobility", "kyoiku-katei-renkei-kyogikai"],
     isCanonical: true,
     tags: ["専門職大学", "職業教育"],
   },
@@ -192,7 +192,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "産学官連携で世界の優秀な学生を惹きつける博士人材育成拠点を作る文部科学省の事業です。",
     body: "卓越大学院プログラムは、文部科学省が2018年度に開始した事業で、複数の大学・研究機関・産業界が連携し、修士・博士一貫の教育課程を通じて世界で活躍できる博士人材を育成する拠点を全国の大学に形成することを目的としています。\n\n従来の博士課程教育リーディングプログラムを発展させたもので、産業界からの経済支援を組み込みつつ、分野を超えた俯瞰力や国際性を備えた「卓越した博士人材」の育成を掲げています。\n\n博士課程進学者の減少や経済的支援の不足が課題となる中、生活費相当額の支給を組み込んだ人材育成システムを構築することで、優秀な学生が経済的な不安なく博士課程に進学できる環境整備を目指しています。",
-    relatedSlugs: ["hakase-katei-gakusei-shien", "daigakuin-katei-no-shurui", "kenkyu-daigaku-kyoka-sokushin-jigyo"],
+    relatedSlugs: ["hakase-katei-gakusei-shien", "daigakuin-katei-no-shurui", "kenkyu-daigaku-kyoka-sokushin-jigyo", "doctoral-program-diverse-career-pathways"],
     isCanonical: true,
     tags: ["博士人材", "産学連携"],
   },
@@ -244,7 +244,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学生が1学期・1年間に履修登録できる単位数の上限を設ける制度です。",
     body: "キャップ制とは、学生が一定の期間(1学期または1年間)に履修登録できる単位数の上限を大学が定める制度のことで、単位制度の実質化を図る方策の一つとして中央教育審議会答申でも重視されてきました。\n\n上限を設けない場合、学生が多数の科目を並行して履修することで、授業外の予習・復習に十分な時間を割けず、単位が本来求める学修時間を実質的に伴わなくなる恐れが指摘されてきました。\n\nキャップ制の導入により、学生が少数の科目にじっくり取り組み、教室外学習を含めた十分な学修時間を確保することが期待される一方、成績優秀者への上限緩和など柔軟な運用も各大学で工夫されています。",
-    relatedSlugs: ["kamoku-numbering-seido", "assessment-policy", "syllabus-seibi-gimuka"],
+    relatedSlugs: ["kamoku-numbering-seido", "assessment-policy", "syllabus-seibi-gimuka", "graduation-requirements-124-credits-cap"],
     isCanonical: true,
     tags: ["履修登録", "単位制度"],
   },
@@ -257,7 +257,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学生が他大学で修得した単位を、自大学の卒業要件単位として認める仕組みです。",
     body: "単位互換制度とは、学生が在籍する大学以外の大学(国内外を問わず)で修得した単位を、一定の基準のもとで自大学の卒業要件単位として認定する制度のことです。大学設置基準において認定できる単位数の上限などが定められています。\n\n複数の大学が単位互換に関する協定を結び、コンソーシアムを形成して共同で科目を提供する例も多く、都市部の大学コンソーシアムなどが学生に多様な学びの機会を提供する枠組みとして機能しています。\n\n海外の大学への留学で修得した単位を認定することも広い意味での単位互換にあたり、学生の流動性を高め、留学のハードルを下げる仕組みとして国際化戦略とも密接に結びついています。",
-    relatedSlugs: ["kamoku-numbering-seido", "gap-year-koto-kyoiku", "daigaku-secchi-kijun"],
+    relatedSlugs: ["kamoku-numbering-seido", "gap-year-koto-kyoiku", "daigaku-secchi-kijun", "asem-education-ministers-meeting-dialogue", "tokubetsu-choko-gakusei"],
     isCanonical: true,
     tags: ["単位互換", "大学間連携"],
   },
@@ -309,7 +309,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "2020年施行の大学等修学支援法に基づき、住民税非課税世帯等の学生を対象に授業料等減免と給付型奨学金を組み合わせて高等教育の無償化を進める制度。",
     body: "高等教育の修学支援新制度は、「大学等における修学の支援に関する法律」(大学等修学支援法)に基づき2020年4月から実施されている、返還不要の給付型奨学金と授業料・入学金の減免を組み合わせた経済的支援の仕組みである。対象機関は大学、短期大学、高等専門学校、専門学校であり、家計急変を含む住民税非課税世帯および準ずる世帯の学生が対象となる。大学院生は対象に含まれない。\n\n制度の利用には、家計要件(世帯収入・資産の基準)と学業要件(高校の評定平均や学修意欲等)の双方を満たす必要がある。支援額は世帯収入の区分に応じて段階的に設定され、住民税非課税世帯の学生には満額の授業料減免と給付型奨学金が、それに準ずる世帯には収入に応じた減額された支援が行われる。財源には、2019年10月の消費税率引き上げによる増収分の一部が充てられている。\n\n制度導入以降、対象範囲の見直しが段階的に進められており、2024年度からは多子世帯や私立大学の理工農系学部の学生を対象に、一定の年収要件のもとで支援対象が中間所得層まで拡大された。さらに2025年度からは、扶養する子どもが3人以上いる多子世帯について、所得制限を設けずに授業料等を無償とする措置が導入されるなど、少子化対策と一体的な形で支援の拡充が続けられている。",
-    relatedSlugs: ["hakase-katei-gakusei-shien", "koko-shugaku-shienkin-seido", "recurrent-kyoiku", "daigaku-zennyu-jidai", "ryugakusei-30man-plan", "gpa-seido", "daigaku-secchi-keitai"],
+    relatedSlugs: ["hakase-katei-gakusei-shien", "koko-shugaku-shienkin-seido", "recurrent-kyoiku", "daigaku-zennyu-jidai", "ryugakusei-30man-plan", "gpa-seido", "daigaku-secchi-keitai", "scholarship-guidance-economic-support"],
     isCanonical: true,
     tags: ["奨学金", "修学支援", "修学支援新制度", "給付型奨学金", "授業料減免", "高等教育無償化"],
   },
@@ -335,7 +335,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "法科大学院や教職大学院など、高度専門職業人養成に特化した大学院制度です。",
     body: "専門職大学院は、2003年度の学校教育法・大学院設置基準の改正により創設された制度で、研究者養成を主目的とする従来の大学院とは異なり、高度で専門的な職業能力を有する人材の養成に特化した課程です。\n\n代表的なものに、法曹養成を目的として2004年に発足した法科大学院(ロースクール)や、2008年に発足した教員養成の高度化を担う教職大学院、経営専門職を養成するビジネススクール(経営系専門職大学院)などがあります。\n\n実務家教員の一定割合の配置や、事例研究(ケースメソッド)・実習を重視したカリキュラムが特徴ですが、法科大学院では司法試験合格率の低迷から統廃合が進むなど、量的拡大と質保証の両立が課題となってきました。",
-    relatedSlugs: ["daigakuin-katei-no-shurui", "ninsho-hyoka-seido", "senmonshoku-daigaku", "jitsumuka-kyoin"],
+    relatedSlugs: ["daigakuin-katei-no-shurui", "ninsho-hyoka-seido", "senmonshoku-daigaku", "jitsumuka-kyoin", "externship-program"],
     isCanonical: true,
     tags: ["専門職大学院", "法科大学院", "質保証", "高度専門職業人", "認証評価"],
   },
@@ -361,7 +361,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "旧AO入試に代わり2021年度入試から用いられる大学入試区分で、志願者の意欲・適性を多面的・総合的に評価しつつ学力の把握も求める選抜方式。",
     body: "総合型選抜は、志願者の学力だけでなく、意欲・適性・活動実績などを面接・小論文・プレゼンテーションなどを通じて多面的・総合的に評価する大学入試の選抜区分である。2020年度までは「AO入試」と呼ばれていたが、高大接続改革の一環として2021年度入試から名称が改められ、あわせて出願要件・評価方法の見直しが行われた。\n\n従来のAO入試は学力を問わない選抜として広がった一方、合格者の中に入学後の学修に必要な基礎学力が不足する事例が見られ、学力担保が課題とされてきた。この反省を踏まえ、総合型選抜では「学力の三要素」(知識・技能、思考力・判断力・表現力、主体性を持って多様な人々と協働して学ぶ態度)を評価するため、各大学に対し小論文、プレゼンテーション、口頭試問、資格・検定試験の成績、大学入学共通テストの活用など、何らかの学力を把握する評価方法を組み合わせることが求められるようになった。\n\n出願時期も、それまでの8月以降から9月以降の出願・11月以降の合格発表へと変更され、学校推薦型選抜(旧推薦入試)と並ぶ入試区分として制度上明確化された。総合型選抜は私立大学を中心に実施校・利用者が年々増加しており、大学入学者に占める割合は一般選抜(旧一般入試)に次ぐ規模となっている。",
-    relatedSlugs: ["koudai-setsuzoku-kaikaku", "daigaku-nyugaku-kyotsu-test", "three-policy", "gakuryoku-no-san-yoso"],
+    relatedSlugs: ["koudai-setsuzoku-kaikaku", "daigaku-nyugaku-kyotsu-test", "three-policy", "gakuryoku-no-san-yoso", "gakko-suisen-gata-senbatsu", "designated-school-recommendation-guidance"],
     isCanonical: true,
     tags: ["総合型選抜", "大学入試", "AO入試", "高大接続改革", "探究活動", "多面的評価"],
   },
@@ -439,7 +439,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学の学生データや教育・経営情報を収集・分析し、教学改善や意思決定を支援する学内の調査・分析活動および専門部署。",
     body: "IR(インスティテューショナル・リサーチ)とは、大学が保有する学生の成績・出欠・アンケート結果や、教職員・財務等に関するさまざまなデータを収集・分析し、教育改善や経営の意思決定に活用するための調査・分析活動、およびそれを担う学内組織を指す。アメリカの大学で発展した機能で、日本では2000年代後半以降、大学教育の質保証や学修成果の可視化が求められる中で急速に普及した。\n\nIRの活動範囲は大学によって幅があり、入学者選抜データの分析や退学・休学の予兆把握といった「教学IR」、財務・人事情報を扱う「経営IR」、認証評価や大学ポートレートへの対応を担う機能などが含まれる。多くの大学では学長直属のIR室やIRセンターを設置し、全学的なデータに基づく政策形成(エビデンスに基づく大学経営)を支える体制を整備している。\n\nIRの機能強化は、大学の内部質保証システムの中核としても位置づけられており、3ポリシーに基づく教育の効果検証や、学修成果の可視化、認証評価への対応において重要な役割を果たす。一方で、専門人材(IRer)の不足や、部局を超えたデータ連携の難しさ、プライバシー保護との両立といった課題も指摘されており、専門職としてのIR人材育成や大学間でのノウハウ共有が課題となっている。",
-    relatedSlugs: ["gakushu-seika-kashika", "three-policy", "ninsho-hyoka-seido", "kyogaku-management"],
+    relatedSlugs: ["gakushu-seika-kashika", "three-policy", "ninsho-hyoka-seido", "kyogaku-management", "daigaku-portrait"],
     isCanonical: true,
     tags: ["IR", "エビデンスに基づく大学経営", "内部質保証", "学修成果", "インスティテューショナルリサーチ", "データ駆動"],
   },
@@ -452,7 +452,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学生が大学教育を通じて身につけた知識・能力を、テスト・ポートフォリオ・アンケート等を用いて把握し、教育改善や社会への説明に活用する取り組み。",
     body: "学修成果の可視化とは、大学教育を通じて学生がどのような知識・技能・能力を身につけたかを、客観的に把握・測定し、目に見える形で示す取り組みを指す。従来の大学教育は、入学者選抜や単位取得・卒業といった「量的」な管理が中心であったのに対し、近年は学生が実際に何を学び、何ができるようになったかという「質」を検証する方向へと質保証の重点が移ってきた。\n\n可視化の手法としては、標準化された学修成果測定テスト(ジェネリックスキルテストなど)、学生の学修過程や成果物を蓄積するeポートフォリオ、学生調査(在学生調査・卒業時調査・卒業生調査)、GPAの活用、ルーブリックによる到達度評価など多様な方法が用いられる。これらのデータはIR部門によって集約・分析され、ディプロマ・ポリシーに掲げた学修目標の達成状況を検証する材料として活用される。\n\n文部科学省は大学ポートレートなどを通じて各大学の教育情報の公表を促すとともに、認証評価においても学修成果の把握と教育改善へのフィードバック(内部質保証サイクル)を重視する方向へ制度を見直してきた。学修成果の可視化は、大学が社会に対して教育の質を説明する責任(アカウンタビリティ)を果たす手段であると同時に、教育課程の不断の改善(PDCAサイクル)を実質化するための基盤としても位置づけられている。",
-    relatedSlugs: ["institutional-research-ir", "gpa-seido", "three-policy"],
+    relatedSlugs: ["institutional-research-ir", "gpa-seido", "three-policy", "daigaku-portrait", "teaching-portfolio"],
     isCanonical: true,
     tags: ["学修成果", "可視化", "内部質保証", "ポートフォリオ"],
   },
@@ -517,7 +517,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学長のリーダーシップ強化や学長選考・監察会議の設置など、意思決定の迅速化と経営責任の明確化を目指して進められた国立大学法人等の組織運営改革。",
     body: "大学ガバナンス改革とは、大学、とりわけ国立大学法人の意思決定の仕組みを見直し、学長を中心とした機動的で責任の所在が明確な組織運営体制を構築しようとする一連の制度改革を指す。従来、大学の意思決定は教授会による審議を重視する「ボトムアップ」型の合議制が中心であったが、急速な社会変化に対応した迅速な経営判断が求められる中で、学長のリーダーシップを強化する方向への転換が進められてきた。\n\n2014年の学校教育法・国立大学法人法の改正では、教授会の役割が「教育研究に関する事項について審議し、学長等の求めに応じ意見を述べる」機関として明確化され、教授会が最終的な意思決定権を持つかのような従来の運用が見直された。あわせて学長選考についても、学内投票の結果のみに依拠するのではなく、学長選考会議(2021年の法改正で「学長選考・監察会議」に改称)が学内外の意見を踏まえて主体的に選考し、学長の業務執行状況を監察する役割も担うようになった。\n\nこうしたガバナンス改革は、指定国立大学法人制度や国際卓越研究大学制度など、大学に高度な経営自律性と説明責任を求める新たな制度とも連動している。一方で、学長への権限集中が学内の合意形成や多様な意見の反映を損なうのではないかとの懸念も指摘されており、リーダーシップと合議制のバランスをどう取るかが、国立大学法人運営における継続的な論点となっている。",
-    relatedSlugs: ["kokuritsu-daigaku-hojinka", "shitei-kokuritsu-daigaku-hojin", "kokusai-takuetsu-kenkyu-daigaku"],
+    relatedSlugs: ["kokuritsu-daigaku-hojinka", "shitei-kokuritsu-daigaku-hojin", "kokusai-takuetsu-kenkyu-daigaku", "school-education-act-article-93-senate", "gakucho-senko-kansatsu-kaigi"],
     isCanonical: true,
     tags: ["大学ガバナンス", "学長選考", "国立大学法人", "組織運営"],
   },
@@ -673,7 +673,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "1991年に大学以外で学位を授与できる国内唯一の機関として創設された。現在は大学改革支援・学位授与機構（NIAD-QE）。",
     body: "学位授与機構は、1991年（平成3年）7月に創設された、大学以外で学位を授与する権限を持つ日本で唯一の機関である。短期大学や高等専門学校の卒業者、専門学校の修了者などが、大学等で単位を修得したうえで申請し、審査を経て学士の学位を取得できる仕組みを運営する。大学という学校教育の枠を離れても、学修の成果にもとづいて学位が得られる「学位授与」の考え方を制度化したものといえる。\n\n機構は2000年（平成12年）に大学評価事業が加わって大学評価・学位授与機構と改称され、認証評価機関の認証や大学評価の実施主体の一つとなった。さらに2016年（平成28年）には国立大学財務・経営センターと統合し、現在の大学改革支援・学位授与機構（NIAD-QE）となった。大学への財務・経営面の支援と評価、学位授与を一体的に担う機関である。\n\n学位授与は、高等教育の多様なルートを制度的に保障する役割を持ち、学び直しや編入学とも関連する。また評価事業を通じて、認証評価制度や内部質保証の定着に関わってきた。申請の具体的な要件や審査方法は変更されることがあるため、利用の際は機構の最新の案内を確認する必要がある。",
-    relatedSlugs: ["tanki-daigaku", "kosen", "ninsho-hyoka-seido", "naibu-shitsu-hosho"],
+    relatedSlugs: ["tanki-daigaku", "kosen", "ninsho-hyoka-seido", "naibu-shitsu-hosho", "gakui-kisoku"],
     isCanonical: true,
     tags: ["学位", "評価", "独立行政法人"],
   },
@@ -699,7 +699,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学院生に教育補助や研究補助の業務を担わせ、手当を支給する制度。教育経験の機会と経済的支援を兼ねる。",
     body: "TA（ティーチング・アシスタント）は、優秀な大学院生に対し、教育的配慮のもとで学部学生へのチュータリング（助言）や実験・演習などの教育補助業務を行わせ、手当を支給する制度である。RA（リサーチ・アシスタント）は、研究プロジェクトに参画させて研究補助業務を担わせ、報酬を支給する制度で、いずれも大学院生に研究・教育の実践経験を積ませるとともに、その処遇の改善を図る目的を持つ。\n\n文部科学省の資料では、TAの人数は1993年度の約1.6万人から2004年度の約7.4万人へと増加したとされ、TA・RAは博士課程学生への経済的支援の柱の一つとして位置づけられている。資金は運営費交付金や私立大学等経常費補助金、競争的資金などから充てられる。制度の導入時期や運用は大学・研究科により異なり、取扱要項で対象や勤務時間、報酬が定められている。\n\nTAは学部教育の質向上や、大学教員を目指す大学院生のプレFD（教授法の基礎的訓練）としての意義も大きい。一方で、実質的に雑務の負担となっていないか、手当が十分か、労働者としての権利が保障されているかといった点が課題として指摘されている。博士課程学生の支援策や学生FDとの関係でも重要な論点である。",
-    relatedSlugs: ["hakase-katei-gakusei-shien", "faculty-development", "daigakuin-katei-no-shurui", "gakusei-fd", "kagakukenkyuhi-hojokin"],
+    relatedSlugs: ["hakase-katei-gakusei-shien", "faculty-development", "daigakuin-katei-no-shurui", "gakusei-fd", "kagakukenkyuhi-hojokin", "research-assistant-ra"],
     isCanonical: true,
     tags: ["大学院", "経済的支援", "教育補助", "RA", "リサーチアシスタント", "研究資金"],
   },
@@ -829,7 +829,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "特定の職業に直結しない幅広い知識や思考力を養う教養教育。古代の自由七科に由来し、現代の大学改革でも見直されている。",
     body: "リベラルアーツ（liberal arts）は、特定の職業や実用に直結しない、自由人にふさわしい教養的な学芸を指す。語源は中世ヨーロッパの大学で教えられた「自由七科」（文法・修辞学・論理学の三学と、算術・幾何・天文・音楽の四科）にさかのぼり、今日では人文・社会・自然科学を横断して批判的思考、コミュニケーション、問題解決の力を養う教育として理解されることが多い。\n\nアメリカでは、学部段階で幅広い教養教育を行うリベラルアーツ・カレッジが高等教育の伝統となっている。日本では、国際基督教大学（ICU）が1953年に教養学部のみで開学し、リベラルアーツ教育の先駆けとされる。また、戦後の新制大学では一般教育（教養教育）が設けられたが、1991年の大学設置基準の大綱化以降、教養部の廃止など教養教育のあり方が大きく変わり、改めてその理念が問われた。近年は国際教養大学など、リベラルアーツを掲げる大学も増えている。\n\n変化の激しい社会で必要とされる汎用的な能力を育てる観点から、リベラルアーツの価値は再評価されている。他方で、専門教育や職業教育との関係、学位プログラムの中での位置づけ、教養教育の質保証などが課題となる。ニューマンのリベラル・エデュケーションは、その理念的源流の一つである。",
-    relatedSlugs: ["newman-daigaku-no-rinen", "daigaku-secchi-kijun-taikoka", "gakushiryoku", "taisho-kyoyoshugi"],
+    relatedSlugs: ["newman-daigaku-no-rinen", "daigaku-secchi-kijun-taikoka", "gakushiryoku", "taisho-kyoyoshugi", "richard-rorty-ironist-education", "shichijiyu-ka"],
     isCanonical: true,
     tags: ["教養教育", "大学カリキュラム", "ICU"],
   },
@@ -972,7 +972,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "高等教育機関における一定水準の教育課程修了や学術研究成果に対し、公的な学術的称号（学士・修士・博士・短期大学士・専門職学位）を授与する制度。",
     body: "大学等の高等教育機関において、一定の教育課程を修了した者または同等の学力を有する者に対し、学術上の能力や修得水準を公的に証明する称号を授与する制度である。学校教育法および文部科学省令である「学位規則」によってその体系が厳格に定められている。\n\n日本の現行学位制度では、大学学部を卒業した者に授与される「学士」、大学院修士課程を修了した者に授与される「修士」、博士課程を修了した者等に授与される「博士」が基本体系を成す。また、短期大学を卒業した者には「短期大学士」、専門職大学院を修了した者には「専門職学位」が授与される。\n\n国際的な教育の通用性を確保するため、各学位には専攻分野の名称が付記される。近年では、ボローニャ・プロセスなどの国際的動向に合わせて、学位の授与基準（ディプロマ・ポリシー）や学習成果の客観的評価基準の明文化が進められている。",
-    relatedSlugs: ["gakui-jusyo-kiko", "three-policy", "daigakuin-juten-ka", "tanki-daigaku"],
+    relatedSlugs: ["gakui-jusyo-kiko", "three-policy", "daigakuin-juten-ka", "tanki-daigaku", "gakui-kisoku"],
     isCanonical: true,
     tags: ["学士", "修士", "博士", "学位規則"],
   },
@@ -985,7 +985,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学教員の流動性を向上させ教育研究活動の活性化を図るため、各大学の判断に基づき任期付きでの教員雇用を可能とする1997年制定の法律。",
     body: "正式名称を「大学の教員等の任期に関する法律」といい、1997年（平成9年）に制定された法律である。大学における教育研究の多様な展開と活性化を促進するため、従来の終身雇用を原則としていた大学教員の人事に、任期を定めた雇用形態を導入する法的枠組みを整備した。\n\n同法に基づき、各大学は学則等で定めることにより、先端的・学際的研究に従事する教員や若手教員、外部実務経験者などを任期付きで採用することができる。教員の多様な移動を促し、国際的・学際的な研究ネットワークの形成や、組織の硬直化を防ぐ狙いがあった。\n\nしかし、特に若手研究者において任期付きポストの比率が高止まりし、雇用の不安定さや中長期的な基礎研究の敬遠、研究時間の減少といった深刻な問題を引き起こしているとの批判も根強い。近年は、テニュアトラック制の導入など安定的なキャリアパス確保との両立が模索されている。",
-    relatedSlugs: ["daigaku-secchi-kijun", "daigakuin-juten-ka", "postdoc-problem", "tenure-track-seido"],
+    relatedSlugs: ["daigaku-secchi-kijun", "daigakuin-juten-ka", "postdoc-problem", "tenure-track-seido", "sabbatical-seido"],
     isCanonical: true,
     tags: ["大学教員", "任期制", "研究環境", "法制度"],
   },
@@ -1011,7 +1011,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "博士課程修了後に任期付きの研究職や不安定な非正規雇用にとどまり、専任教員や正規の研究者ポストを得られない若手研究者の構造的困窮問題。",
     body: "博士号取得後に大学や研究機関で任期付き研究員として従事する若手研究者が、任期満了後に安定したテニュアポストや専任教員ポストを得られず、不安定な雇用や低処遇に苦しむ構造的な社会問題である。\n\n1990年代に推進された大学院重点化政策により博士課程修了者が急増した一方、大学の専任教員定員の削減や企業の研究職採用の硬直性により、需要と供給のミスマッチが深刻化したことに端を発する。若手研究者のキャリア不安は、大学院進学希望者の減少や日本の科学技術競争力の低下を招く大きな要因となった。\n\n国はこれに対し、若手研究者の自立を促すテニュアトラック制の導入、学術振興会特別研究員の支援強化、卓越研究員事業、企業等とのマッチング支援など多面的な対策を講じているが、抜本的な解決に向けた雇用環境の改革が依然として求められている。",
-    relatedSlugs: ["daigakuin-juten-ka", "daigaku-kyoin-ninki-ho", "hakase-katei-gakusei-shien", "tenure-track-seido", "ura-research-administrator", "sangaku-renkei"],
+    relatedSlugs: ["daigakuin-juten-ka", "daigaku-kyoin-ninki-ho", "hakase-katei-gakusei-shien", "tenure-track-seido", "ura-research-administrator", "sangaku-renkei", "doctoral-program-diverse-career-pathways"],
     isCanonical: true,
     tags: ["ポスドク", "大学院重点化", "若手研究者", "科学技術政策", "キャリア展開", "産学連携"],
   },
@@ -1024,7 +1024,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学や短期大学、高等専門学校の新設・学部改組や、学校法人の設立認可について、文部科学大臣の諮問を受けて専門的見地から審査・調査する審議会。",
     body: "文部科学省設置法第19条に基づき文部科学省に置かれる審議会であり、大学、短期大学、高等専門学校の設置認可や、学校法人の設立・合併等の認可について審査を行う諮問機関である。通称「設置審」と呼ばれる。\n\n審議会には「大学設置分科会」と「学校法人分科会」が置かれている。大学設置分科会では、申請された大学や学部・研究科が大学設置基準に適合しているかを、教員組織、教育課程、校地・校舎、図書・設備等の観点から厳格に審査し、文部科学大臣に対して認可または不認可の答申を行う。\n\nまた、認可後の大学が認可時の計画通りに教員配置や施設整備を行っているかを確認する「設置計画履行状況調査」を実施する権限も持つ。大学の質保証と高等教育水準の維持において、事前規制の中核を担う重要な機関である。",
-    relatedSlugs: ["daigaku-secchi-kijun", "ninsho-hyoka-seido", "daigaku-secchi-keitai"],
+    relatedSlugs: ["daigaku-secchi-kijun", "ninsho-hyoka-seido", "daigaku-secchi-keitai", "secchi-keikaku-riko-jokyo-chosa"],
     isCanonical: true,
     tags: ["文部科学省", "設置認可", "大学設置基準", "質保証", "大学設置審議会", "アフターケア"],
   },
@@ -1089,7 +1089,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "1単位あたり45時間の学修を要するという法令上の単位制度の趣旨に基づき、授業内だけでなく授業外の予習・復習時間を十分に確保・定着させる取り組み。",
     body: "大学設置基準第21条等に定められている「1単位の授業科目は45時間の学修を必要とする内容をもって構成する」という単位制度の実質的な機能回復を目指す改革課題である。講義科目であれば、一般に15時間の講義に対して30時間の授業外学修が法令上想定されている。\n\nしかし、日本の大学生の授業外学修時間が諸外国に比べて著しく短いことが長年指摘され、単位の形骸化が国際的な大学の通用性を損ねていると批判されてきた。これを受け、中央教育審議会は学修時間の実質化を重要課題として提起した。\n\n具体的な方策として、シラバスにおける事前・事後学修の明示、履修登録上限設定（キャップ制）の厳格化、アクティブ・ラーニングの導入、課題提出や小テストの実施、オフィスアワーの充実など、多角的な取り組みが推進されている。",
-    relatedSlugs: ["daigaku-secchi-kijun", "cap-sei", "syllabus-seibi-gimuka", "gakusei-chosa"],
+    relatedSlugs: ["daigaku-secchi-kijun", "cap-sei", "syllabus-seibi-gimuka", "gakusei-chosa", "credit-system-45-hours-learning-syllabus"],
     isCanonical: true,
     tags: ["単位制度", "授業外学修", "大学設置基準", "キャップ制"],
   },
@@ -1167,7 +1167,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学設置基準に基づき1学期あたり15週の授業期間を確保することが求められる制度規範であり、授業時間数の厳格な運用と質保証の基準。",
     body: "15週の授業期間の確保と試験運用の基準は、大学設置基準第21条等に定められた、各科目において十分な教育内容を体系的に教授するための時間的枠組みである。原則として1学期あたり15週にわたる授業を実施することが義務づけられており、学修量の担保が図られる。\n\n過去には定期試験期間を授業週数に含めて実質13週や14週で終了する運用が散見されたが、文部科学省の指導や認証評価により、15週の純粋な授業時間の確保が厳格に求められるようになった。祝日による休講への補講実施やクォーター制の導入など、大学ごとに暦の工夫が進んでいる。\n\n定期試験は単なる合否判定にとどまらず、到達度を確認してフィードバックを行う形成的評価としての役割が強まっている。授業回数の厳格な維持は、国際的な単位互換性や学歴の通用性を担保する上でも不可欠な前提条件となっている。",
-    relatedSlugs: ["daigaku-secchi-kijun", "semester-quarter-sei", "gakushu-jikan"],
+    relatedSlugs: ["daigaku-secchi-kijun", "semester-quarter-sei", "gakushu-jikan", "credit-system-45-hours-learning-syllabus"],
     isCanonical: true,
     tags: ["授業期間", "15週", "クォーター制", "単位制度"],
   },
@@ -1180,7 +1180,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学設置基準が定める単位計算の原則であり、講義・演習等の授業時間と授業外の自学自習時間を合わせて計45時間の学修を1単位とする制度規範。",
     body: "1単位45時間の学修時間基準は、日本の高等教育における単位制度の根幹をなす算定原則である。大学設置基準第21条に基づき、講義および演習科目の1単位は、教室での授業時間15〜30時間と、授業外の事前・事後学修を合わせた計45時間の学修を要するものとして設計されている。\n\nこの基準を実質化するため、教員はシラバス（授業計画書）に各回の授業内容だけでなく、授業外に学生が取り組むべき具体的な予習・復習の課題や所要時間の目安を明記することが義務づけられている。課題の提示や小テストの実施により、自学自習の履行状況を確認する工夫が行われる。\n\n国内外での単位互換や学位の国際的通用性を確保する上で、45時間基準の厳格な適用は必須である。中央教育審議会が推進する学修時間の可視化と教学マネジメントの確立において、シラバスを通じた時間管理は中核的役割を果たしている。",
-    relatedSlugs: ["syllabus-seibi-gimuka", "gakushu-jikan", "cap-sei"],
+    relatedSlugs: ["syllabus-seibi-gimuka", "gakushu-jikan", "cap-sei", "fifteen-week-course-duration-regulations"],
     isCanonical: true,
     tags: ["単位制度", "45時間基準", "シラバス", "授業外学修"],
   },
@@ -1206,7 +1206,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学や学部が卒業時に学生が身につけるべき資質・能力や学修成果の達成水準を明確に定義した学位授与の方針。",
     body: "ディプロマ・ポリシー（DP）は、大学や各学部・研究科が、どのような知識、技能、態度を習得した学生に卒業や学位授与を認めるかを社会に対して明示した基本方針である。三つのポリシーの頂点に位置し、教育課程や入学者選抜の基準を方向づける。\n\n具体的には、専門分野の知識・技術にとどまらず、論理的思考力、課題解決力、コミュニケーション能力、倫理観など、多様な資質・能力が項目立てて言語化される。各項目の達成度を客観的に評価するため、ルーブリックや卒業研究の審査基準、学修ポートフォリオが設定される。\n\n明確なDPの策定は、学位の質保証を果たすとともに、学生自身が学修目標を自覚して主体的に学ぶ羅針盤となる。認証評価においても、DPに掲げられた学修成果が実際に学生に備わっているかの検証が極めて重視されている。",
-    relatedSlugs: ["three-policy", "curriculum-policy-educational-structure", "admission-policy-student-selection-profile"],
+    relatedSlugs: ["three-policy", "curriculum-policy-educational-structure", "admission-policy-student-selection-profile", "graduation-thesis-rubric-objective-scoring"],
     isCanonical: true,
     tags: ["ディプロマポリシー", "三つのポリシー", "学位授与", "学修成果"],
   },
@@ -1258,7 +1258,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "国立大学法人等において学外有識者の知見を取り入れ、経営と教学の監督や学長の選考・業績審査を担う重要機関の法的役割と機能。",
     body: "大学運営協議会（経営協議会）と学長選考・監察会議は、国立大学法人化に伴い導入され、その後の法改正で機能強化された大学統治の中核機関である。学長への権限集中に伴う暴走を防ぎ、社会に対する適切な説明責任を果たすために設けられた。\n\n経営協議会は学外の有識者が過半数を占め、予算、財務、中期目標などの経営重要事項を審議する。一方、学長選考・監察会議は学長候補者の選考基準の策定や審査、学長の業務執行状況の定期的な監察を行い、必要に応じて学長の解任を文部科学大臣に申し出る強い権能を持つ。\n\n外部の視点を導入した透明性の高いガバナンス体制は、大学経営の近代化と社会連携の促進に寄与している。学内の自律性と社会的要求のバランスをいかに保ちながら大学の発展を導くかが、統治機能の成熟に向けた鍵となっている。",
-    relatedSlugs: ["kokuritsu-daigaku-hojinka", "gakuchou-leadership", "daigaku-governance-kaikaku"],
+    relatedSlugs: ["kokuritsu-daigaku-hojinka", "gakuchou-leadership", "daigaku-governance-kaikaku", "gakucho-senko-kansatsu-kaigi"],
     isCanonical: true,
     tags: ["経営協議会", "学長選考監察会議", "国立大学法人", "ガバナンス"],
   },
@@ -1388,7 +1388,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学生が授業内外の学修成果や自己の振り返りを電子的に蓄積し、指導教員との定期的な面談を通じて成長を促す教育支援手法。",
     body: "学修ポートフォリオを活用した面談と省察は、学生が4年間の大学生活におけるレポート、作品、資格取得、課外活動の記録などをデジタル形式で継続的に蓄積し、学びの軌跡を可視化する教育手法である。自己調整学習の促進を目指して導入が進む。\n\n学生は各学期の終了時等に自らの学修活動を振り返り、目標達成度や今後の課題を記述する。指導教員やアカデミック・アドバイザーはポートフォリオの記録を参照しながら個別面談を実施し、履修計画や学修方法、進路選択に関して具体的な助言を提供する。\n\nこの取り組みは、点数や単位数だけでは測れない学生の内面的な成長や汎用的技能の獲得を促す。自らの学びを客観的に捉え直す省察力を養うとともに、就職活動における自己表現や大学全体の学修成果の質的把握にも大きく寄与している。",
-    relatedSlugs: ["academic-advising", "gakushu-seika-kashika", "shonenji-kyoiku"],
+    relatedSlugs: ["academic-advising", "gakushu-seika-kashika", "shonenji-kyoiku", "portfolio-interview-self-assessment", "reflective-journaling-learning-trajectory"],
     isCanonical: true,
     tags: ["ポートフォリオ", "省察", "面談指導", "自己調整学習"],
   },
@@ -1414,7 +1414,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学術的誠実性に基づき、適切な引用作法や研究倫理を教育し、不正行為や文章の無断盗用を防止するための指導実践体系。",
     body: "論文執筆指導と研究不正・盗用の防止教育は、大学生がレポートや卒業論文を作成するにあたり、他者の研究成果を正しく尊重し、学術的誠実性（アカデミック・インテグリティ）を身につけるための教育的取り組みである。研究倫理の確立を目指して行われる。\n\n教育内容としては、直接引用と間接引用の明確な区別、出典や参考文献リストの厳格な記載法、データの不正作成や改ざんの禁止などが指導される。また、教育現場では文章類似度検出ツール（盗用チェッカー）を導入し、学生自身が提出前に自己確認を行える体制を整えている。\n\n近年の生成AIの急速な普及に伴い、AI生成物の安易なコピーや出典偽装への対応が急務となっている。単なる罰則の適用にとどまらず、知の創造者としての倫理観と自立した思考力を育成する大学教育の根底を支える指導領域である。",
-    relatedSlugs: ["shonenji-kyoiku", "faculty-development", "syllabus-seibi-gimuka"],
+    relatedSlugs: ["shonenji-kyoiku", "faculty-development", "syllabus-seibi-gimuka", "university-generative-ai-policy-academic-integrity"],
     isCanonical: true,
     tags: ["アカデミックライティング", "研究倫理", "盗用防止", "学術的誠実性"],
   },
@@ -1999,7 +1999,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学院を設置するにあたって最低限満たすべき専攻・教員組織・施設設備などの基準を定めた文部省令。",
     body: "大学院設置基準は、学校教育法に基づき1974年に文部省令第28号として制定された省令である。学部段階の基準を定める大学設置基準から独立し、高度な学術研究の指導と高度専門職業人の養成に必要な固有の教育研究環境を規定している。\n\n本基準では、修士課程・博士課程の修業年限、専攻分野ごとの専任教員組織、教育指導体制、研究指導の履修方法、施設設備などが定められている。夜間大学院の設置や通信教育による大学院教育、1年制修士課程などの柔軟な修学形態も本基準の改正を通じて制度化されてきた。\n\n高度情報社会や知識基盤社会の進展に伴い、大学院教育の実質化や国際的な通用性の確保が求められており、教育課程連携や複数教員指導体制の導入など、時代に応じた改正が継続的に行われている。",
-    relatedSlugs: ["daigaku-secchi-kijun", "daigakuin-juten-ka", "daigaku-tsushin-kyoiku-secchi-kijun"],
+    relatedSlugs: ["daigaku-secchi-kijun", "daigakuin-juten-ka", "daigaku-tsushin-kyoiku-secchi-kijun", "tanki-daigaku-secchi-kijun", "kosen-secchi-kijun", "senshu-gakko-secchi-kijun"],
     isCanonical: true,
     tags: ["大学院", "省令", "設置基準", "高等教育"],
   },
@@ -2012,7 +2012,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "短期大学を設置するにあたり満たすべき学科編制・専任教員・施設設備等の最低基準を定めた文部省令。",
     body: "短期大学設置基準は、1975年に文部省令第21号として制定された省令である。学校教育法第108条に規定される短期大学（修業年限2年または3年）の目的である、職業や実際生活に必要な能力の育成を達成するための認可基準を定めている。\n\n本基準では、学科の編制、卒業に必要な単位数（2年制は62単位以上、3年制は93単位以上）、教員の資格要件および専任教員数、校地・校舎・図書室等の施設設備基準が詳細に規定されている。1991年の大学設置基準大綱化に合わせて短期大学設置基準も大綱化され、各短大の自主的な教育課程編成が認められた。\n\n近年の18歳人口の減少や4年制大学への志向の強まりの中で、短期大学の改組や学生募集停止が進む一方、地域社会に密着した職業教育や生涯学習の拠点としての役割再構築が議論されている。",
-    relatedSlugs: ["tanki-daigaku", "daigaku-secchi-kijun", "professional-junior-colleges-vocational-skills"],
+    relatedSlugs: ["tanki-daigaku", "daigaku-secchi-kijun", "professional-junior-colleges-vocational-skills", "kosen-secchi-kijun", "senshu-gakko-secchi-kijun"],
     isCanonical: true,
     tags: ["短期大学", "省令", "設置基準", "高等教育"],
   },
@@ -2025,7 +2025,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "中学校卒業後の5年一貫教育を行う高等専門学校の学科編制・教員組織・設備等の認可基準を定めた文部省令。",
     body: "高等専門学校設置基準は、1961年に文部省令第23号として制定された省令である。学校教育法に基づき設置される高等専門学校（高専）が備えるべき学科、専任教員数、施設設備、教育課程の最低基準を規定している。\n\n本基準では、5年間の修業年限（商船学科は5年6か月）における一般科目と専門科目の履修単位数（計167単位以上）、実習や実験を重視した教育環境、専任教員の資格や校地面積が定められている。専攻科（2年制）の設置要件や学位授与機構による学士号取得の基盤も本基準に即して整備されている。\n\n日本の高度経済成長期における技術者養成に大きく貢献し、現在でも実践的かつ高度な技術者を育成する独自の教育機関として国内外から高い評価を受けている。",
-    relatedSlugs: ["kosen", "kosen-five-year-curriculum-transfer-pathways", "daigaku-secchi-kijun"],
+    relatedSlugs: ["kosen", "kosen-five-year-curriculum-transfer-pathways", "daigaku-secchi-kijun", "tanki-daigaku-secchi-kijun"],
     isCanonical: true,
     tags: ["高専", "省令", "技術者教育", "設置基準"],
   },
@@ -2064,7 +2064,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "実践的な職業教育と学術教育を一体的に行う専門職大学の教員組織・教育課程・施設設備等を定めた文部科学省令。",
     body: "専門職大学設置基準は、学校教育法の改正により専門職大学制度が新設されたことに伴い、2017年に文部科学省令第33号として公布された（2019年施行）。実践的な職業教育を担う高等教育機関の設置基準を規定している。\n\n本基準の特徴として、専任教員のうち概ね4割以上を実務家教員とし、その半数以上には研究能力を求める点がある。さらに、教育課程において企業や地域社会の現場で行う長期の臨地実務実習（インターンシップ）を必修とすることや、産業界と連携する教育課程連携協議会の設置が義務付けられている。\n\n大学教育の多様化と高度な専門職業人の育成を目的として設立されたが、認可要件の厳格さや既存大学・専門学校との差別化、志願者の確保など運用面での課題も議論されている。",
-    relatedSlugs: ["senmonshoku-daigaku", "professional-junior-colleges-vocational-skills", "daigaku-secchi-kijun"],
+    relatedSlugs: ["senmonshoku-daigaku", "professional-junior-colleges-vocational-skills", "daigaku-secchi-kijun", "kyoiku-katei-renkei-kyogikai"],
     isCanonical: true,
     tags: ["専門職大学", "省令", "実務家教員", "設置基準"],
   },
@@ -2090,7 +2090,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学等の設置する教員免許取得課程を文部科学大臣が法令基準に照らして審査・認定する制度。",
     body: "教職課程認定制度は、教育職員免許法および同法施行規則に基づき、教員免許状の授与を受けられる課程として文部科学大臣が大学等の教育課程を認定する制度である。開放制の教員養成を支える基幹的な質保証システムである。\n\n大学が教職課程を開設する際には、教員免許種別に応じた教職専門科目・教科専門科目等の編成、教員組織の資格審査、教育実習や介護等体験の実施体制、指導設備などについて文部科学省の大学設置・学校法人審議会（教員養成部会）による厳格な審査を受ける。\n\n教員養成の質の向上を図るため、定期的な課程認定の再審査や教職課程自己点検・評価の実施、教職実践演習の必修化など、制度の高度化が継続的に図られている。",
-    relatedSlugs: ["kyoin-menkyojo", "kyoshoku-katei-core-curriculum", "kyoshoku-daigakuin"],
+    relatedSlugs: ["kyoin-menkyojo", "kyoshoku-katei-core-curriculum", "kyoshoku-daigakuin", "moral-education-methodology-teacher-training"],
     isCanonical: true,
     tags: ["教職課程", "教員養成", "文部科学省", "免許制度"],
   },
@@ -2129,7 +2129,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "私立学校法改正等を通じて理事会・評議員会・監事の権限と責任を明確化し、私立大学の不祥事防止と健全経営を図る改革。",
     body: "学校法人ガバナンス改革は、私立大学を設置する学校法人において、不祥事の防止や社会からの信頼確保、自律的な運営体制の確立を目指して推進された一連の制度改革である。特に2023年に成立した改正私立学校法（2025年施行）が中核を成す。\n\n改革の要点として、最高議決機関としての理事会と諮問機関にとどまっていた評議員会の権限関係の整理、評議員会による理事・監事の選任・解任権の付与、監事の監査機能の独立性強化、情報公表の義務化などが挙げられる。従来の身内的・閉鎖的な運営を改め、執行と監督の分離を図るチェック・アンド・バランスの確立が目指された。\n\n私立学校の建学の精神や自主性を尊重しつつ、公教育を担う法人としての公共性と透明性をいかに高度に両立させるかが実務上の大きな論点となっている。",
-    relatedSlugs: ["daigaku-governance-kaikaku", "fundamental-law-article-8-private-schools", "auditor-oversight-compliance-system"],
+    relatedSlugs: ["daigaku-governance-kaikaku", "fundamental-law-article-8-private-schools", "auditor-oversight-compliance-system", "shigaku-ho"],
     isCanonical: true,
     tags: ["学校法人", "ガバナンス", "私学法", "大学経営"],
   },
@@ -2155,7 +2155,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "私立大学等に対する経常費補助金の国庫交付の法的根拠と、適正な助成管理・財務開示を定めた法律。",
     body: "私立学校振興助成法は、私立学校の教育条件の維持向上と修学上の経済的負担の軽減を図るため、1975年に公布された法律（昭和50年法律第61号）である。私立大学等経常費補助金の交付根拠となっている。\n\n本法では、国が大学等を設置する学校法人の経常的経費について予算の範囲内で補助できること（第4条）を明記し、補助を受ける学校法人に対して学校法人会計基準に準拠した会計処理や所轄庁への財務書類の提出、公認会計士の監査を義務付けている。また、法令違反や定員超過等に対する補助金の減額・不交付措置も規定されている。\n\n日本の高等教育の私学依存度の高さに対応した基幹法であり、補助金を通じた教育条件の向上と、私立大学の健全な経営・質の担保を両立させる枠組みを提供している。",
-    relatedSlugs: ["private-school-subsidies-general-special", "fundamental-law-article-8-private-schools", "shuyo-teiin-kanri"],
+    relatedSlugs: ["private-school-subsidies-general-special", "fundamental-law-article-8-private-schools", "shuyo-teiin-kanri", "public-funding-private-schools-international", "gakko-hojin-kaikei-kijun"],
     isCanonical: true,
     tags: ["私学助成", "法律", "私立大学", "経常費補助金"],
   },
@@ -2246,7 +2246,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学の教育資源・施設・先進的プログラムを他大学の学生や教員が共同利用できるよう文科大臣が認定する制度。",
     body: "教育関係共同利用拠点制度は、学校教育法施行規則に基づき、大学が有する優れた教育資源を他大学に開放し、高等教育全体の教育力向上を図るため2009年に創設された文部科学大臣認定制度である。\n\n認定の対象には、海洋実習船や演習林、野外実習施設などの物理的施設だけでなく、FD・SDプログラムの開発拠点、情報教育やアクティブラーニングの支援プログラムなど多様な形態が含まれる。認定を受けた大学は、他大学の学生に対する単位認定を伴う講義開放や、教職員向け研修の共同実施を行う。\n\n各大学が個別に整備することが困難な教育資源を相互に融通し、大学間連携による多様で質の高い学修機会を学生に提供する制度として定着している。",
-    relatedSlugs: ["kyodo-riyo-kyodo-kenkyu-kyoten", "faculty-development", "daigaku-consortium"],
+    relatedSlugs: ["kyodo-riyo-kyodo-kenkyu-kyoten", "faculty-development", "daigaku-consortium", "high-school-university-articulation-agreements"],
     isCanonical: true,
     tags: ["教育拠点", "大学間連携", "FD", "文部科学省"],
   },
@@ -2272,7 +2272,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "1991年の大学設置基準大綱化後の一般教育解体と、リベラルアーツ・21世紀型学士力の再構築を目指す高等教育の改革動向。",
     body: "教養教育改革は、日本の大学において一般教育の形骸化を乗り越え、現代社会に求められる批判的思考力や総合的判断力を培う教養教育（リベラルアーツ）を再構築する一連の改革運動である。\n\n1991年の大学設置基準大綱化により一般教育と専門教育の区分が撤廃され、多くの大学で教養部が解体された結果、教養教育の軽視や学力の空洞化が指摘された。これに対し中央教育審議会は2008年の「学士課程教育の構築に向けて」答申等を通じて、知識・技能・態度の統合された「学士力」を提唱し、全学共通教育機構の設置や初年次教育の導入、アクティブラーニング化が進められた。\n\n専門化・高度化する社会課題に対応するため、文理横断型の学際的教養教育やデータサイエンス教育など、時代に即した新たな教養のあり方が模索され続けている。",
-    relatedSlugs: ["qualitative-transformation-undergraduate-education", "first-year-seminar-academic-skills-transition", "daigaku-secchi-kijun"],
+    relatedSlugs: ["qualitative-transformation-undergraduate-education", "first-year-seminar-academic-skills-transition", "daigaku-secchi-kijun", "shichijiyu-ka"],
     isCanonical: true,
     tags: ["教養教育", "リベラルアーツ", "大学改革", "学士力"],
   },
@@ -2324,7 +2324,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "研究活動における不正行為（捏造・改ざん・盗用）を防止し、倫理的で信頼性の高い研究を推進する規範と体制。",
     body: "研究公正は、科学研究における真実性の探求と社会からの信頼を担保するため、研究倫理を遵守し不正行為を排除する一連の規範・体制である。英語のResearch Integrityに対応する。\n\n文部科学省の「研究活動における不正行為への対応等に関するガイドライン」（2014年決定）では、特定不正行為として捏造（Fabrication）、改ざん（Falsification）、盗用（Plagiarism）の三つが明確に定義されている。大学・研究機関には、研究倫理教育の義務化、告発窓口の設置、不正調査委員会の設置、研究データの一定期間保存の義務付けなどが課されている。\n\n単なる不正摘発にとどまらず、健全な研究環境の醸成や研究データの適正管理、メンターシップの向上など、研究機関全体のガバナンス課題として取り組まれている。",
-    relatedSlugs: ["academic-writing-citation-plagiarism-prevention", "kenkyu-data-kanri", "rieki-sohan-management"],
+    relatedSlugs: ["academic-writing-citation-plagiarism-prevention", "kenkyu-data-kanri", "rieki-sohan-management", "scientific-progress-researcher-social-responsibility"],
     isCanonical: true,
     tags: ["研究倫理", "不正防止", "研究公正", "科学技術"],
   },
@@ -2350,7 +2350,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "特定プロジェクトや重点教育研究領域のため、任期や資金源を定めて特別に任用される大学教員の雇用制度。",
     body: "特任教員制度は、大学において競争的資金による時限研究プロジェクトや、産学連携、国際化推進、特定科目の担当などのために、期間を定めて任用される教員の制度である。特任教授、特任准教授などの呼称が用いられる。\n\n本制度の教員は、大学の基盤的運営費交付金や私学助成による定員枠外で任用されることが多く、外部資金や寄附金を原資とした年俸制や任期付雇用が一般的である。高度な専門性を備えた実務家や国内外の先端研究者を機動的に登用できる利点がある。\n\n大学の組織運営の柔軟性を高める一方で、雇用の不安定さや任期満了後のキャリアパス、専任教員との職務分担や意思決定への参加権限のあり方など、処遇や学内位置づけに関する課題も議論されている。",
-    relatedSlugs: ["tenure-track-seido", "faculty-performance-evaluation-multi-domain", "daigaku-secchi-kijun"],
+    relatedSlugs: ["tenure-track-seido", "faculty-performance-evaluation-multi-domain", "daigaku-secchi-kijun", "sabbatical-seido"],
     isCanonical: true,
     tags: ["大学教員", "雇用制度", "任期付", "人事制度"],
   },
@@ -2415,7 +2415,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学術雑誌に掲載された学術論文や研究成果をインターネット上で誰もが無料で閲覧・利用できるようにする運動と政策。",
     body: "オープンアクセス（OA）は、学術論文をはじめとする学術研究成果をインターネットを通じて障壁なく無償で全世界に公開し、誰でも閲覧・利用できるようにする運動および制度である。\n\n実現の手法として、オープンアクセス誌に論文を掲載するゴールドOA（著者が論文掲載料APCを負担する場合が多い）と、著者が査読済み原稿を大学の機関リポジトリ等に登録・公開するグリーンOAがある。近年では、学術雑誌購読料の高騰（シリアルズ・クライシス）への対抗策としても不可欠となっている。\n\n公的資金による研究成果は社会に還元されるべきであるという理念に基づき、政府や学術振興会による即時オープンアクセスの義務化方針が打ち出されるなど、学術出版システムの構造転換が進んでいる。",
-    relatedSlugs: ["kenkyu-data-kanri", "gakujutsu-joho-network", "tlo-technology-licensing-intellectual-property"],
+    relatedSlugs: ["kenkyu-data-kanri", "gakujutsu-joho-network", "tlo-technology-licensing-intellectual-property", "university-library-academic-information-base"],
     isCanonical: true,
     tags: ["オープンアクセス", "学術情報", "機関リポジトリ", "学術論文"],
   },
@@ -2441,7 +2441,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "同一地域の複数大学・自治体・産業界が連合し、単位互換や共同FD・地域貢献活動を実施する連携組織。",
     body: "大学コンソーシアムは、特定の地域に所在する国公私立大学や短期大学が設立母体を超えて連合し、自治体や地元企業等とも連携しながら共同で教育研究活動や地域貢献事業を展開する連携組織である。代表例として大学コンソーシアム京都などがある。\n\n主な事業内容として、加盟大学間での包括的な単位互換制度の運用、合同FD・SD研修の実施、市民向けサテライト講座や生涯学習事業の開講、地域課題の解決に向けた産学官共同プロジェクトの推進などが挙げられる。各大学の教育資源を地域全体で共有するプラットフォームとして機能する。\n\n少子化の中で単独大学では維持が困難な高度な教育環境を地域全体で支え、地域創生や大学の魅力向上に資する中核組織として重要な役割を担っている。",
-    relatedSlugs: ["tani-gokan-seido", "kyoiku-kankei-kyodo-riyo-kyoten", "regional-core-distinctive-research-universities"],
+    relatedSlugs: ["tani-gokan-seido", "kyoiku-kankei-kyodo-riyo-kyoten", "regional-core-distinctive-research-universities", "tokubetsu-choko-gakusei"],
     isCanonical: true,
     tags: ["大学間連携", "地域連携", "単位互換", "コンソーシアム"],
   },
