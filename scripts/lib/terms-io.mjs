@@ -37,13 +37,15 @@ export function computeKana(title, reading) {
   return c
 }
 
-/** .ts ファイルから Term[] を取り出す(型注釈とimportを外してVMで評価) */
+/** .ts ファイルの中身(文字列)から Term[] を取り出す(型注釈とimportを外してVMで評価) */
+export function parseTermsSource(src) {
+  const body = src.replace(/^import type.*\n\n?/, '').replace(/^export const \w+Terms: Term\[\] = /, '')
+  return vm.runInNewContext(`(${body.trim()})`)
+}
+
 export function loadCategoryFile(cat) {
   const file = path.join(TERMS_DIR, `${cat}.ts`)
-  let src = fs.readFileSync(file, 'utf8')
-  src = src.replace(/^import type.*\n\n?/, '').replace(/^export const \w+Terms: Term\[\] = /, '')
-  const terms = vm.runInNewContext(`(${src.trim()})`)
-  return { file, terms }
+  return { file, terms: parseTermsSource(fs.readFileSync(file, 'utf8')) }
 }
 
 export function loadAllTerms() {
@@ -85,7 +87,9 @@ export function serializeTerm(t) {
       '    },',
     )
   }
-  lines.push(`    tags: ${arr(t.tags ?? [])},`, '  },')
+  lines.push(`    tags: ${arr(t.tags ?? [])},`)
+  if (t.sources?.length) lines.push(`    sources: ${arr(t.sources)},`)
+  lines.push('  },')
   return lines.join('\n')
 }
 

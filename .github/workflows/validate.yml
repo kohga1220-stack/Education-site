@@ -27,6 +27,10 @@ jobs:
       - name: Validate term data
         run: npm run validate
 
+      - name: Verify sources (changed terms)
+        if: github.event_name == 'pull_request'
+        run: node scripts/verify-sources.mjs --base origin/${{ github.base_ref }}
+
       - name: Type check
         run: npx tsc --noEmit
 
