@@ -10,6 +10,15 @@ import DiagramRenderer from '@/components/diagrams/DiagramRenderer'
 import JsonLd from '@/components/JsonLd'
 import { SITE_NAME, absoluteUrl } from '@/lib/site'
 
+function sourceLabel(url: string): string {
+  try {
+    const u = new URL(url)
+    return `${u.hostname.replace(/^www\./, '')}${u.pathname === '/' ? '' : u.pathname}`
+  } catch {
+    return url
+  }
+}
+
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }))
 }
@@ -74,6 +83,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
         url,
         inLanguage: 'ja',
         keywords: term.tags.join(', '),
+        ...(term.sources?.length ? { citation: term.sources } : {}),
         inDefinedTermSet: { '@type': 'DefinedTermSet', name: SITE_NAME, url: absoluteUrl('') },
       },
       {
@@ -140,6 +150,29 @@ export default function TermPage({ params }: { params: { slug: string } }) {
             </span>
           ))}
         </div>
+      )}
+
+      {term.sources && term.sources.length > 0 && (
+        <section className="rounded-lg border border-slate-200 p-4 text-sm dark:border-slate-700">
+          <h2 className="font-semibold text-slate-800 dark:text-slate-100">参考にした資料</h2>
+          <ul className="mt-2 flex flex-col gap-1.5">
+            {term.sources.map((u) => (
+              <li key={u}>
+                <a
+                  href={u}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="break-all text-primary-700 underline-offset-2 hover:underline dark:text-primary-300"
+                >
+                  {sourceLabel(u)}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+            リンク先が存在し、本文に用語名が書かれていることを自動で確認しています。内容の正しさを保証するものではありません。
+          </p>
+        </section>
       )}
 
       <RelatedTerms terms={related} />

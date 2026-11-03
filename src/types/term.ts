@@ -84,4 +84,4 @@ export const KANA_ROWS: { label: string; kana: string[] }[] = [
 export type TermSummary = Pick<
   Term,
   'slug' | 'title' | 'reading' | 'kana' | 'categories' | 'summary' | 'tags'
->
+> & { hasSources?: boolean }

@@ -28,6 +28,11 @@ export default function TermCard({ term }: { term: TermSummary }) {
             {CATEGORY_MAP[c].label}
           </span>
         ))}
+        {term.hasSources && (
+          <span className="rounded-full border border-emerald-300 px-2 py-0.5 text-[11px] font-medium text-emerald-700 dark:border-emerald-700 dark:text-emerald-300">
+            出典あり
+          </span>
+        )}
       </div>
     </Link>
   )
