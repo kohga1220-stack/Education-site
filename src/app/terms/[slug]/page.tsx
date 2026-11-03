@@ -7,6 +7,8 @@ import { CATEGORY_BADGE_CLASS } from '@/lib/categoryColors'
 import FavoriteButton from '@/components/FavoriteButton'
 import RelatedTerms from '@/components/RelatedTerms'
 import DiagramRenderer from '@/components/diagrams/DiagramRenderer'
+import JsonLd from '@/components/JsonLd'
+import { SITE_NAME, absoluteUrl } from '@/lib/site'
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }))
@@ -18,6 +20,15 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${term.title}（${term.reading}）とは | わかる！教育学用語`,
     description: term.summary,
+    alternates: { canonical: absoluteUrl(`terms/${term.slug}`) },
+    openGraph: {
+      title: `${term.title}（${term.reading}）とは`,
+      description: term.summary,
+      type: 'article',
+      url: absoluteUrl(`terms/${term.slug}`),
+      siteName: SITE_NAME,
+      locale: 'ja_JP',
+    },
   }
 }
 
@@ -50,8 +61,34 @@ export default function TermPage({ params }: { params: { slug: string } }) {
   const related = getRelatedTerms(term)
   const paragraphs = term.body.split('\n\n')
 
+  const url = absoluteUrl(`terms/${term.slug}`)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'DefinedTerm',
+        '@id': `${url}#term`,
+        name: term.title,
+        alternateName: term.reading,
+        description: term.summary,
+        url,
+        inLanguage: 'ja',
+        keywords: term.tags.join(', '),
+        inDefinedTermSet: { '@type': 'DefinedTermSet', name: SITE_NAME, url: absoluteUrl('') },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: '用語一覧', item: absoluteUrl('') },
+          { '@type': 'ListItem', position: 2, name: term.title, item: url },
+        ],
+      },
+    ],
+  }
+
   return (
     <article className="mx-auto flex max-w-2xl flex-col gap-6">
+      <JsonLd data={jsonLd} />
       <div>
         <nav className="mb-3 text-xs text-slate-400 dark:text-slate-500">
           <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400">
