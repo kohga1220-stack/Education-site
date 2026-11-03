@@ -6,6 +6,8 @@ import { CATEGORY_MAP } from '@/types/term'
 import { CATEGORY_BADGE_CLASS } from '@/lib/categoryColors'
 import FavoriteButton from '@/components/FavoriteButton'
 import RelatedTerms from '@/components/RelatedTerms'
+import Referrers from '@/components/Referrers'
+import { getLinker, getReferrers } from '@/lib/linker'
 import DiagramRenderer from '@/components/diagrams/DiagramRenderer'
 import JsonLd from '@/components/JsonLd'
 import { SITE_NAME, absoluteUrl } from '@/lib/site'
@@ -69,6 +71,9 @@ export default function TermPage({ params }: { params: { slug: string } }) {
 
   const related = getRelatedTerms(term)
   const paragraphs = term.body.split('\n\n')
+  const linker = getLinker()
+  const linked = new Set<string>() // 同じ用語へのリンクは本文全体で最初の1回だけ
+  const referrers = getReferrers(term)
 
   const url = absoluteUrl(`terms/${term.slug}`)
   const jsonLd = {
@@ -135,7 +140,21 @@ export default function TermPage({ params }: { params: { slug: string } }) {
 
       <div className="prose-body text-[15px] text-slate-700 dark:text-slate-300">
         {paragraphs.map((p, i) => (
-          <p key={i}>{p}</p>
+          <p key={i}>
+            {linker.link(p, term.slug, Math.max(0, 10 - linked.size), linked).map((seg, j) =>
+              seg.slug ? (
+                <Link
+                  key={j}
+                  href={`/terms/${seg.slug}`}
+                  className="text-primary-700 underline decoration-primary-300 underline-offset-2 hover:decoration-primary-600 dark:text-primary-300"
+                >
+                  {seg.text}
+                </Link>
+              ) : (
+                <span key={j}>{seg.text}</span>
+              ),
+            )}
+          </p>
         ))}
       </div>
 
@@ -176,6 +195,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       )}
 
       <RelatedTerms terms={related} />
+      <Referrers terms={referrers} />
     </article>
   )
 }
