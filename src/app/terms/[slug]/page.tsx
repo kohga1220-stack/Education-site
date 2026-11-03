@@ -124,6 +124,11 @@ export default function TermPage({ params }: { params: { slug: string } }) {
         </div>
 
         <div className="mt-3 flex flex-wrap gap-1.5">
+          {term.exam && (
+            <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-800 dark:bg-amber-900/40 dark:text-amber-200">
+              試験の基本語
+            </span>
+          )}
           {term.categories.map((c) => (
             <Link key={c} href={`/categories/${c}`} className={`category-badge ${CATEGORY_BADGE_CLASS[c]}`}>
               {CATEGORY_MAP[c].label}

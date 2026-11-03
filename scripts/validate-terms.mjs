@@ -93,6 +93,8 @@ for (const t of terms) {
   for (const tag of t.tags ?? []) if (!isStr(tag)) err(t, 'tags に空要素')
   if (new Set(t.relatedSlugs).size !== (t.relatedSlugs ?? []).length) err(t, 'relatedSlugs に重複')
 
+  if (t.exam !== undefined && t.exam !== true) err(t, 'exam は true のみ指定できます(基本語でない語には書かない)')
+
   // sources(出典URL)
   if (t.sources !== undefined) {
     if (!Array.isArray(t.sources) || t.sources.length === 0 || t.sources.length > 5) err(t, 'sources は1〜5件のURL配列にしてください')

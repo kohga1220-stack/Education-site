@@ -72,6 +72,8 @@ for (const f of files) {
       }
     }
     delete t.distinctFrom // サイトには保存しない
+    if (t.exam) notes.push(`${label}: exam(試験の基本語)は取り込み時には設定しません(Claude Code が管理)。候補は docs/PROJECT_STATE.md の申し送りへ`)
+    delete t.exam
     // 出典: http(s) のURLだけ受け付け、データに保存する(CIで到達と題名の記載を確認する)
     const urls = Array.isArray(t.sources) ? [...new Set(t.sources.filter((u) => typeof u === 'string' && /^https?:\/\//.test(u)))] : []
     if (urls.length === 0) notes.push(`${label}: sources(出典URL)がありません。裏取りに実際に開いたURLを1件以上記載してください`)

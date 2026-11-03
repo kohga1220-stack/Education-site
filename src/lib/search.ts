@@ -18,6 +18,8 @@ export interface IndexEntry {
   m: string // 要約
   g: string[] // タグ
   b: string // 本文
+  c?: string // 主分野のID
+  x?: 1 // 試験の基本語
 }
 
 export interface PreparedEntry {
