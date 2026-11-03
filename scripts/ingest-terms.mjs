@@ -72,6 +72,10 @@ for (const f of files) {
       }
     }
     delete t.distinctFrom // サイトには保存しない
+    // 出典: http(s) のURLだけ受け付け、データに保存する(CIで到達と題名の記載を確認する)
+    const urls = Array.isArray(t.sources) ? [...new Set(t.sources.filter((u) => typeof u === 'string' && /^https?:\/\//.test(u)))] : []
+    if (urls.length === 0) notes.push(`${label}: sources(出典URL)がありません。裏取りに実際に開いたURLを1件以上記載してください`)
+    t.sources = urls.slice(0, 5)
     const kana = computeKana(t.title, t.reading)
     if (t.kana && t.kana !== kana) notes.push(`${label}: kana "${t.kana}" → "${kana}" に自動補正`)
     t.kana = kana

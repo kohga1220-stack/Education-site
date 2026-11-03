@@ -41,6 +41,8 @@ export interface Term {
   canonicalSlug?: string
   diagram?: DiagramData
   tags: string[]
+  /** 裏取りに使った出典のURL。CIで到達と題名の記載を確認したものだけが入る */
+  sources?: string[]
 }
 
 export const CATEGORIES: Category[] = [
