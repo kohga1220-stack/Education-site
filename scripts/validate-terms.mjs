@@ -17,6 +17,7 @@ const bySlug = new Map()
 const byTitle = new Map()
 const byReading = new Map()
 const byCore = new Map()
+const sourceUse = new Map() // 出典URL -> 使っている用語
 
 const isStr = (v) => typeof v === 'string' && v.trim() !== ''
 const KANJI = /[㐀-䶿一-鿿豈-﫿]/u
@@ -92,6 +93,20 @@ for (const t of terms) {
   for (const tag of t.tags ?? []) if (!isStr(tag)) err(t, 'tags に空要素')
   if (new Set(t.relatedSlugs).size !== (t.relatedSlugs ?? []).length) err(t, 'relatedSlugs に重複')
 
+  // sources(出典URL)
+  if (t.sources !== undefined) {
+    if (!Array.isArray(t.sources) || t.sources.length === 0 || t.sources.length > 5) err(t, 'sources は1〜5件のURL配列にしてください')
+    else {
+      for (const u of t.sources) {
+        if (typeof u !== 'string' || !/^https?:\/\/[^\s]+$/.test(u)) err(t, `sources に不正なURL: ${u}`)
+        else {
+          sourceUse.set(u, [...(sourceUse.get(u) ?? []), t.slug])
+        }
+      }
+      if (new Set(t.sources).size !== t.sources.length) err(t, 'sources に重複')
+    }
+  }
+
   // diagram
   if (t.diagram) {
     const d = t.diagram
@@ -105,6 +120,14 @@ for (const t of terms) {
   for (const s of t.relatedSlugs ?? []) {
     if (s === t.slug) err(t, `relatedSlugs が自分自身: ${s}`)
     else if (!bySlug.has(s)) err(t, `relatedSlugs に存在しない slug: ${s}`)
+  }
+}
+
+// 同じ出典URLを多数の用語に使い回していないか(根拠として薄い)
+for (const [u, slugs] of sourceUse) {
+  if (slugs.length > 3) {
+    const t = terms.find((x) => x.slug === slugs[0])
+    warn(t, `同じ出典URLを${slugs.length}語で使用: ${u}(語ごとの根拠か確認)`)
   }
 }
 

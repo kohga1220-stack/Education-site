@@ -41,6 +41,8 @@ export interface Term {
   canonicalSlug?: string
   diagram?: DiagramData
   tags: string[]
+  /** 裏取りに使った出典のURL。CIで到達と題名の記載を確認したものだけが入る */
+  sources?: string[]
 }
 
 export const CATEGORIES: Category[] = [
@@ -82,4 +84,4 @@ export const KANA_ROWS: { label: string; kana: string[] }[] = [
 export type TermSummary = Pick<
   Term,
   'slug' | 'title' | 'reading' | 'kana' | 'categories' | 'summary' | 'tags'
->
+> & { hasSources?: boolean }
