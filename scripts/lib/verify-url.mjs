@@ -4,7 +4,8 @@ import { titleCore } from './terms-io.mjs'
 
 const UA = 'Mozilla/5.0 (compatible; EducationSiteSourceCheck/1.0; +https://github.com/kohga1220-stack/Education-site)'
 
-const norm = (s) => s.normalize('NFKC').replace(/[\s・･、。]/g, '').toLowerCase()
+// 長音「ー」も除く(titleCore が題名から長音を除くため、本文側も揃えないと「ポートフォリオ評価」などが一致しない)
+const norm = (s) => s.normalize('NFKC').replace(/[\s・･、。ー]/g, '').toLowerCase()
 
 /** 用語から「本文に書かれているはずの語」を取り出す(題名、括弧書きの別名) */
 export function keywordsFor(term) {
