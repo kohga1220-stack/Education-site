@@ -31,3 +31,24 @@ Antigravity はここに JSON を置き、`npm run ingest` で `src/data/terms/*
 ```
 
 コマンド: `npm run ingest -- --dry-run`(確認のみ) / `npm run ingest -- --keep`(取り込み後も JSON を残す)
+
+## 既存語に出典だけを追加する(`sources-*.json`)
+
+既存の用語には `sources` がありません。次の形のファイルを `data-inbox/sources-<内容>.json` として置き、`npm run attach-sources` で追加します(新規用語の `ingest` とは別のコマンド)。
+
+```json
+[
+  {
+    "slug": "zpd",
+    "sources": ["https://…"],
+    "note": "出典の「第○章」に、最近接領域の定義と提唱者が書かれていた(10字以上)"
+  }
+]
+```
+
+- 変更されるのは、該当語に `sources:` 行が1行加わることだけです。題名・本文などは変わりません。
+- 既に `sources` がある語、存在しない slug、不正な URL、`note` が10字未満の項目は却下されます(`note` はサイトには保存されず、PR の確認用)。
+- **語ごとに、実際に開いて、その語の内容が書かれていたURLだけ**を入れます。同じ URL を無関係な語に使い回さない(`npm run validate` が4語以上での使い回しを警告します)。本文が確認できない語には付けません。
+- 優先順: まず試験の基本語(`exam: true`)、次に法令・制度・数値を含む語。1PR あたり20〜30語まで。
+- コマンド: `npm run attach-sources -- --dry-run` / `npm run attach-sources -- --keep`。PR の CI(`Verify sources`)が URL の到達と題名の記載を確認します。
+- 出典のない試験の基本語を一覧する: `node -e "import('./scripts/lib/terms-io.mjs').then(m=>m.loadAllTerms().filter(t=>t.exam&&!t.sources).forEach(t=>console.log(t.slug,t.title)))"`

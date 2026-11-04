@@ -70,6 +70,7 @@
 npm install            # 初回(package-lock.json は生成されても commit しない)
 npm run validate       # 用語データの検証(重複・参照切れ・字種・kana 等)
 npm run ingest         # data-inbox/*.json を src/data/terms/*.ts へ取り込む(--dry-run 可)
+npm run attach-sources # data-inbox/sources-*.json の出典を既存語へ追加する(--dry-run 可)
 npx tsc --noEmit       # 型チェック
 npm run build          # 静的書き出し(out/)
 ```
