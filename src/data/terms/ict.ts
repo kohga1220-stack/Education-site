@@ -14,6 +14,7 @@ export const ictTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["一人一台端末", "文部科学省"],
+    sources: ["https://www.mext.go.jp/a_menu/other/index_0001111.htm"],
   },
   {
     slug: "edtech",
@@ -41,6 +42,7 @@ export const ictTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["プログラミング的思考", "情報I"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1375607.htm"],
   },
   {
     slug: "digital-citizenship",
@@ -77,6 +79,7 @@ export const ictTerms: Term[] = [
       ],
     },
     tags: ["学習指導要領", "学力の三要素"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/1383986.htm"],
   },
   {
     slug: "steam-education",
@@ -398,6 +401,7 @@ export const ictTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["情報モラル", "学習指導要領", "情報活用能力"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369617.htm"],
   },
   {
     slug: "net-izon",

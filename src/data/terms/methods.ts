@@ -175,6 +175,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学習指導要領", "授業改善の視点"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/1384661.htm"],
   },
   {
     slug: "jigsaw-method",

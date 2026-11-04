@@ -43,6 +43,7 @@ export const specialTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["個別の指導計画", "関係機関連携"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/tokubetu/material/1340250_00005.htm"],
   },
   {
     slug: "ld",
@@ -109,6 +110,7 @@ export const specialTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["自立活動", "多様な学びの場"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/tokubetu/material/1373341.htm"],
   },
   {
     slug: "tokubetsu-shien-coordinator",
@@ -358,6 +360,7 @@ export const specialTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["指導目標", "評価", "短期計画"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/tokubetu/001.htm"],
   },
   {
     slug: "hattatsu-shogaisha-shien-ho",

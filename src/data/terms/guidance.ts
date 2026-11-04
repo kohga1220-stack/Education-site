@@ -40,6 +40,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["臨床心理士", "公認心理師"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/seitoshidou/1302910.htm"],
   },
   {
     slug: "school-social-worker",
@@ -54,6 +55,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["社会福祉士", "家庭環境への支援"],
+    sources: ["https://www.mext.go.jp/b_menu/hakusho/nc/mext_00034.html"],
   },
   {
     slug: "ijime-boshi",
@@ -68,6 +70,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["大津市いじめ自殺事件", "重大事態"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/seitoshidou/1406848.htm"],
   },
   {
     slug: "jiko-shido-noryoku",
@@ -108,6 +111,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["キャリア発達", "職業体験"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/career/index.htm"],
   },
   {
     slug: "tokubetsu-katsudo",
@@ -201,6 +205,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["家族介護", "こどもの権利", "早期発見"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387008_00003.htm"],
   },
   {
     slug: "kiritsusei-chosetsu-shogai",
@@ -241,6 +246,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["文部科学省", "教職員向け基本書", "2022年改訂"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/seitoshidou/1302912.htm"],
   },
   {
     slug: "ijime-judai-jitai",
@@ -268,6 +274,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学校教育法", "懲戒権", "体罰禁止"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/seitoshidou/1331908.htm"],
   },
   {
     slug: "shusseki-teishi",
