@@ -861,16 +861,16 @@ export const earlyChildhoodTerms: Term[] = [
   },
   {
     slug: "starting-strong-oecd",
-    title: "OECDのスターティング・ストロング（Starting Strong）",
+    title: "スターティング・ストロング（OECD）",
     reading: "すたーてぃんぐすとろんぐ",
-    kana: "A–Z",
+    kana: "す",
     categories: ["early-childhood", "comparative"],
     summary:
       "OECDが幼児教育・保育（ECEC）の政策を国際比較して公表している報告書シリーズ。2001年の第1巻を皮切りに、質の向上や職員の養成・処遇などを論じてきた。",
     body: "「スターティング・ストロング」は、OECDが幼児教育・保育（ECEC）の政策を各国比較して刊行している報告書のシリーズです。2001年の第1巻は20か国の幼児教育・保育を比較し、2006年の第2巻でも、すべての子どもに包括的なサービスを提供する考え方が示されました。幼児期への公的投資の重要性を国際的に訴える流れをつくった報告書として知られます。\n\n日本に関しては、OECDの「幼児教育・保育の質を高める」プロジェクトの一環として、日本を対象とした国別の政策プロファイル（Quality Matters in ECEC: Japan、2012年）がまとめられ、資格、研修、労働条件の改善が検討されました。また、保育者を対象にした国際調査（TALIS Starting Strong）や、不平等を減らすための幼児教育・保育への投資を扱った2025年の報告書にも、日本は参加国として関わっています。\n\nこのシリーズは、幼児教育・保育の質、職員の専門性と処遇、子どもの発達とウェルビーイングといった論点を国際比較の視点で整理しています。日本の議論でも、幼児教育の無償化や保育の質の確保、処遇改善を考える際の参照枠として用いられます。",
     relatedSlugs: ["oecd-education", "head-start-program", "te-whariki", "heckman-youji-kyoiku-toshi"],
     isCanonical: true,
-    tags: ["OECD", "国際比較", "幼児教育政策"],
+    tags: ["OECD", "国際比較", "幼児教育政策", "Starting Strong"],
   },
   {
     slug: "seiriteki-souzan",
