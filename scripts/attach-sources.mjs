@@ -4,7 +4,8 @@
 // 入力: data-inbox/sources-*.json(用語の配列ではなく、次の形のオブジェクトの配列)
 //   [{ "slug": "zpd", "sources": ["https://…"], "note": "出典のどこに何が書いてあったか(10字以上)" }]
 // 変更するのは該当用語の `sources:` 行の追加だけ(題名・本文など他の項目は変わらない)。
-// 既に sources がある語・存在しない slug・不正な URL は却下する。`note` はサイトには保存せず、PRで確認する。
+// 既に sources がある語は、項目に "replace": true を付けた場合だけ出典を差し替える(内容に合わない出典の見直し用)。
+// 存在しない slug・不正な URL・note 不足は却下する。`note` はサイトには保存せず、PRで確認する。
 import fs from 'node:fs'
 import path from 'node:path'
 import { spawnSync } from 'node:child_process'
@@ -50,7 +51,9 @@ for (const f of files) {
     const t = terms.get(raw?.slug)
     if (!t) return rej(`${label}: その slug の用語がありません`)
     if (claimed.has(t.slug)) return rej(`${label}: 同じ語が重複して指定されています`)
-    if (t.sources?.length) return rej(`${label}: 既に sources があります(差し替えは Claude Code に依頼)`)
+    const replace = raw.replace === true
+    if (t.sources?.length && !replace) return rej(`${label}: 既に sources があります(見直して差し替える場合は項目に "replace": true を付ける)`)
+    if (replace && !t.sources?.length) return rej(`${label}: replace は、既に sources がある語にだけ使えます`)
     if (typeof raw.note !== 'string' || raw.note.trim().length < 10) {
       return rej(`${label}: note(出典のどこに何が書いてあったか。10字以上)が必要です`)
     }
@@ -60,12 +63,12 @@ for (const f of files) {
     if (urls.length === 0) return rej(`${label}: sources に http(s) のURLを1件以上入れてください`)
     if (urls.length > 5) return rej(`${label}: sources は5件までです`)
     claimed.add(t.slug)
-    accepted.push({ slug: t.slug, title: t.title, sources: urls, file: t.__file, from: f })
+    accepted.push({ slug: t.slug, title: t.title, sources: urls, file: t.__file, from: f, replace })
   })
 }
 
 console.log(`出典を追加する語: ${accepted.length} / 却下: ${rejected.length}`)
-for (const a of accepted) console.log(`  + ${a.title} (${a.slug}) ← ${a.sources.length}件`)
+for (const a of accepted) console.log(`  ${a.replace ? '↻ 差し替え' : '+'} ${a.title} (${a.slug}) ← ${a.sources.length}件`)
 for (const r of rejected) console.log('  ✗ ' + r)
 
 if (dryRun || accepted.length === 0) {
@@ -89,8 +92,15 @@ for (const [cat, items] of Object.entries(byFile)) {
     while (end < lines.length && lines[end] !== '  },') end++
     const tagsAt = lines.findIndex((l, i) => i > start && i < end && /^    tags: \[.*\],$/.test(l))
     if (tagsAt < 0) { failed = `${cat}.ts: ${a.slug} の tags 行が見つかりません`; break }
-    if (lines.slice(start, end).some((l) => l.startsWith('    sources:'))) { failed = `${cat}.ts: ${a.slug} に既に sources があります`; break }
-    lines.splice(tagsAt + 1, 0, `    sources: [${a.sources.map(js).join(', ')}],`)
+    const srcAt = lines.findIndex((l, i) => i > start && i < end && l.startsWith('    sources:'))
+    const newLine = `    sources: [${a.sources.map(js).join(', ')}],`
+    if (a.replace) {
+      if (srcAt < 0) { failed = `${cat}.ts: ${a.slug} に差し替える sources 行がありません`; break }
+      lines[srcAt] = newLine
+    } else {
+      if (srcAt >= 0) { failed = `${cat}.ts: ${a.slug} に既に sources があります`; break }
+      lines.splice(tagsAt + 1, 0, newLine)
+    }
   }
   if (failed) break
   fs.writeFileSync(p, lines.join('\n'), 'utf8')
