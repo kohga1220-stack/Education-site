@@ -14,6 +14,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ブルーム", "指導改善"],
+    sources: ["https://kotobank.jp/word/%E5%BD%A2%E6%88%90%E7%9A%84%E8%A9%95%E4%BE%A1-170807"],
   },
   {
     slug: "sokkatsu-hyoka",
@@ -98,6 +99,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["目標に準拠した評価"],
+    sources: ["https://kotobank.jp/word/%E7%B5%B6%E5%AF%BE%E8%A9%95%E4%BE%A1-155088"],
   },
   {
     slug: "sotai-hyoka",
@@ -112,6 +114,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["集団に準拠した評価", "偏差値"],
+    sources: ["https://kotobank.jp/word/%E7%9B%B8%E5%AF%BE%E8%A9%95%E4%BE%A1-155073"],
   },
   {
     slug: "pisa",
@@ -580,6 +583,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["知能検査", "測定", "特別支援教育"],
+    sources: ["https://kotobank.jp/word/%E7%9F%A5%E8%83%BD%E6%8C%87%E6%95%B0-5749"],
   },
   {
     slug: "gakko-hyoka",
@@ -608,6 +612,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["到達度評価", "目標準拠評価", "絶対評価", "教育評価史"],
+    sources: ["https://kotobank.jp/word/%E5%88%B0%E9%81%94%E5%BA%A6%E8%A9%95%E4%BE%A1-170810"],
   },
   {
     slug: "kyoin-hyoka",
@@ -843,6 +848,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学習評価", "公簿", "学校教育法施行規則", "指導要録抄本", "指導要録", "進学引継ぎ"],
+    sources: ["https://kotobank.jp/word/%E6%8C%87%E5%B0%8E%E8%A6%81%E9%8C%B2-74456"],
   },
   {
     slug: "tsuchihyo",

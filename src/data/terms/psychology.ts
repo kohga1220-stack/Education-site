@@ -47,6 +47,7 @@ export const psychologyTerms: Term[] = [
       ],
     },
     tags: ["ヴィゴツキー", "ZPD", "社会文化的理論"],
+    sources: ["https://kotobank.jp/word/%E7%99%BA%E9%81%94%E3%81%AE%E6%9C%80%E8%BF%91%E6%8E%A5%E9%A0%98%E5%9F%9F-1392970"],
   },
   {
     slug: "scaffolding",
@@ -75,6 +76,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["自己決定理論", "自律性", "有能感"],
+    sources: ["https://kotobank.jp/word/%E5%86%85%E7%99%BA%E7%9A%84%E5%8B%95%E6%A9%9F%E3%81%A5%E3%81%91-178824"],
   },
   {
     slug: "gaihatsu-doki",
@@ -89,6 +91,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["アンダーマイニング効果", "報酬"],
+    sources: ["https://kotobank.jp/word/%E5%A4%96%E7%99%BA%E7%9A%84%E5%8B%95%E6%A9%9F%E3%81%A5%E3%81%91-178732"],
   },
   {
     slug: "jiko-kouryokukan",
@@ -117,6 +120,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["セリグマン", "無気力"],
+    sources: ["https://kotobank.jp/word/%E5%AD%A6%E7%BF%92%E6%80%A7%E7%84%A1%E5%8A%9B%E6%84%9F-666845"],
   },
   {
     slug: "metacognition",
@@ -365,6 +369,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["パブロフ", "レスポンデント条件づけ", "行動主義"],
+    sources: ["https://kotobank.jp/word/%E5%8F%A4%E5%85%B8%E7%9A%84%E6%9D%A1%E4%BB%B6%E3%81%A5%E3%81%91-3180741"],
   },
   {
     slug: "cognitive-load-theory",
@@ -916,6 +921,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["発達課題", "生涯発達", "教育可能期"],
+    sources: ["https://kotobank.jp/word/%E7%99%BA%E9%81%94%E8%AA%B2%E9%A1%8C-155084"],
   },
   {
     slug: "kohler-insight-learning",

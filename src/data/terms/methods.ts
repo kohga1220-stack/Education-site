@@ -147,6 +147,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["探究的な学習", "教科横断"],
+    sources: ["https://kotobank.jp/word/%E7%B7%8F%E5%90%88%E7%9A%84%E3%81%AA%E5%AD%A6%E7%BF%92%E3%81%AE%E6%99%82%E9%96%93-182781"],
   },
   {
     slug: "tankyu-gakushu",
@@ -215,6 +216,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ブルーム", "キャロル", "形成的評価"],
+    sources: ["https://kotobank.jp/word/%E5%AE%8C%E5%85%A8%E7%BF%92%E5%BE%97%E5%AD%A6%E7%BF%92-178737"],
   },
   {
     slug: "programmed-instruction",
