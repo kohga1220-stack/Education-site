@@ -1236,7 +1236,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ハロー効果", "評定誤差", "評価統制", "客観性"],
-    sources: ["https://www.jstage.jst.go.jp/article/jasmin/202011/0/202011_89/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jsaialst/106/0/106_31/_article/-char/ja"],
   },
   {
     slug: "leniency-bias-assessment-control",
