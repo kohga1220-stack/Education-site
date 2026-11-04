@@ -7,7 +7,7 @@ import { Linker } from '../src/lib/autolink.ts'
 
 const apply = process.argv.includes('--apply')
 const listRest = process.argv.includes('--list') // 提案しても残る孤立語を一覧表示する
-const MAX_RELATED = 8 // 1語の関連リンクはこの件数まで
+const MAX_RELATED = 10 // 1語の関連リンクはこの件数まで
 const MIN_SCORE = 4 // 提案に必要な最低得点
 const PER_ORPHAN = 2 // 孤立語1語につき追加する参照元の数
 

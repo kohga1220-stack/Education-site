@@ -50,7 +50,7 @@ export const moralTerms: Term[] = [
     summary:
       "持続可能な開発のための教育（Education for Sustainable Development）の略称。環境・貧困・人権など地球規模の課題を「自分事」として捉える力を育てる。",
     body: "ESD（Education for Sustainable Development、持続可能な開発のための教育）とは、気候変動、貧困、人権、生物多様性の喪失といった地球規模の課題を、自分や地域の暮らしと関わる「自分事」として捉え、その解決に向けて行動する力を育てる教育のことです。ユネスコが国際的に推進してきました。\n\nESDでは、単に環境問題などの知識を学ぶだけでなく、多様な人々と協力する力、多面的・総合的に考える力、将来を予測して計画を立てる力といった、持続可能な社会の担い手として必要な資質・能力を横断的に育てることが重視されます。\n\n国連が定めた「持続可能な開発目標（SDGs）」の考え方とも密接に関連しており、日本の学習指導要領の前文でも「持続可能な社会の創り手」を育てることが教育の目標として明記されています。総合的な学習の時間や、各教科の中での探究的な取り組みを通じて実践されることが多くあります。",
-    relatedSlugs: ["tankyu-gakushu", "citizenship-education", "biodiversity-coexistence-nature-ethics"],
+    relatedSlugs: ["tankyu-gakushu", "citizenship-education", "biodiversity-coexistence-nature-ethics", "frugality-valuing-goods-moderation"],
     isCanonical: true,
     tags: ["SDGs", "ユネスコ", "持続可能な社会"],
   },
@@ -554,7 +554,7 @@ export const moralTerms: Term[] = [
     summary:
       "特別の教科 道徳において、数値評定を行わず子どもの学習状況や成長の様子を文章で記述して伝えていく評価の方式のことをいう。",
     body: "道徳科の記述式評価とは、2015年に教科化された「特別の教科 道徳」において採用されている、数値による評定を行わず、子ども一人ひとりの学習状況や成長の様子を教員が文章で記述して伝える評価の方式です。他教科のような到達度の測定ではなく、個人内評価として位置づけられています。\n\n評価にあたっては、道徳的価値の理解を自分自身との関わりの中で深めているか、多面的・多角的な見方へと発展させているかといった観点から、一時間の授業だけでなく、単元や学期を通じた学びの過程における児童生徒の変化や成長を見取ることが求められます。他の子どもとの比較や、内容項目ごとの到達度による評定は行わないとされています。\n\n評価者である教員には、発言やノートの記述、行動観察などの多様な情報をもとに、子どものよい点や進歩の様子を積極的に受け止め、励ましとして機能する記述を行うことが求められており、指導と評価の一体化という考え方とも結びついています。",
-    relatedSlugs: ["tokubetsu-dotoku", "kojinnai-hyoka", "shindan-hyoka", "worksheet-design-moral-thinking-externalization", "reflection-sheet-self-evaluation-moral-growth", "comment-only-marking-learning-gains"],
+    relatedSlugs: ["tokubetsu-dotoku", "kojinnai-hyoka", "shindan-hyoka", "worksheet-design-moral-thinking-externalization", "reflection-sheet-self-evaluation-moral-growth", "comment-only-marking-learning-gains", "parent-child-dialogue-sheet-moral"],
     isCanonical: true,
     tags: ["個人内評価", "文章評価", "指導要録"],
   },
@@ -632,7 +632,7 @@ export const moralTerms: Term[] = [
     summary:
       "文部科学省が2014年に「心のノート」を全面改訂して作成した道徳教育教材。小学校低学年・中学年・高学年・中学校の4種があり、全国の児童生徒に無償配布された。2018年度の教科書使用開始まで用いられた。",
     body: "「私たちの道徳」は、文部科学省が2014年（平成26年）度から全国の小・中学校に無償配布した道徳教育用教材である。2002年から使用されていた「心のノート」を全面的に改訂したもので、児童生徒がみずから道徳的価値について考え、書き込み、家庭に持ち帰って話し合いに活用できるよう構成が工夫された。小学校低学年用、中学年用、高学年用、中学校用の4種類が作成され、約1000万人分が国費により無償で配布された。\n\n内容面では、生命の尊さ、思いやりや感謝、規範意識、郷土や国を愛する態度などの道徳的価値について、偉人の逸話や名言、体験活動の振り返り欄、ワークシート的な記入欄などを組み合わせて構成されている。文部科学省はあわせて「私たちの道徳」活用のための指導資料を作成し、教師が授業や学級活動、家庭学習でどのように活用できるかの指導例を示した。\n\n「私たちの道徳」は、道徳の時間が「特別の教科 道徳」として教科化される前の過渡的な教材として位置付けられ、2018年度（中学校は2019年度）から検定教科書の使用が義務付けられたことに伴い、教科書を補完する副教材としての役割に移行した。教科化前の道徳教育の充実を図る取組として、心のノートからの発展の経緯とともに、日本の戦後道徳教育史における重要な教材の一つに数えられる。",
-    relatedSlugs: ["kokoro-no-note", "tokubetsu-dotoku", "kangae-giron-dotoku", "yomimono-kyozai", "dotoka-kyokasho", "ancestors-aspiration-local-development"],
+    relatedSlugs: ["kokoro-no-note", "tokubetsu-dotoku", "kangae-giron-dotoku", "yomimono-kyozai", "dotoka-kyokasho", "ancestors-aspiration-local-development", "parent-child-dialogue-sheet-moral", "frugality-valuing-goods-moderation"],
     isCanonical: true,
     tags: ["私たちの道徳", "心のノート", "道徳教材"],
   },
@@ -788,7 +788,7 @@ export const moralTerms: Term[] = [
     summary:
       "道徳科の内容項目Cの一つで、郷土や我が国の伝統と文化を大切にし、それらを育んできた先人や社会に誇りを持つ態度を育てることを目的とする。戦前の愛国教育との連続性が論点となりやすい内容項目。",
     body: "「郷土や国を愛する態度」は、道徳科の内容項目における視点C「主として集団や社会との関わりに関すること」に位置付けられる内容項目であり、郷土や我が国の伝統と文化を理解し、それらを育んできた先人の努力に思いを馳せながら、郷土や国を愛する心情や態度を育てることを目標とする。学習指導要領解説では、これを排他的なナショナリズムではなく、自国の伝統や文化を理解した上で、他国の文化も尊重する国際理解や国際親善の態度と一体のものとして育むべきことが明記されている。\n\n教育基本法の2006年改正において「伝統と文化を尊重し、それらをはぐくんできた我が国と郷土を愛する」態度が教育の目標として新たに明記されたことを受け、道徳の内容項目にもこの観点が明確に位置付けられるようになった経緯がある。指導にあたっては、郷土の偉人や伝統行事、地域の自然や文化財などを教材として取り上げ、身近な郷土への愛着を土台に、次第に国全体への理解と愛情へと視野を広げていく展開がとられることが多い。\n\nこの内容項目は、戦前の教育勅語体制下における「忠君愛国」の徳目との連続性がしばしば論点となり、愛国心を評価の対象とすることの是非や、多様なルーツを持つ児童生徒への配慮のあり方などをめぐって、教育現場や研究者の間で議論が続いている。単一の国家観を押し付けるのではなく、多面的・多角的に自国と他国の文化を考察させる授業づくりが、この内容項目の指導における重要な課題とされている。",
-    relatedSlugs: ["kyoiku-kihon-ho", "naiyo-komoku", "kihan-ishiki", "tabunka-kyosei-kyoiku", "local-heritage-materials-moral-education", "ancestors-aspiration-local-development", "traditional-martial-arts-etiquette-spirit"],
+    relatedSlugs: ["kyoiku-kihon-ho", "naiyo-komoku", "kihan-ishiki", "tabunka-kyosei-kyoiku", "local-heritage-materials-moral-education", "ancestors-aspiration-local-development", "traditional-martial-arts-etiquette-spirit", "national-sovereignty-global-citizenship"],
     isCanonical: true,
     tags: ["郷土愛", "愛国心", "内容項目"],
   },
@@ -957,7 +957,7 @@ export const moralTerms: Term[] = [
     summary:
       "2016年の専門家会議報告で例示された、自我関与、問題解決的な学習、道徳的行為に関する体験的な学習の三つを中心とする、道徳科の指導方法。",
     body: "道徳科の指導方法については、2016年に文部科学省の専門家会議が取りまとめた報告『「特別の教科 道徳」の指導方法・評価等について』で、「質の高い多様な指導方法」として三つの例が示されました。第一に、読み物教材の登場人物への自我関与が中心の学習で、登場人物の判断や心情を自分との関わりで深く捉えさせるものです。第二に、問題解決的な学習で、道徳的な問題や課題を主体的に考え、解決の方法を探る学習です。第三に、道徳的行為に関する体験的な学習で、役割演技などの疑似体験を通して、道徳的行為の難しさや大切さを実感させるものです。\n\nこれらは、特定の授業の「型」として示されたものではなく、あくまで多様な指導方法の例であり、指導方法はこれらに限定されません。教師が学校や児童生徒の実態、教材の特質に応じて選択し、必要に応じて組み合わせることが想定されています。実際には、自我関与型と問題解決型は別個のものとして扱われ、現場で混乱が生じているという指摘もあります。\n\n報告では、避けるべき指導として、主題やねらいの設定が不十分なまま単に生活経験を話し合うだけの授業や、登場人物の心情理解に終始する指導、望ましい結論を言わせるだけの指導が挙げられています。これは「考え、議論する道徳」への転換の方針と対応しており、モラルジレンマ授業や役割演技、価値の明確化といった既存の手法を、目標に照らして活用する観点が重視されています。",
-    relatedSlugs: ["kangae-giron-dotoku", "moral-dilemma", "role-playing", "mondai-kaiketsu", "introduction-phase-moral-lesson-design", "worksheet-design-moral-thinking-externalization", "self-examination-moral-learning-activity", "ict-utilization-moral-lessons-opinion-sharing"],
+    relatedSlugs: ["kangae-giron-dotoku", "moral-dilemma", "role-playing", "mondai-kaiketsu", "introduction-phase-moral-lesson-design", "worksheet-design-moral-thinking-externalization", "self-examination-moral-learning-activity", "ict-utilization-moral-lessons-opinion-sharing", "universal-design-moral-instruction"],
     isCanonical: true,
     tags: ["道徳科", "指導方法", "問題解決的な学習"],
   },
@@ -1137,13 +1137,13 @@ export const moralTerms: Term[] = [
     title: "役割演技（道徳科）",
     reading: "やくわりえんぎ",
     kana: "や",
-    categories: ["moral"],
+    categories: ["moral", "methods"],
     summary:
       "登場人物の役割を即興的に演じ分けることで、他者の心情や置かれた状況を追体験し、自己の言動や人間関係を見つめ直す体験的指導法。",
     body: "役割演技は、モレノの心理劇の理論を道徳教育に応用した体験的な学習方法である。教科書の文章を読むだけでは捉えにくい他者の苦悩や本音を、身体と言葉を用いた即興の対話によって表現することにより、実感を伴う道徳的理解を深める目的で発展した。\n\n授業では、登場人物が対立したり決断を迫られたりする場面を選定し、児童生徒にその役を演じさせる。演じる側は相手の立場に立つ難しさを体感し、観察する側も自分ならどう行動するかを想像しながら、双方の視点から人間関係のあり方を吟味する。\n\n言語活動だけでは表面的な理解にとどまりがちな児童生徒に対して、他者への共感的な理解を促す大きな効果を持つ。自己中心的な思考から脱却し、多様な立場の人々と誠実に関わり合おうとする道徳的実践力を育成する手段として重要である。",
-    relatedSlugs: ["moral-skill-training", "moral-imagination", "dotoka-shido-hoho", "kangae-giron-dotoku", "role-play-deepening-moral-education"],
+    relatedSlugs: ["moral-skill-training", "moral-imagination", "dotoka-shido-hoho", "kangae-giron-dotoku", "role-playing", "shudai-taiwa-fukai", "case-method", "thinking-tools"],
     isCanonical: true,
-    tags: ["役割演技", "ロールプレイング", "追体験", "共感的理解"],
+    tags: ["役割演技", "ロールプレイング", "追体験", "共感的理解", "道徳教育", "心情理解", "道徳的葛藤"],
   },
   {
     slug: "dramatization-action-moral-character-empathy",

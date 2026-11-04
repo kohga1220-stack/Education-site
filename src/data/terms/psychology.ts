@@ -1046,14 +1046,14 @@ export const psychologyTerms: Term[] = [
     title: "ソシオメトリー（モレノ）",
     reading: "そしおめとりー（もれの）",
     kana: "そ",
-    categories: ["psychology", "guidance"],
+    categories: ["psychology", "guidance", "evaluation"],
     summary:
       "モレノが創始した、集団内の選択・排斥の関係を測定して人間関係の構造を明らかにする方法。学級の人間関係の把握に活用されてきた。",
     body: "ソシオメトリーは、ヤコブ・L・モレノ（1889〜1974）が創始した、集団内の人間関係を量的・図式的に把握する理論と方法です。メンバーに「誰と一緒に活動したいか」「誰とは一緒になりたくないか」といった質問に答えてもらい、牽引（好意）と反発（拒否）の関係を調べます。モレノは1934年の著書『Who Shall Survive?』で、この方法を体系的に示しました。\n\n結果は「ソシオグラム」という図に描かれ、誰が多くの選択を受けているか（人気者）、選ばれない孤立した子どもはいるか、相互に選び合う小グループがあるかなどが見えるようになります。モレノの研究では学級の座席の希望などが題材にされ、この図は社会ネットワーク分析の先駆けとも評価されています。日本の学校でも、学級経営の診断や班編成の資料として、ソシオメトリック・テストが長く用いられてきました。\n\nただし、実施には慎重な配慮が必要です。拒否を尋ねる質問は、子どもに「嫌いな子」を意識させ、関係を傷つけるおそれがあります。結果の取扱いは教師が秘密を厳守し、孤立している子どもの支援や、グループ編成の見直しなど、子どもの利益になる目的に限って用いることが原則です。人間関係を固定的に評価するのではなく、学級の関係づくりを見直す手がかりとして活用します。",
-    relatedSlugs: ["lewin-group-dynamics", "peer-culture-gakko", "peer-support", "seinenki-yujin-shudan", "sociometry-interpersonal-measurement-group", "sociometric-status-peer-nomination", "guess-who-peer-assessment-technique"],
+    relatedSlugs: ["lewin-group-dynamics", "peer-culture-gakko", "peer-support", "seinenki-yujin-shudan", "sociometric-status-peer-nomination", "guess-who-peer-assessment-technique", "peer-assessment", "kino-teki-assessment"],
     isCanonical: true,
     exam: true,
-    tags: ["集団", "学級経営", "人間関係の測定"],
+    tags: ["集団", "学級経営", "人間関係の測定", "ソシオメトリー", "ソシオグラム", "集団測定", "人間関係"],
   },
   {
     slug: "lewin-group-dynamics",

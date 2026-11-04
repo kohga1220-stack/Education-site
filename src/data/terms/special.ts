@@ -10,7 +10,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害の有無にかかわらず、すべての子どもができるだけ同じ場でともに学ぶことを目指す教育のあり方。国連の障害者権利条約が理念の背景にある。",
     body: "インクルーシブ教育とは、障害のある子どもと障害のない子どもが、可能な限り同じ場でともに学ぶことを追求しつつ、一人ひとりの教育的ニーズに応じた指導や支援を提供する教育のあり方を指します。国連の障害者権利条約が理念の重要な背景となっています。\n\n日本では、通常の学級、通級による指導、特別支援学級、特別支援学校という複数の学びの場を用意し、子どもの状態や本人・保護者の意向に応じて、柔軟に選択・変更できる「多様な学びの場」を整備する形で、インクルーシブ教育システムの構築が進められています。\n\nこの実現のために欠かせない考え方が「合理的配慮」です。障害のある子どもが他の子どもと平等に教育を受けられるよう、個々の状況に応じた配慮を、負担が重すぎない範囲で行うことが学校に求められています。",
-    relatedSlugs: ["goriteki-hairyo", "tsukyu", "ud-jugyo", "new-sports-inclusive-physical-education", "down-shokogun", "captioning-notetaking-support", "residence-school-exchange-dual-registration", "parent-mentor-family-support-network"],
+    relatedSlugs: ["goriteki-hairyo", "tsukyu", "ud-jugyo", "new-sports-inclusive-physical-education", "down-shokogun", "captioning-notetaking-support", "residence-school-exchange-dual-registration", "parent-mentor-family-support-network", "universal-design-moral-instruction", "special-needs-consideration-moral-class"],
     isCanonical: true,
     exam: true,
     tags: ["障害者権利条約", "多様な学びの場"],
@@ -24,7 +24,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある子どもが他の子どもと平等に教育を受けられるよう、個別の状況に応じて行われる、負担が過重にならない範囲での調整や変更。",
     body: "合理的配慮とは、障害のある人が障害のない人と平等に人権を享受し行使できるよう、個々の場面で必要とされる、負担が過重ではない範囲での必要かつ適切な変更・調整のことを指します。障害者権利条約や日本の障害者差別解消法に基づく考え方です。\n\n学校教育においては、例えば、聴覚に障害のある子どものために座席を前方に配置する、書字に困難のある子どものためにタブレット端末での入力を認める、聴覚過敏のある子どものために教室の音環境を調整するといった対応が、合理的配慮の具体例として挙げられます。\n\n重要なのは、配慮の内容が画一的なマニュアルで決まるのではなく、本人・保護者と学校が「建設的対話」を重ねながら、その子に合った配慮を個別に検討していく点です。決定された配慮の内容は、多くの場合「個別の教育支援計画」に記載され、引き継がれていきます。",
-    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tourette-shokogun", "captioning-notetaking-support", "hearing-aid-characteristics-environment", "roger-wireless-assistive-listening", "comuoon-dialogue-support", "spina-bifida-urinary-care-school"],
+    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tourette-shokogun", "captioning-notetaking-support", "hearing-aid-characteristics-environment", "roger-wireless-assistive-listening", "comuoon-dialogue-support", "spina-bifida-urinary-care-school", "special-needs-consideration-moral-class", "accommodations-regular-testing-special-needs"],
     isCanonical: true,
     exam: true,
     tags: ["障害者差別解消法", "建設的対話"],
@@ -79,7 +79,7 @@ export const specialTerms: Term[] = [
     summary:
       "対人的なコミュニケーションの困難さと、特定のものへのこだわりや感覚の偏りを特徴とする発達障害（ASD）。症状の現れ方は連続的（スペクトラム）で個人差が大きい。",
     body: "自閉スペクトラム症（Autism Spectrum Disorder、ASD）とは、対人関係や社会的コミュニケーションにおける困難さと、特定の物事への強いこだわりや、興味・活動の限定、感覚の過敏さ・鈍感さを特徴とする発達障害です。「スペクトラム（連続体）」という言葉が示す通り、特性の強さや現れ方には個人差が大きく、一人ひとり異なる特性のプロファイルを持ちます。\n\n以前は自閉症、アスペルガー症候群などと別々に分類されていた状態が、現在の診断基準では連続的な特性として一つの診断名にまとめられています。言葉の発達に遅れがない場合も多く、その場合、周囲から特性に気づかれにくいことがあります。\n\n教育現場では、予定の変更を事前に具体的に伝える、視覚的なスケジュール表を活用する、感覚過敏に配慮した環境（照明や音）を整えるといった、見通しを持たせ、安心感を高める支援が重視されます。",
-    relatedSlugs: ["adhd", "ud-jugyo", "neurodiversity", "gifted-2e", "power-card-strategy-special-interest", "incidental-teaching-naturalistic", "pivotal-response-treatment-prt", "social-skills-training-roleplay-feedback"],
+    relatedSlugs: ["adhd", "ud-jugyo", "neurodiversity", "gifted-2e", "power-card-strategy-special-interest", "incidental-teaching-naturalistic", "pivotal-response-treatment-prt", "social-skills-training-roleplay-feedback", "pathological-demand-avoidance-support"],
     isCanonical: true,
     tags: ["発達障害", "こだわり", "感覚過敏"],
   },
@@ -354,7 +354,7 @@ export const specialTerms: Term[] = [
     summary:
       "一人一人の子どもの実態に応じて、単元や学期ごとの具体的な指導目標・内容・方法・評価の観点を定める計画。長期的な個別の教育支援計画を踏まえ、学校が日々の授業に即して作成する。",
     body: "個別の指導計画とは、障害のある子ども一人一人の実態に応じて、学校が具体的な指導目標、指導内容・方法、評価の観点などを定める計画のことです。特別支援学校の学習指導要領において作成が義務付けられているほか、特別支援学級に在籍する子どもや、通級による指導を受ける子ども、通常の学級に在籍する障害のある子どもについても作成が求められるようになっています。\n\n乳幼児期から学校卒業後までを見通し、福祉・医療等の関係機関と連携しながら長期的に作成される「個別の教育支援計画」を踏まえつつ、より短期的（学期や単元単位など）で、日々の授業に直結する具体的な指導の設計図としての性格を持つ点が特徴です。教科ごと、あるいは自立活動の内容ごとに具体的な目標を設定し、定期的に見直しながら指導の改善に活用されます。\n\n担任教員が中心となって作成しますが、特別支援教育コーディネーターや巡回相談員の助言を受けたり、保護者と目標を共有し合意形成を図ったりしながら、実効性のある内容にしていくことが重要とされています。作成した計画は定期的に評価・見直しを行い、次の学期や年度の指導に生かしていくことが求められます。",
-    relatedSlugs: ["kobetsu-shien-keikaku", "jiritsu-katsudo", "chiteki-shogai-gakkyu", "suspected-developmental-delays-individual-plan", "kousei-nou-kinou-shogai", "down-shokogun", "dn-cas-pass", "frostig-developmental-test-visual-perception"],
+    relatedSlugs: ["kobetsu-shien-keikaku", "jiritsu-katsudo", "chiteki-shogai-gakkyu", "suspected-developmental-delays-individual-plan", "kousei-nou-kinou-shogai", "down-shokogun", "dn-cas-pass", "frostig-developmental-test-visual-perception", "accommodations-regular-testing-special-needs"],
     isCanonical: true,
     exam: true,
     tags: ["指導目標", "評価", "短期計画"],

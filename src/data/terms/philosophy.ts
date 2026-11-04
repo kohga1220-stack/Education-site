@@ -159,7 +159,7 @@ export const philosophyTerms: Term[] = [
     summary:
       "ドイツ観念論を確立した哲学者。ケーニヒスベルク大学で教育学の講義を行い、「人間は教育によってのみ人間になりうる」という言葉で知られる、自律的な道徳主体の形成を重視した教育思想を残した。",
     body: "イマヌエル・カント（1724-1804）はドイツ観念論を代表する哲学者で、『純粋理性批判』などの批判哲学の著作で広く知られていますが、ケーニヒスベルク大学では長年にわたり教育学の講義も担当していました。その講義内容は没後に弟子リンクによって『教育学』として編纂され、近代教育思想史における重要な文献の一つに数えられています。\n\nカントは「人間は教育されなければならない唯一の被造物である」と述べ、人間が理性的・道徳的な存在へと成長するためには、身の安全を守る養護（保育）、規律を身につけさせる訓練（しつけ）、知識を授ける陶冶（知育）、そして自ら善悪を判断する道徳的形成という一連の段階を経た教育が不可欠だと論じました。とりわけ、外的な命令にただ従うのではなく、自らの理性に基づいて行為を選び取る自律（オートノミー）を道徳教育の核心に据えた点が大きな特徴です。\n\nこの「自律的な道徳主体の形成」という理念は、後のヘルバルトをはじめとする近代教育学、さらには現代の人格形成論や道徳教育をめぐる議論にも大きな影響を与え続けています。",
-    relatedSlugs: ["locke", "jinkaku-keisei", "dotoku-jissen", "role-play-deepening-moral-education", "augustinus-confessiones", "thomas-aquinas-de-veritate", "descartes-discours-methode", "spinoza-ethica-freedom"],
+    relatedSlugs: ["locke", "jinkaku-keisei", "dotoku-jissen", "role-playing-moral-education-technique", "augustinus-confessiones", "thomas-aquinas-de-veritate", "descartes-discours-methode", "spinoza-ethica-freedom"],
     isCanonical: true,
     tags: ["ドイツ観念論", "自律", "道徳教育", "教育学講義"],
   },
@@ -1090,13 +1090,13 @@ export const philosophyTerms: Term[] = [
     title: "コンドルセの公教育論",
     reading: "こんどるせのこうきょういくろん",
     kana: "こ",
-    categories: ["philosophy", "system"],
+    categories: ["philosophy", "system", "history"],
     summary:
       "フランス革命期の思想家コンドルセが、1792年の報告と法案で示した公教育の構想です。無償・普遍・宗教や政治権力から自立した教育を理念とし、近代公教育の原型となりました。",
     body: "コンドルセ（1743〜1794）は、フランスの数学者・啓蒙思想家で、フランス革命期の政治家でもあります。1791年に立法議会の議員となり公教育委員会の議長を務めた彼は、国民教育制度の構想をまとめました。著作には『公教育に関する五つの覚書』（1791年）があります。\n\n1792年4月、公教育委員会の名で提出されたのが、『公教育の全般的組織に関する報告及び法案』（議会への提出は4月20〜21日とされます）です。ここでコンドルセは、男女を問わずすべての市民が、身体、知性、道徳の形成のために、あらゆる段階で無償の教育を受けられるべきだとしました。理性と道徳の結合を重んじ、教育が宗教や政治権力から独立した自律性を持つべきだという原則も示しました。公教育の根拠を、すべての人の平等と理性の進歩に置いたのです。\n\nこの法案は、政治情勢のために十分に審議されず、実施にも至りませんでした。しかしその後、ロベスピエールやラカナルらの提案へとつながり、近代公教育の理念的な原型として長く参照されてきました。教育の中立性、機会均等、公費による無償教育といった論点は、現代の教育制度を考える際にも重要な出発点となっています。",
     relatedSlugs: ["rousseau", "locke", "citizenship-education", "kant", "helvetius-environmentalism", "diderot-encyclopedie-education", "school-education-public-goods-revitalization", "elementary-education-act-1870"],
     isCanonical: true,
-    tags: ["フランス革命", "公教育", "啓蒙思想"],
+    tags: ["フランス革命", "公教育", "啓蒙思想", "公教育の自由", "機会均等", "ライシテ"],
   },
   {
     slug: "cicero-humanitas",

@@ -137,7 +137,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校の教育目標の実現に向けて、教育課程を編成・実施・評価・改善していく、学校全体としての組織的な取り組み。",
     body: "カリキュラム・マネジメントとは、学校が掲げる教育目標を実現するために、教育課程（カリキュラム）を編成し、実施し、評価し、その結果をもとに改善していくという一連のサイクルを、学校が組織全体として計画的・組織的に行っていく取り組みを指します。2017・2018年改訂の学習指導要領で強調された考え方です。\n\nその内容は大きく3つの側面から整理されます。第一に、各教科等の内容を教科横断的な視点で相互に関連づけて組み立てること。第二に、教育活動の実施状況を評価し、その結果をもとに教育課程を不断に見直す、PDCAサイクルを機能させること。第三に、地域の人材や施設といった外部の資源を、教育課程の実施に効果的に活用することです。\n\n個々の教員が良い授業を行うだけでなく、学校が組織としてカリキュラム全体を最適化していく発想であり、探究学習やプロジェクト型学習を教科横断的に展開する際の土台となる考え方です。",
-    relatedSlugs: ["gakushu-shido-yoryo", "pbl", "gakushu-tenni", "supplementary-learning-materials-guidelines", "teachers-staff-meeting-advisory-character", "school-improvement-data-informed-action", "estonia-digital-education-proge-tiiger", "hong-kong-hkdse-diploma-curriculum"],
+    relatedSlugs: ["gakushu-shido-yoryo", "pbl", "gakushu-tenni", "supplementary-learning-materials-guidelines", "teachers-staff-meeting-advisory-character", "school-improvement-data-informed-action", "estonia-digital-education-proge-tiiger", "hong-kong-hkdse-diploma-curriculum", "course-of-study-revision-2017-three-pillars"],
     isCanonical: true,
     exam: true,
     tags: ["教科横断", "PDCAサイクル"],
@@ -272,10 +272,10 @@ export const systemTerms: Term[] = [
     summary:
       "経済的理由により就学が困難な小中学生の保護者に対し、市町村が学用品費や給食費などを援助する制度。学校教育法第19条に根拠を持つ。",
     body: "就学援助制度とは、経済的な理由によって就学が困難と認められる学齢児童生徒の保護者に対し、市町村が必要な援助を行う制度です。学校教育法第19条には「経済的理由によって、就学困難と認められる学齢児童又は学齢生徒の保護者に対しては、市町村は、必要な援助を与えなければならない」と規定されており、これが制度の根拠となっています。\n\n対象者は、生活保護法上の要保護者である「要保護者」と、市町村教育委員会がそれに準ずる程度に困窮していると認める「準要保護者」に分けられます。援助の対象となる費目には、学用品費、通学用品費、新入学児童生徒学用品費等、修学旅行費、校外活動費、学校給食費などがあり、具体的な認定基準や支給額は市町村ごとに定められています。\n\nこの制度は、経済的な事情によって子どもの学習機会が損なわれないようにするための重要な社会保障的施策であり、教育の機会均等の理念を支える仕組みの一つとされています。近年は、利用対象となりうる世帯への制度周知や、オンライン申請の導入など運用面での改善も課題とされています。",
-    relatedSlugs: ["kyoiku-kikai-kinto", "gakko-kyoiku-ho", "koko-shugaku-shienkin-seido"],
+    relatedSlugs: ["kyoiku-kikai-kinto", "gakko-kyoiku-ho", "koko-shugaku-shienkin-seido", "gakko-kyushoku-ho", "chiiki-gakko-kyodo-katsudo", "school-attendance-aid-system-disparity", "material-deprivation-child-poverty-home"],
     isCanonical: true,
     exam: true,
-    tags: ["教育扶助", "学校教育法", "経済的支援"],
+    tags: ["教育扶助", "学校教育法", "経済的支援", "就学援助", "教育機会均等", "要保護児童生徒"],
     sources: ["https://kotobank.jp/word/%E5%B0%B1%E5%AD%A6%E6%8F%B4%E5%8A%A9%E5%88%B6%E5%BA%A6-526373"],
   },
   {
@@ -581,7 +581,7 @@ export const systemTerms: Term[] = [
     summary:
       "義務教育諸学校における学校給食の普及充実と食育の推進を定める法律です。",
     body: "学校給食法は1954年に制定された法律で、小学校・中学校などの義務教育諸学校における学校給食の実施に関し必要な事項を定めています。制定当初は国民の食生活改善への寄与が目的の中心でしたが、2008年の改正で「食に関する正しい理解と適切な判断力を養う」ことが加えられ、学校における食育の推進が明確に位置づけられました。\n\n学校給食は各学校の設置者が実施するものとされ、栄養バランスの取れた安全な給食の提供が求められています。2005年に創設された栄養教諭制度により、栄養士資格と教員免許を併せ持つ栄養教諭が各校に配置され、献立作成だけでなく給食を教材とした食に関する指導も担うようになりました。\n\n近年はアレルギー対応の徹底、地場産物を活用した食育の推進、給食費の無償化を進める自治体の増加など、学校給食をめぐる政策的関心が高まっています。物価上昇に伴う給食費負担のあり方も継続的な検討課題となっています。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "inochi-kyoiku", "hinkon-no-rensa", "gakko-kyushoku-no-rekishi", "gakko-kyoiku-ho-seitei", "senryo-ka-kyoiku-kaikaku", "school-lunch-sanitation-management-standards", "school-lunch-implementation-rates-food-education"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "inochi-kyoiku", "hinkon-no-rensa", "gakko-kyushoku-no-rekishi", "gakko-kyoiku-ho-seitei", "senryo-ka-kyoiku-kaikaku", "school-lunch-sanitation-management-standards", "school-lunch-implementation-rates-food-education", "school-lunch-foreign-object-allergy-emergency"],
     isCanonical: true,
     tags: ["学校給食", "食育", "栄養教諭", "学校給食法", "完全給食", "義務教育"],
   },
@@ -629,13 +629,13 @@ export const systemTerms: Term[] = [
     title: "JASSO貸与型奨学金",
     reading: "じゃっそたいよがたしょうがくきん",
     kana: "A–Z",
-    categories: ["system"],
+    categories: ["system", "higher-ed"],
     summary:
       "日本学生支援機構(JASSO)が実施する、卒業後に返還する奨学金制度。無利子の第一種と有利子の第二種があり、日本最大の学生向け経済支援策である。",
     body: "日本学生支援機構(JASSO)の貸与型奨学金は、大学・短期大学・高等専門学校・専修学校等に在学する学生を対象に、家計基準・学力基準等を満たす者へ月額を貸与し、卒業後一定期間内に本人が返還する制度である。無利子の第一種奨学金と、上限年3%の利子が付く第二種奨学金があり、家計状況が厳しい場合には両者を併用できる。返還方法には定額返還方式のほか、所得に応じて月々の返還額が変動する所得連動返還方式があり、経済的困難時には返還期限猶予や減額返還の制度も設けられている。\n\n制度の前身は1943年設立の大日本育英会にさかのぼり、2004年の独立行政法人化によりJASSOに引き継がれた。近年は延滞問題や「奨学金破産」への社会的関心の高まりを受け、所得連動返還方式の導入(2017年度採用者から)や、返還者への相談窓口拡充などの見直しが進められている。\n\n貸与型奨学金は返還義務を伴う点で、返還不要の給付型奨学金(JASSO給付奨学金)や、大学等修学支援制度の授業料等減免と性格が異なる。近年は給付型奨学金の対象拡大や多子世帯・私立理工農系学生への授業料等減免の拡充など、低所得世帯の進学機会確保に向けた施策が段階的に強化されている。",
-    relatedSlugs: ["jasso-kyufugata-shogakukin", "koto-kyoiku-shugaku-shien-shinseido", "shugaku-enjo-seido"],
+    relatedSlugs: ["jasso-kyufugata-shogakukin", "koto-kyoiku-shugaku-shien-shinseido", "shugaku-enjo-seido", "hakase-katei-gakusei-shien", "student-success-center-retention-support"],
     isCanonical: true,
-    tags: ["奨学金", "JASSO", "高等教育", "経済的支援"],
+    tags: ["奨学金", "JASSO", "高等教育", "経済的支援", "日本学生支援機構", "貸与型奨学金", "学費支援"],
   },
   {
     slug: "jasso-kyufugata-shogakukin",
@@ -681,13 +681,13 @@ export const systemTerms: Term[] = [
     title: "教育データ標準",
     reading: "きょういくでーたひょうじゅん",
     kana: "き",
-    categories: ["system"],
+    categories: ["system", "ict"],
     summary:
       "学習指導要領コードなど、学校で扱う教育データの共通仕様を文部科学省が定めたもの。教育データの利活用とシステム間連携を進める基盤となる。",
     body: "教育データ標準は、初等中等教育段階で扱う様々な教育データについて、システムや自治体間で共通して利用できるよう文部科学省が定めた規格である。2020年10月に第1版として、学習指導要領の内容の一つひとつにコードを割り振った「学習指導要領コード」を含む枠組みが示された。データは大きく、児童生徒・教職員等を識別する「主体情報」、学習内容に関する「内容情報」、学習や指導の記録である「活動情報」に分類される。\n\n背景には、GIGAスクール構想によって1人1台端末環境が整備される中、学習ログや成績等のデータが多様なシステムに分散し、相互に連携できない「サイロ化」の問題があった。学習指導要領コードを共通の「ものさし」とすることで、異なる教材・システム間でもデータを紐付けて分析・活用できるようにすることが狙いである。2022年1月にはデジタル庁・総務省・文部科学省・経済産業省が共同で「教育データ利活用ロードマップ」を策定し、教育データ標準の普及とあわせて教育DXの中長期的な方向性を示した。\n\n教育データ標準の整備は、校務支援システムと学習系システムの連携、学習eポータルを介したコンテンツ流通、学力調査結果の経年分析など幅広い場面での活用を想定している。一方で、児童生徒の個人情報保護やデータの取扱いに関するルール整備、自治体間の格差是正が引き続き課題となっている。",
-    relatedSlugs: ["kyoiku-dx", "learning-analytics", "gakushu-e-portal", "education-big-data"],
+    relatedSlugs: ["kyoiku-dx", "learning-analytics", "gakushu-e-portal", "education-big-data", "kyoiku-data-katsuyo-roadmap"],
     isCanonical: true,
-    tags: ["教育DX", "GIGAスクール", "データ標準", "文部科学省"],
+    tags: ["教育DX", "GIGAスクール", "データ標準", "文部科学省", "教育データ", "標準化", "コード体系"],
   },
   {
     slug: "koto-gakko-hyojunho",
@@ -798,14 +798,14 @@ export const systemTerms: Term[] = [
     title: "教員免許更新制の廃止",
     reading: "きょういんめんきょこうしんせいのはいし",
     kana: "き",
-    categories: ["system"],
+    categories: ["system", "history"],
     summary:
       "2009年に導入された、教員免許状に10年間の有効期限を設け更新講習を義務づける制度が、2022年7月に廃止され免許状は無期限化された。",
     body: "教員免許更新制は、教員として必要な資質能力の保持を目的に2009年(平成21年)4月から導入された制度で、教員免許状に10年間の有効期限を設け、有効期限満了前の2年間に大学等が開設する30時間以上の免許状更新講習を受講・修了することを更新の要件とした。更新を怠ると免許状は失効するため、現職教員に受講の負担が生じる一方、休職者・臨時的任用教員等への影響や講習の質・内容のばらつきなどが課題として指摘されてきた。\n\n2022年(令和4年)5月11日、「教育公務員特例法及び教育職員免許法の一部を改正する法律」が成立し、同年7月1日をもって教員免許更新制に関する規定は廃止された。施行日時点で有効な教員免許状は、以後有効期限のない免許状として扱われることとなり、更新講習の受講義務もなくなった。廃止の理由としては、社会の変化の速さに対して10年に一度という更新サイクルが実情に合わなくなったこと、オンライン研修の普及など教員研修を巡る環境が変化したことなどが挙げられている。\n\n更新制の廃止に伴い、文部科学省は教員の学びを継続的に支える新たな仕組みとして、研修受講履歴の記録・活用や、任命権者による資質向上に関する指導助言等の制度を整備し、「新たな教師の学びの姿」の実現を目指す施策を進めている。",
-    relatedSlugs: ["kyoin-menkyojo", "shoninsha-kenshu", "kyoiku-komuin-tokurei-ho"],
+    relatedSlugs: ["kyoin-menkyojo", "shoninsha-kenshu", "kyoiku-komuin-tokurei-ho", "shihan-gakko-seido", "kaiho-sei-kyoin-yosei", "kyoshoku-daigakuin", "kyoshoku-katei-core-curriculum"],
     isCanonical: true,
     exam: true,
-    tags: ["教員免許", "法制度", "教員研修", "2022年改正"],
+    tags: ["教員免許", "法制度", "教員研修", "2022年改正", "教員免許更新制", "教員養成", "教員免許法"],
   },
   {
     slug: "shukan-kyoyu-shido-kyoyu",
@@ -959,7 +959,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校保健安全法に基づき国が閣議決定で定める、学校安全の総合的な推進計画。おおむね5年ごとに策定され、現行は令和4年度から8年度の第3次計画である。",
     body: "「学校安全の推進に関する計画」は、学校保健安全法第3条第2項に基づき、国が学校安全の推進に関する施策の基本的な方向と具体的な方策を定める計画です。おおむね5年ごとに閣議決定され、第1次計画は平成24年度から28年度を期間としました。学校の安全を、生活安全・交通安全・災害安全の各領域にわたって総合的に進める点が特徴です。\n\n現行の第3次計画は、令和3（2021）年3月の諮問を受けた中央教育審議会が令和4（2022）年2月7日に答申をまとめ、同年3月25日に閣議決定されました。計画期間は令和4年度から令和8年度までの5年間で、学校が作成する計画やマニュアルに基づく取組の実効性、取組内容や意識の差などを課題として、防災教育における地域の災害リスクを踏まえた実践的な訓練など、5つの推進方策を示しています。地方公共団体は、国が講じる措置に準じた措置を講ずるよう努めることとされています。\n\n学校現場では、同法第27条に基づく「学校安全計画」（施設設備の安全点検、通学を含む安全指導、教職員研修など）の策定・実施が全ての学校に義務づけられ、第29条に基づく「危険等発生時対処要領（危機管理マニュアル）」の作成も求められます。国の計画はこれらの取組の指針として機能しており、第3次計画の期間が令和8年度までであることから、次期計画に向けた検討が進められる時期にあたります。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-saigai-kyosai-kyufu", "chukyo-shin", "gakko-anzen-sanryoiki", "japan-sport-council-mutual-aid-benefits", "school-evacuation-center-disaster-resilience", "school-safety-plan-disaster-crime-traffic"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-saigai-kyosai-kyufu", "chukyo-shin", "gakko-anzen-sanryoiki", "school-evacuation-center-disaster-resilience", "school-safety-plan-disaster-crime-traffic", "emergency-contact-app-safety-confirmation"],
     isCanonical: true,
     tags: ["学校安全", "防災教育", "閣議決定", "学校安全計画", "学校保健安全法", "安全管理"],
   },
@@ -1024,7 +1024,7 @@ export const systemTerms: Term[] = [
     summary:
       "大学の教職課程で共通に修得させる内容を、一般目標・到達目標として示した指針。2017年11月に作成され、課程認定の審査の基準としても用いられる。",
     body: "教職課程コアカリキュラムは、全国の大学が教職課程を編成する際に、教員養成の質を担保するため、共通に修得させるべき内容を示したものです。平成28（2016）年11月の教育職員免許法等の改正に続き、平成29（2017）年11月に作成され、あわせて教育職員免許法施行規則も改正されました。令和元（2019）年度からは、これに基づく新しい教職課程が各大学で始まりました。\n\nコアカリキュラムは、「教職の意義等に関する科目」「教育の基礎的理解に関する科目」「道徳、総合的な学習の時間等の指導法及び生徒指導、教育相談等に関する科目」といった科目区分ごとに、「全体目標」「一般目標」「到達目標」を定める形で構成されています。各大学は、これを踏まえつつ、独自の教育内容を加えて授業を設計します。文部科学省は、教職課程の審査・認定や実地視察でもコアカリキュラムを活用するとしており、大学の教員養成の質を点検する基準としての役割も持ちます。\n\nその後、省令改正や追加事項に関するコアカリキュラムの整備が行われ、ICTの活用に関する内容なども制度に位置づけられました。養成段階の学びの全国的な標準化を図る一方、大学の自主性・独自性との両立や、教員養成の実質的な質をどう保証するかが課題とされます。",
-    relatedSlugs: ["kyoin-menkyojo", "kyoshoku-daigakuin", "menkyo-koshinsei-haishi", "kyoin-ikusei-shihyo", "moral-education-methodology-teacher-training", "teacher-license-renewal-system-history"],
+    relatedSlugs: ["kyoin-menkyojo", "kyoshoku-daigakuin", "menkyo-koshinsei-haishi", "kyoin-ikusei-shihyo", "moral-education-methodology-teacher-training"],
     isCanonical: true,
     tags: ["教員養成", "教職課程", "課程認定"],
   },
@@ -1063,7 +1063,7 @@ export const systemTerms: Term[] = [
     summary:
       "地域と学校がパートナーとして共に子供たちを育てる活動。2017年の社会教育法改正で法律上に位置づけられ、地域学校協働活動推進員が置かれる。",
     body: "地域学校協働活動は、社会教育法に規定する活動であって、地域と学校がパートナーとして、共に子供たちを育てるために行うものを指します。平成27（2015）年の中央教育審議会答申で、従来の学校支援地域本部などの取組を発展させる方向が示されたことを受け、平成29（2017）年3月の社会教育法の改正により、法律に位置づけられました。地域の高齢者、保護者、PTA、NPO、企業など幅広い住民や団体が参画し、学習支援、体験活動、登下校の見守り、放課後の学びの場づくりなどが行われます。\n\n改正社会教育法は、教育委員会が地域住民等と学校との連携協力体制の整備や、地域学校協働活動に関する普及啓発を行うことを定めました。また、第9条の7に基づき、教育委員会が地域学校協働活動推進員を委嘱できることとされました。推進員は、地域と学校の情報共有や活動への助言を行い、活動の企画・立案、連絡調整、ボランティアの確保などを担います。文部科学省は平成29年4月に「地域学校協働活動の推進に向けたガイドライン」を策定しています。\n\n同じ平成29年の改正では、地方教育行政法の側でコミュニティ・スクール（学校運営協議会）の設置が教育委員会の努力義務とされ、両者は「車の両輪」として一体的に推進することが期待されています。コミュニティ・スクールが学校運営に関して保護者や地域住民が意見を述べる「熟議の場」であるのに対し、地域学校協働活動は、具体的な活動を通じて子供の育ちを支える実践の仕組みです。",
-    relatedSlugs: ["community-school", "shakai-kyoiku-ho", "bukatsudo-chiiki-ikou", "kyoiku-iinkai", "community-collaborative-inquiry-learning", "fieldwork-interview-investigation-skills", "school-evacuation-center-disaster-resilience", "community-project-outcomes-assessment"],
+    relatedSlugs: ["community-school", "shakai-kyoiku-ho", "bukatsudo-chiiki-ikou", "kyoiku-iinkai", "community-collaborative-inquiry-learning", "fieldwork-interview-investigation-skills", "school-evacuation-center-disaster-resilience", "community-project-outcomes-assessment", "community-volunteer-after-school-watching"],
     isCanonical: true,
     tags: ["地域連携", "社会教育法", "推進員"],
   },
@@ -1089,9 +1089,9 @@ export const systemTerms: Term[] = [
     summary:
       "学校の管理下で生じた児童生徒の負傷・疾病・障害・死亡に、日本スポーツ振興センターが医療費や見舞金を支給する互助共済制度。",
     body: "学校災害共済給付制度は、学校の管理下で起きた災害（負傷、疾病、障害、死亡）に対し、医療費、障害見舞金、死亡見舞金を給付する公的な制度です。独立行政法人日本スポーツ振興センター法に基づき、同センターが運営しており、児童生徒の保護者が経済的な負担を軽減しつつ、学校設置者の責任を補完する仕組みとして機能しています。幼稚園、保育所、幼保連携型認定こども園から高等学校、高等専門学校などまで、広く対象とされています。\n\n運営の財源は、国、学校の設置者、保護者の三者の負担によるいわゆる互助共済方式です。保護者の同意を得たうえで、設置者が掛金を納付して加入し、掛金額は校種や年度により異なります。たとえば小中学校で900円台とした自治体資料があり、生活保護世帯や就学援助の受給世帯については、自治体が全額またはその大部分を負担する場合もあります。給付の対象は学校内の事故に限らず、休憩時間や通学途中での事故も含まれます。医療費は、総額5,000円以上（窓口負担1,500円以上）などの要件があり、生活保護の医療扶助を受けている場合は、障害見舞金と死亡見舞金のみが給付されます。\n\nこの制度は、災害が発生した場合の救済にとどまらず、日本スポーツ振興センターが蓄積した事故事例のデータを、学校安全の推進に役立てる点でも重要です。学校設置者に過失があるか否かにかかわらず給付される一方、学校側に安全配慮義務の違反があれば、別途損害賠償責任が問われる可能性があり、両者は区別されます。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-anzen-suishin-keikaku", "gakko-kiki-kanri", "shugaku-enjo-seido", "japan-sport-council-mutual-aid-benefits", "public-school-workers-compensation"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-anzen-suishin-keikaku", "gakko-kiki-kanri", "shugaku-enjo-seido", "public-school-workers-compensation"],
     isCanonical: true,
-    tags: ["学校安全", "災害共済", "日本スポーツ振興センター"],
+    tags: ["学校安全", "災害共済", "日本スポーツ振興センター", "災害共済給付", "学校事故", "安全管理"],
   },
   {
     slug: "kyoshi-kinmu-jikan-jogen-shishin",
@@ -1469,19 +1469,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-kyoiku-ho", "kyoiku-iinkai", "kyoiku-kihon-ho"],
     isCanonical: true,
     tags: ["閉鎖命令", "所轄庁", "学校監督", "行政権能"],
-  },
-  {
-    slug: "school-education-law-article-19-school-assistance",
-    title: "就学援助（学校教育法第19条）",
-    reading: "しゅうがくえんじょがっこうきょういくほうだいじゅうきゅうじょう",
-    kana: "し",
-    categories: ["system"],
-    summary:
-      "学校教育法第19条に基づき、経済的理由により就学困難な学齢児童生徒の保護者に対して市町村が必要な援助を与える就学援助の規定。",
-    body: "学校教育法第19条は、経済的理由によって就学困難と認められる学齢児童生徒の保護者に対し、市町村が必要な援助を与えなければならないと定めている。日本国憲法第26条が保障する義務教育無償の精神を実質化し、家庭の貧困による教育格差を防止するための重要な法的根拠である。\n\n本規定に基づく就学援助は、生活保護法適用の要保護世帯と、それに準ずる困窮状態にある準要保護世帯を対象とする。学用品費、通学費、校外活動費、修学旅行費、学校給食費、医療費などが支給対象となり、市町村教育委員会が所得基準や世帯状況を審査して認定と支給の事務を担う。\n\n学校現場では、担任や養護教諭が児童生徒の困窮状況を的確に把握し、制度利用の案内を行う福祉連携が求められている。近年は子どもの貧困問題が深刻化する中、申請手続きの簡素化や入学前支給の実施など、家庭の負担を速やかに軽減する運用の改善が進められている。",
-    relatedSlugs: ["gakko-kyoiku-ho", "gakko-kyushoku-ho", "chiiki-gakko-kyodo-katsudo", "school-attendance-aid-system-disparity", "material-deprivation-child-poverty-home"],
-    isCanonical: true,
-    tags: ["学校教育法", "就学援助", "教育機会均等", "要保護児童生徒"],
   },
   {
     slug: "school-education-law-article-34-textbook-duty",
@@ -1911,19 +1898,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-hoken-anzen-ho", "tanmatsu-kenko-hairyo", "gakko-tekisei-kibo-haichi", "school-education-law-article-12-health-management", "school-health-practitioners-trio"],
     isCanonical: true,
     tags: ["学校環境衛生基準", "環境衛生", "学校薬剤師", "健康管理"],
-  },
-  {
-    slug: "japan-sport-council-mutual-aid-benefits",
-    title: "災害共済給付（日本スポーツ振興）",
-    reading: "さいがいきょうさいきゅうふにっぽんすぽーつしんこう",
-    kana: "さ",
-    categories: ["system"],
-    summary:
-      "学校の管理下で発生した児童生徒の負傷・疾病・障害・死亡に対し、医療費等の共済給付金を迅速に支給する公的互助制度の手続き。",
-    body: "独立行政法人日本スポーツ振興センター法に基づき、学校の管理下における児童生徒の負傷、疾病、障害または死亡に対して迅速な共済給付を行う制度である。保護者と学校設置者の共同拠出により、安全教育と被害救済を一体的に支える。\n\n授業、部活動、登下校、遠足等の学校管理下の災害が給付対象となる。負傷の治療に要した医療費の自己負担分に加え、見舞金等が支給される。事故発生後、学校と教育委員会が事実関係を証明する書類を作成しセンターへ申請する手続きが定められている。\n\n学校事故発生時における家庭の経済的負担を軽減し、円滑な医療受診と回復を後押しする不可欠なセーフティネットである。事故情報の蓄積と分析を通じて得られた知見を各学校の安全管理や事故防止策へ還元することが強く推奨されている。",
-    relatedSlugs: ["gakko-saigai-kyosai-kyufu", "gakko-hoken-anzen-ho", "gakko-anzen-suishin-keikaku"],
-    isCanonical: true,
-    tags: ["災害共済給付", "学校安全", "学校事故", "安全管理"],
   },
   {
     slug: "school-lunch-sanitation-management-standards",

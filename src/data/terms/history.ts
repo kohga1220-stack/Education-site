@@ -846,7 +846,7 @@ export const historyTerms: Term[] = [
     summary:
       "戦後の教員養成の原則の一つ。教職課程を置く大学であれば、教員養成を主目的としない学部でも免許状を取得できる仕組み。",
     body: "開放制の教員養成とは、教員養成を特定の学校に限らず、教職課程を置く一般の大学・学部でも行えるとする原則です。戦前の教員養成は、師範学校を中心に行われ、教員免許状も主に師範学校の卒業生に与えられていました。戦後は、1949年(昭和24年)に教育職員免許法が制定され、「大学における教員養成」と「開放制」が戦後の教員養成の二本柱とされたと説明されます。\n\nこの原則により、教員になりたい者は、所定の科目・単位を修得すれば、教員養成を目的としない学部の卒業生でも免許状を取得できるようになりました。幅広い学識を持った人材を教職に取り入れることがねらいとされます。1953年には、教職課程を持つ大学・学部を国が認める課程認定制度が発足し、1954年には免許法が改正されるなど、質の確保のための仕組みが整えられました。\n\n一方で、教員養成を主な目的とする大学・学部(目的養成)の必要性も議論され、1958年の中央教育審議会答申では、各都道府県に教員養成を目的とする大学・学部を置く方針が示されました。その後、学芸学部が教育学部に改組されています。開放制と目的養成のバランスは、教員の資質向上をめぐる現在の議論にも続いています。",
-    relatedSlugs: ["shihan-gakko-seido", "kyoiku-daigaku-tenkan", "kyoin-menkyojo", "kyoin-saiyo-shiken", "kyoshoku-katei-nintei-seido", "teacher-license-renewal-system-history"],
+    relatedSlugs: ["shihan-gakko-seido", "kyoiku-daigaku-tenkan", "kyoin-menkyojo", "kyoin-saiyo-shiken", "kyoshoku-katei-nintei-seido", "menkyo-koshinsei-haishi"],
     isCanonical: true,
     tags: ["戦後教育", "教員養成", "免許制度"],
   },
@@ -1124,19 +1124,6 @@ export const historyTerms: Term[] = [
     tags: ["対抗宗教改革", "カトリック", "ラティオ・ストゥディオルム", "修道会"],
   },
   {
-    slug: "condorcet-public-education-report",
-    title: "コンドルセの教育計画",
-    reading: "こんどるせのきょういくけいかく",
-    kana: "こ",
-    categories: ["history"],
-    summary:
-      "フランス革命期の1792年にコンドルセが立法議会に提出した公教育組織に関する報告書で、教育の無償・自由・機会均等・政教分離を構想した近代公教育の青写真。",
-    body: "フランス革命期の数学者・啓蒙思想家であるコンドルセが、1792年4月に立法議会に提出した「公教育の全般的組織に関する報告書および法案」である。近代における民主主義的公教育の基本原理を体系化した記念碑的文書とされる。\n\nコンドルセは、真の市民的平等を達成するためには教育の普及が不可欠であると主張した。初等学校から高等研究所に至る5段階の体系的な公教育網を構想し、初等教育の無償化、男女平等の教育機会、能力に応じた進学支援、教職の自由を提案した。さらに、特定の宗教や政府の政治的プロパガンダから教育を独立させる公教育の中立性・非宗教性を明確に打ち出した。\n\n革命の混乱により法案自体は当時は成立しなかったが、19世紀末のフランス第三共和政におけるフェリー法をはじめ、近代公教育の世界的設計図として不滅の影響を与え続けている。",
-    relatedSlugs: ["guizot-act-1833", "france-laicite-school", "shukyo-kaikaku-kyoiku"],
-    isCanonical: true,
-    tags: ["フランス革命", "公教育の自由", "機会均等", "ライシテ"],
-  },
-  {
     slug: "butler-act-1944",
     title: "バトラー法（1944年）",
     reading: "ばとらーほう",
@@ -1158,7 +1145,7 @@ export const historyTerms: Term[] = [
     summary:
       "1833年のフランス七月王政下において文部大臣ギゾーが制定した初等教育法で、全市町村への公立小学校設置を義務付けた近代初等公教育の基礎法。",
     body: "フランスの七月王政期における1833年、文相フランソワ・ギゾーによって制定された初等教育に関する法律である。フランスにおいて国家が法律によって初等公教育の制度的基盤を確立した最初の基本法として知られる。\n\n同法は、原則として人口500人以上のすべてのコミューン（市町村）に対し、少なくとも1校の公立初等学校を設置すること、および教員への給与や校舎を確保することを法的に義務付けた。また、各県に教員を養成するための師範学校の設置を義務化し、教員の資質向上と資格制度の確立を図った。\n\n貧困家庭の児童に対する授業料免除の規定も盛り込まれ、義務制や完全無償化・無宗教化には至らなかったものの、教会依存から国家・自治体による公教育網への転換を強力に推進した。後のフェリー法の基盤を築いた教育史上の重要立法である。",
-    relatedSlugs: ["condorcet-public-education-report", "france-laicite-school", "shukyo-kaikaku-kyoiku"],
+    relatedSlugs: ["condorcet-koukyouiku", "france-laicite-school", "shukyo-kaikaku-kyoiku"],
     isCanonical: true,
     tags: ["フランス教育史", "七月王政", "初等教育法", "師範学校"],
   },
@@ -2409,19 +2396,6 @@ export const historyTerms: Term[] = [
     relatedSlugs: ["teikoku-daigaku-rei", "daigaku-jichi-no-rekishi", "daigaku-funso", "shinsei-daigaku-hossoku", "school-education-act-article-93-senate"],
     isCanonical: true,
     tags: ["国立大学法人法", "大学改革", "大学の自治", "ガバナンス改革"],
-  },
-  {
-    slug: "teacher-license-renewal-system-history",
-    title: "教員免許更新制の変遷",
-    reading: "きょういんめんきょこうしんせいのへんせん",
-    kana: "き",
-    categories: ["history"],
-    summary:
-      "2009年に導入され教員免許に10年の有効期限と講習受講を義務付けたが、多大な負担や教員不足の深刻化から2022年に廃止された制度。",
-    body: "教員免許更新制は、2007年の教育職員免許法改正を経て2009年4月から導入された教員資質向上制度である。教員が定期的に最新の知識や技能を身につけ自信と誇りを持って教壇に立つことを目的として、中央教育審議会の答申等に基づき創設された。\n\n本制度では、従来の終身免許から10年間の有効期間を設ける形へと改められ、教員は期限満了前の2年間に大学等で30時間以上の免許状更新講習を受講・修了することが義務付けられた。講習は教育の最新動向や指導法に関する内容で構成され、修了確認を受けなければ免許が失効する仕組みであった。\n\n教員の自律的研修の促進を目指したものの、多忙な教員への過重な負担や受講費用、失職の危険や非正規教員の離職を招き、全国的な教員不足を激化させる要因となった。強い批判を受け、2022年に廃止され、研修記録を活用した新たな資質向上策へと転換した。",
-    relatedSlugs: ["shihan-gakko-seido", "kaiho-sei-kyoin-yosei", "kyoshoku-daigakuin", "kyoshoku-katei-core-curriculum"],
-    isCanonical: true,
-    tags: ["教員免許更新制", "教員養成", "教員免許法", "教員研修"],
   },
   {
     slug: "kansei-igaku-no-kin",

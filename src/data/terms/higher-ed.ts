@@ -322,7 +322,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "生活費相当額の支給等により博士課程進学者を支える次世代研究者挑戦的研究プログラム等の施策です。",
     body: "博士課程学生への経済的支援は、日本の博士課程進学者数が長期的に減少・伸び悩んでいる状況を受け、優秀な学生が経済的な不安なく博士課程に進学できるよう、生活費相当額と研究費を支給する政策として近年強化されています。\n\n代表例が、日本学術振興会等が実施する「次世代研究者挑戦的研究プログラム(SPRING)」で、大学が主体となって博士課程学生を選抜し、年間約180万円から240万円程度の生活費相当額と研究費を支給する仕組みです。卓越大学院プログラムとも連動しています。\n\n従来から研究者養成の柱であった日本学術振興会特別研究員(DC)制度と合わせ、博士人材の裾野を支える多層的な支援体制の構築が進められていますが、支援対象の拡大と博士号取得後のキャリアパス確保が引き続き課題です。",
-    relatedSlugs: ["takuetsu-daigakuin-program", "daigakuin-katei-no-shurui", "koto-kyoiku-shugaku-shien-shinseido", "japan-scholarship-society-act-development", "jasso-student-loans-type-one-and-two", "income-contingent-repayment-postponed-tuition"],
+    relatedSlugs: ["takuetsu-daigakuin-program", "daigakuin-katei-no-shurui", "koto-kyoiku-shugaku-shien-shinseido", "japan-scholarship-society-act-development", "jasso-shogakukin", "income-contingent-repayment-postponed-tuition"],
     isCanonical: true,
     tags: ["博士課程", "研究者養成"],
   },
@@ -1441,7 +1441,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学修支援、生活相談、キャリア支援、心身の健康相談を一体的に統合し、学生の学業達成と社会への円滑な巣立ちを包括的に支える体制。",
     body: "スチューデント・サクセス体制は、学生が大学生活において学業上の目標を達成し、社会へ有為な人材として巣立つことを大学全体で包括的に支援する統合的アプローチである。従来の教務、学生部、就職部などの縦割りを打破して導入された。\n\n学修支援センター、学生相談室、キャリアセンター、ピアサポート組織などが連携し、学生の出欠状況、成績推移、生活相談のデータを統合的に把握する。困難の兆候が見られる学生に対して、学修アドバイザーや専門カウンセラーが早期に介入して支援策を講じる。\n\n学生の在学率の向上（中退防止）と学修成果の最大化を同時に達成する現代的な大学経営モデルとして位置づけられる。学生満足度を高め、大学の教育的責任を全うするための全学協働プラットフォームとして発展している。",
-    relatedSlugs: ["academic-advising", "naibu-shitsu-hosho", "institutional-research-ir", "open-campus-sample-lectures-information-guidance", "jasso-student-loans-type-one-and-two", "university-coop-student-welfare-health-support"],
+    relatedSlugs: ["academic-advising", "naibu-shitsu-hosho", "institutional-research-ir", "open-campus-sample-lectures-information-guidance", "jasso-shogakukin", "university-coop-student-welfare-health-support"],
     isCanonical: true,
     tags: ["スチューデントサクセス", "包括支援", "中退防止", "学生支援"],
   },
@@ -1899,19 +1899,6 @@ export const higherEdTerms: Term[] = [
     relatedSlugs: ["three-policy", "koudai-setsuzoku-kaikaku", "student-success-center-retention-support"],
     isCanonical: true,
     tags: ["オープンキャンパス", "出前講義", "進路選択", "大学広報"],
-  },
-  {
-    slug: "jasso-student-loans-type-one-and-two",
-    title: "JASSO貸与型制度設計",
-    reading: "じゃっそたいよがたせいどせっけい",
-    kana: "A–Z",
-    categories: ["higher-ed"],
-    summary:
-      "独立行政法人日本学生支援機構が運営する、無利子の第一種と有利子の第二種からなる国内最大の大学生向け貸与型奨学金体系。",
-    body: "日本学生支援機構（JASSO）の貸与型奨学金は、日本の大学生の約3人に1人が利用する国内最大規模の学生向け金融支援制度である。無利子で貸与される「第一種奨学金」と、有利子で貸与される「第二種奨学金」の2本柱で構成される。\n\n第一種は家計基準および学力基準（高校の評定平均値等）が厳格に審査される一方、第二種はより幅広い学生に門戸が開かれている。貸与金は卒業後に毎月口座振替等で分割返還（リレー口座）され、次の世代への奨学金原資へと還流する仕組みをとる。\n\n多くの学生の進学機会を保障してきた歴史的功績がある一方、卒業後の返還負担の重さや滞納問題が社会問題化してきた。返還猶予制度や減額返還制度の拡充など、卒業生の生活破綻を防ぐ柔軟な返還支援策が強化されている。",
-    relatedSlugs: ["koto-kyoiku-shugaku-shien-shinseido", "hakase-katei-gakusei-shien", "student-success-center-retention-support"],
-    isCanonical: true,
-    tags: ["JASSO", "日本学生支援機構", "貸与型奨学金", "学費支援"],
   },
   {
     slug: "income-contingent-repayment-postponed-tuition",
