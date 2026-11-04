@@ -126,7 +126,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学級活動", "自治的活動"],
-    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/toku.htm", "https://www.jstage.jst.go.jp/article/hcs/2019/29/2019_22/_article/-char/ja"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/toku.htm"],
   },
   {
     slug: "seito-rikai",

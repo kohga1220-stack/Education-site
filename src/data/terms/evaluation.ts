@@ -29,7 +29,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["評定", "期末テスト"],
-    sources: ["https://www.jstage.jst.go.jp/article/nasemjournal/47/0/47_13/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jssej/46/2/46_221/_article/-char/ja"],
   },
   {
     slug: "shindan-hyoka",
@@ -44,7 +44,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["レディネス", "実態把握"],
-    sources: ["https://www.jstage.jst.go.jp/article/thpt/27/0/27_0_14/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/pamjaep/57/0/57_236/_article/-char/ja"],
   },
   {
     slug: "portfolio-hyoka",
@@ -59,7 +59,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学びの過程", "自己評価"],
-    sources: ["https://www.jstage.jst.go.jp/article/pjmj/58/1/58_49/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/ecoedu/42/42/42_132/_article/-char/ja"],
   },
   {
     slug: "rubric-hyoka",
@@ -74,7 +74,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["評価基準", "パフォーマンス評価"],
-    sources: ["https://www.jstage.jst.go.jp/article/jsira/6/0/6_75/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jaehd/25/1/25_31/_article/-char/ja"],
   },
   {
     slug: "kanten-betsu-hyoka",
@@ -89,7 +89,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["指導要録", "3観点"],
-    sources: ["https://www.jstage.jst.go.jp/article/jtsjs/109/0/109_217/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/arepj/63/0/63_269/_article/-char/ja"],
   },
   {
     slug: "zettai-hyoka",
@@ -186,7 +186,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["パフォーマンス課題", "ルーブリック", "資質・能力"],
-    sources: ["https://www.jstage.jst.go.jp/article/faruawpsj/51/2/51_143/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/ssmep/17/0/17_KJ00009295762/_article/-char/ja"],
   },
   {
     slug: "authentic-assessment",

@@ -24,7 +24,7 @@ export const psychologyTerms: Term[] = [
       ],
     },
     tags: ["ピアジェ", "発達段階"],
-    sources: ["https://www.jstage.jst.go.jp/article/jjspedit/17/1/17_3/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/trr/14/0/14_e1400.3.001/_article/-char/ja"],
   },
   {
     slug: "zpd",
@@ -63,7 +63,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ヴィゴツキー", "支援の漸減"],
-    sources: ["https://www.jstage.jst.go.jp/article/jseeja/2025/0/2025_266/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/kaichi/25/0/25_155/_article/-char/ja"],
   },
   {
     slug: "naihatsu-doki",
@@ -108,7 +108,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["バンデューラ", "成功体験"],
-    sources: ["https://www.jstage.jst.go.jp/article/gscs/17/1/17_15/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/arepj/57/0/57_232/_article/-char/ja"],
   },
   {
     slug: "gakushu-muryokukan",
@@ -195,7 +195,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["作業記憶", "認知負荷"],
-    sources: ["https://www.jstage.jst.go.jp/article/jjet/41/Suppl./41_S41015/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/arepj/52/0/52_218/_article/-char/ja"],
   },
   {
     slug: "gakushu-tenni",
@@ -248,7 +248,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["発見学習", "表象モード", "らせん型カリキュラム"],
-    sources: ["https://www.jstage.jst.go.jp/article/kyouikutetsugaku/120/0/120_159/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/bojase/15/0/15_KJ00008132132/_article/-char/ja"],
   },
   {
     slug: "maslow",
@@ -406,7 +406,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ガードナー", "8つの知能", "個別最適な学び"],
-    sources: ["https://www.jstage.jst.go.jp/article/jssep/47/0/47_201/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/essfr/11/4/11_266/_article/-char/ja"],
   },
   {
     slug: "forgetting-curve",
@@ -421,7 +421,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["エビングハウス", "忘却曲線", "反復学習"],
-    sources: ["https://www.jstage.jst.go.jp/article/digrajproc/13/0/13_229/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/pacjpa/78/0/78_1EV-1-091/_article/-char/ja"],
   },
   {
     slug: "self-regulated-learning",
@@ -618,7 +618,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ローゼンタール効果", "教師期待", "自己成就予言"],
-    sources: ["https://www.jstage.jst.go.jp/article/budo1968/10/2/10_77/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/pamjaep/59/0/59_372/_article/-char/ja"],
   },
   {
     slug: "stereotype-threat",
@@ -2013,7 +2013,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["保存概念", "ピアジェ", "具体的操作期", "論理的思考"],
-    sources: ["https://www.jstage.jst.go.jp/article/formersjst/22/3/22_25/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jjep1953/34/2/34_94/_article/-char/ja"],
   },
   {
     slug: "four-sources-of-self-efficacy",
@@ -2541,6 +2541,6 @@ export const psychologyTerms: Term[] = [
     relatedSlugs: ["forgetting-curve", "serial-position-effect", "metacognition", "mastery-learning"],
     isCanonical: true,
     tags: ["教育心理学", "学習心理学", "記憶", "学習法"],
-    sources: ["https://www.jstage.jst.go.jp/article/jsmbe/Annual57/Abstract/Annual57_S87_2/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jjpsy1926/45/3/45_3_130/_article/-char/ja"],
   },
 ]
