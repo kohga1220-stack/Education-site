@@ -2377,4 +2377,18 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     tags: ["不登校支援", "社会的自立", "教育機会確保", "多様な学び"],
   },
+  {
+    slug: "jido-yogo-shisetsu",
+    title: "児童養護施設",
+    reading: "じどうようごしせつ",
+    kana: "し",
+    categories: ["guidance", "system"],
+    summary:
+      "児童福祉法第41条に基づき、保護者のない児童や虐待されている児童など環境上養護を要する児童を入所させて養護し、自立を支援する児童福祉施設。",
+    body: "児童養護施設は、児童福祉法（昭和22年法律第164号）第41条の規定に基づいて設置される児童福祉施設の一つである。1997（平成9）年の児童福祉法改正により、従来の「養護施設」から名称が改められた。\n\n保護者のない児童（原則として乳児を除くが、安定した生活環境の確保その他の理由により特に必要のある場合には乳児を含む）、虐待されている児童、その他環境上養護を要する児童を入所させて養護し、あわせて退所した者に対する相談その他の自立のための援助を行うことを目的としている。\n\n入所児童の多くは地域の小学校・中学校・高等学校などへ通学するため、学校と児童養護施設の職員（保育士・児童指導員など）や児童相談所との緊密な連携、および学習支援や心理的ケア、退所後のアフターケアの充実が重要な課題となっている。",
+    relatedSlugs: ["nyuji-in", "jido-gyakutai-boshi-ho", "child-consultation-center-temporary-custody", "foster-home-residential-care-educational-aid", "shisetsusho-hospitalism"],
+    isCanonical: true,
+    tags: ["生徒指導", "教育法規", "児童福祉法", "社会的養護"],
+    sources: ["https://kotobank.jp/word/%E5%85%90%E7%AB%A5%E9%A4%8A%E8%AD%B7%E6%96%BD%E8%A8%AD-178514"],
+  },
 ]
