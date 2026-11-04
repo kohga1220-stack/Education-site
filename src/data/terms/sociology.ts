@@ -27,7 +27,7 @@ export const sociologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ジャクソン", "暗黙の学び"],
-    sources: ["https://www.jstage.jst.go.jp/article/jaipe/12/2/12_78/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jscs/18/0/18_KJ00007700742/_article/-char/ja"],
   },
   {
     slug: "bunka-shihon",

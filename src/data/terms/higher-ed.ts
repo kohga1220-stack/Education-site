@@ -482,7 +482,7 @@ export const higherEdTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学力の三要素", "大学入試改革", "高大接続改革", "アドミッションポリシー"],
-    sources: ["https://www.jstage.jst.go.jp/article/dncjournal/35/0/35_71/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jtsjs/129/0/129_257/_article/-char/ja"],
   },
   {
     slug: "jiko-tenken-hyoka",
