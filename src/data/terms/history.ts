@@ -40,6 +40,7 @@ export const historyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["明治期", "学校制度"],
+    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/mext_03459.html"],
   },
   {
     slug: "kyoikurei",
@@ -54,6 +55,7 @@ export const historyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["明治期", "教育行政"],
+    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/mext_03475.html"],
   },
   {
     slug: "gakko-rei",
@@ -536,6 +538,7 @@ export const historyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育委員会制度", "教育行政史", "逆コース"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/community/suishin/detail/1345123.htm"],
   },
   {
     slug: "gakudo-sokai",
@@ -602,6 +605,7 @@ export const historyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育改革", "中曽根内閣", "個性重視の原則", "戦後教育史"],
+    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1318296.htm", "https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1318297.htm"],
   },
   {
     slug: "gakko-gun-seido",

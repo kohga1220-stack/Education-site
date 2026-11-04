@@ -106,6 +106,7 @@ export const sociologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育機会確保法", "多様な学びの場"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/seitoshidou/1302905.htm"],
   },
   {
     slug: "meritocracy",

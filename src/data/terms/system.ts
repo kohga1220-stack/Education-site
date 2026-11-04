@@ -113,6 +113,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["多職種連携", "専門スタッフ"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/hatarakikata/mext_00009.html"],
   },
   {
     slug: "community-school",
@@ -127,6 +128,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学校運営協議会", "地域連携", "コミュニティ・スクール", "地域協働", "学校自治"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/community/index.htm"],
   },
   {
     slug: "curriculum-management",
@@ -141,6 +143,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教科横断", "PDCAサイクル"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/index.htm"],
   },
   {
     slug: "kyokasho-kentei",
@@ -476,6 +479,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教員の働き方改革", "教職調整額", "労働環境"],
+    sources: ["https://www.mext.go.jp/b_menu/hakusho/mext_00026.html"],
   },
   {
     slug: "shigaku-ho",
@@ -1014,6 +1018,7 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["daigakuin-katei-no-shurui", "kyoin-menkyojo", "kyoin-ikusei-shihyo", "kyoiku-daigaku-tenkan", "kyoshoku-katei-core-curriculum", "senmonshoku-daigakuin", "teacher-licensing-masters-level-comparison"],
     isCanonical: true,
     tags: ["教員養成", "専門職大学院", "スクールリーダー", "教職大学院", "学校経営"],
+    sources: ["https://www.mext.go.jp/a_menu/koutou/kyoushoku/kyoushoku.htm"],
   },
   {
     slug: "kyoshoku-katei-core-curriculum",

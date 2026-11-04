@@ -14,6 +14,7 @@ export const moralTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["道徳科", "考え議論する道徳"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/doutoku/index.htm"],
   },
   {
     slug: "jinkaku-keisei",

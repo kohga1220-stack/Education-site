@@ -221,6 +221,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["全国学テ", "文部科学省", "悉皆調査"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/gakuryoku-chousa/zenkoku/1344101.htm"],
   },
   {
     slug: "hyojun-gakuryoku-kensa",
@@ -598,6 +599,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学校評価", "自己評価", "第三者評価", "PDCA", "説明責任"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/gakko-hyoka/index.htm"],
   },
   {
     slug: "tochakudo-hyoka",
