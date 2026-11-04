@@ -10,7 +10,7 @@ export const systemTerms: Term[] = [
     summary:
       "文部科学省が定める、全国共通の教育課程の基準。各教科で教える内容や目標を示し、およそ10年に一度改訂される。1958年の告示化以降は法的拘束力を持つとされる。",
     body: "学習指導要領とは、学校教育法およびその施行規則に基づき文部科学大臣が公示（告示）する、全国のどの学校でも一定の教育水準を確保するための教育課程（カリキュラム）の基準です。幼稚園（幼稚園教育要領）、小学校、中学校、高等学校、特別支援学校のそれぞれについて、学校教育法施行規則の委任を受ける形で定められています。\n\n各教科等の目標や、学年ごとに指導すべき大まかな内容・授業時数の標準が示されており、教科書検定や各学校の教育課程編成は、この基準に沿って行われます。1947年に「試案」として初めて作成されて以降、社会の変化に対応するためおおむね10年に一度のペースで改訂が重ねられ、直近では2017年（小・中学校）・2018年（高等学校）に改訂され、2020年度から2022年度にかけて学校段階ごとに順次全面実施されました。\n\nこの現行版の改訂では、「知識及び技能」「思考力・判断力・表現力等」「学びに向かう力・人間性等」という資質・能力の三つの柱が全教科等を通じて明確化され、「主体的・対話的で深い学び」の視点からの授業改善と、学校全体でカリキュラムを編成・評価・改善していく「カリキュラム・マネジメント」の確立が求められています。制定当初は学校現場への手引きという性格が強い「試案」でしたが、1958年の改訂で文部省告示となって以降、判例上も法的拘束力を持つ基準とされている点は、後述する変遷の中でも特に大きな転換点です。制度の詳しい変遷は「学習指導要領の変遷」の項目を参照してください。",
-    relatedSlugs: ["shishitsu-noryoku", "shudai-taiwa-fukai", "gakko-kyoiku-ho", "gakushu-shido-yoryo-hensen"],
+    relatedSlugs: ["shishitsu-noryoku", "shudai-taiwa-fukai", "gakko-kyoiku-ho", "gakushu-shido-yoryo-hensen", "module-gakushu", "citizens-and-state-education-rights-compromise"],
     isCanonical: true,
     exam: true,
     tags: ["文部科学省", "カリキュラム基準", "告示"],
@@ -37,7 +37,7 @@ export const systemTerms: Term[] = [
     summary:
       "日本の教育に関する目的や理念、方針を定めた法律。「教育の憲法」とも呼ばれ、他の教育関連法令の基本となる。",
     body: "教育基本法は、日本国憲法の理念に基づき、教育の目的、方針、機会均等などを定めた法律で、1947年に制定され、2006年に大きく改正されました。他のあらゆる教育関連法令の基礎となることから「教育の憲法」とも呼ばれます。\n\n第1条では教育の目的を「人格の完成を目指し、平和で民主的な国家及び社会の形成者として必要な資質を備えた心身ともに健康な国民の育成」と定めています。2006年の改正では、公共の精神や伝統・文化の尊重、生涯学習の理念、家庭教育の役割などの条項が新たに加えられました。\n\nこの法律の理念を具体化するものとして学校教育法があり、さらにその内容を教科ごとに具体化したものが学習指導要領という位置づけになっています。",
-    relatedSlugs: ["gakko-kyoiku-ho", "gakushu-shido-yoryo"],
+    relatedSlugs: ["gakko-kyoiku-ho", "gakushu-shido-yoryo", "fundamental-law-article-7-universities", "fundamental-law-article-10-home-education", "fundamental-law-article-16-administration-undue", "school-education-law-article-13-closure-orders"],
     isCanonical: true,
     exam: true,
     tags: ["教育の憲法", "人格の完成"],
@@ -51,7 +51,7 @@ export const systemTerms: Term[] = [
     summary:
       "幼稚園から大学までの学校制度の基本的な枠組み（種類、修業年限、目的など）を定めた法律。教育基本法の理念を具体化する。",
     body: "学校教育法は、教育基本法の理念を受けて、幼稚園、小学校、中学校、義務教育学校、高等学校、中等教育学校、特別支援学校、大学などの学校の種類や目的、修業年限といった学校制度の基本的な枠組みを定めた法律です。1947年に制定されました。\n\nこの法律では、例えば小学校の目的を「心身の発達に応じて、義務教育として行われる普通教育のうち基礎的なものを施す」と定めるなど、各学校段階が果たすべき役割を規定しています。義務教育の期間や、就学義務、学校の設置基準なども、この法律を根拠としています。\n\n教育基本法が理念を定める法律であるのに対し、学校教育法はその理念を実際の学校制度としてどう具体化するかを定めた、より実務的な法律という位置づけになります。",
-    relatedSlugs: ["kyoiku-kihon-ho", "gimu-kyoiku", "rokusansei"],
+    relatedSlugs: ["kyoiku-kihon-ho", "gimu-kyoiku", "rokusansei", "fundamental-law-article-5-compulsory", "fundamental-law-article-7-universities", "school-education-law-article-9-disqualification", "school-education-law-article-13-closure-orders", "school-education-law-article-34-textbook-duty"],
     isCanonical: true,
     exam: true,
     tags: ["学校制度", "就学義務"],
@@ -65,7 +65,7 @@ export const systemTerms: Term[] = [
     summary:
       "すべての国民が受ける権利を持ち、保護者が子どもに受けさせる義務を負う教育。日本では小学校・中学校の9年間。",
     body: "義務教育とは、日本国憲法第26条および教育基本法・学校教育法に基づき、すべての国民がひとしく教育を受ける権利を持つとともに、保護者がその子女に普通教育を受けさせる義務を負う制度です。日本では小学校6年間、中学校3年間の合計9年間がこれにあたります。\n\n義務教育には、経済的な理由によって就学が妨げられないようにするための「義務教育の無償」の原則があり、公立の小中学校では授業料が徴収されません。また保護者だけでなく、国や地方公共団体にも、義務教育の機会を保障する体制を整備する責務があります。\n\nなお「義務教育」とは子ども自身が学校に通う義務を意味するのではなく、あくまで保護者や社会の側が教育の機会を保障する義務であるという点が、しばしば誤解されやすいポイントとして説明されます。",
-    relatedSlugs: ["gakko-kyoiku-ho", "rokusansei", "comenius", "constitution-article-26-right-duty"],
+    relatedSlugs: ["gakko-kyoiku-ho", "rokusansei", "comenius", "constitution-article-26-right-duty", "fundamental-law-article-5-compulsory"],
     isCanonical: true,
     exam: true,
     tags: ["就学義務", "無償"],
@@ -79,7 +79,7 @@ export const systemTerms: Term[] = [
     summary:
       "小学校6年・中学校3年を基本とする、戦後日本の学校制度の呼び名。義務教育9年間の骨格を指す通称。",
     body: "六三制とは、小学校6年間、中学校3年間という区分を基本とする、戦後日本の学校制度の骨格を指す通称です。第二次世界大戦後の教育改革によって1947年から導入され、その後に高等学校3年・大学4年が続く「六・三・三・四制」として整理されることもあります。\n\nこの制度が導入される以前の戦前の学校制度は、進む進路によって年限や仕組みが複雑に分かれていましたが、六三制の導入によって、すべての子どもが同じ年限の初等・中等教育を受けられる、単線型に近い制度へと整理されました。\n\n近年では、小中学校の学びをより連続的に捉える「小中一貫教育」や、9年間を一つの学校でまとめて行う「義務教育学校」といった、六三制の区分にとらわれない柔軟な学校制度も制度化されています。",
-    relatedSlugs: ["gimu-kyoiku", "gakko-kyoiku-ho"],
+    relatedSlugs: ["gimu-kyoiku", "gakko-kyoiku-ho", "philippines-k-twelve-basic-education-reform"],
     isCanonical: true,
     tags: ["学校制度", "義務教育学校"],
   },
@@ -105,7 +105,7 @@ export const systemTerms: Term[] = [
     summary:
       "教員だけでなく、スクールカウンセラーや事務職員など多様な専門スタッフが連携し、組織として教育活動にあたるという考え方。",
     body: "「チームとしての学校（チーム学校）」とは、2015年の中央教育審議会答申で示された考え方で、複雑化・多様化する学校の課題に対応するため、教員に加えてスクールカウンセラー、スクールソーシャルワーカー、部活動指導員、事務職員など、多様な専門性を持つスタッフがそれぞれの専門性を生かしながら、チームとして教育活動にあたるべきだという方針です。\n\nこの背景には、いじめ、不登校、貧困、特別な支援を必要とする子どもへの対応など、教員だけでは対応しきれない課題が学校に集中し、教員の長時間労働につながっているという問題意識があります。専門スタッフとの役割分担・連携を進めることで、教員が子どもと向き合う時間を確保することが目指されています。\n\nこの考え方は、地域とともに学校運営を行う「コミュニティ・スクール」や、教職員の働き方改革の議論とも密接に関連しています。",
-    relatedSlugs: ["school-counselor", "school-social-worker", "community-school", "multidisciplinary-collaboration-pt-ot-st", "collegiality-restructuring-school-organization"],
+    relatedSlugs: ["school-counselor", "school-social-worker", "community-school", "multidisciplinary-collaboration-pt-ot-st", "collegiality-restructuring-school-organization", "school-education-law-article-37-principal-vice", "school-administrative-staff-duties", "public-school-workers-compensation"],
     isCanonical: true,
     exam: true,
     tags: ["多職種連携", "専門スタッフ"],
@@ -119,7 +119,7 @@ export const systemTerms: Term[] = [
     summary:
       "保護者や地域住民が学校運営協議会を通じて学校運営に参画する仕組み。「地域とともにある学校づくり」を目指す制度。",
     body: "コミュニティ・スクール（学校運営協議会制度）とは、地方教育行政の組織及び運営に関する法律に基づき、保護者や地域住民の代表などが「学校運営協議会」の委員として学校運営に参画する仕組みです。\n\n学校運営協議会は、校長が作成する学校運営の基本方針を承認したり、学校運営について教育委員会や校長に意見を述べたりする権限を持ちます。単に地域が学校を「支援」するだけでなく、地域の声を学校運営に直接反映させ、地域と学校が教育目標を共有しながら「地域とともにある学校づくり」を進めていく点が特徴です。\n\n地域住民がボランティアとして学校教育を支援する「地域学校協働活動」と両輪で進められることが多く、両者を組み合わせることで、地域社会全体で子どもを育てる体制の構築が目指されています。",
-    relatedSlugs: ["team-gakko", "fundamental-law-article-13-school-home-community", "shakai-kankei-shihon", "gakko-koka-kenkyu", "new-zealand-tomorrows-schools-reform"],
+    relatedSlugs: ["team-gakko", "fundamental-law-article-13-school-home-community", "shakai-kankei-shihon", "gakko-koka-kenkyu", "new-zealand-tomorrows-schools-reform", "community-collaborative-inquiry-learning", "board-of-education-meeting-disclosure", "guest-speaker-community-moral-lesson"],
     isCanonical: true,
     exam: true,
     tags: ["学校運営協議会", "地域連携", "コミュニティ・スクール", "地域協働", "学校自治"],
@@ -133,7 +133,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校の教育目標の実現に向けて、教育課程を編成・実施・評価・改善していく、学校全体としての組織的な取り組み。",
     body: "カリキュラム・マネジメントとは、学校が掲げる教育目標を実現するために、教育課程（カリキュラム）を編成し、実施し、評価し、その結果をもとに改善していくという一連のサイクルを、学校が組織全体として計画的・組織的に行っていく取り組みを指します。2017・2018年改訂の学習指導要領で強調された考え方です。\n\nその内容は大きく3つの側面から整理されます。第一に、各教科等の内容を教科横断的な視点で相互に関連づけて組み立てること。第二に、教育活動の実施状況を評価し、その結果をもとに教育課程を不断に見直す、PDCAサイクルを機能させること。第三に、地域の人材や施設といった外部の資源を、教育課程の実施に効果的に活用することです。\n\n個々の教員が良い授業を行うだけでなく、学校が組織としてカリキュラム全体を最適化していく発想であり、探究学習やプロジェクト型学習を教科横断的に展開する際の土台となる考え方です。",
-    relatedSlugs: ["gakushu-shido-yoryo", "pbl", "gakushu-tenni"],
+    relatedSlugs: ["gakushu-shido-yoryo", "pbl", "gakushu-tenni", "supplementary-learning-materials-guidelines", "teachers-staff-meeting-advisory-character", "school-improvement-data-informed-action", "estonia-digital-education-proge-tiiger", "hong-kong-hkdse-diploma-curriculum"],
     isCanonical: true,
     exam: true,
     tags: ["教科横断", "PDCAサイクル"],
@@ -147,7 +147,7 @@ export const systemTerms: Term[] = [
     summary:
       "民間で著作・編集された図書を、文部科学大臣が教科用図書として適切かどうか審査・認定する制度。学校教育法に基づき実施される。",
     body: "教科書検定制度とは、民間の発行者が著作・編集した図書について、文部科学大臣が教科書として使用するにふさわしいかどうかを審査し、合格したものを教科用図書として認定する仕組みです。学校教育法に検定制度の根拠が置かれ、実際の審査は教科用図書検定調査審議会の専門的な調査・審議を経て行われます。\n\n検定は、記述の内容が客観的かつ公正で、学習指導要領に示された教育内容や目標に沿っているか、児童生徒の発達段階に適しているかなどの観点から、教科書検定基準に基づいて実施されます。審査には大学教員や学校教員経験者などの委員に加え、文部科学省の常勤職員である教科書調査官があたります。\n\nこの制度は、民間の創意工夫を生かしつつ、教育の中立性や一定の水準を確保することを目的としています。一方で、検定意見をめぐる裁判(家永教科書裁判など)や近隣諸国との歴史記述をめぐる外交上の議論の対象となることもあり、検定制度のあり方は社会的な関心を集め続けています。検定に合格した教科書の中から実際にどれを採用するかは、各地の教科書採択地区協議会等での審議を経て、教育委員会等が決定します。",
-    relatedSlugs: ["gakko-kyoiku-ho", "gakushu-shido-yoryo", "kyoiku-kihon-ho"],
+    relatedSlugs: ["gakko-kyoiku-ho", "gakushu-shido-yoryo", "kyoiku-kihon-ho", "school-education-law-article-34-textbook-duty", "supplementary-learning-materials-guidelines"],
     isCanonical: true,
     tags: ["教科書", "検定制度", "文部科学省"],
   },
@@ -173,7 +173,7 @@ export const systemTerms: Term[] = [
     summary:
       "教育職員免許法に基づき、教員として学校で教育活動を行うために必要とされる資格証明。校種・教科ごとに種類が分かれる。",
     body: "教員免許状とは、教育職員免許法に基づいて授与される、学校で教員として勤務するために必要な資格証明です。幼稚園・小学校・中学校・高等学校・特別支援学校など校種ごとに、また中学校・高等学校では教科ごとに区分されており、大学等で所定の科目・単位を修得することなどにより取得できます。\n\n免許状には、四年制大学卒業程度の「専修免許状」「一種免許状」と、短期大学卒業程度の「二種免許状」などの種類があります。原則として、それぞれの校種・教科に対応する免許状を持つ者でなければ、その教科等を担任することができないという「相当免許状主義」がとられています。\n\nかつては2009年度から普通免許状に10年間の有効期間を設ける教員免許更新制が導入されていましたが、教員の負担軽減や教員不足への対応などを理由に検討が進められ、2022年7月に廃止されました。現在は、更新講習に代わって、任命権者が教員一人ひとりの研修履歴を記録し計画的な研修受講を促す仕組みなどによって、教員の資質能力の維持向上が図られています。",
-    relatedSlugs: ["kyoiku-komuin-tokurei-ho", "gakko-kyoiku-ho", "gimu-kyoiku-gakko", "special-part-time-instructor-notification-scope"],
+    relatedSlugs: ["kyoiku-komuin-tokurei-ho", "gakko-kyoiku-ho", "gimu-kyoiku-gakko", "special-part-time-instructor-notification-scope", "temporary-appointed-teacher-employment-challenges", "part-time-teacher-hourly-contract-regulations", "bunken-kyoin-kentei"],
     isCanonical: true,
     exam: true,
     tags: ["教育職員免許法", "教員資格", "相当免許状主義"],
@@ -227,7 +227,7 @@ export const systemTerms: Term[] = [
     summary:
       "小学校から中学校までの9年間を一貫した教育課程で行う、2016年施行の改正学校教育法により新設された学校種。",
     body: "義務教育学校とは、小学校教育と中学校教育を一つの学校で一貫して行う学校種で、2015年の学校教育法改正により学校教育法第1条に規定される学校の一つとして位置づけられ、2016年度から制度化されました。従来の小学校6年・中学校3年という学年区分にとらわれず、「4-3-2」など地域や学校の実情に応じた柔軟な学年段階の区切りを設定できる点が特徴です。\n\n義務教育学校では、小学校と中学校で校長や教職員組織が分かれる従来の「小中一貫校」とは異なり、一人の校長のもとで一つの教職員組織が9年間の教育課程を編成・実施します。教員は原則として小学校・中学校の両方の教員免許状を有することが求められ、9年間を見通した系統的な指導や、教職員間の連携強化が図られています。\n\n制度創設の背景には、いわゆる「中1ギャップ」への対応や、小学校高学年からの教科担任制の導入など、発達の早期化に対応した柔軟な教育課程編成へのニーズがありました。2016年4月には全国22校の公立義務教育学校が開校し、その後も設置数は増加しています。",
-    relatedSlugs: ["rokusansei", "gakko-kyoiku-ho", "chuko-ikkan-kyoiku", "gimu-kyoiku", "school-education-law-article-1-scope", "elementary-junior-high-cooperative-models", "nine-year-continuous-moral-curriculum"],
+    relatedSlugs: ["rokusansei", "gakko-kyoiku-ho", "chuko-ikkan-kyoiku", "gimu-kyoiku", "school-education-law-article-1-scope", "elementary-junior-high-cooperative-models", "nine-year-continuous-moral-curriculum", "compulsory-education-duration-global-expansion"],
     isCanonical: true,
     tags: ["小中一貫教育", "学校教育法", "中1ギャップ", "義務教育学校", "4・3・2制"],
   },
@@ -240,7 +240,7 @@ export const systemTerms: Term[] = [
     summary:
       "中学校と高等学校の6年間を接続し、計画的・継続的な教育課程を編成する制度。1999年度から選択的に導入された。",
     body: "中高一貫教育とは、中学校3年間と高等学校3年間をあわせた6年間を見通し、計画的・継続的な教育指導を行う教育制度です。1998年の学校教育法等の改正により、1999年度から従来の中学校・高等学校に加える選択肢として制度化されました。高校入試の影響を受けずに、6年間を通じたゆとりある学習環境の中で、個性や能力を伸ばすことなどが目的とされています。\n\n中高一貫教育には、一つの学校で中学校段階と高等学校段階を接続する「中等教育学校」、既存の中学校と高等学校を教育課程の面で接続する「併設型」、市町村立中学校と都道府県立高等学校などが教育連携を行う「連携型」の3つの形態があります。設置者や地域の実情に応じて、いずれかの形態が選択されます。\n\n中高一貫校では、6年間を見通した独自の教育課程編成や、先取り学習、探究的な学習の充実などが行われる例が多く、進学実績への注目が集まる一方で、受験競争の低年齢化や地域の学校選択への影響なども指摘されており、教育の機会均等の観点から議論が続けられています。",
-    relatedSlugs: ["gimu-kyoiku-gakko", "rokusansei", "koudai-setsuzoku-kaikaku"],
+    relatedSlugs: ["gimu-kyoiku-gakko", "rokusansei", "koudai-setsuzoku-kaikaku", "hungary-eight-grade-general-school", "taiwan-cap-junior-high-comprehensive-assessment"],
     isCanonical: true,
     tags: ["中等教育学校", "併設型", "連携型"],
   },
@@ -253,7 +253,7 @@ export const systemTerms: Term[] = [
     summary:
       "高等学校を卒業していない者に対し、高卒者と同等以上の学力があるかどうかを認定する国の試験。旧・大学入学資格検定を引き継ぐ制度。",
     body: "高等学校卒業程度認定試験(高認)とは、様々な事情により高等学校を卒業していない者を対象に、文部科学省が高等学校卒業者と同等以上の学力を有するかどうかを認定するために実施する試験です。2004年度まで実施されていた大学入学資格検定(大検)を前身とし、2005年度から名称と制度の一部を改めて実施されています。\n\n大検が主に大学入学資格の付与を目的としていたのに対し、高認は大学等への進学希望の有無にかかわらず、高等学校を卒業した者と同等の学力を証明する資格として位置づけられている点が特徴です。合格すると大学・短期大学・専門学校等の受験資格が得られるほか、就職や資格試験の受験においても高等学校卒業者と同等に扱われる場合があります。\n\n受験資格は原則として満16歳以上(合格時に満18歳に達していることが卒業程度資格取得の要件)とされており、高等学校を中途退学した人や、不登校などにより高等学校に通えなかった人、学び直しを希望する社会人など、多様な背景を持つ人々の学習機会を保障する制度として機能しています。",
-    relatedSlugs: ["futoko", "shogai-gakushu", "kyoiku-kikai-kinto"],
+    relatedSlugs: ["futoko", "shogai-gakushu", "kyoiku-kikai-kinto", "upper-secondary-specialized-training-university-eligibility"],
     isCanonical: true,
     tags: ["高認", "学力認定", "学び直し"],
   },
@@ -293,7 +293,7 @@ export const systemTerms: Term[] = [
     summary:
       "保護者や地域住民等が学校運営に関して校長に意見を述べる仕組み。2000年の学校教育法施行規則改正により導入された。",
     body: "学校評議員制度とは、学校が保護者や地域住民等の意向を把握・反映し、その協力を得るとともに、学校としての説明責任を果たしていくことを目的として、2000年の学校教育法施行規則の改正により導入された制度です。校長の推薦により教育委員会等が委嘱した学校評議員が、学校運営に関して校長の求めに応じて意見を述べることができます。\n\n学校評議員はあくまで個人として意見を述べる立場にあり、合議制の機関として意思決定を行うものではない点が特徴です。この点で、後に導入された学校運営協議会(コミュニティ・スクール)制度が、合議体として一定の権限(教職員任用に関する意見具申など)を持つのとは性格を異にしています。\n\n学校評議員制度は、開かれた学校づくりを進める初期の代表的な取り組みとして各地の学校に広がり、地域と学校の連携の基盤を築いてきました。現在では、より権限の強い学校運営協議会制度への移行や併用が進む学校も増えていますが、学校評議員制度自体も引き続き多くの学校で活用されており、地域住民の声を学校運営に取り入れる入口としての役割を果たし続けています。",
-    relatedSlugs: ["community-school", "team-gakko", "gakko-kyoiku-ho"],
+    relatedSlugs: ["community-school", "team-gakko", "gakko-kyoiku-ho", "board-members-appointment-parent-quota"],
     isCanonical: true,
     exam: true,
     tags: ["開かれた学校", "学校運営", "地域連携"],
@@ -307,7 +307,7 @@ export const systemTerms: Term[] = [
     summary:
       "義務教育諸学校の児童生徒に対し、教科用図書を無償で給与する制度。1963年制定の教科書無償措置法などに基づく。",
     body: "教科書無償制度とは、公立・私立を問わず義務教育諸学校(小学校・中学校等)に在籍する児童生徒に対し、使用する教科用図書を無償で給与する制度です。1962年制定の義務教育諸学校の教科用図書の無償措置に関する法律(教科書無償措置法)などを根拠とし、1963年度から学年進行で実施が始まり、1969年度に小中学校の全学年で無償給与が完成しました。\n\nこの制度は、日本国憲法第26条が定める義務教育の無償の理念を、授業料の不徴収に加えて教科書の面でも具体化するものと位置づけられています。無償給与される教科書は、教科書検定制度を経て検定に合格した図書の中から、市町村ごとに設置される教科書採択地区協議会等での審議を経て採択されます。\n\n高等学校の教科書は原則として保護者負担ですが、高等学校等就学支援金制度による授業料支援とあわせ、教育費負担の軽減を図る施策の一つとして位置づけられています。教科書無償制度は、家庭の経済状況にかかわらず、すべての児童生徒に等しく教材へのアクセスを保障する仕組みとして機能しています。",
-    relatedSlugs: ["kyokasho-kentei", "gimu-kyoiku", "kyoiku-kikai-kinto"],
+    relatedSlugs: ["kyokasho-kentei", "gimu-kyoiku", "kyoiku-kikai-kinto", "large-print-braille-textbooks-accessibility"],
     isCanonical: true,
     tags: ["義務教育無償", "教科書採択", "教育費負担"],
   },
@@ -360,7 +360,7 @@ export const systemTerms: Term[] = [
     summary:
       "幼稚園と保育所の機能をあわせ持ち、就学前の子どもに教育と保育を一体的に提供する施設。2006年制定の法律に基づき創設された。",
     body: "認定こども園とは、幼稚園(文部科学省所管・教育機関)と保育所(厚生労働省所管・児童福祉施設)の両方の機能をあわせ持ち、就学前の子どもに対して教育と保育を一体的に提供する施設です。2006年制定の「就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律」に基づき創設され、保護者の就労の有無にかかわらず子どもを受け入れられる点が特徴です。\n\n認定こども園には、幼稚園と保育所双方の機能・特色をあわせ持つ「幼保連携型」、認可幼稚園が保育所的機能を備える「幼稚園型」、認可保育所が幼稚園的機能を備える「保育所型」、認可のない地域の教育・保育施設が認定基準を満たす「地方裁量型」の4類型があります。都道府県知事等の認定を受けて設置されます。\n\n2012年制定の子ども・子育て支援法等いわゆる子ども・子育て関連3法により制度の充実が図られ、幼保連携型認定こども園は学校及び児童福祉施設としての法的位置づけを持つ単一の施設として運営されるようになりました。少子化対策や待機児童対策、幼保一元化を進める施策の柱の一つとされています。",
-    relatedSlugs: ["gimu-kyoiku", "kyoiku-kikai-kinto", "shugaku-enjo-seido", "france-ecole-maternelle-early-socialization"],
+    relatedSlugs: ["gimu-kyoiku", "kyoiku-kikai-kinto", "shugaku-enjo-seido", "france-ecole-maternelle-early-socialization", "certified-kodomoen-chief-teacher-role"],
     isCanonical: true,
     diagram: {
       type: "columns",
@@ -383,7 +383,7 @@ export const systemTerms: Term[] = [
     summary:
       "高等学校等に通う生徒の授業料負担を国が支援する制度。2010年度に創設され、家庭の教育費負担軽減と学びの機会保障を目的とする。",
     body: "高等学校等就学支援金制度とは、高等学校等に在学する生徒の授業料に充てるため、国が支援金を支給する制度です。すべての意志ある高校生等が安心して教育を受けられる社会を実現することを目的として2010年度に創設されました。国公立高等学校では授業料相当額を、私立高等学校等ではそれに準じた一定額を、学校設置者を通じて生徒に支給する仕組みがとられています。\n\n制度創設当初は所得制限のない一律支給でしたが、2014年度から一定の所得を超える世帯を対象外とする所得制限が導入され、限られた財源をより支援の必要性が高い世帯に重点的に配分する仕組みへと見直されました。その後も私立高等学校の授業料実質無償化の対象拡大など、段階的な制度拡充が続けられています。\n\nこの制度は、私学助成や就学援助制度などと並び、家庭の経済状況にかかわらず高等学校段階の教育を受けられる環境を整備するための施策として位置づけられています。授業料以外の教育費(教科書費や学用品費等)を対象とする高校生等奨学給付金など、関連する低所得世帯向け支援策とあわせて運用されています。",
-    relatedSlugs: ["shigaku-josei", "shugaku-enjo-seido", "kyoiku-kikai-kinto"],
+    relatedSlugs: ["shigaku-josei", "shugaku-enjo-seido", "kyoiku-kikai-kinto", "higher-ed-aid-tuition-reduction-grants"],
     isCanonical: true,
     tags: ["授業料無償化", "教育費負担軽減", "所得制限"],
   },
@@ -423,7 +423,7 @@ export const systemTerms: Term[] = [
     summary:
       "都道府県・市区町村に置かれる合議制の行政委員会。政治的中立性を保ちながら、地域の学校教育や社会教育を管理・執行する。",
     body: "教育委員会とは、地方教育行政の組織及び運営に関する法律に基づき、すべての都道府県・市区町村に設置される合議制の執行機関です。首長から独立した立場で、学校の設置管理や教職員人事、教科書採択など、地域の教育行政を担います。\n\n教育委員会が首長から独立した組織として置かれているのは、教育行政が特定の政治勢力の影響を受けにくくし、政治的中立性・継続性・安定性を確保するためだとされています。\n\n2015年の制度改正により、教育行政の責任者である教育長と、非常勤の教育委員長の役割が一本化され、首長が議会の同意を得て教育長を任命する仕組みへと見直されました。",
-    relatedSlugs: ["gakko-kyoiku-ho", "chukyo-shin", "kyoiku-seijiteki-churitsusei"],
+    relatedSlugs: ["gakko-kyoiku-ho", "chukyo-shin", "kyoiku-seijiteki-churitsusei", "fundamental-law-article-16-administration-undue", "board-of-education-meeting-disclosure", "board-members-appointment-parent-quota", "education-board-annual-inspection-report"],
     isCanonical: true,
     tags: ["地方教育行政", "政治的中立性", "教育長"],
   },
@@ -436,7 +436,7 @@ export const systemTerms: Term[] = [
     summary:
       "都道府県・政令市教育委員会が公立学校教員を採用するために実施する選考試験です。",
     body: "教員採用試験は、正式には「公立学校教員採用選考試験」と呼ばれ、各都道府県および政令指定都市の教育委員会が、公立学校に勤務する教員を採用するために毎年実施しています。教員免許状の保有または取得見込みが受験の前提となり、一次試験の筆記・論作文、二次試験の面接・模擬授業・実技などを経て採用候補者名簿に登載される仕組みです。\n\n受験者数の減少や退職者の増加により、近年は採用倍率が低下傾向にあります。文部科学省の調査では、令和6年度実施の試験で全体の競争率は過去最低の水準となり、特に小学校で倍率の低さが目立っています。これを受け、各教育委員会は試験の早期化や社会人経験者向けの特別選考、大学在学中の特例選考などを拡充しています。\n\n倍率低下は採用の質の維持という課題を伴う一方、教職への門戸を広げる側面もあります。教員養成大学との連携強化や、実技試験の一部免除、複数自治体併願を可能にする試験日程の調整など、人材確保に向けた制度改善が全国的に進められています。",
-    relatedSlugs: ["kyoiku-komuin-tokurei-ho", "kyoin-menkyojo", "kyoiku-iinkai", "conditional-appointment-probation-period"],
+    relatedSlugs: ["kyoiku-komuin-tokurei-ho", "kyoin-menkyojo", "kyoiku-iinkai", "conditional-appointment-probation-period", "temporary-appointed-teacher-employment-challenges"],
     isCanonical: true,
     tags: ["教員採用", "教育委員会", "教員養成"],
   },
@@ -449,7 +449,7 @@ export const systemTerms: Term[] = [
     summary:
       "教育公務員特例法に基づき任命権者が実施する、初任者と中堅教員向けの法定研修制度です。",
     body: "初任者研修は、教育公務員特例法第23条に基づき、新規採用された公立学校教諭等に対して採用後1年間実施される研修です。指導教員のもとで実践的指導力や使命感を養うことを目的とし、校内研修と校外研修を組み合わせて行われます。制度は1989年度から導入されました。\n\n中堅教諭等資質向上研修は、同法第24条に規定され、一定の経験を積んだ教諭等を対象に、学校運営の中核を担う人材としての資質向上を図る研修です。旧「十年経験者研修」を2017年の法改正で見直し、実施時期を任命権者の判断で弾力化した制度として再編されました。\n\nこれらの研修は、任命権者が策定する教員研修計画に位置づけられ、初任者研修と合わせて教員のキャリアステージに応じた体系的な資質向上の柱とされています。研修の実効性を高めるため、各教育委員会は校内OJTや大学・教育センターとの連携を強化しています。",
-    relatedSlugs: ["kyoiku-komuin-tokurei-ho", "kyoin-saiyo-shiken", "lesson-study"],
+    relatedSlugs: ["kyoiku-komuin-tokurei-ho", "kyoin-saiyo-shiken", "lesson-study", "teacher-shortage-recruitment-crisis", "generational-shift-teacher-mentorship"],
     isCanonical: true,
     tags: ["教員研修", "教育公務員特例法", "初任者"],
   },
@@ -489,7 +489,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校教育法第1条校以外で職業教育などを行う専修学校と各種学校の制度上の区分です。",
     body: "専修学校は学校教育法第124条に基づき、職業もしくは実際生活に必要な能力の育成または教養の向上を目的として、組織的な教育を一定の要件のもとで行う教育機関です。修業年限や授業時数などの基準を満たすと専修学校として認可され、高等課程・専門課程・一般課程に分かれます。専門課程修了者は「専門士」の称号を得られます。\n\n各種学校は同法第134条に規定され、学校教育に類する教育を行う施設のうち、専修学校や他の法律に特別の規定があるもの以外を指します。1975年の学校教育法改正で専修学校制度が創設され、一定規模以上の各種学校の多くが専修学校へ移行した経緯があります。\n\n両者はいずれも学校教育法第1条に列挙される正規の学校（幼稚園から大学まで）には含まれない「1条校以外の学校」ですが、専修学校の方がより体系的な設置基準を備えた制度として位置づけられています。外国人学校の一部は各種学校として認可を受けています。",
-    relatedSlugs: ["gakko-kyoiku-ho", "kosen", "shogai-gakushu", "school-education-law-article-1-scope", "miscellaneous-school-legal-framework", "senshu-school-legal-economic-education"],
+    relatedSlugs: ["gakko-kyoiku-ho", "kosen", "shogai-gakushu", "school-education-law-article-1-scope", "miscellaneous-school-legal-framework", "senshu-school-legal-economic-education", "upper-secondary-specialized-training-university-eligibility"],
     isCanonical: true,
     tags: ["専修学校", "各種学校", "職業教育"],
   },
@@ -515,7 +515,7 @@ export const systemTerms: Term[] = [
     summary:
       "レポート・スクーリング・試験により卒業要件を満たす、通信制課程を置く高等学校です。",
     body: "通信制高校は、学校教育法に定める高等学校の通信制課程を置く学校で、添削指導（レポート）、面接指導（スクーリング）、試験の3要素により単位を修得し、卒業要件を満たします。全日制・定時制と異なり通学の頻度が少なく、生徒の生活状況や学習ペースに応じた学びが可能な点が特徴です。\n\n生徒募集の範囲により、隣接する1都道府県までを対象とする「狭域通信制」と、3都道府県以上から生徒を受け入れる「広域通信制」に分けられます。公立の通信制高校はほとんどが狭域である一方、広域通信制の多くは学校法人や株式会社が設置する私立校で、分校・協力校・技能連携施設などを活用して全国からの入学を受け入れています。\n\n不登校経験者や社会人、高校中退者の学び直しの受け皿として通信制高校の在籍者数は増加傾向にあります。一方で、広域通信制校の中にはサポート施設の教育の質や運営実態が問題視される事例もあり、文部科学省による指導監督の強化が進められています。",
-    relatedSlugs: ["teijisei-kotogakko", "futoko", "koko-chuutai", "part-time-correspondence-high-school-safety"],
+    relatedSlugs: ["teijisei-kotogakko", "futoko", "koko-chuutai", "part-time-correspondence-high-school-safety", "high-school-dropouts-social-exclusion"],
     isCanonical: true,
     tags: ["通信制高校", "高校教育", "学び直し"],
   },
@@ -528,7 +528,7 @@ export const systemTerms: Term[] = [
     summary:
       "夜間その他特別な時間に授業を行う高等学校の課程で、多様な生徒層に対応します。",
     body: "定時制課程は、学校教育法第4条において「夜間その他特別の時間又は時期において授業を行う課程」と定義される高等学校の課程です。夜間定時制が伝統的な形態ですが、近年は昼間の特定時間帯に授業を行う昼間定時制や、多部制・単位制など多様な履修形態が広がっています。\n\n修業年限はかつて4年以上とされていましたが、1989年度から3年以上に弾力化され、全日制と同様に3年で卒業することも可能になりました。勤労青少年に高校教育の機会を提供することを主な目的として戦後に整備された制度ですが、現在は不登校経験者や外国につながる生徒、学び直しを希望する社会人など、入学者層が多様化しています。\n\n生徒のニーズの多様化に伴い、定時制高校では給食の提供や少人数指導、スクールソーシャルワーカーの配置など、きめ細かな支援体制の整備が進められています。一方で少子化に伴う生徒数減少により、統廃合が進む地域もあります。",
-    relatedSlugs: ["tsushinsei-kotogakko", "koko-chuutai", "shugaku-enjo-seido", "part-time-correspondence-high-school-safety"],
+    relatedSlugs: ["tsushinsei-kotogakko", "koko-chuutai", "shugaku-enjo-seido", "part-time-correspondence-high-school-safety", "high-school-dropouts-social-exclusion"],
     isCanonical: true,
     tags: ["定時制高校", "高校教育", "勤労青少年"],
   },
@@ -555,7 +555,7 @@ export const systemTerms: Term[] = [
     summary:
       "児童生徒等と職員の健康の保持増進および学校の安全管理について定める法律です。",
     body: "学校保健安全法は、児童生徒等および職員の健康の保持増進を図るための保健管理と、教育活動が安全な環境で実施されるための安全管理について定める法律です。1958年制定の学校保健法を前身とし、2008年の改正により学校安全に関する規定が大幅に強化され、2009年4月に現在の名称で施行されました。\n\n保健管理の面では、学校保健計画の策定、児童生徒等・職員の定期健康診断、環境衛生検査、感染症予防のための出席停止・臨時休業などが定められています。安全管理の面では、各学校に学校安全計画の策定を義務付けるとともに、事故や不審者侵入などの緊急時に教職員が取るべき対応を定めた危険等発生時対処要領（危機管理マニュアル）の作成を求めています。\n\n近年は自然災害や不審者事案の多様化を受け、学校安全計画の実効性向上や地域・保護者との連携が課題とされています。養護教諭やスクールカウンセラーとの連携による健康相談体制の充実も、同法に基づく重要な取り組みの一つです。",
-    relatedSlugs: ["hokenshitsu-tokou", "shusseki-teishi", "gakko-kyushoku-ho", "school-education-law-article-12-health-management", "yogo-teacher-statutory-duties", "epilepsy-seizure-emergency-school", "school-health-examination-data-utilization"],
+    relatedSlugs: ["hokenshitsu-tokou", "shusseki-teishi", "gakko-kyushoku-ho", "school-education-law-article-12-health-management", "yogo-teacher-statutory-duties", "epilepsy-seizure-emergency-school", "school-health-examination-data-utilization", "regular-health-checkup-items-followup"],
     isCanonical: true,
     exam: true,
     tags: ["学校保健", "学校安全", "健康診断"],
@@ -595,7 +595,7 @@ export const systemTerms: Term[] = [
     summary:
       "子どもの権利保障を目的とする基本法と、それを推進する行政組織であるこども家庭庁の制度です。",
     body: "こども基本法は2022年6月に成立し2023年4月に施行された法律で、日本国憲法および児童の権利に関する条約の精神にのっとり、子どもの権利を包括的に保障し、子ども施策を社会全体で総合的・強力に推進することを目的としています。子どもの意見表明権の尊重や最善の利益の優先などが基本理念として掲げられています。\n\n同時期の2023年4月、内閣府の外局としてこども家庭庁が発足しました。従来は文部科学省・厚生労働省・内閣府などに分かれていた子ども関連施策の司令塔機能を一元化し、「こどもまんなか社会」の実現を掲げて、少子化対策、児童虐待防止、貧困対策などを横断的に担う組織です。\n\n学校教育そのものは引き続き文部科学省が所管しますが、いじめ防止や不登校支援、家庭教育支援など、教育と福祉が交錯する領域ではこども家庭庁との連携が不可欠となっています。両者の制度創設は、子ども政策における縦割り行政の解消を目指す近年最大の改革の一つと位置づけられています。",
-    relatedSlugs: ["kyoiku-kikai-kakuho-ho", "hinkon-no-rensa", "ijime-boshi"],
+    relatedSlugs: ["kyoiku-kikai-kakuho-ho", "hinkon-no-rensa", "ijime-boshi", "fundamental-law-article-10-home-education", "child-rights-advocacy-respectful-caregiving"],
     isCanonical: true,
     tags: ["こども基本法", "こども家庭庁", "子どもの権利"],
   },
@@ -804,7 +804,7 @@ export const systemTerms: Term[] = [
     summary:
       "2007年の学校教育法改正で新設された職。主幹教諭は校長・教頭を助け校務の一部を整理し、指導教諭は他の教員への指導助言を行う、いわゆる「中間管理職」的な職。",
     body: "主幹教諭・指導教諭は、2007年(平成19年)の学校教育法改正により、副校長とともに新設された学校の職である。従来、学校の管理職は校長・教頭のみで、それ以外の教員(教諭)は基本的に同格の存在として位置づけられていたが、学校運営の組織化・効率化を図る観点から、管理職と一般教諭の中間に位置する職として主幹教諭・指導教諭が制度化された。いずれも任意設置の職であり、設置するかどうかは各都道府県・市区町村の判断による。\n\n主幹教諭は、校長及び教頭を助け、命を受けて校務の一部を整理するとともに、児童生徒の教育をつかさどるとされ、学校運営組織における中間的なマネジメント機能(いわゆるミドルリーダー)を担う。一方、指導教諭は、児童生徒の教育をつかさどるとともに、他の教諭等に対して教育指導の改善及び充実のために必要な指導・助言を行う職であり、管理職的な性格よりも授業や指導技術面での専門性発揮に重点が置かれる。\n\nこれらの職の新設は、学校の組織的な運営体制の強化やベテラン教員の専門性の可視化・処遇改善を意図したものであるが、実際の設置状況や職務内容、給与上の処遇は自治体によって差があり、特に主幹教諭については業務負担の増大や、管理職と一般教諭との間での役割の曖昧さが課題として指摘されている。",
-    relatedSlugs: ["team-gakko", "kyoshi-tabosei-burnout", "staff-development"],
+    relatedSlugs: ["team-gakko", "kyoshi-tabosei-burnout", "staff-development", "school-education-law-article-37-principal-vice"],
     isCanonical: true,
     tags: ["学校組織", "教員制度", "法制度", "ミドルリーダー"],
   },
@@ -817,7 +817,7 @@ export const systemTerms: Term[] = [
     summary:
       "公立中学校等の休日の部活動を、学校ではなく地域のスポーツ・文化クラブが担う体制へ段階的に移行する国の改革。教員の働き方改革と持続可能な活動環境の両立を目指す。",
     body: "部活動の地域移行は、公立中学校等における部活動を、学校単位・教員の顧問体制に依存する従来の形から、地域のスポーツ団体・文化芸術団体等が主体となって運営する「地域クラブ活動」へと段階的に移していく改革である。背景には、教員の長時間勤務の大きな要因となってきた部活動指導の負担軽減(働き方改革)と、少子化により単独校では部活動の維持が困難になっている地域の実情、生徒がスポーツ・文化活動に継続的に親しめる環境の確保という複数の課題がある。\n\nスポーツ庁・文化庁は2022年12月、「学校部活動及び新たな地域クラブ活動の在り方等に関する総合的なガイドライン」を策定し、まず公立中学校等の休日の部活動について、2023年度から2025年度末までを「改革推進期間」と位置づけ、地域連携・地域クラブ活動への移行を段階的に進めることを示した。各自治体は実証事業等を通じて、複数校合同の地域クラブ運営、部活動指導員の活用、受益者負担の在り方などを検討している。\n\n2025年5月には、休日に加え平日の部活動についても原則地域展開を目指す方針がスポーツ庁・文化庁の最終とりまとめとして示されるなど、移行の対象は段階的に拡大している。一方、指導者の確保、会費等の保護者負担、地方と都市部の格差、大会参加資格の扱いなど、実施体制の整備には多くの課題が残されている。",
-    relatedSlugs: ["kyoshi-tabosei-burnout", "school-cloud-service", "tokubetsu-katsudo", "bukatsu-no-shakaigaku", "community-school"],
+    relatedSlugs: ["kyoshi-tabosei-burnout", "school-cloud-service", "tokubetsu-katsudo", "bukatsu-no-shakaigaku", "community-school", "club-activities-sportsmanship-etiquette", "extracurricular-safety-accident-prevention"],
     isCanonical: true,
     tags: ["部活動", "働き方改革", "地域連携", "中学校", "部活動改革", "地域移行"],
   },
@@ -830,7 +830,7 @@ export const systemTerms: Term[] = [
     summary:
       "教員が児童生徒への指導や教材研究に注力できるよう、印刷・採点補助・データ入力等の事務的業務を支援するスタッフ。通称「スクール・サポート・スタッフ」。",
     body: "教員業務支援員は、教員の業務負担を軽減し、教員がより児童生徒への指導や教材研究に注力できる環境を整えることを目的に配置される支援スタッフである。文部科学省は2018年度(平成30年度)から「スクール・サポート・スタッフ(SSS)」の名称で配置支援を事業化し、2021年の学校教育法施行規則改正により「教員業務支援員」として名称と職務内容が省令上に位置づけられた(同規則第65条の7)。\n\n職務内容は、学習プリントの印刷・配布準備、採点業務の補助、学校行事や式典の準備補助、各種データの入力・集計、掲示物の張り替え、新型コロナウイルス感染症対応時の消毒作業など多岐にわたり、教員でなくても対応可能な業務を代替・補助することで、教員の在校等時間の縮減につなげることが狙いである。配置費用は国が3分の1を補助する仕組みで、多くの自治体で公立小中学校を中心に配置が進んでいる。\n\n教員の働き方改革の一環として、教員業務支援員に加え、部活動指導員、スクールカウンセラー、スクールソーシャルワーカー、ICT支援員など、学校に専門スタッフを配置し「チーム学校」として教育活動を支える体制整備が進められており、教員業務支援員の配置拡充もその一環に位置づけられる。近年は全公立小中学校への配置や、副校長・教頭を支援するマネジメント支援員の新設など、支援スタッフの充実が図られている。",
-    relatedSlugs: ["team-gakko", "kyoshi-tabosei-burnout", "school-counselor", "school-social-worker", "teacher-work-style-reform-policy"],
+    relatedSlugs: ["team-gakko", "kyoshi-tabosei-burnout", "school-counselor", "school-social-worker", "teacher-work-style-reform-policy", "school-administrative-staff-duties"],
     isCanonical: true,
     tags: ["学校組織", "働き方改革", "チーム学校", "支援スタッフ"],
   },
@@ -947,7 +947,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校保健安全法に基づき国が閣議決定で定める、学校安全の総合的な推進計画。おおむね5年ごとに策定され、現行は令和4年度から8年度の第3次計画である。",
     body: "「学校安全の推進に関する計画」は、学校保健安全法第3条第2項に基づき、国が学校安全の推進に関する施策の基本的な方向と具体的な方策を定める計画です。おおむね5年ごとに閣議決定され、第1次計画は平成24年度から28年度を期間としました。学校の安全を、生活安全・交通安全・災害安全の各領域にわたって総合的に進める点が特徴です。\n\n現行の第3次計画は、令和3（2021）年3月の諮問を受けた中央教育審議会が令和4（2022）年2月7日に答申をまとめ、同年3月25日に閣議決定されました。計画期間は令和4年度から令和8年度までの5年間で、学校が作成する計画やマニュアルに基づく取組の実効性、取組内容や意識の差などを課題として、防災教育における地域の災害リスクを踏まえた実践的な訓練など、5つの推進方策を示しています。地方公共団体は、国が講じる措置に準じた措置を講ずるよう努めることとされています。\n\n学校現場では、同法第27条に基づく「学校安全計画」（施設設備の安全点検、通学を含む安全指導、教職員研修など）の策定・実施が全ての学校に義務づけられ、第29条に基づく「危険等発生時対処要領（危機管理マニュアル）」の作成も求められます。国の計画はこれらの取組の指針として機能しており、第3次計画の期間が令和8年度までであることから、次期計画に向けた検討が進められる時期にあたります。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-saigai-kyosai-kyufu", "chukyo-shin", "gakko-anzen-sanryoiki", "japan-sport-council-mutual-aid-benefits"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-saigai-kyosai-kyufu", "chukyo-shin", "gakko-anzen-sanryoiki", "japan-sport-council-mutual-aid-benefits", "school-evacuation-center-disaster-resilience", "school-safety-plan-disaster-crime-traffic"],
     isCanonical: true,
     tags: ["学校安全", "防災教育", "閣議決定", "学校安全計画", "学校保健安全法", "安全管理"],
   },
@@ -960,7 +960,7 @@ export const systemTerms: Term[] = [
     summary:
       "教師等による児童生徒への性暴力を禁じ、免許失効者の情報を共有するデータベースを整備した2021年成立の議員立法。2022年4月に施行された。",
     body: "「教育職員等による児童生徒性暴力等の防止等に関する法律」は、令和3（2021）年6月4日に公布され、令和4（2022）年4月1日に施行された議員立法です。令和5（2023）年7月13日に一部改正されています。教育職員等による児童生徒への性暴力が児童生徒の心身に長期にわたり重大な影響を与えることから、その防止と対処の基本を定め、児童生徒の権利利益の擁護を図ることを目的としています。\n\n法は、教育職員等が児童生徒に性暴力等を行うことを禁止し、学校設置者や教育委員会に早期発見・相談体制の整備や、性暴力が疑われる場合の調査などの措置を求めています。とりわけ重要なのが、懲戒免職などにより教員免許状が失効した者等の情報を管理するデータベースです。国が整備する「特定免許状失効者管理システム」は令和5年4月1日から稼働し、教育職員を任命・雇用する際には、これを活用して処分歴を確認することが義務づけられています。免許管理者である都道府県教育委員会が情報を速やかに記録し、当面、少なくとも40年間分の記録を蓄積する方針が示されています。\n\n文部科学省は令和7（2025）年12月にも、データベースの活用状況の調査結果を踏まえ、活用の徹底を通知しています。わいせつ行為で処分された教員が他の自治体で再び教壇に立つ事態を防ぐ制度であり、学校外の事業者を対象とする「こども性暴力防止法（日本版DBS）」と並んで、子供を性暴力から守る法制度の柱となっています。",
-    relatedSlugs: ["kodomo-seiboryoku-boshi-ho", "kyoin-menkyojo", "kyoiku-komuin-tokurei-ho", "chokai-shobun"],
+    relatedSlugs: ["kodomo-seiboryoku-boshi-ho", "kyoin-menkyojo", "kyoiku-komuin-tokurei-ho", "chokai-shobun", "school-education-law-article-9-disqualification"],
     isCanonical: true,
     tags: ["性暴力防止", "教員免許", "データベース"],
   },
@@ -986,7 +986,7 @@ export const systemTerms: Term[] = [
     summary:
       "教員免許状を持たない社会人等を学校に迎え入れるため、1988年に創設された二つの仕組み。特別免許状は教諭として、特別非常勤講師は教科の一部を担う非常勤で任用する。",
     body: "特別免許状と特別非常勤講師制度は、昭和63（1988）年の教育職員免許法の改正で創設された、社会人等の多様な人材を学校教育に活用する仕組みです。いずれも、大学での教職課程を修了していない専門家が、優れた知識・経験を学校に生かすことを可能にします。\n\n特別免許状は、教科に関する優れた知識経験等を有する社会人等を「教諭」として迎え入れるための免許状で、都道府県教育委員会が行う教育職員検定によって授与されます。通常の普通免許状と異なり、大学の教職課程の修了を要しない点が特徴です。文部科学省は、授与の判断が円滑に行われるよう、平成26（2014）年6月に「特別免許状の授与に係る教育職員検定等に関する指針」を策定し、活用を促しています。\n\n一方、特別非常勤講師制度は、あらかじめ都道府県教育委員会に届け出ることで、免許状を持たない者を教科の領域の一部を担当する非常勤の講師に充てることができる制度です。地域の人材や専門分野の社会人が、特定の単元や領域に特化して授業に参画する場合に用いられ、通常は長期の任用は想定されていません。教員不足への対応や、プログラミング、農業、芸術、外国語などの専門性を生かす手段として注目されていますが、教育の質や継続性の確保が課題として挙げられます。",
-    relatedSlugs: ["kyoin-menkyojo", "menkyogai-kyoka-tannin", "kyoin-saiyo-shiken", "kyoiku-komuin-tokurei-ho"],
+    relatedSlugs: ["kyoin-menkyojo", "menkyogai-kyoka-tannin", "kyoin-saiyo-shiken", "kyoiku-komuin-tokurei-ho", "part-time-teacher-hourly-contract-regulations"],
     isCanonical: true,
     tags: ["教員免許", "社会人活用", "多様な人材"],
   },
@@ -1012,7 +1012,7 @@ export const systemTerms: Term[] = [
     summary:
       "大学の教職課程で共通に修得させる内容を、一般目標・到達目標として示した指針。2017年11月に作成され、課程認定の審査の基準としても用いられる。",
     body: "教職課程コアカリキュラムは、全国の大学が教職課程を編成する際に、教員養成の質を担保するため、共通に修得させるべき内容を示したものです。平成28（2016）年11月の教育職員免許法等の改正に続き、平成29（2017）年11月に作成され、あわせて教育職員免許法施行規則も改正されました。令和元（2019）年度からは、これに基づく新しい教職課程が各大学で始まりました。\n\nコアカリキュラムは、「教職の意義等に関する科目」「教育の基礎的理解に関する科目」「道徳、総合的な学習の時間等の指導法及び生徒指導、教育相談等に関する科目」といった科目区分ごとに、「全体目標」「一般目標」「到達目標」を定める形で構成されています。各大学は、これを踏まえつつ、独自の教育内容を加えて授業を設計します。文部科学省は、教職課程の審査・認定や実地視察でもコアカリキュラムを活用するとしており、大学の教員養成の質を点検する基準としての役割も持ちます。\n\nその後、省令改正や追加事項に関するコアカリキュラムの整備が行われ、ICTの活用に関する内容なども制度に位置づけられました。養成段階の学びの全国的な標準化を図る一方、大学の自主性・独自性との両立や、教員養成の実質的な質をどう保証するかが課題とされます。",
-    relatedSlugs: ["kyoin-menkyojo", "kyoshoku-daigakuin", "menkyo-koshinsei-haishi", "kyoin-ikusei-shihyo", "moral-education-methodology-teacher-training"],
+    relatedSlugs: ["kyoin-menkyojo", "kyoshoku-daigakuin", "menkyo-koshinsei-haishi", "kyoin-ikusei-shihyo", "moral-education-methodology-teacher-training", "teacher-license-renewal-system-history"],
     isCanonical: true,
     tags: ["教員養成", "教職課程", "課程認定"],
   },
@@ -1025,7 +1025,7 @@ export const systemTerms: Term[] = [
     summary:
       "1949年制定の、公民館や社会教育委員など社会教育の基本事項を定めた法律。教育委員会事務局に置かれる専門職員が社会教育主事で、2020年度に社会教育士の称号が加わった。",
     body: "社会教育法は、昭和24（1949）年に制定された法律（昭和24年法律第207号）で、教育基本法の精神に則り、社会教育に関する国および地方公共団体の任務を明らかにすることを目的としています。社会教育とは、学校の教育課程として行われる教育活動を除き、主として青少年および成人に対して行われる組織的な教育活動（体育およびレクリエーションの活動を含む）をいうと定義されています。公民館、社会教育委員、社会教育関係団体などに関する規定が置かれ、図書館法・博物館法とともに社会教育行政の法的基盤を成します。\n\n同法第9条の2により、都道府県および市町村の教育委員会の事務局には、専門的職員として社会教育主事が置かれます。社会教育主事は、社会教育を行う者に専門的技術的な助言と指導を与える役割を担い、社会教育主事講習の修了や、大学での養成課程における所定の単位の修得と一定の経験年数が資格要件です。令和2（2020）年度からは、講習・養成課程の学習成果を広く社会に生かすため、所定の科目を修了した者が「社会教育士」と称することができるようになりました。講習・養成課程には「生涯学習支援論」「社会教育経営論」が新設され、養成課程では社会教育実習も必修化されています。\n\nまた、平成29（2017）年の改正では、地域学校協働活動に関する規定が設けられ、教育委員会による地域住民等と学校との連携協力体制の整備や、地域学校協働活動推進員の委嘱などが法律に位置づけられました。社会教育は、学校教育を補完・連携しながら生涯学習社会を支える領域として重要性を増しています。",
-    relatedSlugs: ["kyoiku-kihon-ho", "shogai-gakushu", "chiiki-gakko-kyodo-katsudo", "shogai-gakushu-shinko-ho", "fundamental-law-article-12-social-education", "regional-school-coordinator-volunteers"],
+    relatedSlugs: ["kyoiku-kihon-ho", "shogai-gakushu", "chiiki-gakko-kyodo-katsudo", "shogai-gakushu-shinko-ho", "fundamental-law-article-12-social-education", "regional-school-coordinator-volunteers", "sasaki-kenji-life-record-pedagogy"],
     isCanonical: true,
     tags: ["社会教育", "公民館", "社会教育士"],
   },
@@ -1051,7 +1051,7 @@ export const systemTerms: Term[] = [
     summary:
       "地域と学校がパートナーとして共に子供たちを育てる活動。2017年の社会教育法改正で法律上に位置づけられ、地域学校協働活動推進員が置かれる。",
     body: "地域学校協働活動は、社会教育法に規定する活動であって、地域と学校がパートナーとして、共に子供たちを育てるために行うものを指します。平成27（2015）年の中央教育審議会答申で、従来の学校支援地域本部などの取組を発展させる方向が示されたことを受け、平成29（2017）年3月の社会教育法の改正により、法律に位置づけられました。地域の高齢者、保護者、PTA、NPO、企業など幅広い住民や団体が参画し、学習支援、体験活動、登下校の見守り、放課後の学びの場づくりなどが行われます。\n\n改正社会教育法は、教育委員会が地域住民等と学校との連携協力体制の整備や、地域学校協働活動に関する普及啓発を行うことを定めました。また、第9条の7に基づき、教育委員会が地域学校協働活動推進員を委嘱できることとされました。推進員は、地域と学校の情報共有や活動への助言を行い、活動の企画・立案、連絡調整、ボランティアの確保などを担います。文部科学省は平成29年4月に「地域学校協働活動の推進に向けたガイドライン」を策定しています。\n\n同じ平成29年の改正では、地方教育行政法の側でコミュニティ・スクール（学校運営協議会）の設置が教育委員会の努力義務とされ、両者は「車の両輪」として一体的に推進することが期待されています。コミュニティ・スクールが学校運営に関して保護者や地域住民が意見を述べる「熟議の場」であるのに対し、地域学校協働活動は、具体的な活動を通じて子供の育ちを支える実践の仕組みです。",
-    relatedSlugs: ["community-school", "shakai-kyoiku-ho", "bukatsudo-chiiki-ikou", "kyoiku-iinkai"],
+    relatedSlugs: ["community-school", "shakai-kyoiku-ho", "bukatsudo-chiiki-ikou", "kyoiku-iinkai", "community-collaborative-inquiry-learning", "fieldwork-interview-investigation-skills", "school-evacuation-center-disaster-resilience", "community-project-outcomes-assessment"],
     isCanonical: true,
     tags: ["地域連携", "社会教育法", "推進員"],
   },
@@ -1077,7 +1077,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校の管理下で生じた児童生徒の負傷・疾病・障害・死亡に、日本スポーツ振興センターが医療費や見舞金を支給する互助共済制度。",
     body: "学校災害共済給付制度は、学校の管理下で起きた災害（負傷、疾病、障害、死亡）に対し、医療費、障害見舞金、死亡見舞金を給付する公的な制度です。独立行政法人日本スポーツ振興センター法に基づき、同センターが運営しており、児童生徒の保護者が経済的な負担を軽減しつつ、学校設置者の責任を補完する仕組みとして機能しています。幼稚園、保育所、幼保連携型認定こども園から高等学校、高等専門学校などまで、広く対象とされています。\n\n運営の財源は、国、学校の設置者、保護者の三者の負担によるいわゆる互助共済方式です。保護者の同意を得たうえで、設置者が掛金を納付して加入し、掛金額は校種や年度により異なります。たとえば小中学校で900円台とした自治体資料があり、生活保護世帯や就学援助の受給世帯については、自治体が全額またはその大部分を負担する場合もあります。給付の対象は学校内の事故に限らず、休憩時間や通学途中での事故も含まれます。医療費は、総額5,000円以上（窓口負担1,500円以上）などの要件があり、生活保護の医療扶助を受けている場合は、障害見舞金と死亡見舞金のみが給付されます。\n\nこの制度は、災害が発生した場合の救済にとどまらず、日本スポーツ振興センターが蓄積した事故事例のデータを、学校安全の推進に役立てる点でも重要です。学校設置者に過失があるか否かにかかわらず給付される一方、学校側に安全配慮義務の違反があれば、別途損害賠償責任が問われる可能性があり、両者は区別されます。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-anzen-suishin-keikaku", "gakko-kiki-kanri", "shugaku-enjo-seido", "japan-sport-council-mutual-aid-benefits"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-anzen-suishin-keikaku", "gakko-kiki-kanri", "shugaku-enjo-seido", "japan-sport-council-mutual-aid-benefits", "public-school-workers-compensation"],
     isCanonical: true,
     tags: ["学校安全", "災害共済", "日本スポーツ振興センター"],
   },
@@ -1116,7 +1116,7 @@ export const systemTerms: Term[] = [
     summary:
       "学年による教育課程の区分を設けず、必要な単位を修得すれば卒業できる高校。1988年に定時制・通信制で導入され、1993年から全日制でも設置できるようになった。",
     body: "単位制高等学校は、学年ごとの教育課程の区分を設けず、学年ごとの課程の修了の認定も行わず、卒業までに所要の単位を修得すれば卒業を認める高等学校です。学年制の高校では、各学年の修了認定を受けないと原級にとどまりますが、単位制では修得した単位が累積されるため、生徒は自分のペースで学ぶことができます。高等学校の卒業要件としては、74単位以上の修得が必要とされています。\n\n制度の出発点は昭和63（1988）年で、同年3月31日の学校教育法施行規則の改正と「単位制高等学校教育規程」の制定により、同年4月から定時制・通信制の課程で導入されました。高校中途退学者や海外帰国生徒などの受け入れが背景にありました。その後、平成5（1993）年3月の学校教育法施行規則の改正（平成5年文部省令第3号）により、全日制の課程でも単位制を設けることができるようになりました。\n\n単位制高校では、生徒の興味・関心や進路に応じた多様な科目選択、他の高校や専修学校等での学修の単位認定、学び直しなどが可能になります。不登校経験のある生徒や、働きながら学ぶ生徒など、多様な背景を持つ生徒への対応として、定時制・通信制高校の整備とともに重要な役割を果たしています。",
-    relatedSlugs: ["teijisei-kotogakko", "tsushinsei-kotogakko", "koko-futsuka-kaikaku", "sogo-gakka"],
+    relatedSlugs: ["teijisei-kotogakko", "tsushinsei-kotogakko", "koko-futsuka-kaikaku", "sogo-gakka", "grade-skipping-retention-international-practice"],
     isCanonical: true,
     tags: ["高等学校", "単位制", "学び直し", "単位制高校", "弾力的履修", "原級留置"],
   },
@@ -1272,7 +1272,7 @@ export const systemTerms: Term[] = [
     summary:
       "私立学校の持つ公の性質と独自の建学精神を尊重し、国や自治体による私学振興と教育の発展を促す基本条項。",
     body: "教育基本法第8条は、私立学校が公教育において果たす重要な役割を認め、その振興を規定した条項である。私立学校は建学の精神に基づく独自で特色ある教育を展開しており、公立学校とともに日本の学校教育体系の重要な一翼を担っている。\n\n本条は、私立学校の公教育としての性格を再確認するとともに、各学校の自主性と独自性を尊重することを定めている。国および地方公共団体は、私立学校振興助成法等に基づき、私学助成の交付や税制上の優遇措置を講じて経営の安定と教育条件の向上を支援する。\n\n教育の多様化が進む現代において、私立学校は先駆的な教育課程や国際教育など特色ある実践を展開して学習者の選択肢を広げている。一方で、少子化による定員割れや家庭の経済格差による進学格差への対応、教育の質の保証が大きな課題となっている。",
-    relatedSlugs: ["gakko-kyoiku-ho", "kyoiku-kihon-ho", "kyoiku-kikai-kinto"],
+    relatedSlugs: ["gakko-kyoiku-ho", "kyoiku-kihon-ho", "kyoiku-kikai-kinto", "chile-voucher-reform-inclusion-law"],
     isCanonical: true,
     tags: ["私立学校", "建学の精神", "私学振興", "自主性"],
   },
@@ -1311,7 +1311,7 @@ export const systemTerms: Term[] = [
     summary:
       "生涯にわたる人格形成の基盤を培う幼児期教育の重要性を位置づけ、その振興と良好な環境整備を定めた規定。",
     body: "教育基本法第11条は、幼児期の教育が生涯にわたる人格形成の基礎を培う極めて重要なものであることを定めた規定である。2006年の法改正によって新設され、義務教育就学前の育ちが子どもの認知能力や非認知能力の発達に決定的役割を持つことが法律上認知された。\n\n本条は、幼児期の健やかな成長を支える良好な教育環境の整備を国および地方公共団体の責務としている。幼稚園教育要領や幼保連携型認定こども園教育・保育要領などの基準に基づき、遊びを通じた総合的な学びの保障や幼児教育無償化施策が推進されている。\n\n幼児教育の現場では、子どもが主体的に周囲の環境と関わり、好奇心や協調性を伸ばす体験的な活動が重視される。幼稚園や保育所と小学校との滑らかな接続の実現や、すべての子どもに質の高い幼児教育を提供する体制の充実が課題となっている。",
-    relatedSlugs: ["youji-kyoiku-mushoka", "youji-kyoiku-suishin-taisei", "youchien-kyoiku-yoryo"],
+    relatedSlugs: ["youji-kyoiku-mushoka", "youji-kyoiku-suishin-taisei", "youchien-kyoiku-yoryo", "elementary-school-visit-pre-transition-experience"],
     isCanonical: true,
     tags: ["幼児教育", "人格形成の基盤", "幼小接続", "幼児教育無償化"],
   },
@@ -1467,7 +1467,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校教育法第19条に基づき、経済的理由により就学困難な学齢児童生徒の保護者に対して市町村が必要な援助を与える就学援助の規定。",
     body: "学校教育法第19条は、経済的理由によって就学困難と認められる学齢児童生徒の保護者に対し、市町村が必要な援助を与えなければならないと定めている。日本国憲法第26条が保障する義務教育無償の精神を実質化し、家庭の貧困による教育格差を防止するための重要な法的根拠である。\n\n本規定に基づく就学援助は、生活保護法適用の要保護世帯と、それに準ずる困窮状態にある準要保護世帯を対象とする。学用品費、通学費、校外活動費、修学旅行費、学校給食費、医療費などが支給対象となり、市町村教育委員会が所得基準や世帯状況を審査して認定と支給の事務を担う。\n\n学校現場では、担任や養護教諭が児童生徒の困窮状況を的確に把握し、制度利用の案内を行う福祉連携が求められている。近年は子どもの貧困問題が深刻化する中、申請手続きの簡素化や入学前支給の実施など、家庭の負担を速やかに軽減する運用の改善が進められている。",
-    relatedSlugs: ["gakko-kyoiku-ho", "gakko-kyushoku-ho", "chiiki-gakko-kyodo-katsudo"],
+    relatedSlugs: ["gakko-kyoiku-ho", "gakko-kyushoku-ho", "chiiki-gakko-kyodo-katsudo", "school-attendance-aid-system-disparity", "material-deprivation-child-poverty-home"],
     isCanonical: true,
     tags: ["学校教育法", "就学援助", "教育機会均等", "要保護児童生徒"],
   },
@@ -1714,7 +1714,7 @@ export const systemTerms: Term[] = [
     summary:
       "地方教育行政の組織及び運営に関する法律に基づき、学校の設置管理や教職員人事等を統括する教育委員会の職務権限。",
     body: "地方教育行政の組織及び運営に関する法律第21条は、地方公共団体が処理する教育に関する事務の管理執行権能が教育委員会にあることを定めている。首長から独立した合議制機関に教育行政を委ねることで、政治的中立性と教育の継続性・安定性を確保することを趣旨としている。\n\n教育委員会の職務権限は、公立学校の設置・管理・廃止、教育財産の管理、教職員の任命や分限・懲戒などの人事管理、学校の組織編成、教育課程の編成基準の設定、教科用図書の採択、社会教育や文化財の保護など多岐にわたる。教育委員会規則の制定権を持ち、所管の教育機関を指導監督する。\n\n教育行政の専門性を生かしつつ、地域住民の意向を反映した学校づくりを推進することが教育委員会の現代的な使命である。近年はコミュニティ・スクールの普及や学校評価の推進などを通じて、地域社会と学校を結ぶ開かれた教育行政の実現に向けた積極的な機能発揮が求められている。",
-    relatedSlugs: ["kyoiku-iinkai", "community-school", "gakko-hyoka"],
+    relatedSlugs: ["kyoiku-iinkai", "community-school", "gakko-hyoka", "citizens-and-state-education-rights-compromise"],
     isCanonical: true,
     tags: ["地方教育行政法", "教育委員会", "管理執行", "教育財産"],
   },
@@ -2013,7 +2013,7 @@ export const systemTerms: Term[] = [
     summary:
       "学校教育に支障のない範囲で校庭・体育館等の学校施設を住民のスポーツや学習活動に提供する社会教育的な連携施策。",
     body: "学校教育法第137条および社会教育法に基づき、学校の教育活動に支障のない範囲で校庭や体育館、教室などを地域住民の活動に提供する事業である。地域社会の生涯学習やスポーツ振興を支える公共施策として定着している。\n\n学校設置者である教育委員会が管理運用規則を定め、地域住民による運営委員会等が利用受付や施錠管理を行う形態が一般的である。少年少女のスポーツ団体やサークル活動、地域の集会、放課後子供教室などの活動場所として活用される。\n\n学校を地域住民の連帯や世代間交流の拠点として活性化させる教育的・地域的意義を持つ。一方で利用者の安全確保や防犯体制の徹底、施設破損時の責任所在、教職員の過重な業務負担を回避するための持続可能な管理体制づくりが重要である。",
-    relatedSlugs: ["community-school", "chiiki-gakko-kyodo-katsudo", "shakai-kyoiku-ho"],
+    relatedSlugs: ["community-school", "chiiki-gakko-kyodo-katsudo", "shakai-kyoiku-ho", "school-consolidation-community-impact", "pfi-method-school-facility-development"],
     isCanonical: true,
     tags: ["学校開放", "体育施設", "社会教育", "地域連携"],
   },
@@ -2039,7 +2039,7 @@ export const systemTerms: Term[] = [
     summary:
       "国際人権規約の精神に基づき、希望するすべての外国人児童生徒の公立学校受入れと就学状況把握・指導体制を整備する施策。",
     body: "憲法上の就学義務は日本国民のみを対象とするが、国際人権規約等の理念に基づき、希望するすべての外国人児童生徒に対して無償の公立学校就学機会を保障する教育行政施策である。文部科学省の就学促進指針等により推進されている。\n\n市町村教育委員会は外国人住民基本台帳などを活用して就学案内を送付し、就学意向の確認や状況把握を行う。入学後は日本人児童生徒に準じて学籍を管理し、特別の教育課程として日本語指導を計画的に実施する。\n\n不就学の防止や日本語習得、母語や文化への配慮が現代の喫緊の課題となっている。多文化共生社会の担い手を育てるため、日本語指導協力員や母語支援員の配置、保護者への多言語による情報提供など、総合的な教育環境の整備が進められている。",
-    relatedSlugs: ["gakureibo", "gimu-kyoiku", "shugaku-enjo-seido"],
+    relatedSlugs: ["gakureibo", "gimu-kyoiku", "shugaku-enjo-seido", "canada-french-immersion-program", "immigrant-reception-classes-integration-europe"],
     isCanonical: true,
     tags: ["外国人児童生徒", "就学促進", "学籍管理", "日本語指導"],
   },
@@ -2065,7 +2065,7 @@ export const systemTerms: Term[] = [
     summary:
       "日本語の習得が不十分な児童生徒に対し、通常学級の授業時間の一部を日本語指導に充てる取り出し指導を正規の教育課程として位置づけた制度。",
     body: "日本語指導の特別の教育課程とは、日本語能力の不足により学校生活や学習に支障がある児童生徒を対象に、別室等での個別指導を正規授業として認める制度である。2014年の学校教育法施行規則改正により、特別支援教育の通級指導に準じる公的枠組みとして制度化された。\n\n本制度では、通常の授業時間から取り出して週当たり数時間（年間上限枠内）の日本語指導を行い、それを正規の授業時数として代替・算定できる。学校は対象児童生徒ごとに「個別の指導計画」を作成し、指導目標や評価内容を明確に記録して指導要録に適切に記載する。\n\n従来の放課後や課外の支援から公教育の正規活動へと格上げされた意義は極めて大きい。しかし、専門的指導が可能な教員の不足や加配教員の定数不足が常態化しており、日常会話だけでなく教科の学習言語を習得させるための指導法の確立が喫緊の課題となっている。",
-    relatedSlugs: ["gaikokujin-jido-seito", "tabunka-kyosei-kyoiku", "kikokushijo-kyoiku", "gakko-kyoiku-ho"],
+    relatedSlugs: ["gaikokujin-jido-seito", "tabunka-kyosei-kyoiku", "kikokushijo-kyoiku", "gakko-kyoiku-ho", "multilingual-translation-apps-foreign-parents"],
     isCanonical: true,
     tags: ["日本語指導", "取り出し指導", "個別の指導計画", "特別の教育課程"],
   },
@@ -2104,7 +2104,7 @@ export const systemTerms: Term[] = [
     summary:
       "中学校と高等学校の教育を一貫して行う単一の学校種であり、6年間を見通した体系的な教育課程を高校入試を挟まずに実施する制度的構造。",
     body: "中等教育学校とは、前期課程3年（中学校相当）と後期課程3年（高等学校相当）を単一の学校組織として一体的に運営する学校である。1998年の学校教育法改正により創設され、6年間の継続的な教育環境を通じて生徒の個性伸長とゆとりある学びを実現する制度として位置づけられた。\n\n本制度では、一人の校長のもとで教員組織や学校施設が一元的に統合される。前期課程の修了時に高校入試を行わないため、学習内容の重複を排除し、先取り学習や長期的な探究活動など、6年間を見通した独自で体系的な教育課程を編成・実施できる運用規則を持つ。\n\n高校受験にとらわれず、知的好奇心や豊かな人間性を深める教育活動を長期計画で推進できる意義がある。一方、単一集団で6年間を過ごすことによる中だるみ現象の防止や、前期課程から後期課程への円滑な移行、途中で進路を変更・転校する生徒への支援体制の整備が課題である。",
-    relatedSlugs: ["chuko-ikkan-kyoiku", "gakko-kyoiku-ho", "rokusansei"],
+    relatedSlugs: ["chuko-ikkan-kyoiku", "gakko-kyoiku-ho", "rokusansei", "compulsory-education-duration-global-expansion"],
     isCanonical: true,
     tags: ["中等教育学校", "中高一貫教育", "前期課程", "後期課程"],
   },
@@ -2143,7 +2143,7 @@ export const systemTerms: Term[] = [
     summary:
       "従来の通学区域に関わらず、豊かな自然環境や少人数でのきめ細かな教育を希望する児童生徒に対し、自治体内全域からの越境就学を認める特認制度。",
     body: "小規模特認校制度とは、市町村教育委員会が指定した少人数の公立学校において、定められた校区を越えて市町村内のどこからでも就学を認める弾力的就学制度である。学校教育法施行令第8条に規定される就学指定変更の権限を自治体が柔軟に運用することで創設された。\n\n本制度では、教育委員会が自然体験、少人数指導、伝統文化学習などの特色ある教育方針を持つ小規模校を特認校に指定する。就学を希望する保護者が申請を行い、通学の安全確保や学校行事への参加など教育委員会が定める一定の要件を満たす場合に就学が認められる。\n\n大規模校での集団生活になじめない児童や個別指導を望む家庭に多様な選択肢を提供し、過疎地域の学校の存続や活性化に寄与する。一方、公共交通のない地域での通学支援や保護者負担の軽減、周辺の通常校との関係性や教育資源のバランスの維持が運営上の課題である。",
-    relatedSlugs: ["tsugaku-kuiki-seido", "gakko-sentakusei", "gakko-tekisei-kibo-haichi"],
+    relatedSlugs: ["tsugaku-kuiki-seido", "gakko-sentakusei", "gakko-tekisei-kibo-haichi", "small-scale-multigrade-classroom-sociology"],
     isCanonical: true,
     tags: ["小規模特認校", "越境就学", "少人数教育", "就学指定変更"],
   },
@@ -2312,7 +2312,7 @@ export const systemTerms: Term[] = [
     summary:
       "貧困や家庭環境等の困難を抱える児童生徒に対し、福祉の専門家が関係機関との連携や環境調整を行う国の活用事業に関する実施指針と運用基準。",
     body: "スクールソーシャルワーカー活用事業とは、児童生徒が置かれた家庭環境や社会環境の困難に対し、福祉的視点から支援を行う専門職配置事業である。2008年度に文部科学省の委託事業として本格開始され、子どもの貧困や虐待問題の顕在化に伴い重要性が急速に高まった。\n\n文部科学省の実施指針に基づき、社会福祉士や精神保健福祉士等の資格を有する専門家が任用される。児童相談所、福祉事務所、医療機関等の関係機関とのネットワーク構築、家庭訪問や保護者支援、校内支援体制の整備など、児童生徒を取り巻く環境への直接的な働きかけを担う。\n\n個人の内面への心理的支援にとどまらず、環境調整を通じて複合的な福祉課題を抱える子どもを救済する要となる。しかし、広域巡回による配置時間の不足、学校教員側の福祉的アプローチへの理解不足、関係機関との連携窓口の業務過重の解消が喫緊の課題とされている。",
-    relatedSlugs: ["school-social-worker", "team-gakko", "school-counselor", "ssw-home-visit-family-support-practice"],
+    relatedSlugs: ["school-social-worker", "team-gakko", "school-counselor", "ssw-home-visit-family-support-practice", "children-cafeteria-community-support-learning", "young-carer-educational-impact-support"],
     isCanonical: true,
     tags: ["スクールソーシャルワーカー", "環境調整", "児童虐待対応", "チーム学校"],
   },

@@ -10,7 +10,7 @@ export const historyTerms: Term[] = [
     summary:
       "江戸時代に町人や農民の子どもへ読み書き算盤を教えた民間の初等教育施設です。",
     body: "寺子屋は江戸時代に全国各地で発達した庶民のための教育施設で、僧侶や神職、浪人、商人などが師匠となり、近隣の子どもを集めて読み書き・算盤・道徳などを教えました。幕府や藩による公的な設置ではなく、地域社会の必要に応じて自然発生的に広がった点が特徴です。\n\n教科書には往来物と呼ばれる手紙形式の教材が多く用いられ、実生活で使う語彙や商業知識、礼儀作法を学びました。入門や卒業の時期も自由で、身分や年齢を問わず通うことができ、幕末期には全国に数万軒存在したと推定されています。\n\n明治維新後、1872年の学制発布により近代的な小学校制度が導入されると、寺子屋の多くはそのまま新設の小学校の校舎や教員として吸収されました。江戸期に培われた高い識字率は、近代化を急速に進める上での基盤となり、日本の教育史における重要な出発点と位置づけられています。",
-    relatedSlugs: ["hanko", "gakusei-1872", "kyokasho-kokutei-seido", "setsuyoshu-muromachi-lexicon-textbook", "fudezuka"],
+    relatedSlugs: ["hanko", "gakusei-1872", "kyokasho-kokutei-seido", "setsuyoshu-muromachi-lexicon-textbook", "fudezuka", "jitsugokyo-dojikyo-elementary-ethics"],
     isCanonical: true,
     tags: ["江戸時代", "庶民教育"],
   },
@@ -23,7 +23,7 @@ export const historyTerms: Term[] = [
     summary:
       "江戸時代に諸藩が藩士の子弟教育のために設立した武士階級向けの教育機関です。",
     body: "藩校は江戸時代に各藩が藩士の子弟を教育するために設立した学校で、儒学を中心に漢学や武芸、後には洋学や医学なども教えられました。岡山藩の花畠教場や会津藩の日新館、水戸藩の弘道館などが代表例で、18世紀以降に全国で急増しました。\n\n教育の目的は忠孝や礼節を重んじる武士道の涵養と、藩政を担う人材の育成にあり、身分に応じた教育課程が組まれていました。幕末には洋学や兵学を取り入れる藩校も現れ、西洋近代知識の受容窓口としての役割も果たしました。\n\n明治維新後、多くの藩校は廃藩置県を経て中学校や師範学校などの近代学校に転換し、地域の高等教育機関の源流となりました。旧藩校の伝統は現在も校名や校風として一部の高校に受け継がれています。",
-    relatedSlugs: ["terakoya", "shihan-gakko-seido", "gakusei-1872", "nisshinkan-aizu-domain-school-code"],
+    relatedSlugs: ["terakoya", "shihan-gakko-seido", "gakusei-1872", "nisshinkan-aizu-domain-school-code", "hashimoto-sanai-keihatsuroku", "kangakue-heian-aristocratic-scholars", "kanazawa-bunko-samurai-library-archive", "gozan-literature-zen-monks-scholarship"],
     isCanonical: true,
     tags: ["江戸時代", "武士教育"],
   },
@@ -36,7 +36,7 @@ export const historyTerms: Term[] = [
     summary:
       "1872年に公布された日本初の近代的学校制度に関する基本法令で、国民皆学を掲げました。",
     body: "学制は1872年(明治5年)に明治政府が公布した日本最初の近代的教育法令で、フランスの学区制などを参考に、全国を大学区・中学区・小学区に分け、国民皆学の理念のもとに小学校教育を普及させることを目指しました。「邑に不学の戸なく、家に不学の人なからしめん」という理念がその序文に示されています。\n\n実際には財政難や受益者負担の学費、伝統的な家業重視の意識などから就学率は当初伸び悩み、1879年には実情に合わせて教育令に改められました。それでも学制は寺子屋など民間の教育資源を組み込みながら、近代学校体系の骨格を初めて示した点で画期的でした。\n\n学制で示された全国統一の学校体系という発想は、その後の教育令、学校令を経て今日の学校制度にまで連なる出発点となり、日本の近代教育史における最初の大きな転換点として位置づけられています。",
-    relatedSlugs: ["kyoikurei", "gakko-rei", "terakoya", "gakku-sei"],
+    relatedSlugs: ["kyoikurei", "gakko-rei", "terakoya", "gakku-sei", "narutaki-juku-siebold-western-medicine", "igakusho-vaccination-tokyo-university-origin", "tokyo-normal-school-national-teacher-training", "meirokusha-modern-enlightenment-society"],
     isCanonical: true,
     exam: true,
     tags: ["明治期", "学校制度"],
@@ -64,7 +64,7 @@ export const historyTerms: Term[] = [
     summary:
       "1886年に初代文部大臣森有礼のもとで公布された小学校令・中学校令・師範学校令などの総称です。",
     body: "学校令は1886年(明治19年)に初代文部大臣森有礼のもとで公布された帝国大学令・師範学校令・中学校令・小学校令の総称で、国家主義的な教育体制の基礎を築きました。教育令期の混乱を収拾し、国家の統制のもとで学校種ごとに目的や修業年限を明確化した点が特徴です。\n\n小学校令では尋常小学校と高等小学校の区分が設けられ、義務教育の年限が定められました。師範学校令では教員養成における規律と服従の精神が強調され、全寮制のもとで軍隊的な訓練が課されました。これらは富国強兵政策と結びついた人材育成の枠組みとして機能しました。\n\nその後、高等女学校令(1899年)や実業学校令(1899年)、専門学校令(1903年)、大学令(1918年)など、学校種別ごとの法令が順次整備され、戦前日本の複線型学校体系が完成していきました。学校令は近代日本の教育制度の骨格を形づくった重要な法令群です。",
-    relatedSlugs: ["shihan-gakko-seido", "koto-jogakko-rei", "senmon-gakko-rei"],
+    relatedSlugs: ["shihan-gakko-seido", "koto-jogakko-rei", "senmon-gakko-rei", "taiso-denshusho", "tokyo-normal-school-national-teacher-training", "inoue-kowashi-nationalist-education-system"],
     isCanonical: true,
     tags: ["明治期", "森有礼"],
   },
@@ -77,7 +77,7 @@ export const historyTerms: Term[] = [
     summary:
       "明治期に整備された小学校・中学校教員を養成するための専門教育機関の制度です。",
     body: "師範学校制度は、近代的な学校教育を担う教員を計画的に養成するために整備された仕組みで、1872年の学制発布と同時期に東京に官立師範学校が設立されたのが始まりです。1886年の師範学校令により、各府県に尋常師範学校、中央に高等師範学校が置かれる体系が確立しました。\n\n師範学校教育の特徴は、全寮制のもとで質実剛健・忠君愛国の精神を重視した規律訓練にあり、学費が官費で賄われる代わりに卒業後の教職服務義務が課されました。この厳格な養成方式は「師範型」と呼ばれる画一的な教員気質を生んだとも指摘されています。\n\n戦後は教育刷新委員会の答申を経て、師範学校は1949年に新制大学の教育学部・学芸学部として再編され、開放制の教員養成制度へと転換しました。この転換は教員養成の質と自由をめぐる議論の出発点として、現在の教員免許制度にも影響を与えています。",
-    relatedSlugs: ["gakko-rei", "joshi-koto-shihan-gakko", "kyoiku-daigaku-tenkan"],
+    relatedSlugs: ["gakko-rei", "joshi-koto-shihan-gakko", "kyoiku-daigaku-tenkan", "taiso-denshusho", "jitsugokyo-dojikyo-elementary-ethics", "tokyo-womens-normal-school-higher-education", "oikawa-heiji-dynamic-education-akashi", "tezuka-kishie-free-education-chiba"],
     isCanonical: true,
     tags: ["教員養成", "明治期"],
   },
@@ -90,7 +90,7 @@ export const historyTerms: Term[] = [
     summary:
       "1899年に公布された、女子中等教育機関としての高等女学校を制度化した法令です。",
     body: "高等女学校令は1899年(明治32年)に公布された勅令で、それまで中学校令の一部として扱われていた女子中等教育を独立させ、修業年限4年を基本とする高等女学校を全国的に整備することを定めました。良妻賢母主義に基づく家事・裁縫などの実科教育が重視された点が特徴です。\n\n中学校が男子の上級学校進学を前提としていたのに対し、高等女学校の教育内容は主に家庭内での役割を担う女性の育成に重点が置かれ、進学よりも家庭教育の担い手を養成することが目的とされました。それでも女子の中等教育機会が制度的に保障された意義は大きいものでした。\n\n戦後の学制改革により高等女学校は新制高等学校に統合され、男女共学が原則となりました。良妻賢母主義的な女子教育の理念は、その後の男女平等教育やジェンダーと教育をめぐる議論の出発点として今日も検証の対象となっています。",
-    relatedSlugs: ["gakko-rei", "joshi-koto-shihan-gakko", "gender-to-kyoiku"],
+    relatedSlugs: ["gakko-rei", "joshi-koto-shihan-gakko", "gender-to-kyoiku", "tokyo-womens-normal-school-higher-education", "haginoya-nakajima-utako-women-waka-education", "shimoda-utako-practical-female-citizenship", "atomi-kakei-aesthetic-female-schooling", "hatoyama-haruko-kyoritsu-womens-vocational"],
     isCanonical: true,
     tags: ["女子教育", "明治期"],
   },
@@ -103,7 +103,7 @@ export const historyTerms: Term[] = [
     summary:
       "1899年に公布された、農業・工業・商業などの実業教育機関を制度化した法令です。",
     body: "実業学校令は1899年(明治32年)、高等女学校令と同日に公布された勅令で、産業の発展に伴って需要が高まっていた農業学校・工業学校・商業学校・水産学校などを統一的な制度のもとに位置づけました。それまで各学校が個別の規則によって運営されていた実業教育を体系化した点が画期的でした。\n\n実業学校は尋常小学校卒業程度を入学資格とし、中学校とは別の実務的な職業教育の系統として発展しました。日清・日露戦争を経て産業の近代化が急速に進むなかで、現場で即戦力となる技術者・実務者の養成機関として重視されました。\n\n戦後は学制改革により実業学校の多くが新制高等学校の職業学科(工業科・商業科・農業科など)に再編されました。実業教育の理念は今日の専門高校や専修学校における職業教育にも受け継がれています。",
-    relatedSlugs: ["koto-jogakko-rei", "gakko-rei", "senshu-gakko-seido"],
+    relatedSlugs: ["koto-jogakko-rei", "gakko-rei", "senshu-gakko-seido", "hatoyama-haruko-kyoritsu-womens-vocational"],
     isCanonical: true,
     tags: ["職業教育", "明治期"],
   },
@@ -129,7 +129,7 @@ export const historyTerms: Term[] = [
     summary:
       "1918年に公布され、帝国大学以外の公立・私立大学の設置を認めた勅令です。",
     body: "大学令は1918年(大正7年)12月に原敬内閣のもとで公布され、翌1919年に施行された勅令です。それまで大学は官立の帝国大学に限られていましたが、この令により道府県立・市立の公立大学と財団法人による私立大学の設置が正式に認められました。単科大学の設置も可能となりました。\n\n大学令公布の背景には、第一次世界大戦後の産業発展に伴う高度専門人材への需要増大と、大正デモクラシー期の高等教育拡張要求がありました。これにより慶應義塾・早稲田・明治などの有力専門学校が相次いで大学に昇格し、私立大学が公的に認知される画期となりました。\n\n大学令によって形成された官公私立が並存する大学制度の枠組みは、戦後の学校教育法における新制大学制度にも受け継がれ、私立大学が高等教育の主要な担い手となる今日の構造の原点となっています。",
-    relatedSlugs: ["senmon-gakko-rei", "daigaku-jichi-no-rekishi", "tokyo-senmon-gakko-waseda-academic-independence"],
+    relatedSlugs: ["senmon-gakko-rei", "daigaku-jichi-no-rekishi", "tokyo-senmon-gakko-waseda-academic-independence", "rinji-kyoiku-kaigi", "keio-gijuku-foundation-independence-self-respect", "student-military-mobilization-suspension-lifted"],
     isCanonical: true,
     tags: ["大正期", "高等教育"],
   },
@@ -142,7 +142,7 @@ export const historyTerms: Term[] = [
     summary:
       "1941年に公布され、小学校を国民学校に改称し皇国民錬成を目的とした戦時教育法令です。",
     body: "国民学校令は1941年(昭和16年)に公布された勅令で、それまでの尋常小学校・高等小学校を廃止し、初等・高等科からなる「国民学校」に一本化しました。教育の目的として「皇国の道」に則った国民の基礎的錬成が掲げられ、修身・国語・国史・地理を統合した「国民科」など教科編成も再編されました。\n\nこの改編は日中戦争の長期化と総力戦体制の強化を背景に、教育を通じた国民統合と戦争動員を強く志向するものでした。教科書の内容も軍国主義的色彩を強め、児童は勤労奉仕や集団訓練にも動員されるようになりました。\n\n1947年の学校教育法制定により国民学校は廃止され、六・三制のもとで新制小学校に改組されました。国民学校令は戦時下における教育の国家統制と軍国主義化を象徴する法令として、戦後教育改革の反省の出発点となりました",
-    relatedSlugs: ["gakuto-shutsujin", "kyoiku-chokugo", "senryo-ka-kyoiku-kaikaku", "imperial-citizens-cultivation-wartime-ideology", "renseika-wartime-integrated-curriculum"],
+    relatedSlugs: ["gakuto-shutsujin", "kyoiku-chokugo", "senryo-ka-kyoiku-kaikaku", "imperial-citizens-cultivation-wartime-ideology", "renseika-wartime-integrated-curriculum", "education-science-research-association-prewar", "national-spiritual-mobilization-wartime-schools"],
     isCanonical: true,
     tags: ["戦時教育", "昭和戦前期"],
   },
@@ -168,7 +168,7 @@ export const historyTerms: Term[] = [
     summary:
       "連合国軍総司令部の民間情報教育局(CIE)が主導した、戦後日本の民主的教育改革です。",
     body: "太平洋戦争敗戦後、連合国軍総司令部(GHQ)は民間情報教育局(CIE, Civil Information and Education Section)を設置し、軍国主義・超国家主義を排除し民主主義に基づく教育制度を構築する改革を進めました。1945年末には修身・日本歴史・地理の授業が一時停止され、教科書の不適切な記述を墨で塗りつぶす「墨塗り教科書」が象徴的な措置として実施されました。\n\nCIEは1946年に来日した米国教育使節団と協力し、教育の地方分権化、教育委員会の公選制導入、六・三・三・四制の単線型学校体系、男女共学の推進など、戦前の中央集権的・複線型の教育制度を根本から変える改革を主導しました。日本側の教育刷新委員会もCIEと連携しながら具体的な制度設計を担いました。\n\nこれらの改革は1947年の教育基本法・学校教育法として結実し、戦後日本の教育制度の基本骨格を形づくりました。CIEによる改革は占領期という特殊な状況下で進められましたが、その理念の多くは現在の教育基本法にも継承されています。",
-    relatedSlugs: ["beikoku-kyoiku-shisetsudan-hokokusho", "kyoiku-saishin-iinkai", "gakko-kyoiku-ho-seitei"],
+    relatedSlugs: ["beikoku-kyoiku-shisetsudan-hokokusho", "kyoiku-saishin-iinkai", "gakko-kyoiku-ho-seitei", "second-us-education-mission-report-1950"],
     isCanonical: true,
     tags: ["占領期", "教育改革"],
   },
@@ -181,7 +181,7 @@ export const historyTerms: Term[] = [
     summary:
       "1946年に来日した米国教育使節団がまとめた、戦後日本の教育改革の方向性を示した報告書です。",
     body: "米国教育使節団は1946年3月にGHQの要請により来日した教育専門家27名からなる調査団で、約1か月間日本各地の学校を視察し、日本側教育家委員会と協議のうえ報告書をまとめました。報告書は極端な中央集権体制の是正、教育の地方分権化、教育委員会制度の導入、複線型から単線型への学校系統の転換などを提言しました。\n\n報告書はまた、画一的な国定教科書から地域や教員の創意を生かした教育への転換、女子教育機会の拡大、漢字制限やローマ字採用の検討といった言語政策にまで踏み込んだ幅広い内容を含んでいました。この提言はCIEや教育刷新委員会の議論の重要な出発点となりました。\n\n報告書の提言の多くは1947年の教育基本法・学校教育法に反映され、六・三・三・四制や教育委員会制度など戦後教育の骨格として実現しました。米国教育使節団報告書は日本の戦後教育改革の設計図として、教育史上極めて重要な文書とされています。",
-    relatedSlugs: ["senryo-ka-kyoiku-kaikaku", "kyoiku-saishin-iinkai", "kyoiku-kihon-ho-seitei-keii"],
+    relatedSlugs: ["senryo-ka-kyoiku-kaikaku", "kyoiku-saishin-iinkai", "kyoiku-kihon-ho-seitei-keii", "second-us-education-mission-report-1950", "kyoin-tekikaku-shinsa"],
     isCanonical: true,
     tags: ["占領期", "教育改革"],
   },
@@ -207,7 +207,7 @@ export const historyTerms: Term[] = [
     summary:
       "1947年に公布された学校教育法が、六・三・三・四制の単線型学校体系を確立した歴史的経緯です。",
     body: "学校教育法は1947年3月31日、教育基本法と同日に公布された法律で、戦前の複線型で学校種ごとに勅令が乱立していた制度を一本化し、小学校・中学校・高等学校・大学からなる単線型の六・三・三・四制を法律として明確に定めました。米国教育使節団の提言と教育刷新委員会の建議が直接反映されています。\n\n同法により義務教育は小学校6年・中学校3年の9年間に延長され、男女共学が原則とされました。また学校の設置・廃止に関する認可基準や、教科書検定、教員免許など戦後教育行政の基本的な仕組みも同法とその関連法令によって整備されました。\n\n学校教育法は幾度も改正を重ねながら、今日に至るまで日本の学校制度の根幹を規定し続けています。中等教育学校や義務教育学校の新設など近年の改正も、この法律の枠組みを基盤に行われており、戦後教育制度の礎として位置づけられています。",
-    relatedSlugs: ["rokusansei", "kyoiku-kihon-ho-seitei-keii", "kyoiku-saishin-iinkai"],
+    relatedSlugs: ["rokusansei", "kyoiku-kihon-ho-seitei-keii", "kyoiku-saishin-iinkai", "japan-scholarship-society-act-development"],
     isCanonical: true,
     tags: ["占領期", "学校制度"],
   },
@@ -246,7 +246,7 @@ export const historyTerms: Term[] = [
     summary:
       "太平洋戦争末期、徴兵猶予を停止して大学生等を出征させた措置と、生徒を軍需生産に動員した政策です。",
     body: "学徒出陣は1943年、戦局の悪化に伴い文系学生を中心にそれまで認められていた徴兵猶予を停止し、満20歳に達した大学・専門学校の学生を軍隊に召集した措置です。同年10月には明治神宮外苑競技場で出陣学徒壮行会が行われ、多くの学生が戦地へ送られました。\n\n並行して、労働力不足を補うために中学校以上の生徒・学生を工場や農村での勤労に動員する学徒勤労動員が進められ、1944年の学徒勤労令によって授業を事実上停止し、通年で軍需工場に配置する体制がとられました。これにより多くの学校で通常の教育活動が実質的に停止しました。\n\nこれらの措置は総力戦体制下で教育がいかに戦争遂行のために動員されたかを示す象徴的な出来事であり、戦後の教育改革において教育の政治的中立性や平和主義の理念を教育基本法に明記する大きな動機となりました。",
-    relatedSlugs: ["kokumin-gakko-rei", "kyoiku-kihon-ho-seitei-keii", "heiwa-kyoiku"],
+    relatedSlugs: ["kokumin-gakko-rei", "kyoiku-kihon-ho-seitei-keii", "heiwa-kyoiku", "military-officer-assignment-school-drills", "student-military-mobilization-suspension-lifted"],
     isCanonical: true,
     tags: ["戦時教育", "昭和戦前期"],
   },
@@ -259,7 +259,7 @@ export const historyTerms: Term[] = [
     summary:
       "明治期に整備された女子師範学校・女子高等師範学校を中心とする、近代日本の女子教育制度の歴史です。",
     body: "明治初期の女子教育は男子に比べて整備が遅れましたが、1875年に東京女子師範学校(現お茶の水女子大学)が設立され、女子教員養成の中心機関となりました。1890年には奈良女子高等師範学校の前身となる機関の構想も進み、1908年に奈良女子高等師範学校が設立され、東西二つの女子高等師範学校体制が確立しました。\n\n1899年の高等女学校令により中等段階の女子教育機関が整備される一方、女子の高等教育機関は師範学校以外にごく限られており、女子大学への道は津田梅子の女子英学塾や日本女子大学校など私立の先駆的取り組みに支えられていました。良妻賢母主義の理念のもとで、女子教育は家庭内の役割を重視する内容にとどまりがちでした。\n\n戦後の学制改革により男女共学が原則化され、女子高等師範学校はお茶の水女子大学・奈良女子大学として新制大学に再編されました。戦前の女子教育の歩みは、戦後の男女平等な教育機会の実現に至るまでの重要な前史として位置づけられています。",
-    relatedSlugs: ["koto-jogakko-rei", "shihan-gakko-seido", "gender-to-kyoiku"],
+    relatedSlugs: ["koto-jogakko-rei", "shihan-gakko-seido", "gender-to-kyoiku", "haginoya-nakajima-utako-women-waka-education", "shimoda-utako-practical-female-citizenship", "atomi-kakei-aesthetic-female-schooling", "kinoshita-takeji-integrated-learning-nara", "yumeji-girls-magazine-culture-sentiment"],
     isCanonical: true,
     tags: ["女子教育", "明治期"],
   },
@@ -324,7 +324,7 @@ export const historyTerms: Term[] = [
     summary:
       "高度経済成長期の進学率上昇を背景に、1960年代以降に社会問題化した激しい受験競争を指す言葉です。",
     body: "「受験戦争」という言葉は、高度経済成長期に高校・大学への進学率が急上昇し、限られた定員をめぐる入学試験の競争が過熱するなかで、1960年代から70年代にかけて広く使われるようになりました。学歴が就職や社会的地位に直結する学歴社会の形成とも結びついた現象です。\n\n受験競争の過熱は、有名校への進学を目指す受験塾・予備校の隆盛、偏差値による輪切り進路指導、詰め込み型の受験教育など、教育のあり方全体に大きな影響を及ぼしました。過度な競争が児童生徒の心身への負担や、いじめ・校内暴力などの教育病理と関連づけて論じられることもありました。\n\nこうした問題意識は1970年代後半以降の「ゆとり教育」路線への転換の一因ともなり、また偏差値偏重批判は後の多面的評価や総合型選抜の導入にもつながっています。「受験戦争」という言葉は、学歴社会と競争主義的な教育観を象徴するキーワードとして教育史に刻まれています。",
-    relatedSlugs: ["gakureki-shakai", "hensachi", "yutori-kyoiku"],
+    relatedSlugs: ["gakureki-shakai", "hensachi", "yutori-kyoiku", "gakko-gun-seido", "course-of-study-revision-1968-modernization", "course-of-study-revision-1977-yutori-origins"],
     isCanonical: true,
     tags: ["学歴社会", "高度経済成長期"],
   },
@@ -337,7 +337,7 @@ export const historyTerms: Term[] = [
     summary:
       "1950年代後半から70年代にかけて、産業界の人材需要を背景に高校・大学進学率が急上昇した現象です。",
     body: "高度経済成長期には重化学工業を中心とする産業構造の高度化に伴い、企業が求める人材水準が上昇し、これに応じて高校・大学への進学希望が急速に高まりました。高校進学率は1950年代の5割程度から1970年代には9割を超え、大学・短大進学率も大幅に上昇しました。\n\nこの急激な教育需要の拡大に対応するため、公立・私立ともに高校の新設や大学の定員増加が進められましたが、施設や教員の整備が追いつかず、マンモス校化や教育条件の悪化も問題となりました。同時に、都市部と地方、階層間での進学機会の格差も社会問題として認識されるようになりました。\n\nこの時期の教育拡大は、日本社会全体の学歴社会化を決定づけるとともに、受験戦争や偏差値偏重といった競争主義的教育の弊害を生む土壌ともなりました。高度経済成長期の教育拡大は、量的拡大と質的課題という戦後教育が抱え続ける両面を典型的に示す事例です。",
-    relatedSlugs: ["juken-senso", "gakureki-shakai", "koko-chuutai"],
+    relatedSlugs: ["juken-senso", "gakureki-shakai", "koko-chuutai", "course-of-study-revision-1968-modernization", "course-of-study-revision-1977-yutori-origins"],
     isCanonical: true,
     tags: ["高度経済成長期", "進学率"],
   },
@@ -415,7 +415,7 @@ export const historyTerms: Term[] = [
     summary:
       "明治19年(1886年)、初代文部大臣森有礼のもとで公布された勅令で、東京大学を帝国大学に改組し、国家の須要に応じる学術研究・人材養成を目的とする帝国大学制度を創設した。",
     body: "帝国大学令は、明治19年(1886年)3月1日に勅令第3号として公布された。初代文部大臣森有礼が主導し、同時期に公布された小学校令・中学校令・師範学校令などと合わせて「学校令」と総称される一連の法令の一つである。全14条からなり、帝国大学の目的を「国家ノ須要ニ応スル学術技芸ヲ教授シ及其蘊奥ヲ攻究スル」と定めた点に特徴があり、大学が単なる教育機関にとどまらず国家目的に奉仕する研究機関として位置づけられた。\n\n組織面では、大学院と複数の分科大学によって構成され、総長が大学全体を統括し、各分科大学には学長・教授・助教授が置かれた。この令に基づき、それまでの東京大学は帝国大学(後の東京帝国大学)に改組され、法・医・工・文・理の各分科大学を擁する日本初の近代的総合大学として再編された。\n\nその後、京都・東北・九州・北海道など各地に帝国大学が設置される際にもこの令が基本法規として適用され、明治から昭和戦前期にかけての日本の高等教育・学術研究の中核を形成した。帝国大学令は昭和22年(1947年)の学校教育法制定に伴い廃止されたが、旧帝国大学の多くは新制国立大学として存続し、現在の日本の主要大学群の基盤となっている。",
-    relatedSlugs: ["mori-arinori", "gakko-rei", "daigaku-rei-1918", "daigaku-secchi-keitai"],
+    relatedSlugs: ["mori-arinori", "gakko-rei", "daigaku-rei-1918", "daigaku-secchi-keitai", "igakusho-vaccination-tokyo-university-origin"],
     isCanonical: true,
     tags: ["学校令", "森有礼", "明治期教育", "高等教育史"],
   },
@@ -428,7 +428,7 @@ export const historyTerms: Term[] = [
     summary:
       "明治27年(1894年)の高等学校令により制度化された、帝国大学進学のための予備教育機関。一高から八高までの「ナンバースクール」を中心に全国39校が設置され、昭和25年(1950年)前後に新制大学へ移行した。",
     body: "旧制高等学校は、明治27年(1894年)公布の高等学校令に基づき、それまでの官立高等中学校を改組して発足した教育機関である。当初は尋常中学校卒業程度の者に専門教育を施す学部と、帝国大学進学のための予備教育を行う大学予科の二部門で構成されていたが、やがて専門学部が分離・廃止され、3年制の大学予科教育に特化した機関として整備されていった。\n\n明治期に設立された第一高等学校から第八高等学校までは、地名ではなく番号で呼ばれたことから「ナンバースクール」と総称され、卒業生が政官界・学界に多数輩出したことから他の高等学校よりも高い威信を持つとされた。大正期以降は地名を冠した高等学校(松本高等学校、松山高等学校など)も各地に設立され、最終的に全国で39校を数えた。旧制高校は寮生活や自治、教養主義的な学風を特色とし、多くの卒業生が帝国大学へ無試験に近い形で進学した。\n\n戦後の学制改革により、旧制高等学校は昭和25年(1950年)頃までに新制大学の教養課程(学部)に転換・統合され、その多くは新制国立大学の一部として吸収された。旧制高校が育んだ教養主義的な校風や寮文化は、戦後日本の大学教育や知識人文化に大きな影響を残したとされる。",
-    relatedSlugs: ["teikoku-daigaku-rei", "senmon-gakko-rei", "koudai-setsuzoku-kaikaku", "daigaku-rei-1918"],
+    relatedSlugs: ["teikoku-daigaku-rei", "senmon-gakko-rei", "koudai-setsuzoku-kaikaku", "daigaku-rei-1918", "zoshikan-satsuma-domain-bunbu-ryodo", "william-clark-boys-be-ambitious-legacy"],
     isCanonical: true,
     tags: ["高等学校令", "ナンバースクール", "旧制高校", "近代教育史"],
   },
@@ -467,7 +467,7 @@ export const historyTerms: Term[] = [
     summary:
       "昭和10年(1935年)公布の青年学校令により、実業補習学校と青年訓練所を統合して設立された勤労青年向けの教育機関。教練科の比重が大きく、後に義務制も導入された。",
     body: "青年学校は、昭和10年(1935年)に公布された青年学校令に基づき設置された勤労青年のための教育機関である。それ以前から存在した実業補習学校(勤労青年に実業教育を施す機関)と、大正15年(1926年)発足の青年訓練所(徴兵年齢前の青年に軍事教練を施す機関)は、対象年齢層や教育内容、施設面で重複が大きく、二つの機関を並存させることは地方公共団体の財政負担を重くしていた。こうした問題を解消するため、両者を統合する形で青年学校が創設された。\n\n青年学校は普通科と本科(男子は実業科目に加え教練科を含む)などから構成され、特に男子の本科では教練科が教科の相当部分を占め、軍事色の強い教育機関としての性格を強めていった。昭和14年(1939年)には男子に対して就業年限が義務制とされ、勤労青年の教育と軍事教練を結びつける国家的な制度として機能した。\n\n第二次世界大戦後、青年学校は昭和22年(1947年)の学校教育法制定に伴い廃止され、その機能は新制中学校・高等学校や社会教育(青年学級など)に引き継がれた。戦前・戦中期における勤労青年教育と軍事教練の結合という特異な制度として、教育史上の検討対象となっている。",
-    relatedSlugs: ["kokumin-gakko-rei", "senryo-ka-kyoiku-kaikaku", "gakuto-kinro-doin"],
+    relatedSlugs: ["kokumin-gakko-rei", "senryo-ka-kyoiku-kaikaku", "gakuto-kinro-doin", "national-spiritual-mobilization-wartime-schools", "military-officer-assignment-school-drills"],
     isCanonical: true,
     tags: ["青年学校令", "勤労青年教育", "戦前教育", "軍事教練"],
   },
@@ -532,7 +532,7 @@ export const historyTerms: Term[] = [
     summary:
       "昭和31年(1956年)公布。教育委員会法を廃止し、それまでの教育委員公選制を首長による任命制に改めるなど、教育委員会制度を大きく転換させた法律。",
     body: "地方教育行政の組織及び運営に関する法律(略称・地教行法)は、昭和31年(1956年)6月30日に公布された法律である。この法律の施行により、戦後占領期に制定されていた教育委員会法は廃止された。教育委員会法のもとでは教育委員は住民による直接公選とされ、教育行政の地方分権と教育の政治的中立性・自主性を確保する仕組みとされていたが、地教行法はこれを大きく転換した。\n\n最大の変更点は、教育委員会の委員選出方法である。公選制を廃止し、都道府県知事・市町村長などの地方公共団体の首長が、議会の同意を得て教育委員を任命する制度に改められた。あわせて教育長の任命に文部大臣・都道府県教育委員会の承認を要する任命承認制が導入され、教育事務の処理に問題がある場合に文部大臣が是正措置を求める権限が法定化されるなど、国・都道府県・市町村の教育行政における上下関係が強化された。また、教育委員会が持っていた教育予算の原案送付権(実質的な予算提案権)も首長に移された。\n\nこの改正は、占領期改革で導入された教育の地方分権・民主化路線からの一定の後退として位置づけられることが多く、当時は日本教職員組合などが強く反対運動を展開した。その後、地教行法は平成26年(2014年)の改正で教育長と教育委員長を一本化した新教育長制度を導入するなど、時代に応じて複数回改正されながら、現在も教育委員会制度の基本法として存続している。",
-    relatedSlugs: ["kyoiku-iinkai", "senryo-ka-kyoiku-kaikaku", "kyoiku-seijiteki-churitsusei"],
+    relatedSlugs: ["kyoiku-iinkai", "senryo-ka-kyoiku-kaikaku", "kyoiku-seijiteki-churitsusei", "course-of-study-revision-1958-legal-binding"],
     isCanonical: true,
     exam: true,
     tags: ["教育委員会制度", "教育行政史", "逆コース"],
@@ -598,7 +598,7 @@ export const historyTerms: Term[] = [
     summary:
       "昭和59年(1984年)、中曽根康弘内閣のもとで設置された内閣総理大臣直属の教育改革審議会。「個性重視の原則」を掲げ、1985年から1987年にかけて4次にわたる答申を行った。",
     body: "臨時教育審議会(略称・臨教審)は、昭和59年(1984年)8月、中曽根康弘内閣のもとで内閣総理大臣の諮問機関として設置された教育改革審議会である。1980年代当時、受験競争の過熱、校内暴力、いじめ、不登校の増加といった教育荒廃、学歴社会の弊害などが深刻な社会問題となっており、こうした状況を長期的展望に立って抜本的に見直すことを目的に、中曽根首相の強い主導のもとで設置された。教育関係者・政財界関係者ら25人の委員と20人の専門委員によって構成された。\n\n審議は、「二十一世紀を展望した教育の在り方」を扱う第一部会、「社会の教育諸機能の活性化」を扱う第二部会、「初等中等教育の改革」を扱う第三部会、「高等教育の改革」を扱う第四部会の四つの部会体制で進められ、昭和60年(1985年)6月の第一次答申から昭和62年(1987年)8月の第四次答申まで、合計四次にわたる答申が出された後に解散した。\n\n答申の内容は「個性重視の原則」を基本理念とし、初等中等教育では六年制中等学校(中高一貫教育)や単位制高等学校の創設、高等教育では文部大臣への勧告権を持つ大学審議会の設置、産学協同の推進のほか、生涯学習体系への移行、国際化・情報化への対応などを打ち出した。それまで文部省の常設機関である中央教育審議会が主導してきた教育政策形成に対し、内閣主導で教育改革を進めるという新たな枠組みを提示した点で、戦後教育史上の大きな転換点として位置づけられている。",
-    relatedSlugs: ["chukyo-shin", "chuko-ikkan-kyoiku", "gakushu-shido-yoryo-hensen", "shogai-gakushu"],
+    relatedSlugs: ["chukyo-shin", "chuko-ikkan-kyoiku", "gakushu-shido-yoryo-hensen", "shogai-gakushu", "rinji-kyoiku-kaigi", "course-of-study-revision-1989-seikatsuka", "course-of-study-revision-2008-de-yutori"],
     isCanonical: true,
     exam: true,
     tags: ["教育改革", "中曽根内閣", "個性重視の原則", "戦後教育史"],
@@ -690,7 +690,7 @@ export const historyTerms: Term[] = [
     summary:
       "下野国足利にあった中世の学問所。室町期に上杉憲実が再興し、宣教師ザビエルが「坂東の大学」と紹介したことで知られる。",
     body: "足利学校は、現在の栃木県足利市にあった中世の学問所です。創立者については平安時代の小野篁説、鎌倉時代の足利義兼説、室町時代の上杉憲実説などがあり、定説はありません。確実に歴史をたどれるのは室町時代以降で、関東管領の上杉憲実が書籍を寄進し、鎌倉円覚寺の僧・快元を初代の庠主(校長に当たる職)に迎えて再興したとされます。市の資料ではその再興を永享11年(1439年)とします。\n\n学校では、儒学(とくに易学)をはじめ、兵学や医学なども学ばれたと伝えられます。禅僧が庠主を務め、全国から僧侶や武士が集まりました。1549年にはイエズス会宣教師フランシスコ・ザビエルが、この学校を「日本国中最も大にして最も有名な坂東の大学」として海外に報告したとされ、ルイス・フロイスも類似の評価を記したと伝えられます(ただし一次史料での確認は別途必要です)。\n\n足利学校は江戸時代にも存続しましたが、明治5年(1872年)に廃校となりました。現在は国指定の史跡で、平成2年(1990年)に江戸時代中期の姿に復元され、上杉憲実が寄進した宋版の書籍群などが伝えられています。2015年には日本遺産にも認定されました。中世日本における学問と書物の集積地として、寺子屋や藩校に先立つ教育史上の存在です。",
-    relatedSlugs: ["daigaku-ryo", "shugei-shuchiin", "hanko", "shijuku-kangien-tekijuku-shokasonjuku"],
+    relatedSlugs: ["daigaku-ryo", "shugei-shuchiin", "hanko", "shijuku-kangien-tekijuku-shokasonjuku", "kangakue-heian-aristocratic-scholars", "kanazawa-bunko-samurai-library-archive", "gozan-literature-zen-monks-scholarship"],
     isCanonical: true,
     tags: ["中世", "室町時代", "学問所"],
   },
@@ -703,7 +703,7 @@ export const historyTerms: Term[] = [
     summary:
       "江戸後期に各地で開かれた民間の学塾。咸宜園の三奪法、適塾の蘭学教育、松下村塾の少人数指導など、藩校とは異なる個性的な教育を行った。",
     body: "私塾は、藩や幕府が設けた藩校・昌平坂学問所に対して、学者や医者が自宅などで開いた民間の学塾です。身分や地域を越えて学ぶ者が集まりやすく、江戸後期には多様な私塾が各地に生まれました。代表例として、豊後日田の咸宜園、大坂の適塾、長州萩の松下村塾がよく挙げられます。\n\n咸宜園は広瀬淡窓が開いた漢学塾で、文化2年(1805年)に最初の塾を開き、文化14年(1817年)に現在の地へ移ったとされます。入門時に年齢・学歴・身分を問わず白紙に戻す「三奪法」で知られ、実力による評価を重んじました。適塾は緒方洪庵が天保9年(1838年)に大坂で開いた蘭学の塾で、のちに現在地へ移転し(1845年)、多数の洋学者・医師を輩出しました。松下村塾は玉木文之進が始めたものを久保五郎左衛門が継ぎ、安政4年(1857年)に吉田松陰が主宰を引き継いだとされる塾で、松陰の指導期間は短かったものの、久坂玄瑞・高杉晋作・伊藤博文らが学んだことで知られます。松下村塾は2015年に「明治日本の産業革命遺産」の構成資産として世界遺産に登録されました。\n\nこれらの私塾は、藩の枠を越えた人的ネットワークや、学習者の実力と個性に応じた指導を特色としました。明治以降の近代学校制度の整備とともに多くは姿を消しますが、その教育の気風は、近代日本の人材形成の土壌になったと評価されています。",
-    relatedSlugs: ["terakoya", "hanko", "shoheizaka-gakumonjo", "yoshida-shoin", "toju-shoin"],
+    relatedSlugs: ["terakoya", "hanko", "shoheizaka-gakumonjo", "yoshida-shoin", "toju-shoin", "kogido-ito-jinsai-ancient-learning", "narutaki-juku-siebold-western-medicine", "shirando-otsuki-gentaku-dutch-studies"],
     isCanonical: true,
     tags: ["江戸時代", "私塾", "蘭学"],
   },
@@ -820,7 +820,7 @@ export const historyTerms: Term[] = [
     summary:
       "歴史学者の家永三郎が、教科書検定の違憲・違法を問うて1965年から30年以上争った3次にわたる訴訟。検定制度のあり方を問い続けた。",
     body: "家永教科書裁判は、歴史学者の家永三郎が、自著の高校日本史教科書『新日本史』の検定をめぐり、国を相手に起こした一連の訴訟です。1965年(昭和40年)の第一次訴訟(国家賠償請求)、1967年の第二次訴訟(検定不合格処分の取消請求)、1984年の第三次訴訟と、3次にわたり、判決までに約32年を要しました。検定が憲法の保障する表現の自由や検閲の禁止、教育を受ける権利に反しないかが主な争点でした。\n\n第一審では、国民の教育権論に近い立場を示した判決(杉本判決)や、国家の教育権論に近い立場を示した判決(高津判決)が分かれ、世論の注目を集めました。最高裁は1993年(平成5年)3月16日、第一次訴訟で、検定制度そのものを憲法に違反しないとしながら、検定当時の学説状況や教育状況の認識に看過しがたい過誤がある場合は違法となるという基準を示しました。さらに1997年(平成9年)8月29日の第三次訴訟の最高裁判決は、一部の検定意見について、文部大臣の裁量権の範囲を逸脱した違法があると判断しました。\n\n裁判全体としては、検定制度自体は認められたものの、個々の検定の運用が司法の審査に服することが示された点に意義があるとされます。この裁判は、教科書の記述、国の検定権限、学問の自由、国民の教育権をめぐる戦後日本の議論の中心にありました。",
-    relatedSlugs: ["kyokasho-kentei", "kyokasho-kokutei-seido", "asahikawa-gakuryoku-test-jiken", "kyokasho-gigoku-jiken"],
+    relatedSlugs: ["kyokasho-kentei", "kyokasho-kokutei-seido", "asahikawa-gakuryoku-test-jiken", "kyokasho-gigoku-jiken", "course-of-study-revision-1958-legal-binding"],
     isCanonical: true,
     tags: ["戦後教育", "教科書検定", "裁判"],
   },
@@ -846,7 +846,7 @@ export const historyTerms: Term[] = [
     summary:
       "戦後の教員養成の原則の一つ。教職課程を置く大学であれば、教員養成を主目的としない学部でも免許状を取得できる仕組み。",
     body: "開放制の教員養成とは、教員養成を特定の学校に限らず、教職課程を置く一般の大学・学部でも行えるとする原則です。戦前の教員養成は、師範学校を中心に行われ、教員免許状も主に師範学校の卒業生に与えられていました。戦後は、1949年(昭和24年)に教育職員免許法が制定され、「大学における教員養成」と「開放制」が戦後の教員養成の二本柱とされたと説明されます。\n\nこの原則により、教員になりたい者は、所定の科目・単位を修得すれば、教員養成を目的としない学部の卒業生でも免許状を取得できるようになりました。幅広い学識を持った人材を教職に取り入れることがねらいとされます。1953年には、教職課程を持つ大学・学部を国が認める課程認定制度が発足し、1954年には免許法が改正されるなど、質の確保のための仕組みが整えられました。\n\n一方で、教員養成を主な目的とする大学・学部(目的養成)の必要性も議論され、1958年の中央教育審議会答申では、各都道府県に教員養成を目的とする大学・学部を置く方針が示されました。その後、学芸学部が教育学部に改組されています。開放制と目的養成のバランスは、教員の資質向上をめぐる現在の議論にも続いています。",
-    relatedSlugs: ["shihan-gakko-seido", "kyoiku-daigaku-tenkan", "kyoin-menkyojo", "kyoin-saiyo-shiken", "kyoshoku-katei-nintei-seido"],
+    relatedSlugs: ["shihan-gakko-seido", "kyoiku-daigaku-tenkan", "kyoin-menkyojo", "kyoin-saiyo-shiken", "kyoshoku-katei-nintei-seido", "teacher-license-renewal-system-history"],
     isCanonical: true,
     tags: ["戦後教育", "教員養成", "免許制度"],
   },
@@ -872,7 +872,7 @@ export const historyTerms: Term[] = [
     summary:
       "ラテン語教育を中心とする英国の中等学校。中世に起源をもち、1944年教育法のもとでは11歳試験で選抜される学校となった。",
     body: "グラマースクール(文法学校)は、ラテン語の文法を中心とした教育を行う学校として、中世のイングランドで生まれました。教育は暗誦を中心としたラテン語学習が中心で、聖職者や官吏、法律家などを目指す者の基礎教育を担いました。宗教改革の時期には、修道院の解散で得られた資金などで新しい学校が設立され、エドワード6世の時代には、授業料を払えない者にも開かれたことを理念とする学校網が整えられたと説明されます。\n\n19世紀にはグラマースクールの質と配置のばらつきが問題となり、1868年のトーントン委員会が、残っていた基金付きのグラマースクール(782校)を調査しました。その結果、1869年の基金付き学校法が制定され、多くの学校が授業料を取る学校として改編されたと指摘されます。\n\n1944年教育法は、中等教育を全員に保障し、グラマースクール、技術学校、モダンスクールの三分岐制(トライパータイト)を採りました。11歳での試験(イレブン・プラス)で進路が分けられ、グラマースクールに進むのは約2割にとどまったため、選抜への批判が高まりました。その後、総合制中等学校への再編が進みましたが、選抜制のグラマースクールは一部の地域に今も残っています。教育の機会均等と学力による選抜をめぐる議論の、典型的な事例です。",
-    relatedSlugs: ["gcse-a-level", "chusei-daigaku-no-kigen", "gymnasium", "tracking"],
+    relatedSlugs: ["gcse-a-level", "chusei-daigaku-no-kigen", "gymnasium", "tracking", "elementary-education-act-1870"],
     isCanonical: true,
     tags: ["英国", "中等教育", "選抜"],
   },
@@ -885,7 +885,7 @@ export const historyTerms: Term[] = [
     summary:
       "ラテン語・ギリシア語などの人文主義的教育を行い、大学進学の準備をするドイツ語圏の中等学校。1812年のプロイセンで大学入学資格試験が導入された。",
     body: "ギムナジウムは、ドイツ語圏で大学進学の準備教育を行う中等学校です。古典語であるラテン語・ギリシア語を中心とした人文主義的な教育を特色とし、その原型は16世紀にさかのぼるとされます。ブリタニカの記述では、1537年にシュトラスブルクで創立された9年制の学校が挙げられています。19世紀に大学予備門としての性格が確立したと説明されます。\n\n19世紀初頭のプロイセンでは、ヴィルヘルム・フォン・フンボルトが1809年に内務省の文教局長となり、新人文主義にもとづく学校制度の改革に取り組みました。ベルリン大学の創設(1810年)にも関わっています。1812年10月12日の勅令では、大学に進む者の資質を試験と証書で確認するため、大学入学資格試験(アビトゥア)が導入されました。この試験に合格することが、プロイセンで大学に進むための前提となっていきます。\n\n現在のギムナジウムは、学校によって古典語、近代語、理数系などの重点が異なり、卒業時のアビトゥアが大学入学資格を兼ねます。ドイツの学校制度は、早い段階で進路が分かれる複線型で知られ、ギムナジウムは大学進学を目指すコースとして位置づけられます。人文主義的教養と進路選択の仕組みを理解する上で重要な制度です。",
-    relatedSlugs: ["bildung", "german-dual-system", "baccalaureat", "grammar-school", "poland-structural-education-reforms", "germany-realschule-technical-commercial"],
+    relatedSlugs: ["bildung", "german-dual-system", "baccalaureat", "grammar-school", "poland-structural-education-reforms", "germany-realschule-technical-commercial", "austria-new-secondary-school-reform", "czech-republic-basic-school-system"],
     isCanonical: true,
     tags: ["ドイツ", "中等教育", "アビトゥア"],
   },
@@ -924,7 +924,7 @@ export const historyTerms: Term[] = [
     summary:
       "1841年に水戸藩第9代藩主・徳川斉昭が創設した最大規模の藩校で、文武両道の教育と水戸学の拠点として幕末の志士に多大な影響を与えた教育機関。",
     body: "江戸時代末期の1841年（天保12年）、水戸藩第9代藩主の徳川斉昭が開設した藩校である。藩士とその子弟の教育を目的とし、当時の藩校としては日本最大規模の敷地と施設を誇った。\n\n教育理念として「文武不岐（文武両道）」を掲げ、儒学（朱子学）や歴史学だけでなく、医学、天文学、数学、兵学、武術全般に及ぶ総合的・実学的なカリキュラムを展開した。特に尊皇攘夷思想を理論化した「水戸学」の教学拠点となり、全国から集まる学者や志士に絶大な影響を与えた。\n\n明治初期の廃藩置県と学制発布に伴い閉校となったが、その教育構想や思想は近代日本の教育精神や愛国思想の形成に深く関与した。現在も敷地内の正庁などが国指定重要文化財として現存している。",
-    relatedSlugs: ["hanko", "terakoya", "gogaku"],
+    relatedSlugs: ["hanko", "terakoya", "gogaku", "zoshikan-satsuma-domain-bunbu-ryodo"],
     isCanonical: true,
     tags: ["藩校", "徳川斉昭", "水戸学", "文武両道"],
   },
@@ -1717,7 +1717,7 @@ export const historyTerms: Term[] = [
     summary:
       "明治前期に高みね秀夫がアメリカから導入した、実物や絵画を用いた直観を手がかりに問答を通じて児童の自発的思考力を開発する近代教授理論。",
     body: "開発教授法は、ペスタロッチの教育思想をアメリカで体系化したオスウィーゴ運動の理論であり、明治前期に東京師範学校教授の高みね秀夫によって導入された。学制初期の注入主義的な文字教育から脱却し、子どもの内的な精神能力を伸長させることが目的であった。\n\n教授の形態としては実物や模型、図画などを児童に直接観察させる直観教授を中心とした。教師が一方的に知識を教え込むのではなく、計画的な問答を通じて子どもの観察力、判断力、言語表現力を段階的に引き出し、自ら真理を発見させる指導法を展開した。\n\n高みねによる実践と理論的解説は師範学校の教員養成を通じて全国へ波及し、日本の近代初等教育における教授法の近代化を強力に先導した。子どもの自発的な認識過程を重視するその指導理念は、後世の新教育運動や主体的対話的な学びの先駆的形態として評価される。",
-    relatedSlugs: ["pestalozzi", "shihan-gakko-seido", "gakko-rei", "kaihatsu-shugi", "oswego-movement"],
+    relatedSlugs: ["pestalozzi", "shihan-gakko-seido", "gakko-rei", "kaihatsu-shugi", "oswego-movement", "jyokyoho-bell-lancaster"],
     isCanonical: true,
     tags: ["開発教授法", "直観教授", "ペスタロッチ", "師範学校"],
   },
@@ -2185,7 +2185,7 @@ export const historyTerms: Term[] = [
     summary:
       "1945年の敗戦直後、占領軍の指令に基づき戦時国定教科書の軍国主義や神道に関する記述を児童生徒自身に墨で抹消させた措置。",
     body: "墨塗り教科書は、1945年8月の敗戦直後、連合国軍総司令部（GHQ）の民主化指令と文部省通達に基づき、既存の国定教科書から不適切な記述を物理的に削除した応急措置である。新教科書が印刷・配布されるまでの間、戦時中の軍国主義教育を即座に停止させるために実施された。\n\n修身、国史、地理などの教科書を中心に、皇国史観、軍事賛美、国家神道、戦争動員に関わる語句や挿絵が削除対象に指定された。学校現場では、教師の指示のもとで児童生徒自らが墨や筆を用いて該当箇所を黒く塗りつぶすという特異な作業が行われ、教育内容の急激な変容を象徴した。\n\n昨日まで絶対的な真理として教えられていた価値観が一変したこの経験は、当時の児童や教員に深刻な精神的動揺と不信感を与えた。しかし同時に、国家統制による画一的教育の弊害を痛感させ、戦後日本の教科書検定制度や教育の民主化を模索する重大な契機となった。",
-    relatedSlugs: ["senryo-ka-kyoiku-kaikaku", "kyokasho-kokutei-seido", "cie-minkan-joho-kyoikukyoku", "ienaga-kyokasho-saiban"],
+    relatedSlugs: ["senryo-ka-kyoiku-kaikaku", "kyokasho-kokutei-seido", "cie-minkan-joho-kyoikukyoku", "ienaga-kyokasho-saiban", "kyoin-tekikaku-shinsa"],
     isCanonical: true,
     tags: ["墨塗り教科書", "占領期教育", "国定教科書", "教育民主化"],
   },
@@ -2497,7 +2497,7 @@ export const historyTerms: Term[] = [
     summary:
       "1897年に制定され、尋常師範学校および高等師範学校の制度を体系的に整備した教員養成勅令。",
     body: "師範教育令は、1897年（明治30年）に勅令として公布された法規である。1886年の森有礼による師範学校令を発展的解消し、義務教育の急速な普及に伴う教員需要の激増に対応した体系的な教員養成制度を定めた。\n\n本令では、府県に尋常師範学校（のちの師範学校）の設置を義務付けるとともに、高等師範学校や女子高等師範学校の地位を確立した。学費や生活費を公費で支給する給費生制度を中核とし、卒業生には一定期間の教職義務を課すことで、安定した教員確保を図った。国家主義的な徳育と規律を重視する師範気質の形成を促した。\n\n師範学校を通じた閉鎖的・画一的な教員養成体制を固定化させた側面もあるが、全国の初等・中等学校に均質な教育力を供給する近代教員養成の根幹を築いた。",
-    relatedSlugs: ["shihan-gakko-seido", "gakko-rei", "gakusei-1872"],
+    relatedSlugs: ["shihan-gakko-seido", "gakko-rei", "gakusei-1872", "bunken-kyoin-kentei"],
     isCanonical: true,
     tags: ["教員養成", "師範学校", "勅令", "明治時代"],
   },
@@ -2666,7 +2666,7 @@ export const historyTerms: Term[] = [
     summary:
       "ペスタロッチが提唱した、事物の実物や具体像を直接感覚で知覚させ、思考力を発展させる教授法。",
     body: "直観教授（Anschaungsunterricht）は、スイスの教育実践家ハインリヒ・ペスタロッチが確立した教授理論および教育方法である。直観（直接の感覚的知覚）をあらゆる認識の基礎とみなす。\n\nペスタロッチは、文字や言葉の丸暗記を排し、子どもが実物や模型、図画などを感覚器官を通じて具体的に把握することから教育を始めるべきだと説いた。さらに事物の直観を「数（いくつ）」「形（どのような形か）」「語（名前）」の三つの基礎要素に分解して体系的に指導する「直観のABC」を考案した。\n\n近代教育の教授法に革命をもたらし、アメリカのオスウィーゴ運動や明治初期の日本の開発教授法（高嶺秀夫ら）の理論的バックボーンとなった。",
-    relatedSlugs: ["pestalozzi", "developmental-teaching-method-takamine-hideo", "sekai-zue", "oswego-movement"],
+    relatedSlugs: ["pestalozzi", "developmental-teaching-method-takamine-hideo", "sekai-zue", "oswego-movement", "jyokyoho-bell-lancaster"],
     isCanonical: true,
     tags: ["ペスタロッチ", "直観教授", "教授理論", "教育方法"],
   },

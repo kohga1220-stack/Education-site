@@ -10,7 +10,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教師の講義を一方的に聞くのではなく、学習者が主体的・能動的に参加する学習形態の総称。対話・協働・体験などを含む。",
     body: "アクティブラーニングとは、教師による一方向的な講義形式の授業（受動的学習）に対して、学習者自身が能動的に学習過程に関わる学習形態の総称です。グループディスカッション、発表、実験、調べ学習、ディベートなど、さまざまな活動がこれに含まれます。\n\n日本では2012年の中央教育審議会答申以降、大学教育を中心に注目され、その後、小中高の学習指導要領における「主体的・対話的で深い学び」という表現に発展的に引き継がれました。単に活動的であればよいのではなく、活動を通じて深い理解や思考力の育成につながっているかが重要とされます。\n\n協同学習、問題解決学習、反転授業など、本サイトで紹介する多くの教授法は、広い意味でアクティブラーニングの一種と位置づけられます。",
-    relatedSlugs: ["shudai-taiwa-fukai", "kyodo-gakushu", "dewey"],
+    relatedSlugs: ["shudai-taiwa-fukai", "kyodo-gakushu", "dewey", "ltd-gakushu", "thinking-routines-project-zero", "open-closed-questioning-strategies", "responsive-revoicing-questioning", "nameplate-opinion-visualization"],
     isCanonical: true,
     exam: true,
     tags: ["主体的学び", "能動的学習"],
@@ -24,7 +24,7 @@ export const methodsTerms: Term[] = [
     summary:
       "少人数のグループで互いに助け合いながら共通の学習目標に取り組む学習形態。個人の成績と集団の成果の両方を重視する。",
     body: "協同学習（きょうどうがくしゅう）とは、数人の小グループで学習者同士が教え合い、助け合いながら、共通の目標達成を目指す学習形態です。単に机を並べて作業する「グループ学習」とは異なり、メンバー全員の成長が保証されるよう構造化されている点が特徴です。\n\n効果的な協同学習が成立するための条件として、互いの成果が結びつく「肯定的相互依存」、一人ひとりが果たすべき役割が明確な「個人の責任」、対面での関わり合い、対人スキルの育成、活動を振り返る集団的な省察などが挙げられます。\n\nヴィゴツキーの発達の最近接領域（ZPD）の考え方とも関連が深く、仲間との対話を通じて一人では到達できない理解に到達できると考えられています。",
-    relatedSlugs: ["zpd", "active-learning"],
+    relatedSlugs: ["zpd", "active-learning", "ltd-gakushu", "diamond-ranking-prioritization", "coordinate-axis-thinking-sheet", "winnetka-plan-common-essentials", "literature-circles-book-clubs", "pe-video-analysis-peer-coaching"],
     isCanonical: true,
     exam: true,
     tags: ["肯定的相互依存", "グループ学習"],
@@ -38,7 +38,7 @@ export const methodsTerms: Term[] = [
     summary:
       "子ども自身が現実の問題を発見し、仮説を立てて検証しながら解決していく過程を通じて学ぶ学習方法。デューイの思想が源流。",
     body: "問題解決学習とは、あらかじめ用意された知識を教え込むのではなく、学習者自身が身近な問題や疑問を出発点として、課題を明確化し、情報を集め、仮説を立てて検証し、結論を導くという一連のプロセスを通じて学んでいく学習方法です。\n\nジョン・デューイの経験主義教育論を理論的な源流とし、日本でも戦後の新教育運動の中で広く取り入れられました。教師は答えを教える立場ではなく、子どもの探究のプロセスを支援するファシリテーターとしての役割を担います。\n\n現在の「総合的な学習の時間」や「探究学習」は、この問題解決学習の考え方を発展させたものと位置づけることができます。",
-    relatedSlugs: ["dewey", "tankyu-gakushu", "sogo-gakushu", "inquiry-cycle-four-phases"],
+    relatedSlugs: ["dewey", "tankyu-gakushu", "sogo-gakushu", "inquiry-cycle-four-phases", "expert-novice-pedagogical-research", "jellyfish-chart-reasoning-tool", "hypothesis-testing-science-inquiry", "ppdac-cycle-statistical-inquiry-process"],
     isCanonical: true,
     tags: ["デューイ", "探究のプロセス"],
   },
@@ -51,7 +51,7 @@ export const methodsTerms: Term[] = [
     summary:
       "実社会に関わる課題やテーマについて、一定期間をかけて調査・制作・発表に取り組む学習方法（PBL）。教科横断的に行われることが多い。",
     body: "プロジェクト型学習（Project Based Learning、PBL）とは、実社会と関わりのある本質的な課題やテーマを設定し、数週間から数か月といったまとまった期間をかけて、調査・企画・制作・発表というプロセスに取り組む学習方法です。\n\n単発の調べ学習と異なり、最終的に発表会や成果物という具体的なゴールが設定されることが多く、その過程で複数の教科の知識やスキルを組み合わせて使うことが求められます。地域の課題解決に取り組む、製品やサービスを企画するといったテーマがよく用いられます。\n\n類似の略語に、症例や事例をもとに議論しながら学ぶ「課題解決型学習（Problem Based Learning）」もあり、こちらも同じPBLと略されるため、文脈によって意味を確認する必要があります。",
-    relatedSlugs: ["mondai-kaiketsu", "tankyu-gakushu", "curriculum-management"],
+    relatedSlugs: ["mondai-kaiketsu", "tankyu-gakushu", "curriculum-management", "school-trip-inquiry-presentation", "collaborative-problem-solving-pedagogy", "team-based-learning-tbl-classroom", "problem-based-learning-pbl-tutorial", "project-internship-problem-solving"],
     isCanonical: true,
     tags: ["プロジェクト学習", "教科横断"],
   },
@@ -64,7 +64,7 @@ export const methodsTerms: Term[] = [
     summary:
       "知識のインプットは動画などで事前に自宅で行い、授業時間は演習や議論などのアウトプット活動に充てる授業形式。",
     body: "反転授業（フリップド・クラスルーム）とは、従来「授業中に講義を聞き、家で宿題として演習する」という順序を入れ替え、「事前に自宅で講義動画などを視聴して知識をインプットし、授業時間は演習・議論・発表などのアウトプット活動に充てる」という授業形式です。\n\nこの形式のねらいは、限られた授業時間を、教師や仲間からの支援を受けながら理解を深める時間として最大限活用することにあります。教師は一方的に説明する時間が減る分、個々の理解につまずいている生徒への個別支援に時間を割きやすくなります。\n\nICT環境の整備やGIGAスクール構想の進展により、動画教材の配信が容易になったことで、日本の学校現場でも導入が広がっています。",
-    relatedSlugs: ["giga-school", "kobetsu-saiteki", "blended-learning", "online-learning", "active-learning", "kyodo-gakushu"],
+    relatedSlugs: ["giga-school", "kobetsu-saiteki", "blended-learning", "online-learning", "active-learning", "kyodo-gakushu", "keller-plan-personalized-system"],
     isCanonical: true,
     tags: ["反転学習", "動画教材", "事前視聴", "授業設計", "対面討議", "協働解決"],
   },
@@ -77,7 +77,7 @@ export const methodsTerms: Term[] = [
     summary:
       "一人ひとりの学習進度・理解度・興味関心に応じて、学習内容や進め方を調整していく学習のあり方。「指導の個別化」と「学習の個性化」からなる。",
     body: "個別最適化学習とは、子ども一人ひとりの学習進度、理解度、興味関心、特性などに応じて、学習の内容や方法、ペースを調整していく学習のあり方を指します。文部科学省が掲げる「令和の日本型学校教育」の中核概念の一つです。\n\nこの考え方は、教師が個々の特性に応じて指導方法を柔軟に変える「指導の個別化」と、子ども自身が学習の進め方や課題を自分で選べるようにする「学習の個性化」の2つの側面から整理されます。ICT端末を使った学習履歴（スタディログ）の分析によって、一人ひとりに合った教材やドリルを提示することも技術的に可能になってきました。\n\nただし個別最適化学習は「一人で黙々と学ぶこと」だけを意味するのではなく、協働的な学びと組み合わせて実施することが重要だと文部科学省の資料でも強調されています。",
-    relatedSlugs: ["giga-school", "scaffolding", "kyodo-gakushu"],
+    relatedSlugs: ["giga-school", "scaffolding", "kyodo-gakushu", "module-gakushu", "nudge-theory-classroom-design", "pe-video-analysis-peer-coaching", "writing-workshop-author-time", "reading-workshop-independent-reading"],
     isCanonical: true,
     tags: ["指導の個別化", "学習の個性化", "令和の日本型学校教育"],
   },
@@ -90,7 +90,7 @@ export const methodsTerms: Term[] = [
     summary:
       "授業の中で教師が子どもの思考を引き出すために意図的に投げかける問いのこと。授業設計における重要な技術の一つ。",
     body: "発問とは、授業の中で教師が子どもの思考を促すために意図的に投げかける問いを指します。単なる確認のための「質問」とは区別され、子どもが自分で考え、判断し、表現することを引き出すよう計画的に設計される点が特徴です。\n\n発問は大きく、正解が一つに定まる「閉じた発問（クローズドクエスチョン）」と、複数の答えや多様な解釈が許される「開いた発問（オープンクエスチョン）」に分けられます。思考力や表現力を育てる授業では、後者の開いた発問を効果的に使うことが重要とされます。\n\n良い発問の条件としては、子ども全員が考えたくなる魅力があること、既有知識と新しい学びをつなぐこと、思考の広がりや深まりを生む余地があることなどが挙げられ、学習指導案を作成する際の重要な検討項目の一つです。",
-    relatedSlugs: ["shido-an", "bloom-taxonomy"],
+    relatedSlugs: ["shido-an", "bloom-taxonomy", "flanders-interaction-analysis", "open-closed-questioning-strategies", "destabilizing-questioning-technique", "responsive-revoicing-questioning", "prep-presentation-instructional-skill", "question-formulation-technique-qft"],
     isCanonical: true,
     exam: true,
     tags: ["発問技術", "開いた発問"],
@@ -104,7 +104,7 @@ export const methodsTerms: Term[] = [
     summary:
       "一つの授業（単元）について、目標・内容・展開・評価方法などを事前に計画した文書のこと。授業研究や教育実習で作成される。",
     body: "学習指導案とは、一時間もしくは一単元の授業について、単元の目標、指導内容、授業の展開（導入・展開・まとめ）、使用する教材、評価の方法などをあらかじめ計画してまとめた文書です。\n\n一般的には、単元全体の指導計画を示す「単元指導案」と、一時間ごとの授業の流れを詳しく示す「本時案（細案）」に分けられます。本時案では、教師の発問や指示、想定される子どもの反応、時間配分などが、表形式で細かく記述されることが多くあります。\n\n教育実習や研究授業（授業研究）の場で作成・検討されることが多く、授業をデザインする力を育てるための重要なトレーニングとして位置づけられています。",
-    relatedSlugs: ["hatsumon", "keiseiteki-hyoka"],
+    relatedSlugs: ["hatsumon", "keiseiteki-hyoka", "perspective-based-instructional-design", "three-phase-lesson-structure"],
     isCanonical: true,
     tags: ["単元指導案", "授業研究"],
   },
@@ -117,7 +117,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教師が学習内容を明確な手順で段階的に説明・示範し、練習を通じて定着させる、構造化された指導方法。",
     body: "直接教授法とは、教師が学習目標を明確に示し、モデル（手本）を提示し、段階的な練習を通じて知識や技能を確実に習得させることを重視する、構造化された指導方法です。\n\n典型的な流れとして、目標の提示、既習内容の確認、新しい内容の説明と示範、教師の支援のもとでの練習（例題演習）、独力での練習（習熟練習）という段階を踏みます。基礎的な計算技能や漢字の読み書きなど、確実な習得が求められる内容と相性がよいとされます。\n\n発見学習や問題解決学習のように子どもの自発的な探究を重視する方法とはアプローチが対照的ですが、実際の授業では、基礎の定着には直接教授法を、応用や探究には発見的な方法を、というように内容に応じて使い分けられることが一般的です。",
-    relatedSlugs: ["hakken-gakushu"],
+    relatedSlugs: ["hakken-gakushu", "gradual-release-of-responsibility", "phonics-instructional-methods"],
     isCanonical: true,
     tags: ["明示的指導", "基礎技能の定着"],
   },
@@ -143,7 +143,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教科の枠を超えて、地域や社会の課題について探究的に学ぶために設けられた学習指導要領上の時間。高校では「総合的な探究の時間」。",
     body: "総合的な学習の時間は、2000年前後の学習指導要領改訂で新設された、特定の教科に属さない学習の時間です。国際理解、情報、環境、福祉・健康など、教科の枠を超えた現代的な課題について、各学校が地域や児童生徒の実態に応じてテーマを設定し、探究的に学習することがねらいとされます。\n\n知識を教え込むことよりも、課題を見つける「課題の設定」、情報を集める「情報の収集」、情報を整理・分析する「整理・分析」、まとめて表現する「まとめ・表現」という探究のサイクルを繰り返すことが重視されます。\n\n2018年改訂の高等学校学習指導要領では、より探究の質を高める観点から名称が「総合的な探究の時間」に変更されており、大学入試における探究成果の活用など、その重要性はさらに高まっています。",
-    relatedSlugs: ["tankyu-gakushu", "mondai-kaiketsu"],
+    relatedSlugs: ["tankyu-gakushu", "mondai-kaiketsu", "integrated-inquiry-unit-design"],
     isCanonical: true,
     exam: true,
     tags: ["探究的な学習", "教科横断"],
@@ -157,7 +157,7 @@ export const methodsTerms: Term[] = [
     summary:
       "自ら課題を見いだし、情報の収集・整理分析・まとめと表現というサイクルを繰り返しながら学びを深めていく学習のあり方。",
     body: "探究学習とは、学習者自身が疑問や課題を見いだし、それについて情報を集め、整理・分析し、自分なりの考えをまとめて表現するという一連の探究のプロセスを、繰り返しながら学びを深めていく学習のあり方です。\n\n文部科学省の資料では、探究の過程を「課題の設定」「情報の収集」「整理・分析」「まとめ・表現」という4つのステップの循環として整理しています。一度で完結するのではなく、まとめた成果から新たな疑問が生まれ、次の探究へとつながっていく点が特徴です。\n\n総合的な学習(探究)の時間だけでなく、各教科の中でも「見方・考え方」を働かせながら探究的に学ぶことが求められており、資質・能力の育成やアクティブラーニングの中核をなす考え方として位置づけられています。",
-    relatedSlugs: ["sogo-gakushu", "mondai-kaiketsu", "active-learning", "inquiry-cycle-four-phases", "inquiry-process-rubric-high-school"],
+    relatedSlugs: ["sogo-gakushu", "mondai-kaiketsu", "active-learning", "inquiry-cycle-four-phases", "inquiry-process-rubric-high-school", "expert-novice-pedagogical-research", "pyramid-structure-thinking-tool", "y-chart-x-chart-multidimensional"],
     isCanonical: true,
     tags: ["探究のサイクル", "課題設定"],
   },
@@ -170,7 +170,7 @@ export const methodsTerms: Term[] = [
     summary:
       "2017・2018年改訂の学習指導要領が示す授業改善の視点。学びへの興味関心、他者との対話、深い理解の三つの観点からなる。",
     body: "「主体的・対話的で深い学び」とは、2017年・2018年改訂の学習指導要領において示された、授業改善の3つの視点です。特定の指導方法を指すものではなく、あらゆる授業づくりにおいて意識すべき観点として位置づけられています。\n\n「主体的な学び」は、学ぶことに興味や関心を持ち、見通しを持って粘り強く取り組み、自らの学習を振り返って次につなげる学びを指します。「対話的な学び」は、子ども同士の協働や、教師・地域の人々との対話を通じて自分の考えを広げ深める学びです。「深い学び」は、各教科等の特質に応じた「見方・考え方」を働かせながら、知識を相互に関連づけたり、情報を精査したり、問題を発見・解決したりする学びを指します。\n\nこの視点は、いわゆるアクティブラーニングの考え方を、日本の学習指導要領の文脈に即して具体化したものと理解されています。",
-    relatedSlugs: ["active-learning", "metacognition", "shishitsu-noryoku"],
+    relatedSlugs: ["active-learning", "metacognition", "shishitsu-noryoku", "karl-otto-apel-discourse-ethics", "butterfly-chart-opinion-contrast", "feeling-meter-moral-line", "active-learning-moral-education-lessons", "classroom-dialogue-discourse-analysis-assessment"],
     isCanonical: true,
     exam: true,
     tags: ["学習指導要領", "授業改善の視点"],
@@ -184,7 +184,7 @@ export const methodsTerms: Term[] = [
     summary:
       "アメリカの社会心理学者エリオット・アロンソンが1970年代に考案した協同学習の技法。学習内容を分担して各自が専門家になり、互いに教え合うことで班全体として深い理解に到達させる授業技法である。",
     body: "ジグソー法とは、アメリカの社会心理学者エリオット・アロンソンが1970年代初頭に考案した協同学習の代表的な技法です。パズルのピースを一人ずつ持ち寄って一枚の絵を完成させる様子になぞらえて名付けられました。人種統合が進む学級の中で対立が問題となっていたテキサス州の学校で、子ども同士が互いに助け合わざるを得ない学習の場をつくるために考案されたという背景も知られています。\n\n学習内容をいくつかのパートに分割し、まず同じパートを担当するメンバー同士で集まって内容を深く学ぶ「エキスパート活動」を行います。その後、異なるパートを担当したメンバーが一人ずつ集まって新たな班を編成する「ジグソー活動」を行い、それぞれが自分の担当部分について仲間に分かりやすく説明し合うことで、班全体として学習内容の全体像を組み立てていきます。\n\n一人ひとりが自分の担当パートについて仲間から頼られる立場になるため、責任感や自己有用感を育みながら、協同で深い理解に到達できる点が特徴です。日本でも社会科や理科、総合的な学習の時間など多くの単元で広く実践されており、協同学習を代表する技法の一つに数えられています。",
-    relatedSlugs: ["kyodo-gakushu", "active-learning", "pair-learning", "expert-group-home-group-dynamics", "social-studies-issue-inquiry"],
+    relatedSlugs: ["kyodo-gakushu", "active-learning", "pair-learning", "expert-group-home-group-dynamics", "social-studies-issue-inquiry", "team-based-learning-tbl-classroom"],
     isCanonical: true,
     exam: true,
     tags: ["アロンソン", "協同学習", "エキスパート活動"],
@@ -198,7 +198,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教師集団が授業案を協働で作成し、実際の授業を公開・観察したうえで検討し合い、日々の指導の改善につなげる日本発祥の教員研修の仕組み。国際的には「レッスンスタディ」として世界各国に広まった。",
     body: "授業研究とは、教師が互いの授業を協働で計画し、実際の学級で公開して観察し合い、事後に検討することで指導力の向上をめざす、日本の学校で明治期以来伝統的に行われてきた校内研修の仕組みです。特定の研究者が制度として持ち込んだものではなく、現場の教師たちが自主的に積み重ねてきた実践知共有の文化として発展してきた点に特徴があります。\n\n一般的な流れは、教師集団で単元の目標や指導の手立てを話し合いながら学習指導案を作成し、代表の教師が実際の学級で「研究授業」を公開し、他の教師が参観したうえで事後の検討会で成果や課題を話し合うというものです。一度きりで終わらせず、同じ単元や同じ学級で改善を重ねながら繰り返し検討していく継続的な取り組みとして行われることも少なくありません。\n\n1999年にアメリカの研究者ジェームズ・スティグラーとジェームズ・ヒーバートが著書『The Teaching Gap』で日本の授業研究を紹介したことをきっかけに、\"Lesson Study\"として世界各国の教員研修に取り入れられ、国際的な教育改善のモデルとしても広く注目されるようになりました。",
-    relatedSlugs: ["shido-an", "hatsumon", "active-learning"],
+    relatedSlugs: ["shido-an", "hatsumon", "active-learning", "omura-hama", "flanders-interaction-analysis", "three-phase-lesson-structure", "math-problem-solving-self-peer", "post-lesson-reflection-cycle"],
     isCanonical: true,
     tags: ["研究授業", "校内研修", "スティグラー"],
   },
@@ -211,7 +211,7 @@ export const methodsTerms: Term[] = [
     summary:
       "アメリカの教育心理学者ベンジャミン・ブルームが1968年に提唱した教授理論。適切な時間と補充指導さえ与えれば、能力差にかかわらずほとんどの学習者が学習内容を完全に習得できるとする考え方である。",
     body: "完全習得学習（マスタリーラーニング）は、アメリカの教育心理学者ベンジャミン・ブルームが1968年に提唱した教授戦略であり、教育哲学でもあります。心理学者ジョン・キャロルが1963年に示した学校学習モデルを理論的な基礎とし、「適性とは学習に必要な時間の個人差にすぎず、十分な時間と適切な指導が与えられれば、ほとんどすべての学習者は学習課題を習得できる」という考え方に立っています。\n\n具体的な手続きとしては、単元ごとに形成的評価と呼ばれる小テストなどを行い、あらかじめ定めた到達基準に達していない学習者にはグループ別指導や個別指導などの補充指導を行ったうえで再評価を実施し、学級の大多数が一定水準に到達してから初めて次の単元へと進みます。到達度を判断するための基準は、指導の前にできるだけ明確に定めておくことが前提とされています。\n\n学習者が生まれつき持つ能力差ではなく、学習に要する時間や必要とする支援の量の違いに着目する点が特徴であり、後の個別最適な学びの考え方や、診断的評価・形成的評価・総括的評価を組み合わせた評価論にも大きな影響を与えました。",
-    relatedSlugs: ["keiseiteki-hyoka", "kobetsu-saiteki", "shindan-hyoka", "supplementary-instruction-unit"],
+    relatedSlugs: ["keiseiteki-hyoka", "kobetsu-saiteki", "shindan-hyoka", "supplementary-instruction-unit", "worked-example-method", "scaffolding-fading-technique", "keller-plan-personalized-system", "winnetka-plan-common-essentials"],
     isCanonical: true,
     exam: true,
     tags: ["ブルーム", "キャロル", "形成的評価"],
@@ -251,7 +251,7 @@ export const methodsTerms: Term[] = [
     summary:
       "対面授業とオンライン学習(eラーニング)など、性質の異なる複数の学習形態を組み合わせて実施する教育手法。それぞれの長所を生かし、短所を互いに補い合いながら学習効果を高めることをねらう。",
     body: "ブレンデッドラーニング（混合学習）とは、教室での対面授業とオンライン上でのeラーニングなど、性質の異なる複数の学習形態を意図的に組み合わせて実施する教育の方法です。2000年代以降、情報通信技術の発展とともにまず企業研修や高等教育の分野を中心に広まり、近年では初等中等教育におけるICT活用の文脈でも積極的に用いられるようになっています。\n\n代表的な形態には、あらかじめオンライン教材で基礎的な知識や用語を予習させておき、教室では議論や演習など対面ならではの活動に時間を充てる方式や、対面授業で学んだ内容をオンラインの補充学習で繰り返し定着させる方式などがあります。教室での学びと家庭での学びをあらかじめ入れ替え、動画などで予習してから授業に臨む反転授業も、ブレンデッドラーニングの一形態として位置づけられます。\n\n学習者が自分のペースで基礎的な知識を習得しつつ、対面ならではの対話や協働の機会も確保できる点が大きな利点とされ、一人一台端末の整備が進んだGIGAスクール構想以降の日本の学校現場でも、教科や単元に応じて活用の幅が着実に広がっています。",
-    relatedSlugs: ["flipped-classroom", "edtech", "giga-school", "just-in-time-teaching"],
+    relatedSlugs: ["flipped-classroom", "edtech", "giga-school", "just-in-time-teaching", "blended-learning-integrated-course-design"],
     isCanonical: true,
     tags: ["eラーニング", "ICT活用", "反転授業"],
   },
@@ -290,7 +290,7 @@ export const methodsTerms: Term[] = [
     summary:
       "学問や教科が持つ体系性を重んじ、基礎的な内容から順序立てて段階を追って積み上げていく学習方法。経験主義的な単元学習と対をなす立場として、日本の教育史上たびたび論じられてきた。",
     body: "系統学習とは、各教科の背景にある学問体系がもつ論理的なまとまりを重視し、易しい内容から難しい内容へ、基礎的な事項から応用的な事項へと段階を踏みながら系統的に学習を組織していく学習方法です。学校で教えられる教育内容は、科学や学問の成果に基づいて論理的に構成されるべきだとする「系統主義」の立場に立っています。\n\n日本の教育史をたどると、明治期後半以降に近代的な学問体系の整理が進むとともに系統主義的な考え方が強まり、第二次世界大戦の終結までその傾向が続きました。戦後は経験主義に基づく単元学習が学校教育の主流となった時期もありましたが、それに伴って基礎学力の低下が各方面から指摘されるようになり、1950年代後半の学習指導要領改訂を大きな契機として、系統学習の重要性が改めて強く打ち出されるようになりました。\n\n知識や技能を漏れなく確実に積み上げやすい一方で、子どもの生活実感や興味関心から離れやすいという課題もたびたび指摘されており、今日の教育課程では、単元学習と系統学習それぞれの長所を組み合わせながら指導計画を工夫することが求められています。",
-    relatedSlugs: ["tangen-gakushu", "chokusetsu-kyoju", "gakushu-shido-yoryo"],
+    relatedSlugs: ["tangen-gakushu", "chokusetsu-kyoju", "gakushu-shido-yoryo", "katsuta-shuichi-ability-development", "suido-hoshiki"],
     isCanonical: true,
     tags: ["系統主義", "教育課程", "学問体系"],
   },
@@ -330,7 +330,7 @@ export const methodsTerms: Term[] = [
     summary:
       "環境教育活動家の川嶋直が考案したプレゼンテーション技法。A4用紙にキーワードを書きホワイトボードに順に貼りながら話すことで、特別な機材なしに話の要点や構成を可視化して伝えられる。",
     body: "KP法（紙芝居プレゼンテーション法）とは、環境教育や自然体験活動の分野で長年活躍してきた川嶋直が考案した、プレゼンテーションおよび思考整理のための技法です。A4サイズの紙を横向きに使い、伝えたいメッセージやキーワードを大きな文字で書き記し、話をしながらホワイトボードなどに一枚ずつ順番に貼り出していく点が、この技法の最大の特徴となっています。\n\n紙芝居のように一枚ずつシートを見せながら話していくため、聞き手は話の全体構成と要点を視覚的に把握しやすく、話し手自身も原稿を読み上げるのではなく、貼り出したシートを手がかりにしながら自分の言葉で語ることになります。パソコンやスライド作成の技術を必要とせず、紙とペン、そしてホワイトボードさえあれば誰でもすぐに実践できる、手軽さも大きな長所として挙げられます。\n\n本来は環境教育や社会教育の研修の場を中心に広まった手法ですが、近年は学校の授業においても、児童生徒が自分の考えを整理して発表する活動や、教師が説明内容を分かりやすく構造化して示す手立てとして、少しずつ取り入れられるようになっています。",
-    relatedSlugs: ["active-learning", "thinking-tools"],
+    relatedSlugs: ["active-learning", "thinking-tools", "school-trip-inquiry-presentation"],
     isCanonical: true,
     tags: ["川嶋直", "プレゼンテーション", "可視化"],
   },
@@ -343,7 +343,7 @@ export const methodsTerms: Term[] = [
     summary:
       "ベン図やY字チャートなど、比較や分類といった思考の過程を図式化して可視化するための道具の総称。関西大学の黒上晴夫らが提唱し、日本の学校教育への普及に長年にわたり取り組んできた。",
     body: "シンキングツールとは、比較・分類・関係づけ・順序づけ・多面的に見るといった、頭の中で行われるさまざまな思考のはたらきを、ベン図やY字チャート、座標軸、フィッシュボーンなどの図式に置き換えて可視化するための道具の総称です。本来は目に見えない思考のプロセスを、線や枠で構造化された図として書き出すことで、子ども自身が自分の考えを整理し、他者と共有しやすくなります。\n\n日本では関西大学の黒上晴夫が中心となり、アメリカで開発された「シンキングマップ」などの考え方を参考にしながら、日本の学校現場で扱いやすい形に整理し、その普及に長年取り組んできました。近年は児童生徒一人一台の情報端末の普及に伴い、デジタル上でシンキングツールを自由に操作し、友達と共有できる学習支援アプリも広く使われるようになっています。\n\n国語や社会、総合的な学習の時間など教科の枠を問わず幅広く活用でき、比較・分類・構造化といった思考のスキルそのものを育成し、対話を通じた協働的な学びを支える手立てとして、多くの学校で注目され実践が積み重ねられています。",
-    relatedSlugs: ["kp-method", "metacognition", "mondai-kaiketsu", "fishbone-cause-and-effect-diagram", "venn-diagram-comparison-tool"],
+    relatedSlugs: ["kp-method", "metacognition", "mondai-kaiketsu", "fishbone-cause-and-effect-diagram", "venn-diagram-comparison-tool", "thinking-routines-project-zero", "pyramid-structure-thinking-tool", "y-chart-x-chart-multidimensional"],
     isCanonical: true,
     tags: ["黒上晴夫", "思考の可視化", "ICT活用"],
   },
@@ -405,7 +405,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教師が授業中に児童生徒の机の間を回って一人ひとりの取り組みや理解の状況を把握し、必要に応じて個別に助言する授業技術。かつては机間巡視と呼ばれ、現在は指導性が重視されている。",
     body: "机間指導とは、教師が授業中に児童生徒の机の間を歩きながら、それぞれの学習の進み具合やノートに書かれた記述、つまずいている様子などを間近で観察し、必要に応じて個別に声をかけたり助言を与えたりする授業技術です。以前は「机間巡視」と呼ばれ、単に様子を見て回るという受け身の意味合いが強かったのに対し、現在では一人ひとりの学習に積極的に働きかける「指導」としての側面が、より強く重視されるようになっています。\n\n一斉指導が中心となる授業の場面であっても、机間指導を丁寧に行うことで、教師は学級全体のおおまかな理解状況をつかみながら、特に支援を必要としている児童生徒を早い段階で見つけ出し、その場で必要な手立てを講じることができます。また、優れた考え方をしている児童生徒の記述をあらかじめ把握しておき、その後の学級全体での交流の場面で意図的に取り上げて紹介するといった使い方も、よく行われています。\n\n一人ひとりに応じた個別最適な学びが重視される中で、一斉指導と個への配慮を両立させるための基本的な授業技術として、教員養成の段階から現職教員向けの研修に至るまで、非常に重要視されています。",
-    relatedSlugs: ["shido-an", "kobetsu-saiteki", "issei-shido"],
+    relatedSlugs: ["shido-an", "kobetsu-saiteki", "issei-shido", "standing-and-sharing-learning"],
     isCanonical: true,
     tags: ["授業技術", "机間巡視", "個別支援"],
   },
@@ -418,7 +418,7 @@ export const methodsTerms: Term[] = [
     summary:
       "黒板やホワイトボードに文字・図・表などを書き記していく授業技術。学習の流れや要点を可視化し、児童生徒の理解や思考の整理を助ける重要な役割を持ち、板書計画も指導案づくりの要とされる。",
     body: "板書とは、教師が授業中に黒板やホワイトボードに、その時間のめあて・学習の要点・図表・そして児童生徒から出された発言などを書き記していく、日本の授業で古くから重視されてきた授業技術です。単なる記録にとどまらず、その日の学習の流れや思考の筋道を目に見える形で残していくことで、児童生徒の理解を助ける大切な役割を果たしています。\n\n日本の授業研究の伝統の中では、授業の展開に合わせてあらかじめ板書の構成を考えておく「板書計画」が、学習指導案づくりにおける重要な要素の一つとして位置づけられてきました。学習の展開を左から右へ順に示す、色チョークを使って重要な語句を強調する、児童生徒から出された多様な考えを比較しやすいように構造的に配置するなど、教科や単元の特性に応じたさまざまな工夫が長年にわたって積み重ねられています。\n\n電子黒板やタブレット端末の普及によって板書のあり方そのものも多様化していますが、その時間の学習の全体像を一覧できる形で黒板上に残し、後の振り返りや家庭学習にも活用できるという板書本来の機能は、今日の授業づくりにおいても変わらず重視され続けています。",
-    relatedSlugs: ["shido-an", "kikan-shido", "hatsumon"],
+    relatedSlugs: ["shido-an", "kikan-shido", "hatsumon", "nameplate-opinion-visualization", "math-problem-solving-self-peer", "feeling-meter-moral-line"],
     isCanonical: true,
     tags: ["授業技術", "板書計画", "可視化"],
   },
@@ -470,7 +470,7 @@ export const methodsTerms: Term[] = [
     summary:
       "概念間の関係を線と言葉でつなぎ図式化し、知識構造の可視化と理解深化を図る学習技法です。",
     body: "コンセプトマップ（概念地図法）は、アメリカの教育心理学者ジョセフ・ノヴァクがオーズベルの有意味受容学習の理論を基に開発した図解技法です。学習内容に含まれる概念（ノード）を丸や四角で表し、それらを矢印や線でつなぎ、関係を示す言葉（リンクワード）を添えて命題として表現します。\n\n作成の過程で学習者は既有知識と新しい情報の関連づけを意識化し、自分の理解の構造を外化することができます。授業では単元導入時の予備知識の把握、学習後の知識の整理、グループでの共同作成による対話的な理解の深化などに用いられます。\n\n近年はデジタルツールを使ったマップ作成も普及し、理科や社会科をはじめ幅広い教科で思考の可視化・メタ認知の促進を目的に活用されています。",
-    relatedSlugs: ["meaningful-reception-learning", "metacognition", "thinking-tools", "visible-thinking-pedagogy", "social-studies-issue-inquiry"],
+    relatedSlugs: ["meaningful-reception-learning", "metacognition", "thinking-tools", "visible-thinking-pedagogy", "social-studies-issue-inquiry", "concept-mapping-thinking-process-evaluation", "thinking-tools-cloud-based-usage", "concept-mapping-apps-externalization"],
     isCanonical: true,
     tags: ["思考の可視化", "有意味学習", "図解"],
   },
@@ -483,7 +483,7 @@ export const methodsTerms: Term[] = [
     summary:
       "文化人類学者・川喜田二郎が考案した、雑多な情報をカードに書き出しグループ化して図解する発想整理法です。",
     body: "KJ法は、文化人類学者の川喜田二郎（東京工業大学名誉教授）が、フィールドワークで得た雑多なデータを整理するために考案した手法で、名称は考案者のイニシャルに由来します。ブレーンストーミングなどで出た意見やアイデアを1枚ずつ小さなカードに書き出すところから始まります。\n\n次に、内容が近いと感じられるカード同士を集めてグループ化し、小グループから中グループ、大グループへと組み立てながら、グループ間の関係を図解し、最終的に文章化してまとめます。単なる分類ではなく、データ自身に語らせて発想を生み出す点に特徴があります。\n\n教育現場では、探究学習やグループ討議での意見整理、総合的な学習の時間での課題発見、教員研修での校内研究の論点整理などに広く応用されており、思考ツールの一つとして位置づけられています。",
-    relatedSlugs: ["brainstorming", "thinking-tools", "tankyu-gakushu"],
+    relatedSlugs: ["brainstorming", "thinking-tools", "tankyu-gakushu", "agenda-setting-consensus-building"],
     isCanonical: true,
     tags: ["発想法", "グループワーク", "図解"],
   },
@@ -496,7 +496,7 @@ export const methodsTerms: Term[] = [
     summary:
       "カフェのような雰囲気で少人数の対話を重ね、メンバーを組み替えながら集団の知を紡ぎ出す話し合い手法です。",
     body: "ワールド・カフェは、1995年にアニータ・ブラウンとデイビッド・アイザックスらがアメリカで考案した対話手法です。参加者を4〜5人の小グループに分けてテーブルに着かせ、リラックスした雰囲気の中で問いについて対話し、一定時間ごとにメンバーの一部を他のテーブルへ移動させます。\n\nテーブルに残った1人が「ホスト」となり、それまでの対話内容を新しく来たメンバーに伝えることで、異なる小グループの発想や気づきが混ざり合い、全体として大きな一つの対話をしているような効果が生まれます。模造紙への落書きやキーワードの書き込みも対話を促進します。\n\n学校現場では、生徒会や探究学習でのテーマ設定、教員研修や学校経営における合意形成、地域と連携した熟議の場づくりなど、多様な立場の意見を集約しながら創発的な発想を得たい場面で活用されています。",
-    relatedSlugs: ["buzz-session", "brainstorming", "round-robin"],
+    relatedSlugs: ["buzz-session", "brainstorming", "round-robin", "agenda-setting-consensus-building"],
     isCanonical: true,
     tags: ["対話", "ワークショップ", "合意形成"],
   },
@@ -548,7 +548,7 @@ export const methodsTerms: Term[] = [
     summary:
       "特定の論題について肯定・否定の立場に分かれ、根拠に基づき主張し合う討論形式の学習活動です。",
     body: "ディベート教育とは、あらかじめ設定された論題について、くじなどで肯定側・否定側の立場を割り振り、根拠に基づく主張と反論を交わし合う討論形式の学習活動です。個人の意見表明ではなく割り当てられた立場で議論する点が、通常の話し合いや議論教育と異なります。\n\n授業では、立論・反対尋問・反駁といった一定の手続きに従い、時間を区切って進行します。生徒は自分の本来の意見とは異なる立場であっても論拠を集め、資料を分析し、論理的に説得力のある主張を組み立てる力が求められます。第三者による審判が勝敗を判定する形式が一般的です。\n\n国語科や社会科、総合的な探究の時間などで、情報を批判的に読み解く力、論理的思考力、公共的な事柄について多角的に考える態度を育む活動として位置づけられ、全国規模のディベート甲子園なども開催されています。",
-    relatedSlugs: ["panel-discussion", "critical-pedagogy", "citizenship-education"],
+    relatedSlugs: ["panel-discussion", "critical-pedagogy", "citizenship-education", "bibliobattle-classroom-book-review", "prep-presentation-instructional-skill"],
     isCanonical: true,
     tags: ["討論", "論理的思考", "国語科"],
   },
@@ -561,7 +561,7 @@ export const methodsTerms: Term[] = [
     summary:
       "複数の教科の内容やねらいを関連づけて横断的に構成し、統合的な理解を目指すカリキュラム編成の考え方です。",
     body: "クロスカリキュラムとは、環境教育や国際理解教育、情報教育などの現代的な課題を、特定の一教科だけでなく複数の教科等を横断して関連づけながら扱うカリキュラム編成の考え方です。教科の枠を固定的に捉えず、共通するテーマの下に各教科の学習を組み合わせて配列します。\n\n実践では、例えば「水」というテーマを理科・社会科・家庭科・総合的な学習の時間で連携させて扱うなど、教科ごとの指導計画を年間指導計画の段階からすり合わせておく必要があります。教員間のカリキュラム・マネジメントの体制づくりが成否を左右します。\n\n現行の学習指導要領が重視する「教科等横断的な学習」やSTEAM教育の考え方の源流の一つとされ、知識の断片化を防ぎ、実社会の複雑な課題に対応できる統合的な資質・能力の育成に資すると考えられています。",
-    relatedSlugs: ["kyoka-yokodanteki-gakushu", "curriculum-management", "steam-education"],
+    relatedSlugs: ["kyoka-yokodanteki-gakushu", "curriculum-management", "steam-education", "decroly-centers-of-interest", "taiwan-twelve-year-basic-education", "thailand-basic-education-core-curriculum", "clil-content-language-integrated-learning-europe"],
     isCanonical: true,
     tags: ["カリキュラム編成", "教科横断", "総合的な学習"],
   },
@@ -574,7 +574,7 @@ export const methodsTerms: Term[] = [
     summary:
       "現行学習指導要領が求める、教科の枠を越えて資質・能力を育成するために内容を関連づける学習のあり方です。",
     body: "教科等横断的な学習とは、各教科等で育成を目指す資質・能力を、教科の枠を越えて相互に関連づけながら育んでいく学習のあり方を指します。平成29・30年改訂の学習指導要領では、言語能力や情報活用能力、問題発見・解決能力などを「学習の基盤となる資質・能力」と位置づけ、教科横断的に育成することが求められています。\n\n実現に向けては、各学校が編成する教育課程全体を見渡し、教科間の内容のつながりを把握したうえで単元配列や年間指導計画を工夫する、カリキュラム・マネジメントの取組が不可欠です。総合的な学習（探究）の時間は、教科横断的な学びの中心的な場として位置づけられています。\n\nSTEAM教育やESD、防災教育などの現代的な諸課題への対応も、この考え方に基づいて教科等横断的に取り組まれることが多く、教科の縦割りを超えた学校全体でのカリキュラム設計力が問われています。",
-    relatedSlugs: ["cross-curriculum", "curriculum-management", "sogo-gakushu", "steam-education"],
+    relatedSlugs: ["cross-curriculum", "curriculum-management", "sogo-gakushu", "steam-education", "integrated-study-moral-cross-curricular", "subject-areas-moral-infusion-approach"],
     isCanonical: true,
     tags: ["学習指導要領", "資質・能力", "カリキュラム・マネジメント"],
   },
@@ -600,7 +600,7 @@ export const methodsTerms: Term[] = [
     summary:
       "最終的に求める理解や評価の姿を先に定め、そこから遡って学習経験と指導を計画するカリキュラム設計論です。",
     body: "逆向き設計（バックワードデザイン）は、アメリカの教育学者G.ウィギンズとJ.マクタイが著書『Understanding by Design』（邦訳『理解をもたらすカリキュラム設計』）で提唱した単元・授業設計の考え方です。教材を配列してから評価方法を考える従来の順序とは逆に、まず単元終了時に求める理解や成果を明確にします。\n\n設計は、①求められている結果（目標）を明確にする、②承認できる証拠（評価方法）を決定する、③学習経験と指導を計画する、という3段階で進めます。特に評価の場面では、単なるペーパーテストではなく、パフォーマンス課題を用いた「真正の評価」が重視されます。\n\n日本でも西岡加名恵らによる紹介以降、単元設計やカリキュラム・マネジメントの手法として教員研修や大学の教職課程で広く取り上げられ、資質・能力ベースの授業づくりを進める上での基本的な枠組みとなっています。",
-    relatedSlugs: ["authentic-assessment", "performance-hyoka", "curriculum-management", "six-facets-of-understanding"],
+    relatedSlugs: ["authentic-assessment", "performance-hyoka", "curriculum-management", "six-facets-of-understanding", "integrated-inquiry-unit-design"],
     isCanonical: true,
     exam: true,
     tags: ["単元設計", "真正の評価", "カリキュラム論"],
@@ -614,7 +614,7 @@ export const methodsTerms: Term[] = [
     summary:
       "実社会に存在する本物の課題や状況の中で学ぶことを重視し、知識の実践的活用力を育てる学習観です。",
     body: "オーセンティック・ラーニング（真正の学習）とは、学校の中だけで完結する人工的な練習問題ではなく、実社会・実生活の中に存在する本物（オーセンティック）の課題や状況、専門家が直面する問題に近い文脈の中で学習を組織する考え方です。状況的学習論や社会的構成主義の影響を受けています。\n\n実践では、地域の実在の課題を調べて提案する探究学習、実務家をゲストに招いた課題解決型学習（PBL）、実際の読み手を想定した作文や発表など、学習の成果が現実世界の誰かにとって意味を持つ活動が組まれます。評価の場面でも本物の課題を用いる「真正の評価」と対応関係にあります。\n\nGIGAスクール構想下でのICT活用や地域連携型のカリキュラム・マネジメントの広がりとともに、教室内の学びと社会とのつながりを重視する動きの中で、探究学習やSTEAM教育の理論的基盤として注目されています。",
-    relatedSlugs: ["authentic-assessment", "pbl", "constructivism", "tankyu-gakushu"],
+    relatedSlugs: ["authentic-assessment", "pbl", "constructivism", "tankyu-gakushu", "freinet-pedagogy-free-text-printing"],
     isCanonical: true,
     tags: ["真正の学習", "探究学習", "状況的学習"],
   },
@@ -692,7 +692,7 @@ export const methodsTerms: Term[] = [
     summary:
       "1981年にフランク・ライマンが考案した協同学習技法で、個人思考(think)、ペアでの話し合い(pair)、全体共有(share)の3段階を通じて全員参加の発言機会を確保する。",
     body: "シンク・ペア・シェア(think-pair-share)は、1981年にメリーランド大学のフランク・ライマン(Frank Lyman)によって考案された、シンプルながら効果の高い協同学習・アクティブラーニングの技法である。教師が発問した後、①まず個人で考える時間(think)、②隣の学習者とペアになって意見を交換する時間(pair)、③ペアでの結論をより大きなグループや学級全体に共有する時間(share)という3段階の手順を踏む点に特徴がある。\n\nこの手法は、いきなり全体発言を求めると発言をためらいがちな学習者にも、まず自分の考えをまとめ、少人数で試してから発表できるという心理的な足場を提供する。実証研究では、発言に消極的な学習者の授業参加を高める効果や、分析・評価・統合を要する高次の思考を促す効果が報告されている。\n\n導入や展開が容易で準備の負担も小さいため、講義形式の大人数授業から小学校の日常的な話し合い活動まで幅広い校種・教科で活用されている。ペア学習やバズセッションと同様に協同学習の基本技法の一つに位置づけられ、他の技法と組み合わせて発問と対話を活性化させる目的でも用いられる。",
-    relatedSlugs: ["pair-learning", "active-learning", "hatsumon", "buzz-session"],
+    relatedSlugs: ["pair-learning", "active-learning", "hatsumon", "buzz-session", "literature-circles-book-clubs"],
     isCanonical: true,
     tags: ["協同学習", "ペア学習", "アクティブラーニング", "発問"],
   },
@@ -770,7 +770,7 @@ export const methodsTerms: Term[] = [
     summary:
       "1990年代にハーバード大学のエリック・マズールが開発した授業法で、概念理解を問う選択式問題(コンセプトテスト)への個人解答後に少人数で議論させ、理解を深める。",
     body: "ピア・インストラクション(peer instruction)は、1991年頃にハーバード大学の物理学者エリック・マズール(Eric Mazur)が、学生の概念理解の不足を克服するために開発した学習者中心の授業技法である。短い講義と、学習者同士の議論を組み込んだ選択式の概念問題(コンセプトテスト、ConcepTest)を交互に配置する点が特徴である。\n\n典型的な進め方は5段階からなる。①教師が概念理解を問う選択式問題を提示する、②学習者はまず個人でクリッカー(応答システム)などを用いて解答する、③正答率に応じて近くの学習者と少人数(多くはペア)で議論する、④議論後に再度解答する、⑤教師が正答率の変化を確認しながら解説を行う、という流れである。この過程はシンク・ペア・シェアの構造とも重なる。\n\nコンセプトテストは、正答以外の選択肢が学習者によくある誤解を反映するよう設計されており、単なる知識の再生ではなく概念的理解を測ることを重視する。物理教育を中心に開発されたが、現在では医学教育をはじめ多様な分野の大学教育に応用され、応答システムやICTを活用したアクティブラーニングの代表的な技法の一つとなっている。",
-    relatedSlugs: ["think-pair-share", "active-learning", "cognitive-load-theory"],
+    relatedSlugs: ["think-pair-share", "active-learning", "cognitive-load-theory", "group-polarization-risky-cautious", "social-facilitation-inhibition-zajonc", "standing-and-sharing-learning"],
     isCanonical: true,
     tags: ["大学教育", "概念理解", "クリッカー", "アクティブラーニング"],
   },
@@ -783,7 +783,7 @@ export const methodsTerms: Term[] = [
     summary:
       "IDEO社が体系化した「共感―問題定義―発想―試作―検証」の5段階プロセスを教育現場に応用し、人間中心の視点で課題解決に取り組む力を育てる指導法。",
     body: "デザイン思考教育(design thinking in education)とは、デザイン会社IDEOなどが体系化した「デザイン思考」の考え方を学校教育に応用した指導法・学習アプローチである。デザイン思考は、利用者や当事者の視点に立って課題を捉える人間中心のマインドセットと、意図的な問題解決プロセスを組み合わせた枠組みであり、教育現場では児童生徒が身の回りの課題を発見し、解決策を創造的に生み出す力を育てる目的で用いられる。\n\n典型的なプロセスは「共感する(Empathize)」「問題を定義する(Define)」「アイデアを発想する(Ideate)」「試作する(Prototype)」「検証する(Test)」という5段階からなる。学習者はまず対象となる人々の状況や気持ちを理解するために観察やインタビューを行い、そこから解くべき課題を絞り込む。次に多様なアイデアを発散的に出し合い、簡易な試作品を作って実際に試し、フィードバックをもとに改善を繰り返す。\n\nこのプロセスは失敗を前提とした試行錯誤を許容し、正解が一つに定まらない課題に対する探究的な学びを促す点で、STEAM教育や探究学習、プロジェクト型学習と親和性が高い。近年は総合的な学習(探究)の時間やキャリア教育、情報科の授業などでも取り入れられ、創造性や協働的な問題解決力の育成を目指す実践が広がっている。",
-    relatedSlugs: ["pbl", "tankyu-gakushu", "steam-education"],
+    relatedSlugs: ["pbl", "tankyu-gakushu", "steam-education", "synectics-analogical-creativity"],
     isCanonical: true,
     tags: ["デザイン思考", "問題解決", "創造性", "探究学習"],
   },
@@ -809,7 +809,7 @@ export const methodsTerms: Term[] = [
     summary:
       "1987年にBSCS(生物科学カリキュラム研究会)のロジャー・バイビーらが開発した理科教育の指導モデル。「関与・探究・説明・発展・評価」の5段階で構成主義的に学習を組み立てる。",
     body: "5E授業モデル(5E instructional model)は、1987年に米国のBSCS(Biological Sciences Curriculum Study)においてロジャー・バイビー(Roger Bybee)らの研究チームによって開発された、理科教育を中心に用いられる授業設計モデルである。「関与(Engage)」「探究(Explore)」「説明(Explain)」「発展・精緻化(Elaborate)」「評価(Evaluate)」という5つの局面(5つのE)によって、一つの単元や一連の授業を構成する。\n\n各局面の役割は次の通りである。Engage(関与)では学習者の興味を喚起し、既有知識を引き出す。Explore(探究)では、具体的な現象や資料に触れる観察・実験活動を通じて学習者自らが疑問や仮説を持つ。Explain(説明)では、探究した内容をもとに概念や用語を整理し、教師が必要な補足説明を行う。Elaborate(発展)では、学んだ概念を新しい場面に適用し理解を深める。Evaluate(評価)では、学習者の理解の到達度を形成的・総括的に確認する。\n\nこのモデルは、学習者が既有知識をもとに新しい概念を能動的に構築していくという構成主義的な学習観に立脚しており、1960年代のカープラスらの学習サイクル(learning cycle)を発展させたものである。米国の理科教育で広く普及し、日本でも探究的な理科授業のデザインを検討する際の参考枠組みとして紹介されることがある。",
-    relatedSlugs: ["constructivism", "hakken-gakushu", "tankyu-gakushu"],
+    relatedSlugs: ["constructivism", "hakken-gakushu", "tankyu-gakushu", "hypothesis-testing-science-inquiry"],
     isCanonical: true,
     tags: ["理科教育", "構成主義", "授業デザイン", "探究"],
   },
@@ -822,7 +822,7 @@ export const methodsTerms: Term[] = [
     summary:
       "分析・設計・開発・実施・評価の5段階からなる代表的なインストラクショナルデザインの枠組みで、1970年代に体系化され、教材開発や研修設計の標準的手法として広く用いられている。",
     body: "ADDIEモデルとは、教材や研修プログラムを体系的に開発するためのインストラクショナルデザイン(instructional design)の代表的な枠組みであり、その名称は分析(Analysis)、設計(Design)、開発(Development)、実施(Implementation)、評価(Evaluation)という5つの段階の頭文字に由来する。インストラクショナルデザインの考え方自体は1950年代にさかのぼるが、ADDIEモデルとして体系化されたのは1970年代とされる。\n\n各段階の内容は、分析段階で学習課題や対象学習者のニーズ、既有知識を明らかにし、設計段階でその情報をもとに学習目標や評価方法、学習の流れを具体化する。開発段階では教材・コンテンツを実際に制作し、実施段階では設計した学習プログラムを学習者に提供する。評価段階では学習者が目標をどの程度達成したか、教材や指導方法が意図通りに機能したかを検証し、その結果を各段階へフィードバックする。\n\nADDIEモデルは直線的な5段階として説明されることが多いが、実際には各段階を反復・往還しながら改善を重ねる循環的なプロセスとして運用されることが一般的である。企業研修やeラーニング教材の開発だけでなく、大学の授業設計やカリキュラム開発など教育分野全般で広く応用されている。",
-    relatedSlugs: ["online-learning", "lms", "faculty-development"],
+    relatedSlugs: ["online-learning", "lms", "faculty-development", "gagnes-nine-events-of-instruction-practice", "arcs-motivation-model-learning-design"],
     isCanonical: true,
     tags: ["インストラクショナルデザイン", "教材開発", "カリキュラム設計", "eラーニング"],
   },
@@ -874,7 +874,7 @@ export const methodsTerms: Term[] = [
     summary:
       "学習した内容を記憶から積極的に思い出す行為そのものが記憶の定着を促すという知見に基づく学習・指導方略。再読よりもテスト形式の練習の方が長期記憶に有効とされる(テスト効果)。",
     body: "検索練習(retrieval practice)とは、学習した情報を記憶から積極的に「思い出す(検索する)」行為そのものが、その記憶の定着を強化するという学習方略である。単に教材を読み返すのではなく、内容を見ずに再生・再認しようと試みるプロセスが学習効果を高めることから、「テスト効果(testing effect)」とも呼ばれる。\n\nこの効果を示す代表的な研究として、心理学者ヘンリー・レーディガー(Henry Roediger)とジェフリー・カーピック(Jeffrey Karpicke)による2006年の実験が知られている。学習者に短い文章を繰り返し読ませた群と、一度読んだ後に内容を思い出して書き出す練習を繰り返させた群を比較したところ、1週間後の保持率は後者(思い出す練習をした群)の方が有意に高い結果となった。この結果は、テストが単なる学習の測定手段ではなく、それ自体が学習を促進するイベントであることを示している。\n\n授業実践への応用としては、小テストやクイズ、フラッシュカード、単元末の振り返り課題などを、評価目的だけでなく積極的な学習方略として日常的に取り入れることが推奨される。間隔をあけて繰り返し想起させる分散学習(スペーシング効果)と組み合わせることで、より高い長期記憶の定着効果が得られるとされ、忘却曲線に関する知見とも関連が深い。",
-    relatedSlugs: ["forgetting-curve", "cognitive-load-theory", "keiseiteki-hyoka"],
+    relatedSlugs: ["forgetting-curve", "cognitive-load-theory", "keiseiteki-hyoka", "shukudai-katei-gakushu", "shadowing-repeating-fluency"],
     isCanonical: true,
     tags: ["テスト効果", "記憶定着", "学習方略", "形成的評価"],
   },
@@ -939,7 +939,7 @@ export const methodsTerms: Term[] = [
     summary:
       "文法知識の習得よりも、実際の場面で意味のやり取りをする力（コミュニケーション能力）の育成を目標とする外国語教授法の総称。",
     body: "コミュニカティブ・アプローチ（Communicative Language Teaching, CLT）は、外国語教育において「文法規則を知っていること」よりも「場面に応じて意味のやり取りができること」を重視する教授法の総称です。1970年代以降、言語を形式の体系としてではなく伝達の道具として捉える機能的な言語観に基づいて広まりました。単一の確立した方法というより、目標と言語観を共有する複数の革新運動の集合体として捉えられることもあります。\n\n理論的な背景には、ハイムズ（D. Hymes）が提起した「コミュニケーション能力」の概念があります。ハイムズは、文法規則だけでなく言語を使う際の規則（社会的な適切さ）まで含めて言語能力を捉え直しました。これを言語教育に結びつけたのがカネールとスウェイン（1980）で、コミュニケーション能力を文法的能力・社会言語学的能力・方略的能力の3つで定義し、のちにカネール（1983）が談話能力を加えて4つの能力としました。\n\n授業では、ロールプレイ、ペアワーク、情報差（インフォメーション・ギャップ）を利用した活動など、学習者同士が実際に意味を伝え合う活動が中心になります。正確さだけでなく流暢さや伝達の成功も重視されるため、誤りへの寛容な姿勢も求められます。一方で、具体的な内容や進め方は解釈が多様であり、教室文化や試験制度との折り合いが課題となることも指摘されています。",
-    relatedSlugs: ["tblt-task-based-language-teaching", "clil", "cefr", "role-playing"],
+    relatedSlugs: ["tblt-task-based-language-teaching", "clil", "cefr", "role-playing", "chunk-and-slash-reading-english", "shadowing-repeating-fluency", "phonics-instructional-methods", "english-immersion-bilingual-development-models"],
     isCanonical: true,
     tags: ["外国語教育", "コミュニケーション能力", "英語教育"],
   },
@@ -952,7 +952,7 @@ export const methodsTerms: Term[] = [
     summary:
       "言語形式の練習ではなく、意味のやり取りを要する課題（タスク）の遂行を中心に学習を組み立てる外国語教授法。",
     body: "タスク・ベースの言語教育（Task-Based Language Teaching, TBLT）は、文法項目を順に導入して練習する従来型の授業ではなく、学習者が目標言語を使って達成すべき課題（タスク）を授業の中心に据える教授法です。コミュニカティブ・アプローチの流れをくみ、学習者の注意を言語形式そのものよりも課題の遂行に向けさせることで、かえって言語が効果的に習得されると考えます。インドのバンガロールでプラブー（N. Prabhu）が行った実践（バンガロール・プロジェクト）が先駆的な例として知られています。\n\nウィリス（J. Willis）が示した枠組みでは、授業は大きく3つの段階で構成されます。第1に、話題とタスクを導入し関連する語句を活性化させる「プレタスク」、第2に、学習者がタスクを行い、発表の準備をし、報告する「タスク・サイクル」、第3に、使われた言語を分析し練習する「言語焦点（ランゲージ・フォーカス）」です。形式への注目が最後に置かれる点で、導入・練習・産出（PPP）の順序を逆転させた構成といえます。\n\n実生活に近い課題を用いるため動機づけにつながりやすい一方、言語形式の定着が不十分になる恐れや、教室で扱うタスクの設計の難しさが指摘されています。そのため、課題中や課題後にどう言語形式へ注意を向けさせるかが、研究・実践の重要な論点となっています。",
-    relatedSlugs: ["clt-communicative-language-teaching", "clil", "cefr", "experiential-learning"],
+    relatedSlugs: ["clt-communicative-language-teaching", "clil", "cefr", "experiential-learning", "chunk-and-slash-reading-english", "english-immersion-bilingual-development-models"],
     isCanonical: true,
     tags: ["外国語教育", "タスク", "英語教育"],
   },
@@ -965,7 +965,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教科などの内容と外国語の学習を同時に行う教育手法。内容・言語・思考・協学（異文化理解）の4Cを枠組みとする。",
     body: "CLIL（Content and Language Integrated Learning、内容言語統合型学習）は、教科や主題の内容を外国語で学ぶことで、内容の理解と外国語の習得という二つの目標を同時に達成しようとする教育手法です。マーシュ（D. Marsh, 1994）が、教科の全体または一部を外国語で教え、内容学習と言語学習の両方を二重の焦点とする状況として定義したことで知られ、欧州における複言語主義の推進を背景に広まりました。\n\n指導の枠組みとして用いられるのが「4C」で、これはコイル（D. Coyle）らが整理したものです。内容（Content）は教科の主題や知識・技能の習得、コミュニケーション（Communication）は目標言語で考えや意見を伝えること、認知（Cognition）は思考や理解の過程、文化（Culture）は自己と他者の文化への理解や国際的な相互理解を指し、これらは相互に結びついたものとして扱われます。\n\n単に教科を外国語で教える「イマージョン」と異なり、言語の側面を意図的に計画に組み込む点や、高次の思考を伴う活動を重視する点に特徴があります。日本でも英語教育や高大の授業で導入が試みられていますが、教科内容と言語の両方に通じた教員の確保や、内容理解が言語力の不足で妨げられないようにする足場づくりが課題とされています。",
-    relatedSlugs: ["clt-communicative-language-teaching", "tblt-task-based-language-teaching", "cross-curriculum", "scaffolding"],
+    relatedSlugs: ["clt-communicative-language-teaching", "tblt-task-based-language-teaching", "cross-curriculum", "scaffolding", "clil-content-language-integrated-learning-europe"],
     isCanonical: true,
     tags: ["外国語教育", "複言語主義", "教科横断"],
   },
@@ -1043,7 +1043,7 @@ export const methodsTerms: Term[] = [
     summary:
       "作品を見て気づいたことを言葉にし、根拠を示して話し合いながら鑑賞する方法。ハウゼンとヤノウィンのVTSが知られる。",
     body: "対話型鑑賞は、美術作品を教師が解説するのではなく、鑑賞者同士が見て気づいたことや感じたことを言葉にし、対話を重ねながら作品の意味を探っていく鑑賞の方法です。代表的な手法に、アビゲイル・ハウゼン（A. Housen）とフィリップ・ヤノウィン（P. Yenawine）が1980年代後半に開発した「ビジュアル・シンキング・ストラテジーズ（VTS）」があります。ハウゼンの美的発達理論と研究に基づいており、作品や作者に関する予備知識を必要としません。\n\nVTSの進行は、基本的に3つの問いで行われます。「この絵の中でどんなことが起きていますか」と問い、次に「何を見てそう思いましたか」と根拠を尋ね、最後に「ほかに見つけたことはありますか」と促します。ファシリテーターは発言を言い換えて受け止め、指し示しながら整理するだけで、正解を示しません。これにより、観察力、批判的思考力、コミュニケーション力が育つとされ、他教科への応用も試みられています。\n\n日本では、美術館教育や図画工作・美術科の鑑賞活動として広まりました。ただし、美術教育者の上野行一氏は、日本の小中学校の美術の授業ではVTSの紹介以前から対話による鑑賞が行われていたと指摘しています。図画工作科で知識構成型ジグソー法と組み合わせる実践など、学校現場でさまざまな工夫が重ねられています。",
-    relatedSlugs: ["constructivism", "kyodo-gakushu", "thinking-tools", "hatsumon", "art-material-dialogue-concept-creation"],
+    relatedSlugs: ["constructivism", "kyodo-gakushu", "thinking-tools", "hatsumon", "art-material-dialogue-concept-creation", "visual-media-audio-materials-moral-teaching"],
     isCanonical: true,
     tags: ["図画工作・美術", "鑑賞", "対話"],
   },
@@ -1134,7 +1134,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教師が教材の意味や価値を解釈し、あるいは新たに教材を開発して、授業に位置づけるための準備と探究の営み。",
     body: "教材研究とは、教師が授業に先立って教材を調べ、その意味や価値を明らかにし、授業の中に位置づけていく営みを指します。大きく二つの作業から成るとされます。一つは、すでにある教材の意味を読み解いて実際の授業に位置づける「教材解釈」です。もう一つは、ある素材に教育的な意義を見いだして教材として開発する「教材開発」です。教材の収集・選択・分析・教材化は、学習指導案の作成と結びついて行われます。\n\n教材研究は、教材そのものを調べるだけで完結しません。教師の願い、子どもの実態や思い、教材の特性を結びつけて、何をどのように学ばせるかを工夫することが含まれます。そのため、近年は教材研究にとどまらず、授業全体を構想する「授業づくり研究」へと視点を広げる試みも見られます。教師が教材と対話する過程を授業の過程として構造化する研究もあります。\n\n一般には、教材は学習させる内容や素材、教具はそれを提示・操作するための道具として整理されることが多いとされますが、両者を明確に区別せず「教材・教具」とまとめて扱う場合も少なくありません。授業の成否は教材の質に左右される面が大きく、教材研究は授業研究や発問の設計と並ぶ、教師の専門性の中核の一つです。",
-    relatedSlugs: ["shido-an", "gakushu-shido-yoryo", "lesson-study", "hatsumon"],
+    relatedSlugs: ["shido-an", "gakushu-shido-yoryo", "lesson-study", "hatsumon", "suido-hoshiki", "post-lesson-reflection-cycle"],
     isCanonical: true,
     tags: ["授業づくり", "教材", "教師の専門性"],
   },
@@ -1160,7 +1160,7 @@ export const methodsTerms: Term[] = [
     summary:
       "始業前の短時間、全員が好きな本をただ読む学校読書運動。「みんなで・毎日・好きな本を・ただ読む」の4原則で知られる。",
     body: "朝の読書は、始業前の時間に、教師と児童生徒が全員で好きな本を読む学校の読書活動です。1988年に千葉県の私立女子高校で二人の教師によって提唱され、1994年からトーハンの支援を受けて全国に広がった読書推進運動とされています。一般には、毎朝10分間程度行われます。\n\n運動の特徴は、4つの原則にあります。「みんなでやる」「毎日やる」「好きな本でよい」「ただ読むだけ」です。感想文や記録を課さず、成績評価にも結びつけない点が、いわゆる読書指導と異なります。読書を課題としてではなく、楽しみとして経験させることで、本を読む習慣と静かに落ち着いて一日を始める雰囲気をつくることがねらいです。教師自身も一緒に読むことが重視されます。\n\n小学校から高校まで、多くの学校で実践されており、自治体や学校の資料でも取り組みが紹介されています。実施にあたっては、学校図書館や学級文庫の蔵書の整備、多様な本が選べる環境づくりが前提になります。「ただ読むだけ」で十分に効果が出るのかについては議論もありますが、読書への抵抗感を和らげ、言語活動の基盤を養う取り組みとして位置づけられています。",
-    relatedSlugs: ["gengo-katsudo-jujitsu", "gakushu-shido-yoryo", "gakko-toshokan-ho", "yomimono-kyozai", "reading-life-design-booktalk"],
+    relatedSlugs: ["gengo-katsudo-jujitsu", "gakushu-shido-yoryo", "gakko-toshokan-ho", "yomimono-kyozai", "reading-life-design-booktalk", "reading-workshop-independent-reading", "animacion-a-la-lectura-santos", "bibliobattle-classroom-book-review"],
     isCanonical: true,
     tags: ["読書指導", "学校図書館", "学級経営"],
   },
@@ -1602,7 +1602,7 @@ export const methodsTerms: Term[] = [
     summary:
       "二つ以上の学年を同一教室で同時に指導する複式学級において、教員の直接指導の移動（わたり）と学年ごとの時間配分・活動構造の分散（ずらし）を組み合わせた授業技術。",
     body: "複式学級における「わたり」と「ずらし」は、複数の学年が同室で同時に異なる学習内容を学ぶ特殊な教育環境において、双方の学習を破綻なく成立させるために日本で独自に洗練されてきた実践的指導技術である。小規模校における限られた教育資源の中で、高い学習効率と児童の自立を達成する知恵として発展した。\n\n「わたり」とは、教員が一方の学年に直接指導を行っている間、もう一方の学年には自習やリーダーを中心とする間接指導を配置し、教員が教卓間を計画的に往還することを指す。「ずらし」とは、両学年の導入、展開、まとめの山場となる時間帯を意図的に食い違わせ、教員の直接介入が必要な局面を重複させない構造化を指す。\n\n一斉授業に依存しない綿密な指導設計と児童相互の自律的協同が不可欠となるため、児童の自己管理能力や責任感を飛躍的に伸ばす。現代の一斉指導の見直しや、通常学級における習熟度別指導・グループ学習の時間配分技術としても再評価されている。",
-    relatedSlugs: ["issei-shido", "kyodo-gakushu", "kobetsu-saiteki", "learning-stations", "indirect-guidance-leader-learning"],
+    relatedSlugs: ["issei-shido", "kyodo-gakushu", "kobetsu-saiteki", "learning-stations", "indirect-guidance-leader-learning", "small-scale-multigrade-classroom-sociology"],
     isCanonical: true,
     tags: ["複式学級", "わたり", "ずらし", "授業技術"],
   },
@@ -1706,7 +1706,7 @@ export const methodsTerms: Term[] = [
     summary:
       "モンテッソーリ教育の根幹をなす、身の回りの手入れや運動の調整を行う作業を通じて、意志の統御、秩序感、自立した人格を育む初期教育実践。",
     body: "モンテッソーリの日常生活の練習は、「子どもの家」におけるあらゆる教育活動の土台をなす実践分野である。大人の生活動作を模倣したいという子どもの強い発達的要求に基づき、環境との関わりを通じて自己の身体運動を意志通りに統御し、精神的自立を確立することを目指す。\n\n活動は子どもの身体寸法に合わせた本物の道具を用いて行われる。机を拭く、水を注ぐ、ボタンを留める、ハサミを使うなどの動作を、教師が言葉を排してゆっくりと手順を提示（プレゼンテーション）する。子どもは秩序立った手順に従って何度も自発的に繰り返し作業を行い、満足するまで活動に没頭する。\n\n全身運動や指先の微細運動の洗練だけでなく、順序を守る秩序感や周囲への配慮といった道徳的資質が育まれる。自力で身の回りのことができるという自信は自己肯定感を高め、その後の感覚教育や言語・算数教育へと向かう強固な意志力の土台を形成する。",
-    relatedSlugs: ["montessori", "kankyo-wo-tsujita-kyoiku", "seikatsu-asobi-manabi", "shin-kyoiku-undo"],
+    relatedSlugs: ["montessori", "kankyo-wo-tsujita-kyoiku", "seikatsu-asobi-manabi", "shin-kyoiku-undo", "montessori-early-japan-introduction-1910s"],
     isCanonical: true,
     tags: ["モンテッソーリ", "日常生活の練習", "秩序感", "運動の調整"],
   },
@@ -1797,7 +1797,7 @@ export const methodsTerms: Term[] = [
     summary:
       "事実の暗記にとどまらず物事の背後にある本質的な概念や原理の理解を目指し、未知の文脈に応用できる思考力を育む授業設計・教授法。",
     body: "概念型指導法とは、事実的知識の暗記や個別スキルの反復練習にとどまらず、それらを統合する中心的な概念や一般化の理解を目指す指導論である。エリクソンとランニングによって提唱され、国際バカロレアなどの探究型教育課程の理論的基盤として広く支持されている。\n\n授業では、事実と概念を往還する思考を促すため、指導者は本質的な問い（概念的発問）を投げかける。学習者は具体的な事例や観察データを比較・分類しながら共通するパターンを見出し、自己の言葉で概念的理解を言語化する。さらに、その概念を用いて異なる文脈の事象や新たな社会的課題を分析する活動へと進む。\n\nこの指導法により、知識の表面的な習得を脱却し、多様な状況に知識を転移させて活用できる批判的思考力や柔軟な課題解決力が培われる。現代の予測困難な社会において、教科の枠を超えて本質を見通す資質・能力を育む指導改善として高く評価されている。",
-    relatedSlugs: ["backward-design", "cross-curriculum", "tankyu-gakushu", "ice-model", "essential-questions-wiggins-mctighe"],
+    relatedSlugs: ["backward-design", "cross-curriculum", "tankyu-gakushu", "ice-model", "essential-questions-wiggins-mctighe", "kenya-competency-based-curriculum-transition"],
     isCanonical: true,
     tags: ["概念型指導", "エリクソン", "概念的理解", "単元設計"],
   },
@@ -2018,7 +2018,7 @@ export const methodsTerms: Term[] = [
     summary:
       "学級生活の共通課題について児童生徒自らが話し合って意思決定し、民主的な合意形成と協働的実践の力を育てる特別活動の指導法。",
     body: "特別活動における学級会・話合い活動指導とは、学級生活をより良くするための共通の課題について、児童生徒自らが話し合って意思決定を行う指導法である。特別活動の基本原理である「なすことによって学ぶ」という経験主義的教育論に基づき、民主主義社会の基礎的な合意形成能力を育む場として位置づけられる。\n\n指導の進め方としては、事前に学級の現状から議題を掘り起こし、計画委員会が提案理由や話し合う柱を整理する。本番の話合いでは、賛否の対立を多数決ですぐに決着させるのではなく、互いの意見の良さを生かした折衷案や新しい解決策を模索させる。決定した事項は役割を分担して実践し、終末に振り返りを行う。\n\nこの活動を通じて、自らの意見を適切に伝える表現力とともに、他者の立場を傾聴して協働的に問題を解決する集団参画の態度が身につく。自分たちの手で集団生活をより良く更新できるという自己効力感を育み、自治能力を高める中核的な実践である。",
-    relatedSlugs: ["tokubetsu-katsudo", "kyodo-gakushu", "buzz-session", "shukensha-kyoiku"],
+    relatedSlugs: ["tokubetsu-katsudo", "kyodo-gakushu", "buzz-session", "shukensha-kyoiku", "student-moderator-committee-training"],
     isCanonical: true,
     tags: ["特別活動", "学級会", "話合い活動", "合意形成"],
   },
@@ -2070,7 +2070,7 @@ export const methodsTerms: Term[] = [
     summary:
       "学年を超えた集団を編成し、日常の活動や学校行事を通して互いを思いやる豊かな社会性と自己有用感を培う異年齢集団の指導法。",
     body: "縦割り班活動の組織指導とは、異なる学年の児童生徒を小グループに編成し、日常の清掃や学校行事、遊びなどの共同体験を展開する異年齢集団指導法である。少子化に伴う異年齢交流の減少を補い、多様な人間関係の中で豊かな社会性と自己有用感を育むことを目指す。\n\n指導の導入では、上級生がリーダーとしての心構えや下級生の安全への配慮を学ぶ事前指導を丁寧に行う。活動中は、上級生が手本を示しながら下級生の役割を工夫し、全員が無理なく活躍できるように進行する。教師は全体の安全を見守りつつ、下級生への温かい声かけや上級生の配慮ある行動を評価・承認する。\n\n上級生は他者を思いやる責任感と統率力を培い、下級生は上級生への憧れや集団規律を学ぶ相互発達の好循環が生まれる。学年枠を超えた人間関係の広がりは、学校全体の温かい連帯感や居場所感を醸成し、いじめの予防や学校適応の促進にも大きく寄与する。",
-    relatedSlugs: ["tokubetsu-katsudo", "kyodo-gakushu", "experiential-learning", "service-learning"],
+    relatedSlugs: ["tokubetsu-katsudo", "kyodo-gakushu", "experiential-learning", "service-learning", "jena-plan-multi-age-stammgruppe"],
     isCanonical: true,
     tags: ["縦割り班", "異年齢集団", "特別活動", "社会性育成"],
   },

@@ -10,7 +10,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学の設置に必要な教員数・施設・カリキュラム等の最低基準を定めた文部科学省令です。",
     body: "大学設置基準は1956年に文部省令として制定され、大学として認可を受けるために満たすべき校地・校舎、教員組織、収容定員、卒業要件単位数などの最低基準を規定しています。大学の質を保証する制度的な土台として機能してきました。\n\n2000年代以降は大学設置の事前規制を緩和し、認証評価による事後チェックに重点を移す方向で改正が重ねられました。シラバスの整備やファカルティ・ディベロップメントの実施義務化なども、この基準の改正を通じて制度化されています。\n\n近年は大学院教育の高度化や社会人の学び直しへの対応として、遠隔授業の単位上限緩和や共同教育課程制度の整備など、時代の変化に応じた見直しが続けられています。",
-    relatedSlugs: ["ninsho-hyoka-seido", "faculty-development", "staff-development"],
+    relatedSlugs: ["ninsho-hyoka-seido", "faculty-development", "staff-development", "faculty-organization-establishment-standards", "extended-study-period-system-working-students", "degree-program-system-flexible-curricula", "faculty-reorganization-establishment-exceptions", "university-coop-student-welfare-health-support"],
     isCanonical: true,
     tags: ["高等教育制度", "法令"],
   },
@@ -23,7 +23,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "1990年代に国立大学で進められた、大学院を基礎組織とする組織再編政策です。",
     body: "大学院重点化とは、1990年代に東京大学や京都大学などの主要国立大学で進められた組織改革で、それまで学部を基礎組織としていた教員組織を、大学院研究科を基礎組織とする形に再編した政策を指します。\n\n背景には、研究水準の国際的な向上と大学院生の量的拡大を図る国の政策があり、教員は大学院に所属しつつ学部教育も担当する体制へと変わりました。定員増や研究科の再編が全国の主要大学で進みました。\n\n一方で、大学院進学者の急増に対して受け皿となる研究職・専門職ポストが十分に増えず、オーバードクター問題や博士人材のキャリアパスの不透明さといった課題も顕在化しました。",
-    relatedSlugs: ["daigakuin-katei-no-shurui", "kokuritsu-daigaku-hojinka", "kenkyu-daigaku-kyoka-sokushin-jigyo"],
+    relatedSlugs: ["daigakuin-katei-no-shurui", "kokuritsu-daigaku-hojinka", "kenkyu-daigaku-kyoka-sokushin-jigyo", "income-contingent-repayment-postponed-tuition"],
     isCanonical: true,
     tags: ["大学院", "国立大学"],
   },
@@ -36,7 +36,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "高校教育・大学入学者選抜・大学教育を一体的に改革す〈2014年答申以降の政策です。",
     body: "高大接続改革は、中央教育審議会が2014年に答申した「新しい時代にふさわしい高大接続の実現に向けた高等学校教育、大学教育、大学入学者選抜の一体的改革について」を起点とする一連の政策です。知識偏重からの脱却と学力の三要素の育成・評価を掲げました。\n\n改革の柱として、大学入試センター試験に代わる大学入学共通テストの導入、多面的・総合的な評価を重視する入学者選抜改革、高校での「主体的・対話的で深い学び」の推進が一体的に進められました。\n\n記述式問題の導入や英語民間試験の活用は実施直前で見送られるなど紙余曲折もありましたが、高校と大学の接続を学力試験だけでなく多面的評価で捉え直す方向性は現在の入試改革にも引き継がれています。",
-    relatedSlugs: ["daigaku-nyugaku-kyotsu-test", "chukyo-shin", "shishitsu-noryoku", "sogo-gakushu", "kanten-betsu-hyoka", "digital-transcript-portal-university-articulation"],
+    relatedSlugs: ["daigaku-nyugaku-kyotsu-test", "chukyo-shin", "shishitsu-noryoku", "sogo-gakushu", "kanten-betsu-hyoka", "digital-transcript-portal-university-articulation", "open-campus-sample-lectures-information-guidance"],
     isCanonical: true,
     tags: ["入試改革", "答申", "大学入試改革", "思考力評価"],
   },
@@ -88,7 +88,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "授業科目の到達目標や評価方法を明示するシラバスの作成・公表が大学設置基準で義務化されました。",
     body: "シラバスとは、各授業科目の到達目標、授業計画、成績評価の方法・基準、教科書や参考文献などをあらかじめ学生に示す講義要項のことです。学生が主体的に履修を選択し学修計画を立てるための基礎資料となります。\n\n1990年代以降、大学の自己点検・評価が求められる中でシラバスの整備が進み、大学設置基準の改正を通じて全授業科目でのシラバス作成と公表が制度上義務づけられるようになりました。\n\n近年はディプロマ・ポリシーやカリキュラム・ポリシーとの整合性を示し、科目ナンバリングと連動させることで、学生が学位取得までの学修の道筋を体系的に把握できるようにする取り組みが進んでいます。",
-    relatedSlugs: ["daigaku-secchi-kijun", "kamoku-numbering-seido", "three-policy", "syllabus-sakusei-shishin"],
+    relatedSlugs: ["daigaku-secchi-kijun", "kamoku-numbering-seido", "three-policy", "syllabus-sakusei-shishin", "pre-post-class-study-time-assignment", "grade-appeal-process-procedural-fairness"],
     isCanonical: true,
     tags: ["シラバス", "履修"],
   },
@@ -101,7 +101,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学修成果や教育の質を大学が組織的に把握・評価するための基本方針です。",
     body: "アセスメントポリシーとは、学生の学修成果や教育活動の効果を大学として組織的に把握し評価するための基本方針のことで、何を、いつ、どのように測定し活用するかを定めるものです。学修成果の可視化を進めるための土台となります。\n\n中央教育審議会は、大学教育の質的転換に向けて学修時間の実質的な確保とあわせ、GPAや卒業時アンケート、学修行動調査などの多様な指標を用いた学修成果の把握を大学に求めてきました。\n\nディプロマ・ポリシーに掲げた能力が実際に身についたかを検証し、カリキュラムの改善につなげる内部質保証のサイクルの中核として位置づけられており、認証評価でも重視される観点となっています。",
-    relatedSlugs: ["three-policy", "naibu-shitsu-hosho", "ninsho-hyoka-seido"],
+    relatedSlugs: ["three-policy", "naibu-shitsu-hosho", "ninsho-hyoka-seido", "brazil-ideb-basic-education-quality-index", "uk-ofsted-school-inspection-framework", "uk-t-levels-technical-qualifications-reform"],
     isCanonical: true,
     tags: ["学修成果", "質保証"],
   },
@@ -114,7 +114,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学は設置者によって国立・公立・私立の3種類に区分され、財政基盤や運営の仕組みが異なります。",
     body: "日本の大学は設置者の違いにより、国立大学法人が設置する国立大学、都道府県・市などの地方公共団体や公立大学法人が設置する公立大学、学校法人が設置する私立大学の3種類に大別されます。\n\n国立大学は2004年の国立大学法人化を経て法人格を持ち、公立大学も多くが公立大学法人化して自律的な運営を進めています。私立大学は学生数で全体の約8割を占め、私学助成によって財政の一部が支えられています。\n\n設置形態によって授業料水準や国からの財政支援の仕組みは異なりますが、大学設置基準や認証評価制度はすべての設置形態に共通して適用され、教育の質保証が図られています。",
-    relatedSlugs: ["kokuritsu-daigaku-hojinka", "unei-hi-kofukin", "ninsho-hyoka-seido"],
+    relatedSlugs: ["kokuritsu-daigaku-hojinka", "unei-hi-kofukin", "ninsho-hyoka-seido", "daigaku-renkei-suishin-hojin", "school-corporation-mergers-reorganization"],
     isCanonical: true,
     tags: ["国公私立", "大学制度"],
   },
@@ -127,7 +127,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "文部科学大臣の認証を受けた評価機関が大学の教育研究等を定期的に評価する制度です。",
     body: "認証評価制度は、2004年の学校教育法改正により導入された制度で、大学・短期大学・高等専門学校が、文部科学大臣が認証した評価機関による評価を7年以内ごとに受けることを義務づけています。\n\n大学の事前規制を緩和し設置認可の弾力化を進める一方で、事後的な質保証の仕組みとして整備されました。大学基準協会や大学改革支援・学位授与機構などが認証評価機関として活動しています。\n\n評価では教育研究組織や教員組織、教育課程、学生支援、内部質保証の状況などが総合的に審査され、結果は公表されます。大学が自ら質を保証する内部質保証体制の確立が近年特に重視されています。",
-    relatedSlugs: ["daigaku-secchi-kijun", "naibu-shitsu-hosho", "senmonshoku-daigakuin"],
+    relatedSlugs: ["daigaku-secchi-kijun", "naibu-shitsu-hosho", "senmonshoku-daigakuin", "diploma-supplement-international-mobility"],
     isCanonical: true,
     tags: ["認証評価", "質保証"],
   },
@@ -153,7 +153,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学院には修士課程・博士課程・専門職学位課程などの区分があり目的が異なります。",
     body: "大学院の課程は、学校教育法上、研究者養成や高度専門職業人養成を目的とする修士課程・博士課程と、実務家養成に特化した専門職学位課程に大別されます。修士課程は標準2年、博士課程は前期(修士相当)2年・後期3年の脈5年が標準です。\n\n専門職学位課程は2003年度の専門職大学院制度創設に伴い設けられ、法科大学院や教職大学院、ビジネススクール(MBA課程)などが該当し、修了者には修士(専門職)などの学位が授与されます。\n\n博士課程には、修士課程を経ずに入学する5年一貫制博士課程や、社会人が働きながら学べる社会人特別選抜など多様な形態があり、博士人材の育成とキャリアパスの確保が政策課題となっています。",
-    relatedSlugs: ["senmonshoku-daigakuin", "hakase-katei-gakusei-shien", "daigakuin-juten-ka"],
+    relatedSlugs: ["senmonshoku-daigakuin", "hakase-katei-gakusei-shien", "daigakuin-juten-ka", "reskilling-graduate-certificate-programs", "extended-study-period-system-working-students", "degree-program-system-flexible-curricula"],
     isCanonical: true,
     tags: ["大学院", "学位課程"],
   },
@@ -166,7 +166,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "THEやQSなど民間機関が算出する大学の国際的な序列指標で、功罪が議論されています。",
     body: "世界大学ランキングとは、タイムズ・ハイアー・エデュケーション(THE)やクアクアレリ・シモンズ(QS)などの民間機関が、教育・研究・論文引用・国際性・産業界からの収入といった指標をもとに大学を序列化して公表するものです。\n\n国際的な認知度や留学生・研究者の獲得に影響するため、各国政府や大学がランキング向上を意識した政策や戦略を掲げるようになり、日本でもスーパーグローバル大学創成支援事業などの施策と関連づけて語られてきました。\n\n一方で、論文の引用数や英語での発表に偏った評価指標が人文社会科学や地域貢献などの価値を十分に反映していないとの批判もあり、ランキング偏重による大学教育の画一化を憂する声も少なくありません。",
-    relatedSlugs: ["kenkyu-daigaku-kyoka-sokushin-jigyo", "takuetsu-daigakuin-program", "gakusei-fd"],
+    relatedSlugs: ["kenkyu-daigaku-kyoka-sokushin-jigyo", "takuetsu-daigakuin-program", "gakusei-fd", "english-medium-degree-programs-globalization"],
     isCanonical: true,
     tags: ["大学ランキング", "国際化"],
   },
@@ -205,7 +205,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "2004年に国立大学が国の直轄機関から独立の法人格を持つ国立大学法人へ移行した改革です。",
     body: "国立大学法人化は、2004年4月に国立大学設置法等が廃止され、それまで国の行政機関の一部であった国立大学が、国立大学法人法に基づき独立した法人格を持つ国立大学法人へと移行した大規模な改革です。\n\n法人化により、各大学は中期目標・中期計画に基づく自律的な運営が可能となり、学長のリーダーシップのもとで予算配分や組織編成の裁量が拡大しました。一方で、国からの運営費交付金は毎年度削減される時期が続き、大学の財政基盤に大きな影響を与えました。\n\n業績評価に基づく資源配分や外部資金獲得の重要性が増す中、教育研究の基盤的経費の確保と、法人化のねらいであった自律性・機動性の発揮とのバランスが継続的な政策課題となっています。",
-    relatedSlugs: ["unei-hi-kofukin", "daigaku-secchi-keitai", "naibu-shitsu-hosho"],
+    relatedSlugs: ["unei-hi-kofukin", "daigaku-secchi-keitai", "naibu-shitsu-hosho", "daigaku-renkei-suishin-hojin"],
     isCanonical: true,
     tags: ["国立大学法人", "大学改革"],
   },
@@ -218,7 +218,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学が自らの教育研究活動の質を継続的に点検・改善する自律的な仕組みです。",
     body: "内部質保証とは、大学が自らの責任のもとで、教育研究活動の状況について自己点検・評価を行い、その結果を踏まえて改善・向上を図り続ける自律的な仕組みのことです。外部からの認証評価と対をなす概念として位置づけられます。\n\n3つのポリシーの策定・公表、アセスメントポリシーに基づく学修成果の把握、FD・SDの実施などを、PDCAサイクルとして組織的・継続的に機能させることが求められており、単発の取り組みではなく大学全体のガバナンスの問題として捉えられています。\n\n認証評価制度においても、大学が実効性のある内部質保証システムを構築し機能させているかどうかが重要な評価の観点となっており、質保証の主体を大学自身に置く考え方が国際的にも主流となっています。",
-    relatedSlugs: ["three-policy", "ninsho-hyoka-seido", "assessment-policy", "jiko-tenken-hyoka", "kyogaku-management"],
+    relatedSlugs: ["three-policy", "ninsho-hyoka-seido", "assessment-policy", "jiko-tenken-hyoka", "kyogaku-management", "university-social-responsibility-sustainability"],
     isCanonical: true,
     tags: ["質保証", "大学ガバナンス", "内部質保証", "PDCAサイクル", "質保証委員会", "教学マネジメント"],
   },
@@ -296,7 +296,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学と産業界が共同研究やインターンシップ等を通じて協力する取り組み全般です。",
     body: "産学連携とは、大学等の教育研究機関と民間企業が、共同研究や受託研究、技術移転、人材育成などの分野で協力関係を築く取り組み全般を指します。基礎研究の成果を社会実装につなげ、企業のイノベーションを促す役割が期待されています。\n\n1998年のTLO法や1999年の日本版バイ・ドール制度の導入により、大学の研究成果である特許権を大学や発明者に帰属させやすくする環境が整えられ、共同研究講座の設置や企業からの寄付講座など連携の形態が多様化しました。\n\n教育面でも、企業と連携したインターンシップやPBL型授業、実務家教員の登用が進んでおり、専門職大学の制度化ともあいまって、理論と実務を架橋する教育の充実が図られています。",
-    relatedSlugs: ["daigaku-hatsu-venture", "senmonshoku-daigaku", "kenkyu-daigaku-kyoka-sokushin-jigyo"],
+    relatedSlugs: ["daigaku-hatsu-venture", "senmonshoku-daigaku", "kenkyu-daigaku-kyoka-sokushin-jigyo", "career-center-internship-coordination", "university-extension-center-lifelong-learning"],
     isCanonical: true,
     tags: ["産学連携", "共同研究"],
   },
@@ -322,7 +322,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "生活費相当額の支給等により博士課程進学者を支える次世代研究者挑戦的研究プログラム等の施策です。",
     body: "博士課程学生への経済的支援は、日本の博士課程進学者数が長期的に減少・伸び悩んでいる状況を受け、優秀な学生が経済的な不安なく博士課程に進学できるよう、生活費相当額と研究費を支給する政策として近年強化されています。\n\n代表例が、日本学術振興会等が実施する「次世代研究者挑戦的研究プログラム(SPRING)」で、大学が主体となって博士課程学生を選抜し、年間約180万円から240万円程度の生活費相当額と研究費を支給する仕組みです。卓越大学院プログラムとも連動しています。\n\n従来から研究者養成の柱であった日本学術振興会特別研究員(DC)制度と合わせ、博士人材の裾野を支える多層的な支援体制の構築が進められていますが、支援対象の拡大と博士号取得後のキャリアパス確保が引き続き課題です。",
-    relatedSlugs: ["takuetsu-daigakuin-program", "daigakuin-katei-no-shurui", "koto-kyoiku-shugaku-shien-shinseido"],
+    relatedSlugs: ["takuetsu-daigakuin-program", "daigakuin-katei-no-shurui", "koto-kyoiku-shugaku-shien-shinseido", "japan-scholarship-society-act-development", "jasso-student-loans-type-one-and-two", "income-contingent-repayment-postponed-tuition"],
     isCanonical: true,
     tags: ["博士課程", "研究者養成"],
   },
@@ -374,7 +374,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "研究者の自由な発想に基づく学術研究を支援するため、日本学術振興会と文部科学省が公募・審査を通じて助成する日本最大規模の競争的研究費制度。",
     body: "科学研究費助成事業(通称「科研費」)は、人文学・社会科学から自然科学まで全分野にわたる基礎から応用までの学術研究を対象に、研究者の自由な発想に基づく研究を格段に発展させることを目的とした競争的研究資金制度である。研究種目は研究の規模や期間に応じて「基盤研究」「若手研究」「挑戦的研究」「特別推進研究」「新学術領域研究(現・学術変革領域研究)」など多岐にわたり、研究者は毎年公募される種目に応募し、ピアレビューによる審査を経て採択される。\n\n制度の運営は文部科学省と日本学術振興会(JSPS)が分担して行っており、多くの種目の審査・交付事務はJSPSが担当する。審査はまず専門分野の近い研究者による第1段審査(書面審査)、続いて分野をまたぐ研究者による第2段審査(合議審査)という二段階審査制がとられ、公正性と透明性の確保が重視されている。科研費は日本の競争的資金の中でも予算規模が最大級であり、大学等の研究活動を支える基盤的な資金として位置づけられている。\n\n近年は、審査区分の大括り化や「審査意見の開示」、不正使用・不正受給への対応強化など、制度改善が継続的に進められている。また若手研究者の自立支援や、挑戦的でハイリスク・ハイリターンな研究を後押しする種目の拡充など、研究力強化政策とも連動して制度が見直されてきた。科研費の採択実績は大学の研究力を示す指標の一つとしても用いられ、研究大学強化促進事業などの評価にも影響する。",
-    relatedSlugs: ["kenkyu-daigaku-kyoka-sokushin-jigyo", "kokusai-takuetsu-kenkyu-daigaku", "daigakuin-juten-ka"],
+    relatedSlugs: ["kenkyu-daigaku-kyoka-sokushin-jigyo", "kokusai-takuetsu-kenkyu-daigaku", "daigakuin-juten-ka", "usa-stem-steam-national-education-policy"],
     isCanonical: true,
     tags: ["科研費", "研究費", "JSPS", "競争的資金"],
   },
@@ -387,7 +387,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "履修科目の成績を5段階等の評語に対応する得点に換算し、単位数で加重平均して算出する成績評価の仕組み。米国発祥で日本の大学にも広く普及している。",
     body: "GPA(Grade Point Average)制度とは、学生が履修した各科目の成績評語(秀・優・良・可・不可など)に応じて一定の点数(グレードポイント)を付与し、これを履修単位数で加重平均することで学生の学修成果を数値的に表す成績評価の仕組みである。アメリカの大学で標準的に用いられてきた制度で、日本では1990年代以降、大学の国際化や成績評価の客観性・厳格化を求める動きの中で導入が進んだ。\n\nGPAは学内での成績優秀者表彰や奨学金選考、他大学・海外大学への留学時の成績証明、大学院進学時の選考資料など、多様な場面で活用される。また、一定のGPAを下回った学生に対する学修指導・警告制度(アカデミック・プロベーション等)や、進級・卒業要件に組み込む大学もあり、単なる成績表示にとどまらず学修管理のツールとしても機能している。文部科学省も学修成果の可視化を進める文脈でGPAの活用を大学に促してきた。\n\n一方で、大学ごとに評語の区分やグレードポイントの配点、GPA算出方法(再履修科目の扱いなど)が異なるため、大学間での単純な比較には限界があるという課題も指摘されている。近年は、大学間の相互理解や国際的な通用性を高めるため、算出方法の標準化やGPAガイドラインの整備を求める議論も進んでいる。",
-    relatedSlugs: ["gakushu-seika-kashika", "tani-gokan-seido", "syllabus-seibi-gimuka", "academic-advising", "cap-sei"],
+    relatedSlugs: ["gakushu-seika-kashika", "tani-gokan-seido", "syllabus-seibi-gimuka", "academic-advising", "cap-sei", "grade-appeal-process-procedural-fairness"],
     isCanonical: true,
     tags: ["GPA", "成績評価", "学修成果", "単位制", "成績不振者指導", "早期警告"],
   },
@@ -413,7 +413,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "研究者が大学・公的研究機関・企業など複数の機関に同時に雇用され、エフォート管理のもとで各機関の業務に従事できるようにする制度。産学官連携人材の流動化を目的とする。",
     body: "クロスアポイントメント制度とは、大学、公的研究機関、企業など複数の異なる機関が、研究者・技術者と個別に雇用契約(または雇用に準ずる関係)を結び、当該研究者が各機関との取り決めに基づいたエフォート(業務時間・従事比率)管理のもとで、それぞれの機関における役割に応じた研究・開発・教育に従事できるようにする制度である。文部科学省と経済産業省が2014年に「クロスアポイントメント制度の基本的枠組と留意点」を取りまとめ、2020年には追補版が示されるなど、産学官連携の人材流動化政策として推進されてきた。\n\nこの制度の狙いは、大学に所属する研究者が企業や他の研究機関でも正式な地位を持って研究に従事できるようにすることで、大学と産業界・他の研究機関との間の人的交流を活性化し、世界水準の研究者が組織の壁を越えて活躍できる環境を整備することにある。給与や社会保険料の負担は、各機関があらかじめ定めたエフォート比率に応じて按分されるのが一般的であり、従来の兼業・兼職の枠組みでは対応が難しかった、複数機関での本務的な関与を可能にする点に特徴がある。\n\n国立大学法人においては、指定国立大学法人や研究大学強化促進事業の対象校を中心に導入が進んできたが、大学から企業への異動(またはその逆)の実績はなお限定的であり、年金・退職金の扱いや評価制度の違いなど、実務上の調整課題も指摘されている。近年は、国際卓越研究大学制度のもとでの人材循環や、若手研究者のキャリアパス多様化の文脈でも、クロスアポイントメント制度の一層の活用が期待されている。",
-    relatedSlugs: ["daigaku-hatsu-venture", "tenure-track-seido", "kenkyu-daigaku-kyoka-sokushin-jigyo", "sangaku-renkei"],
+    relatedSlugs: ["daigaku-hatsu-venture", "tenure-track-seido", "kenkyu-daigaku-kyoka-sokushin-jigyo", "sangaku-renkei", "faculty-organization-establishment-standards"],
     isCanonical: true,
     tags: ["クロスアポイントメント", "産学官連携", "人材流動化", "研究者キャリア", "産学連携", "エフォート"],
   },
@@ -426,7 +426,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学が策定・公表を義務づけられている、卒業認定・学位授与の方針(DP)、教育課程編成・実施の方針(CP)、入学者受入れの方針(AP)の3つの基本方針の総称。",
     body: "三つのポリシー(3ポリシー)とは、大学が一貫した教育を行うために策定・公表することが求められている、ディプロマ・ポリシー(DP、卒業認定・学位授与の方針)、カリキュラム・ポリシー(CP、教育課程編成・実施の方針)、アドミッション・ポリシー(AP、入学者受入れの方針)の3つの基本方針を指す。学位授与という「出口」から教育課程という「中身」、入学者選抜という「入口」までを一体として設計する考え方に基づく。\n\n2008年の中央教育審議会答申「学士課程教育の構築に向けて」で、学士課程教育の質保証のために3ポリシーの明確化が提言され、2017年4月からは学校教育法施行規則の改正により、大学・学部・学科ごとに3ポリシーを策定し公表することが法令上義務化された。特にディプロマ・ポリシーを起点として、そこから逆算する形でカリキュラム・ポリシーとアドミッション・ポリシーを整合的に設計する「アウトカム(学修成果)基盤型」の考え方が重視されている。\n\n3ポリシーは、認証評価における重要な評価項目であるとともに、大学入試や教育課程編成の根拠として大学の説明責任を果たす役割も担う。入試においては、アドミッション・ポリシーに基づいて求める学生像や評価方法を明示することが求められ、総合型選抜・学校推薦型選抜など多様な入試区分の設計にも直結している。策定にとどまらず、3ポリシーに基づく教育の実質化や学修成果の検証が、近年の大学教育改革の焦点となっている。",
-    relatedSlugs: ["sogogata-senbatsu", "gakushu-seika-kashika", "ninsho-hyoka-seido", "assessment-policy", "naibu-shitsu-hosho", "faculty-development", "institutional-research-ir"],
+    relatedSlugs: ["sogogata-senbatsu", "gakushu-seika-kashika", "ninsho-hyoka-seido", "assessment-policy", "naibu-shitsu-hosho", "faculty-development", "institutional-research-ir", "diploma-supplement-international-mobility"],
     isCanonical: true,
     tags: ["3ポリシー", "ディプロマポリシー", "アドミッションポリシー", "質保証", "三つのポリシー", "アセスメントプラン"],
   },
@@ -465,7 +465,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学校教育を終えて就労した後も、社会人が必要に応じて教育機関に戻り学び直す仕組み。OECDが提唱した概念で、日本では社会人の学び直し・リスキリング政策の柱となっている。",
     body: "リカレント教育とは、人が生涯にわたって教育と就労を交互に繰り返しながら学び続けるという考え方、およびそれを支える教育制度を指す。1970年代にOECD(経済協力開発機構)が提唱した概念で、フルタイムで学校教育を終えた後も、社会人になってから必要に応じて再び教育機関に戻り、知識・技能を更新することを重視する。生涯学習の一形態として位置づけられるが、就労と学習の往還を前提とする点に特徴がある。\n\n日本では、少子高齢化による労働力人口の減少やAI・DXの進展による産業構造の変化を背景に、社会人の「学び直し」の必要性が高まり、大学・大学院における社会人向けプログラムの拡充が政策的に進められてきた。具体的には、平日夜間や土日に開講する社会人向け大学院、職業実践力育成プログラム(BP)の認定制度、履修証明プログラム、オンデマンド授業の活用などが挙げられる。専門職大学院や専門職大学の制度も、実務家教員による実践的な教育を通じてリカレント教育の受け皿としての役割を担っている。\n\n近年は「リスキリング」という言葉とともに、デジタル人材育成や女性のキャリア形成支援など、政府の成長戦略の一環としてリカレント教育への公的支援(教育訓練給付制度の拡充など)が強化されている。大学にとっても、18歳人口の減少が続く中で社会人学生の受け入れは新たな役割として重要性を増しており、入試制度の柔軟化や単位認定の仕組み(単位互換、社会人特別選抜等)の整備が課題となっている。",
-    relatedSlugs: ["senmonshoku-daigaku", "tani-gokan-seido", "ondemand-jugyo", "senmonshoku-daigakuin", "koto-kyoiku-shugaku-shien-shinseido", "career-education"],
+    relatedSlugs: ["senmonshoku-daigaku", "tani-gokan-seido", "ondemand-jugyo", "senmonshoku-daigakuin", "koto-kyoiku-shugaku-shien-shinseido", "career-education", "university-extension-center-lifelong-learning"],
     isCanonical: true,
     tags: ["リカレント教育", "生涯学習", "学び直し", "社会人大学院", "社会人学習"],
   },
@@ -492,7 +492,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学が自らの教育研究活動等の状況について点検・評価し、その結果を公表する取り組み。1991年の大学設置基準改正で努力義務化され、後に法的義務となった大学の質保証の基本的仕組み。",
     body: "自己点検・評価とは、大学が自らの教育研究水準の向上を図り、大学の目的・社会的使命を達成するため、教育研究活動、組織運営、施設設備等の状況について自ら点検・評価を行い、その結果を公表する取り組みを指す。1991年の大学設置基準大綱化に伴う改正で努力義務として制度化され、1999年の改正で実施と結果公表が義務化された。外部の専門家による検証(第三者評価)を活用することも合わせて求められるようになった。\n\nこの自己点検・評価の仕組みは、2004年に導入された認証評価制度の基盤となっている。認証評価では、文部科学大臣が認証する評価機関(大学基準協会、大学改革支援・学位授与機構など)が、各大学の自己点検・評価の結果を踏まえて教育研究活動等の状況を評価し、大学は原則7年以内ごとにこの評価を受けることが義務づけられている。すなわち自己点検・評価は、大学自身による内部質保証の第一段階であり、認証評価は外部評価によってこれを検証する第二段階として位置づけられる関係にある。\n\n近年は、単に自己点検・評価を実施し報告書を作成するだけでなく、その結果を教育改善に実質的につなげる「内部質保証システム」の構築・機能化が重視されている。学修成果の可視化やIR機能の強化と連動しながら、点検・評価→改善(PDCA)のサイクルを全学的に回す体制づくりが、認証評価における評価の重点にもなっている。",
-    relatedSlugs: ["ninsho-hyoka-seido", "daigaku-secchi-kijun-taikoka", "institutional-research-ir", "naibu-shitsu-hosho"],
+    relatedSlugs: ["ninsho-hyoka-seido", "daigaku-secchi-kijun-taikoka", "institutional-research-ir", "naibu-shitsu-hosho", "school-stakeholder-evaluation-committee"],
     isCanonical: true,
     tags: ["自己点検評価", "内部質保証", "認証評価", "大学設置基準", "情報公開", "外部評価"],
   },
@@ -505,7 +505,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学・短期大学への入学希望者数の総計と入学定員総数がほぼ一致し、選ばなければ誰でも大学に進学できるとされる状況、およびそれが到来した時代を指す言葉。",
     body: "大学全入時代とは、大学・短期大学への進学希望者数の総計と、大学・短期大学全体の入学定員の総数がほぼ等しくなり、志望校や学部を選ばなければ、原則として希望する誰もが何らかの大学に入学できるとされる状況を表す言葉である。18歳人口の減少と大学数・入学定員の増加が同時に進んだ結果生じた現象で、日本では2007年前後にこの状態に達したとされ、以降「大学全入時代」という言葉がマスメディアや教育政策の議論で広く用いられるようになった。\n\n背景には、1990年代以降の規制緩和により大学の新設が相次いだ一方、少子化によって18歳人口が1992年のピーク(約205万人)から大きく減少し続けたことがある。この結果、大学間の学生獲得競争が激化し、入学定員を満たせない「定員割れ」大学が私立大学を中心に増加した。総合型選抜(旧AO入試)や学校推薦型選抜の拡大、入試の早期化・多様化も、この競争環境の中で進んだ側面がある。\n\n大学全入時代の到来は、大学教育の質保証という課題を一層重要なものにした。学力や学習意欲にばらつきのある学生を受け入れることになった大学には、初年次教育やリメディアル教育(補習教育)の充実、退学防止のための学修支援が求められるようになった。また、経営基盤の弱い大学の統合・再編、定員管理の厳格化など、大学の質と規模の両面での政策対応が続けられている。",
-    relatedSlugs: ["sogogata-senbatsu", "daigaku-secchi-kijun", "koudai-setsuzoku-kaikaku"],
+    relatedSlugs: ["sogogata-senbatsu", "daigaku-secchi-kijun", "koudai-setsuzoku-kaikaku", "faculty-reorganization-establishment-exceptions", "school-corporation-mergers-reorganization"],
     isCanonical: true,
     tags: ["大学全入時代", "少子化", "定員割れ", "大学入試"],
   },
@@ -518,7 +518,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学長のリーダーシップ強化や学長選考・監察会議の設置など、意思決定の迅速化と経営責任の明確化を目指して進められた国立大学法人等の組織運営改革。",
     body: "大学ガバナンス改革とは、大学、とりわけ国立大学法人の意思決定の仕組みを見直し、学長を中心とした機動的で責任の所在が明確な組織運営体制を構築しようとする一連の制度改革を指す。従来、大学の意思決定は教授会による審議を重視する「ボトムアップ」型の合議制が中心であったが、急速な社会変化に対応した迅速な経営判断が求められる中で、学長のリーダーシップを強化する方向への転換が進められてきた。\n\n2014年の学校教育法・国立大学法人法の改正では、教授会の役割が「教育研究に関する事項について審議し、学長等の求めに応じ意見を述べる」機関として明確化され、教授会が最終的な意思決定権を持つかのような従来の運用が見直された。あわせて学長選考についても、学内投票の結果のみに依拠するのではなく、学長選考会議(2021年の法改正で「学長選考・監察会議」に改称)が学内外の意見を踏まえて主体的に選考し、学長の業務執行状況を監察する役割も担うようになった。\n\nこうしたガバナンス改革は、指定国立大学法人制度や国際卓越研究大学制度など、大学に高度な経営自律性と説明責任を求める新たな制度とも連動している。一方で、学長への権限集中が学内の合意形成や多様な意見の反映を損なうのではないかとの懸念も指摘されており、リーダーシップと合議制のバランスをどう取るかが、国立大学法人運営における継続的な論点となっている。",
-    relatedSlugs: ["kokuritsu-daigaku-hojinka", "shitei-kokuritsu-daigaku-hojin", "kokusai-takuetsu-kenkyu-daigaku", "school-education-act-article-93-senate", "gakucho-senko-kansatsu-kaigi"],
+    relatedSlugs: ["kokuritsu-daigaku-hojinka", "shitei-kokuritsu-daigaku-hojin", "kokusai-takuetsu-kenkyu-daigaku", "school-education-act-article-93-senate", "gakucho-senko-kansatsu-kaigi", "university-social-responsibility-sustainability"],
     isCanonical: true,
     tags: ["大学ガバナンス", "学長選考", "国立大学法人", "組織運営"],
   },
@@ -570,7 +570,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "若手研究者に任期付きポストで自立した研究環境を与え、厳格な審査を経て安定的なポスト(テニュア)への移行機会を保障する研究者育成の仕組み。",
     body: "テニュアトラック制度とは、博士号取得後の若手研究者に対し、任期付きの独立したポストを与えて自立した研究者として活動する機会を保障するとともに、任期終了時に業績等の厳格な審査を経て、任期の定めのない安定的なポスト(テニュア)へ移行できる仕組みを指す。アメリカの大学で発展した制度で、若手研究者が指導教員の研究室に従属することなく、自らの研究テーマで独立して研究できる環境を早期に得られる点に特徴がある。\n\n日本では、若手研究者のポスト不足やポストドクター問題(いわゆる「ポスドク問題」)への対応、そして研究者のキャリアパスの多様化・透明化を図る観点から、2006年の第3期科学技術基本計画以降、政府主導でテニュアトラック制度の導入が推進された。文部科学省は「テニュアトラック普及・定着事業」等を通じて大学への導入を支援し、多くの国立大学・研究機関で若手教員をテニュアトラック教員として採用する取り組みが広がった。\n\nもっとも、日本の大学におけるテニュアトラック制度の運用には、審査基準の曖昧さ、テニュア審査を経ずに実質的な任期付き雇用にとどまるケース、ポストそのものの不足といった課題も指摘されてきた。近年は、研究大学強化促進事業や国際卓越研究大学制度などとも連動しながら、若手研究者が安定した研究環境の下でキャリアを積める体制の整備が、日本の研究力強化に向けた重要な政策課題として位置づけられている。",
-    relatedSlugs: ["kagakukenkyuhi-hojokin", "kenkyu-daigaku-kyoka-sokushin-jigyo", "daigakuin-juten-ka", "daigaku-kyoin-ninki-ho", "faculty-development"],
+    relatedSlugs: ["kagakukenkyuhi-hojokin", "kenkyu-daigaku-kyoka-sokushin-jigyo", "daigakuin-juten-ka", "daigaku-kyoin-ninki-ho", "faculty-development", "weber-shokugyo-to-shite-no-gakumon"],
     isCanonical: true,
     tags: ["テニュアトラック", "若手研究者", "ポスドク問題", "研究者育成", "独立環境", "人事評価"],
   },
@@ -648,7 +648,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "2014年度に始まった文部科学省の事業。国際競争力の向上を目指し、37大学を重点支援した。",
     body: "スーパーグローバル大学創成支援事業（SGU）は、日本の大学の国際通用性と国際競争力を高めることを目的に、文部科学省が2014年度に開始した大学支援事業である。世界大学ランキングで上位を目指す「トップ型（タイプA）」と、日本社会のグローバル化を牽引する「グローバル化牽引型（タイプB）」の2類型で募集が行われ、2014年度には計37大学が採択された（タイプA 13校、タイプB 24校）。事業期間は2014年度から2023年度までとされる。\n\n採択大学には、外国人教員や海外経験のある教員の採用、英語による授業科目の拡充、留学生の受け入れと日本人学生の海外派遣、ガバナンス改革や学事暦の柔軟化、ナンバリングやGPAなど教育システムの国際化といった取り組みが求められた。日本学術振興会が中間評価・フォローアップを実施し、取り組みの進捗が毎年確認された。\n\nSGUは、留学生30万人計画に続く国際化政策の柱と位置づけられ、大学改革全般を牽引する意図も持っていた。一方で、少数の大学に資源を集中する政策が大学間格差を広げるのではないかという指摘や、数値目標の達成が自己目的化する懸念も指摘されてきた。事業終了後の成果の定着と、後継施策のあり方が今後の論点である。",
-    relatedSlugs: ["ryugakusei-30man-plan", "sekai-daigaku-ranking", "kamoku-numbering-seido", "gpa-seido"],
+    relatedSlugs: ["ryugakusei-30man-plan", "sekai-daigaku-ranking", "kamoku-numbering-seido", "gpa-seido", "english-medium-degree-programs-globalization"],
     isCanonical: true,
     tags: ["大学の国際化", "SGU", "補助金事業"],
   },
@@ -661,7 +661,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "複数の大学が連携して学位を出す仕組み。ダブルは各大学が学位を授与し、ジョイントは連名で一つの学位を授与する。",
     body: "ダブル・ディグリー（DD）は、連携する二つの大学（主に国内大学と外国大学）がそれぞれの学位を学生に授与する制度で、学生は両方の大学で学んで二つの学位を得る。ジョイント・ディグリー（JD）は、連携大学が共同で教育課程を編成し、連名で一つの学位記を授与する制度である。いずれも単位互換や交換留学を発展させた国際連携教育の形態で、欧州のボローニャ・プロセスやエラスムス計画の流れとも結びついて広がってきた。\n\n日本では、DDが先行して大学の個別協定の下で実施され、JDについては、2014年度に大学設置基準等の改正により「国際連携教育課程」制度が創設された。外国大学の授業科目を自大学の教育課程の一部とみなし、学士課程では両大学がそれぞれ31単位以上、計124単位以上を修得することなどが要件とされた。学士課程の日本初のJDとして、2018年度に立命館大学国際関係学部がアメリカン大学と開設したプログラムが知られる。2022年の省令改正（同年8月施行）では、国際連携学科等の定員上限の撤廃など、制度の見直しが行われた。\n\nDD・JDは、学生にとって異なる文化・言語環境での学修や複数の学位取得という利点がある一方、カリキュラムの調整、質保証の仕組み、授業料や学事暦の違い、学位の国際的な通用性の確保など、運営上の課題も大きい。文部科学省は国内大学と外国大学によるJD・DD構築のためのガイドラインを公表している。",
-    relatedSlugs: ["bologna-process", "erasmus-programme", "tani-gokan-seido", "super-global-daigaku"],
+    relatedSlugs: ["bologna-process", "erasmus-programme", "tani-gokan-seido", "super-global-daigaku", "college-entrance-examinations-international"],
     isCanonical: true,
     tags: ["国際連携", "学位", "留学"],
   },
@@ -713,7 +713,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "高校から大学への円滑な移行を支え、学修の基礎を身につけさせる新入生向けの教育プログラム。",
     body: "初年次教育は、高等学校から大学への円滑な移行を図り、大学での学びを成功させるために、主に新入生を対象として行われる総合的な教育プログラムである。内容は、レポートの書き方やノートの取り方、図書館利用、批判的に読む・考える力、プレゼンテーション、時間管理、大学生活への適応、キャリア意識の形成など多岐にわたり、少人数のゼミ形式や必修科目として置かれることが多い。\n\nアメリカの First-Year Experience に源流があるとされ、日本では大学進学の大衆化と入学者の多様化を背景に1990年代から広がった。2008年12月の中央教育審議会答申「学士課程教育の構築に向けて」は、初年次教育を学士課程教育の一環として高校から大学への円滑な移行に重要な役割を果たすものと位置づけた。同年3月には初年次教育学会が発足している。\n\n初年次教育は、単なる補習ではなく、学修の態度やスキル、学習への動機づけを育てる点にねらいがある。リメディアル教育が学力の不足を補う学習支援を指すのに対して、初年次教育は全学生に共通する学び方の基礎を扱うという違いがある。退学や中途離脱の防止、学生のエンゲージメントの向上とも結びつけて評価される。",
-    relatedSlugs: ["remedial-kyoiku", "gakushiryoku", "koudai-setsuzoku-kaikaku", "gakusei-fd"],
+    relatedSlugs: ["remedial-kyoiku", "gakushiryoku", "koudai-setsuzoku-kaikaku", "gakusei-fd", "placement-testing-developmental-education", "career-center-internship-coordination"],
     isCanonical: true,
     tags: ["学士課程教育", "移行支援", "新入生"],
   },
@@ -726,7 +726,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学入学までに身につけておくべき基礎学力が不足する学生に対し、大学で行う補習的な学習支援。",
     body: "リメディアル教育（remedial education）は、大学の授業を受けるうえで必要とされる基礎学力が不足する学生に対して、大学が行う補習的・補完的な教育を指す。高校段階の数学や理科、国語、英語の内容を補う講座や個別指導、入学前教育、入学後の学力試験にもとづく習熟度別クラス編成などの形で実施されることが多い。\n\n日本で注目されるようになった背景には、大学進学率の上昇による学生の多様化、入試方法の多様化（総合型選抜や学校推薦型選抜の拡大）、高校教育の多様化などがある。日本リメディアル教育学会は2019年の総会でこの概念を正式に定義し、中等教育レベルに満たない内容を補う学習支援という狭い意味に加え、入学前から大学院まで必要に応じた学習支援を広く含み、単位認定科目も含む広義の意味を整理したとされる。\n\n文部科学省は、補習的な内容を正課の単位とすることには慎重で、正課外の学習支援として行うことを求めてきた経緯がある。リメディアル教育は、学生を「できない」と位置づけるのではなく、学習支援センターやピア・チュータリングなどを通じて学び直しの機会を提供する観点が重要となる。初年次教育や学修成果の可視化、高大接続改革とも関連の深いテーマである。",
-    relatedSlugs: ["shonenji-kyoiku", "koudai-setsuzoku-kaikaku", "gakushu-seika-kashika", "daigaku-zennyu-jidai"],
+    relatedSlugs: ["shonenji-kyoiku", "koudai-setsuzoku-kaikaku", "gakushu-seika-kashika", "daigaku-zennyu-jidai", "placement-testing-developmental-education"],
     isCanonical: true,
     tags: ["学習支援", "基礎学力", "入学前教育"],
   },
@@ -765,7 +765,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "ドイツの教育改革者W・フォン・フンボルトに由来する近代大学の理念。研究と教育の結合、学問の自由を柱とする。",
     body: "フンボルト理念とは、プロイセンの教育改革を担ったヴィルヘルム・フォン・フンボルトの構想にもとづくとされる近代大学の理念である。1810年に創設されたベルリン大学（現フンボルト大学）がそのモデルとされ、教育と研究の結合、国家からの学問の自由、すなわち大学の自治を大きな柱とする。教師が既存の知識を一方的に伝えるのではなく、教師と学生がともに新しい知を創造する場として大学を捉える点にも特色がある。\n\nこの理念では、大学は職業訓練の場ではなく、学問を通じた人格の陶冶（ビルドゥング）と一般教養の育成の場とされた。ナポレオン戦争期にハレ大学が閉鎖されたことなどを背景に、ドイツ観念論の「自由」の思想とも結びつきながらベルリン大学は創設された。ここで確立された研究中心の大学像は、ドイツ型大学として世界に広がり、アメリカの研究大学院や日本の帝国大学のモデルにも影響を与えたとされる。\n\nなお、今日語られる「フンボルト理念」は、19世紀後半以降に理想化・再構成された面があるとも指摘されており、歴史的な実態との区別が必要とされる。それでも、研究と教育の統合や大学の自治、学問の自由をめぐる議論において、現在も繰り返し参照される基準点である。ニューマンやヤスパースの大学論と対比して読まれることが多い。",
-    relatedSlugs: ["bildung", "newman-daigaku-no-rinen", "jaspers-daigaku-no-rinen", "teikoku-daigaku-rei"],
+    relatedSlugs: ["bildung", "newman-daigaku-no-rinen", "jaspers-daigaku-no-rinen", "teikoku-daigaku-rei", "weber-shokugyo-to-shite-no-gakumon"],
     isCanonical: true,
     tags: ["大学論", "研究と教育の統一", "ドイツ"],
   },
@@ -804,7 +804,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "B・クラークが1983年の著作で示した、国家・市場・学問的寡頭制の三者で各国の高等教育統制を比較する枠組み。",
     body: "バートン・クラークは、アメリカの高等教育研究者・社会学者である。1983年に刊行した『高等教育システム（The Higher Education System）』（University of California Press）で、大学や高等教育を一つの「システム」として比較社会学的に分析する枠組みを提示した。邦訳は有本章の訳で『高等教育システム―大学組織の比較社会学』として1994年に東信堂から出版されている。\n\n同書の中心概念が「調整の三角形（triangle of coordination）」である。高等教育システムの調整（統制）が、国家権力、市場、学問的権威（専門職集団による寡頭制）の三つの力のバランスで成り立つとし、各国の制度を三角形上のどこに位置づけるかによって比較する。例として、国家の力が強い国、学者集団の力が強い国、市場の力が強い国といった具合に、国ごとの違いが説明される。また、大学組織の「下から上へ」の自律性、分野（講座・学部）を単位とする特性なども論じられている。\n\n日本でも、国立大学法人化や大学ガバナンス改革、認証評価の導入を、国家・市場・大学自治のバランスの変化として読み解く際にこの枠組みが用いられてきた。なお、各国の具体的な位置づけ（たとえばイタリアやアメリカ）は、原著の議論に即して確認する必要がある。トロウの発展段階論とあわせて、高等教育研究の古典として位置づけられる。",
-    relatedSlugs: ["trow-koto-kyoiku-dankai-ron", "kokuritsu-daigaku-hojinka", "daigaku-governance-kaikaku", "ninsho-hyoka-seido"],
+    relatedSlugs: ["trow-koto-kyoiku-dankai-ron", "kokuritsu-daigaku-hojinka", "daigaku-governance-kaikaku", "ninsho-hyoka-seido", "william-clark-boys-be-ambitious-legacy"],
     isCanonical: true,
     tags: ["高等教育論", "比較社会学", "ガバナンス"],
   },
@@ -830,7 +830,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "特定の職業に直結しない幅広い知識や思考力を養う教養教育。古代の自由七科に由来し、現代の大学改革でも見直されている。",
     body: "リベラルアーツ（liberal arts）は、特定の職業や実用に直結しない、自由人にふさわしい教養的な学芸を指す。語源は中世ヨーロッパの大学で教えられた「自由七科」（文法・修辞学・論理学の三学と、算術・幾何・天文・音楽の四科）にさかのぼり、今日では人文・社会・自然科学を横断して批判的思考、コミュニケーション、問題解決の力を養う教育として理解されることが多い。\n\nアメリカでは、学部段階で幅広い教養教育を行うリベラルアーツ・カレッジが高等教育の伝統となっている。日本では、国際基督教大学（ICU）が1953年に教養学部のみで開学し、リベラルアーツ教育の先駆けとされる。また、戦後の新制大学では一般教育（教養教育）が設けられたが、1991年の大学設置基準の大綱化以降、教養部の廃止など教養教育のあり方が大きく変わり、改めてその理念が問われた。近年は国際教養大学など、リベラルアーツを掲げる大学も増えている。\n\n変化の激しい社会で必要とされる汎用的な能力を育てる観点から、リベラルアーツの価値は再評価されている。他方で、専門教育や職業教育との関係、学位プログラムの中での位置づけ、教養教育の質保証などが課題となる。ニューマンのリベラル・エデュケーションは、その理念的源流の一つである。",
-    relatedSlugs: ["newman-daigaku-no-rinen", "daigaku-secchi-kijun-taikoka", "gakushiryoku", "taisho-kyoyoshugi", "richard-rorty-ironist-education", "shichijiyu-ka"],
+    relatedSlugs: ["newman-daigaku-no-rinen", "daigaku-secchi-kijun-taikoka", "gakushiryoku", "taisho-kyoyoshugi", "richard-rorty-ironist-education", "shichijiyu-ka", "richard-stanley-peters-ethics-education"],
     isCanonical: true,
     tags: ["教養教育", "大学カリキュラム", "ICU"],
   },
@@ -882,7 +882,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学や大学院等が社会人等を対象に開設する体系的な学習プログラム（総時間数60時間以上）を修了した者に対し、学校教育法に基づき履修証明書を交付する制度。",
     body: "学校教育法第105条等の規定に基づき、大学、大学院、短期大学、高等専門学校および専修学校が、主として社会人等を対象とした教育プログラムを開設し、その修了者に対して法に基づく履修証明書を交付する制度である。2007年の法改正により創設された。\n\nプログラムの編成にあたっては、体系的な知識や技術を習得できるよう総時間数60時間以上の学修時間が定められている。社会人がキャリアアップや再就職、資格取得のために大学の教育資源を活用しやすくすることを目的としており、正規の学位課程に入学することなく専門的な学びを享受できる利点がある。\n\n文部科学省が認定する「職業実践力育成プログラム（BP）」の対象となることも多く、厚生労働省の教育訓練給付制度と連携することで学費補助を受けられる場合もある。リカレント教育やリスキリングの基盤的インフラとして、地域企業や産業界のニーズに応じた多様なプログラムが開発されている。",
-    relatedSlugs: ["gakui-jusyo-kiko", "recurrent-kyoiku", "kamokuto-rishusei", "syllabus-seibi-gimuka"],
+    relatedSlugs: ["gakui-jusyo-kiko", "recurrent-kyoiku", "kamokuto-rishusei", "syllabus-seibi-gimuka", "reskilling-graduate-certificate-programs"],
     isCanonical: true,
     tags: ["リカレント教育", "学校教育法", "生涯学習", "リスキリング"],
   },
@@ -921,7 +921,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "高等教育において、特定分野の専門的知見にとどまらず、自然・人文・社会科学の幅広い知見と批判的思考力、豊かな人間性を涵養する教育。",
     body: "大学における教育課程のうち、専門教育の基礎となる幅広い学識、批判的思考力、論理的表現力、豊かな人間性を涵養することを目的とした教育である。古代ギリシャ・ローマの自由学芸（リベラルアーツ）を起源とし、戦後の日本の大学制度では一般教育として制度化された。\n\n1991年の大学設置基準の大綱化により、従来の「一般教育」と「専門教育」の区分が廃止されたことで、各大学が独自の理念に基づき4年一貫教育の中で教養教育を再構築する動きが広がった。しかし、専門教育の偏重や教養科目の形骸化が懸念されたことから、2000年代以降、中央教育審議会答申等で教養教育の再生と重要性が再確認されている。\n\n現代社会においては、急速な技術革新や複雑化する地球規模課題に対応するため、専門分野の枠を超えた課題探究力や多面的な価値観を理解するグローバルな視野を養う基盤として、教養教育の重要性が一段と高まっている。",
-    relatedSlugs: ["gakushiryoku", "shonenji-kyoiku", "liberal-arts-kyoiku", "three-policy"],
+    relatedSlugs: ["gakushiryoku", "shonenji-kyoiku", "liberal-arts-kyoiku", "three-policy", "nishi-amane-hyakugaku-renkan"],
     isCanonical: true,
     tags: ["リベラルアーツ", "大綱化", "学士力", "初年次教育"],
   },
@@ -934,7 +934,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "日本国憲法第23条に保障される基本的人権で、学術研究、研究成果の発表、教授・教育の自由を保障し、大学の自治の根拠となる原則。",
     body: "日本国憲法第23条に「学問の自由は、これを保障する」と規定される基本的人権の一つである。戦前の滝川事件や天皇機関説事件など、国家権力による学問・思想への介入や弾圧に対する強い反省から、基本的人権として特に独立の条文として明記された歴史的経緯を持つ。\n\n学問の自由は、真理を探究する「研究の自由」、その成果を公表する「研究発表の自由」、そして大学等の高等教育機関において研究成果を伝達する「教授の自由」を中核とする。これらの自由を実質的に保障するため、制度的保障として「大学の自治」が認められている。\n\n大学の自治には、人事の自治、施設管理の自治、教育研究内容決定の自治などが含まれる。現代の高等教育においても、外部からの不当な政治的・社会的圧力から研究者・教育者を守り、学術研究の自律性と健全な発展を維持するための絶対的な原理として機能している。",
-    relatedSlugs: ["takigawa-jiken", "daigaku-governance-kaikaku", "kyojukai", "daigaku-jichi-no-rekishi"],
+    relatedSlugs: ["takigawa-jiken", "daigaku-governance-kaikaku", "kyojukai", "daigaku-jichi-no-rekishi", "meirokusha-modern-enlightenment-society", "kojunsha-intellectual-social-institution", "keio-gijuku-foundation-independence-self-respect"],
     isCanonical: true,
     tags: ["憲法第23条", "大学の自治", "研究の自由", "教授の自由"],
   },
@@ -1090,7 +1090,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "1単位あたり45時間の学修を要するという法令上の単位制度の趣旨に基づき、授業内だけでなく授業外の予習・復習時間を十分に確保・定着させる取り組み。",
     body: "大学設置基準第21条等に定められている「1単位の授業科目は45時間の学修を必要とする内容をもって構成する」という単位制度の実質的な機能回復を目指す改革課題である。講義科目であれば、一般に15時間の講義に対して30時間の授業外学修が法令上想定されている。\n\nしかし、日本の大学生の授業外学修時間が諸外国に比べて著しく短いことが長年指摘され、単位の形骸化が国際的な大学の通用性を損ねていると批判されてきた。これを受け、中央教育審議会は学修時間の実質化を重要課題として提起した。\n\n具体的な方策として、シラバスにおける事前・事後学修の明示、履修登録上限設定（キャップ制）の厳格化、アクティブ・ラーニングの導入、課題提出や小テストの実施、オフィスアワーの充実など、多角的な取り組みが推進されている。",
-    relatedSlugs: ["daigaku-secchi-kijun", "cap-sei", "syllabus-seibi-gimuka", "gakusei-chosa", "credit-system-45-hours-learning-syllabus"],
+    relatedSlugs: ["daigaku-secchi-kijun", "cap-sei", "syllabus-seibi-gimuka", "gakusei-chosa", "credit-system-45-hours-learning-syllabus", "pre-post-class-study-time-assignment"],
     isCanonical: true,
     tags: ["単位制度", "授業外学修", "大学設置基準", "キャップ制"],
   },
@@ -1129,7 +1129,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "大学設置基準が定める学生定員に応じた校地・校舎面積、実験実習設備、福利厚生施設等の最低設置基準と環境整備の枠組み。",
     body: "校地・校舎等の施設設備基準は、大学が学生に対して安全かつ十分な教育研究活動を保障するために備えるべき物理的環境の最低要件を定めた基準である。大学設置基準に基づき、学生収容定員に応じた校地面積や校舎面積の算定基準が厳格に規定されている。\n\n具体的な設備としては、講義室、演習室、実験・実習室のほか、教員研究室、体育施設、学生控室や食堂などの福利厚生施設が含まれる。近年では情報通信技術の進展に伴い、学内高速通信網の整備や自学自習を促すラーニング・コモンズ、アクティブラーニング教室の設置が急速に広がっている。\n\n施設設備は単なる教育空間にとどまらず、障がい学生への合理的配慮に基づくバリアフリー化や防災拠点機能の確保など、社会的責任を果たすインフラとしての重要性が増している。認証評価においても学修環境の整備状況が主要な評価項目として位置づけられている。",
-    relatedSlugs: ["daigaku-secchi-kijun", "ninsho-hyoka-seido", "naibu-shitsu-hosho"],
+    relatedSlugs: ["daigaku-secchi-kijun", "ninsho-hyoka-seido", "naibu-shitsu-hosho", "student-dormitory-residential-life-support", "campus-barrier-free-universal-design-spaces"],
     isCanonical: true,
     tags: ["施設設備基準", "校地校舎", "学修環境", "ラーニングコモンズ"],
   },
@@ -1441,7 +1441,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "学修支援、生活相談、キャリア支援、心身の健康相談を一体的に統合し、学生の学業達成と社会への円滑な巣立ちを包括的に支える体制。",
     body: "スチューデント・サクセス体制は、学生が大学生活において学業上の目標を達成し、社会へ有為な人材として巣立つことを大学全体で包括的に支援する統合的アプローチである。従来の教務、学生部、就職部などの縦割りを打破して導入された。\n\n学修支援センター、学生相談室、キャリアセンター、ピアサポート組織などが連携し、学生の出欠状況、成績推移、生活相談のデータを統合的に把握する。困難の兆候が見られる学生に対して、学修アドバイザーや専門カウンセラーが早期に介入して支援策を講じる。\n\n学生の在学率の向上（中退防止）と学修成果の最大化を同時に達成する現代的な大学経営モデルとして位置づけられる。学生満足度を高め、大学の教育的責任を全うするための全学協働プラットフォームとして発展している。",
-    relatedSlugs: ["academic-advising", "naibu-shitsu-hosho", "institutional-research-ir"],
+    relatedSlugs: ["academic-advising", "naibu-shitsu-hosho", "institutional-research-ir", "open-campus-sample-lectures-information-guidance", "jasso-student-loans-type-one-and-two", "university-coop-student-welfare-health-support"],
     isCanonical: true,
     tags: ["スチューデントサクセス", "包括支援", "中退防止", "学生支援"],
   },
@@ -1467,7 +1467,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "臨床心理士等の専門家が心身の悩みや対人関係の相談に応じ、アカデミック・ハラスメントや性暴力の防止と救済を担う支援機構。",
     body: "学生相談室の機能とハラスメント防止体制は、学生が安全で健全な環境の中で学修に専念できるよう、心理的支援と権利侵害の防止を担う大学の専門組織である。大学におけるメンタルヘルス対策と人権保障の拠点として機能する。\n\n学生相談室には公認心理師や臨床心理士が常駐し、学業不振、人間関係、将来の進路、家庭環境などの悩みに守秘義務のもとで応じる。また、大学はハラスメント防止規程を定め、専門の相談窓口の設置や事実調査委員会による厳格な調査、被害者の保護と加害者への処分を制度化している。\n\n教員と学生の指導関係における優越的地位の濫用（アカハラ）を防ぐための啓発研修も定期的に実施される。学生が心身の安全を脅かされることなく尊厳を持って学べるキャンパス環境の確立は、大学の社会的信用の根幹をなす。",
-    relatedSlugs: ["academic-advising", "faculty-development", "staff-development"],
+    relatedSlugs: ["academic-advising", "faculty-development", "staff-development", "academic-harassment"],
     isCanonical: true,
     tags: ["学生相談室", "メンタルヘルス", "ハラスメント防止", "人権保障"],
   },
@@ -1493,7 +1493,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "外国人留学生が日本の大学での学修と地域生活に円滑に適応できるよう、在学生によるチューター配置や在留支援等を行う総合体制。",
     body: "留学生支援体制は、各大学が海外からの留学生を受け入れ、学業の継続と異文化適応を円滑に促すために整備している総合的な受入支援システムである。国際化の推進と多様性豊かなキャンパス形成の土台となる。\n\n在学生を留学生チューターとして配置し、授業のノートテイク支援、日本語学修の補助、市役所での住民登録や銀行口座開設などの初期生活手続きをマンツーマンで支援する。国際交流センターでは、ビザ更新支援、宿舎の確保、奨学金申請、危機管理対応を一元的に担う。\n\n留学生に対するきめ細やかな支援は、学業達成度の向上と中退防止に直結する。また、支援にあたる日本人学生にとっても多文化共生や国際的視野を身につける優れた教育機会となり、キャンパスの国際共修環境を活性化させている。",
-    relatedSlugs: ["super-global-daigaku", "student-success-center-retention-support", "tani-gokan-seido"],
+    relatedSlugs: ["super-global-daigaku", "student-success-center-retention-support", "tani-gokan-seido", "student-dormitory-residential-life-support"],
     isCanonical: true,
     tags: ["留学生支援", "チューター制度", "国際化", "多文化共生"],
   },
@@ -1519,7 +1519,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "国内外の連携大学間での単位互換と共同指導により、所定の要件を満たした学生に対して双方の大学から各々の学位を授与する制度。",
     body: "ダブル・ディグリー制度は、協定を締結した国内外の2つの大学が緊密に連携し、学生が双方の大学で学修してそれぞれの卒業・修了要件を満たした場合に、双方の大学から各1つ、計2つの独立した学位を授与する制度である。\n\n学生は所属大学で一定期間学修した後、海外の連携大学に留学して専門科目を修得し、相互の単位認定制度を活用して効率的に2大学の要件を満たす。教員間の共同研究や緊密なカリキュラム調整を基礎とし、修士課程や学士課程で導入されている。\n\n単なる交換留学を超えて、学生に国際的な複眼の専門性と高い語学力を保証する。高度な国際競争力を持つグローバルリーダーを育成するとともに、大学間の国際共同教育ネットワークを強固にする最先端の学位プログラムである。",
-    relatedSlugs: ["double-degree-joint-degree", "tani-gokan-seido", "super-global-daigaku"],
+    relatedSlugs: ["double-degree-joint-degree", "tani-gokan-seido", "super-global-daigaku", "daigaku-sekai-tenkai-ryoku-kyoka"],
     isCanonical: true,
     tags: ["ダブルディグリー", "複数学位", "国際協定", "単位互換"],
   },
@@ -1532,7 +1532,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "複数の大学が共同で単一の専攻を設置し、緊密に連携した単一の共同教育課程を編成して連名の単一学位を授与する制度枠組み。",
     body: "ジョイント・ディグリー制度は、2014年の文部科学省令改正により導入された、国内外の複数大学が共同で教育課程を編成・実施し、連名で「単一の学位」を授与する国際共同専攻制度である。ダブル・ディグリーが2つの学位を授与するのに対し、本制度は単一学位を授与する。\n\n各連携大学は自校の強みを持つ教員や研究施設を持ち寄り、質の高い融合的カリキュラムを共同開発する。学生は両大学に在籍して相互にキャンパスを移動しながら履修し、双方の大学の専任教員からなる共同審査委員会のもとで学位審査を受ける。\n\n大学設置基準上の特例措置を活用し、教育資源の相互補完と世界水準の教育プログラムの創出を可能にする。日本の高等教育機関が国際的な学術アライアンスを築き、グローバルな質保証を確立する象徴的な制度である。",
-    relatedSlugs: ["double-degree-joint-degree", "daigaku-secchi-kijun", "super-global-daigaku"],
+    relatedSlugs: ["double-degree-joint-degree", "daigaku-secchi-kijun", "super-global-daigaku", "daigaku-sekai-tenkai-ryoku-kyoka"],
     isCanonical: true,
     tags: ["ジョイントディグリー", "共同学位", "共同専攻", "国際教育連携"],
   },
@@ -1675,7 +1675,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "将来の学術研究を担う優れた若手研究者に対し、研究奨励金と科学研究費補助金を支給して自由な発想による研究に専念させる公的助成制度。",
     body: "日本学術振興会特別研究員（学振制度）は、日本の学術研究の将来を担う優れた若手研究者を採用し、研究に専念できる環境を提供する国内最高峰のフェローシップ制度である。大学院博士後期課程在学者を対象とするDCと、博士取得者を対象とするPDなどがある。\n\n厳格な書面審査と面接審査を経て選考され、採択者には月額の研究奨励金（生活費支援）が支給されるとともに、特別研究員奨励費（科研費）が配分されて自立的な研究活動が保障される。競争率は高く、若手研究者の登竜門として位置づけられる。\n\n経済的困窮を防ぎ優秀な若者が研究活動に没頭できるように支える制度的効果は極めて大きい。国内外の一流研究機関での武者修行を促し、世界のトップレベルで活躍する次世代研究者を継続的に輩出する礎となっている。",
-    relatedSlugs: ["kagakukenkyuhi-hojokin", "hakase-katei-gakusei-shien", "postdoc-problem"],
+    relatedSlugs: ["kagakukenkyuhi-hojokin", "hakase-katei-gakusei-shien", "postdoc-problem", "tokushoku-gp"],
     isCanonical: true,
     tags: ["日本学術振興会", "学振", "若手研究者", "特別研究員"],
   },
@@ -1740,7 +1740,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "2012年の中央教育審議会答申が提唱した、受動的な講義中心から学生が能動的に課題を探究するアクティブラーニングへの抜本的転換。",
     body: "学士課程教育の質的転換は、2012年8月の中央教育審議会答申「新たな未来を築くための大学教育の質的転換に向けて」が提唱した、日本の大学教育改革の根幹となる理念である。知識を一方的に伝達する講義中心の授業からの脱却を宣言した。\n\n答申では、学生が生涯学び続け、主体的に考える力を培うために「主体的・能動的な学修（アクティブラーニング）」への転換が強く求められた。教室内での討論、グループワーク、プレゼンテーション、課題解決型学習（PBL）の導入、および学修時間の厳格な管理が推進された。\n\nこの質的転換は、その後の三つのポリシー義務化や教学マネジメント指針の策定へと直結する歴史的画期となった。学生が自ら知を創出する能動的学習者へと脱皮することを促す、現代高等教育の指導原理である。",
-    relatedSlugs: ["active-learning", "three-policy", "gakushu-jikan"],
+    relatedSlugs: ["active-learning", "three-policy", "gakushu-jikan", "tokushoku-gp"],
     isCanonical: true,
     tags: ["質的転換", "主体的学修", "アクティブラーニング", "中教審答申"],
   },
@@ -1792,7 +1792,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "老朽化した大学キャンパスの校舎や研究施設に対し、耐震改修や長寿命化改修、安全対策を支援する国の公的補助金制度。",
     body: "施設整備費補助金による教育研究環境の長寿命化は、高度経済成長期前後に建設され老朽化が急速に進む国立・公立・私立大学の施設を再生し、安全で先端的な学修・研究空間を維持するための公的財政支援制度である。\n\n耐震改修工事、アスベスト除去、電気・空調設備の省エネルギー化、防災機能の強化などが重点的に補助される。また、単なる物理的補修にとどまらず、少人数教育やアクティブラーニングに対応した教室空間の改編、研究設備の集約配置など、教育手法の近代化と連動して計画される。\n\n安全で快適な施設環境は、学生の学修意欲向上や優秀な研究者の獲得に直結する。カーボンニュートラルの達成や災害時の地域避難拠点としての機能など、大学が社会的責任を果たす上でも極めて重要な事業である。",
-    relatedSlugs: ["daigaku-secchi-kijun", "unei-hi-kofukin", "naibu-shitsu-hosho"],
+    relatedSlugs: ["daigaku-secchi-kijun", "unei-hi-kofukin", "naibu-shitsu-hosho", "campus-barrier-free-universal-design-spaces"],
     isCanonical: true,
     tags: ["施設整備補助金", "長寿命化", "キャンパス環境", "耐震改修"],
   },
@@ -2325,7 +2325,7 @@ export const higherEdTerms: Term[] = [
     summary:
       "研究活動における不正行為（捏造・改ざん・盗用）を防止し、倫理的で信頼性の高い研究を推進する規範と体制。",
     body: "研究公正は、科学研究における真実性の探求と社会からの信頼を担保するため、研究倫理を遵守し不正行為を排除する一連の規範・体制である。英語のResearch Integrityに対応する。\n\n文部科学省の「研究活動における不正行為への対応等に関するガイドライン」（2014年決定）では、特定不正行為として捏造（Fabrication）、改ざん（Falsification）、盗用（Plagiarism）の三つが明確に定義されている。大学・研究機関には、研究倫理教育の義務化、告発窓口の設置、不正調査委員会の設置、研究データの一定期間保存の義務付けなどが課されている。\n\n単なる不正摘発にとどまらず、健全な研究環境の醸成や研究データの適正管理、メンターシップの向上など、研究機関全体のガバナンス課題として取り組まれている。",
-    relatedSlugs: ["academic-writing-citation-plagiarism-prevention", "kenkyu-data-kanri", "rieki-sohan-management", "scientific-progress-researcher-social-responsibility"],
+    relatedSlugs: ["academic-writing-citation-plagiarism-prevention", "kenkyu-data-kanri", "rieki-sohan-management", "scientific-progress-researcher-social-responsibility", "academic-harassment"],
     isCanonical: true,
     tags: ["研究倫理", "不正防止", "研究公正", "科学技術"],
   },

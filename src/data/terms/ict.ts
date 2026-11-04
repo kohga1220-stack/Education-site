@@ -10,7 +10,7 @@ export const ictTerms: Term[] = [
     summary:
       "児童生徒一人一台の学習用端末と、高速ネットワーク環境を全国の学校に整備する、文部科学省の政策。2019年に始動し新型コロナ禍で前倒しされた。",
     body: "GIGAスクール構想とは、Global and Innovation Gateway for Allの略称で、「多様な子どもたちを誰一人取り残すことなく、公正に個別最適化された学びを実現する」ことを目指し、児童生徒一人一台の学習用コンピュータ端末と、高速大容量の校内通信ネットワークを全国の学校に整備する、文部科学省の政策です。\n\n当初は2023年度までの複数年計画として2019年度に始動しましたが、新型コロナウイルス感染症の拡大に伴う臨時休校を機に、オンライン学習環境の必要性が急速に高まったことから、整備計画は大幅に前倒しされ、多くの自治体で2021年度までに一人一台端末の整備が完了しました。\n\nこの環境整備を土台として、個別最適化学習や反転授業、デジタル教材を活用した授業改善、校務のデジタル化（教育DX）など、ICTを活用したさまざまな教育活動の広がりが期待されています。",
-    relatedSlugs: ["kobetsu-saiteki", "kyoiku-dx", "flipped-classroom"],
+    relatedSlugs: ["kobetsu-saiteki", "kyoiku-dx", "flipped-classroom", "one-to-one-daily-use-stationery", "cloud-collaborative-learning-realtime", "digital-liaison-notebook-parent-app", "screen-broadcasting-system-focusing", "digital-worksheet-distribution-collection"],
     isCanonical: true,
     exam: true,
     tags: ["一人一台端末", "文部科学省"],
@@ -24,7 +24,7 @@ export const ictTerms: Term[] = [
     summary:
       "教育（Education）とテクノロジー（Technology）を組み合わせた造語。ICTを活用して学習や教育活動の課題を解決しようとするサービスや取り組みの総称。",
     body: "EdTech（エドテック）とは、Education（教育）とTechnology（テクノロジー）を組み合わせた造語で、AIやビッグデータ、クラウドといった情報技術を活用することで、学習や教育活動が抱えるさまざまな課題を解決しようとするサービスや取り組みの総称です。\n\n具体例としては、子どもの解答状況をAIが分析し、一人ひとりに合った問題を出題するアダプティブラーニング教材、教員同士が教材や指導案を共有し合うプラットフォーム、オンラインで海外の学校と交流できるツールなどが挙げられます。\n\n経済産業省が推進する「未来の教室」事業や、文部科学省のGIGAスクール構想と連動しながら、日本でもEdTechサービスの学校現場への導入が急速に進んでおり、個別最適化学習を技術面から支える重要な基盤として位置づけられています。",
-    relatedSlugs: ["giga-school", "kobetsu-saiteki"],
+    relatedSlugs: ["giga-school", "kobetsu-saiteki", "ai-automated-summarization-proofreading-tools", "machine-translation-tools-language-learning"],
     isCanonical: true,
     tags: ["アダプティブラーニング", "未来の教室"],
   },
@@ -37,7 +37,7 @@ export const ictTerms: Term[] = [
     summary:
       "2020年度から小学校で必修化された学習内容。プログラミング言語の習得自体よりも、筋道立てて考える「プログラミング的思考」の育成が主な目的。",
     body: "プログラミング教育とは、コンピュータに意図した処理を行わせるための論理的な手順を体験的に学ぶ学習活動で、日本では2020年度から小学校で必修化されました。ただし独立した教科としてではなく、算数や理科、総合的な学習の時間など、既存の教科の中に組み込む形で実施される点が特徴です。\n\n文部科学省が重視しているのは、特定のプログラミング言語の文法を覚えることそのものではなく、自分が意図する動きを実現するために、どのような手順や組み合わせが必要かを論理的に考える力、いわゆる「プログラミング的思考」を育てることにあります。ビジュアル型のプログラミング言語（ブロックを組み合わせるタイプのソフト）が、小学校段階では広く使われています。\n\n中学校の技術・家庭科ではより本格的なプログラミング学習が行われ、高等学校では2022年度から必履修科目「情報I」の中でプログラミングが扱われるなど、校種を通じて段階的に学びが深められる設計になっています。",
-    relatedSlugs: ["joho-katsuyo-noryoku", "giga-school"],
+    relatedSlugs: ["joho-katsuyo-noryoku", "giga-school", "educational-robotics-hands-on-programming", "visual-programming-scratch-foundations", "text-based-programming-language-transition", "microbit-sensor-control-hands-on-learning", "physical-computing-iot-education-classroom", "algorithm-basics-sequence-branch-loop"],
     isCanonical: true,
     exam: true,
     tags: ["プログラミング的思考", "情報I"],
@@ -51,7 +51,7 @@ export const ictTerms: Term[] = [
     summary:
       "デジタル技術やインターネットを、安全かつ責任を持って、効果的に活用するための知識・スキル・態度のこと。危険を避けるだけでなく積極的な活用力を含む。",
     body: "デジタルシティズンシップとは、インターネットやデジタル機器が生活に不可欠となった社会において、それらを安全に、責任を持って、そして効果的に活用していくために必要な知識、スキル、態度の総称です。\n\n従来の「情報モラル教育」が、ネットの危険から身を守る、といった「危険の回避」に重点を置く傾向があったのに対し、デジタルシティズンシップは、デジタル技術を使って情報を発信したり、社会と積極的に関わったりする「主体的で建設的な活用力」までを含む、より広い概念として位置づけられます。\n\n具体的な学習内容には、SNSでの発信が及ぼす影響への想像力、著作権やプライバシーの尊重、情報の真偽を見極めるメディアリテラシー、オンライン上での適切なコミュニケーションのあり方などが含まれ、一人一台端末が普及した学校現場において重要性が高まっています。",
-    relatedSlugs: ["joho-katsuyo-noryoku", "jinken-kyoiku", "joho-moral", "media-literacy", "giga-school"],
+    relatedSlugs: ["joho-katsuyo-noryoku", "jinken-kyoiku", "joho-moral", "media-literacy", "giga-school", "digital-citizenship-online-moral-etiquette", "screen-time-digital-divide-habits", "esports-kyoiku"],
     isCanonical: true,
     tags: ["情報モラル", "メディアリテラシー", "社会参画", "主体的学び", "協働学習"],
   },
@@ -87,7 +87,7 @@ export const ictTerms: Term[] = [
     summary:
       "科学・技術・工学・芸術・数学の頭文字をとった、教科横断的な学びの総称。実社会の課題解決を通じて創造性や課題発見力を育む。",
     body: "STEAM教育とは、Science（科学）、Technology（技術）、Engineering（工学）、Art（芸術・リベラルアーツ）、Mathematics（数学）の頭文字を組み合わせた言葉で、これらの分野を教科の枠を越えて統合的に学び、実社会の課題解決に活かしていこうとする教育のあり方です。もともとはArtを含まない「STEM教育」として提唱され、後にArtの要素が加えられました。\n\n特徴は、単独の教科の知識を深めることよりも、身の回りの課題を発見し、複数分野の知識やものづくりのスキルを組み合わせながら、試行錯誤して解決策を創造していくプロセスを重視する点にあります。ロボット製作、アプリ開発、地域課題の解決アイデアの提案といった探究的な活動が代表例です。\n\n日本では、高等学校の「総合的な探究の時間」や「情報I」などを中心に、STEAM教育の考え方を取り入れた実践が広がっており、Society 5.0時代に求められる創造性や課題発見・解決力を育む取り組みとして期待されています。",
-    relatedSlugs: ["tankyu-gakushu", "society50", "pbl", "three-d-printing-digital-fabrication-steam"],
+    relatedSlugs: ["tankyu-gakushu", "society50", "pbl", "three-d-printing-digital-fabrication-steam", "synectics-analogical-creativity", "expert-researcher-remote-guest-lectures", "virtual-field-trip-social-studies-enrichment", "vr-headset-safety-experiment-simulation"],
     isCanonical: true,
     tags: ["教科横断", "創造性"],
   },
@@ -113,7 +113,7 @@ export const ictTerms: Term[] = [
     summary:
       "単なる知識の量ではなく、実際の複雑な状況の中で知識・技能・態度を組み合わせて活用し、成果を出す力のこと。OECDの学力観の中核概念。",
     body: "コンピテンシーとは、単に知っている知識の量（何を知っているか）ではなく、実際の複雑で予測困難な状況において、知識、スキル、態度、価値観などを総合的に組み合わせて活用し、実際に成果を生み出す力を指す概念です。\n\nOECD（経済協力開発機構）は「キー・コンピテンシー」という枠組みを示し、「道具を相互作用的に用いる力」「異質な集団で交流する力」「自律的に活動する力」という3つのカテゴリーを、これからの社会を生きる上で特に重要な力として整理しました。PISA調査は、このコンピテンシーの考え方を土台に設計されています。\n\n日本の学習指導要領が掲げる「資質・能力の三つの柱」も、知識の習得にとどまらず、思考力や学びに向かう力までを含めて学力を捉え直そうとする点で、このコンピテンシー・ベースの学力観と軌を一にするものと位置づけられています。",
-    relatedSlugs: ["pisa", "shishitsu-noryoku"],
+    relatedSlugs: ["pisa", "shishitsu-noryoku", "deseco-key-competencies"],
     isCanonical: true,
     tags: ["OECD", "キー・コンピテンシー"],
   },
@@ -126,7 +126,7 @@ export const ictTerms: Term[] = [
     summary:
       "学校教育の期間だけでなく、人が生涯にわたって、学校・家庭・地域・職場など、あらゆる場で行う学習全体を指す考え方。",
     body: "生涯学習とは、学校教育を受ける子ども・若者の時期だけに学びを限定せず、人が生涯を通じて、学校教育、社会教育、家庭教育、趣味の活動、職場での研修など、あらゆる場や機会において行う学習全体を指す考え方です。ユネスコが1960年代に提唱した「生涯教育（ライフロング・エデュケーション）」の理念を背景としています。\n\n日本の教育基本法第3条にも「国民一人一人が、自己の人格を磨き、豊かな人生を送ることができるよう、その生涯にわたって、あらゆる機会に、あらゆる場所において学習することができ」るよう、生涯学習の理念の実現が図られなければならないと明記されています。\n\n公民館や図書館、博物館といった社会教育施設の役割、リカレント教育（社会人が学び直すこと）の推進、高齢者の学習機会の充実など、学校教育を終えた後の学びを支える社会の仕組みづくりも、生涯学習を支える重要な要素として位置づけられています。",
-    relatedSlugs: ["kyoiku-kihon-ho", "gakkouka-shakai", "fundamental-law-article-3-lifelong"],
+    relatedSlugs: ["kyoiku-kihon-ho", "gakkouka-shakai", "fundamental-law-article-3-lifelong", "andragogy"],
     isCanonical: true,
     tags: ["ユネスコ", "リカレント教育"],
   },
@@ -139,7 +139,7 @@ export const ictTerms: Term[] = [
     summary:
       "デジタル技術の活用によって、授業や学習だけでなく、校務や学校運営のあり方まで含めて、教育活動全体を変革していこうとする取り組み。",
     body: "教育DX（デジタルトランスフォーメーション）とは、ICTやデータを活用することで、単に紙をデジタルに置き換える（デジタイゼーション）にとどまらず、授業や学習の進め方、さらには学校の校務や組織のあり方そのものを、より良いものへと変革していこうとする取り組みを指します。\n\n授業面では、一人一台端末を活用した個別最適化学習や、デジタル教科書・教材の活用が進められています。校務面では、出欠管理や成績処理、保護者との連絡といった事務作業のデジタル化・効率化によって、教員の負担を軽減し、子どもと向き合う時間を確保することが目指されています。\n\n学習履歴（スタディログ）や生活記録などのデータを分析し、指導や支援の改善に役立てる「教育データの利活用」も教育DXの重要な柱の一つとされていますが、その一方でデータの管理や個人情報保護のあり方についての議論も重要な検討課題となっています。",
-    relatedSlugs: ["giga-school", "edtech", "kobetsu-saiteki"],
+    relatedSlugs: ["giga-school", "edtech", "kobetsu-saiteki", "teacher-ict-competency-professional-development", "joint-procurement-education-cloud-scale", "software-license-management-school-wide", "open-school-digital-transformation-future", "childcare-dx-attendance-paperless-efficiency"],
     isCanonical: true,
     tags: ["校務効率化", "教育データ利活用"],
   },
@@ -152,7 +152,7 @@ export const ictTerms: Term[] = [
     summary:
       "学習指導要領において、言語能力・問題発見解決能力と並ぶ「学習の基盤となる資質・能力」の一つとして位置づけられている、情報を適切に活用する力。",
     body: "情報活用能力とは、2017・2018年改訂の学習指導要領において、言語能力、問題発見・解決能力と並んで「学習の基盤となる資質・能力」の一つとして明確に位置づけられた力で、世の中のさまざまな事象を情報とその結び付きとして捉え、情報や情報技術を適切かつ効果的に活用しながら、問題を発見・解決したり自分の考えを形成したりしていくために必要な資質・能力とされています。\n\nこの力には、キーボード入力などの基本的な操作スキルに加え、プログラミング的思考、そして必要な情報を主体的に収集・判断・表現・処理・創造し、受け手の状況を踏まえて発信・伝達できる力、さらには情報モラルなどが幅広く含まれます。\n\n特定の教科だけでなく、各教科等の学習の基盤として、教育課程全体を通じて計画的に育成することが求められており、GIGAスクール構想によるICT環境の整備は、この情報活用能力を育む土台として位置づけられています。",
-    relatedSlugs: ["programming-education", "digital-citizenship", "giga-school"],
+    relatedSlugs: ["programming-education", "digital-citizenship", "giga-school", "digital-storytelling-media-expression", "digital-native", "one-to-one-daily-use-stationery", "screen-broadcasting-system-focusing", "collaborative-presentation-slides-co-creation"],
     isCanonical: true,
     tags: ["学習の基盤となる資質・能力", "プログラミング的思考"],
   },
@@ -165,7 +165,7 @@ export const ictTerms: Term[] = [
     summary:
       "IQやテストの点数など数値化しやすい「認知能力」に対し、意欲、協調性、粘り強さ、自己制御力など、数値化しにくい心の力の総称。",
     body: "非認知能力とは、IQや学力テストの点数のように数値として測定しやすい「認知能力」に対して、目標に向かって粘り強く取り組む力（グリット）、感情をコントロールする力（自己制御力）、他者と協力する力（協調性）、好奇心といった、数値化することが難しい心理的な特性や能力の総称です。\n\nアメリカの経済学者ジェームズ・ヘックマンによる、就学前教育の長期的な効果を検証した研究などをきっかけに、こうした非認知能力が、学業成績だけでなく、将来の社会的な成功や心身の健康にも長期的に影響を与える可能性があることが、国際的に注目されるようになりました。\n\n日本の学習指導要領が掲げる「学びに向かう力・人間性等」や、「主体的に学習に取り組む態度」といった観点は、この非認知能力の考え方と重なる部分が大きいとされ、幼児教育から特別活動、キャリア教育に至るまで、幅広い教育活動を通じてその育成が図られています。",
-    relatedSlugs: ["shishitsu-noryoku", "naihatsu-doki", "resilience"],
+    relatedSlugs: ["shishitsu-noryoku", "naihatsu-doki", "resilience", "non-cognitive-skills-new-inequality-divide"],
     isCanonical: true,
     tags: ["ヘックマン", "グリット"],
   },
@@ -191,7 +191,7 @@ export const ictTerms: Term[] = [
     summary:
       "個人が所有するパソコンやスマートフォンなどの端末を、学校や職場に持ち込んで学習・業務に活用する仕組み。端末整備にかかる公費負担を抑えられる一方、機種の違いへの対応や公平性の確保が課題となる。",
     body: "BYOD（Bring Your Own Device）とは、児童生徒や教職員が個人で所有するパソコン、タブレット、スマートフォンなどの情報端末を、学校に持ち込んで授業や校務に活用する仕組みを指します。もともとは企業において従業員が私物端末を業務に用いる運用形態を表す言葉として広まり、その後、学校教育の分野にも取り入れられるようになりました。\n\n学校教育におけるBYODでは、自治体や学校が一律に端末を整備するのではなく、家庭が用意した端末を活用することで、端末の購入・保守にかかる公費負担を抑えられる利点があります。高等学校では、GIGAスクール構想による端末整備が小中学校中心であったこともあり、都道府県によってはBYODを前提とした端末整備方針を採用する例があります。\n\n一方で、家庭ごとに端末の機種やOS、性能が異なることにより、授業で使うアプリの動作環境を統一しにくいという課題や、家庭の経済状況によって端末の質に差が生じやすいという公平性の課題も指摘されており、公費で整備する端末との併用のあり方が検討されています。",
-    relatedSlugs: ["ichinin-ichidai", "giga-school", "joho-security-policy"],
+    relatedSlugs: ["ichinin-ichidai", "giga-school", "joho-security-policy", "public-wifi-security-risks-vpn-guidance"],
     isCanonical: true,
     tags: ["BYOD", "端末整備", "私物端末"],
   },
@@ -204,7 +204,7 @@ export const ictTerms: Term[] = [
     summary:
       "従来の紙の教科書の内容をデジタル化し、パソコンやタブレット端末で閲覧できるようにした教材。2019年の学校教育法改正で法的に位置づけられ、2024年度から段階的に本格導入が進められている。",
     body: "デジタル教科書とは、紙の教科書と同一の内容を電磁的に記録し、パソコンやタブレット端末等の画面に表示して使用する教材のことです。児童生徒が学習に使う「学習者用デジタル教科書」と、教員が指導に使う「指導者用デジタル教科書」に大別されます。日本では2019年の学校教育法等の改正により、紙の教科書に代えて、またはこれと併用して使用できる教材として初めて法的に位置づけられました。\n\nデジタル教科書には、文字の拡大や音声読み上げ、背景色の変更などの機能があり、特別な配慮を必要とする児童生徒の学習を支援しやすいという特長があります。また、動画や音声の再生、ノートへの書き込みや保存が容易であることも、紙の教科書にはない利点として挙げられます。\n\n文部科学省は2021年度からの実証事業を経て、2024年度（令和6年度）から小学5年生から中学3年生を対象に英語の学習者用デジタル教科書を提供し、以後、算数・数学など他教科へも段階的に提供範囲を広げる方針を示しています。紙とデジタルをどのように併用するかについては、教科や発達段階に応じた多様な運用パターンが示されています。",
-    relatedSlugs: ["giga-school", "lms", "ichinin-ichidai", "digital-textbook-accessibility-functions", "teacher-digital-textbook-visual-lesson"],
+    relatedSlugs: ["giga-school", "lms", "ichinin-ichidai", "digital-textbook-accessibility-functions", "teacher-digital-textbook-visual-lesson", "ar-technology-three-dimensional-visualization"],
     isCanonical: true,
     tags: ["デジタル教科書", "学校教育法", "GIGAスクール"],
   },
@@ -217,7 +217,7 @@ export const ictTerms: Term[] = [
     summary:
       "文章や画像などを自動生成するAI技術を、学校教育でどう扱うかという論点。文部科学省は2023年7月に暫定的ガイドラインを公表し、2024年12月にはVer.2.0へと改訂している。",
     body: "生成AI（Generative AI）とは、文章、画像、音声、プログラムコードなどを自動的に作り出す人工知能技術の総称であり、対話型の大規模言語モデルの登場によって2022年頃から急速に社会へ普及しました。教育分野でも、授業準備や校務の効率化、児童生徒の学習支援への活用可能性が注目される一方、著作権やプライバシー、思考力への影響などをめぐる懸念も指摘されています。\n\n文部科学省は2023年7月に「初等中等教育段階における生成AIの利用に関する暫定的ガイドライン」を公表し、教員研修や校務での活用を進める一方、児童生徒の発達段階や情報活用能力を踏まえた慎重な取扱いを求めました。2024年12月には内容を見直した「利活用に関するガイドラインVer.2.0」を公表しています。\n\n学校現場では、レポートの安易な代筆への懸念に対応しつつ、生成AIを一律に禁止するのではなく、その特性を正しく理解し主体的に活用する力を育てる方向で、情報活用能力やデジタルリテラシーの育成と結び付けた指導のあり方が模索されています。",
-    relatedSlugs: ["digital-citizenship", "edtech", "kyoiku-dx"],
+    relatedSlugs: ["digital-citizenship", "edtech", "kyoiku-dx", "prompt-engineering-critical-inquiry-ai", "generative-ai-brainstorming-critical-revision", "ai-privacy-copyright-infringement-risks", "mext-generative-ai-guidelines-k12", "ai-automated-summarization-proofreading-tools"],
     isCanonical: true,
     tags: ["生成AI", "ガイドライン", "情報活用能力"],
   },
@@ -230,7 +230,7 @@ export const ictTerms: Term[] = [
     summary:
       "インターネットを介して教材の視聴や課題のやり取りを行う学習形態。新型コロナウイルス感染症の拡大を契機に、学校教育や生涯学習の場で急速に普及し、以後の教育のあり方に大きな影響を与えている。",
     body: "オンライン学習とは、インターネットを通じて教材の配信や授業の視聴、課題の提出、教員・学習者間のやり取りなどを行う学習形態の総称です。ビデオ会議システムを用いてリアルタイムで行う同期型と、あらかじめ録画された教材を学習者が都合の良い時間に視聴する非同期型に大別され、両者を組み合わせて運用する例も多く見られます。\n\n日本では、2020年の新型コロナウイルス感染症の拡大に伴う臨時休業を契機に、小中高等学校から大学に至るまでオンライン学習の導入が急速に進みました。GIGAスクール構想による一人一台端末の整備も、これを後押しする基盤となりました。大学のMOOCや企業のeラーニングなど、学校教育以外の生涯学習の場でも広く活用されています。\n\nオンライン学習は、時間や場所の制約を受けにくく、個々の学習ペースに合わせやすいという利点がある一方、対面でのコミュニケーションの不足や、家庭の通信環境の違いによって学習機会に差が生じうる点が課題として指摘されており、対面授業と組み合わせるハイブリッド型授業への関心も高まっています。",
-    relatedSlugs: ["enkaku-kyoiku", "hybrid-jugyo", "mooc"],
+    relatedSlugs: ["enkaku-kyoiku", "hybrid-jugyo", "mooc", "blended-learning-integrated-course-design", "international-online-cross-cultural-exchange", "expert-researcher-remote-guest-lectures", "educational-podcast-audio-content-listening", "online-collaborative-facilitation-skills"],
     isCanonical: true,
     tags: ["オンライン学習", "遠隔教育", "コロナ禍"],
   },
@@ -243,7 +243,7 @@ export const ictTerms: Term[] = [
     summary:
       "学習履歴や出欠、テスト結果など、教育活動を通じて日々生成される大量かつ多様なデータの総称。分析・活用により、指導改善や個別最適な学びの実現、教育施策の効果検証などが期待されている。",
     body: "教育ビッグデータとは、児童生徒の学習履歴（スタディログ）やテストの解答結果、出欠情報、健康診断データなど、学校教育の過程で日々生成される大量かつ多様なデータの総称です。従来は紙媒体で個別に管理されてきたこれらの情報が、ICT環境の整備によって電子的に蓄積・分析できるようになりました。1人1台端末の普及も、この動きを大きく後押ししています。\n\n文部科学省は教育データを「行政データ」「学校運営データ」「学習系データ」に分類するとともに、児童生徒や教員が主に利用する「スモールデータ」と、行政機関等が匿名化した上で二次利用する「ビッグデータ」とを区別して整理しています。データの形式や項目を統一する「教育データの標準化」も、施策を進めるうえでの重要な柱の一つとされています。\n\n教育ビッグデータの活用により、学習のつまずきの早期発見や個別最適な学びの提供、教育施策の効果検証などが期待される一方、データを分析するラーニングアナリティクスの手法の確立や、個人情報の適切な保護・管理をどう両立させるかが重要な課題となっています。",
-    relatedSlugs: ["learning-analytics", "lms", "kyoiku-dx"],
+    relatedSlugs: ["learning-analytics", "lms", "kyoiku-dx", "big-data-open-data-school-inquiry"],
     isCanonical: true,
     tags: ["教育ビッグデータ", "学習ログ", "教育データ"],
   },
@@ -256,7 +256,7 @@ export const ictTerms: Term[] = [
     summary:
       "児童生徒一人ひとりに学習用の情報端末を整備する取り組み。GIGAスクール構想によって整備計画が前倒しされ、2020年度以降、公立小中学校でほぼ全国的に実現した、日本の教育ICT政策の中核である。",
     body: "1人1台端末とは、児童生徒一人ひとりに学習用のパソコンやタブレット端末を整備し、日常的な授業の中で活用できるようにする取り組みを指します。特定の教科の授業だけでなく、各教科の学習や家庭学習の場面でも、端末を文房具のように日常的に使いこなすことが想定されています。\n\n日本では、2019年に文部科学省が打ち出したGIGAスクール構想のもとで整備が進められ、当初は2023年度までの段階的な整備を予定していましたが、新型コロナウイルス感染症の拡大を受けて計画が前倒しされ、2020年度中に多くの公立小中学校で1人1台端末環境がほぼ整いました。この整備は、それまで一部の授業に限られていたコンピュータの活用を、日々の学びの中で当たり前のものへと大きく変える転機となりました。\n\n整備後の課題としては、端末を配るだけでなく授業でいかに日常的・効果的に活用するかという「活用の質」が問われるようになっており、教員の指導力向上や、家庭への端末の持ち帰り運用、更新時期を見据えた次期整備のあり方などが、各自治体で継続的に議論されています。",
-    relatedSlugs: ["giga-school", "byod", "kobetsu-saiteki"],
+    relatedSlugs: ["giga-school", "byod", "kobetsu-saiteki", "screen-time-eye-strain-twenty-rule", "ergonomics-screen-posture-stretch-habits"],
     isCanonical: true,
     tags: ["1人1台端末", "GIGAスクール構想", "ICT環境"],
   },
@@ -269,7 +269,7 @@ export const ictTerms: Term[] = [
     summary:
       "学校や教育委員会が情報資産を適切に管理・保護するために策定する基本方針。文部科学省が2017年に策定したガイドラインを踏まえ、各自治体で個別のポリシーの策定・改訂が進められている。",
     body: "教育情報セキュリティポリシーとは、学校や教育委員会が保有する児童生徒の個人情報や成績情報などの情報資産を、不正アクセスや漏えい、紛失などから守るために定める基本方針・対策基準のことです。地方公共団体が定める情報セキュリティポリシーを、学校現場の実態に即してより具体化したものと位置づけられます。\n\n文部科学省は2017年10月に「教育情報セキュリティポリシーに関するガイドライン」を策定し、各教育委員会が自らのポリシーを策定・見直す際の参考として示しました。GIGAスクール構想によるクラウド活用の広がりなどを踏まえ、その後も内容の改訂が繰り返し重ねられ、2025年3月にも次世代の校務DX環境を見据えた改訂版が公表されています。\n\nガイドラインでは、情報資産を重要度に応じて分類し、アクセス制御や端末の持ち出しルール、事故発生時の対応手順などを定めることが求められており、1人1台端末環境やクラウドサービスの活用が進む中で、利便性と安全性を両立させる運用のあり方が、全国の学校現場に共通する課題となっています。",
-    relatedSlugs: ["giga-school", "joho-katsuyo-noryoku", "digital-citizenship"],
+    relatedSlugs: ["giga-school", "joho-katsuyo-noryoku", "digital-citizenship", "digital-liaison-notebook-parent-app", "malware-ransomware-infection-defense", "public-wifi-security-risks-vpn-guidance", "zero-trust-architecture-educational-network", "digital-cumulative-record-data-transfer"],
     isCanonical: true,
     tags: ["情報セキュリティ", "ガイドライン", "個人情報保護"],
   },
@@ -295,7 +295,7 @@ export const ictTerms: Term[] = [
     summary:
       "対面授業とオンライン授業を組み合わせて実施する授業形態のこと。教室にいる学習者と遠隔の学習者が同じ授業に同時参加するハイフレックス型など、いくつかの実施方法に分けられる授業形態である。",
     body: "ハイブリッド型授業とは、教室での対面授業と、インターネットを介したオンライン授業とを組み合わせて実施する授業形態の総称です。新型コロナウイルス感染症の拡大以降、感染対策と学びの継続を両立させる方法として、大学を中心に急速に広まり、社会全体に定着していきました。\n\n実施方法は大きく2つに分けられます。一つは、対面授業とオンライン授業を曜日や回ごとに使い分ける「ブレンド型」、もう一つは、教室にいる学習者と遠隔から参加する学習者が同じ授業に同時に参加する「ハイフレックス型」です。後者では、教室の様子をカメラとマイクで配信し、双方の学習者が同時にやり取りできるようにする工夫が求められます。\n\nハイブリッド型授業は、通学が難しい学習者にも学びの機会を提供できる一方、教室内の学習者と遠隔の学習者との間で参加の質に差が生じやすいことや、教員に対面とオンラインの双方への配慮が同時に求められる負担の大きさが課題として指摘されています。感染症の収束後も、多様な学習者の学びを支える手法の一つとして活用が続いています。",
-    relatedSlugs: ["enkaku-kyoiku", "online-learning", "flipped-classroom"],
+    relatedSlugs: ["enkaku-kyoiku", "online-learning", "flipped-classroom", "online-collaborative-facilitation-skills", "hyflex-learning-flexible-attendance-design"],
     isCanonical: true,
     diagram: {
       type: "columns",
@@ -342,7 +342,7 @@ export const ictTerms: Term[] = [
     summary:
       "パソコンやインターネットなどのデジタル技術を利用できる人とできない人との間に生じる格差。情報格差とも訳され、教育を受ける機会や学習成果の格差にもつながりうる問題として注目されている。",
     body: "デジタルデバイド（digital divide）とは、パソコンやスマートフォン、インターネットなどのデジタル技術に接する機会や、それらを使いこなす能力の有無によって生じる、経済的・社会的な格差のことです。日本語では「情報格差」とも訳されます。\n\nデジタルデバイドは、国家間の格差である「国際間デバイド」、都市部と地方の格差である「地域間デバイド」、個人や世帯間の格差である「個人・集団間デバイド」など、複数の異なる層で生じるとされています。教育の文脈では、家庭の経済状況や居住地域によって端末や通信環境の整備状況に差があると、ICTを活用した学習の機会にも格差が生じかねない点が問題視されています。\n\nGIGAスクール構想は、公立小中学校において1人1台端末を一律に整備することで、学校内でのデジタルデバイドの解消を図る施策の一つとして位置づけられますが、家庭に端末を持ち帰った際の通信環境の違いなど、学校外での格差は依然として重要な課題として残されており、家庭の文化資本の格差とも関連づけて論じられています。",
-    relatedSlugs: ["giga-school", "kyoiku-kakusa", "bunka-shihon"],
+    relatedSlugs: ["giga-school", "kyoiku-kakusa", "bunka-shihon", "screen-time-digital-divide-habits", "cellular-model-lte-five-g-subsidy-equity"],
     isCanonical: true,
     tags: ["デジタルデバイド", "情報格差", "教育格差"],
   },
@@ -355,7 +355,7 @@ export const ictTerms: Term[] = [
     summary:
       "学習者一人ひとりの理解度や解答状況をデータとして蓄積・分析し、それぞれに最適な教材や学習順序を自動的に提示する学習方法。個別最適な学びを実現する具体的な技術の一つとして注目されている。",
     body: "アダプティブラーニング（Adaptive Learning、適応学習）とは、学習者一人ひとりの理解度や解答の正誤、学習の進み具合といったデータを蓄積・分析し、それぞれの状況に応じて最適な教材や問題、学習の順序を自動的に選択・提示していく学習方法のことです。\n\n従来の一斉授業やeラーニングでは、学習者全員が同じ内容を同じ順序で学ぶことが一般的でしたが、実際には一人ひとりの理解度やつまずきやすい箇所はそれぞれ異なります。アダプティブラーニングは、AIドリルなどのシステムを通じてこうした個人差に柔軟に対応し、効率的・効果的な学習を実現しようとするものです。\n\n文部科学省は2018年6月に公表した「Society 5.0に向けた人材育成」の中で、取り組むべき課題の一つとしてアダプティブラーニングの推進を挙げており、個別最適な学びを実現するための具体的な手立ての一つとして位置づけられています。教育ビッグデータやラーニングアナリティクスの発展と密接に結び付いた概念であり、今後もさらなる普及が見込まれています。",
-    relatedSlugs: ["kobetsu-saiteki", "learning-analytics", "lms", "learning-log-personalized-optimal-learning"],
+    relatedSlugs: ["kobetsu-saiteki", "learning-analytics", "lms", "learning-log-personalized-optimal-learning", "adaptive-learning-drill-ai-questioning"],
     isCanonical: true,
     tags: ["アダプティブラーニング", "個別最適化", "AIドリル"],
   },
@@ -368,7 +368,7 @@ export const ictTerms: Term[] = [
     summary:
       "大学レベルの講義をインターネット上で誰でも無料で受講できるようにしたオンライン講座。2012年頃にアメリカで登場し、日本でも2013年に設立されたJMOOCが普及を推進する取り組みを続けている。",
     body: "MOOC（Massive Open Online Courses、大規模公開オンライン講座）とは、大学等が提供する講義を、インターネットを通じて誰でも原則無料で受講できるようにしたオンライン講座のことです。2012年頃にアメリカの大学発のプラットフォームが相次いで登場したことをきっかけに、世界的に大きな注目を集めるようになりました。\n\n日本では、2013年に一般社団法人日本オープンオンライン教育推進協議会（JMOOC）が設立され、MOOCの普及・拡大を推進しています。JMOOCは複数の配信プラットフォームをまとめるポータルとしての役割を担っており、代表的な配信プラットフォームの一つとして、2014年に開設された「gacco」が挙げられます。\n\nMOOCは、大学教育の門戸を広く社会に開く手段として、生涯学習やリカレント教育の場でも積極的に活用されています。修了証の発行や、大学の正規科目としての単位認定に活用する事例もあり、オンライン学習が広がる中で高等教育のあり方にも一定の影響を与え続けています。",
-    relatedSlugs: ["online-learning", "shogai-gakushu", "edtech"],
+    relatedSlugs: ["online-learning", "shogai-gakushu", "edtech", "oer"],
     isCanonical: true,
     tags: ["MOOC", "JMOOC", "生涯学習"],
   },
@@ -381,7 +381,7 @@ export const ictTerms: Term[] = [
     summary:
       "コンピュータやインターネットなどのデジタル技術を適切に理解し、活用する能力のこと。情報を主体的に読み解き、発信する力も含む、現代の情報社会を生きるうえで不可欠な資質・能力とされている。",
     body: "デジタルリテラシーとは、コンピュータやスマートフォン、インターネットなどのデジタル技術や情報を、正しく理解し、目的に応じて適切に活用する能力のことです。単に機器の操作方法を知っているだけでなく、得られた情報を批判的に読み解き、自ら情報を発信する力も含む、幅広い概念として用いられ、社会人にも広く求められる基礎的な能力とされています。\n\n情報社会の進展に伴い、デジタルリテラシーは読み・書き・計算に並ぶ、現代の基礎的な資質・能力の一つと位置づけられるようになってきています。学校教育では、学習指導要領に示された「情報活用能力」の育成が、デジタルリテラシーを培う取り組みの中核をなしており、プログラミング教育や情報教育の内容とも密接に関連しています。\n\n生成AIをはじめとする新しい技術が急速に普及する中で、情報の真偽を見極める力や、著作権・プライバシーへの配慮といった情報モラルの側面も、デジタルリテラシーを構成する重要な要素として、これまで以上に強く重視されるようになってきており、学校教育全体での指導が求められています。",
-    relatedSlugs: ["digital-citizenship", "joho-katsuyo-noryoku", "joho-moral"],
+    relatedSlugs: ["digital-citizenship", "joho-katsuyo-noryoku", "joho-moral", "digital-storytelling-media-expression", "digital-native", "international-online-cross-cultural-exchange", "information-design-visualization-structure", "prompt-engineering-critical-inquiry-ai"],
     isCanonical: true,
     tags: ["デジタルリテラシー", "情報活用能力", "情報モラル"],
   },
@@ -394,7 +394,7 @@ export const ictTerms: Term[] = [
     summary:
       "情報社会において適正に活動するための考え方や態度を育てる教育のこと。学習指導要領において「情報モラル」は、情報活用能力を構成するもっとも重要な要素の一つとして、明確に位置づけられている。",
     body: "情報モラル教育とは、児童生徒が情報社会において適正な活動を行うために必要な考え方や態度を身につけるための教育のことです。学習指導要領では、情報モラルを「情報社会で適正な活動を行うための基になる考え方と態度」と定義しており、情報活用能力を構成する重要な要素の一つとして、明確に位置づけています。\n\n具体的な指導内容としては、情報発信が他者に与える影響を考え、人権や知的財産権など自他の権利を尊重すること、トラブルや犯罪に巻き込まれる危険を回避し情報を安全かつ適切に利用すること、長時間利用による健康への影響を理解することなどが挙げられます。SNS上のトラブルやネット依存の予防といった、現代的な課題への対応も重要な指導の柱の一つです。\n\nインターネットやSNSの利用が低年齢化する中で、情報モラル教育は特定の教科だけでなく、学校教育全体を通じて、児童生徒の発達段階に応じて系統的に行うことが強く求められています。文部科学省は「情報モラル教育ポータルサイト」等を通じて、全国の指導事例や教材の普及を継続的に図っています。",
-    relatedSlugs: ["digital-citizenship", "net-izon", "joho-kyoiku"],
+    relatedSlugs: ["digital-citizenship", "net-izon", "joho-kyoiku", "digital-citizenship-online-moral-etiquette", "ai-ethics-human-dignity-education", "device-take-home-learning-rules", "mext-generative-ai-guidelines-k12", "deepfake-synthetic-media-critical-evaluation"],
     isCanonical: true,
     exam: true,
     tags: ["情報モラル", "学習指導要領", "情報活用能力"],
@@ -408,7 +408,7 @@ export const ictTerms: Term[] = [
     summary:
       "インターネットの利用時間や使い方を自分でコントロールできなくなり、学業や日常生活に支障をきたす状態のこと。青少年の間で疑いのある割合が高いことが、国内の各種調査で繰り返し示されている。",
     body: "ネット依存（インターネット依存）とは、インターネットの利用時間や使い方を自分の意思でコントロールすることが難しくなり、学業や日々の生活、心身の健康などに支障をきたしている状態のことを指します。オンラインゲームやSNS、動画視聴などへの過度の没入が、その背景にあるケースが多く指摘されています。\n\n厚生労働省による調査（2018年公表）では、ネット依存が疑われる中高生が全国で推計約93万人にものぼるとされました。その後の調査でも、小学生・中学生・高校生のいずれにおいても一定の割合でネット依存が疑われる状況が報告されており、スマートフォンの急速な普及とともに、その低年齢化も強く懸念されています。\n\n学校現場では、情報モラル教育の一環として、家庭と密接に連携しながら利用時間のルールづくりを支援したり、スクールカウンセラーなどの専門職と連携して相談体制を整えたりする取り組みが進められています。1人1台端末の日常的な活用が広がる中で、健康面への配慮と学習効果の両立が、これまで以上に重要な課題となっています。",
-    relatedSlugs: ["joho-moral", "digital-citizenship", "seito-shido", "gaming-disorder-internet-addiction-consultation"],
+    relatedSlugs: ["joho-moral", "digital-citizenship", "seito-shido", "gaming-disorder-internet-addiction-consultation", "esports-kyoiku", "nighttime-screen-restriction-sleep-hygiene", "parental-controls-family-digital-rules"],
     isCanonical: true,
     tags: ["ネット依存", "インターネット依存", "青少年"],
   },
@@ -447,7 +447,7 @@ export const ictTerms: Term[] = [
     summary:
       "出欠管理・成績処理・指導要録の作成といった多様な校務を一つのシステムで一元管理し、教員の業務負担の軽減を図る仕組みです。",
     body: "統合型校務支援システムとは、出欠管理、成績処理、通知表・指導要録の作成、保健関係業務など、教員が行うさまざまな校務を一つのシステムで一元的に処理できるようにした情報システムです。文部科学省は「統合型校務支援システムの導入のための手引き」を作成し、全国の学校への導入を推進してきました。\n\n従来は業務ごとに別々のソフトや紙の帳票で処理していたため、二重入力や転記ミスが生じやすく、教員の長時間労働の一因ともされていました。統合型システムの導入により、データを一度入力すれば複数の帳票に自動反映されるなど、業務の効率化と正確性の向上が期待されています。\n\n近年は自治体ごとに異なる帳票様式やシステム仕様がクラウド化・広域連携の妨げになっているとの指摘を受け、文部科学省は帳票の標準化やフルクラウド型システムへの移行を進める方針を示しています。働き方改革と校務DXを支える基盤として、今後も普及と機能の高度化が進むと見込まれています。",
-    relatedSlugs: ["kyoiku-dx", "shusseki-teishi"],
+    relatedSlugs: ["kyoiku-dx", "shusseki-teishi", "school-affairs-learning-network-integration", "digital-cumulative-record-data-transfer"],
     isCanonical: true,
     tags: ["校務DX", "働き方改革", "システム"],
   },
@@ -460,7 +460,7 @@ export const ictTerms: Term[] = [
     summary:
       "仮想現実・拡張現実の技術を用いることで、教室では実現しにくい疑似体験や立体的な理解を授業に取り入れていくための学習方法です。",
     body: "VR（仮想現実）・AR（拡張現実）教育活用とは、ヘッドマウントディスプレイやタブレット端末を用いて、現実には難しい体験や観察を仮想空間・拡張空間で行わせる学習方法です。歴史的建造物の内部見学、宇宙や人体内部の探検、危険が伴う実験のシミュレーションなど、教室では実現しづらい学びを可能にします。\n\nVRは没入型の仮想空間を提供し、実際にその場にいるような感覚で学習できる点が特徴です。一方ARは現実の風景に情報や3Dモデルを重ねて表示するため、教科書や実物と組み合わせた学習に向いています。理科や社会科、職業体験、防災教育など幅広い分野での活用事例が報告されています。\n\n課題としては、機材コストや教員の操作研修の必要性、長時間利用による映像酔いや視力への影響への配慮が挙げられます。GIGAスクール構想で整備された端末を活用しつつ、体験の質と学習効果を両立させる授業設計が求められています。",
-    relatedSlugs: ["giga-school", "metaverse-kyoiku", "digital-textbook"],
+    relatedSlugs: ["giga-school", "metaverse-kyoiku", "digital-textbook", "virtual-field-trip-social-studies-enrichment", "vr-headset-safety-experiment-simulation", "ar-technology-three-dimensional-visualization"],
     isCanonical: true,
     tags: ["VR", "AR", "体験学習"],
   },
@@ -525,7 +525,7 @@ export const ictTerms: Term[] = [
     summary:
       "視覚・聴覚・発達など、多様な特性を持つ子どもたちが等しく利用できるように配慮して設計されたデジタル教材のあり方のことです。",
     body: "デジタル教材のユニバーサルデザインとは、視覚・聴覚・発達など多様な特性を持つ子どもたちが、特別な調整なしにできる限り等しく学習内容にアクセスできるよう配慮して設計されたデジタル教材のあり方を指します。文字の拡大・音声読み上げ、色覚特性に配慮した配色、ルビ表示、動画への字幕付与などがその具体例です。\n\n背景には、学習指導要領における特別支援教育の充実や、インクルーシブ教育の推進があります。デジタル教科書は紙の教科書と異なり、文字サイズや背景色を児童生徒ごとに調整できるなど、個々のニーズに応じたカスタマイズがしやすいという利点があります。\n\n一方で、全ての教材やアプリがこうした配慮を備えているわけではなく、開発段階からアクセシビリティを組み込む設計思想（アクセシブルデザイン）の普及が課題です。誰一人取り残さない学びの実現に向け、教材選定時の重要な観点となっています。",
-    relatedSlugs: ["digital-textbook", "ud-jugyo", "inclusive-education", "user-interface-accessibility-principles"],
+    relatedSlugs: ["digital-textbook", "ud-jugyo", "inclusive-education", "user-interface-accessibility-principles", "school-website-accessibility-standards", "educational-podcast-audio-content-listening"],
     isCanonical: true,
     tags: ["ユニバーサルデザイン", "アクセシビリティ", "デジタル教科書"],
   },
@@ -538,7 +538,7 @@ export const ictTerms: Term[] = [
     summary:
       "ロボットの製作とプログラムによる動作制御の体験を通じて、工学的な思考力や問題解決力を育んでいくための教育活動のことです。",
     body: "ロボティクス教育とは、教育用ロボットキットやセンサー、モーターなどを組み合わせてロボットを製作し、プログラムによって動作を制御する体験を通じて、工学的な知識や論理的思考力、問題解決力を育む教育活動です。ものづくりの楽しさと情報技術への理解を同時に深められる点が特徴です。\n\n授業では、ライントレースカーやロボットアームの製作、センサーを用いた自動制御プログラムの作成などが行われ、試行錯誤を繰り返しながら課題を解決する過程が重視されます。中学校技術・家庭科の「計測・制御」領域や、部活動・ロボットコンテストなどを通じて実践されることが多くあります。\n\nSTEAM教育の一環として位置づけられることも多く、数学や物理の知識を実際の動作に結びつけて学べる利点があります。一方で、機材の導入コストや指導できる教員の確保が課題とされ、企業や大学との連携による人材育成や教材提供の支援も進められています。",
-    relatedSlugs: ["steam-education", "programming-education", "data-science-kyoiku"],
+    relatedSlugs: ["steam-education", "programming-education", "data-science-kyoiku", "educational-robotics-hands-on-programming", "microbit-sensor-control-hands-on-learning", "physical-computing-iot-education-classroom"],
     isCanonical: true,
     tags: ["ロボティクス", "STEAM教育", "ものづくり"],
   },
@@ -551,7 +551,7 @@ export const ictTerms: Term[] = [
     summary:
       "データの収集・分析・活用を通じて課題解決力を育む教育のことで、高校情報科や大学の数理・AI教育とも密接に連動しています。",
     body: "データサイエンス教育とは、統計学や情報科学の知識を用いてデータを収集・分析し、そこから意味のある知見を導き出して課題解決に活かす力を育成する教育を指します。高等学校情報科「情報I」「情報II」ではデータの活用が主要な学習内容の一つとなっており、大学でも「数理・データサイエンス・AI教育プログラム」が全国的に整備されています。\n\n具体的には、表計算ソフトやプログラミング言語（Pythonなど）を用いたデータの整理・可視化、統計的な分析手法の学習、実社会の課題をデータに基づいて考察する探究活動などが行われます。単なる計算技能ではなく、データを批判的に読み解くリテラシーの育成が重視されます。\n\n社会のあらゆる分野でデータ活用が進む中、文系・理系を問わず必要な素養として位置づけられており、初等中等教育段階からの系統的な指導と、指導できる教員の育成、教材整備が今後の課題となっています。",
-    relatedSlugs: ["steam-education", "learning-analytics", "society50", "education-big-data", "giga-school"],
+    relatedSlugs: ["steam-education", "learning-analytics", "society50", "education-big-data", "giga-school", "text-based-programming-language-transition", "ppdac-cycle-statistical-inquiry-process", "spreadsheet-software-simulation-lessons"],
     isCanonical: true,
     tags: ["データサイエンス", "統計", "情報科", "データ収集", "データ可視化", "探究活動"],
   },
@@ -564,7 +564,7 @@ export const ictTerms: Term[] = [
     summary:
       "パスワード管理や不正アクセスへの対策など、情報端末やネットワークを安全に利用するための知識と態度を育んでいくための教育です。",
     body: "サイバーセキュリティ教育とは、パスワード管理やウイルス対策、個人情報の取り扱い、不正アクセスやフィッシング詐欺への対処など、情報端末やネットワークを安全に利用するための知識と態度を育む教育です。GIGAスクール構想により児童生徒が日常的に端末やインターネットを使うようになったことを背景に、その重要性が高まっています。\n\n学校現場では、情報モラル教育の一部として、あるいは高等学校情報科の内容として、実際の事例を基にした演習やロールプレイングが取り入れられています。加えて、学校が管理する成績情報や個人情報を保護するための、教職員向けの情報セキュリティポリシー整備も並行して求められています。\n\n学校教育情報化推進法でも児童生徒の個人情報保護とサイバーセキュリティの確保が基本理念に掲げられており、技術的な対策だけでなく、利用者一人ひとりの意識と行動を育てる教育の両輪が重要とされています。",
-    relatedSlugs: ["joho-moral", "joho-security-policy", "kyoiku-joho-ka-suishin-ho"],
+    relatedSlugs: ["joho-moral", "joho-security-policy", "kyoiku-joho-ka-suishin-ho", "online-privacy-location-data-management", "phishing-one-click-fraud-prevention", "malware-ransomware-infection-defense", "official-school-social-media-guidelines"],
     isCanonical: true,
     tags: ["情報セキュリティ", "情報モラル", "GIGAスクール"],
   },
@@ -577,7 +577,7 @@ export const ictTerms: Term[] = [
     summary:
       "虚偽情報や意図的に発信される偽情報を見抜き、情報源を批判的に検証していくファクトチェックの力を育てるための新しい教育です。",
     body: "フェイクニュース・ディスインフォメーション教育とは、インターネットやSNS上に流通する虚偽情報（フェイクニュース）や、意図的に発信される偽情報（ディスインフォメーション）を見抜き、情報の出所や根拠を批判的に検証する力を育成する教育です。生成AIの普及により、精巧な偽画像・偽動画（ディープフェイク）の作成が容易になったことで、その重要性が一層高まっています。\n\n授業では、実際のニュース記事やSNS投稿を教材に、発信元の信頼性の確認方法、複数情報源の比較、画像検索による出典確認などのファクトチェックの手法を学ぶ活動が行われます。単に情報を疑うだけでなく、正確な情報にたどり着く具体的な手立てを身につけることが目標です。\n\nメディアリテラシー教育や情報モラル教育と重なる領域ですが、生成AI時代特有の偽情報リスクに焦点を当てる点が特徴です。主権者教育や社会科とも連携し、民主主義社会を支える市民としての情報活用能力の育成が期待されています。",
-    relatedSlugs: ["joho-moral", "generative-ai-education", "citizenship-education"],
+    relatedSlugs: ["joho-moral", "generative-ai-education", "citizenship-education", "stealth-marketing-online-ad-awareness"],
     isCanonical: true,
     tags: ["メディアリテラシー", "フェイクニュース", "生成AI"],
   },
@@ -616,7 +616,7 @@ export const ictTerms: Term[] = [
     summary:
       "Google WorkspaceやMicrosoft 365など、教育機関向けに提供されているクラウド型の学習・業務基盤を活用する取り組みです。",
     body: "学校向けクラウドサービスとは、Google Workspace for EducationやMicrosoft 365 Educationのように、教育機関向けに提供される文書作成・共同編集・オンライン会議・データ保存などの機能をまとめたクラウド基盤を指します。GIGAスクール構想による1人1台端末の整備に伴い、多くの自治体・学校で導入が進みました。\n\nクラウドサービスを活用することで、児童生徒は端末やアプリのバージョンに縛られずどこからでも同じ環境で作業でき、共同編集機能を使ったグループでの資料作成や、オンラインでの課題配布・提出が容易になります。教員にとっても、授業資料や成績関連データを一元管理しやすくなる利点があります。\n\n一方で、自治体ごとに異なるサービスを採用していることによる互換性の低さ、個人情報を含むデータを海外事業者のサーバーに保存することへのセキュリティ・プライバシー上の懸念、通信環境の格差による利用機会の不均衡などが課題として指摘されています。",
-    relatedSlugs: ["giga-school", "lms", "joho-security-policy"],
+    relatedSlugs: ["giga-school", "lms", "joho-security-policy", "cloud-collaborative-learning-realtime", "thinking-tools-cloud-based-usage", "online-sticky-notes-brainstorming", "collaborative-presentation-slides-co-creation", "online-polling-realtime-survey-classroom"],
     isCanonical: true,
     tags: ["クラウド", "GIGAスクール", "共同編集"],
   },
@@ -681,7 +681,7 @@ export const ictTerms: Term[] = [
     summary:
       "2024年度以降、初期に整備された1人1台端末の更新やネットワーク改善を進める、GIGAスクール構想の次の段階を指す通称。",
     body: "GIGAスクール構想第2期(通称「NEXT GIGA」)とは、2019年度に開始された当初のGIGAスクール構想で整備された1人1台端末が更新時期を迎えることを踏まえ、令和6(2024)年度から令和10(2028)年度にかけて端末の計画的な更新や学校ネットワークの改善を進める段階を指す。文部科学省は令和5年度補正予算で「GIGAスクール構想の推進~1人1台端末の着実な更新~」に約2,661億円を計上し、端末更新1台あたりの補助上限額を55,000円に引き上げた。\n\n第2期では、単なる端末の買い替えにとどまらず、通信速度低下や接続不安定といった第1期で顕在化したネットワーク課題への対応が重視されている。文部科学省は「学校のネットワーク改善ガイドブック」などを示し、校内LANの増強やクラウド活用を前提とした通信環境の見直しを自治体に促している。また、次期の調達では、生成AIの活用や個別最適な学びの実現を見据え、より高性能な端末やソフトウェアの選定基準についても検討が進められている。\n\n一方で、端末更新の予算措置は限定的であり、自治体の財政状況によって更新のタイミングや端末の仕様にばらつきが生じることが懸念されている。中央教育審議会の関連部会では、2026年度末を大きな節目と位置づけ、持続可能な更新の仕組みづくりが議論されている。",
-    relatedSlugs: ["giga-school", "digital-divide", "byod", "kyoiku-dx"],
+    relatedSlugs: ["giga-school", "digital-divide", "byod", "kyoiku-dx", "teacher-ict-competency-professional-development", "device-damage-loss-warranty-spare-management", "cellular-model-lte-five-g-subsidy-equity", "joint-procurement-education-cloud-scale"],
     isCanonical: true,
     tags: ["GIGAスクール構想", "NEXT GIGA", "端末更新"],
   },
@@ -720,7 +720,7 @@ export const ictTerms: Term[] = [
     summary:
       "コンピュータを使わずにカードや身体活動でプログラミングの考え方を学ぶ指導法。低年齢の児童や機器が限られる環境でも実践できる。",
     body: "アンプラグド・プログラミング教育とは、パソコンやタブレットなどのコンピュータ機器を使用せずに、カードゲームやボードゲーム、身体を動かす活動などを通じてプログラミング的な考え方(順次・分岐・繰り返しなどのアルゴリズムの基礎)を体験的に学ぶ指導法である。ニュージーランドの研究者らが開発した「Computer Science Unplugged」の取り組みが国際的な原型として知られ、日本でも小学校のプログラミング教育の導入段階でしばしば活用される。\n\n具体的には、児童同士が指示カードを組み合わせてロボット役の友達を目的地まで誘導する活動や、日常動作(顔を洗う、朝食を食べるなど)を手順に分解して並べ替える活動などがあり、機器の操作スキルに依存せずに論理的思考の基礎を養える点が特徴である。ICT環境が十分に整っていない学校や、低学年など機器操作に慣れていない発達段階の児童生徒にも導入しやすく、GIGAスクール構想以前から実践例が蓄積されてきた。\n\n一方で、アンプラグドの活動だけでは、実際にプログラムを作成し動かす体験や、コンピュータならではの試行錯誤(デバッグ)の経験を得ることは難しい。そのため、多くの実践ではアンプラグド活動を導入・動機づけの段階に位置づけ、その後、実際のプログラミングツールを用いた活動へと発展させる段階的な指導計画が推奨されている。",
-    relatedSlugs: ["programming-education", "computational-thinking", "coding-programming-chigai", "unplugged-computer-science-education"],
+    relatedSlugs: ["programming-education", "computational-thinking", "coding-programming-chigai", "unplugged-computer-science-education", "visual-programming-scratch-foundations", "algorithm-basics-sequence-branch-loop"],
     isCanonical: true,
     tags: ["アンプラグド", "プログラミング教育", "アルゴリズム"],
   },
@@ -772,7 +772,7 @@ export const ictTerms: Term[] = [
     summary:
       "情報セキュリティの観点から学校の校務用ネットワークと学習用ネットワークを分けて運用する方式。近年は統合に向けた見直しが進む。",
     body: "校務系・学習系ネットワーク分離とは、成績や個人情報など機密性の高いデータを扱う校務系ネットワークと、児童生徒が日常的に使用する学習系ネットワークを物理的・論理的に分離して運用する方式である。個人情報の漏えいや不正アクセスを防ぐ目的で、文部科学省の「教育情報セキュリティポリシーに関するガイドライン」等を踏まえ、多くの自治体で導入されてきた。2022年9月時点の調査では、全体の7割以上の学校がこの2層分離を実施し、8割以上が校務用と教育用で端末を使い分けている実態が明らかになっている。\n\nしかし、ネットワークの分離は教員が校務用と学習用の端末を頻繁に使い分ける必要を生み、業務効率を下げる要因ともなってきた。クラウドサービスの活用が前提となる中で、文部科学省は2023年3月に示した「GIGAスクール構想の下での校務DXについて」において、境界防御型のセキュリティ対策から、利用者ごとにアクセス権限を細かく制御する「ゼロトラスト」を前提とした考え方への転換を打ち出し、校務系と学習系のネットワークを安全に連携・統合する方向性を示した。\n\nこの見直しにより、教員は1台の端末で校務と授業準備の両方を行えるようになることが期待される一方、統合には強固な認証基盤やアクセス制御の仕組みが不可欠であり、自治体の技術力や予算による対応力の差が課題となっている。実証研究事業などを通じて得られた知見をもとに、全国的な普及に向けたガイドラインの整備が進められている。",
-    relatedSlugs: ["komu-shien-system", "joho-security-policy", "kyoiku-dx", "kojin-joho-hogo-gakko", "school-info-security-policy-network-separation"],
+    relatedSlugs: ["komu-shien-system", "joho-security-policy", "kyoiku-dx", "kojin-joho-hogo-gakko", "school-info-security-policy-network-separation", "zero-trust-architecture-educational-network", "high-speed-school-lan-maintenance-standards"],
     isCanonical: true,
     tags: ["ネットワーク分離", "情報セキュリティ", "校務DX", "ゼロトラスト"],
   },
@@ -798,7 +798,7 @@ export const ictTerms: Term[] = [
     summary:
       "タブレット等で反復問題演習を行い、正誤に応じて自動採点・難易度調整するデジタル教材。個別最適な学びを支える代表的なツール。",
     body: "デジタルドリルとは、タブレット端末やパソコン上で計算問題や漢字問題などの反復演習を行うデジタル教材であり、解答すると即座に自動採点され、正誤の傾向に応じて出題内容や難易度が調整される機能を備えるものが多い。紙のドリルと異なり、解答履歴がデータとして蓄積されるため、教員は個々の児童生徒のつまずきをリアルタイムに把握でき、個別の補充指導に活用しやすい点が特徴である。\n\n多くのデジタルドリルはアダプティブラーニングの技術を取り入れており、正答率が低い単元を優先的に出題したり、習得度に応じて先の単元へ進めたりする設計になっている。GIGAスクール構想による1人1台端末の整備を背景に、多くの自治体・学校が民間事業者の提供するデジタルドリルを導入しており、家庭学習と授業内学習の双方で活用されている。\n\n一方で、デジタルドリルは基礎的な知識・技能の定着には有効とされる一方、思考力・判断力・表現力の育成には別途、記述式の課題や協働的な学習活動を組み合わせる必要があるとされる。また、学習履歴データの管理主体や、卒業・進級時のデータの引き継ぎ方法、事業者間でのデータ形式の違いなども実務上の課題として指摘されている。",
-    relatedSlugs: ["adaptive-learning", "ai-jido-saiten", "learning-analytics", "study-log"],
+    relatedSlugs: ["adaptive-learning", "ai-jido-saiten", "learning-analytics", "study-log", "adaptive-learning-drill-ai-questioning"],
     isCanonical: true,
     tags: ["デジタルドリル", "アダプティブラーニング", "個別最適な学び"],
   },
@@ -863,7 +863,7 @@ export const ictTerms: Term[] = [
     summary:
       "児童生徒や教職員のSNS利用に関して学校・教育委員会が定める指針。トラブル予防と適切な情報発信の両立を目的とする。",
     body: "学校のSNS利用ガイドラインとは、児童生徒や教職員がSNS(交流サイト)を利用する際の心構えやルール、学校としての公式アカウント運用の方針などを定めた指針である。多くの教育委員会や学校が、いじめ・誹謗中傷・個人情報の流出・なりすましといったトラブルを未然に防ぐことを目的として策定しており、情報モラル教育やデジタルシティズンシップ教育の一環として位置づけられている。\n\nガイドラインには、児童生徒向けとして、個人情報や他者の写真を無断で投稿しないこと、知らない相手とやり取りする際の注意点、投稿内容が半永久的に残る可能性(デジタルタトゥー)についての注意喚起などが盛り込まれることが多い。あわせて、教職員に対しては、私的なSNSアカウントでの児童生徒に関する情報発信を禁止・制限する規定や、学校公式アカウントの運用担当者・承認フローを定める規定が設けられる場合が多い。\n\n近年は、学校からの情報発信手段としてSNSを積極的に活用する動きも進んでおり、災害時の緊急連絡や学校行事の広報にSNSを用いる例も増えている。そのため、リスク回避の観点だけでなく、適切かつ効果的な情報発信を行うための運用ルールとしての側面も強まっており、ガイドラインは定期的な見直しが必要とされている。",
-    relatedSlugs: ["joho-moral", "digital-citizenship", "digital-tattoo", "net-ijime"],
+    relatedSlugs: ["joho-moral", "digital-citizenship", "digital-tattoo", "net-ijime", "official-school-social-media-guidelines"],
     isCanonical: true,
     tags: ["SNS", "情報モラル", "ガイドライン"],
   },
@@ -889,7 +889,7 @@ export const ictTerms: Term[] = [
     summary:
       "GIGAスクール環境を前提に、校務系・学習系ネットワークの統合やクラウド型校務支援システムの導入を進め、教職員の負担軽減と教育データの活用を図る文部科学省の方針。",
     body: "次世代の校務DXとは、1人1台端末とクラウドを前提とした学校の校務の再設計を指す。文部科学省の「GIGAスクール構想の下での校務の情報化に関する専門家会議」が2023年3月にまとめた提言（「GIGAスクール構想の下での校務DXについて」）が出発点とされ、従来の閉じたネットワーク内での校務処理から、場所を選ばず安全にアクセスできる環境への転換が打ち出された。\n\n方向性の柱は、校務系ネットワークと学習系ネットワークの統合、ゼロトラストの考え方に基づくアクセス制御によるセキュリティ確保、パブリッククラウド上での校務支援システムの運用、そしてダッシュボード等によるデータの可視化である。出欠や健康観察のデータを一元的に扱うことで、教職員の入力作業の削減や、児童生徒の変化の早期把握につなげることがねらいとされる。\n\n国は2025年3月に「次世代校務DXガイドブック」を示し、都道府県域全体での取組や、現在の環境でもできる業務の見直し・汎用クラウドツールの活用を促している。移行の時期や進め方は自治体ごとに異なり、既存の統合型校務支援システムの更新時期と合わせて段階的に進める例が多い。詳細な要件は文部科学省の最新資料で確認する必要がある。",
-    relatedSlugs: ["komu-gakushu-network-bunri", "tougou-komu-shien-system", "kyoiku-dx", "joho-security-policy"],
+    relatedSlugs: ["komu-gakushu-network-bunri", "tougou-komu-shien-system", "kyoiku-dx", "joho-security-policy", "school-affairs-learning-network-integration", "software-license-management-school-wide", "open-school-digital-transformation-future"],
     isCanonical: true,
     tags: ["校務DX", "クラウド", "働き方改革"],
   },
@@ -941,7 +941,7 @@ export const ictTerms: Term[] = [
     summary:
       "メディアが構成する情報を批判的・多面的に読み解き、自らも適切に表現・発信する力、およびそれを育てる教育。フェイクニュース時代に重要性が増している。",
     body: "メディア・リテラシーとは、新聞・テレビ・インターネットなどのメディアを通じて伝えられる情報が、送り手の意図や制作過程を経て構成されたものであることを理解し、批判的、多面的に受け止める力を指す。さらに、自らメディアを使って表現し発信する能力も含めて捉えられることが多い。公教育への導入では、カナダのオンタリオ州が1987年にガイドラインを公布したことが先駆的とされる。\n\n日本では1990年代から2000年にかけて、旧文部省や総務省などを中心に情報教育・情報活用の議論の中で扱われ、現在は学習指導要領が学習の基盤となる資質・能力に位置づける「情報活用能力」の一部として実践されている。国語、社会、情報などの教科や、特別活動、総合的な学習（探究）の時間で、広告・ニュースの読み解きや、情報発信の演習が行われる。\n\n近年はSNSのアルゴリズムによる情報の偏り、フェイクニュース、生成AIによる偽情報の拡散が課題となり、情報の真偽を確かめる習慣（複数の情報源の比較、一次情報の確認）を育てる学習が重視される。ただし、定義や範囲は論者や文書により幅があるため、使われる文脈を確認することが大切である。",
-    relatedSlugs: ["disinformation-kyoiku", "digital-literacy", "joho-katsuyo-noryoku", "filter-bubble-echo-chamber", "media-literacy-critical-thinking-creators"],
+    relatedSlugs: ["disinformation-kyoiku", "digital-literacy", "joho-katsuyo-noryoku", "filter-bubble-echo-chamber", "media-literacy-critical-thinking-creators", "information-design-visualization-structure", "stealth-marketing-online-ad-awareness", "phishing-one-click-fraud-prevention"],
     isCanonical: true,
     tags: ["情報活用能力", "批判的思考", "フェイクニュース"],
   },
@@ -967,7 +967,7 @@ export const ictTerms: Term[] = [
     summary:
       "1人1台端末を家庭に持ち帰って学習や臨時休業時の学びの継続に使うこと。通信環境の格差や費用、管理が主な課題とされる。",
     body: "GIGAスクール構想で配備された学習用端末を、平常時から家庭に持ち帰って活用する取組である。文部科学省は2022年3月の通知などで、平常時から持ち帰った端末で自宅学習を行うことは、家庭学習の質を充実させ、臨時休業等の非常時にも学びを円滑に継続できる点で有効だとの考え方を示した。\n\n同省の調査（2022年1月末時点）では、公立の小中学校等の95.2%が持ち帰りの準備を済ませたと回答し、通信環境が整わない家庭への対応としてモバイルルーター等の貸出を行う学校が多かった。一方で、貸出しても通信費の負担が難しい家庭があること、端末の破損・紛失、充電、保護者の理解、家庭での使い方のルール作りなどが課題とされる。\n\n持ち帰りの運用では、健康面への配慮（利用時間や就寝前の使用）、フィルタリングと端末管理、故障時の対応などを学校と保護者が共通理解することが求められる。この調査は準備状況であり、実際の実施率や最新状況は各自治体や文部科学省の公表資料を確認する必要がある。",
-    relatedSlugs: ["giga-school", "digital-divide", "tanmatsu-kenko-hairyo", "mdm-filtering-tanmatsu-kanri"],
+    relatedSlugs: ["giga-school", "digital-divide", "tanmatsu-kenko-hairyo", "mdm-filtering-tanmatsu-kanri", "device-take-home-learning-rules"],
     isCanonical: true,
     tags: ["家庭学習", "1人1台端末", "通信環境"],
   },
@@ -980,7 +980,7 @@ export const ictTerms: Term[] = [
     summary:
       "学校のICT運用を組織的・広域的に支えるため、ヘルプデスクやネットワーク調査、ICT支援人材の育成などを担う支援体制。国が整備費を補助した。",
     body: "GIGAスクール運営支援センターは、1人1台端末環境の安定的な運用を、学校や個人の頑張りに頼るのではなく、組織的かつ広域的に支援するための仕組みである。文部科学省は令和4年度に新規事業としてこの整備を打ち出し、その要求額は64億円とされた。従来の「人」中心の支援から「組織」中心の広域支援体制への発展を掲げている。\n\n主な機能は、ヘルプデスクの開設、学校ネットワークの調査と応急対応、ICT支援員など支援人材の育成・確保、休日や長期休業中のトラブル対応などである。実施形態には、都道府県などの中核的自治体が域内の市町村と連携して行う「連携実施型」と、自治体が単独で行う「単独実施型」があり、原則は連携型とされた。\n\n補助割合は年度を追って段階的に引き下げられる設計だったとされ、事業の継続は各自治体の財源に委ねられていく。京都府のように共通の運営支援センター体制を構築し、希望する市町と個別に契約する例や、複数年の業務委託で運営する例が見られる。補助の条件や最新の状況は、文部科学省の公表資料で確認する必要がある。",
-    relatedSlugs: ["giga-school", "ict-shien-in", "giga-school-supporter", "giga-school-dai2ki", "giga-operation-support-center-cooperation"],
+    relatedSlugs: ["giga-school", "ict-shien-in", "giga-school-supporter", "giga-school-dai2ki", "giga-operation-support-center-cooperation", "device-damage-loss-warranty-spare-management"],
     isCanonical: true,
     tags: ["GIGAスクール", "ICT支援", "ヘルプデスク"],
   },
@@ -993,7 +993,7 @@ export const ictTerms: Term[] = [
     summary:
       "文部科学省が示した、学校での生成AI活用の留意点。2023年7月の暫定版を経て、2024年12月にVer.2.0へ改訂され、人間中心の活用が基本とされた。",
     body: "文部科学省は、生成AIの急速な普及を受け、2023年7月に「初等中等教育段階における生成AIの利活用に関する暫定的なガイドライン」を公表した。その後、国内外の動向や学校現場での検証を踏まえて改訂が行われ、2024年12月26日にVer.2.0が示された。主な読み手は教職員や教育委員会など学校教育関係者である。\n\n改訂版の基本的な考え方は、「人間中心の生成AIの利活用」と「生成AIの存在を踏まえた情報活用能力の育成強化」である。校務では、教職員が仕組みや特徴を理解し、生成内容の適切性を判断できる範囲で積極的に活用することが有用とされる。一方、児童生徒の学習活動では、発達段階や情報活用能力の育成状況に十分配慮し、リスクへの対策を講じたうえで検討すべきとされる。\n\n共通の留意点として、情報セキュリティ、個人情報・プライバシー、著作権の保護、透明性の確保、公平性などが挙げられる。ガイドラインは今後も更新されうるため、最新版の内容は文部科学省の公表ページで確認する必要がある。",
-    relatedSlugs: ["generative-ai-education", "ai-literacy-kyoiku", "ai-rinri-kyoiku", "chosakuken-kyoiku"],
+    relatedSlugs: ["generative-ai-education", "ai-literacy-kyoiku", "ai-rinri-kyoiku", "chosakuken-kyoiku", "generative-ai-brainstorming-critical-revision"],
     isCanonical: true,
     tags: ["生成AI", "ガイドライン", "文部科学省"],
   },
@@ -1006,7 +1006,7 @@ export const ictTerms: Term[] = [
     summary:
       "1人1台端末の使用に伴う視力・姿勢・睡眠への影響を防ぐための配慮。文部科学省は児童生徒用・保護者用の啓発リーフレットを作成している。",
     body: "1人1台端末の日常的な活用により、長時間の画面視聴による視力への影響、姿勢の悪化、就寝前の使用による睡眠の質の低下などが懸念されている。そのため文部科学省は、端末利用時の健康面への配慮を示した啓発リーフレットを、児童生徒用と保護者用に分けて作成している。\n\n児童生徒用では、姿勢を正すこと、30分に一度は目を休めること、寝る前は使わないことなどを「約束」の形で示している。保護者用では、画面から30cm以上離す、机と椅子の高さを成長に合わせる、30分に1回は20秒以上遠くを見る、部屋の明るさに合わせて画面の明るさを調整する、といった具体的な目安が挙げられている。日本眼科医会の見解を踏まえた留意点（画面の角度、映り込み、教室の明るさなど）も整理されている。\n\n学校では、授業での利用時間の設計、紙や板書との使い分け、持ち帰り時のルール作りとあわせて、養護教諭や学校医と連携しながら取り組むことが求められる。また、2022年3月の通知などで、学校と保護者が端末利用の安全・安心について共通理解を持つことが求められた。詳細な目安は最新の公表資料を参照されたい。",
-    relatedSlugs: ["giga-school", "tanmatsu-mochikaeri", "net-izon", "joho-moral"],
+    relatedSlugs: ["giga-school", "tanmatsu-mochikaeri", "net-izon", "joho-moral", "distracted-walking-smartphone-etiquette", "screen-time-eye-strain-twenty-rule", "ergonomics-screen-posture-stretch-habits", "nighttime-screen-restriction-sleep-hygiene"],
     isCanonical: true,
     tags: ["健康", "視力", "1人1台端末"],
   },
@@ -1019,7 +1019,7 @@ export const ictTerms: Term[] = [
     summary:
       "1人1台端末で児童生徒が日々の心身の状態を入力し、教員が変化を早期に把握して支援につなげる取組。不登校・いじめ・自殺の予防が目的の一つ。",
     body: "心の健康観察とは、児童生徒が端末から自分の気分や体調を簡単に入力し、教職員がその変化を把握して早期の声かけや支援につなげる取組である。文部科学省は、不登校やいじめ、自殺の増加を背景に、1人1台端末等を活用した心の健康観察を全国の学校で実施することを目指す方針を示している。\n\n従来の教員の観察や本人の訴えに頼る方法では、すでにいじめ・不登校・自傷などの問題として表面化してから把握される場合も多いという指摘がある。ICTを使えば、日常の小さな変化を継続的に記録でき、教育相談や面談のきっかけにしやすい。2024年2月には、自殺対策に関連して健康観察・教育相談のシステムの一覧が示され、導入の積極的検討が求められたとされる。また、学校のICT環境整備の3か年計画（2025〜2027年度）では、心や体調の変化を早期に発見するツールの整備経費について地方財政措置が講じられている。\n\nただし、入力結果の数値だけで判断せず、必ず面談や観察と組み合わせること、個人情報の保護、入力への心理的抵抗への配慮が不可欠である。アプリ導入後に相談件数が増えた自治体の報告もあるが、因果関係までは検証されておらず、効果は慎重に見る必要がある。",
-    relatedSlugs: ["kyoiku-sodan", "jisatsu-yobo-kyoiku", "futoko", "jisedai-komu-dx"],
+    relatedSlugs: ["kyoiku-sodan", "jisatsu-yobo-kyoiku", "futoko", "jisedai-komu-dx", "diversity-learning-schools-ict-support"],
     isCanonical: true,
     tags: ["健康観察", "早期発見", "不登校・自殺予防"],
   },
@@ -1071,7 +1071,7 @@ export const ictTerms: Term[] = [
     summary:
       "障害や困難による学習上の障壁を、音声読み上げや文字拡大などの技術で軽減する考え方。読み書き困難のある児童生徒への合理的配慮として活用される。",
     body: "支援技術（アシスティブ・テクノロジー、AT）とは、障害や困難のある人の活動や参加を支える技術全般を指す。教育では、読み書きに困難のある児童生徒に対する音声読み上げ、文字サイズや行間の調整、音声入力、拡大表示などが典型例である。1人1台端末の普及で、特別な機器でなく標準機能として使える場面が増えた。\n\n文部科学省の委託研究では、縦書き・横書き、字間・行間、文字サイズを一人ひとりの特性に合わせて調整できるデジタル教材が有効であることが示され、読み書きに困難のある児童生徒向けに音声教材（茨城大学の「BEAM」など）が無償で提供されている。学習者用デジタル教科書も、文字や図形の拡大、音声読み上げなどの機能により個々の状態に応じた対応を可能にする。東京学芸大学附属小金井小学校の実践では、デジタル教科書とアプリによる合理的配慮で音読時間の改善などがみられた。\n\n導入では、本人・保護者との合意形成を通じた合理的配慮として位置づけることが基本となる。また、通常の学級に取り入れる際は、学習障害以外の児童生徒への影響も考慮する必要があるとされる。テスト時の時間延長や問題文の読み上げ等との組み合わせも検討される。",
-    relatedSlugs: ["goriteki-hairyo", "dyslexia", "digital-kyozai-ud", "aac", "digital-textbook-accessibility-functions"],
+    relatedSlugs: ["goriteki-hairyo", "dyslexia", "digital-kyozai-ud", "aac", "digital-textbook-accessibility-functions", "special-needs-assistive-tech-input-devices"],
     isCanonical: true,
     tags: ["支援技術", "読み書き困難", "合理的配慮"],
   },
@@ -1136,7 +1136,7 @@ export const ictTerms: Term[] = [
     summary:
       "生成AIや画像加工アプリで実在の児童生徒の画像を性的な偽画像に加工する被害・加害。学校内の人間関係で起きる例も多く、予防教育と迅速な対応が課題。",
     body: "性的ディープフェイクとは、生成AIや画像加工アプリを使い、実在する人物の顔写真などを性的な画像・動画に加工したものを指す。児童生徒が被害者にも加害者にもなりうる点が深刻で、文部科学省は2026年3月に、被害・加害を防ぐための広報啓発資料の周知を教育委員会等に依頼する事務連絡を出したとされる。学校行事の写真や卒業アルバムの画像が素材として悪用される懸念も指摘されている。\n\n警察庁等の発表を引く自治体資料によれば、令和7年1月から9月に全国の警察が把握した、生成AI等を悪用した児童の性的画像の作成事案は約80件で、被害児童の約8割が中高生、小学生の被害もあり、事案の約半数は学校内の人間関係の中で行われたとされる。集計期間や基準により数字は異なるため、単純な比較には注意が必要である。\n\n学校の対応としては、被害の訴えがあった際の本人の安全確保と心理的ケア、画像の削除要請、警察・関係機関との連携、加害側への指導が必要である。予防面では、生成AIの倫理や情報モラルの授業に加え、自分や他人の画像を軽い気持ちで公開・加工しない意識、学校としての画像公開のルール整備が求められる。具体的な対応は最新の通知や警察等の資料を確認する必要がある。",
-    relatedSlugs: ["generative-ai-education", "ai-rinri-kyoiku", "net-ijime", "sns-riyo-guideline-gakko"],
+    relatedSlugs: ["generative-ai-education", "ai-rinri-kyoiku", "net-ijime", "sns-riyo-guideline-gakko", "deepfake-synthetic-media-critical-evaluation"],
     isCanonical: true,
     tags: ["ディープフェイク", "生成AI", "情報モラル"],
   },
@@ -1240,7 +1240,7 @@ export const ictTerms: Term[] = [
     summary:
       "著作権者が自らの作品に再利用条件を明示する国際的ライセンスの仕組みを理解し、学校教育における自由な教材利用や児童生徒の情報発信に役立てる学習。",
     body: "クリエイティブ・コモンズ・ライセンスの理解とは、著作者が自らの著作物について、表示、非営利、改変禁止、継承などの条件を明示し、一定範囲での自由利用を許諾する国際的枠組みを学ぶ教育活動である。インターネット社会における開かれた知の共有と著作権保護の調和を目的とする。\n\n教育現場では、教員が授業用プリントやスライドを作成する際、ライセンス表示のある画像や音源、教材データを正しく検索・利用する手順を実践する。また探究学習において、児童生徒が自ら作成した研究成果物や動画に適切なライセンスを付与してウェブ上で公開する実習を行う。\n\nこの理解を深めることは、単なる規則の遵守にとどまらず、他者の知的創作物を尊重しつつ新たな価値を創造するデジタル市民性の育成につながる。開かれた情報空間において自律的かつ倫理的に協働・発信できる資質・能力を育む基礎となる。",
-    relatedSlugs: ["chosakuken-kyoiku", "joho-moral", "digital-literacy", "open-course-ware"],
+    relatedSlugs: ["chosakuken-kyoiku", "joho-moral", "digital-literacy", "open-course-ware", "oer"],
     isCanonical: true,
     tags: ["利用許諾", "著作権教育", "情報発信", "二次利用"],
   },
@@ -1864,7 +1864,7 @@ export const ictTerms: Term[] = [
     summary:
       "クラウドサービス利用時の不正アクセスを防ぐため、強固なパスワード設定と多要素認証を適切に運用してアカウントの安全を守る指導。",
     body: "パスワード管理と多要素認証による安全確保とは、学習アカウントや校務システムへの不正アクセスを遮断するための基盤的セキュリティ教育である。文部科学省の指針等でも、一人一台端末やクラウド環境の普及に伴い、認証情報の厳格な管理が最重要課題に挙げられている。\n\n学校現場では、他人に推測されにくい十分な文字数の組み合わせによるパスワード設定や、使い回しの禁止を児童生徒に具体的に指導する。教職員の校務システム利用においては、認証名とパスワードに加え、使い捨ての認証番号や生体認証を組み合わせた多要素認証を必須として運用する。\n\nアカウントの保護が自らや仲間の個人情報を守る責任であることを理解することは、協働的なクラウド利用を安全に推進する前提となる。情報セキュリティ意識を日常的な行動規範として定着させることで、個別最適な学びを支える強固な安全基盤が確立される。",
-    relatedSlugs: ["joho-security-policy", "cyber-security-kyoiku", "giga-school"],
+    relatedSlugs: ["joho-security-policy", "cyber-security-kyoiku", "giga-school", "digital-worksheet-distribution-collection"],
     isCanonical: true,
     tags: ["パスワード管理", "多要素認証", "情報セキュリティ", "安全確保"],
   },

@@ -40,6 +40,8 @@ function score(orphan, ref) {
   const why = []
   if (linker.mentionedBy.get(orphan.slug)?.has(ref.slug)) { s += 3; why.push('本文で言及') }
   if (linker.mentionedBy.get(ref.slug)?.has(orphan.slug)) { s += 2; why.push('孤立語側が言及') }
+  // 孤立語自身が関連語として挙げている語からは、戻りのリンクを張るのが自然(相互リンク)
+  if (orphan.relatedSlugs.includes(ref.slug)) { s += 4; why.push('相互リンク') }
   const shared = orphan.tags.filter((g) => ref.tags.includes(g) && (tagFreq.get(g) ?? 99) <= 10)
   if (shared.length) { s += Math.min(2, shared.length) * 2; why.push(`共通タグ:${shared.slice(0, 2).join('・')}`) }
   if (orphan.categories[0] === ref.categories[0]) { s += 1; why.push('同分野') }

@@ -10,7 +10,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "PISA好成績で注目された、平等性と教師の専門性を重視する北欧の学校制度です。",
     body: "フィンランドの教育制度は、7歳就学、9年間の総合基礎学校(ペルスコウル)、無償の給食・教材、能力別選抜をほぼ行わない仕組みを特徴とし、2000年代のPISA調査で高順位を記録して世界的に注目されました。\n\n教員は全員修士号を持つ専門職として社会的地位が高く、国が定める大枠のナショナルコアカリキュラムのもとで、学校や教師に大きな裁量が与えられています。標準テストや競争的な学校選択がほとんどなく、地域間格差が小さいことも特徴です。\n\n日本では、教員の高度専門性の確立や、過度な競争を抑えた学習環境づくりの参考事例として、フィンランドの制度がしばしば比較教育学の文脈で取り上げられます。",
-    relatedSlugs: ["pisa", "jenaplan", "folkehojskole", "peruskoulu-finland"],
+    relatedSlugs: ["pisa", "jenaplan", "folkehojskole", "peruskoulu-finland", "iceland-egalitarian-school-system"],
     isCanonical: true,
     tags: ["北欧教育", "学力調査", "教員専門性"],
   },
@@ -23,7 +23,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "スイスの財団が運営する国際教育プログラムで、修了により世界共通の大学入学資格が得られます。",
     body: "国際バカロレア(IB)は1968年にジュネーブの国際バカロレア機構(IBO)が創設した国際教育プログラムです。幼児期から高校段階までPYP・MYP・DP・CPの4段階があり、DP(ディプロマ・プログラム)修了者は世界の大学への出願資格を得られます。\n\n探究型学習や批判的思考、複数言語での学習、課題論文(EE)や知の理論(TOK)の履修などを通じて、特定の国の教育課程に縛られない汎用的な資質・能力の育成を重視しています。世界150以上の国・地域の学校で導入されています。\n\n日本では文部科学省が2013年以降IB認定校の拡大を政策目標に掲げ、探究的な学習や思考力評価の充実を図るモデルとして国内教育改革にも影響を与えています。",
-    relatedSlugs: ["tankyu-gakushu", "international-school", "kikokushijo-kyoiku", "concept-based-curriculum-instruction", "super-global-daigaku", "ib-career-related-programme-cp-framework", "ib-middle-years-programme"],
+    relatedSlugs: ["tankyu-gakushu", "international-school", "kikokushijo-kyoiku", "concept-based-curriculum-instruction", "super-global-daigaku", "ib-career-related-programme-cp-framework", "ib-middle-years-programme", "ireland-primary-secondary-school-system"],
     isCanonical: true,
     tags: ["国際教育プログラム", "大学入学資格", "国際バカロレア", "中核要素", "知の理論"],
   },
@@ -36,7 +36,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "教育・科学・文化の国際協力を担う国連専門機関で、識字やSDG4推進の中核を担います。",
     body: "UNESCO(国連教育科学文化機関)は1945年設立の国連専門機関で、パリに本部を置き、平和の構築を教育・科学・文化・情報の協力を通じて図ることを目的としています。教育分野では加盟国の教育政策支援や国際統計整備を担っています。\n\n1990年のジョムティエン会議以降、EFA(万人のための教育)運動を主導し、現在はSDG4「質の高い教育をみんなに」の達成を統括する国連機関として、識字率向上や教員の質保証、教育データの国際比較を推進しています。\n\n日本はUNESCO創設初期からの加盟国であり、ユネスコスクールやESD(持続可能な開発のための教育)の推進を通じて、国内の学校教育にもUNESCOの理念が取り入れられています。",
-    relatedSlugs: ["efa-education-for-all", "sdg4", "world-bank-education"],
+    relatedSlugs: ["efa-education-for-all", "sdg4", "world-bank-education", "isced", "indonesia-madrasah-islamic-education-system", "india-sarva-shiksha-abhiyan-universal", "bangladesh-brac-non-formal-primary-schools", "south-africa-post-apartheid-curriculum-reforms"],
     isCanonical: true,
     tags: ["国際機関", "教育協力"],
   },
@@ -49,7 +49,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1990年に始まった、すべての人に基礎教育を保障することを目指す国際的な運動です。",
     body: "EFA(万人のための教育)は、1990年にタイのジョムティエンで開催された「万人のための教育世界会議」を契機に始まった国際的な教育運動です。すべての子どもと成人が基礎教育を受けられるようにすることを共通目標としました。\n\n2000年のダカール行動枠組みでは、初等教育の完全普及、成人識字率の向上、教育におけるジェンダー格差の解消など6つの目標が設定され、UNESCOが調整機関としてEFAグローバルモニタリングレポートを毎年公表しました。\n\nEFAの目標は2015年のミレニアム開発目標(MDGs)と並行して進められ、その後継としてSDG4に発展的に引き継がれており、途上国の教育開発政策の基盤となっています。",
-    relatedSlugs: ["sdg4", "unesco-education", "literacy-education-developing", "jomtien-declaration"],
+    relatedSlugs: ["sdg4", "unesco-education", "literacy-education-developing", "jomtien-declaration", "african-union-continental-education-strategy"],
     isCanonical: true,
     tags: ["国際開発", "基礎教育"],
   },
@@ -62,7 +62,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "国連の持続可能な開発目標のうち教育を扱う目標で、包摂的で公平な質の高い教育を掲げます。",
     body: "SDG4は2015年に国連総会で採択された持続可能な開発目標(SDGs)17分野の一つで、「すべての人々への包摂的かつ公平な質の高い教育を提供し、生涯学習の機会を促進する」ことを目標としています。2030年までの達成が掲げられています。\n\n初等・中等教育の完全修了、就学前教育の普及、技術的・職業的スキルを持つ若者・成人の増加、教育におけるジェンダー格差やあらゆる格差の解消など10のターゲットから構成され、UNESCOが進捗の国際的なモニタリングを担っています。\n\nEFA運動の理念を引き継ぎつつ、質・公平性・生涯学習を強調する点が特徴で、日本のODAや学校教育政策においても国際協力の指針として位置づけられています。",
-    relatedSlugs: ["efa-education-for-all", "unesco-education", "world-bank-education"],
+    relatedSlugs: ["efa-education-for-all", "unesco-education", "world-bank-education", "conditional-cash-transfers-education", "low-cost-private-schools-lcps"],
     isCanonical: true,
     tags: ["SDGs", "国際開発目標"],
   },
@@ -75,7 +75,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "欧州各国の高等教育の学位・単位制度を共通化し、学生流動性を高める政策枠組みです。",
     body: "ボローニャ・プロセスは1999年にイタリアのボローニャで29か国の教育担当大臣が署名した宣言を起点とする欧州の高等教育改革の枠組みです。学士・修士・博士の3段階学位制度を各国で共通化することを目指しました。\n\nECTS(欧州単位互換制度)による単位の共通化、学位の質保証システムの整備、学生・教員の国境を越えた流動性向上などを柱とし、現在は欧州49か国が参加する「欧州高等教育圏(EHEA)」を形成しています。\n\nこの枠組みはエラスムス計画による学生交流を制度的に支える基盤となっており、単位互換や学位の国際通用性という点で、日本の大学の国際化政策にも影響を与えています。",
-    relatedSlugs: ["erasmus-programme"],
+    relatedSlugs: ["erasmus-programme", "isced", "inspe-france-teacher-education", "early-school-leaving-eu"],
     isCanonical: true,
     tags: ["欧州高等教育", "単位互換"],
   },
@@ -88,7 +88,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "中国全土で毎年6月に実施される、一発勝負の統一大学入学試験制度です。",
     body: "高考(ガオカオ)は中国で1952年に始まった全国統一大学入学試験で、文化大革命期に一時中断した後1977年に復活しました。毎年6月に全国一斉に実施され、その得点によりほぼ進学先大学が決まる極めて競争的な制度です。\n\n試験科目は語文(国語)・数学・外国語に加え、文系・理系や地域の制度により社会・理科科目が組み合わされ、戸籍地ごとに定員や難易度が異なる「戸籍制限」の存在も特徴とされています。近年は総合的資質評価を加える改革も進んでいます。\n\n高考は学歴社会における一発勝負の選抜として日本の大学入試とも比較され、受験競争の激しさや地域間格差の議論において東アジアの教育社会学研究で頻繁に取り上げられます。",
-    relatedSlugs: ["suneung", "gakureki-shakai", "hensachi"],
+    relatedSlugs: ["suneung", "gakureki-shakai", "hensachi", "minban-education-china"],
     isCanonical: true,
     tags: ["大学入試", "中国教育"],
   },
@@ -114,7 +114,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "公的資金を受けながら民間や地域団体が運営する、米国発の自律的な公立学校制度です。",
     body: "チャータースクールは1991年にミネソタ州で最初の法律が成立して以降、米国各州に広がった学校形態で、州や学区と「チャーター(認可契約)」を結び、公費で運営されながらカリキュラムや人事の面で伝統的な公立学校より大きな自律性を持ちます。\n\n保護者・教員・NPOなどが設立主体となることが多く、認可には一定の学力目標達成が条件とされ、目標未達の場合は認可取り消しもあり得る点で、成果責任(アカウンタビリティ)を重視する仕組みです。学校選択制の一形態として位置づけられます。\n\n公設民営型学校の代表例として、日本における学校選択制や公私連携型学校のあり方を検討する際の比較対象として取り上げられることが多い制度です。",
-    relatedSlugs: ["common-core", "gakko-sentakusei"],
+    relatedSlugs: ["common-core", "gakko-sentakusei", "community-college-usa", "chile-voucher-reform-inclusion-law", "usa-magnet-schools-racial-integration", "usa-homeschooling-legal-framework-support", "school-choice-school-district-international", "school-based-management-sbm"],
     isCanonical: true,
     tags: ["アメリカ教育", "学校選択制"],
   },
@@ -127,7 +127,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "米国の州が共同策定した国語・数学の共通学習到達基準で、州ごとの学力格差是正を狙いました。",
     body: "コモンコア・ステート・スタンダード(CCSS)は、米国の各州知事協会と州教育長協議会が中心となり2010年に策定した国語(英語)と数学の共通学習到達基準です。連邦制の米国では伝統的に教育課程の権限が州にありましたが、州間の学力格差是正のために共同策定されました。\n\n各学年で到達すべき読解力・記述力・数的処理能力などを明確化し、批判的思考力や実生活での応用力の育成を重視した点が特徴です。多くの州が採用しましたが、連邦による教育統制への懸念から一部州は撤回・修正しています。\n\n教育課程の全国的な共通化と地方分権のバランスという論点は、日本の学習指導要領のあり方を考える上でも比較対象として参照されます。",
-    relatedSlugs: ["charter-school", "gakushu-shido-yoryo"],
+    relatedSlugs: ["charter-school", "gakushu-shido-yoryo", "community-college-usa"],
     isCanonical: true,
     tags: ["アメリカ教育", "学習到達基準"],
   },
@@ -140,7 +140,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "英国の中等教育修了資格試験GCSEと、大学進学の指標となるAレベル試験の制度です。",
     body: "GCSE(中等教育修了一般資格)は、イングランド・ウェールズ・北アイルランドで16歳前後に受験する科目別の統一試験で、1988年に導入されました。合格した科目ごとに成績等級が与えられ、義務教育修了の基本資格となります。\n\nGCSE修了後、大学進学を希望する生徒はシックスフォーム(高校上級課程)でAレベル(GCE Advanced Level)を通常3科目程度履修し、その成績が大学入学選抜の中心的な指標として用いられます。科目選択制のため生徒ごとに専門性の高い履修が可能です。\n\n義務教育後の分岐と早期の専門科目選択という点で、日本の高校・大学接続とは対照的な制度であり、比較教育学における進路分岐時期の違いを示す代表例とされます。",
-    relatedSlugs: ["baccalaureat", "koko-sotsugyo-teido-nintei-shiken"],
+    relatedSlugs: ["baccalaureat", "koko-sotsugyo-teido-nintei-shiken", "ncea-new-zealand"],
     isCanonical: true,
     tags: ["イギリス教育", "大学入試"],
   },
@@ -153,7 +153,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "企業実習と職業学校の学習を組み合わせたドイツ発の職業教育・訓練制度です。",
     body: "デュアルシステム(二元制職業教育訓練)は、ドイツで長く発達してきた職業教育の仕組みで、生徒が企業に見習い(アズビ)として雇用されながら実地訓練を受けると同時に、週に数日は職業学校(ベルーフスシューレ)で理論を学ぶ形態です。\n\n300以上の認定職種ごとに国が定める訓練規則に基づき、企業・商工会議所・職業学校が協力して人材育成を行い、修了後は国家資格に相当する資格を取得できます。若年失業率の低さに寄与する制度として国際的に評価されています。\n\n学校教育と職業実践を早期から結びつける仕組みとして、日本の専門高校教育やインターンシップ制度の充実を考える上での比較事例とされています。",
-    relatedSlugs: ["career-education", "shikaku-shogai-kyoiku", "germany-berufsschule-dual-vocational-system"],
+    relatedSlugs: ["career-education", "shikaku-shogai-kyoiku", "germany-berufsschule-dual-vocational-system", "kerschensteiner-koumin-kyoiku"],
     isCanonical: true,
     tags: ["ドイツ教育", "職業教育"],
   },
@@ -166,7 +166,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フランスの中等教育修了資格試験で、合格すれば原則として大学入学資格が得られます。",
     body: "バカロレア(通称バック)は、フランスで1808年に制度化された全国統一の中等教育修了資格試験です。高校最終学年の生徒が受験し、合格すると原則として希望する大学(グランゼコール準備級を除く)への入学資格を得られる点が特徴です。\n\n哲学の論述試験が重視されることで知られ、一般バカロレア・技術バカロレア・職業バカロレアの3系統に分かれます。2021年の改革で、一般バカロレアは従来の文系・理系などのコース制を廃止し、生徒が専門科目を選択する方式に変更されました。\n\n中等教育修了と大学入学資格を一体化した試験は、国際バカロレア(IB)の名称の由来ともなっており、資格試験型の高大接続の代表例として比較教育学で言及されます。",
-    relatedSlugs: ["ib-baccalaureate", "gcse-a-level"],
+    relatedSlugs: ["ib-baccalaureate", "gcse-a-level", "ncea-new-zealand", "socle-commun-france"],
     isCanonical: true,
     tags: ["フランス教育", "大学入学資格"],
   },
@@ -179,7 +179,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "小中学校段階で学力別コースに分けるシンガポール独自の能力別編成制度です。",
     body: "シンガポールでは小学校卒業時のPSLE(小学校卒業試験)や中学段階の試験結果に基づき、生徒を学力レベル別のコースに振り分ける「ストリーミング」制度が長年運用されてきました。国際的な学力調査でも常に上位に位置する教育制度の中核的仕組みです。\n\n多民族・多言語国家である特性から、英語と母語(中国語・マレー語・タミル語など)のバイリンガル教育を国是とし、能力別編成により個々の生徒に適した進度で学習を進めることを重視してきましたが、早期選別による格差固定への批判もあり、近年は科目別バンディング制へ移行が進んでいます。\n\n能力別教育の効果と課題を検証する上で世界的に注目される事例であり、日本における習熟度別指導のあり方を考える比較対象としても参照されます。",
-    relatedSlugs: ["tracking", "pisa"],
+    relatedSlugs: ["tracking", "pisa", "singapore-full-subject-based-banding", "national-institute-of-education-singapore", "gakko-gun-seido"],
     isCanonical: true,
     tags: ["シンガポール教育", "能力別編成"],
   },
@@ -192,7 +192,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "異年齢学級と対話・遊び・仕事・催しの4活動を柱とする、ドイツ発オランダで発展した教育モデルです。",
     body: "イエナプラン教育は、1920年代にドイツのイエナ大学のペーター・ペーターゼンが提唱した学校モデルで、その後オランダで独自に発展し、現在は主にオランダで広く実践されている教育理念です。異年齢の子どもを同じ「ファミリーグループ」に編成する点が大きな特徴です。\n\n対話・遊び・仕事(学習)・催し(儀式的行事)の4つの基本活動を教育活動の柱とし、子どもが自ら計画を立てて学ぶブロックアワーなど、子ども中心の協同的な学びを重視します。教師は一斉授業よりも個や小集団への支援に重点を置きます。\n\n日本でも2019年に長野県軽井沢町にイエナプラン教育を掲げる私立小学校が開校するなど、異年齢学級や個別最適な学びのモデルとして注目が高まっています。",
-    relatedSlugs: ["montessori", "kobetsu-saiteki"],
+    relatedSlugs: ["montessori", "kobetsu-saiteki", "jena-plan-multi-age-stammgruppe"],
     isCanonical: true,
     tags: ["オランダ教育", "異年齢学級"],
   },
@@ -231,7 +231,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "読み書き能力の獲得を通じて貧困削減や社会参画を促す、途上国支援の中心的分野です。",
     body: "識字教育は、文字の読み書きや基本的な計算能力を身につけるための教育で、開発途上国における教育開発の最重要分野の一つとされてきました。UNESCOの推計では現在も世界で数億人の成人非識字者が存在し、その多くが女性や農村部の住民です。\n\n学校に通えなかった成人や女子を対象とするノンフォーマル教育(成人識字教室)や、機能的識字(生活・労働に活用できる識字)の考え方が重視され、EFA運動やSDG4の中でも識字率向上が重要指標とされています。\n\n識字率は国の教育発展度を測る基礎指標であり、JICAやユニセフなどの国際協力機関が途上国で識字教育プログラムを支援する際の中心的な取り組みの一つとなっています。",
-    relatedSlugs: ["efa-education-for-all", "jica-education-cooperation", "unicef-education"],
+    relatedSlugs: ["efa-education-for-all", "jica-education-cooperation", "unicef-education", "african-union-continental-education-strategy"],
     isCanonical: true,
     tags: ["識字教育", "途上国支援"],
   },
@@ -244,7 +244,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "日本の政府開発援助を実施する機関が行う、途上国の学校建設や授業改善などの教育支援です。",
     body: "国際協力機構(JICA)は、日本の政府開発援助(ODA)を一元的に実施する機関で、教育分野では途上国の基礎教育の質向上、理数科教育の改善、教員研修、学校運営の強化などを支援しています。\n\n代表的な取り組みとして、地域住民が学校運営に参加する「みんなの学校プロジェクト」(西アフリカ諸国)や、日本の授業研究(レッスンスタディ)の手法を用いた理数科教員研修などがあり、日本発の教育モデルを現地の実情に合わせて応用しています。\n\nJICAの教育協力はSDG4の達成に向けた日本の国際貢献の柱であり、援助する側とされる側の双方向の学び合いという観点からも比較教育学の重要な研究対象となっています。",
-    relatedSlugs: ["sdg4", "lesson-study", "unicef-education"],
+    relatedSlugs: ["sdg4", "lesson-study", "unicef-education", "seameo-regional-education-centre-collaboration", "school-based-management-sbm", "low-cost-private-schools-lcps"],
     isCanonical: true,
     tags: ["国際協力", "ODA"],
   },
@@ -309,7 +309,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "英語など外国語を教授言語とし、国際的なカリキュラムで教育を行う学校の総称です。",
     body: "インターナショナルスクールは、英語など特定の外国語を主な教授言語とし、国際バカロレア(IB)や英国式・米国式カリキュラムなど日本以外の教育課程に基づいて教育を行う学校の総称です。日本国内では多くが学校教育法上の「一条校」ではなく各種学校等として運営されています。\n\n主に外国籍の子どもや帰国子女、国際結婚家庭の子どもなどを対象としてきましたが、近年はグローバル人材育成への関心の高まりから、日本国籍の子どもの入学希望も増加しています。\n\n一条校でない場合、卒業しても日本の高校卒業資格が自動的には得られないなど制度上の課題があり、国際的な教育の質保証と日本の学校教育制度との接続が論点となっています。",
-    relatedSlugs: ["ib-baccalaureate", "nihonjin-gakko", "kikokushijo-kyoiku"],
+    relatedSlugs: ["ib-baccalaureate", "nihonjin-gakko", "kikokushijo-kyoiku", "transnational-educational-mobility-international", "uk-public-schools-independent-elite-tradition"],
     isCanonical: true,
     tags: ["国際教育", "学校制度"],
   },
@@ -322,7 +322,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2008年に日本政府が策定した、2020年をめどに留学生受け入れを30万人に増やす国家戦略です。",
     body: "留学生30万人計画は、2008年に福田内閣のもとで策定された日本政府の国家戦略で、当時約12万人だった外国人留学生数を2020年をめどに30万人まで増加させることを目標としました。日本の大学等の国際競争力強化とグローバル人材の受け入れ拠点化を狙いとしています。\n\n渡日前の留学相談体制の整備、日本語教育機関との連携、留学生向け奨学金の充実、卒業後の日本国内就職支援などを政策パッケージとして推進し、目標であった留学生数30万人は2019年に達成されました。\n\nスーパーグローバル大学創成支援事業など他の高等教育国際化政策とも連動しており、日本の大学がアジアを中心に留学生獲得競争に参加する上での基本方針となっています。",
-    relatedSlugs: ["bologna-process", "erasmus-programme"],
+    relatedSlugs: ["bologna-process", "erasmus-programme", "brain-drain-education"],
     isCanonical: true,
     tags: ["留学生政策", "高等教育国際化"],
   },
@@ -335,7 +335,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "EU域内の大学間で学生や教員の交換留学を促進する、欧州最大級の高等教育交流事業です。",
     body: "エラスムス計画は、1987年に欧州共同体(現EU)が開始した学生交換プログラムで、名称は15世紀の人文学者エラスムスに由来します。EU加盟国を中心に大学間協定に基づき学生が数か月から1年程度、他国の提携大学へ留学できる制度です。\n\n1999年開始のボローニャ・プロセスによるECTS(単位互換制度)の整備を基盤として、留学先で修得した単位を出身校の単位として認定できる仕組みが確立され、学生の国境を越えた移動を制度的に支えています。2014年以降は「エラスムス・プラス」として職業訓練や成人教育にも対象が拡大されました。\n\n累計で1000万人以上が参加したとされる欧州最大規模の学生交流事業であり、単位互換を伴う留学制度の代表例として、日本の大学間交換留学制度の設計にも影響を与えています。",
-    relatedSlugs: ["bologna-process", "ryugakusei-30man-plan"],
+    relatedSlugs: ["bologna-process", "ryugakusei-30man-plan", "brain-drain-education", "early-school-leaving-eu"],
     isCanonical: true,
     tags: ["EU教育政策", "学生交流"],
   },
@@ -374,7 +374,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "途上国への融資と政策助言を通じて教育開発を支援する国際開発金融機関の取り組みです。",
     body: "世界銀行(World Bank)は、途上国の経済・社会開発を支援する国際開発金融機関で、教育分野では基礎教育の普及、教員の質向上、教育財政の効率化などを目的とした融資・技術支援を行っています。「教育のための世界銀行グループ戦略」などを通じて方針を示しています。\n\n近年は「学習の危機(Learning Crisis)」という概念を提起し、単に就学するだけでなく、実際に読み書きや計算ができる「学習貧困(Learning Poverty)」の解消を重視する方向に政策の軸足を移しています。世界各国の教育関連統計を整備するEdStatsなどのデータ基盤も提供しています。\n\nUNESCOが規範や基準づくりを主導するのに対し、世界銀行は融資と実証データに基づく政策助言を強みとしており、両者は連携しながら途上国の教育制度改革を支援しています。",
-    relatedSlugs: ["sdg4", "education-gini-index", "unesco-education"],
+    relatedSlugs: ["sdg4", "education-gini-index", "unesco-education", "world-bank-saber-education-systems-benchmarking", "global-education-governance-international-agencies"],
     isCanonical: true,
     tags: ["国際開発金融機関", "教育開発"],
   },
@@ -387,7 +387,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "経済協力開発機構が加盟国の教育制度を分析・比較し、政策提言を行う教育統計・政策活動です。",
     body: "経済協力開発機構(OECD)は、先進国を中心とする国際経済協力機関で、教育分野では学力調査PISAの実施に加え、加盟国の教育制度・財政・成果を比較分析する年次報告書「Education at a Glance(エデュケーション・アット・ア・グランス)」を毎年公表しています。\n\n各国の教育段階別の在学率、教育への公的支出割合、教員の給与水準、大学進学率と労働市場の関係など幅広い教育統計を国際比較可能な形で整備し、各国政府に根拠に基づく政策立案(エビデンス・ベースド・ポリシー)を促す役割を担っています。\n\n日本の教育予算の対GDP比の低さなど、OECD統計を根拠に指摘される論点も多く、日本の教育財政や教員の働き方に関する政策議論において頻繁に引用される国際比較の基礎資料となっています。",
-    relatedSlugs: ["pisa", "education-gini-index", "world-bank-education"],
+    relatedSlugs: ["pisa", "education-gini-index", "world-bank-education", "switzerland-multilingual-cantonal-education", "ireland-primary-secondary-school-system", "portugal-teip-educational-priority-areas", "oecd-social-emotional-skills-study-sses", "global-education-governance-international-agencies"],
     isCanonical: true,
     tags: ["OECD", "教育統計"],
   },
@@ -517,7 +517,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "オランダ憲法第23条が保障する、宗教・思想に基づいて学校を設立・運営する自由。19世紀末の「柱状化」社会を背景に確立し、公立・私立の別なく国が平等に財政支援する制度を支えている。",
     body: "オランダの教育制度を特徴づける「教育の自由(vrijheid van onderwijs)」は、憲法第23条に定められた原則であり、学校設立の自由・教育内容編成の自由・教育理念決定の自由の3つの要素からなる。この原則は、19世紀後半から20世紀にかけてオランダ社会がプロテスタント・カトリック・自由主義(公立・世俗)という「柱(pillar)」に分かれて生活していた「柱状化(verzuiling)」の時代に、各宗派・思想集団が自らの信条に基づく学校を持つ権利を求めた政治的妥協の産物として1917年に確立された。\n\n同条は、公立学校と私立学校(宗教立・理念立学校)に対して政府が同等の財政支援を行うことを義務づけている点が最大の特徴であり、私立学校であっても公立学校とほぼ同水準の公的資金を受け取りながら、独自の教育理念に基づく学校運営が可能である。20世紀には仏教・イスラームなど新たな宗派学校も加わり、モンテッソーリ校やイエナプラン校のようなオルタナティブ教育の私立学校も同じ枠組みの中で公的支援を受けて運営されている。\n\n近年では、思想・信条の自由という理念が、差別の禁止や機会の平等といった別の憲法上の要請と緊張関係に立つとの議論も起きており、学校選択の自由と教育の質・公平性の両立が課題とされている。比較教育学的には、公私二元体制を統合した「準市場型」学校制度の先駆的事例として、スウェーデンのフリスコーラ制度などと並んで参照されることが多い。",
-    relatedSlugs: ["sweden-friskola", "jenaplan", "montessori", "netherlands-freedom-of-education-subsidy"],
+    relatedSlugs: ["sweden-friskola", "jenaplan", "montessori", "netherlands-freedom-of-education-subsidy", "school-choice-school-district-international"],
     isCanonical: true,
     tags: ["オランダ", "教育の自由", "学校選択制", "公私二元制度"],
   },
@@ -530,7 +530,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2021年に中国政府が導入した、義務教育段階の宿題負担と学校外補習(塾)を大幅に規制する政策。学習塾業界に大きな打撃を与えた一方、規制の実効性には課題も残る。",
     body: "双減政策(中国語では「双减」政策)は、2021年7月24日に中国共産党中央弁公庁と国務院弁公庁が共同で公布した教育政策であり、義務教育段階(小・中学生)の児童生徒に対する宿題の負担と学校外の学科系補習(塾)の負担という「二つの負担」を軽減することを目的とする。同政策により、国語・数学・英語などの学科系科目を扱う営利目的の学習塾は原則として新規設立が禁止され、既存の事業者も非営利法人への転換または事業撤退を迫られることとなった。\n\nこの政策は民間教育産業に極めて大きな衝撃を与え、政策発表直後には新東方(New Oriental Education)やTAL Education Groupといった大手教育企業の株価が暴落し、教育サービス業界全体で数ヶ月のうちに300万件を超える求人が失われたと推計されている。政策の狙いは、過熱する受験競争と家庭の教育費負担を抑制し、少子化対策の一環として子育てコストを軽減することにあったとされる。\n\nしかし、政策施行から数年が経過しても、学科系の補習需要そのものが消えたわけではなく、指導の場が民間の塾から家庭教師や学校内の放課後補習などへと形を変えて存続しているとの指摘が多い。比較教育学の観点からは、双減政策は「シャドーエデュケーション」を国家が正面から規制しようとした異例の事例として、韓国のハグォン規制や日本の学習塾行政と比較しながら論じられている。",
-    relatedSlugs: ["hagwon", "shadow-education", "gaokao", "china-nine-year-compulsory-education"],
+    relatedSlugs: ["hagwon", "shadow-education", "gaokao", "china-nine-year-compulsory-education", "china-zhongkao-senior-high-exam", "minban-education-china"],
     isCanonical: true,
     tags: ["中国", "学習塾規制", "シャドーエデュケーション", "教育政策"],
   },
@@ -543,7 +543,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "2002年に設立された、発展途上国の基礎教育を支援するための国際的な多国間パートナーシップ・資金供与機関。脆弱国・紛争影響国を優先しつつ教育セクター計画の策定と実施を支援する。",
     body: "教育のためのグローバル・パートナーシップ(Global Partnership for Education、GPE)は、2002年に「万人のための教育(EFA)」目標の達成を後押しする多国間の資金メカニズムとして設立された国際的パートナーシップであり、発展途上国政府、ドナー国政府、国際機関、民間セクター、財団、教員組織、市民社会・NGOなど幅広いアクターが参加する。約60の発展途上国パートナー国を対象とし、特に最貧困層や紛争・脆弱国の子どもたちへの教育機会の確保を優先課題としている。\n\nGPEは各国が策定する教育セクター計画の作成支援(最大50万ドルの計画策定グラント)と、計画の実施を支援する事業資金(1か国あたり最大1億ドル規模の実施グラント)という二段階の資金供与モデルを採っており、2003年以降、パートナー国に対して累計43億ドル以上の助成を行ってきた。2017年には「GPEマルチプライヤー」と呼ばれる新たな資金枠組みを導入し、各国が独自に調達する資金にGPEの資金を上乗せすることで、より多様で大規模な資金動員を図る仕組みへと発展させている。\n\n同機関の特徴は、教育資金の大部分(7〜8割)を各国政府自身の国内財源で賄うことを前提とし、GPEを含む国際的な資金はそれを補完する位置づけとしている点にある。比較教育学の観点からは、GPEはユネスコやユニセフ、世界銀行と並び、発展途上国の教育開発を支える国際的な資金・調整メカニズムの代表例として位置づけられている。",
-    relatedSlugs: ["efa-education-for-all", "world-bank-education", "unesco-education", "sdg4"],
+    relatedSlugs: ["efa-education-for-all", "world-bank-education", "unesco-education", "sdg4", "south-south-triangular-education-cooperation"],
     isCanonical: true,
     tags: ["国際教育協力", "発展途上国", "教育財政", "多国間パートナーシップ"],
   },
@@ -556,7 +556,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "OECDが2018年に発表した、2030年以降に必要とされる資質・能力を示す教育の未来像の枠組み。生徒の主体性(エージェンシー)と幸福(ウェルビーイング)を中心に据える。",
     body: "OECDラーニング・コンパス2030は、OECDが推進する「教育とスキルの未来2030」プロジェクトの中核をなす概念枠組みであり、2016年から2018年にかけて、各国の政策担当者、研究者、学校関係者、教員、生徒、社会団体が協働で策定した。「コンパス(羅針盤)」という比喩が示すとおり、これは特定のカリキュラムや評価の基準を定めるものではなく、生徒が予測困難な未来を切り拓くために自ら進むべき方向を見いだす助けとなる、方向づけのための概念的な地図として位置づけられている。\n\nこの枠組みの中心には、生徒が自ら目標を設定し、振り返りながら責任を持って行動する力を意味する「生徒エージェンシー」の概念があり、教員・保護者・地域社会がそれを支える「共同エージェンシー」という考え方とあわせて重視される。また、知識・スキル・態度及び価値観を統合した「コンピテンシー」概念や、変革を起こす力(新たな価値の創造、対立やジレンマへの対処、責任を担う力)、さらに「見通し(Anticipation)-行動(Action)-振り返り(Reflection)」という学習サイクル(AARサイクル)などの要素で構成されている。\n\n比較教育学の観点からは、この枠組みはPISAなどの認知的学力測定を中心としてきたOECDの従来の政策が、社会情動的スキルや幸福(ウェルビーイング)を含む、より包括的な人間形成へと視野を広げたことを象徴する取り組みとして位置づけられ、各国のカリキュラム改革の指針としても参照されている。",
-    relatedSlugs: ["oecd-education", "pisa", "competency"],
+    relatedSlugs: ["oecd-education", "pisa", "competency", "deseco-key-competencies", "estonia-digital-education-proge-tiiger", "hong-kong-hkdse-diploma-curriculum", "taiwan-twelve-year-basic-education", "vietnam-fundamental-comprehensive-education-reform"],
     isCanonical: true,
     tags: ["OECD", "コンピテンシー", "生徒エージェンシー", "国際教育政策"],
   },
@@ -569,7 +569,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ケンブリッジ大学が運営する国際的な資格認定機関。IGCSEやAレベルなど160以上の国・地域で通用する国際資格を提供し、IBと並ぶ代表的な国際バカロレア型カリキュラムを構成する。",
     body: "ケンブリッジ国際教育機構(Cambridge Assessment International Education、通称Cambridge International)は、ケンブリッジ大学の一部門として、世界各国の学校向けに国際的に通用するカリキュラムと資格試験を提供している機関である。代表的な資格の一つであるIGCSE(International General Certificate of Secondary Education)は、主に14〜16歳の生徒を対象とする中等教育修了資格であり、世界160を超える国・地域で年間100万人以上の生徒が受験する、世界で最も広く受験されている国際資格の一つとされる。多くの生徒は10年生からシラバスを学び始め、11年生の終わりに試験を受ける。\n\nIGCSEでは70以上の科目が提供されており、学校は自校の方針に応じて自由に科目の組み合わせを設計できる。評価は筆記試験を中心に、科目によっては実技試験や課題(コースワーク)も組み合わされ、知識・理解だけでなく応用力や探究的な思考力、国際的な視野を養うことを重視したカリキュラム設計となっている。IGCSE修了後は、より上級のAレベルに相当するケンブリッジ・インターナショナルAレベルへと接続することが一般的である。\n\n比較教育学の観点からは、ケンブリッジ国際教育機構はIB(国際バカロレア)と並んで、国境を越えて共通に通用するカリキュラムと評価基準を提供する「国際カリキュラム」の代表例として位置づけられ、各国のインターナショナルスクールや国内の私立学校がグローバルな大学進学の窓口としてこれらの資格を導入する動きが世界的に広がっている。",
-    relatedSlugs: ["ib-baccalaureate", "gcse-a-level", "international-school"],
+    relatedSlugs: ["ib-baccalaureate", "gcse-a-level", "international-school", "uk-public-schools-independent-elite-tradition", "uk-sixth-form-further-education-pathways"],
     isCanonical: true,
     tags: ["イギリス", "国際資格", "IGCSE", "国際カリキュラム", "Cambridge International"],
   },
@@ -608,7 +608,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "スタンフォード大学の社会学者ジョン・マイヤーらが提唱した、世界規模で共有される制度的な価値・規範(世界文化)が各国の教育制度の同型化を促すとする理論。",
     body: "世界文化理論(world culture theory、世界社会論・世界ポリティ理論とも呼ばれる)は、アメリカの社会学者ジョン・W・マイヤーが1970年代以降に展開した社会学的新制度主義の理論であり、国家主権、個人の権利、合理的進歩といった観念を中核とする「世界文化」が近代化を通じて世界中に広く浸透し、各国の学校制度や大学制度、義務教育の理念などを驚くほど類似した形へと収斂させていると説明する。\n\nこの理論の重要な貢献は、経済発展の水準や政治体制、宗教的伝統、統治の仕組みなどが大きく異なる国々の間でも、なぜ初等教育の就学率が同じように拡大し、類似したカリキュラムや学校制度のモデルが世界中に広まったのかを、従来の機能主義的な説明では十分に捉えきれなかった現象として明らかにした点にある。マイヤーらは、こうした同型化の背景には、国連やユネスコといった国際機関、国際NGO、専門家ネットワークなどが担う「世界文化」の伝播作用があると論じた。\n\n比較教育学においては、この理論は各国の教育制度が独自の文化的・歴史的文脈から発展するという伝統的な見方に対する重要な対抗理論として位置づけられ、PISAやSDG4のような国際的な教育目標・評価の枠組みが世界規模で受け入れられていく現象を説明する際の理論的基盤としても参照される。",
-    relatedSlugs: ["policy-borrowing-lending", "sdg4", "unesco-education", "policy-convergence-education"],
+    relatedSlugs: ["policy-borrowing-lending", "sdg4", "unesco-education", "policy-convergence-education", "postcolonial-approaches-comparative-education", "world-council-comparative-education-societies"],
     isCanonical: true,
     tags: ["比較教育学", "社会学理論", "グローバル化", "教育制度の同型化"],
   },
@@ -621,7 +621,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "イギリスの教育行政官マイケル・サドラーは1900年の講演で、外国の制度を文脈から切り離して模倣する危険性を説き、近代比較教育学の方法論的出発点を築いたとされる。",
     body: "サー・マイケル・アーネスト・サドラー(1861〜1943年)は、イギリスの教育行政官・歴史家であり、1900年に行った講演の中で、比較教育学の方法論における画期的な視座を提示した人物として知られる。彼はこの講演で「私たちは、子どもが庭を散策するように世界の教育制度の間を気ままに歩き回り、ある茂みから花を、別の茂みから葉を摘み取ってきて、それを自国の土壌に挿せば生きた植物になると期待することはできない」と述べ、他国の制度の表面的な部分だけを切り取って自国に移植しても機能しないことを警告した。\n\nこの言葉は、教育制度がその国固有の歴史・文化・社会・政治的文脈と分かちがたく結びついた有機的な全体であり、制度を理解するには、それを生み出した「制度外の要因(社会的・歴史的背景)」にまで踏み込んで分析する必要があるという考え方を端的に示すものであった。この視座は、単に他国の制度を紹介・記述するにとどまっていた19世紀の比較教育研究から、なぜその制度がその国で成立したのかを説明しようとする、より分析的な学問領域へと比較教育学を発展させる転換点になったと評価されている。\n\n比較教育学において、サドラーは近代的な比較教育学の方法論的な出発点を築いた先駆者の一人として位置づけられており、後にジョージ・ベレデイが体系化した「記述-解釈-並置-比較」の4段階比較法など、20世紀の比較教育方法論の発展の土台を築いた人物として位置づけられている。",
-    relatedSlugs: ["bereday-comparative-method", "policy-borrowing-lending"],
+    relatedSlugs: ["bereday-comparative-method", "policy-borrowing-lending", "postcolonial-approaches-comparative-education"],
     isCanonical: true,
     tags: ["比較教育学", "教育学史", "イギリス", "方法論"],
   },
@@ -660,7 +660,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカでは教育の権限が憲法上おもに州に留保され、実務は学区の教育委員会が担う。連邦政府は補助金や法律を通じて間接的に関与する分権型の制度である。",
     body: "合衆国憲法には教育に関する明文の規定がなく、連邦に委任されていない権限は州に留保されるとする修正第10条を根拠として、公教育の責任は各州が負うと整理される。このため日本の文部科学省のような全国一律の教育行政機関は存在せず、学校制度の年限区分(5-3-4制や6-3-3制など)や義務教育年齢、教員免許の要件も州や学区によって異なる。\n\n行政は一般に、州教育局が政策や基準を定め、その下の学区(スクール・ディストリクト)の教育委員会が学校運営の実務を担い、各学校が教育を提供するという三層構造で理解される。学区の教育委員会は住民の選挙で委員が選ばれる例が多く、地域住民が学校運営に関与する伝統が強い。財源も州や地方の税収が中心である。\n\n一方、連邦政府は補助金の交付とその条件づけを通じて全国の教育に大きな影響を及ぼしてきた。初等中等教育法(ESEA)の流れをくむ「落ちこぼれ防止法(NCLB法)」や「ESSA」は、その代表例である。現在の連邦教育省は1970年代末に内閣級の省として発足したとされるが、その権限は限定的で、連邦と州の役割分担は今も政治的な論争点となっている。",
-    relatedSlugs: ["no-child-left-behind", "essa-every-student-succeeds-act", "common-core", "charter-school", "canada-provincial-educational-sovereignty"],
+    relatedSlugs: ["no-child-left-behind", "essa-every-student-succeeds-act", "common-core", "charter-school", "canada-provincial-educational-sovereignty", "usa-magnet-schools-racial-integration", "usa-stem-steam-national-education-policy", "college-entrance-examinations-international"],
     isCanonical: true,
     tags: ["アメリカ", "教育行政", "地方分権"],
   },
@@ -686,7 +686,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1988年教育改革法は、イングランドとウェールズで初めて全国共通のナショナル・カリキュラムとキー・ステージごとの評価を導入し、学校経営を分権化した法律である。",
     body: "1988年教育改革法(Education Reform Act 1988)は、1944年教育法以来最も重要な教育立法とも評される。それまで学校のカリキュラムは各学校や地方教育当局の裁量が大きかったが、この法律により公立学校に共通のナショナル・カリキュラムが課され、教育内容と到達目標を国が定めるようになった。\n\nナショナル・カリキュラムでは、学年段階を「キー・ステージ」に区分し、各段階で到達すべき目標が設定され、段階の終わりに評価が行われる。あわせて、学校予算の運営権限を校長と学校理事会に移す「学校の自主的経営(LMS)」、地方教育当局の管理から離れる国庫補助学校(グラント・メインテインド・スクール)、シティ・テクノロジー・カレッジなども制度化された。\n\nこの改革は、国による内容統制と学校への運営権限委譲、さらに親による学校選択や学校間競争を組み合わせた点に特徴があり、新自由主義的な教育改革の代表例として各国に影響を与えた。以後、全国テストや学校の成績公表(リーグテーブル)の仕組みが整えられていった。",
-    relatedSlugs: ["gcse-a-level", "england-academies", "neoliberalism-kyoiku", "gakushu-shido-yoryo"],
+    relatedSlugs: ["gcse-a-level", "england-academies", "neoliberalism-kyoiku", "gakushu-shido-yoryo", "national-curriculum-standardization-trends"],
     isCanonical: true,
     tags: ["イギリス", "ナショナル・カリキュラム", "教育改革"],
   },
@@ -712,7 +712,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ドイツでは教育権限が州にあり、基礎学校(4年)の後に基幹学校・実科学校・ギムナジウムなどに分かれる分岐型の制度が伝統的に続いてきた。",
     body: "ドイツの教育は連邦制のもとで各州の文化高権(教育主権)に属し、学校制度の細部は州ごとに異なる。多くの州では4年制の基礎学校(グルントシューレ)を終えた時点で、子どもの進路に応じた中等教育段階の学校種を選ぶ。学校種の調整は、各州文部大臣による常設会議(KMK)が担う。\n\n伝統的な分岐型では、主に就職して職業訓練へ進む生徒向けの基幹学校(ハウプトシューレ、5年制)、中級の職業や職業教育学校への進学を想定した実科学校(レアルシューレ、6年制)、大学進学を目指すギムナジウム(8年制または9年制)に分かれる。これらを一つにまとめた総合制学校も存在するが、州による差が大きい。旧東ドイツ地域では、基幹学校と実科学校を統合した学校種を設ける州が多い。\n\nこの制度は早期の進路分化により職業教育(デュアルシステム)と接続しやすい反面、出身階層による進路の固定化が批判されてきた。PISAでその傾向が明らかになったことから、学校種の統合や再編が各州で進んだ。",
-    relatedSlugs: ["german-dual-system", "german-pisa-shock", "tracking", "kyoiku-kakusa", "germany-grundschule-early-tracking-debate", "germany-hauptschule-restructuring-merger"],
+    relatedSlugs: ["german-dual-system", "german-pisa-shock", "tracking", "kyoiku-kakusa", "germany-grundschule-early-tracking-debate", "germany-hauptschule-restructuring-merger", "grade-skipping-retention-international-practice"],
     isCanonical: true,
     tags: ["ドイツ", "学校制度", "早期進路分化"],
   },
@@ -751,7 +751,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "受験偏重の応試教育への反省から、1990年代に提唱された中国の教育理念。1999年に全面推進が決定され、2001年の基礎教育課程改革で具体化した。",
     body: "素質教育は、高考(大学入試)を頂点とする試験中心の「応試教育」を批判し、知識の詰め込みでなく児童生徒の全面的な発達を目ざす理念である。1980年代後半から提唱する声が強まり、1990年代初めに新たな教育方針として示された。\n\n1999年6月には、「教育改革の深化と素質教育の全面的推進に関する決定」が出され、素質教育の推進が教育改革の最重要課題とされた。2001年には教育部が「基礎教育課程改革綱要(試行)」を公布し、教育観、教育目標、教育内容、課程管理にわたる改革が始まった。これは建国以来、最も影響のある改革の一つとされる。\n\nしかし、進学競争の構造が変わらない中で、理念と現実の乖離が長く指摘されてきた。宿題や課外学習の負担軽減(「減負」)は繰り返し課題とされ、2021年の「双減」政策では、校内の負担だけでなく校外学習塾への規制が中核に据えられた。素質教育は、中国教育政策の底流を理解する鍵となる概念である。",
-    relatedSlugs: ["gaokao", "china-shuangjian", "shadow-education", "suneung"],
+    relatedSlugs: ["gaokao", "china-shuangjian", "shadow-education", "suneung", "china-zhongkao-senior-high-exam", "china-key-high-schools-vocational-ratio"],
     isCanonical: true,
     tags: ["中国", "教育改革", "入試"],
   },
@@ -764,7 +764,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "入試による高校間格差と受験競争の緩和を目的に、1974年にソウルと釜山で始まり、抽選で居住地域の高校に生徒を割り当てる韓国の政策。",
     body: "高校平準化政策は、中学生の過度な受験負担、名門高校をめぐる過熱競争、都市への人口集中を抑える目的で1974年に導入された。高校入試を廃止し、居住地域内の高校に抽選で生徒を配置する方式で、まずソウルと釜山で実施され、その後、全国の都市部へ段階的に広がった。\n\n一方、平準化の導入と同時期に高校の多様化も進み、外国語高校や科学高校などの特殊目的高校、自律型私立高校のような平準化の例外となる学校類型が併存してきた。これらが事実上の進学校として機能し、受験競争が低年齢化したり私教育(学院=ハグォン)の需要を高めたりしたとの批判もある。\n\n特殊目的高校の位置づけの見直しをめぐっては、近年も議論が続いている。政策の細部や実施状況は変化しているため、最新の動向は韓国教育部の発表などで確認する必要がある。教育機会の平等と学校選択の自由という、各国に共通する論点を考える比較事例として重要である。",
-    relatedSlugs: ["hagwon", "suneung", "shadow-education", "gakko-sentakusei"],
+    relatedSlugs: ["hagwon", "suneung", "shadow-education", "gakko-sentakusei", "south-korea-free-semester-system-inquiry"],
     isCanonical: true,
     tags: ["韓国", "入試", "教育機会の均等"],
   },
@@ -790,7 +790,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "1945年にロンドンで採択され1946年に発効したユネスコの設立文書。「戦争は人の心の中で生まれる」で始まる前文で、教育を通じた平和の構築を掲げる。",
     body: "ユネスコ憲章(国際連合教育科学文化機関憲章)は、1945年11月1日から16日にかけて英国政府がフランス政府と協力して開催したロンドン会議で採択され、20か国の受諾書が英国政府に寄託されたのち、1946年11月4日に発効した。第二次世界大戦直後の、国際協力による平和構築への強い意志を背景とする。\n\n前文は「戦争は人の心の中で生まれるものであるから、人の心の中に平和のとりでを築かなければならない」と述べる。第1条は、教育、科学、文化を通じた諸国民間の協力により平和と安全に貢献することを機関の目的とし、正義、法の支配、人権および基本的自由の普遍的尊重の促進を掲げる。ここに、教育を平和と人権の基盤とみる考え方が表れている。\n\nこの憲章は、のちの識字教育、万人のための教育(EFA)、平和教育、国際理解教育など、ユネスコの教育活動の理念的な根拠となった。日本は1951年にユネスコに加盟し、戦後の国際社会復帰の契機の一つとなった。",
-    relatedSlugs: ["unesco-education", "efa-education-for-all", "heiwa-kyoiku", "jinken-kyoiku"],
+    relatedSlugs: ["unesco-education", "efa-education-for-all", "heiwa-kyoiku", "jinken-kyoiku", "south-africa-post-apartheid-curriculum-reforms"],
     isCanonical: true,
     tags: ["ユネスコ", "国際機関", "平和教育"],
   },
@@ -816,7 +816,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "教育を受ける権利を国際人権法で保障する考え方。世界人権宣言第26条、社会権規約第13条、子どもの権利条約などが基礎となる。",
     body: "教育を受ける権利は、世界人権宣言(1948年)の第26条で「教育を受ける権利」として明記され、少なくとも初等・基礎的な段階では教育は無償とされ、初等教育は義務的とされた。宣言そのものに法的拘束力はないが、政治的・道徳的な影響力は大きい。\n\nこれを条約として具体化したのが、経済的、社会的及び文化的権利に関する国際規約(社会権規約、A規約)である。その第13条は教育への権利の最も包括的な規定とされ、初等教育の無償義務化と、中等・高等教育への無償教育の漸進的な導入を求める。第14条は、初等教育が未達成の国に行動計画の策定を求める。1999年には国連の委員会が第13条に関する一般的意見13号を採択し、教育の利用可能性・アクセス可能性・受容可能性・適合性という枠組みを示した。このほか、教育における差別の防止に関するユネスコ条約(1960年)や子どもの権利条約(1989年、第28条・第29条)も重要である。\n\nこの権利の観点は、EFAやSDG4の取り組みの法的・規範的な土台となっている。授業料の廃止、女児や障害児、難民などの排除の是正、教育内容の自由と人権教育の保障など、各国の教育政策を評価する国際的な視点を提供する。",
-    relatedSlugs: ["unesco-constitution", "efa-education-for-all", "sdg4", "jinken-kyoiku"],
+    relatedSlugs: ["unesco-constitution", "efa-education-for-all", "sdg4", "jinken-kyoiku", "malaysia-multilingual-national-type-schools", "philippines-k-twelve-basic-education-reform", "pakistan-dual-education-access-challenges", "usa-homeschooling-legal-framework-support"],
     isCanonical: true,
     tags: ["国際人権法", "教育を受ける権利", "国際条約"],
   },
@@ -868,7 +868,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "TIMSS、PIRLS、ICCS、ICILSなどの国際学力調査を実施する国際的な研究者組織。1958年にハンブルクで集まった研究者に起源をもつ。",
     body: "IEA(International Association for the Evaluation of Educational Achievement)は、教育の成果を国際比較によって調べる研究者・研究機関の独立した国際組織である。法人格を得たのは1967年だが、起源は1958年に教育心理学者、社会学者、計量心理学者らがハンブルクのユネスコ教育研究所に集まったことにさかのぼる。現在は本部がアムステルダムにあり、データ処理・研究部門がハンブルクにある。\n\n最初の研究は、1960年に13歳の生徒を対象に数学、読解、地理、理科などの到達度を調べた予備調査であった。以来、IEAは各国のカリキュラムと生徒の学力との関係を調べるという独自の視点で調査を続け、数学・理科のTIMSS、読解のPIRLS、市民性教育のICCS、情報リテラシーのICILSなどを実施している。60を超える国が参加する。\n\nOECDが実施するPISAが「社会で必要な知識・技能の活用」を測るのに対し、IEAの調査は学校で教えられる内容(意図されたカリキュラム)に即した到達度の測定に重点を置くと説明される。比較教育学では、国際学力調査の方法論と政策的影響を考える際の中心的な組織である。",
-    relatedSlugs: ["timss", "pirls", "icils", "iccs"],
+    relatedSlugs: ["timss", "pirls", "icils", "iccs", "cross-cultural-fairness-international-testing"],
     isCanonical: true,
     tags: ["国際学力調査", "IEA", "比較教育学"],
   },
@@ -907,7 +907,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "紛争や迫害で国を離れた子ども・若者の教育を保障する取り組み。UNHCRは2019年、難民を各国の教育制度に包摂する「難民教育2030」戦略を発表した。",
     body: "難民や国内避難民の子どもたちは、就学の中断、言語の壁、受け入れ国の学校の収容力不足、書類の不備などにより、教育から排除されやすい。ダカール行動枠組みでも、紛争・緊急時の教育は重点課題の一つとされ、緊急事態下の教育の最低基準づくりなどを担う国際ネットワーク(INEE)も活動している。\n\nUNHCRは2019年9月9日に「難民教育2030:難民の包摂のための戦略」を発表した。これは2012〜2016年の難民教育戦略を改定したもので、前年に採択された「難民に関するグローバル・コンパクト」の内容を実行に移すことを目的としている。難民のための別立ての学校を設けるのではなく、受け入れ国の国家教育制度に難民を包摂することを基本の考え方とする。\n\n高等教育については、2030年までに難民の若者の15%が高等教育を利用できるようにする「15by30」の目標を掲げ、大学・職業訓練への進学や奨学金の拡大を進めている。難民の教育は、SDG4の「誰一人取り残さない」理念を試す分野であり、受け入れ国の教育財政や教員、教授言語、資格承認の課題とも結びついている。",
-    relatedSlugs: ["sdg4", "unicef-education", "tabunka-kyosei-kyoiku", "gaikokujin-jido-seito"],
+    relatedSlugs: ["sdg4", "unicef-education", "tabunka-kyosei-kyoiku", "gaikokujin-jido-seito", "immigrant-reception-classes-integration-europe"],
     isCanonical: true,
     tags: ["UNHCR", "難民", "包摂教育"],
   },
@@ -920,7 +920,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "イギリスにおいて、11歳での能力別選抜（11プラス試験）による教育格差を解消するため、能力や進路にかかわらず全生徒を受け入れる中等学校。",
     body: "イギリスにおいて1960年代以降に拡大した、すべての子どもを対象とする単一型の中等教育学校である。従来の1944年教育法（バトラー法）下の複線型制度（グラマースクール、テクニカルスクール、モダンスクール）を統合・再編する形で普及した。\n\nそれまで11歳時点で課されていた「11プラス試験」は、子どもの将来を早期に選別し、階級間の格差を固定化しているとして強い批判を浴びた。労働党政権が1965年に発した通達などを契機に、能力や適性、社会階層にかかわらず、同一地域の子どもたちを一堂に集めて教育する包括的な学校モデルが推進された。\n\n生徒の多様性を包摂する民主的中等教育の象徴となった一方、学力水準の維持や学校間格差、共通教育における習熟度別指導のあり方など、現在に至るまでイギリス教育改革の主要な争点であり続けている。",
-    relatedSlugs: ["butler-act-1944", "gcse-a-level", "england-education-reform-act-1988"],
+    relatedSlugs: ["butler-act-1944", "gcse-a-level", "england-education-reform-act-1988", "spain-eso-compulsory-secondary-education", "czech-republic-basic-school-system", "national-curriculum-standardization-trends"],
     isCanonical: true,
     tags: ["イギリス教育", "中等教育改革", "教育機会均等", "選抜廃止"],
   },
@@ -946,7 +946,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フランスにおいて1975年のアビ法により創設された、小学校修了後の4年間（11〜15歳）すべての青徒が共通の普通教育を受ける単一前期中等教育制度。",
     body: "フランスの中等教育前期（第6学年から第3学年までの4年間、日本の中学校に相当）を担う単一校制度であり、1975年の「アビ法」によって確立された。それまで進学コースと実務コースに分かれていた前期中等教育を完全な単一制へと統合した。\n\nすべての国民に共通の教養と文化（共通の基礎知識・技能・文化）を保障し、出自や社会階層による教育格差を是正する「平等の学校」を目指した。生徒は共通のカリキュラムを学び、修了時に全国統一試験を受験して普通・技術リセや職業リセへと進学する。\n\nしかし、完全な共通化は生徒の学力格差や学習意欲の二極化をもたらしたとの指摘もあり、習熟度に応じた支援の導入や優先教育地域政策との連動など、質の維持と格差是正のバランスを巡る改革が継続して行われている。",
-    relatedSlugs: ["grandes-ecoles", "baccalaureat", "france-laicite-school"],
+    relatedSlugs: ["grandes-ecoles", "baccalaureat", "france-laicite-school", "spain-eso-compulsory-secondary-education", "socle-commun-france"],
     isCanonical: true,
     tags: ["フランス教育", "前期中等教育", "アビ法", "共通基礎教育"],
   },
@@ -972,7 +972,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ユネスコが毎年刊行する教育報告書で、持続可能な開発目標SDG4および国際教育目標の達成に向けた進捗状況と世界的課題を検証・評価する文書。",
     body: "国際連合教育科学文化機関（UNESCO）が事務局を務め、独立した専門家チームによって毎年編纂・発行される国際的な教育白書である。持続可能な開発目標（SDGs）のゴール4「質の高い教育をみんなに」の達成度を測定・評価する公式のグローバル監視ツールである。\n\nかつての万人のための教育（EFA）グローバル・モニタリング・レポートの後継として2016年に刷新された。世界各国の公式統計や学術研究に基づき、就学率、識字率、ジェンダー平等、教育財政などの指標を精緻に追跡・分析する。\n\n毎年特定の重要テーマ（例：教育における説明責任、包摂と教育、テクノロジー、非国家アクターの役割等）を設定し、各国の教育政策立案者に向けてエビデンスに基づく具体的な政策提言を行っている。世界の教育開発の動向を把握する上で最も信頼される報告書の一つである。",
-    relatedSlugs: ["sdg4", "efa-education-for-all", "global-citizenship-education"],
+    relatedSlugs: ["sdg4", "efa-education-for-all", "global-citizenship-education", "india-sarva-shiksha-abhiyan-universal", "pakistan-dual-education-access-challenges", "bangladesh-brac-non-formal-primary-schools", "world-bank-saber-education-systems-benchmarking", "girls-education-advocacy-malala-fund"],
     isCanonical: true,
     tags: ["ユネスコ", "SDG4", "教育モニタリング", "国際教育開発"],
   },
@@ -985,7 +985,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ユネスコが主導する教育理念で、地球規模の諸課題を自らの問題として捉え、人権・平和・持続可能性に満ちた包摂的な社会の形成に参画する態度を育む教育。",
     body: "ユネスコ（UNESCO）がSDG4の中核的施策として強力に推進している教育アプローチであり、「グローバル・シチズンシップ教育」と呼ばれる。国家の枠組みを超えた地球規模の相互依存社会において、公正で平和かつ持続可能な世界を築く主体の育成を目指す。\n\n教育の3つの次元として、「認知的次元（地球規模の課題や多様な文化・人権に関する知識・理解・批判的思考）」「社会情動的次元（共通の人間性を感じ、他者と共感し連帯する価値観や態度）」「行動的次元（平和で持続可能な世界のために地域・国家・地球規模で責任ある行動をとる実践力）」を設定している。\n\n気候変動、貧困、難民、人種差別、紛争といった地球規模の危機に対し、ローカルとグローバルを結びつけて当事者意識を持ち、平和構築や持続可能な開発に主体的に貢献する市民性の涵養が図られている。",
-    relatedSlugs: ["sdg4", "unesco-constitution", "unesco-gem-report", "unesco-associated-schools"],
+    relatedSlugs: ["sdg4", "unesco-constitution", "unesco-gem-report", "unesco-associated-schools", "belgium-linguistic-community-education", "un-principles-for-responsible-management-prme", "indigenous-language-education-revitalization"],
     isCanonical: true,
     tags: ["ユネスコ", "地球市民", "平和教育", "持続可能性"],
   },
@@ -1011,7 +1011,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "二つの言語を用いて教科教育を行う指導形態の国際的モデルで、母語を保持・発達させる維持型や主流言語へ移行させる移行型、双方向イマージョン等の類型。",
     body: "児童生徒が二つの言語を理解・運用できるよう、教科指導の手段として両方の言語を用いる教育方法の国際的枠組みである。言語的少数派の言語権保障や、多数派の高度な語学力習得を目的とする。\n\n主な類型として、子どもの母語を早期に主流社会言語へ乗り換えさせる移行型、母語の能力と文化的一体性を維持・伸長させながら第二言語を伸ばす維持型、母語話者と第二言語話者が共に両言語で教科を学ぶ双方向イマージョンなどがある。\n\n言語教育学者のカミンズは、母語における抽象的・概念的思考力の確立が第二言語の習熟度を支える「共有基盤仮説」を提唱し、母語教育の重要性を理論づけた。世界各地の移民統合政策や複言語教育の根幹をなす理論である。",
-    relatedSlugs: ["tabunka-kyoiku-banks", "indigenous-peoples-education", "international-school"],
+    relatedSlugs: ["tabunka-kyoiku-banks", "indigenous-peoples-education", "international-school", "canada-french-immersion-program", "switzerland-multilingual-cantonal-education", "belgium-linguistic-community-education", "malaysia-multilingual-national-type-schools"],
     isCanonical: true,
     tags: ["二言語教育", "カミンズ", "イマージョン", "言語権"],
   },
@@ -1024,7 +1024,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "国連先住民族権利宣言等に基づき、先住民族が自らの言語・文化・伝統に根ざした教育を自律的に運営し子どもに伝承することを保障する権利と実践。",
     body: "歴史的に植民地支配や同化政策の対象とされてきた世界の先住民族（オーストラリアのアボリジナル、カナダや米国のネイティブ・アメリカン、ニュージーランドのマオリ等）が、自らの言語、文化、知の体系に根ざした教育を受ける権利である。\n\n2007年に国連総会で採択された「先住民族の権利に関する国際連合宣言」は、先住民族が自らの言語で教育を提供する教育制度や機関を設立・管理する権利を明記した。過去の強制寄宿学校による言語剥奪や文化的断絶に対する国家の公式謝罪と補償の動きが国際的に広がった。\n\nニュージーランドのマオリ語イマージョン教育のように、母語の復権と文化伝承を軸とした学校教育が実践されており、多文化共生と先住民族の自己決定権を具現化する教育改革として重要視されている。",
-    relatedSlugs: ["te-whariki", "tabunka-kyoiku-banks", "bilingual-education-models"],
+    relatedSlugs: ["te-whariki", "tabunka-kyoiku-banks", "bilingual-education-models", "indigenous-language-education-revitalization"],
     isCanonical: true,
     tags: ["先住民族", "国連宣言", "同化政策の克服", "言語復権"],
   },
@@ -1037,7 +1037,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "シンガポール政府が2000年代に導入した教育改革方針で、詰め込み型のカリキュラム内容を削減し生徒の批判的思考力や主体的探究心を深める政策。",
     body: "シンガポール教育省が2004〜2005年にかけて打ち出した全国的な教育改革のスローガンおよび政策方針である。「思考する学校、学ぶ国家」構想の中核をなす。\n\n国際学力調査でトップクラスの成績を収めながらも、暗記中心・テスト偏重の教育が生徒の創造性や自立的学習力を阻害しているとの危機感から導入された。カリキュラムの学習内容をあえて削減し、教員が一方的に知識を詰め込む時間を減らすことで、生徒が深く考え、議論し、探究する協働的・主体的学習の時間を創出した。\n\nテストの点数のみを競う教育から、生徒の情熱や全人的人格形成、生涯学び続ける力を培う教育への転換を図ったモデルとして、アジア諸国をはじめ世界各国の教育課程改革に大きな示唆を与えた。",
-    relatedSlugs: ["oecd-learning-compass-2030", "singapore-streaming", "suneung"],
+    relatedSlugs: ["oecd-learning-compass-2030", "singapore-streaming", "suneung", "singapore-full-subject-based-banding", "national-institute-of-education-singapore"],
     isCanonical: true,
     tags: ["シンガポール教育", "カリキュラム削減", "批判的思考", "探究学習"],
   },
@@ -1050,7 +1050,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フィンランドやスウェーデン等の北欧諸国に共通する、教育機会の完全無償化・選抜の排除・地方自治と教師への高い信頼を特徴とする教育システム。",
     body: "フィンランド、スウェーデン、デンマーク、ノルウェーなどの北欧諸国に共通する、福祉国家体制と密接に結びついた公教育の制度的・思想的モデルである。徹底した機会均等と民主主義的価値の共有を根幹とする。\n\n主な特徴として、就学前教育から大学院に至るまでの授業料無償化、給食や教材費の公費負担、義務教育段階での全国統一テストによる学校・生徒の序列化の排除、少人数学級による丁寧な個別支援が挙げられる。子どもを競わせるのではなく、落ちこぼれを作らない包括性に最優先の財政資源が投入される。\n\nまた、中央集権的な詳細管理を行わず、地方自治体や各学校に大幅なカリキュラム編成権を与え、修士号取得を義務づけられた教員の高い専門性と自律性に対する社会的信頼が教育の質を担保している点も世界的に注目されている。",
-    relatedSlugs: ["finland-education-system", "sweden-friskola", "folkehojskole"],
+    relatedSlugs: ["finland-education-system", "sweden-friskola", "folkehojskole", "iceland-egalitarian-school-system"],
     isCanonical: true,
     tags: ["北欧モデル", "完全無償化", "教師の自律性", "福祉国家"],
   },
@@ -1102,7 +1102,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "韓国において過熱する受験競争と家計を圧迫する私教育費の抑制を目指し、塾（ハグォン）の深夜営業制限や先行学習禁止を法制化した政策。",
     body: "韓国において、激しい学歴競争と大学入試を背景とした私教育への過度な依存を是正し、公教育の信頼回復を図るために政府・自治体が推進してきた一連の規制政策である。\n\nソウル特別市をはじめとする各教育庁は条例により、私設塾（ハグォン）の営業時間を夜10時までに制限する深夜塾規制を導入し、夜間の取り締まりを実施した。さらに、2014年には学校や塾において学習指導要領を逸脱した前倒し学習・試験出題を禁じる「公教育正常化促進及び先行教育規制に関する特別法」が制定された。\n\n子どもの健康・睡眠時間の確保や教育格差の縮小を狙いとした世界でも珍しい私教育規制として注目される一方、オンライン指導等への地下潜行を招いているとの指摘もあり、実効性をめぐる議論が続いている。",
-    relatedSlugs: ["shadow-education", "suneung", "hagwon"],
+    relatedSlugs: ["shadow-education", "suneung", "hagwon", "south-korea-free-semester-system-inquiry"],
     isCanonical: true,
     tags: ["韓国教育", "ハグォン", "私教育費", "先行学習禁止法"],
   },
@@ -1115,7 +1115,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "国際協力機構（JICA）が開発途上国で展開する教育開発支援で、理数科教育の質の向上や日本型「授業研究」の普及活動。",
     body: "国際協力機構（JICA）がアジア・アフリカ・中南米などの開発途上国において実施している政府開発援助による教育支援活動である。初等・中等教育への就学機会拡大にとどまらず、教育の質の向上を重視する。\n\n特に日本の強みを生かした理数科教育強化プロジェクトや、日本の学校教育で培われた教員研修手法である「授業研究」の海外展開が高く評価されている。教師同士が授業を公開・観察し、指導法を協議・改善する協働的なプロセスは、アフリカ諸国等で現職教員の指導力向上に多大な成果を上げた。\n\nまた、地域住民や保護者が学校運営に参画する「みんなの学校プロジェクト」など、現地社会に根ざした自立的・持続可能な教育ガバナンスの構築を支援している。",
-    relatedSlugs: ["sdg4", "unesco-constitution", "jica-education-cooperation"],
+    relatedSlugs: ["sdg4", "unesco-constitution", "jica-education-cooperation", "vietnam-fundamental-comprehensive-education-reform", "rwanda-smart-classroom-ict-transformation", "south-south-triangular-education-cooperation", "seameo-regional-education-centre-collaboration"],
     isCanonical: true,
     tags: ["JICA", "授業研究", "理数科教育", "国際教育協力"],
   },
@@ -1700,7 +1700,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "メキシコにおいて過疎地や山岳地域の生徒の中等教育を受ける権利を保障するため、衛星放送や映像教材と単任の指導員を活用して構築された公立遠隔教育体系。",
     body: "メキシコのテレビ中学校は、山間部や農村部などのへき地に暮らす青少年の教育機会を確保するため、1960年代後半に創設された公立の遠隔中等教育システムである。比較教育学では、地理的孤立による教育格差を放送通信メディアの活用によって低廉かつ広範に克服した先駆的モデルとして知られる。\n\n教科ごとの専門教員を配置することが困難な小規模校において、テレビ放送やデジタル映像教材による標準化された講義を中心に授業が展開される。教室では総合的な指導を担う一人の教員が教材の補足説明、討議の進行、課題添削などの学習支援を行い、教科指導と人間的関わりを融合させている。\n\n日本の過疎地域における小規模校の維持や複式学級の指導改善、遠隔合同授業の推進において、地域社会を維持しながら高度な学習内容を確実に届ける制度設計として大いに示唆的である。",
-    relatedSlugs: ["ict-shusseki-atsukai", "kyoiku-kakusa", "right-to-education-international-law"],
+    relatedSlugs: ["ict-shusseki-atsukai", "kyoiku-kakusa", "right-to-education-international-law", "conditional-cash-transfers-education"],
     isCanonical: true,
     tags: ["メキシコ教育", "遠隔教育", "へき地教育", "中等教育"],
   },
@@ -1791,7 +1791,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカの高校生が在学中に大学水準の高度な科目を履修し、統一試験の成績に応じて大学進学後の単位認定や選抜時の評価を得られる標準化された高大接続制度。",
     body: "アメリカのアドバンスト・プレイスメント制度は、高校生に対して大学初年次レベルの学術的な挑戦機会を提供する全米規模の標準化教育プログラムである。比較教育学においては、中等教育と高等教育を円滑に架橋し、優秀な生徒の才能を伸長させる高大接続の先駆的枠組みとして位置づけられる。\n\n大学理事会が定めた統一基準に基づき高校で多様な専門科目が開講され、毎年実施される厳格な統一試験で五段階評価が行われる。一定以上の優秀な成績を収めた生徒に対しては、多くの大学が入学後の卒業要件単位として認定したり、大学入学者選抜において高い学習意欲の証明として評価する。\n\n日本の高校における探究学習の高度化や早期履修制度、高校と大学の接続を円滑にする教育課程の柔軟化を検討する上で、卓越した能力を持つ生徒の意欲を伸ばす制度設計として大いに参考となる。",
-    relatedSlugs: ["ib-baccalaureate", "baccalaureat", "us-education-system", "digital-transcript-portal-university-articulation"],
+    relatedSlugs: ["ib-baccalaureate", "baccalaureat", "us-education-system", "digital-transcript-portal-university-articulation", "act-test-us"],
     isCanonical: true,
     tags: ["アメリカ教育", "高大接続", "大学単位認定", "才能教育"],
   },
@@ -1908,7 +1908,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ドイツの伝統的な複線型中等教育において、基礎的教養と職業教育を担ってきた本課程学校が直面する生徒減少と学校統廃合の動向。",
     body: "ドイツの本課程学校（ハウプトシューレ）とは、伝統的な中等教育機関の一つであり、初等教育修了後の生徒に対して基礎的な一般教養と実践的な職業準備教育を提供してきた学校種である。卒業後は主に職業訓練や徒弟修業へ進む経路として機能してきた。\n\nしかし、高学歴化の進展や保護者のギムナジウム志向の高まりに伴い、生徒数の減少と学力格差の固定化が深刻な社会問題となった。移民家庭の集中なども生じたことから、各州では実科学校との統合や新たな総合型学校への改編など、大規模な再編が進められている。\n\n複線型体系における底辺校化の克服は、教育の公平性と若年層の円滑な社会統合を実現する上で不可欠な課題である。日本の高校教育における多様な生徒の学び直し支援や、職業基礎教育の充実を構想する上で、ドイツの学校再編の経験は深い教訓を与えている。",
-    relatedSlugs: ["german-pisa-shock", "gakko-shokugyo-ikou-jisseki-kankei", "pisa"],
+    relatedSlugs: ["german-pisa-shock", "gakko-shokugyo-ikou-jisseki-kankei", "pisa", "austria-new-secondary-school-reform"],
     isCanonical: true,
     tags: ["ハウプトシューレ", "本課程学校", "中等教育改革", "ドイツ教育"],
   },
@@ -1934,7 +1934,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ドイツのギムナジウム等の修了時に課され、大学進学資格を証明するとともに高度な一般的教養の習得を判定する国家統一的試験制度。",
     body: "ドイツのアビトゥーアとは、中等教育の最終段階であるギムナジウム上級段階等を修了した者に付与される大学入学資格、およびそのための修了試験である。18世紀末のプロイセンに起源を持ち、国家公認の高度な学術的教養と全人格的成熟を証明する資格である。\n\nこの資格取得には、最終2年間の履修成績と、筆記試験および口述試験からなる統一的な試験結果が総合的に評価される。試験内容は暗記の再生にとどまらず、長文の論述や論理的思考力、批判的考察力を厳しく測定する問題構成となっている。\n\nアビトゥーア取得者は原則として希望する大学・学部に無試験で進学できる権利を得るため、中等教育と高等教育の接続を円滑に機能させている。日本の大学入学共通テストや選抜改革において、記述式評価や学力把握の質的転換を図るための先行事例として意義深い。",
-    relatedSlugs: ["baccalaureat", "ib-baccalaureate", "cambridge-international-education"],
+    relatedSlugs: ["baccalaureat", "ib-baccalaureate", "cambridge-international-education", "referendariat-germany"],
     isCanonical: true,
     tags: ["アビトゥーア", "ギムナジウム", "大学入学資格", "ドイツ教育"],
   },
@@ -1986,7 +1986,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "フランスの後期中等教育において、普通科・技術科・職業科の3類型に分かれ、多様な進路選択と専門資格取得を保障する学校制度。",
     body: "フランスの後期中等学校（リセ）とは、前期中等学校（コレージュ）を修了した15歳から18歳の生徒が進学する3年間の学校である。国家資格であるバカロレアの取得と高等教育への進学、または職業的自立を目指し、複線的な進路構造を持つ。\n\n学校類型は、大学進学を主目的とする普通リセ、産業技術や応用科学を学ぶ技術リセ、早期に職業資格と就労能力の獲得を目指す職業リセの3つに明確に分化している。各類型において生徒は専門分野を選択し、国家基準に即した高度な試験に臨む。\n\n生徒の適性や志向に応じた多様な進路選択を保障しつつ、各類型の卒業資格に明確な社会的通用性を与えている。日本の高等学校における普通科再編や職業学科の活性化、高校卒業資格と大学進学の接続を再考する上で、有益な比較材料となっている。",
-    relatedSlugs: ["baccalaureat", "gakko-shokugyo-ikou-jisseki-kankei", "koko-futsuka-kaikaku"],
+    relatedSlugs: ["baccalaureat", "gakko-shokugyo-ikou-jisseki-kankei", "koko-futsuka-kaikaku", "inspe-france-teacher-education"],
     isCanonical: true,
     tags: ["リセ", "後期中等教育", "バカロレア", "フランス教育"],
   },
@@ -2571,7 +2571,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "教育の主権を持つドイツの全16連邦州の教育担当大臣が教育制度の共通性と質を調整する常設機関。",
     body: "ドイツの各連邦州において学校・高等教育・研究・文化を担当する大臣等で構成される常設の政策調整機関（Kultusministerkonferenz）である。基本法（憲法）上、教育・文化の権限（文化高権）が各州に帰属する連邦制ドイツにおいて、国家全体の教育水準の維持と州間の流動性を確保する目的で1948年に設立された。\n\nKMKの決議は全州一致を原則とし、採択された合意は各州の法改正や行政措置を通じて国内全域で実施される。学校教育の修業年限、アビトゥーア（大学入学資格試験）の共通基準、長期休業期間の分散配置、教員免許の相互承認など、国民の教育機会に関わる基盤事項の標準化を担っている。\n\n2000年代初頭のPISAショック以降は、国立の教育測定機関である教育制度質開発研究所（IQB）の設立や全国教育スタンダードの策定を主導し、分権的連邦制のもとでの質保証メカニズムの模範とされている。",
-    relatedSlugs: ["german-school-system", "germany-abitur-gymnasium-graduation-qualification", "german-pisa-shock", "german-dual-system"],
+    relatedSlugs: ["german-school-system", "germany-abitur-gymnasium-graduation-qualification", "german-pisa-shock", "german-dual-system", "referendariat-germany"],
     isCanonical: true,
     tags: ["ドイツ教育", "教育連邦制", "教育政策", "標準化"],
   },
@@ -2610,7 +2610,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "米国においてSATやAPプログラム等の標準テストを開発・運営する民間の非営利教育機関。",
     body: "1900年に全米の主要大学と中等学校によって設立された米国の非営利教育団体（The College Board）である。高等教育へのアクセス拡大と中高大接続の円滑化を目的とし、全米規模の大学入学者選抜テストや高校での高度学習プログラムを統括している。\n\n代表的な事業として、大学進学適性試験である「SAT（Scholastic Assessment Test）」の開発・実施、高校在学中に大学レベルの科目を履修・単位認定できる「AP（Advanced Placement）プログラム」、予備試験であるPSATの運営などがある。テスト結果の統計分析や高等教育財政・学費動向に関する年次報告書の刊行も行う。\n\n米国の分散的な教育制度において、各州や高校ごとの成績評価の差異を補正し、全米共通の客観的な学力測定基準を提供することで、米国の大学進学体制に決定的な影響を与えている。",
-    relatedSlugs: ["usa-advanced-placement-college-credit", "us-education-system", "charter-school"],
+    relatedSlugs: ["usa-advanced-placement-college-credit", "us-education-system", "charter-school", "act-test-us"],
     isCanonical: true,
     tags: ["アメリカ教育", "大学入試", "標準テスト", "中高大接続"],
   },
@@ -2831,7 +2831,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "教育制度を各国の歴史・社会的諸条件や国民性の表れとして捉える歴史主義的比較教育学の理論。",
     body: "コロンビア大学ティーチャーズ・カレッジ教授を務めたアイザック・レオン・カンデル（Isaac L. Kandel, 1881–1965）が確立した近代比較教育学の方法論体系である。主著『比較教育論（Comparative Education）』（1933年）を通じて比較教育学を本格的な学問分野として体系化した。\n\nカンデルは、教育制度や学校慣行は単独で存在するのではなく、各国家固有の歴史的伝統、政治的理念、社会経済的要因、そして「国民性（National Character）」の生きた表現であると主張した。そのため、他国の制度を表面的な記述にとどまらず、その制度を生み出した背後にある思想や歴史的動機を解明する歴史的・動態的アプローチを重視した。\n\n他国の制度を安易に借用・移植することの危険性を警告し、自国の教育を客観的に再評価するための知的枠組みを提供した功績により、比較教育学における古典的巨頭として位置づけられている。",
-    relatedSlugs: ["sadler-comparative-education", "jullien-comparative-education", "policy-borrowing-lending", "bereday-comparative-method", "hans-comparative-education"],
+    relatedSlugs: ["sadler-comparative-education", "jullien-comparative-education", "policy-borrowing-lending", "bereday-comparative-method", "hans-comparative-education", "noah-eckstein-scientific-comparative", "world-council-comparative-education-societies"],
     isCanonical: true,
     tags: ["比較教育学", "方法論", "国民性", "教育理論"],
   },
@@ -2857,7 +2857,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ポパーの批判的合理主義に基づき教育政策の課題解決と結果予測を科学的に行う比較教育学の方法論。",
     body: "ロンドン大学教育研究所（IOE）教授を務めたブライアン・ホームズ（Brian Holmes, 1920–1993）が確立した比較教育学の方法論体系である。哲学者カール・ポパーの批判的合理主義やジョン・デューイの問題解決理論を応用し、主著『問題アプローチによる比較教育学』（1965年）等で展開された。\n\nホームズは、伝統的な歴史記述的アプローチを脱し、現代の教育的課題を分析・解決するための実証的政策科学として比較教育学を再構築した。問題の選定と分析、仮説（政策解決策）の提示、関連する初期条件・文脈（法制度、規範、制度構造）の同定、そして政策導入に伴う意図せざる結果の予測・検証という論理的ステップを提唱した。\n\n単なる制度紹介を超えて、教育政策の意思決定や改革シミュレーションに資する科学的予測の手法を確立し、応用社会科学としての比較教育学の発展を牽引した。",
-    relatedSlugs: ["kandel-comparative-education", "bereday-comparative-method", "policy-borrowing-lending", "sadler-comparative-education", "karl-popper-open-society-fallibilism"],
+    relatedSlugs: ["kandel-comparative-education", "bereday-comparative-method", "policy-borrowing-lending", "sadler-comparative-education", "karl-popper-open-society-fallibilism", "noah-eckstein-scientific-comparative"],
     isCanonical: true,
     tags: ["比較教育学", "問題解決", "批判的合理主義", "方法論"],
   },
