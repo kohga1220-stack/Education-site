@@ -107,7 +107,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "子どもが社会的・職業的に自立していくために必要な力や態度を、学校教育全体を通じて計画的に育成していく教育のこと。単なる進路指導とは異なる。",
     body: "キャリア教育とは、子ども一人ひとりが、社会の中で自分の役割を果たしながら自立して生きていくために必要な力や態度を、発達段階に応じて計画的・組織的に育成していく教育活動を指します。中央教育審議会の答申では「一人一人の社会的・職業的自立に向け、必要な基盤となる能力や態度を育てることを通して、キャリア発達を促す教育」と定義されています。\n\n進学先や就職先を選ぶことに焦点を当てた従来型の「進路指導」とは異なり、キャリア教育は小学校段階から始まり、働くことの意義を理解する、他者と協力する、自分で意思決定するといった、生涯にわたるキャリア発達の基盤を育てることを目指す、より広い概念です。\n\n職場見学や職業体験（インターンシップ）といった体験的な活動だけでなく、各教科の学習の中で「学ぶことと社会とのつながり」を意識させる指導も、キャリア教育の重要な一部として位置づけられています。",
-    relatedSlugs: ["tokubetsu-katsudo", "jiko-shido-noryoku", "career-passport-reflective-guidance", "project-internship-problem-solving", "labor-dignity-gratitude-for-work", "designated-school-job-offer-system", "neet-freeter-school-to-work-transition-crisis", "krumboltz-planned-happenstance", "statement-of-purpose-interview-coaching"],
+    relatedSlugs: ["tokubetsu-katsudo", "jiko-shido-noryoku", "career-passport", "project-internship-problem-solving", "labor-dignity-gratitude-for-work", "designated-school-job-offer-system", "neet-freeter-school-to-work-transition-crisis", "krumboltz-planned-happenstance", "statement-of-purpose-interview-coaching"],
     isCanonical: true,
     exam: true,
     tags: ["キャリア発達", "職業体験"],
@@ -201,7 +201,7 @@ export const guidanceTerms: Term[] = [
     categories: ["guidance", "sociology"],
     summary:
       "本来大人が担うと想定される家族の介護や世話、家事などを日常的に行っている18歳未満の子ども。学業や友人関係への影響が懸念される。",
-    body: "ヤングケアラーとは、家族の介護や看病、幼いきょうだいの世話、家事などを日常的に担っている18歳未満の子どものことを指す概念です。厚生労働省は「家族の介護や世話を日常的に行っている18歳未満の子ども」と定義しており、こども家庭庁を中心に実態把握や支援施策が進められています。\n\n子ども自身や家族が「お手伝いの延長」として捉え、負担を自覚しにくいことが多く、周囲からも気づかれにくいという特徴があります。過重な世話の負担により、学業の遅れや友人関係の希薄化、進路選択の制約、心身の健康への悪影響が生じる場合があると指摘されています。\n\n学校現場では、遅刻・欠席の増加や忘れ物の多さといった様子の変化から気づき、スクールソーシャルワーカーや福祉機関と連携して支援につなげることが求められています。2021年に文部科学省と厚生労働省が合同でプロジェクトチームを設置し、早期発見・支援のための取り組みを進めています。",
+    body: "ヤングケアラーとは、家族の介護や看病、幼いきょうだいの世話、家事などを日常的に担っている18歳未満の子どものことを指す概念です。厚生労働省は「家族の介護や世話を日常的に行っている18歳未満の子ども」と定義しており、こども家庭庁を中心に実態把握や支援施策が進められています。2024年（令和6年）6月の子ども・若者育成支援推進法の改正で、「家族の介護その他の日常生活上の世話を過度に行っていると認められる子ども・若者」が国や地方公共団体の支援対象として法律に明記されました（18歳未満に限らず若者を含みます）。\n\n子ども自身や家族が「お手伝いの延長」として捉え、負担を自覚しにくいことが多く、周囲からも気づかれにくいという特徴があります。過重な世話の負担により、学業の遅れや友人関係の希薄化、進路選択の制約、心身の健康への悪影響が生じる場合があると指摘されています。\n\n学校現場では、遅刻・欠席の増加や忘れ物の多さといった様子の変化から気づき、スクールソーシャルワーカーや福祉機関と連携して支援につなげることが求められています。2021年に文部科学省と厚生労働省が合同でプロジェクトチームを設置し、早期発見・支援のための取り組みを進めています。",
     relatedSlugs: ["school-social-worker", "kyoiku-sodan", "futoko", "kodomo-wakamono-ikusei-suishin-ho"],
     isCanonical: true,
     exam: true,
@@ -663,13 +663,13 @@ export const guidanceTerms: Term[] = [
     title: "キャリア・パスポート",
     reading: "きゃりあ・ぱすぽーと",
     kana: "き",
-    categories: ["guidance"],
+    categories: ["guidance", "methods"],
     summary:
       "小学校から高等学校まで、児童生徒が特別活動等の学びを通じて自らのキャリア形成を見通し振り返るポートフォリオ教材。2020年度から全国の学校で導入され、学年間・校種間で引き継がれる。",
     body: "キャリア・パスポートは、小学校から高等学校を通じて、児童生徒が特別活動の学級活動・ホームルーム活動を中心に、各教科等と往還しながら、自らの学習状況やキャリア形成を見通したり振り返ったりして自己評価を行うためのポートフォリオ的な教材である。文部科学省の通知に基づき2020年度から全国の学校で導入され、様式は都道府県・学校の実態に応じて作成されるが、学年、校種を越えて持ち上がり、蓄積・活用されることが前提とされている。\n\n作成の背景には、キャリア教育が職場体験や進路指導など特定の学年・行事に限定されがちであった反省がある。児童生徒自身が学びのプロセスを記録し、教師や保護者との対話を通じて意味づけを行うことで、主体的に学びに向かう力を育み、社会的・職業的自立に必要な基盤となる能力や態度を育成することを目指す。単なる記録作成にとどめず、学級活動での話し合いや面談等と結び付けて活用することが重要とされる。\n\n運用上は、記入・蓄積が形式的な作業になりがちで教師の負担が増すこと、進学・転校時の引き継ぎの実務負担、電子化(デジタル・キャリア・パスポート)の是非などが課題として指摘されている。各学校はキャリア教育全体計画の中にキャリア・パスポートの活用場面を位置づけ、進路指導やホームルーム活動と連動させる工夫を進めている。",
-    relatedSlugs: ["career-education", "shinro-shido", "e-portfolio", "career-passport-reflective-guidance", "labor-dignity-gratitude-for-work", "krumboltz-planned-happenstance", "career-choice-autonomous-decision-support", "career-information-collection-annual-plan"],
+    relatedSlugs: ["career-education", "shinro-shido", "e-portfolio", "labor-dignity-gratitude-for-work", "krumboltz-planned-happenstance", "career-choice-autonomous-decision-support", "career-information-collection-annual-plan", "portfolio-hyoka"],
     isCanonical: true,
-    tags: ["キャリア教育", "ポートフォリオ", "特別活動"],
+    tags: ["キャリア教育", "ポートフォリオ", "特別活動", "蓄積的対話", "自己調整学習", "面談指導"],
   },
   {
     slug: "shinro-shido",

@@ -52,3 +52,4 @@ Antigravity はここに JSON を置き、`npm run ingest` で `src/data/terms/*
 - 優先順: まず試験の基本語(`exam: true`)、次に法令・制度・数値を含む語。1PR あたり20〜30語まで。
 - コマンド: `npm run attach-sources -- --dry-run` / `npm run attach-sources -- --keep`。PR の CI(`Verify sources`)が URL の到達と題名の記載を確認します。
 - 出典のない試験の基本語を一覧する: `node -e "import('./scripts/lib/terms-io.mjs').then(m=>m.loadAllTerms().filter(t=>t.exam&&!t.sources).forEach(t=>console.log(t.slug,t.title)))"`
+- **出典の差し替え(見直し)**: 既に `sources` がある語は、項目に `"replace": true` を付けた場合だけ差し替えられます(出典のない語に `replace` は使えません)。語に合わない出典(語が出てくるだけの応用研究など)を、定義・解説の根拠になる資料に替えるときに使います。差し替えの `note` には、新しい出典のどこに何が書いてあったかと、替える理由を書いてください。

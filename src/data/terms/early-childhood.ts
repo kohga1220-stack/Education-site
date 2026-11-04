@@ -114,7 +114,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育者主導で全員が同じ活動を行う一斉保育と、子どもが主体的に活動を選ぶ自由保育という2つの保育形態。",
     body: "一斉保育とは、保育者が設定した時間・内容に沿って、クラスの子ども全員が同じ活動に一斉に取り組む保育の形態です。歌や制作、運動遊びなどを計画的・効率的に経験させやすい一方、子ども一人ひとりの興味や発達のペースには合わせにくいという面があります。\n\n一方、自由保育は、複数の遊びのコーナーや教材を用意した環境の中で、子どもが自分の興味に応じて活動を選び、主体的に遊びを展開できるようにする保育の形態です。「環境を通した教育」の考え方を強く反映しており、コーナー保育や見守る保育とも重なる部分があります。\n\n実際の保育現場では、どちらか一方だけを採用するのではなく、集団活動としての一斉保育の場面と、子どもの主体性を尊重する自由保育の場面を、ねらいに応じて組み合わせて実施することが一般的です。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "mimamoru-hoiku", "oikawa-heiji-early-childhood-dynamic-method", "germany-situationsansatz-early-childhood"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "mimamoru-hoiku", "oikawa-heiji-dynamic-education-akashi", "germany-situationsansatz-early-childhood"],
     isCanonical: true,
     tags: ["保育形態", "主体的な遊び", "保育者主導"],
   },
@@ -1011,7 +1011,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児の自発的な活動を誘発するため、空間・物的遊具・人的関わり・自然などの環境を保育者が意図的・計画的にデザインすること。",
     body: "幼稚園教育要領および保育所保育指針に示される「環境を通して行う教育」の根幹をなす実践原理である。幼児が自発的・主体的に活動を展開できるよう、園内外のあらゆる環境（空間、施設設備、遊具、素材、自然、人など）を保育者が意図的・計画的に設定することを指す。\n\n保育室の環境構成では、子どもが集中して遊べるコーナーの配置や、玩具が子どもの手の届く高さに整頓されていること、静と動の活動空間の区分などが配慮される。また、物的環境だけでなく、保育者自身の温かい表情や言葉かけ、子ども同士の関わりといった「人的環境」も重要な要素を占める。\n\n環境は一度作って固定するのではなく、子どもの興味・関心の変化や発達の段階、季節の移り変わりに応じて柔軟に再構成され続ける動的なプロセスである。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "go-ryoiki", "oikawa-heiji-early-childhood-dynamic-method", "germany-situationsansatz-early-childhood", "waldorf-kindergarten-rhythm-natural-materials", "sand-water-mud-play-sensory-plasticity", "picture-book-shared-reading-attachment"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "go-ryoiki", "oikawa-heiji-dynamic-education-akashi", "germany-situationsansatz-early-childhood", "waldorf-kindergarten-rhythm-natural-materials", "sand-water-mud-play-sensory-plasticity", "picture-book-shared-reading-attachment"],
     isCanonical: true,
     tags: ["環境を通した教育", "コーナー保育", "物的環境", "人的環境"],
   },
@@ -1196,19 +1196,6 @@ export const earlyChildhoodTerms: Term[] = [
     relatedSlugs: ["kurahashi-sozo", "youchien-kyoiku-yoryo", "youchien-kyoiku-yoryo-hensen", "froebel", "games-with-rules-tag-card-games-cooperation"],
     isCanonical: true,
     tags: ["和田実", "遊戯活動", "唱歌遊戯", "幼児教育史"],
-  },
-  {
-    slug: "oikawa-heiji-early-childhood-dynamic-method",
-    title: "及川平治の幼児動的教育",
-    reading: "おいかわへいじのようじどうてききょういく",
-    kana: "お",
-    categories: ["early-childhood"],
-    summary:
-      "及川平治が分団式動的教育の理念を就学前の幼児教育へと応用し、子どもの自発的な協同活動や探究を促した先駆的な指導実践。",
-    body: "及川平治は大正自由教育を代表する実践家であり、明石女子師範学校附属小学校で確立した動的教育法の理論を附属幼稚園の保育実践にも展開した。受動的な知識の受容を排し、子ども自身の内発的な活動欲求に基づきながら、生活の中の具体的な問題や事象を能動的に解決していく動的な教育理念を幼児期にも適用した。\n\n園における実践展開では、幼児の自発的な興味に応じて小集団を形成し、互いに協力しながら遊びや製作を進める仕組みが整えられた。保育者はあらかじめ細部まで決めた指示を与えるのではなく、興味を引き出す素材や空間を用意し、子ども同士の対話や試行錯誤を温かく見守りながら適時援助を行う指導手順をとった。\n\n及川の幼児動的教育法は、現代の幼児教育で重要視される協同的な学びや探究活動の先駆的なモデルである。幼児期の自由な探究が小学校の合科学習や生活科での主体的な探究学習へと円滑につながる道筋を示し、幼保小接続の観点からも極めて今日的な価値を有している。",
-    relatedSlugs: ["taisho-jiyu-kyoiku", "youchien-kyoiku-yoryo", "hoiku-kankyo-kosei", "issei-hoiku-jiyu-hoiku"],
-    isCanonical: true,
-    tags: ["及川平治", "動的教育法", "分団式", "大正自由教育"],
   },
   {
     slug: "kindergarten-order-1926-japan-first-law",
