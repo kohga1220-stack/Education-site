@@ -12,6 +12,9 @@ export function keywordsFor(term) {
   const kws = new Set()
   const core = titleCore(term.title)
   if (core.length >= 2) kws.add(core.toLowerCase())
+  // 「〜の廃止」「〜制度」で終わる題名は、資料が「教員免許更新制」のように語幹だけで書くことが多いので、語幹も許す
+  const stem = core.replace(/(の廃止|制度)$/, '')
+  if (stem !== core && stem.length >= 4) kws.add(stem.toLowerCase())
   for (const m of term.title.normalize('NFKC').matchAll(/[（(]([^）)]+)[）)]/g)) {
     const a = norm(m[1])
     if (a.length >= 2) kws.add(a)
