@@ -49,7 +49,7 @@ Antigravity はここに JSON を置き、`npm run ingest` で `src/data/terms/*
 - 変更されるのは、該当語に `sources:` 行が1行加わることだけです。題名・本文などは変わりません。
 - 既に `sources` がある語、存在しない slug、不正な URL、`note` が10字未満の項目は却下されます(`note` はサイトには保存されず、PR の確認用)。
 - **語ごとに、実際に開いて、その語の内容が書かれていたURLだけ**を入れます。同じ URL を無関係な語に使い回さない(`npm run validate` が4語以上での使い回しを警告します)。本文が確認できない語には付けません。
-- 優先順: まず試験の基本語(`exam: true`)、次に法令・制度・数値を含む語。1PR あたり20〜30語まで。
+- 優先順: まず法令・制度・年号・数値を含む語、次にそれ以外。**1PR あたり100語まで、1PR は1分野**(進め方は `docs/ANTIGRAVITY_INSTRUCTIONS.md` のルール18)。
 - コマンド: `npm run attach-sources -- --dry-run` / `npm run attach-sources -- --keep`。PR の CI(`Verify sources`)が URL の到達と題名の記載を確認します。
 - 出典のない試験の基本語を一覧する: `node -e "import('./scripts/lib/terms-io.mjs').then(m=>m.loadAllTerms().filter(t=>t.exam&&!t.sources).forEach(t=>console.log(t.slug,t.title)))"`
 - **出典の差し替え(見直し)**: 既に `sources` がある語は、項目に `"replace": true` を付けた場合だけ差し替えられます(出典のない語に `replace` は使えません)。語に合わない出典(語が出てくるだけの応用研究など)を、定義・解説の根拠になる資料に替えるときに使います。差し替えの `note` には、新しい出典のどこに何が書いてあったかと、替える理由を書いてください。
