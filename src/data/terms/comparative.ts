@@ -517,9 +517,9 @@ export const comparativeTerms: Term[] = [
     summary:
       "オランダ憲法第23条が保障する、宗教・思想に基づいて学校を設立・運営する自由。19世紀末の「柱状化」社会を背景に確立し、公立・私立の別なく国が平等に財政支援する制度を支えている。",
     body: "オランダの教育制度を特徴づける「教育の自由(vrijheid van onderwijs)」は、憲法第23条に定められた原則であり、学校設立の自由・教育内容編成の自由・教育理念決定の自由の3つの要素からなる。この原則は、19世紀後半から20世紀にかけてオランダ社会がプロテスタント・カトリック・自由主義(公立・世俗)という「柱(pillar)」に分かれて生活していた「柱状化(verzuiling)」の時代に、各宗派・思想集団が自らの信条に基づく学校を持つ権利を求めた政治的妥協の産物として1917年に確立された。\n\n同条は、公立学校と私立学校(宗教立・理念立学校)に対して政府が同等の財政支援を行うことを義務づけている点が最大の特徴であり、私立学校であっても公立学校とほぼ同水準の公的資金を受け取りながら、独自の教育理念に基づく学校運営が可能である。20世紀には仏教・イスラームなど新たな宗派学校も加わり、モンテッソーリ校やイエナプラン校のようなオルタナティブ教育の私立学校も同じ枠組みの中で公的支援を受けて運営されている。\n\n近年では、思想・信条の自由という理念が、差別の禁止や機会の平等といった別の憲法上の要請と緊張関係に立つとの議論も起きており、学校選択の自由と教育の質・公平性の両立が課題とされている。比較教育学的には、公私二元体制を統合した「準市場型」学校制度の先駆的事例として、スウェーデンのフリスコーラ制度などと並んで参照されることが多い。",
-    relatedSlugs: ["sweden-friskola", "jenaplan", "montessori", "netherlands-freedom-of-education-subsidy", "school-choice-school-district-international"],
+    relatedSlugs: ["sweden-friskola", "jenaplan", "montessori", "school-choice-school-district-international", "charter-school", "fundamental-law-article-8-private-schools", "oecd-education"],
     isCanonical: true,
-    tags: ["オランダ", "教育の自由", "学校選択制", "公私二元制度"],
+    tags: ["オランダ", "教育の自由", "学校選択制", "公私二元制度", "公私同等助成", "学校選択"],
   },
   {
     slug: "china-shuangjian",
@@ -985,7 +985,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "ユネスコが主導する教育理念で、地球規模の諸課題を自らの問題として捉え、人権・平和・持続可能性に満ちた包摂的な社会の形成に参画する態度を育む教育。",
     body: "ユネスコ（UNESCO）がSDG4の中核的施策として強力に推進している教育アプローチであり、「グローバル・シチズンシップ教育」と呼ばれる。国家の枠組みを超えた地球規模の相互依存社会において、公正で平和かつ持続可能な世界を築く主体の育成を目指す。\n\n教育の3つの次元として、「認知的次元（地球規模の課題や多様な文化・人権に関する知識・理解・批判的思考）」「社会情動的次元（共通の人間性を感じ、他者と共感し連帯する価値観や態度）」「行動的次元（平和で持続可能な世界のために地域・国家・地球規模で責任ある行動をとる実践力）」を設定している。\n\n気候変動、貧困、難民、人種差別、紛争といった地球規模の危機に対し、ローカルとグローバルを結びつけて当事者意識を持ち、平和構築や持続可能な開発に主体的に貢献する市民性の涵養が図られている。",
-    relatedSlugs: ["sdg4", "unesco-constitution", "unesco-gem-report", "unesco-associated-schools", "belgium-linguistic-community-education", "un-principles-for-responsible-management-prme", "indigenous-language-education-revitalization"],
+    relatedSlugs: ["sdg4", "unesco-constitution", "unesco-gem-report", "unesco-associated-schools", "belgium-linguistic-community-education", "un-principles-for-responsible-management-prme", "indigenous-language-education-revitalization", "national-sovereignty-global-citizenship"],
     isCanonical: true,
     tags: ["ユネスコ", "地球市民", "平和教育", "持続可能性"],
   },
@@ -1287,19 +1287,6 @@ export const comparativeTerms: Term[] = [
     relatedSlugs: ["gymnasium", "gesamtschule-germany", "pisa", "tracking", "germany-hauptschule-restructuring-merger"],
     isCanonical: true,
     tags: ["オーストリア", "新中等学校", "分岐型教育", "教育改革"],
-  },
-  {
-    slug: "netherlands-freedom-of-education-subsidy",
-    title: "オランダ教育の自由制度",
-    reading: "おらんだきょういくのじゆうせいど",
-    kana: "お",
-    categories: ["comparative"],
-    summary:
-      "憲法第23条に基づき、宗教や教育理念に基づく自由な学校設立と、公立・私立を問わない全額公費助成を保障したオランダの公教育制度。",
-    body: "オランダの学校教育は、1917年の憲法改正（教育講和）によって成立した「教育の自由」と、公立学校と私立学校に対する「完全無差別助成」を根幹とする。信教の自由や教育理念の多様性を国家が保障し、公権力による画一的な教育支配を排除する思想が制度化された世界的な先駆例である。\n\n国民は一定の条件を満たせば、カトリックやプロテスタント等の宗教校のみならず、モンテッソーリやイエナプランなどの教育理念に基づく私立学校を自由に設立でき、運営費や教員人件費はすべて国費から等しく支給される。学区制は存在せず完全な学校選択制が敷かれており、教育監察局が共通の質保証を監督する。\n\n日本における私立学校への助成政策や、オルタナティブスクール、フリースクールに通う児童生徒への公的支援のあり方を議論する上で、多様な教育の選択肢の保障と公費負担による機会均等を実現したオランダのモデルは多大な示唆を与える。",
-    relatedSlugs: ["netherlands-school-choice", "charter-school", "fundamental-law-article-8-private-schools", "oecd-education"],
-    isCanonical: true,
-    tags: ["オランダ", "教育の自由", "公私同等助成", "学校選択"],
   },
   {
     slug: "belgium-linguistic-community-education",

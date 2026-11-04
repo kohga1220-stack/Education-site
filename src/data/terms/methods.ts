@@ -10,7 +10,7 @@ export const methodsTerms: Term[] = [
     summary:
       "教師の講義を一方的に聞くのではなく、学習者が主体的・能動的に参加する学習形態の総称。対話・協働・体験などを含む。",
     body: "アクティブラーニングとは、教師による一方向的な講義形式の授業（受動的学習）に対して、学習者自身が能動的に学習過程に関わる学習形態の総称です。グループディスカッション、発表、実験、調べ学習、ディベートなど、さまざまな活動がこれに含まれます。\n\n日本では2012年の中央教育審議会答申以降、大学教育を中心に注目され、その後、小中高の学習指導要領における「主体的・対話的で深い学び」という表現に発展的に引き継がれました。単に活動的であればよいのではなく、活動を通じて深い理解や思考力の育成につながっているかが重要とされます。\n\n協同学習、問題解決学習、反転授業など、本サイトで紹介する多くの教授法は、広い意味でアクティブラーニングの一種と位置づけられます。",
-    relatedSlugs: ["shudai-taiwa-fukai", "kyodo-gakushu", "dewey", "ltd-gakushu", "thinking-routines-project-zero", "open-closed-questioning-strategies", "responsive-revoicing-questioning", "nameplate-opinion-visualization"],
+    relatedSlugs: ["shudai-taiwa-fukai", "kyodo-gakushu", "dewey", "ltd-gakushu", "thinking-routines-project-zero", "open-closed-questioning-strategies", "responsive-revoicing-questioning", "nameplate-opinion-visualization", "sq3r-reading-comprehension-method", "course-of-study-revision-2017-three-pillars"],
     isCanonical: true,
     exam: true,
     tags: ["主体的学び", "能動的学習"],
@@ -77,7 +77,7 @@ export const methodsTerms: Term[] = [
     summary:
       "一人ひとりの学習進度・理解度・興味関心に応じて、学習内容や進め方を調整していく学習のあり方。「指導の個別化」と「学習の個性化」からなる。",
     body: "個別最適化学習とは、子ども一人ひとりの学習進度、理解度、興味関心、特性などに応じて、学習の内容や方法、ペースを調整していく学習のあり方を指します。文部科学省が掲げる「令和の日本型学校教育」の中核概念の一つです。\n\nこの考え方は、教師が個々の特性に応じて指導方法を柔軟に変える「指導の個別化」と、子ども自身が学習の進め方や課題を自分で選べるようにする「学習の個性化」の2つの側面から整理されます。ICT端末を使った学習履歴（スタディログ）の分析によって、一人ひとりに合った教材やドリルを提示することも技術的に可能になってきました。\n\nただし個別最適化学習は「一人で黙々と学ぶこと」だけを意味するのではなく、協働的な学びと組み合わせて実施することが重要だと文部科学省の資料でも強調されています。",
-    relatedSlugs: ["giga-school", "scaffolding", "kyodo-gakushu", "module-gakushu", "nudge-theory-classroom-design", "pe-video-analysis-peer-coaching", "writing-workshop-author-time", "reading-workshop-independent-reading"],
+    relatedSlugs: ["giga-school", "scaffolding", "kyodo-gakushu", "module-gakushu", "nudge-theory-classroom-design", "pe-video-analysis-peer-coaching", "writing-workshop-author-time", "reading-workshop-independent-reading", "sq3r-reading-comprehension-method"],
     isCanonical: true,
     tags: ["指導の個別化", "学習の個性化", "令和の日本型学校教育"],
   },
@@ -1984,19 +1984,6 @@ export const methodsTerms: Term[] = [
     relatedSlugs: ["peer-instruction", "kyodo-gakushu", "kobetsu-saiteki", "active-learning"],
     isCanonical: true,
     tags: ["体育指導", "相互分析", "協働学習", "情報活用"],
-  },
-  {
-    slug: "role-play-deepening-moral-education",
-    title: "役割演技法（道徳教育）",
-    reading: "やくわりえんぎほうどうとくきょういく",
-    kana: "や",
-    categories: ["methods"],
-    summary:
-      "葛藤を抱える登場人物になりきって即興的に演じ分けることで、心情を共感的に追体験し多面的な自己省察を促す道徳科の指導法。",
-    body: "道徳科における役割演技の深化法とは、道徳的葛藤を抱える登場人物の立場に立って即興的に演じ分けることで、登場人物の心情を深く共感・追体験させる指導法である。心理劇の手法を応用し、表層的な言語理解を超えて情動を伴う道徳的判断力を育む手法として洗練されてきた。\n\n授業では、登場人物が選択を迫られる場面で演技を導入する。台本をそのまま読むのではなく、学習者がその人物になりきって相手と即興の対話を交わす。演技の途中で動作を静止させ、その瞬間にどのような感情が心に渦巻いているかを問いかけたり、周囲の学習者と登場人物の苦悩について話し合ったりする。\n\n単なる模範的な回答の暗記を打破し、自分事として倫理的な判断や葛藤に向き合う深い学びが成立する。他者の置かれた立場や痛みに想像力を働かせる共感的な態度が培われ、多面的・多角的な視点から物事を捉え直す道徳科の授業改善に寄与する。",
-    relatedSlugs: ["role-playing", "shudai-taiwa-fukai", "case-method", "thinking-tools", "role-playing-moral-education-technique", "parent-child-dialogue-sheet-moral", "national-sovereignty-global-citizenship", "frugality-valuing-goods-moderation"],
-    isCanonical: true,
-    tags: ["道徳教育", "役割演技", "心情理解", "道徳的葛藤"],
   },
   {
     slug: "feeling-meter-moral-line",

@@ -104,7 +104,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "子どもが社会的・職業的に自立していくために必要な力や態度を、学校教育全体を通じて計画的に育成していく教育のこと。単なる進路指導とは異なる。",
     body: "キャリア教育とは、子ども一人ひとりが、社会の中で自分の役割を果たしながら自立して生きていくために必要な力や態度を、発達段階に応じて計画的・組織的に育成していく教育活動を指します。中央教育審議会の答申では「一人一人の社会的・職業的自立に向け、必要な基盤となる能力や態度を育てることを通して、キャリア発達を促す教育」と定義されています。\n\n進学先や就職先を選ぶことに焦点を当てた従来型の「進路指導」とは異なり、キャリア教育は小学校段階から始まり、働くことの意義を理解する、他者と協力する、自分で意思決定するといった、生涯にわたるキャリア発達の基盤を育てることを目指す、より広い概念です。\n\n職場見学や職業体験（インターンシップ）といった体験的な活動だけでなく、各教科の学習の中で「学ぶことと社会とのつながり」を意識させる指導も、キャリア教育の重要な一部として位置づけられています。",
-    relatedSlugs: ["tokubetsu-katsudo", "jiko-shido-noryoku", "career-passport-reflective-guidance", "project-internship-problem-solving", "labor-dignity-gratitude-for-work", "designated-school-job-offer-system", "neet-freeter-school-to-work-transition-crisis", "krumboltz-planned-happenstance"],
+    relatedSlugs: ["tokubetsu-katsudo", "jiko-shido-noryoku", "career-passport-reflective-guidance", "project-internship-problem-solving", "labor-dignity-gratitude-for-work", "designated-school-job-offer-system", "neet-freeter-school-to-work-transition-crisis", "krumboltz-planned-happenstance", "statement-of-purpose-interview-coaching"],
     isCanonical: true,
     exam: true,
     tags: ["キャリア発達", "職業体験"],
@@ -118,7 +118,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学級活動・生徒会活動・学校行事・クラブ活動などからなる、学習指導要領に位置づけられた教育活動。「なすことによって学ぶ」を重視する。",
     body: "特別活動とは、学級活動（ホームルーム活動）、児童会・生徒会活動、クラブ活動（小学校）、学校行事という、教科の学習とは異なる形で学習指導要領に位置づけられている教育活動の総称です。\n\n特別活動の大きな特徴は、集団の一員としてよりよい生活や人間関係を築くために、子どもたち自身が話し合い、合意形成を図り、決めたことを実行していくという「なすことによって学ぶ」プロセスを重視する点にあります。学級会での話し合い、文化祭や運動会の企画・運営、係活動などが代表的な活動です。\n\nこうした自治的な活動の経験は、規範意識や自己指導能力、シティズンシップ教育が目指す社会参加の力の土台を築くものとして重要視されており、教科の学習だけでは育ちにくい「集団の中で生きる力」を育む場として、日本の学校教育の特色の一つとされています。",
-    relatedSlugs: ["jiko-shido-noryoku", "citizenship-education", "kihan-ishiki", "student-moderator-committee-training", "morning-homeroom-daily-moral-instruction", "school-lunch-cleaning-civic-responsibility", "club-activities-sportsmanship-etiquette", "classroom-goal-setting-shared-norms"],
+    relatedSlugs: ["jiko-shido-noryoku", "citizenship-education", "kihan-ishiki", "student-moderator-committee-training", "morning-homeroom-daily-moral-instruction", "school-lunch-cleaning-civic-responsibility", "club-activities-sportsmanship-etiquette", "classroom-goal-setting-shared-norms", "bicycle-safety-education-helmet-promotion"],
     isCanonical: true,
     exam: true,
     tags: ["学級活動", "自治的活動"],
@@ -501,7 +501,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "事件・事故・災害の発生時に児童生徒の心身の安全を守り、教育活動の早期再開を図るための組織的な危機対応体制です。",
     body: "学校危機管理とは、事件・事故・自然災害・自殺など児童生徒の生命や心身に重大な影響を及ぼす事態が発生した際に、被害を最小限にとどめ、教育活動を早期に再開するための組織的な体制と対応を指します。予防・危機発生時の対応・事後対応の3段階で捉えられます。\n\n危機発生時には、管理職を中心とした対策本部の設置、教育委員会や関係機関への報告、正確な情報の把握と保護者への説明、報道対応などを迅速かつ組織的に行う必要があります。個々の教職員の判断に委ねず、あらかじめ定めたマニュアルに基づく対応が求められます。\n\n事後対応では、児童生徒や教職員の心のケアが重要となり、スクールカウンセラーによる緊急派遣や心理的応急処置の実施が行われます。日頃からの危機管理マニュアルの整備と訓練が、実効性のある危機対応の基盤となります。",
-    relatedSlugs: ["psychological-first-aid", "school-counselor", "ptsd-gakko-taio", "intruder-response-drill-sasumata-deployment", "special-school-bus-safety-management", "school-safety-crisis-management-liability", "child-consultation-center-temporary-custody", "sudden-death-crisis-management-all-school-assembly"],
+    relatedSlugs: ["psychological-first-aid", "school-counselor", "ptsd-gakko-taio", "intruder-response-drill-sasumata-deployment", "special-school-bus-safety-management", "school-safety-crisis-management-liability", "child-consultation-center-temporary-custody", "sudden-death-crisis-management-all-school-assembly", "school-lunch-foreign-object-allergy-emergency"],
     isCanonical: true,
     tags: ["危機管理", "学校安全", "心のケア"],
   },
@@ -671,7 +671,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "生徒が自らの将来の進路(進学・就職)を主体的に選択・決定できるよう、学校教育全体を通じて行われる指導・援助活動。より広範な人生設計を対象とするキャリア教育の中核的な実践領域として位置づけられる。",
     body: "進路指導とは、生徒がみずからの生き方を考え、将来の進路選択・決定を主体的に行うことができるよう、学校が組織的・計画的に行う指導・援助の総称であり、伝統的には主に中学校・高等学校において進学先・就職先の選択という具体的な出口指導として展開されてきた。学級活動やホームルーム活動、総合的な学習(探究)の時間、教科指導、個別面談など学校教育全体を通じて行われ、進路情報の提供、適性検査、進路相談、職場見学・職場体験、上級学校訪問などの活動を含む。\n\n1999年の中央教育審議会答申以降、進路指導は小学校段階からの発達段階に応じた「生き方指導」を含む、より広い「キャリア教育」の枠組みの中に位置づけ直された。キャリア教育が幼児期から成人期までの長期的な社会的・職業的自立を見据えた教育活動全体を指すのに対し、進路指導はその中でも主に中学・高校段階における具体的な進路選択・決定に関わる指導実践を指すという整理がなされている。両者はしばしば一体的に語られるが、進路指導はキャリア教育の一部を構成する実践領域と理解される。\n\n近年は、偏差値や学校の序列に基づく「出口指導」偏重への反省から、生徒本人の適性や興味関心、社会の変化を踏まえた主体的な進路選択を支援する方向へと転換が図られている。キャリア・パスポートの活用や、専門高校・総合学科における多様な進路実現の支援、高大接続改革を踏まえた進路指導の充実などが今日的な課題となっている。",
-    relatedSlugs: ["career-education", "career-passport", "shokuba-taiken", "seibetsu-senko-bunri", "career-choice-autonomous-decision-support", "vocational-readiness-test-vrt-utilization", "general-aptitude-test-battery-gatb", "career-counseling-basic-skills-listening"],
+    relatedSlugs: ["career-education", "career-passport", "shokuba-taiken", "seibetsu-senko-bunri", "career-choice-autonomous-decision-support", "vocational-readiness-test-vrt-utilization", "general-aptitude-test-battery-gatb", "career-counseling-basic-skills-listening", "statement-of-purpose-interview-coaching"],
     isCanonical: true,
     tags: ["進路指導", "キャリア教育", "生き方指導"],
   },
@@ -970,7 +970,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学校安全を生活安全・交通安全・災害安全の三領域でとらえ、学校保健安全法に基づき学校安全計画で安全教育と安全管理を進める枠組み。",
     body: "学校安全は、児童生徒の安全に関わる諸活動を指し、安全教育と安全管理、そして両者を円滑に進める組織活動から成り立つとされます。内容は三つの領域で整理されます。生活安全は日常生活で起こる事件・事故（誘拐や傷害などの犯罪被害の防止を含む）、交通安全は様々な交通場面における危険と安全、災害安全は地震、津波、火山災害、風水害などの自然災害（火災や原子力災害を含む）です。\n\n学校保健安全法第27条は、すべての学校に学校安全計画の策定と実施を義務づけています。計画には、施設・設備の安全点検、通学を含む日常生活での安全指導、職員研修などを盛り込み、安全教育と安全管理の内容を関連づけた年間の総合的な基本計画とされます。同法第29条は、危険等発生時の対処要領（いわゆる危機管理マニュアル）の作成を求めています。\n\n国は学校保健安全法に基づき、学校安全の推進に関する計画を定めています。第3次計画は2022年3月25日に閣議決定され、2022年度から2026年度までの5年間を対象とし、地域の多様な主体と連携した取り組みと、子どもの視点を加えた安全対策の推進などを掲げています。計画は作るだけでなく、訓練や点検を通じて実効性を高めることが課題です。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-keisatsu-renkei", "ptsd-gakko-taio", "school-safety-crisis-management-liability", "probation-officer-volunteer-network-prevention", "school-safety-plan-disaster-crime-traffic", "school-route-safety-inspection-traffic-map"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-keisatsu-renkei", "ptsd-gakko-taio", "school-safety-crisis-management-liability", "probation-officer-volunteer-network-prevention", "school-safety-plan-disaster-crime-traffic", "school-route-safety-inspection-traffic-map", "bicycle-safety-education-helmet-promotion", "community-volunteer-after-school-watching"],
     isCanonical: true,
     tags: ["学校安全", "安全教育", "危機管理"],
   },

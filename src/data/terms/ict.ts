@@ -824,7 +824,7 @@ export const ictTerms: Term[] = [
     summary:
       "デジタル教材の利用履歴や解答結果など、児童生徒の学習過程で生じるデータの蓄積。個別最適な学びや学習分析の基盤となる。",
     body: "スタディ・ログ(学習ログ)とは、児童生徒がデジタル教材やドリル、学習eポータルなどを利用する過程で自動的に記録される、解答内容、正誤、学習時間、進捗状況といった学習履歴データの総称である。文部科学省の教育データ利活用に関する議論の中では、児童生徒の「学びの記録」として、学習eポータルなどを通じて教員が把握・活用できるようにすることが重視されている。\n\nスタディ・ログは、ラーニングアナリティクスやアダプティブラーニングの基盤データとして用いられ、個々の児童生徒のつまずきの傾向を可視化したり、学級・学校単位での傾向を把握したりする際に活用される。またSTUDY LOGやその類似概念は、教員の指導改善だけでなく、児童生徒自身が自分の学習過程を振り返るための材料としても位置づけられ、自己調整学習を支える役割も期待されている。\n\n一方で、学習ログは機微性の高い教育データであり、事業者ごとにデータ形式や保存期間が異なるため、進学・転校時のデータ引き継ぎが困難であるという課題がある。デジタル庁・文部科学省などが策定した「教育データ利活用ロードマップ」では、学習ログを含む教育データの標準化やポータビリティの確保が中長期的な目標として掲げられている。",
-    relatedSlugs: ["learning-analytics", "kyoiku-data-katsuyo-roadmap", "gakushu-e-portal", "adaptive-learning", "educational-data-standards-mext-codes"],
+    relatedSlugs: ["learning-analytics", "kyoiku-data-katsuyo-roadmap", "gakushu-e-portal", "adaptive-learning", "kyoiku-data-hyojun"],
     isCanonical: true,
     tags: ["学習ログ", "教育データ", "ラーニングアナリティクス"],
   },
@@ -980,9 +980,9 @@ export const ictTerms: Term[] = [
     summary:
       "学校のICT運用を組織的・広域的に支えるため、ヘルプデスクやネットワーク調査、ICT支援人材の育成などを担う支援体制。国が整備費を補助した。",
     body: "GIGAスクール運営支援センターは、1人1台端末環境の安定的な運用を、学校や個人の頑張りに頼るのではなく、組織的かつ広域的に支援するための仕組みである。文部科学省は令和4年度に新規事業としてこの整備を打ち出し、その要求額は64億円とされた。従来の「人」中心の支援から「組織」中心の広域支援体制への発展を掲げている。\n\n主な機能は、ヘルプデスクの開設、学校ネットワークの調査と応急対応、ICT支援員など支援人材の育成・確保、休日や長期休業中のトラブル対応などである。実施形態には、都道府県などの中核的自治体が域内の市町村と連携して行う「連携実施型」と、自治体が単独で行う「単独実施型」があり、原則は連携型とされた。\n\n補助割合は年度を追って段階的に引き下げられる設計だったとされ、事業の継続は各自治体の財源に委ねられていく。京都府のように共通の運営支援センター体制を構築し、希望する市町と個別に契約する例や、複数年の業務委託で運営する例が見られる。補助の条件や最新の状況は、文部科学省の公表資料で確認する必要がある。",
-    relatedSlugs: ["giga-school", "ict-shien-in", "giga-school-supporter", "giga-school-dai2ki", "giga-operation-support-center-cooperation", "device-damage-loss-warranty-spare-management"],
+    relatedSlugs: ["giga-school", "ict-shien-in", "giga-school-supporter", "giga-school-dai2ki", "device-damage-loss-warranty-spare-management"],
     isCanonical: true,
-    tags: ["GIGAスクール", "ICT支援", "ヘルプデスク"],
+    tags: ["GIGAスクール", "ICT支援", "ヘルプデスク", "広域支援", "自治体連携", "保守管理", "相談窓口"],
   },
   {
     slug: "mext-seiseiai-guideline",
@@ -2038,19 +2038,6 @@ export const ictTerms: Term[] = [
     tags: ["統合型校務支援", "学習eポータル", "データ連携", "校務効率化"],
   },
   {
-    slug: "educational-data-standards-mext-codes",
-    title: "教育データ標準化",
-    reading: "きょういくでーたひょうじゅんか",
-    kana: "き",
-    categories: ["ict"],
-    summary:
-      "児童生徒の学習履歴や指導記録を学校や自治体間で円滑に連携・活用するため、文部科学省が進める教育データの共通ルールおよびコード体系の整備動向。",
-    body: "教育データ標準化とは、児童生徒の学習履歴や指導記録などの教育データを、学校や教育委員会、民間サービス間で円滑に連携・活用できるように共通ルールやコード体系を策定する取り組みである。文部科学省が策定した工程表に基づき、データ相互運用性の確保が進められている。\n\n授業や校務においては、学校コードや教科・単元コードなどを共通基盤に適用することで、異なる学習支援システムや校務支援システム間でのシームレスなデータ引継ぎが可能となる。教員は児童生徒の過去の学習ログを容易に把握でき、学校段階を越えた指導の連続性を保てる。\n\nこれにより、一人ひとりの習熟度に応じた個別最適な学びの実現や、学校現場の負担軽減が期待される。同時に、児童生徒の個人情報保護やデータ管理基準の徹底が不可欠であり、安全で信頼性の高い教育基盤の確立が求められている。",
-    relatedSlugs: ["kyoiku-data-hyojun", "kyoiku-data-katsuyo-roadmap", "education-big-data", "kyoiku-dx"],
-    isCanonical: true,
-    tags: ["教育データ", "標準化", "コード体系", "文部科学省"],
-  },
-  {
     slug: "digital-cumulative-record-data-transfer",
     title: "指導要録の電子化移行",
     reading: "しどうようろくのでんしかいこう",
@@ -2114,19 +2101,6 @@ export const ictTerms: Term[] = [
     relatedSlugs: ["giga-school", "giga-school-dai2ki", "kyoiku-dx", "active-learning"],
     isCanonical: true,
     tags: ["指導力向上", "教員研修", "校内研修", "授業設計"],
-  },
-  {
-    slug: "giga-operation-support-center-cooperation",
-    title: "GIGA運営支援センター",
-    reading: "ぎがうんえいしえんせんたー",
-    kana: "A–Z",
-    categories: ["ict"],
-    summary:
-      "学校端末やネットワークの保守運用を一元的に支えるため、都道府県や複数自治体が共同で運営支援センターを設置・連携させて支援を行う体制。",
-    body: "GIGAスクール運営支援センターの広域連携とは、学校端末やネットワークの円滑な運用を一元的に支援するため、都道府県や複数の基礎自治体が共同で専門窓口を設置・連携させる仕組みである。自治体間の体制格差の解消を目指している。\n\nセンターでは、各校からの故障相談や操作問い合わせを受けるヘルプデスクを集約管理し、迅速な保守・交換手配を行う。さらに、共通の活用手引きの作成や、ICT支援員の広域的な巡回計画を調整することで、均質で安定した教育環境を提供する。\n\n広域的な連携体制の構築は、小規模自治体でも高度な専門支援を確保することを可能にし、持続可能な学校DX基盤を支える。教員が機器管理の不安から解放され、個別最適な学びと協働的な学びの充実に専念できる基盤としての発展が期待される。",
-    relatedSlugs: ["giga-unei-shien-center", "giga-school", "giga-school-dai2ki", "ict-shien-in"],
-    isCanonical: true,
-    tags: ["広域支援", "自治体連携", "保守管理", "相談窓口"],
   },
   {
     slug: "device-damage-loss-warranty-spare-management",

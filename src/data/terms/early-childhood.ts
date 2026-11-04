@@ -10,7 +10,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "文部科学省が告示する幼稚園教育課程の国家基準。健康・人間関係など6領域で構成される。",
     body: "幼稚園教育要領は、学校教育法に基づき文部科学省が告示する幼稚園教育課程の国家基準です。全国どこの幼稚園でも一定水準の教育が受けられるよう、教育の目標やねらい、内容を定めています。おおむで10年ごとに改訂され、現行版は2017年（平成29年）に告示され2018年度から実施されています。\n\n教育内容は「健康」「人間関係」「環境」「言葉」「表現」の5領域に整理されており、これらは独立した教科ではなく、遊びを中心とした生活全体を通して相互に関連づけながら育まれるものとされています。\n\n2017年改訂では、小学校との円滑な接続を意識し「幼児期の終わりまでに育ってほしい姿」が新たに明記されました。同時改訂された保育所保育指針・幼保連携型認定こども園教育・保育要領と内容の整合が図られています。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "youho-renkei-kyoiku-hoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "kurahashi-sozo-kindergarten-essence", "wada-minoru-kindergarten-play-theory", "kindergarten-order-1926-japan-first-law", "froebel-education-of-man-sacred-play"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "youho-renkei-kyoiku-hoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "kurahashi-sozo-kindergarten-essence", "wada-minoru-kindergarten-play-theory", "kindergarten-order-1926-japan-first-law", "froebel-education-of-man-sacred-play", "rest-activity-balance-daily-routine-structure"],
     isCanonical: true,
     tags: ["幼稚園", "教育課程", "5領域"],
   },
@@ -23,7 +23,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "厚生労働省が告示する保育所保育の国家基準。養護と教育を一体的に行うことを掲げる。",
     body: "保育所保育指針は、児童福祉施設である保育所における保育の基本原則や内容を定めた、厚生労働省（現・こども家庭庁）告示の基準です。保育所は児童福祉施設のため、幼稚園教育要領とは異なる法体系に位置づけられますが、就学前の子どもの育ちを支える点で共通の役割を担っています。\n\n指針では、子どもの生命の保持と情緒の安定を図る「養護」と、健やかな成長発達を促す「教育」を、切り離すことなく一体的に展開することが保育所保育の基本とされています。乳児保育に関する記載が充実している点も特徴です。\n\n2017年改訂により、幼稚園教育要領・幼保連携型認定こども園教育・保育要領と同時に見直され、「幼児期の終わりまでに育ってほしい姿」など共通の視点が盛り込まれ、三法令の整合性が高められました。",
-    relatedSlugs: ["youchien-kyoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "hoikushi-haichi-kijun", "kurahashi-sozo-kindergarten-essence", "froebel-education-of-man-sacred-play", "uk-early-years-foundation-stage-eyfs", "traditional-nursery-rhymes-touch-play"],
+    relatedSlugs: ["youchien-kyoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "hoikushi-haichi-kijun", "kurahashi-sozo-kindergarten-essence", "froebel-education-of-man-sacred-play", "uk-early-years-foundation-stage-eyfs", "traditional-nursery-rhymes-touch-play", "handwashing-gargling-hygiene-habituation", "rest-activity-balance-daily-routine-structure"],
     isCanonical: true,
     tags: ["保育所", "養護と教育", "厚生労働省告示"],
   },
@@ -348,7 +348,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児期の学びは教科学習ではなく、日々の生活と遊びの中に自然な形で存在するという幼児教育の基本的な考え方。",
     body: "「生活と遊びを通した学び」とは、幼児期の子どもにとっての学びは、時間割に沿った教科の学習としてではなく、食事や着替え、片付けといった日々の生活の営みと、友達や物との自発的な遊びの中に、自然な形で存在しているという幼児教育の基本的な考え方を表す言葉です。\n\n例えば衣服のボタンを自分で留める、順番を待つ、友達と積み木を分け合うといった何気ない生活場面の一つひとつが、子どもにとっては自立心や社会性を育む重要な学びの機会になります。保育者はこうした生活や遊びの意味を丁寧に読み取り、環境や関わりを整えることが求められます。\n\nこの考え方は「環境を通した教育」や「遊びを通しての総合的な指導」という幼稚園教育要領等の基本原則の土台となっており、小学校教育の教科学習とは異なる、幼児教育独自の学びのあり方を説明する際にしばしば用いられます。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "asobi-sogoteki-shido", "sodachite-hoshii-sugata", "food-education-vegetable-growing-cooking", "mealtime-manners-social-dining-atmosphere", "eating-utensils-chopsticks-transition", "toilet-training-responsive-guidance", "dressing-undressing-self-help-skills"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "asobi-sogoteki-shido", "sodachite-hoshii-sugata", "food-education-vegetable-growing-cooking", "mealtime-manners-social-dining-atmosphere", "eating-utensils-chopsticks-transition", "toilet-training-responsive-guidance", "dressing-undressing-self-help-skills", "handwashing-gargling-hygiene-habituation"],
     isCanonical: true,
     tags: ["生活と遊び", "幼児教育の独自性", "自立心"],
   },

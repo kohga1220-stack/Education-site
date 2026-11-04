@@ -60,3 +60,7 @@ npm run validate && git add -A && git commit -m "rebase: 用語を再取り込�
 
 ## 孤立語の確認(任意)
 `node scripts/suggest-related.mjs`(Node 22.18 以上)は、他の語の `relatedSlugs` に一度も出てこない語(孤立語)を数え、同じタグ・同分野・本文での言及などから、リンク元の候補を提案する。`--apply` で既存語の `relatedSlugs` に追記し、`--list` で提案しても残る孤立語を一覧する。用語ページは、本文中に出てくる他の用語名を自動でリンクにし、「この用語を参照している用語」も表示する(`src/lib/autolink.ts`)。
+
+## 二重登録の統合(Claude Code)
+
+同じ概念が2つの語で登録されていたら `node scripts/merge-terms.mjs --keep <残す slug> --drop <消す slug>` で統合する(`--dry-run` で確認可)。残す語に 副分野・タグ・関連語・出典・試験の基本語フラグ を引き継ぎ、全用語の `relatedSlugs` の参照を付け替える。本文は残す語のものを使う。実行後に `validate` / `tsc` / `build` を通す。
