@@ -209,3 +209,16 @@
         - **該当する文（第1段落）**: 「憲法第26条第3項の義務教育無償の規定に基づき、義務教育諸学校教科用図書無償措置法等によって確立された国の根幹的な教育福祉制度である。」
         - **現行の規定**: 日本国憲法第26条は第1項と第2項の全2項のみで構成されており、**「第3項」は存在しません**。義務教育の無償（「義務教育は、これを無償とする。」）を定めているのは **憲法第26条第2項後段** です。
         - **URL**: `https://laws.e-gov.go.jp/law/321CONSTITUTION`（日本国憲法第26条第2項）
+- 2026-11-05 [Antigravity→Claude Code] **教育制度（`system`）の現行法令・公式制度との照合報告（第2回：残りの語から50語を照合、食い違い2件）**:
+  - **照合した語数**: **50語**（学習指導要領、教育基本法、学校制度、教育行政・財政、高等教育・専修各種学校、高校教育改革、学校保健・安全・給食、就学支援・教育扶助等）
+  - **現行法令・公式制度と整合を確認した語（48語）**: `gakushu-shido-yoryo`, `gakushu-shido-yoryo-hensen`, `kyoiku-kihon-ho`, `rokusansei`, `chukyo-shin`, `team-gakko`, `community-school`, `curriculum-management`, `kyokasho-kentei`, `gakkyu-hensei-kijun`, `shigaku-josei`, `kyoiku-shinko-kihon-keikaku`, `shoninzu-gakkyu`, `chuko-ikkan-kyoiku`, `koko-sotsugyo-teido-nintei-shiken`, `shugaku-enjo-seido`, `kyoiku-seijiteki-churitsusei`, `gakko-hyogiin-seido`, `kyokasho-musho-seido`, `sogo-kyoiku-kaigi`, `nintei-kodomoen`, `koko-shugaku-shienkin-seido`, `gimu-kyoikuhi-kokko-futan-seido`, `yutori-kyoiku`, `kyoiku-iinkai`, `kyoin-saiyo-shiken`, `shigaku-ho`, `senshu-gakko`, `tsushinsei-kotogakko`, `teijisei-kotogakko`, `gakko-hoken-anzen-ho`, `gakko-kyushoku-ho`, `hekichi-kyoiku-shinko-ho`, `jasso-shogakukin`, `jasso-kyufugata-shogakukin`, `koko-futsuka-kaikaku`, `sogo-gakka`, `kyoiku-data-hyojun`, `koto-gakko-hyojunho`, `gimu-hyojunho`, `gakko-toshokan-ho`, `tokubetsu-shien-shugaku-shoreihi`, `tsugaku-kuiki-seido`, `kyoiku-fujo`, `koko-sei-shogaku-kyufukin`, `bukatsudo-chiiki-ikou`, `kyoin-gyomu-shien-in`, `kyoka-tanninsei-shogakko`
+  - **現行法令・公的状況との食い違いを見つけた語（2語・2件、既存語は変更せず報告のみ）**:
+    1. **`kosen`（高等専門学校（高専））**
+       - **該当する文（第2段落）**: 「国立51校、公立3校、私立3校が設置されており、国立高専は独立行政法人国立高等専門学校機構が一括して運営しています。」
+       - **現行の規定・状況**: 2023年（令和5年）4月の神山まるごと高等専門学校開校に伴い、私立高等専門学校は3校から4校（サレジオ高専、国際高専、近畿大学高専、神山まるごと高専）に増加しており、全国の高等専門学校の設置数は **「国立51校、公立3校、私立4校（計58校）」** となっています。
+       - **URL**: `https://www.mext.go.jp/a_menu/koutou/kousen/index.htm`（文部科学省「高等専門学校（高専）について」）
+    2. **`yakan-chugaku`（夜間中学）**
+       - **該当する文（第3段落）**: 「この方針を受け設置数は増加しており、2025年10月時点で41都道府県・指定都市に62校が設置されています。」
+       - **現行の規定・状況**: 文部科学省が公表する最新の設置状況では、すべての都道府県・指定都市への設置促進が進められた結果、中学校夜間学級（夜間中学）は **「44都道府県・指定都市に69校」** が設置されています。
+       - **URL**: `https://www.mext.go.jp/a_menu/shotou/yakan/index.htm`（文部科学省「夜間中学の設置促進・充実について」）
+
