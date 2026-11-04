@@ -810,6 +810,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教員免許", "法制度", "教員研修", "2022年改正", "教員免許更新制", "教員養成", "教員免許法"],
+    sources: ["https://www.jstage.jst.go.jp/article/jssep/46/0/46_449/_article/-char/ja"],
   },
   {
     slug: "shukan-kyoyu-shido-kyoyu",

@@ -14,6 +14,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["主体的学び", "能動的学習"],
+    sources: ["https://www.jstage.jst.go.jp/article/taiseikiyou/20/0/20_141/_article/-char/ja"],
   },
   {
     slug: "kyodo-gakushu",
@@ -28,6 +29,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["肯定的相互依存", "グループ学習"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyodokyouiku/15/0/15_11/_article/-char/ja"],
   },
   {
     slug: "mondai-kaiketsu",
@@ -94,6 +96,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["発問技術", "開いた発問"],
+    sources: ["https://www.jstage.jst.go.jp/article/celes/51/0/51_125/_article/-char/ja"],
   },
   {
     slug: "shido-an",
@@ -190,6 +193,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["アロンソン", "協同学習", "エキスパート活動"],
+    sources: ["https://www.jstage.jst.go.jp/article/uaesj/54/1/54_297/_article/-char/ja"],
   },
   {
     slug: "lesson-study",
@@ -310,6 +314,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["フィリップス66法", "小集団討議", "協同学習"],
+    sources: ["https://www.jstage.jst.go.jp/article/arepj1962/43/0/43_156/_article/-char/ja"],
   },
   {
     slug: "brainstorming",
@@ -607,6 +612,7 @@ export const methodsTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["単元設計", "真正の評価", "カリキュラム論"],
+    sources: ["https://www.jstage.jst.go.jp/article/jssep/48/0/48_697/_article/-char/ja"],
   },
   {
     slug: "authentic-learning",

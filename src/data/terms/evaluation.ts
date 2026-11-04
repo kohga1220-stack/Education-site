@@ -29,6 +29,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["評定", "期末テスト"],
+    sources: ["https://www.jstage.jst.go.jp/article/nasemjournal/47/0/47_13/_article/-char/ja"],
   },
   {
     slug: "shindan-hyoka",
@@ -43,6 +44,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["レディネス", "実態把握"],
+    sources: ["https://www.jstage.jst.go.jp/article/thpt/27/0/27_0_14/_article/-char/ja"],
   },
   {
     slug: "portfolio-hyoka",
@@ -57,6 +59,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学びの過程", "自己評価"],
+    sources: ["https://www.jstage.jst.go.jp/article/pjmj/58/1/58_49/_article/-char/ja"],
   },
   {
     slug: "rubric-hyoka",
@@ -71,6 +74,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["評価基準", "パフォーマンス評価"],
+    sources: ["https://www.jstage.jst.go.jp/article/jsira/6/0/6_75/_article/-char/ja"],
   },
   {
     slug: "kanten-betsu-hyoka",
@@ -85,6 +89,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["指導要録", "3観点"],
+    sources: ["https://www.jstage.jst.go.jp/article/jtsjs/109/0/109_217/_article/-char/ja"],
   },
   {
     slug: "zettai-hyoka",
@@ -181,6 +186,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["パフォーマンス課題", "ルーブリック", "資質・能力"],
+    sources: ["https://www.jstage.jst.go.jp/article/faruawpsj/51/2/51_143/_article/-char/ja"],
   },
   {
     slug: "authentic-assessment",
@@ -349,6 +355,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["縦断的個人内評価", "横断的個人内評価", "進歩の評価"],
+    sources: ["https://www.jstage.jst.go.jp/article/doutokutokyouiku/335/0/335_3/_article/-char/ja"],
   },
   {
     slug: "g-riron",
@@ -1229,6 +1236,7 @@ export const evaluationTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ハロー効果", "評定誤差", "評価統制", "客観性"],
+    sources: ["https://www.jstage.jst.go.jp/article/jasmin/202011/0/202011_89/_article/-char/ja"],
   },
   {
     slug: "leniency-bias-assessment-control",

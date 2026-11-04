@@ -2013,6 +2013,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["保存概念", "ピアジェ", "具体的操作期", "論理的思考"],
+    sources: ["https://www.jstage.jst.go.jp/article/formersjst/22/3/22_25/_article/-char/ja"],
   },
   {
     slug: "four-sources-of-self-efficacy",
