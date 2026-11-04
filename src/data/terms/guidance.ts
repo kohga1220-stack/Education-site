@@ -386,6 +386,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["2016年成立", "多様な学びの場", "夜間中学", "教育機会確保法", "不登校支援", "多様な学び"],
+    sources: ["https://kotobank.jp/word/%E6%95%99%E8%82%B2%E6%A9%9F%E4%BC%9A%E7%A2%BA%E4%BF%9D%E6%B3%95-1817744"],
   },
   {
     slug: "jido-gyakutai-boshi-ho",

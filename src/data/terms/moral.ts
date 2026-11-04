@@ -322,6 +322,7 @@ export const moralTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["明治23年", "忠君愛国", "GHQ"],
+    sources: ["https://kotobank.jp/word/%E6%95%99%E8%82%B2%E5%8B%85%E8%AA%9E-52408"],
   },
   {
     slug: "dotokusei-sanyoso",
@@ -1025,6 +1026,7 @@ export const moralTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["子どもの権利", "国際条約", "人権"],
+    sources: ["https://kotobank.jp/word/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E6%A8%A9%E5%88%A9%E6%9D%A1%E7%B4%84-167658"],
   },
   {
     slug: "dowa-kyoiku",

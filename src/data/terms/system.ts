@@ -14,6 +14,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["文部科学省", "カリキュラム基準", "告示"],
+    sources: ["https://kotobank.jp/word/%E5%AD%A6%E7%BF%92%E6%8C%87%E5%B0%8E%E8%A6%81%E9%A0%98-43639"],
   },
   {
     slug: "gakushu-shido-yoryo-hensen",
@@ -41,6 +42,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育の憲法", "人格の完成"],
+    sources: ["https://kotobank.jp/word/%E6%95%99%E8%82%B2%E5%9F%BA%E6%9C%AC%E6%B3%95-52380"],
   },
   {
     slug: "gakko-kyoiku-ho",
@@ -55,6 +57,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学校制度", "就学義務"],
+    sources: ["https://kotobank.jp/word/%E5%AD%A6%E6%A0%A1%E6%95%99%E8%82%B2%E6%B3%95-45168"],
   },
   {
     slug: "gimu-kyoiku",
@@ -69,6 +72,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["就学義務", "無償"],
+    sources: ["https://kotobank.jp/word/%E7%BE%A9%E5%8B%99%E6%95%99%E8%82%B2-51617"],
   },
   {
     slug: "rokusansei",
@@ -177,6 +181,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育職員免許法", "教員資格", "相当免許状主義"],
+    sources: ["https://kotobank.jp/word/%E6%95%99%E5%93%A1%E5%85%8D%E8%A8%B1%E7%8A%B6-477741"],
   },
   {
     slug: "shigaku-josei",
@@ -204,6 +209,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育基本法", "国家戦略", "中央教育審議会"],
+    sources: ["https://kotobank.jp/word/%E6%95%99%E8%82%B2%E6%8C%AF%E8%88%88%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB-3194937"],
   },
   {
     slug: "shoninzu-gakkyu",
@@ -270,6 +276,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教育扶助", "学校教育法", "経済的支援"],
+    sources: ["https://kotobank.jp/word/%E5%B0%B1%E5%AD%A6%E6%8F%B4%E5%8A%A9%E5%88%B6%E5%BA%A6-526373"],
   },
   {
     slug: "kyoiku-seijiteki-churitsusei",
@@ -297,6 +304,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["開かれた学校", "学校運営", "地域連携"],
+    sources: ["https://kotobank.jp/word/%E5%AD%A6%E6%A0%A1%E8%A9%95%E8%AD%B0%E5%93%A1%E5%88%B6%E5%BA%A6-666885"],
   },
   {
     slug: "kyokasho-musho-seido",
@@ -324,6 +332,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教員研修", "服務", "身分保障"],
+    sources: ["https://kotobank.jp/word/%E6%95%99%E8%82%B2%E5%85%AC%E5%8B%99%E5%93%A1%E7%89%B9%E4%BE%8B%E6%B3%95-52391"],
   },
   {
     slug: "shido-shuji",
@@ -413,6 +422,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学習指導要領", "学校週5日制", "生きる力"],
+    sources: ["https://kotobank.jp/word/%E3%82%86%E3%81%A8%E3%82%8A%E6%95%99%E8%82%B2-155065"],
   },
   {
     slug: "kyoiku-iinkai",
@@ -559,6 +569,7 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学校保健", "学校安全", "健康診断"],
+    sources: ["https://kotobank.jp/word/%E5%AD%A6%E6%A0%A1%E4%BF%9D%E5%81%A5%E5%AE%89%E5%85%A8%E6%B3%95-45185"],
   },
   {
     slug: "gakko-kyushoku-ho",

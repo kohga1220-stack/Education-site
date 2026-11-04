@@ -28,6 +28,7 @@ export const specialTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["障害者差別解消法", "建設的対話"],
+    sources: ["https://kotobank.jp/word/%E5%90%88%E7%90%86%E7%9A%84%E9%85%8D%E6%85%AE-686020"],
   },
   {
     slug: "kobetsu-shien-keikaku",
@@ -186,6 +187,7 @@ export const specialTerms: Term[] = [
       ],
     },
     tags: ["学習指導要領", "6区分27項目", "個別の指導計画"],
+    sources: ["https://kotobank.jp/word/%E8%87%AA%E7%AB%8B%E6%B4%BB%E5%8B%95-1550249"],
   },
   {
     slug: "icf",
