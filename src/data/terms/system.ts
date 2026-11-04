@@ -544,8 +544,8 @@ export const systemTerms: Term[] = [
   },
   {
     slug: "shugaku-yuyo-menjo",
-    title: "就学義務の猶予・免除",
-    reading: "しゅうがくぎむのゆうよ・めんじょ",
+    title: "就学義務の猶予又は免除",
+    reading: "しゅうがくぎむのゆうよまたはめんじょ",
     kana: "し",
     categories: ["system", "special"],
     summary:
@@ -554,7 +554,7 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gimu-kyoiku", "iryoteki-care-ji", "futoko", "gakureibo", "gakko-kyoiku-ho", "school-education-law-article-1-scope", "transition-support-sheet-elementary-handover"],
     isCanonical: true,
     exam: true,
-    tags: ["就学義務", "学校教育法", "特別支援", "就学猶予", "就学免除", "義務教育", "学校教育法第18条"],
+    tags: ["就学義務", "学校教育法", "特別支援", "就学猶予", "就学免除", "義務教育", "学校教育法第18条", "就学義務の猶予・免除"],
     sources: ["https://www.mext.go.jp/a_menu/shotou/shugaku/detail/1422228.htm"],
   },
   {
