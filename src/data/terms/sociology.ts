@@ -27,6 +27,7 @@ export const sociologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ジャクソン", "暗黙の学び"],
+    sources: ["https://www.jstage.jst.go.jp/article/jaipe/12/2/12_78/_article/-char/ja"],
   },
   {
     slug: "bunka-shihon",
@@ -2045,6 +2046,7 @@ export const sociologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["働き方改革", "勤務実態", "長時間労働", "教職の専門性"],
+    sources: ["https://www.jstage.jst.go.jp/article/kenkokyoiku/26/3/26_298/_article/-char/ja"],
   },
   {
     slug: "teaching-adjustment-allowance-four-overtime-duties",

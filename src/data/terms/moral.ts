@@ -116,6 +116,7 @@ export const moralTerms: Term[] = [
       ],
     },
     tags: ["道徳性発達段階", "モラルジレンマ", "ピアジェ"],
+    sources: ["https://www.jstage.jst.go.jp/article/pamjaep/32/0/32_S32/_article/-char/ja"],
   },
   {
     slug: "moral-dilemma",

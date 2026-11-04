@@ -126,6 +126,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["学級活動", "自治的活動"],
+    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/toku.htm", "https://www.jstage.jst.go.jp/article/hcs/2019/29/2019_22/_article/-char/ja"],
   },
   {
     slug: "seito-rikai",
@@ -603,6 +604,7 @@ export const guidanceTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["生徒指導提要", "予防的生徒指導", "文部科学省"],
+    sources: ["https://www.jstage.jst.go.jp/article/arjasp/17/0/17_15/_article/-char/ja"],
   },
   {
     slug: "chokai-shobun",

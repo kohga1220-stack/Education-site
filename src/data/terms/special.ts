@@ -14,6 +14,7 @@ export const specialTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["障害者権利条約", "多様な学びの場"],
+    sources: ["https://www.jstage.jst.go.jp/article/rjscu/3/0/3_60/_article/-char/ja"],
   },
   {
     slug: "goriteki-hairyo",
