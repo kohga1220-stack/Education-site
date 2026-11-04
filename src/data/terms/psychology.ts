@@ -24,6 +24,7 @@ export const psychologyTerms: Term[] = [
       ],
     },
     tags: ["ピアジェ", "発達段階"],
+    sources: ["https://www.jstage.jst.go.jp/article/jjspedit/17/1/17_3/_article/-char/ja"],
   },
   {
     slug: "zpd",
@@ -62,6 +63,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ヴィゴツキー", "支援の漸減"],
+    sources: ["https://www.jstage.jst.go.jp/article/jseeja/2025/0/2025_266/_article/-char/ja"],
   },
   {
     slug: "naihatsu-doki",
@@ -106,6 +108,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["バンデューラ", "成功体験"],
+    sources: ["https://www.jstage.jst.go.jp/article/gscs/17/1/17_15/_article/-char/ja"],
   },
   {
     slug: "gakushu-muryokukan",
@@ -135,6 +138,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["自己調整学習", "リフレクション"],
+    sources: ["https://www.jstage.jst.go.jp/article/arepj/51/0/51_131/_article/-char/ja"],
   },
   {
     slug: "bloom-taxonomy",
@@ -161,6 +165,7 @@ export const psychologyTerms: Term[] = [
       ],
     },
     tags: ["教育目標分類学", "思考力"],
+    sources: ["https://www.jstage.jst.go.jp/article/jsetstudy/2026/2/2026_JSET2026-2-E10/_article/-char/ja"],
   },
   {
     slug: "operant-conditioning",
@@ -175,6 +180,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["スキナー", "強化", "罰"],
+    sources: ["https://www.jstage.jst.go.jp/article/psychono/23/2/23_KJ00004414555/_article/-char/ja"],
   },
   {
     slug: "working-memory",
@@ -189,6 +195,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["作業記憶", "認知負荷"],
+    sources: ["https://www.jstage.jst.go.jp/article/jjet/41/Suppl./41_S41015/_article/-char/ja"],
   },
   {
     slug: "gakushu-tenni",
@@ -226,6 +233,7 @@ export const psychologyTerms: Term[] = [
       ],
     },
     tags: ["心理社会的発達理論", "アイデンティティ", "発達段階"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyouikutetsugaku1959/1992/66/1992_66_15/_article/-char/ja"],
   },
   {
     slug: "bruner",
@@ -240,6 +248,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["発見学習", "表象モード", "らせん型カリキュラム"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyouikutetsugaku/120/0/120_159/_article/-char/ja"],
   },
   {
     slug: "maslow",
@@ -397,6 +406,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ガードナー", "8つの知能", "個別最適な学び"],
+    sources: ["https://www.jstage.jst.go.jp/article/jssep/47/0/47_201/_article/-char/ja"],
   },
   {
     slug: "forgetting-curve",
@@ -411,6 +421,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["エビングハウス", "忘却曲線", "反復学習"],
+    sources: ["https://www.jstage.jst.go.jp/article/digrajproc/13/0/13_229/_article/-char/ja"],
   },
   {
     slug: "self-regulated-learning",
@@ -607,6 +618,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ローゼンタール効果", "教師期待", "自己成就予言"],
+    sources: ["https://www.jstage.jst.go.jp/article/budo1968/10/2/10_77/_article/-char/ja"],
   },
   {
     slug: "stereotype-threat",
@@ -1001,6 +1013,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["動機づけ", "報酬", "内発的動機づけ"],
+    sources: ["https://www.jstage.jst.go.jp/article/pacjpa/89/0/89_973/_article/-char/ja"],
   },
   {
     slug: "thomas-chess-temperament",
@@ -1054,6 +1067,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["集団", "学級経営", "人間関係の測定", "ソシオメトリー", "ソシオグラム", "集団測定", "人間関係"],
+    sources: ["https://www.jstage.jst.go.jp/article/tss/50/0/50_35/_article/-char/ja"],
   },
   {
     slug: "lewin-group-dynamics",
@@ -1094,6 +1108,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["記憶", "認知心理学", "長期記憶"],
+    sources: ["https://www.jstage.jst.go.jp/article/hbfr/30/1/30_1_19/_article/-char/ja"],
   },
   {
     slug: "psychological-weaning",
@@ -1667,6 +1682,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["観察学習", "モデリング", "バンデューラ", "認知過程"],
+    sources: ["https://www.jstage.jst.go.jp/article/aaej/35/0/35_KJ00009814790/_article/-char/ja"],
   },
   {
     slug: "vicarious-reinforcement-modeling",
@@ -1798,6 +1814,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["エリクソン", "アイデンティティ", "青年期", "同一性拡散"],
+    sources: ["https://www.jstage.jst.go.jp/article/jsyap/31/2/31_91/_article/-char/ja"],
   },
   {
     slug: "second-rebellion-psychological-weaning",
@@ -1981,6 +1998,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ピアジェ", "同化", "調節", "均衡化"],
+    sources: ["https://www.jstage.jst.go.jp/article/arepj1962/36/0/36_144/_article/-char/ja"],
   },
   {
     slug: "conservation-concepts-piaget",
