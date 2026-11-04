@@ -10,7 +10,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学習の途中段階で行い、その後の指導や学習の改善に活かすための評価。単元の終わりに行う総括的評価と対をなす。",
     body: "形成的評価とは、単元や授業の学習が進行している最中に行われる評価で、その時点での子どもの理解状況を把握し、その後の指導方法や、子ども自身の学習の進め方を修正・改善するために活用される評価を指します。教育評価研究者のブルームらによって、総括的評価と対比する形で整理されました。\n\n小テスト、机間指導での観察、ミニホワイトボードを使った理解度の確認、振り返りシートへの記入などが、形成的評価の具体的な手段として挙げられます。重要なのは、評価の結果を成績づけに使うことではなく、「次にどう指導・学習を改善するか」という点検・調整のために使うという目的の違いです。\n\n形成的評価を効果的に行うことで、子どものつまずきを早期に発見し、単元の終わりを待たずに手立てを講じることができるため、近年の授業改善において特に重視されています。",
-    relatedSlugs: ["sokkatsu-hyoka", "shindan-hyoka", "halo-effect-evaluation-control", "feedforward-actionable-improvement-advice"],
+    relatedSlugs: ["sokkatsu-hyoka", "shindan-hyoka", "halo-effect-evaluation-control", "feedforward-actionable-improvement-advice", "one-minute-paper", "benchmark-hyoka", "distractor-analysis-multiple-choice", "feedback-timing-immediate-delayed-effects"],
     isCanonical: true,
     exam: true,
     tags: ["ブルーム", "指導改善"],
@@ -24,7 +24,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "単元や学期の終わりなど、一定の学習のまとまりが終わった時点で、最終的な到達度をまとめて評価すること。成績づけに用いられることが多い。",
     body: "総括的評価とは、単元や学期、学年といった一定の学習のまとまりが終了した時点で、それまでの学習の成果として、子どもがどの程度目標を達成できたかを総合的にまとめて評価することを指します。期末テストや単元末のまとめテスト、通知表の評定などが代表的な例です。\n\n学習の途中で行い指導改善に活かす形成的評価に対し、総括的評価は学習の結果を最終的に確認し、多くの場合、成績（評定）として記録される点が大きな違いです。もっとも、総括的評価の結果も、次の単元や学年の指導を見直すための情報として活用されることがあります。\n\n近年は、ペーパーテストによる総括的評価だけでなく、学習の過程を記録するポートフォリオ評価や、パフォーマンス課題の出来栄えを評価するルーブリック評価など、多様な評価方法を組み合わせることの重要性が指摘されています。",
-    relatedSlugs: ["keiseiteki-hyoka", "kanten-betsu-hyoka"],
+    relatedSlugs: ["keiseiteki-hyoka", "kanten-betsu-hyoka", "benchmark-hyoka"],
     isCanonical: true,
     exam: true,
     tags: ["評定", "期末テスト"],
@@ -38,7 +38,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "単元の指導を始める前に、子どもの既有知識やレディネス（学習の準備状態）を把握するために行う評価。",
     body: "診断的評価とは、新しい単元や学習内容の指導を始める前の段階で、子どもがすでにどのような知識や経験を持っているか、その単元を学ぶための前提条件（レディネス）が整っているかを把握するために行う評価です。\n\n具体的には、単元の導入時に行う簡単な小テストやアンケート、既習事項に関する発問への応答の様子などを通じて、学級全体や個々の子どもの実態を把握します。この結果をもとに、授業の難易度やペース、取り上げる例をどのレベルに設定するかを調整することができます。\n\n診断的評価、形成的評価、総括的評価の3つは、それぞれ「指導の前」「指導の途中」「指導の後」という異なるタイミングで行われる評価として、教育評価の基本的な3分類とされています。",
-    relatedSlugs: ["keiseiteki-hyoka", "sokkatsu-hyoka"],
+    relatedSlugs: ["keiseiteki-hyoka", "sokkatsu-hyoka", "physical-fitness-test-lifestyle-assessment"],
     isCanonical: true,
     exam: true,
     tags: ["レディネス", "実態把握"],
@@ -52,7 +52,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "作品やレポート、活動記録などの学習成果物を継続的に蓄積し、その変化や成長の過程をもとに評価する方法。",
     body: "ポートフォリオ評価とは、子どもが作成した作文、作品、レポート、テスト、活動の記録写真、自己評価シートなどの学習の成果物を、ファイルや電子データとして時系列に沿って蓄積し、それらをもとに学びの過程や成長を評価する方法です。ポートフォリオとは、もともと画家やデザイナーが自分の作品をまとめるファイルを指す言葉です。\n\n一回のテストの点数のような「点」の評価とは異なり、一定期間にわたる学びの積み重ねという「線」で子どもの成長を捉えられる点が特徴です。子ども自身がどの成果物をポートフォリオに残すかを選び、なぜそれを選んだのかを振り返ることで、自己評価やメタ認知の力を育てる効果も期待されています。\n\n総合的な学習(探究)の時間や、特別支援教育における個別の指導計画の評価、大学入試における活動報告書など、ペーパーテストだけでは測りにくい学びの過程を評価する場面で活用が広がっています。",
-    relatedSlugs: ["metacognition", "sogo-gakushu", "showcase-process-portfolio-assessment"],
+    relatedSlugs: ["metacognition", "sogo-gakushu", "showcase-process-portfolio-assessment", "authentic-task-design-real-world-context", "art-creation-process-portfolio-tracking", "reading-log-passport-literacy-assessment"],
     isCanonical: true,
     exam: true,
     tags: ["学びの過程", "自己評価"],
@@ -66,7 +66,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "評価の観点ごとに、達成度のレベルとその具体的な特徴を、表の形で示した評価基準（ルーブリック）を用いる評価方法。",
     body: "ルーブリック評価とは、レポート、発表、実技といった、単純な正誤では測れない学習成果を評価するために、評価の「観点（何を見るか）」と「尺度（どの程度できているか）」を、表形式で具体的に示した評価基準（ルーブリック）を用いて行う評価方法です。\n\n例えば「プレゼンテーション」を評価するルーブリックでは、「構成」「資料のわかりやすさ」「話し方」といった観点ごとに、「S:非常に優れている」「A:良好」「B:もう少し」といった段階を設け、それぞれの段階に「聞き手を意識した構成になっている」といった具体的な記述語（評価基準の中身）を書き添えます。\n\nルーブリックを授業の前に子どもと共有しておくことで、子ども自身がゴールを具体的にイメージしながら学習に取り組めるという利点もあります。教師の主観による評価のばらつきを減らし、評価の透明性を高める効果も期待されています。",
-    relatedSlugs: ["portfolio-hyoka", "kanten-betsu-hyoka", "scoring-guide-rubric-elaboration", "performance-task-rubric-development", "moderation-meeting-scoring-standardization"],
+    relatedSlugs: ["portfolio-hyoka", "kanten-betsu-hyoka", "scoring-guide-rubric-elaboration", "performance-task-rubric-development", "moderation-meeting-scoring-standardization", "authentic-task-design-real-world-context", "presentation-rubric-communication-content", "essay-logical-structure-rubric-assessment"],
     isCanonical: true,
     exam: true,
     tags: ["評価基準", "パフォーマンス評価"],
@@ -80,7 +80,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学習状況を単一の総合点ではなく、複数の観点（知識・技能、思考・判断・表現など）ごとに分けて評価する方法。現行の指導要録の基本方式。",
     body: "観点別評価とは、子どもの学習状況を一つの総合点で表すのではなく、あらかじめ設定された複数の観点ごとに分析的に評価する方法です。2019年の指導要録の改訂により、現在の観点は「知識・技能」「思考・判断・表現」「主体的に学習に取り組む態度」の3観点に整理されました。\n\nこの3観点は、学習指導要領が掲げる資質・能力の三つの柱（知識及び技能、思考力・判断力・表現力等、学びに向かう力・人間性等）と対応関係にあります。それぞれの観点をA・B・Cといった段階で評価し、それらを踏まえて最終的に5段階などの評定へと総括する、という流れが一般的です。\n\n従来「関心・意欲・態度」とされていた観点が「主体的に学習に取り組む態度」に改められ、単に挙手の回数などの表面的な意欲ではなく、学習の見通しを持ち、粘り強く取り組み、自らの学習を調整しようとする側面を評価することが強調されています。",
-    relatedSlugs: ["shishitsu-noryoku", "sokkatsu-hyoka", "metacognition", "annual-viewpoint-grading-summation-procedure"],
+    relatedSlugs: ["shishitsu-noryoku", "sokkatsu-hyoka", "metacognition", "annual-viewpoint-grading-summation-procedure", "knowledge-skills-assessment-methods", "revised-blooms-taxonomy-cognitive-process", "depth-of-knowledge-dok-levels", "laboratory-practical-skills-checklist"],
     isCanonical: true,
     exam: true,
     tags: ["指導要録", "3観点"],
@@ -94,7 +94,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "あらかじめ定められた目標や基準に、どの程度到達できたかによって評価する方法。日本の学校の評定は現在この方式が基本。",
     body: "絶対評価とは、他の子どもとの比較によってではなく、あらかじめ定められた学習目標や到達基準に対して、子どもがどの程度到達できたかによって評価を決める方法です。「目標に準拠した評価」とも呼ばれます。\n\n日本の小中高等学校の指導要録における評定は、2001年度の改訂以降、それまでの相対評価から、この絶対評価（目標に準拠した評価）へと大きく方針が転換されました。学級の中で優秀者が多ければ、理論上は全員が高い評定を得ることも可能になる仕組みです。\n\n絶対評価が機能するためには、教師が「何ができれば、どの評定になるのか」という到達基準を明確に持ち、評価の妥当性・信頼性を確保することが重要であり、その具体化のためにルーブリックなどの評価基準表が活用されます。",
-    relatedSlugs: ["sotai-hyoka", "kanten-betsu-hyoka"],
+    relatedSlugs: ["sotai-hyoka", "kanten-betsu-hyoka", "hyojun-settei-ho", "grading-scale-extremes-one-and-five-criteria"],
     isCanonical: true,
     exam: true,
     tags: ["目標に準拠した評価"],
@@ -108,7 +108,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "集団の中での順位や位置づけに基づいて評価する方法。かつての日本の学校で用いられていたが、現在は絶対評価が主流。",
     body: "相対評価とは、個々の子どもの到達度そのものではなく、学級や学年といった集団の中での相対的な順位や位置づけに基づいて評価を決定する方法です。「集団に準拠した評価」とも呼ばれます。\n\nかつての日本の学校では、評定の割合をあらかじめ「5が7%、4が24%、3が38%…」のように統計的な正規分布に近づける形で決める、相対評価の方式が広く採用されていました。この方式では、学級全体の学力が高くても低くても、機械的に一定の割合で低い評定がつくという課題が指摘されていました。\n\n2001年度以降、日本の学校ではこの相対評価から、目標への到達度を見る絶対評価へと転換されています。もっとも、大学入試などにおける偏差値は、受験者集団全体の中での位置づけを示す点で、相対評価的な性質を持つ指標だと言えます。",
-    relatedSlugs: ["zettai-hyoka"],
+    relatedSlugs: ["zettai-hyoka", "reference-group-norm-setting", "percentile-rank-interpretation-percentiles", "t-score-z-score-standardized-metrics"],
     isCanonical: true,
     exam: true,
     tags: ["集団に準拠した評価", "偏差値"],
@@ -122,7 +122,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "OECD（経済協力開発機構）が3年ごとに実施する国際的な学習到達度調査。「読解力」「数学的リテラシー」「科学的リテラシー」を測る。",
     body: "PISA（Programme for International Student Assessment、生徒の学習到達度調査）とは、経済協力開発機構（OECD）が2000年から3年ごとに実施している国際的な学力調査で、多くの国で15歳（日本では高校1年生相当）の生徒を対象に行われます。\n\nPISAの大きな特徴は、教科書の知識をどれだけ覚えているかではなく、「読解力」「数学的リテラシー」「科学的リテラシー」という3つの分野について、実生活の場面で知識や技能をどれだけ活用できるかを測ろうとする点にあります。単なる暗記量ではなく、思考力や応用力を重視する調査設計です。\n\n2000年代に日本の順位が下降した際には「PISAショック」と呼ばれ、思考力・表現力を重視する方向への教育改革（ゆとり教育の見直しや、その後の学習指導要領改訂）を後押しする一因ともなりました。",
-    relatedSlugs: ["timss", "bloom-taxonomy", "oecd-pisa-for-development-capacity-building"],
+    relatedSlugs: ["timss", "bloom-taxonomy", "oecd-pisa-for-development-capacity-building", "naep", "portugal-teip-educational-priority-areas", "taiwan-cap-junior-high-comprehensive-assessment", "thailand-basic-education-core-curriculum", "brazil-ideb-basic-education-quality-index"],
     isCanonical: true,
     tags: ["OECD", "国際学力調査", "PISAショック"],
   },
@@ -135,7 +135,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "国際教育到達度評価学会（IEA）が実施する、算数・数学と理科の学力を国際比較する調査。教育課程で学ぶ内容の定着度を重視する点でPISAと異なる。",
     body: "TIMSS（Trends in International Mathematics and Science Study、国際数学・理科教育動向調査）とは、国際教育到達度評価学会（IEA）が4年ごとに実施している国際学力調査で、小学4年生と中学2年生を対象に、算数・数学と理科の学力を国際比較します。\n\nPISAが実生活での知識の活用力を測ろうとするのに対し、TIMSSは各国の学校の教育課程（カリキュラム）で実際に学習した内容が、どの程度定着しているかを測ることに主眼を置いている点が異なります。この違いから、両者は補い合う調査として位置づけられています。\n\n日本はTIMSSにおいて算数・数学、理科ともに国際的に高い水準を維持し続けている一方で、「勉強は楽しい」「日常生活に役立つ」といった、学習に対する意識面の調査結果では他国に比べて低い傾向が見られ、学力とは別の課題として指摘されています。",
-    relatedSlugs: ["pisa"],
+    relatedSlugs: ["pisa", "naep", "cross-cultural-fairness-international-testing"],
     isCanonical: true,
     tags: ["IEA", "国際学力調査"],
   },
@@ -148,7 +148,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "紙とペンではなくコンピュータ画面上で出題・解答するテスト方式。自動採点や解答過程のログ収集が可能で、日本でも全国学力・学習状況調査などで段階的に導入が進められている、教育測定の新しい手法。",
     body: "CBT（Computer Based Testing）とは、紙とペンを使うのではなく、コンピュータの画面上で問題を出題し、解答も画面上で入力させるテスト方式です。日本語では「コンピュータ使用型テスト」と訳され、従来型の紙媒体テスト（PBT：Paper Based Testing）と対比して用いられる言葉で、資格試験や語学試験の分野で先行して普及してきました。\n\n従来の紙媒体のテストと比べ、動画や音声を用いた出題、キーボード入力やドラッグ操作を伴う多様な解答形式、自動採点による迅速なフィードバック、解答に至るまでの過程そのものをログデータとして収集・分析できることなどが特徴です。誤答の傾向を分析し、個々の学習者に応じた最適な学習支援へとつなげやすくなる点も利点として挙げられます。\n\n日本でも文部科学省が構築した学習eポータル・CBTシステム「MEXCBT（メクビット）」の活用が進み、全国学力・学習状況調査では2025年度に一部教科でCBTが本格導入されました。印刷・輸送コストの削減や環境負荷の低減も期待され、2027年度以降は全教科での全面移行が目指されています。",
-    relatedSlugs: ["giga-school", "edtech", "cat-adaptive-testing"],
+    relatedSlugs: ["giga-school", "edtech", "cat-adaptive-testing", "online-test-proctoring-cheating-prevention"],
     isCanonical: true,
     tags: ["CBT", "MEXCBT", "ICT活用"],
   },
@@ -161,7 +161,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "受験者の解答結果に応じて、次に出題する項目の難易度をコンピュータがリアルタイムに調整していくテスト方式。少ない問題数でも精度の高い能力測定が可能になる、項目反応理論に基づく手法。",
     body: "CAT（Computerized Adaptive Testing）とは、受験者の解答結果に応じて、次に出題する項目の難易度をコンピュータがリアルタイムに選択・調整していくテスト方式です。日本語では「コンピュータ適応型テスト」と呼ばれ、CBTをさらに発展させた出題方式の一つに位置づけられます。\n\n出題の際には、あらかじめ項目反応理論に基づいて難易度や識別力が推定された、大量の問題からなる項目バンクが用いられます。正答すればより難しい項目、誤答すればより易しい項目が選ばれて出題される仕組みで、受験者ごとに異なる問題を解くことになっても、少ない問題数で受験者の能力を高い精度で推定できる点が最大の利点です。\n\n視力検査に似た仕組みとも例えられ、語学の適性試験や資格試験、大規模な学力調査などで導入が進められています。全ての受験者が同一の問題を解くとは限らないため、実施・運営には十分な規模の項目バンクの整備や、テスト間の公平性を保つための等化の仕組みが欠かせません。日本語教育や英語教育の分野でも、語彙力や読解力を効率よく測定する手段として研究・実用化が進められています。",
-    relatedSlugs: ["cbt", "test-toka", "item-information-function-iif", "three-parameter-logistic-model-3plm", "cat-item-selection-maximum-information"],
+    relatedSlugs: ["cbt", "test-toka", "item-information-function-iif", "three-parameter-logistic-model-3plm", "cat-item-selection-maximum-information", "tenjo-yuka-koka"],
     isCanonical: true,
     tags: ["適応型テスト", "項目バンク", "CBT"],
   },
@@ -174,7 +174,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "知識やスキルを実際の課題遂行を通して評価する方法。レポート作成や実験、発表といった「パフォーマンス課題」への取り組みを通じ、複合的な力を総合的に判断する評価の考え方で、ペーパーテストを補う手段として重視されている。",
     body: "パフォーマンス評価とは、知識やスキルを実際に活用させる課題への取り組みを通して、学習者の能力を評価する方法です。レポート作成、実験、プレゼンテーション、作品制作など、単純な暗記の再生では測れない複合的な力の発揮そのものを評価対象とする点に特徴があります。\n\n出題される課題は「パフォーマンス課題」と呼ばれ、現実の場面に近い文脈の中で、それまでに習得した知識・技能を総合的に活用することを求めます。評価に際しては、あらかじめ達成水準を段階的に示したルーブリック（評価基準表）が用いられることが一般的で、複数の評価者による判断のばらつきを抑える工夫がなされます。\n\n2017・2018年改訂の学習指導要領が重視する「思考力・判断力・表現力」の評価とも親和性が高く、選択式や記述式のペーパーテストを補完する評価方法として、日本の学校現場でも探究学習や総合的な学習の時間を中心に活用が広がっています。実施には手間がかかるため、評価規準の明確化や評価者研修など、実施体制の整備も課題とされています。",
-    relatedSlugs: ["rubric-hyoka", "portfolio-hyoka", "authentic-assessment"],
+    relatedSlugs: ["rubric-hyoka", "portfolio-hyoka", "authentic-assessment", "thinking-judgment-expression-assessment", "ecological-validity-assessment-life", "solo-taxonomy-structured-learning-outcomes", "depth-of-knowledge-dok-levels", "concept-mapping-thinking-process-evaluation"],
     isCanonical: true,
     exam: true,
     tags: ["パフォーマンス課題", "ルーブリック", "資質・能力"],
@@ -188,7 +188,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "実生活や実社会の文脈に近い、意味のある課題への取り組みを通して学力を評価する考え方。1980年代後半にアメリカの教育評価論者ウィギンズらによって、標準テスト偏重への批判とともに提唱された。",
     body: "真正の評価（オーセンティック・アセスメント）とは、教室内だけで完結する形式的な問題演習ではなく、実生活や実社会の文脈に近い、意味のある課題への取り組みを通して学力を評価しようとする考え方です。子どもが将来直面するであろう現実的な問題状況を想定した課題設計を重視します。\n\n1980年代後半以降、アメリカの教育評価論者G.ウィギンズらによって、選択式問題を中心とした標準化されたペーパーテスト中心の評価への批判とともに提唱されました。現実の専門家が実際の仕事で直面するような、複雑で答えが一つに定まらない課題を用いる点が大きな特徴とされています。\n\n日本でも、探究学習や総合的な学習の時間などにおける成果発表や、地域課題の解決に取り組む学習を、パフォーマンス評価やルーブリックと組み合わせて評価する実践に、この真正の評価という考え方が色濃く反映されています。知識の暗記量だけでなく、実際に活用できる力そのものを見取ろうとする姿勢が根底にあり、資質・能力を重視する現行の学習指導要領とも理念を共有しています。",
-    relatedSlugs: ["performance-hyoka", "pbl", "rubric-hyoka"],
+    relatedSlugs: ["performance-hyoka", "pbl", "rubric-hyoka", "ecological-validity-assessment-life", "classroom-dialogue-discourse-analysis-assessment", "art-creation-process-portfolio-tracking", "community-project-outcomes-assessment"],
     isCanonical: true,
     tags: ["オーセンティック評価", "ウィギンズ", "実社会の文脈"],
   },
@@ -214,7 +214,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "文部科学省が2007年度から実施する、小学6年生と中学3年生を対象とした学力調査。教科に関する調査と、学習・生活習慣に関する質問紙調査の2本立てで構成され、結果は指導改善や教育施策の検証に活用される。",
     body: "全国学力・学習状況調査とは、文部科学省が2007年度から毎年実施している、小学6年生と中学3年生を対象とした全国規模の学力調査です。国語・算数（数学）を中心とし、年度により理科や英語なども加わる教科に関する調査と、学習習慣・生活習慣に関する質問紙調査の2本立てで構成されます。\n\n2007年度の開始当初は全児童生徒を対象とする悉皆調査として始まり、その後、経費削減等の理由から抽出調査に切り替わった年度もありましたが、現在は再び悉皆調査を基本として実施されています。結果は各教育委員会・学校における授業や指導方法の改善、国の教育施策の検証・立案に活用されます。\n\n近年は、コンピュータ画面上で解答するCBT方式への移行が段階的に進められており、2025年度には一部教科で本格導入され、2027年度以降は全教科でのCBT実施を目指す方針が文部科学省から示されています。都道府県別の平均正答率の公表をめぐっては、序列化を助長するとの懸念から議論が続いており、公表方法の見直しが繰り返されてきました。",
-    relatedSlugs: ["pisa", "timss", "cbt", "gakushu-shido-yoryo"],
+    relatedSlugs: ["pisa", "timss", "cbt", "gakushu-shido-yoryo", "reading-skill-test-rst-comprehension"],
     isCanonical: true,
     exam: true,
     tags: ["全国学テ", "文部科学省", "悉皆調査"],
@@ -228,7 +228,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "全国的な標準集団から得たデータをもとに問題や採点基準が標準化された学力検査。個人の学力を、集団内での相対的な位置として客観的に把握でき、学校や年度を超えた比較にも用いられる。",
     body: "標準学力検査とは、全国的な標準集団から得られたデータをもとに、問題の内容や採点基準があらかじめ標準化されたテストです。個人の得点を、同学年・同時期の広範な集団の平均や得点分布と比較することで、学力の相対的な位置を客観的に把握できるように設計されています。\n\n学校や地域、実施年度が異なっても、あらかじめ標準化された得点（標準得点や偏差値など）を用いることで、結果を横断的に比較できる点が特徴です。民間の教育関連団体が開発・提供する検査が、学校での学力の実態把握や進路指導のための資料として、長年にわたり広く利用されています。\n\n各学校が独自に作成する定期テストとは異なり、大規模なデータの蓄積に基づく客観性の高さが強みですが、検査で扱われる出題内容が、必ずしもその学校の授業内容やカリキュラムと一致するとは限らない点には留意が必要です。実施の目的に応じて、複数の標準学力検査を使い分ける学校も見られます。得られた偏差値や標準得点は、経年変化を追う資料としても活用され、学校や学級単位での指導の効果検証にも用いられます。",
-    relatedSlugs: ["sotai-hyoka", "hensachi", "hyojun-tokuten"],
+    relatedSlugs: ["sotai-hyoka", "hensachi", "hyojun-tokuten", "reading-skill-test-rst-comprehension", "vocabulary-assessment-lexical-competence", "reference-group-norm-setting", "percentile-rank-interpretation-percentiles"],
     isCanonical: true,
     tags: ["標準化テスト", "相対評価", "学力検査"],
   },
@@ -254,7 +254,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "観測得点を「真の得点」と「測定誤差」の和として捉える測定理論。正答率や得点の分散から信頼性係数を算出する、20世紀初頭から続くテスト理論の基礎的な枠組みで、後の項目反応理論の土台にもなった。",
     body: "古典的テスト理論（Classical Test Theory）とは、受験者の観測得点を「真の得点」と「測定誤差」の和として捉える、テスト理論のもっとも基礎的な枠組みです。20世紀初頭から発展してきた、統計的なテスト分析の土台となっている考え方といえます。\n\nこの理論では、テスト全体の得点の分散や、項目ごとの正答率（項目困難度）、個々の項目の得点と全体得点との相関（項目弁別力）などをもとに、テスト全体の信頼性係数を算出します。受験者の素点をそのまま扱うため計算が比較的容易で、教育現場でのテスト分析に長く広く用いられてきました。\n\n一方で、同じ受験者であっても、解いた問題セットが異なれば結果が変わりやすいなどの限界も指摘されており、これを補う理論として項目反応理論や、分散分析を用いる一般化可能性理論（G理論）が、その後発展してきました。それでも計算の分かりやすさから、現在も教育現場の初歩的なテスト分析で広く活用され続けており、テスト理論を学ぶ際の出発点ともなっています。統計ソフトを使わずに手計算で扱える簡便さも、根強く利用され続けている理由の一つです。",
-    relatedSlugs: ["shinraisei", "datousei", "g-riron", "item-difficulty-pass-rate-analysis"],
+    relatedSlugs: ["shinraisei", "datousei", "g-riron", "item-difficulty-pass-rate-analysis", "item-discrimination-index-analysis", "t-score-z-score-standardized-metrics", "outlier-detection-skewness-test-scores", "polytomous-item-response-theory-model"],
     isCanonical: true,
     tags: ["信頼性係数", "真の得点", "測定誤差"],
   },
@@ -267,7 +267,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "「知識・技能」「思考・判断・表現」「主体的に学習に取り組む態度」の3観点から学習状況を評価する、現行学習指導要領における評価の基本枠組みで、資質・能力の三つの柱に対応して整理された。",
     body: "学習評価の三観点とは、2017・2018年改訂の学習指導要領に基づき、児童生徒の学習状況を「知識・技能」「思考・判断・表現」「主体的に学習に取り組む態度」という3つの観点から評価する枠組みのことです。すべての教科の評価は、この三観点に沿って行われます。\n\nこれは、育成すべき資質・能力の三つの柱（知識及び技能、思考力・判断力・表現力等、学びに向かう力・人間性等）に対応させて整理されたもので、従来「関心・意欲・態度」を含んでいた4観点の評価から再編されました。指導要録の記載や通知表の評価にも、この三観点の考え方が反映されています。\n\n各教科の評価規準は、単元ごとにこの三観点に沿って具体的な文言に落とし込まれ、ペーパーテストだけでなく、パフォーマンス評価や自己評価、ポートフォリオ評価などを組み合わせて、総合的に学習状況を判断することが求められています。とりわけ「主体的に学習に取り組む態度」は、挙手の回数のような表面的な行動で評価しないよう注意が呼びかけられており、粘り強さや自己調整の側面を丁寧に見取ることが求められます。",
-    relatedSlugs: ["kanten-betsu-hyoka", "shido-hyoka-ittaika", "shishitsu-noryoku"],
+    relatedSlugs: ["kanten-betsu-hyoka", "shido-hyoka-ittaika", "shishitsu-noryoku", "perspective-based-instructional-design", "knowledge-skills-assessment-methods", "thinking-judgment-expression-assessment"],
     isCanonical: true,
     diagram: {
       type: "columns",
@@ -302,7 +302,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "テストや評価方法が、測定しようとする能力・特性を実際にどれだけ正確に測れているかを示す概念。信頼性と並ぶ、測定の質を判断する基本基準の一つで、内容的妥当性など複数の側面から検討される。",
     body: "妥当性とは、あるテストや評価方法が、本来測定しようとしている能力・知識・特性を、実際にどれだけ正確に捉えられているかを示す概念です。信頼性と並んで、測定の質を判断するための最も基本的な基準の一つに数えられています。\n\n妥当性には複数の側面があるとされ、測定内容が評価の目的に対応しているかを示す内容的妥当性、測定結果が実際の行動や将来の成果とどの程度関連するかを示す基準関連妥当性、測定しようとしている理論的な構成概念をどの程度反映しているかを示す構成概念妥当性などが代表的なものとして挙げられます。\n\nどれほど信頼性の高いテストであっても、実際に測ろうとしている力とずれた内容を測っていれば妥当性は低いと判断されます。新たにテストや評価方法を開発したり選定したりする際には、信頼性と妥当性の両方の観点から慎重に検討することが重要とされています。近年の心理測定学では、妥当性を単一の性質ではなく、根拠を積み重ねて確認していく継続的な過程として捉える考え方も広がっており、単純に「妥当か否か」を一度に判定するものではないとされています。",
-    relatedSlugs: ["shinraisei", "koten-test-riron", "construct-validity-convergent-discriminant", "criterion-related-validity-predictive", "content-validity-curricular-coverage"],
+    relatedSlugs: ["shinraisei", "koten-test-riron", "construct-validity-convergent-discriminant", "criterion-related-validity-predictive", "content-validity-curricular-coverage", "assessment-results-public-disclosure"],
     isCanonical: true,
     tags: ["測定の質", "構成概念妥当性", "内容的妥当性"],
   },
@@ -315,7 +315,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "同じ対象に繰り返し測定を行った場合に、どの程度一貫した結果が得られるかを示す概念。妥当性と並んで、測定の質を判断するための基本的な基準とされ、再検査信頼性や評価者間信頼性などで検討される。",
     body: "信頼性とは、同じ対象に対して測定を繰り返した場合に、どの程度一貫した結果が得られるかを示す概念です。テストや評価方法の安定性・再現性を表す指標であり、妥当性と並んで測定の質を評価するための、もっとも基本的な基準の一つとされています。\n\n信頼性を検討する代表的な方法として、同じテストを一定期間を空けて再度実施し、その結果同士の一致度を見る再検査信頼性、1つのテストを2つに分割してそれぞれの得点の相関を見る折半法、複数の採点者・評価者による評価の一致度を見る評価者間信頼性などが挙げられます。\n\n古典的テスト理論では、観測得点の分散全体に占める真の得点の分散の割合として信頼性係数が定義されます。評価者や項目、実施場面といった複数の要因を同時に扱い、より精緻に検討する枠組みとして、一般化可能性理論（G理論）もあわせて発展してきました。信頼性が低いテストでは、いくら妥当性が高くても測定結果を安心して解釈することはできず、信頼性は妥当性が成り立つための前提条件とも位置づけられます。",
-    relatedSlugs: ["datousei", "koten-test-riron", "g-riron", "hyotei-error", "test-retest-reliability-method", "split-half-reliability-spearman-brown"],
+    relatedSlugs: ["datousei", "koten-test-riron", "g-riron", "hyotei-error", "test-retest-reliability-method", "split-half-reliability-spearman-brown", "intra-rater-reliability-consistency", "online-test-proctoring-cheating-prevention"],
     isCanonical: true,
     tags: ["再検査信頼性", "評価者間信頼性", "信頼性係数"],
   },
@@ -328,7 +328,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "「何を評価するか」を示す評価規準と、「どの程度できれば良いか」の到達水準を示す評価基準という、同音だが役割の異なる2つの概念を指す言葉で、目標準拠評価の実施に欠かせない基礎となる。",
     body: "評価規準・評価基準とは、学習評価において「何を、どのような観点で評価するか」を示す評価規準と、「どの程度到達していれば良いか」という達成の程度を示す評価基準という、同じ読み方（きじゅん）でありながら、それぞれ役割の異なる2つの概念を指す言葉です。\n\n評価規準は、各教科・単元で育成を目指す資質・能力を、学習評価の三観点に沿って具体化したもので、いわば評価という「ものさし」がどの方向を向いているかを定めるものといえます。一方の評価基準は、その規準に照らしてどの水準に達していればA・B・Cといった段階に相当するかを示す、目盛りにあたるものとされています。\n\n国立教育政策研究所は、各教科について評価規準の作成例を示した参考資料を公表しており、学校現場での指導と評価の一体化を支える基礎資料として、全国の多くの教員に活用されています。両者の違いは紛らわしく、教員研修などでも繰り返し取り上げられる論点であり、通知表や評価計画の作成の場面で常に意識される基礎知識です。両者を混同すると、評価の妥当性や信頼性そのものが揺らいでしまう恐れがあります。",
-    relatedSlugs: ["gakushu-hyoka-sankanten", "rubric-hyoka"],
+    relatedSlugs: ["gakushu-hyoka-sankanten", "rubric-hyoka", "subjective-bias-reduction-blind-scoring", "laboratory-practical-skills-checklist", "essay-logical-structure-rubric-assessment", "grading-scale-extremes-one-and-five-criteria"],
     isCanonical: true,
     tags: ["評価規準", "評価基準", "国立教育政策研究所"],
   },
@@ -341,7 +341,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "他者との比較ではなく、その児童生徒自身の過去や複数の側面同士を比較して変化や特性を捉える評価方法。「進歩の評価」とも呼ばれる、個に着目した評価で、縦断的・横断的の2種類に分けられる。",
     body: "個人内評価とは、他の児童生徒との比較や、あらかじめ定められた目標水準との比較によってではなく、その児童生徒自身の内部における変化や特徴を基準として行う評価方法です。成長の過程そのものに着目することから「進歩の評価」とも呼ばれています。\n\n個人内評価には大きく分けて2つの見方があります。同じ児童生徒の過去の状態と現在の状態を、時間の流れに沿って比較する「縦断的個人内評価」と、その児童生徒が持つ複数の教科・能力の間での得意・不得意を比較する「横断的個人内評価」です。\n\n一人ひとりの伸びや個性を捉えやすく、児童生徒の学習意欲を高める評価として有用ですが、評価者の主観に左右されやすいという課題もあります。そのため実際の学校現場では、目標準拠評価や相対評価と組み合わせて補完的に用いられることが多くあります。通知表の所見欄などで、児童生徒一人ひとりの努力の跡を具体的に伝える際にも、この視点が生かされており、学習意欲の維持や自己肯定感の育成にもつながるとされています。特別支援教育の分野では、個々の発達の経過を丁寧に捉える視点として重視されます。",
-    relatedSlugs: ["sotai-hyoka", "zettai-hyoka"],
+    relatedSlugs: ["sotai-hyoka", "zettai-hyoka", "big-fish-little-pond-effect", "anecdotal-record-observation-method", "physical-fitness-test-lifestyle-assessment"],
     isCanonical: true,
     exam: true,
     tags: ["縦断的個人内評価", "横断的個人内評価", "進歩の評価"],
@@ -368,7 +368,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "実施回や版が異なる複数のテストの得点を、共通の尺度上で比較できるようにする統計的手続き。共通項目や共通受験者集団を用いて実施される、大規模テストの公平な運用に不可欠な技術。",
     body: "テスト等化とは、実施回や版が異なる複数のテストの得点を、共通の尺度上で比較できるようにするための統計的な手続きです。難易度の異なるテスト同士であっても、受験者の能力を一貫した基準で評価できるようにすることを目的としています。\n\n代表的な方法として、複数のテストに共通の受験者集団を設定して結果を比較する方法や、複数のテストに共通の項目（アンカー項目）をあらかじめ組み込んでおき、その項目の成績をもとに難易度の差を統計的に調整する方法があります。項目反応理論を用いると、さらに精緻な等化が可能になります。\n\n大規模な資格試験や、実施年度によって出題内容が異なる学力調査などにおいて、年度間の得点を公平に比較するために広く用いられており、CBTやCATの普及とともに、その重要性はいっそう高まっています。等化が適切に行われていないと、たまたま易しい年度の受験者が有利になるといった不公平が生じかねず、試験の信頼を支える見えない基盤といえます。TOEFLやTOEICのような国際的な語学試験でも、等化の技術が結果の一貫性を支えています。",
-    relatedSlugs: ["cat-adaptive-testing", "koten-test-riron"],
+    relatedSlugs: ["cat-adaptive-testing", "koten-test-riron", "eigo-minkan-shiken", "trend-study-anchor-item-equating"],
     isCanonical: true,
     tags: ["等化", "共通項目", "スケーリング"],
   },
@@ -394,7 +394,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学習者自身が自らの学習過程や成果を振り返り、達成度や課題を判断する評価方法。主体的な学びの態度を育む手段として、学習評価の中に組み込まれており、自己調整学習の理論とも深く結び付いている。",
     body: "自己評価とは、学習者自身が自らの学習の過程や成果、日々の取り組み方を振り返り、達成度や残された課題を自分自身で判断する評価方法です。教師による評価を一方的に受け取るだけでなく、学習者自身の主体性を育てる手段として位置づけられています。\n\n学習評価の三観点のうち「主体的に学習に取り組む態度」の評価においても、学習者自身による振り返りシートへの記述やチェックリストへの記入などが、教師による日々の観察と合わせて重要な手がかりとして用いられます。自己調整学習の理論では、目標設定・遂行・省察という一連のサイクルの中で、自己評価が中心的な役割を果たすとされています。\n\n学習の記録を蓄積するポートフォリオ評価やeポートフォリオと組み合わせることで、学習者が自分自身の成長の過程を長期にわたって見つめ直す機会としても、広く活用されています。教師による評価との間にずれがある場合には、対話を通じてその差を確認することも、指導上重要な意味を持ちます。過大評価・過小評価に偏りやすい傾向があることも、指導の際にはあわせて考慮されます。年齢が上がるにつれ、自己評価の精度自体も発達的に変化していくと考えられています。",
-    relatedSlugs: ["gakushu-hyoka-sankanten", "portfolio-hyoka", "shishitsu-noryoku", "structured-lesson-goals-reflection", "student-generated-rubrics-co-design", "self-assessment-sheet-metacognitive-activation"],
+    relatedSlugs: ["gakushu-hyoka-sankanten", "portfolio-hyoka", "shishitsu-noryoku", "structured-lesson-goals-reflection", "student-generated-rubrics-co-design", "self-assessment-sheet-metacognitive-activation", "one-minute-paper", "conclusion-phase-moral-reflection-life"],
     isCanonical: true,
     tags: ["自己調整学習", "振り返り", "主体的な学び"],
   },
@@ -407,7 +407,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "項目反応理論で項目の特性を数式で表す1〜3パラメータロジスティックモデル。識別力・困難度・当て推量の各項目パラメータを扱う。",
     body: "項目反応理論(IRT)では、各テスト項目の性質を項目特性曲線として数式で表現します。最も単純な1パラメータロジスティックモデル(ラッシュモデル)は困難度のみを推定し、2パラメータモデルはこれに識別力を加え、項目が受検者の能力差をどれだけ鋭く区別できるかを表します。さらに3パラメータモデルでは、正答を知らなくても偶然正解してしまう当て推量パラメータを加え、多肢選択式問題の特性をより精緻に表現します。\n\n識別力パラメータは項目特性曲線の傾きに対応し、値が大きいほど能力値のわずかな違いを敏感に区別できる項目であることを示します。困難度パラメータは正答率が50%となる能力値の位置を示し、値が高いほど高い能力の受検者でなければ正答しにくい項目となります。これらのパラメータは受検者集団に依存しないという特徴があり、異なる受検者集団間でも項目の性質を比較できます。\n\nどのモデルを採用するかは、テストの目的や項目形式によって選択されます。当て推量が生じにくい記述式や自由記述の項目では1パラメータや2パラメータモデルが用いられることが多く、多肢選択式の学力検査では3パラメータモデルが採用される場合があります。これらのモデル選択は、コンピュータ適応型テストや大規模学力調査における項目バンクの構築とも密接に関わっています。",
-    relatedSlugs: ["koten-test-riron", "g-riron", "cat-adaptive-testing"],
+    relatedSlugs: ["koten-test-riron", "g-riron", "cat-adaptive-testing", "tenjo-yuka-koka", "trend-study-anchor-item-equating"],
     isCanonical: true,
     tags: ["IRT", "テスト理論", "測定"],
   },
@@ -433,7 +433,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "パフォーマンス課題を単一の基準で総合的に評価するか、複数の観点に分けて段階別に分析的に評価するかというルーブリックの2つの型。",
     body: "ルーブリックには大きく分けて全体的ルーブリック(ホリスティック・ルーブリック)と分析的ルーブリック(アナリティック・ルーブリック)の2種類があります。全体的ルーブリックは、複数の評価観点を分けずに一つの評価基準として記述し、成果物全体の印象を総合的に一つの評定として示す方式です。作成や採点の手間が少なく、短時間で全体的な質を判断したい場合に適しています。\n\nこれに対して分析的ルーブリックは、課題を「内容の正確さ」「構成」「表現」などの複数の観点に分け、それぞれについて段階別の評価基準を記述する方式です。観点ごとに評定を示すため、学習者が自分の強みと課題をより具体的に把握でき、指導者も個別の観点に応じたフィードバックを提供しやすくなります。\n\n両者は目的に応じて使い分けられ、短時間での大まかな判定には全体的ルーブリック、詳細な診断的フィードバックが必要なパフォーマンス課題には分析的ルーブリックが選ばれる傾向があります。実際の授業では、両方を組み合わせて、まず全体的な水準を把握したうえで、観点別の分析的評価で具体的な指導につなげる運用も行われています。",
-    relatedSlugs: ["rubric-hyoka", "performance-hyoka", "kanten-betsu-hyoka", "performance-task-rubric-development"],
+    relatedSlugs: ["rubric-hyoka", "performance-hyoka", "kanten-betsu-hyoka", "performance-task-rubric-development", "presentation-rubric-communication-content"],
     isCanonical: true,
     tags: ["ルーブリック", "パフォーマンス評価"],
   },
@@ -446,7 +446,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "20世紀初頭にフランスのビネーとシモンが学習困難な子どもを見つけるために開発した個別式知能検査の源流で、精神年齢の概念を初めて導入した。",
     body: "ビネー式知能検査は、20世紀初頭にフランスのアルフレッド・ビネーと弟子のテオドール・シモンが開発した個別式知能検査です。当時のフランス政府から依頼を受け、通常学級での学習に困難を抱える児童を早期に見つけ、適切な支援につなげることを目的として作成されました。年齢段階ごとに通過すべき課題を配列し、子どもがどの年齢段階の課題まで解けるかによって知的発達の水準を捉える方式が特徴です。\n\nこの検査で導入された「精神年齢」という概念は、その後の知能検査の発展に大きな影響を与えました。精神年齢を実際の生活年齢で割って100を掛けることで知能指数(IQ)を算出する方法は、後にドイツの心理学者シュテルンによって定式化され、世界各国の知能検査に取り入れられていきました。\n\n日本では、この検査を基に心理学者の田中寛一が翻案・標準化を行い、1947年に田中ビネー知能検査として出版しました。その後も複数回の改訂を経て現在の田中ビネー知能検査Vに至っており、ビネー式の系譜は現代の教育相談や特別支援教育の現場でも重要な役割を果たし続けています。",
-    relatedSlugs: ["tanaka-binet", "wisc", "chinou-shisu"],
+    relatedSlugs: ["tanaka-binet", "wisc", "chinou-shisu", "vocabulary-assessment-lexical-competence"],
     isCanonical: true,
     tags: ["知能検査", "心理検査", "特別支援"],
   },
@@ -524,7 +524,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "複数の評価者が同一の答案やパフォーマンス、作品などを評価した際に、判定結果がどれだけ一致するかを示す信頼性の指標である。",
     body: "評価者間信頼性とは、複数の評価者(採点者)が同じ答案やパフォーマンス、作品などを評価したときに、その判定結果がどの程度一致するかを表す信頼性の指標です。特に、記述式の答案やパフォーマンス課題、ポートフォリオなど、評価者の主観的な判断が入り込みやすい評価方法において、その客観性・公平性を担保するうえで重視されます。\n\n量的なデータの一致度は相関係数や級内相関係数で示されることが多く、評価のカテゴリーが名義尺度や順序尺度である場合には、偶然の一致を補正したカッパ係数が用いられます。評価者間信頼性が低い場合、評価基準そのものが曖昧である、あるいは評価者の解釈にばらつきがあることを示唆しており、評価規準の見直しや評価者研修の必要性を示すサインとなります。\n\nルーブリックを用いたパフォーマンス評価では、複数の評価者が同じ作品を採点する調整会(モデレーション)を実施し、評価者間信頼性を確認・向上させる取り組みが行われます。客観テストのように機械的に採点できない評価方法を大規模に、かつ公正に運用するためには、この評価者間信頼性の検証が欠かせない手続きとなっています。",
-    relatedSlugs: ["shinraisei", "rubric-hyoka", "performance-hyoka"],
+    relatedSlugs: ["shinraisei", "rubric-hyoka", "performance-hyoka", "subjective-bias-reduction-blind-scoring", "intra-rater-reliability-consistency"],
     isCanonical: true,
     tags: ["信頼性", "パフォーマンス評価", "採点"],
   },
@@ -537,7 +537,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "対象者を多面的・重層的に理解するために、質問紙法や投影法、知能検査など性質の異なる複数の検査を組み合わせて実施すること。",
     body: "テストバッテリーとは、児童生徒や患者などの対象者を多面的・重層的に理解するために、複数の心理検査や学力検査を組み合わせて実施することを指します。一つの検査だけでは対象者の限られた側面しか捉えられないため、目的の異なる複数の検査を組み合わせることで、より総合的な理解を目指すという考え方に基づいています。\n\n心理検査の分野では、質問紙法(意識レベルの心理を測定)、投影法(無意識レベルの心理を測定)、知能検査(知的水準を測定)のように、異なる性質を持つ検査を組み合わせることが基本原則とされます。教育相談や特別支援教育の現場では、知能検査に発達検査や行動観察の結果を組み合わせて、子どもの認知特性や支援ニーズを総合的に把握するためにテストバッテリーが組まれることがあります。\n\nどの検査を組み合わせるかは、対象者の年齢や相談内容、検査にかけられる時間や負担などを踏まえて慎重に決定する必要があります。検査を増やせば情報量は増えますが、対象者の疲労や検査への抵抗感も高まるため、目的に照らして必要最小限かつ相互に補完し合う検査を選ぶことが、有効なテストバッテリーを組む上での要点とされています。",
-    relatedSlugs: ["wisc", "tanaka-binet", "k-shiki-hattatsu-kensa"],
+    relatedSlugs: ["wisc", "tanaka-binet", "k-shiki-hattatsu-kensa", "hyojun-settei-ho"],
     isCanonical: true,
     tags: ["心理検査", "アセスメント", "特別支援教育"],
   },
@@ -550,7 +550,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "テストの各項目について通過率や識別力などの統計的な指標を算出し、良問と不適切な項目を見分けて改善するための一連の手続き。",
     body: "項目分析とは、テストを構成する各項目について、困難度や識別力などの統計的な指標を算出し、その質を検討・改善するための一連の手続きを指します。多肢選択式のテストを開発・運用する際に広く行われ、良問と不適切な問題を見分けるための基礎的な手法として、教育測定の分野で古くから用いられています。\n\n項目の困難度は一般に通過率(正答率)によって示され、受検者集団のうちその項目に正答した者の割合が高いほど易しい項目、低いほど難しい項目とみなされます。項目の識別力を示す指標としては、成績上位群と下位群の通過率の差を用いるD指数や、その項目の得点とテスト全体の得点との相関を用いるI-T相関などがあり、値が大きいほど、その項目が受検者の能力差をよく区別できていることを意味します。\n\n項目分析の結果、通過率が極端に高すぎたり低すぎたりする項目、あるいは識別力が低い項目、さらには成績上位群よりも下位群のほうが正答しやすいような逆転項目は、出題の誤りや紛らわしい選択肢の存在を示唆するため、削除や修正の対象として検討されます。この手続きは項目反応理論に基づく分析へと発展し、大規模学力調査や標準化テストの項目バンク構築の基盤ともなっています。",
-    relatedSlugs: ["irt-parameter-models", "koten-test-riron", "hyojun-gakuryoku-kensa"],
+    relatedSlugs: ["irt-parameter-models", "koten-test-riron", "hyojun-gakuryoku-kensa", "item-discrimination-index-analysis", "distractor-analysis-multiple-choice"],
     isCanonical: true,
     tags: ["テスト作成", "測定", "統計"],
   },
@@ -563,7 +563,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "あらかじめ用意した段階的な尺度に沿って、対象の状態や態度、行動の傾向などを回答者や評価者が判定・評価する測定の方法である。",
     body: "評定尺度法とは、ある事柄や行動、態度などについて、あらかじめ設定された段階的な選択肢の中から評価者や回答者に判定を求める測定方法です。「よくあてはまる」から「まったくあてはまらない」まで数段階の選択肢を用意し、その中から一つを選ばせる方式が代表的で、数値化しにくい心理的な特性や行動の傾向を、量的なデータとして扱えるようにする点に利点があります。\n\nこの方法で用いられる代表的な尺度形式が、アメリカの社会心理学者レンシス・リッカートが考案したリッカート尺度です。一般に5段階が多く用いられますが、7段階や9段階を採用する場合もあり、教育評価においては児童生徒の学習意欲や自己評価、教員による行動観察の記録など、幅広い場面で活用されています。\n\n評定尺度法は実施が簡便で集計・分析がしやすい一方、回答が中央の選択肢に集中する中心化傾向や、評価者の主観による甘辛の差が生じやすいという課題も指摘されています。そのため、評価規準を具体的に示したり、複数の評価者による評定を組み合わせたりするなど、評価者間の一貫性を高める工夫と併せて用いられることが重要とされています。",
-    relatedSlugs: ["hyokasha-kan-shinraisei", "jiko-hyoka", "kanten-betsu-hyoka", "central-tendency-error-correction", "likert-scale-semantic-differential-method"],
+    relatedSlugs: ["hyokasha-kan-shinraisei", "jiko-hyoka", "kanten-betsu-hyoka", "central-tendency-error-correction", "likert-scale-semantic-differential-method", "behavioral-observation-checklist-method", "anecdotal-record-observation-method", "guess-who-peer-assessment-technique"],
     isCanonical: true,
     tags: ["測定方法", "アンケート", "評価技法"],
   },
@@ -590,7 +590,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学校が自らの教育活動や学校運営の状況について目標に照らして評価を行い、改善につなげる仕組み。自己評価・学校関係者評価・第三者評価の3種類からなる。",
     body: "学校評価は、各学校が教育活動その他の学校運営の状況について評価を行い、その結果に基づいて学校運営の改善を図る仕組みである。日本では平成19年（2007年）の学校教育法および同法施行規則の改正により、校長のリーダーシップの下で全教職員が参加して行う「自己評価」の実施・公表が義務化され、保護者や地域住民等で構成される委員会等が自己評価の結果を評価する「学校関係者評価」の実施・公表が努力義務とされた。あわせて、評価結果を設置者へ報告することも義務づけられている。\n\nこれに加えて、学校と直接の関わりを持たない専門家等が、自己評価・学校関係者評価の結果を資料として活用しながら、教育活動や学校運営全般について専門的・客観的な立場から行う「第三者評価」がある。第三者評価は法令上の実施義務はないが、より高い客観性と専門性を確保する手段として位置づけられている。\n\n学校評価の目的は、単なる格付けや序列化ではなく、各学校が組織として教育活動を検証し、課題を明確にして改善サイクル（PDCA）を機能させること、また評価結果を公表し保護者・地域に説明責任を果たすことで、学校・家庭・地域の連携協力による学校づくりを進めることにある。",
-    relatedSlugs: ["ninsho-hyoka-seido", "curriculum-management", "kyoiku-iinkai", "school-stakeholder-evaluation-practice", "third-party-school-evaluation-agency"],
+    relatedSlugs: ["ninsho-hyoka-seido", "curriculum-management", "kyoiku-iinkai", "school-stakeholder-evaluation-practice", "third-party-school-evaluation-agency", "education-board-annual-inspection-report", "assessment-results-public-disclosure", "school-improvement-data-informed-action"],
     isCanonical: true,
     exam: true,
     tags: ["学校評価", "自己評価", "第三者評価", "PDCA", "説明責任"],
@@ -618,7 +618,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "教員の職務遂行状況や発揮された能力を評価する仕組み。日本の公立学校では地方公務員法に基づく人事評価制度として「業績評価」と「能力評価」の2本立てで実施される。",
     body: "教員評価（教員の人事評価）は、教員の職務遂行の結果や、その過程で発揮された能力を評価し、学校教育の質向上と教職員個々の資質向上、学校組織の活性化を図ることを目的とする仕組みである。日本の公立学校教員については地方公務員法に基づく人事評価制度が適用され、任命権者（都道府県教育委員会等）が評価を実施する。\n\n制度の中心は、一定期間における業務の実施結果を評価する「業績評価」と、職務遂行にあたり実際に発揮された能力を評価する「能力評価」の2つから構成される。多くの自治体では、評価に先立って教員自身が目標設定や自己分析を行う「自己申告」の仕組みを取り入れ、評価結果の本人への開示や、評価に納得できない場合の苦情相談・苦情処理の体制も整備されている。調査によれば、小学校教員の97.3%、中学校教員の88.9%が年に1回以上、校長等から公的な評価を受けているとされる。\n\n評価結果は、給与やボーナスなど処遇への反映だけでなく、教員本人の研修計画やキャリア形成のための基礎情報としても活用される。一方で、評価基準の主観性や、数値化になじみにくい指導の質をどう捉えるか、評価疲れによる教員の負担増大といった課題も指摘されており、学校評価や授業研究など他の評価活動との関係整理が引き続き論点となっている。",
-    relatedSlugs: ["gakko-hyoka", "kyoshi-tabosei-burnout", "staff-development", "teacher-evaluation-systems-international-comparison", "nbpts-national-board-certification", "teaching-portfolio"],
+    relatedSlugs: ["gakko-hyoka", "kyoshi-tabosei-burnout", "staff-development", "teacher-evaluation-systems-international-comparison", "nbpts-national-board-certification", "teaching-portfolio", "uk-ofsted-school-inspection-framework"],
     isCanonical: true,
     tags: ["教員評価", "人事評価", "業績評価", "能力評価"],
   },
@@ -657,7 +657,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "欧州評議会が1990年代に開発した、外国語能力をA1からC2までの6段階で「〜できる」という到達度記述で示す国際的な言語能力評価の共通枠組み。",
     body: "CEFR（Common European Framework of Reference for Languages、ヨーロッパ言語共通参照枠）は、欧州評議会（Council of Europe）が1990年代に開発した、言語能力を記述・比較するための国際的な共通枠組みである。学習者の言語運用能力を、初級から上級までA1・A2（基礎段階の言語使用者）、B1・B2（自立した言語使用者）、C1・C2（熟達した言語使用者）の6段階で示し、各レベルを「〜することができる」という具体的な行動目標（Can-Doディスクリプタ）によって記述する点に特色がある。\n\nCEFRはもともと欧州域内の言語教育カリキュラムやシラバス、教科書、資格試験の共通の土台を提供する目的で策定されたが、現在では40以上のヨーロッパおよび非ヨーロッパの言語の教育・評価に応用されており、多くの語学検定試験（英検、TOEFL、IELTS、実用フランス語技能検定など）がCEFRとの対照表を公表している。日本でも学習指導要領における外国語教育の到達目標の設定や、大学入試における英語4技能評価の議論においてCEFRが参照されてきた。\n\nCEFRは単なる級別テストではなく、「聞くこと・読むこと・やり取り・発表・書くこと」といった言語活動の領域ごとに熟達度を記述する枠組みであり、教育目標の設定、教材開発、評価基準の作成、異なる言語間・異なる試験間での能力の相互比較といった多様な目的に用いられている。",
-    relatedSlugs: ["ib-baccalaureate", "hyoka-kijun"],
+    relatedSlugs: ["ib-baccalaureate", "hyoka-kijun", "eigo-minkan-shiken"],
     isCanonical: true,
     tags: ["CEFR", "言語教育", "到達度記述", "欧州評議会"],
   },
@@ -722,7 +722,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "児童生徒の過去の学力データから予測される得点と実際の得点との差を用いて、教員や学校が学力向上に与えた「付加価値」を統計的に推定しようとする評価手法。",
     body: "バリューアデッド・モデル（Value-Added Model, VAM、付加価値モデル）は、教員や学校の教育効果を測定するための統計的手法であり、児童生徒のある年度の学力テストの得点を、過去の得点や同学年の他の生徒の状況などから統計的に予測し、実際の得点と予測値との差分を、その教員・学校がもたらした「付加価値」とみなす考え方である。生徒の生来の能力や家庭の社会経済的背景ではなく、教員・学校の指導が学力向上にどれだけ寄与したかを切り分けて捉えようとする試みとして、主に米国で教員評価やアカウンタビリティ政策に用いられてきた。\n\nこの手法には、単年度の得点変化を教員個人の効果に帰属させる統計的妥当性が十分に検証されていない、測定誤差が大きく優れた教員を「効果が低い」と誤って判定するリスクがある、どの変数（家庭の所得や親の学歴、人種など）をモデルに組み込むかという分析者の裁量によって結果が変わりうる、といった深刻な批判が向けられている。\n\nそのため、バリューアデッド・モデルを教員の昇給や雇用継続の可否に直結させる運用は米国内でも大きな論争を呼んでおり、単一の指標として絶対視せず、授業観察や同僚評価など他の評価方法と組み合わせて用いるべきだという見解が広く共有されている。",
-    relatedSlugs: ["kyoin-hyoka", "gakko-koka-kenkyu", "koumoku-bunseki"],
+    relatedSlugs: ["kyoin-hyoka", "gakko-koka-kenkyu", "koumoku-bunseki", "propensity-score-matching-educational-data"],
     isCanonical: true,
     tags: ["バリューアデッドモデル", "教員評価", "アカウンタビリティ", "統計的評価"],
   },
@@ -748,7 +748,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "教育政策や実践の意思決定を、経験や慣習だけでなく、ランダム化比較試験などの科学的根拠（エビデンス）に基づいて行おうとする考え方および取り組み。",
     body: "エビデンスに基づく教育（Evidence-Based Education、EBE）およびエビデンスに基づく政策形成（Evidence-Based Policy Making, EBPM）は、教育政策の立案や学校現場での指導方法の選択を、担当者の経験や勘、慣習だけに頼るのではなく、統計的・実証的な根拠（エビデンス）に基づいて行おうとする考え方である。もともとは医療分野におけるエビデンスに基づく医療（EBM）の考え方が教育分野に応用されたものであり、政策や介入の効果を厳密に検証する枠組みとして、対象者を無作為に介入群と対照群に振り分けて効果を比較するランダム化比較試験（RCT）が重視される。\n\n日本でも近年、限られた教育資源を効果的に配分するため、政策効果の事前・事後の検証を制度化する動きが進んでおり、文部科学省や教育委員会が政策評価にエビデンスを活用する取り組みを進めている。学力調査や学習履歴等のビッグデータ、ラーニング・アナリティクスの発展も、エビデンスに基づく教育の基盤を支える技術的な動向として位置づけられる。\n\n一方で、教育実践は文脈依存性が高く、RCTなど厳密な因果推論の手法をそのまま教育現場に適用することの難しさや、数値化しやすい学力指標に評価が偏ることへの懸念も指摘されており、量的エビデンスと現場の質的な知見・専門的判断をどう組み合わせるかが課題となっている。",
-    relatedSlugs: ["education-big-data", "learning-analytics", "gakko-koka-kenkyu", "kyoiku-shinko-kihon-keikaku", "randomized-controlled-trial-education"],
+    relatedSlugs: ["education-big-data", "learning-analytics", "gakko-koka-kenkyu", "kyoiku-shinko-kihon-keikaku", "randomized-controlled-trial-education", "accountability-reform-outcomes-based-pressures"],
     isCanonical: true,
     tags: ["EBPM", "エビデンスに基づく教育", "ランダム化比較試験", "教育政策"],
   },
@@ -774,7 +774,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "項目反応理論において、受検者の能力値と、その項目に正答する確率との関係をS字型の曲線で表したもの。項目の困難度・識別力・当て推量の影響を視覚的に示す。",
     body: "項目特性曲線（Item Characteristic Curve, ICC）は、項目反応理論（IRT）における中心的な概念であり、受検者の潜在的な能力値（θ）を横軸に、その項目に正答する確率を縦軸にとったときの両者の関係を表すS字型（ロジスティック型）の曲線である。能力の高い受検者ほど正答確率が高くなるという単調増加の関係を数式でモデル化したものであり、テストを構成する項目一つひとつについて描くことができる。\n\nICCの形状は、モデルに含めるパラメータの数によって特徴づけられる。項目の困難度（曲線が立ち上がる能力水準の位置）のみを扱う1パラメータロジスティックモデル（ラッシュモデル）、困難度に加えて識別力（曲線の傾きの急峻さ、能力の違いをどれだけ鋭敏に弁別できるか）を扱う2パラメータモデル、さらに当て推量による正答（曲線の下限、当て推量パラメータ）を加味する3パラメータモデルなどが代表的である。\n\n項目特性曲線を用いることで、ある項目がどの能力水準の受検者を弁別するのに適しているか、極端に易しすぎる・難しすぎる項目はどれかといった、項目ごとの機能を視覚的かつ定量的に把握できる。この情報は、コンピュータ適応型テスト（CAT）における出題項目の選定や、異なる回のテスト間で難易度をそろえるテスト等化など、大規模試験の設計・運用の基盤として活用されている。",
-    relatedSlugs: ["irt-parameter-models", "cat-adaptive-testing", "koumoku-bunseki", "test-toka", "rasch-model-one-parameter-irt", "two-parameter-logistic-model-2plm"],
+    relatedSlugs: ["irt-parameter-models", "cat-adaptive-testing", "koumoku-bunseki", "test-toka", "rasch-model-one-parameter-irt", "two-parameter-logistic-model-2plm", "polytomous-item-response-theory-model"],
     isCanonical: true,
     tags: ["項目特性曲線", "ICC", "項目反応理論", "テスト理論"],
   },
@@ -931,7 +931,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "左右対称のインクのしみ10枚が何に見えるかを答えさせ、その反応から人格の特徴を理解しようとする代表的な投影法検査。1921年にロールシャッハが発表した。",
     body: "ロールシャッハ・テストは、スイスの精神科医ヘルマン・ロールシャッハ（Hermann Rorschach）が1921年に発表した投影法の心理検査です。左右対称のインクブロット（しみ）が描かれた10枚の図版を順に見せ、何に見えるか、どこがどう見えたからそう見えたのかを答えてもらいます。曖昧な刺激に対する反応の仕方に、その人の知覚の特徴や感情、対人関係の持ち方などが投影されるという考えに基づきます。\n\n反応は、図版のどの部分に注目したか（反応領域）、形・色・動きなどの何に基づいたか（決定因）、何が見えたか（内容）などの観点で整理して解釈します。世界各国でさまざまな実施・整理の方法が発展し、アメリカではエクスナーによる包括システムが広く用いられました。質問紙法と異なり、被検者が結果の方向性を意図的に操作しにくいと考えられてきました。\n\n一方で、解釈に検査者の熟練を要すること、採点や解釈の客観性・妥当性への批判が根強いことも知られています。教育の場では、スクールカウンセラーや医療・福祉機関などの専門家が、必要に応じて他の検査や面接、行動観察と組み合わせる総合的なアセスメントの一部として用いるもので、教員が単独で実施・解釈するものではありません。テストバッテリーの考え方が特に重要になる検査です。",
-    relatedSlugs: ["yg-seikaku-kensa", "test-battery", "school-counselor", "big-five-personality"],
+    relatedSlugs: ["yg-seikaku-kensa", "test-battery", "school-counselor", "big-five-personality", "sentence-completion-test-sct"],
     isCanonical: true,
     tags: ["投影法", "心理検査", "アセスメント"],
   },
@@ -983,7 +983,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "成績をつけるためではなく、学習を改善し促進するために評価の情報を活用する考え方。ブラックとウィリアムの1998年の論文などを契機に世界に広がった。",
     body: "学習のための評価（Assessment for Learning, AfL）は、評価を学習の結果を判定するためだけでなく、学習者と教師が次の学習に向けた手がかりを得て指導と学習を改善するために用いるという考え方です。英国のブラック（Paul Black）とウィリアム（Dylan Wiliam）が1998年に発表した「Inside the Black Box」（Phi Delta Kappan誌）で、教室での形成的評価が学力向上に強い効果をもつ根拠を整理したことで広く知られました。この論文は同名の大規模な文献レビューの要約でした。\n\nAfLの実践としては、学習目標と成功の基準を学習者と共有すること、質問や対話を通じて理解の状況を把握すること、得点でなく次の一歩を示すフィードバックを返すこと、自己評価や仲間同士の評価を促すことなどが挙げられます。ハッティとティンパーリー（Hattie & Timperley, 2007）は、効果的なフィードバックを「目標はどこか」「今どこにいるか」「次にどこへ進むか」という三つの問いに答えるものと整理しました。\n\n英国では評価を学習の対象（Assessment of Learning）、学習のため（for Learning）、学習としての（as Learning）に区別する整理もあります。日本の指導と評価の一体化の考え方や形成的評価と重なり合いますが、成績のための評価が主流の環境では、点数のつく評価が内発的動機を損なう懸念への配慮も必要です。評価を教師から学習者へ委ねていく視点が特徴です。",
-    relatedSlugs: ["keiseiteki-hyoka", "shido-hyoka-ittaika", "jiko-hyoka", "self-regulated-learning"],
+    relatedSlugs: ["keiseiteki-hyoka", "shido-hyoka-ittaika", "jiko-hyoka", "self-regulated-learning", "feedback-timing-immediate-delayed-effects", "comment-only-marking-learning-gains"],
     isCanonical: true,
     tags: ["形成的評価", "フィードバック", "英国", "Assessment for Learning"],
   },
@@ -1009,7 +1009,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "ラルフ・タイラーが1949年の著書で示した、教育目標の設定から評価までを一貫させるカリキュラム開発の考え方。目標に準拠した教育評価の源流とされる。",
     body: "アメリカの教育学者ラルフ・タイラー（Ralph W. Tyler）は、1949年に『Basic Principles of Curriculum and Instruction』（邦訳は1978年）を刊行し、カリキュラム開発に必要な四つの問いを示しました。学校はどのような教育目標を達成しようとするのか、その目標を達成するにはどのような教育経験を与えるのか、それらの経験をどう効果的に組織するのか、目標が達成されたかどうかをどう判断するのか、という問いです。この枠組みはタイラー原理と呼ばれ、カリキュラム研究の古典となっています。\n\nタイラーは、進歩主義教育の成果を検証する八年研究（1930年代から1940年代初めにかけての研究）で評価研究を主導した経験から、評価を単なる測定とは区別し、あらかじめ設定した行動目標に照らして教育の成果を判断する営みとして捉えました。評価は目標と指導のあいだの連続した循環に位置づけられ、目標の明確化と評価が不可分であるという考えは、目標に準拠した評価の源流となりました。\n\nこの目標中心のモデルは、教育を行動目標に分解して測定することで、目標以外の副次的な成果を見落とすとして批判されました。スクリヴン（Scriven）が提唱したゴール・フリー評価や、スタッフルビームのCIPPモデルなどは、その限界を補う形で発展しました。それでも、目標・指導・評価の一貫性を重視する考え方は逆向き設計や指導と評価の一体化に受け継がれています。",
-    relatedSlugs: ["backward-design", "shido-hyoka-ittaika", "cipp-model", "hyoka-kijun"],
+    relatedSlugs: ["backward-design", "shido-hyoka-ittaika", "cipp-model", "hyoka-kijun", "curriculum-management-indicator-setting"],
     isCanonical: true,
     tags: ["カリキュラム", "教育目標", "八年研究"],
   },
@@ -1022,7 +1022,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "スタッフルビームが提唱した、背景・入力・過程・成果の四つの側面から教育プログラムを評価し、意思決定に役立てる評価モデル。",
     body: "CIPPモデルは、アメリカの評価研究者ダニエル・スタッフルビーム（Daniel Stufflebeam）が1960年代に提唱したプログラム評価のモデルで、背景評価（Context）、入力評価（Input）、過程評価（Process）、成果評価（Product）の頭文字をとったものです。連邦政府の資金による教育事業の評価が義務づけられたことを背景に開発され、1971年にスタッフルビームらが『Educational Evaluation and Decision Making』でその体系を示しました。\n\n背景評価は、ニーズや問題、利用できる資源、機会を把握して目標や優先順位を決める段階です。入力評価は、目標を達成するための代替案や計画、予算を検討します。過程評価は、計画の実施状況を監視し、必要に応じて改善に導きます。成果評価は、得られた結果の価値や重要性を判断します。評価を単に結果の判定ではなく、各段階の意思決定のための情報提供と位置づけた点が特徴です。\n\nタイラーに代表される目標達成度の評価に対し、目標そのものの妥当性や実施過程も評価の対象に含める点で、より広い視野をもちます。日本でも、カリキュラム評価や学校評価、特に教育的ニーズの把握の観点からCIPPモデルの活用が検討されています。評価の目的を改善に置くことと、関係者の意思決定に役立つ情報を提供することが基本的な考え方です。",
-    relatedSlugs: ["tyler-hyoka", "gakko-hyoka", "naibu-shitsu-hosho", "curriculum-management"],
+    relatedSlugs: ["tyler-hyoka", "gakko-hyoka", "naibu-shitsu-hosho", "curriculum-management", "curriculum-management-indicator-setting"],
     isCanonical: true,
     tags: ["プログラム評価", "カリキュラム評価", "意思決定"],
   },
@@ -1048,7 +1048,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学習者に援助を与えながら課題に取り組ませ、その反応から学習の可能性や伸びを評価する方法。ヴィゴツキーの発達の最近接領域に理論的基盤をもつ。",
     body: "動的評価（dynamic assessment）は、従来の静的なテストが現在の到達水準だけを測るのに対し、評価の過程に援助や介入を組み込み、学習者がどれだけ援助を活用して伸びるかを測ろうとする方法です。ヴィゴツキーの発達の最近接領域（ZPD）、すなわち単独でできることと大人や仲間の援助があればできることとの隔たりという考え方を理論的基盤とし、指導と評価を統合した枠組みとして発展しました。\n\n代表的な手法に、イスラエルのフォイヤーシュタイン（Reuven Feuerstein）が開発したLPAD（学習可能性評価デバイス）があります。まず課題を単独で解かせて観察し（テスト）、次に方略の教授などの媒介を行い（介入）、最後に再度課題を行わせて学習の定着と転移を見る（再テスト）という流れで進みます。その背景には、人間の認知は媒介された学習経験によって変わりうるという構造的認知可能性の考え方があります。\n\n動的評価は、文化的・言語的な背景や学習経験の乏しさから静的テストでは力が過小評価されやすい子どもの評価、特別な教育的支援のニーズの把握、第二言語の学習などで注目されています。他方、実施に熟練を要し、援助の与え方の標準化や結果の信頼性・比較可能性の確保が難しいという課題があります。評価を学習の一部とする観点から、学習のための評価とも通じる考え方です。",
-    relatedSlugs: ["zpd", "scaffolding", "assessment-for-learning", "binet-test"],
+    relatedSlugs: ["zpd", "scaffolding", "assessment-for-learning", "binet-test", "behavioral-observation-checklist-method"],
     isCanonical: true,
     tags: ["発達の最近接領域", "アセスメント", "ヴィゴツキー"],
   },
@@ -1074,7 +1074,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "観点別学習状況の評価の一つ。粘り強い取組を行おうとする側面と、自らの学習を調整しようとする側面の両面から評価する。",
     body: "「主体的に学習に取り組む態度」は、2017・2018年改訂の学習指導要領のもとで、観点別学習状況の評価の3観点（知識・技能、思考・判断・表現、主体的に学習に取り組む態度）の一つとして整理されました。2019年3月29日付の文部科学省通知「小学校、中学校、高等学校及び特別支援学校等における児童生徒の学習評価及び指導要録の改善等について」により、従来の「関心・意欲・態度」が改められたものです。\n\n評価にあたっては、知識及び技能を獲得したり、思考力・判断力・表現力等を身に付けたりすることに向けた粘り強い取組を行おうとする側面と、その粘り強い取組の中で自らの学習を調整しようとする側面の二つの側面から捉えます。後者は自己調整学習の理論を背景としており、学習の進め方を振り返り、方略を見直す姿勢を評価の対象とします。挙手の回数やノートの丁寧さといった表面的な態度だけで判断しないことが重要とされています。\n\n評価の方法としては、ワークシートやノート、振り返りの記述、発言、自己評価・相互評価などを手がかりに、授業の中で子どもの学ぶ姿を見取ることが求められます。ただし、この観点には学習の調整といった目に見えにくい側面が含まれるため、評価者の主観が入りやすく、また感性や思いやりなどは観点別評価や評定になじまず個人内評価で扱うとされる部分もあります。評価の規準を明示し、複数の場面や資料に基づいて判断する工夫が必要です。",
-    relatedSlugs: ["kanten-betsu-hyoka", "gakushu-hyoka-sankanten", "self-regulated-learning", "jiko-hyoka", "proactive-attitude-learning-assessment"],
+    relatedSlugs: ["kanten-betsu-hyoka", "gakushu-hyoka-sankanten", "self-regulated-learning", "jiko-hyoka", "proactive-attitude-learning-assessment", "reflection-sheet-self-evaluation-moral-growth", "reading-log-passport-literacy-assessment"],
     isCanonical: true,
     tags: ["観点別評価", "自己調整学習", "学習評価"],
   },
@@ -1413,7 +1413,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学習指導要領が示す到達目標に対する児童生徒の達成度を測定し、その結果を授業設計の見直しや個別支援の改善へと連続的につなげる組織的な教育評価活動。",
     body: "目標到達度評価は、あらかじめ設定した教育目標に対して学習者がどの程度到達できたかを明らかにする基準準拠評価の枠組みである。タイラーの目標基盤評価モデルの思想を受け継ぎ、集団内の相対的な順位づけから個々の学びの確実な保障へと評価理念が転換した歴史を背景に持つ。\n\n評価手順では、まず単元の開始時に具体的な目標と評価基準を明確にし、ルーブリックや小テストを作成する。授業展開の中では形成的アセスメントを適宜実施してつまずきを把握し、指導計画の修正や補充指導を即座に行うことで、計画と指導と評価の循環を維持する。\n\nこのサイクルを機能させることで、指導者は勘や経験に頼らずデータに基づいて授業改善を推進できる。児童生徒にとっても自己の到達状況が明確になり、学修成果を可視化することで主体的に学びを調整する姿勢が育成される。",
-    relatedSlugs: ["tochakudo-hyoka", "tyler-hyoka", "shido-hyoka-ittaika", "keiseiteki-hyoka"],
+    relatedSlugs: ["tochakudo-hyoka", "tyler-hyoka", "shido-hyoka-ittaika", "keiseiteki-hyoka", "instructional-plan-evaluation-pdca-childcare"],
     isCanonical: true,
     tags: ["到達度評価", "指導改善", "評価基準", "教育目標"],
   },
@@ -1881,7 +1881,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "教育施策の投入資源から活動、初期成果、長期的成果に至る因果連鎖を論理的に図式化し、施策の有効性と改善点を検証する評価の枠組み。",
     body: "教育政策や事業が最終的な成果を生み出すまでの論理的道筋を図式化し、因果関係の妥当性を検証する評価手法である。政策科学や事業評価の分野で発展し、教育施策に投入された予算や人員が実際に学習者の変容に結びついているかを客観的に問う枠組みとして普及した。\n\n投入資源、実施活動、直接的産出、短期的な成果、長期的な波及効果という各構成要素を明確に定義して矢印でつなぐ。各段階に測定可能な指標を配置し、施策の進行状況や学習環境の変化、児童生徒の学力や意欲の推移データを照合して連鎖の断絶を検証する。\n\n施策が成功または失敗した要因がプロセスのどの段階にあるのかを精密に特定できる利点を持つ。無駄な施策の継続を防ぎ、客観的な証拠に基づく教育施策の再設計や予算の重点配分を可能にし、教育行財政の透明性と教育改善効果を飛躍的に高める。",
-    relatedSlugs: ["cipp-model", "kirkpatrick-model", "gakko-hyoka"],
+    relatedSlugs: ["cipp-model", "kirkpatrick-model", "gakko-hyoka", "international-education-indicators-benchmarking"],
     isCanonical: true,
     tags: ["ロジックモデル", "施策評価", "因果関係", "教育政策"],
   },
@@ -2089,7 +2089,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学習者が日々の学習体験や気付き、困難を乗り越えた過程を定期的に記述し、自身の学びの変容や成長の軌跡を主体的に省察するための記録的評価活動。",
     body: "振り返りジャーナルとは、学習者が日々の学びの過程で得た気付きや課題意識を継続的に書き留め、自己の学修の軌跡を再吟味する評価手法である。デューイの反省的思考の理論やショーンの省察的実践家の概念を教育評価に応用し、結果の成否だけでなく学びの文脈や情意面の変容を捉える活動として定着した。\n\n実施においては、単元や授業の区切りごとに「何を学び、どう考えが深まったか」「何に悩み、どう対処したか」を自由記述や指定された観点に沿って蓄積する。教師は記述に共感的な助言や問いかけを書き添え、学習者の自己省察を深める対話的なやり取りを重ねる。\n\n単なる知識習得の測定を超えて、思考力の深まりや学習意欲の持続といった不可視の学修成果を可視化する優れた機能を持つ。ポートフォリオ評価の中核を担い、学習者が自己の成長実感を得て生涯にわたる自律的学習態度を確立する上で大きな意義を持つ。",
-    relatedSlugs: ["portfolio-hyoka", "metacognition", "jiko-hyoka", "e-portfolio-reflection-academic-advising"],
+    relatedSlugs: ["portfolio-hyoka", "metacognition", "jiko-hyoka", "e-portfolio-reflection-academic-advising", "propensity-score-matching-educational-data"],
     isCanonical: true,
     tags: ["振り返りジャーナル", "省察", "学びの軌跡", "ポートフォリオ"],
   },
@@ -2115,7 +2115,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "教育課程で育成を目指す多様な資質・能力を体系的に構造化・可視化し、各教科の学びや課題遂行を通じた習得状況を多面的に測定・評価する手法。",
     body: "コンピテンシー・マッピングとは、育成すべき資質・能力を具体的な行動特性や熟達水準として体系図（マップ）に整理し、学習成果を多角的に評価する手法である。知識の伝達量を測る従来の学力観から、知識を文脈に応じて活用する資質・能力を重視する国際的な能力観の潮流を受けて発展した。\n\n教育課程全体の目標を「思考力」「協働性」「情報活用」などの資質に分解し、学年や教科ごとの到達水準を縦横の座標軸上に配置する。各授業でのパフォーマンス評価や観察記録のデータをこの枠組みに対応させ、学習者がどの資質をどの程度獲得したかを把握・分析する。\n\n教科横断的な能力育成の進捗を明確にし、児童生徒に対して自身の強みやつまずきを直感的に可視化してフィードバックできる。教員組織にとっても教育課程の改善点や指導の空白を客観的に検証するための不可欠な指標となっている。",
-    relatedSlugs: ["competency-based-hyoka", "gakuryoku-no-san-yoso", "gakushu-hyoka-sankanten"],
+    relatedSlugs: ["competency-based-hyoka", "gakuryoku-no-san-yoso", "gakushu-hyoka-sankanten", "uk-t-levels-technical-qualifications-reform"],
     isCanonical: true,
     tags: ["コンピテンシー", "資質能力", "資質評価", "教育課程"],
   },

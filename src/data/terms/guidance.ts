@@ -10,7 +10,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "一人ひとりの児童生徒の人格を尊重し、個性の伸長と社会的資質・行動力の育成を目指して行われる、学習指導と並ぶ学校教育の重要な機能。",
     body: "生徒指導とは、一人ひとりの児童生徒の人格を尊重し、個性の伸長を図りながら、社会的資質や行動力を高めることを目指して、学校の教育活動全体を通じて行われる働きかけの総称です。文部科学省の「生徒指導提要」では、教科の学習指導と並ぶ学校教育の重要な機能として位置づけられています。\n\nかつては問題行動への対応（消極的生徒指導）というイメージが強く持たれがちでしたが、現在の生徒指導提要では、一人ひとりのよさや可能性を引き出し、自己指導能力を育てる「発達支持的生徒指導」や、深刻な問題が起こる前に予防的に働きかける「課題未然防止教育」など、積極的・予防的な側面がより重視されるようになっています。\n\n生徒指導は特定の教科や時間に限定されるものではなく、授業、休み時間、部活動、学校行事など、学校生活のあらゆる場面を通じて行われる、教職員全体の日常的な営みだと理解されています。",
-    relatedSlugs: ["jiko-shido-noryoku", "kyoiku-sodan", "kihan-ishiki", "annual-student-guidance-plan-targets"],
+    relatedSlugs: ["jiko-shido-noryoku", "kyoiku-sodan", "kihan-ishiki", "annual-student-guidance-plan-targets", "sleep-wake-rhythm-disorder-guidance", "chu-ichi-gap-transition-smoothing-guidance", "labor-law-education-black-part-time-job", "student-guidance-committee-operations"],
     isCanonical: true,
     tags: ["生徒指導提要", "発達支持的生徒指導"],
   },
@@ -23,7 +23,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "子どもの悩みや困りごとに寄り添い、その解決や本人の成長を支援するために、教員やスクールカウンセラーなどが行う相談活動。",
     body: "教育相談とは、児童生徒が抱える学習面、対人関係、進路、家庭環境などのさまざまな悩みや困りごとについて、担任教員、養護教諭、スクールカウンセラーなどが本人や保護者と対話しながら、その解決や本人の心理的な成長を支援していく相談活動を指します。\n\n生徒指導が学校生活全体を通じた集団的・組織的な働きかけであるのに対し、教育相談は個々の子どもの内面によりきめ細かく寄り添う、カウンセリング的な性格を強く持つ活動として位置づけられます。両者は対立するものではなく、相互に補い合いながら子どもを支える両輪とされています。\n\n近年は、問題が起きてから対応する「事後対応」だけでなく、定期的な教育相談週間の設置や、日々のちょっとした変化に早期に気づく「未然防止・早期発見」の視点がより重視されており、スクールカウンセラーやスクールソーシャルワーカーとの連携も欠かせない要素となっています。",
-    relatedSlugs: ["seito-shido", "school-counselor", "futoko", "congruence-genuineness-listening-attitude"],
+    relatedSlugs: ["seito-shido", "school-counselor", "futoko", "congruence-genuineness-listening-attitude", "over-adaptation-burnout-prevention-students", "high-school-dropout-prevention-consultation", "career-counseling-basic-skills-listening", "motivational-interviewing-behavioral-change"],
     isCanonical: true,
     tags: ["カウンセリング", "早期発見"],
   },
@@ -36,7 +36,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学校に配置される、心理の専門的な知識を持つ相談員。児童生徒や保護者へのカウンセリング、教職員への助言などを行う。",
     body: "スクールカウンセラーとは、臨床心理士や公認心理師といった心理の専門資格を持ち、学校に配置される相談員です。1995年度から文部科学省の事業として全国の学校に段階的に配置が進められてきました。\n\n主な役割として、児童生徒本人や保護者への個別カウンセリング、いじめや不登校、友人関係の悩みなどへの心理的な支援、教員に対する子どもへの関わり方についての助言（コンサルテーション）、事件や事故が起きた際の緊急支援などが挙げられます。\n\nスクールカウンセラーは教員とは異なる専門性を持つ「チーム学校」の一員として、学校内外の医療機関や福祉機関とのつなぎ役も担っており、生活面の課題に対応するスクールソーシャルワーカーと連携しながら、子どもを多角的に支える体制の一翼を担っています。",
-    relatedSlugs: ["kyoiku-sodan", "school-social-worker", "team-gakko"],
+    relatedSlugs: ["kyoiku-sodan", "school-social-worker", "team-gakko", "social-support-four-types", "three-level-psychoeducational-service", "school-bullying-prevention-policy-revision", "bullying-initial-response-fact-finding-safety", "online-game-addiction-in-app-billing-response"],
     isCanonical: true,
     exam: true,
     tags: ["臨床心理士", "公認心理師"],
@@ -50,7 +50,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "福祉の専門的な知識を持ち、子どもが置かれている家庭環境や生活環境に働きかけて、関係機関との連携を進める専門職。",
     body: "スクールソーシャルワーカー（SSW）とは、社会福祉士や精神保健福祉士といった福祉の専門資格を持ち、学校に配置または派遣される専門職です。子どもの心理面に働きかけるスクールカウンセラーに対し、子どもを取り巻く家庭環境や経済状況、地域社会といった「環境」そのものに働きかける点に特徴があります。\n\n具体的には、貧困や虐待、家庭内の問題などが背景にあると疑われるケースについて、家庭訪問を行ったり、児童相談所や福祉事務所、医療機関といった関係機関と学校をつなぐコーディネーターとしての役割を担ったりします。\n\n不登校や問題行動の背景に、本人の心理面だけでなく、家庭の経済的困窮や家族関係の課題が複雑に絡んでいるケースが増える中、こうした社会福祉的な視点からの支援を行う専門職の重要性は高まっており、チーム学校の中核メンバーの一人として位置づけられています。",
-    relatedSlugs: ["school-counselor", "team-gakko", "kyoiku-kakusa"],
+    relatedSlugs: ["school-counselor", "team-gakko", "kyoiku-kakusa", "bronfenbrenner-ecological-systems", "social-support-four-types", "high-school-dropout-prevention-consultation", "welfare-office-child-consultation-center-link", "child-consultation-center-temporary-custody"],
     isCanonical: true,
     exam: true,
     tags: ["社会福祉士", "家庭環境への支援"],
@@ -64,7 +64,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "2013年に施行された、いじめの防止・早期発見・対処について学校や自治体の責務を定めた法律。重大事態の調査義務なども規定する。",
     body: "いじめ防止対策推進法は、2011年に発生した大津市の中学生いじめ自殺事件を大きな契機として、2013年に施行された法律です。いじめを「児童生徒に対して、一定の人間関係のある他の児童生徒が行う心理的・物理的な影響を与える行為であって、対象となった児童生徒が心身の苦痛を感じているもの」と幅広く定義した点が特徴です。\n\nこの法律では、学校に対し、いじめの防止等のための基本方針の策定、いじめの防止・早期発見・対処にあたる組織の常設、日常的な実態把握の実施などを義務づけています。また、生命や心身、財産に重大な被害が疑われる場合や、長期の欠席を余儀なくされている場合を「重大事態」と定義し、学校の設置者による調査組織の設置と調査を義務づけています。\n\nこの法律の制定を受けて、「特別の教科 道徳」の教科化など、いじめの未然防止に向けた教育活動の充実も進められており、法律面と教育活動面の両方からいじめ対策が強化されています。",
-    relatedSlugs: ["tokubetsu-dotoku", "kyoiku-sodan", "jinken-kyoiku"],
+    relatedSlugs: ["tokubetsu-dotoku", "kyoiku-sodan", "jinken-kyoiku", "school-bullying-prevention-policy-revision", "bullying-survey-regular-administration-analysis", "bullying-initial-response-fact-finding-safety"],
     isCanonical: true,
     exam: true,
     tags: ["大津市いじめ自殺事件", "重大事態"],
@@ -78,7 +78,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童生徒が、その時々の状況の中で自分自身をより深く理解し、直面する課題に対して自発的・主体的に目標を立て、判断・行動していける力。",
     body: "自己指導能力とは、文部科学省の「生徒指導提要」で示される概念で、児童生徒が今の自分の状況を的確に理解し、直面する課題や場面に対して、自ら目標を設定し、自分の判断で主体的に行動していける力を指します。生徒指導が最終的に育てようとする、中核的な目標だと位置づけられています。\n\nこの考え方の背景には、教師が細かくルールや正解を与えて従わせる「管理」に偏った生徒指導ではなく、子ども自身が自分の頭で考え、選択し、その結果に責任を持てるよう支援していく、という方針の転換があります。\n\n自己指導能力は、規範意識やメタ認知の力とも深く関わっており、日々のホームルーム活動や委員会・係活動など、子どもが自分たちで話し合い、決め、実行するという経験を積み重ねる特別活動の場が、この力を育てる重要な機会として位置づけられています。",
-    relatedSlugs: ["seito-shido", "metacognition", "tokubetsu-katsudo", "annual-student-guidance-plan-targets"],
+    relatedSlugs: ["seito-shido", "metacognition", "tokubetsu-katsudo", "annual-student-guidance-plan-targets", "maslow", "classroom-management-guidance-alignment", "homeroom-activities-lhr-planning-practice", "bystander-intervention-classroom-norms"],
     isCanonical: true,
     tags: ["生徒指導提要", "主体的な判断"],
   },
@@ -91,7 +91,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "失敗や逆境、ストレスの多い状況に直面しても、それを乗り越えて回復し、しなやかに適応していく心理的な力のこと。",
     body: "レジリエンスとは、もともと物理学で使われていた「弾力性・回復力」を意味する言葉で、心理学の分野では、逆境やストレス、失敗といった困難な状況に直面しても、それに押しつぶされず、心理的に回復し、しなやかに適応していく力を指す概念として使われます。\n\nレジリエンスは生まれ持った固定的な性格特性ではなく、周囲との関わりや経験を通じて後天的に育てることができる力だと考えられています。困難な経験そのものをなくすのではなく、支えてくれる人間関係、前向きな考え方の習慣、問題を解決するスキルなどを育てることで、レジリエンスを高められるとされます。\n\n受験や人間関係のトラブル、いじめなど、学校生活ではさまざまなストレスに直面する場面があることから、失敗しても立ち直る経験を積ませる、悩みを相談できる関係を築くといった、レジリエンスを育てる視点が、生徒指導や教育相談、キャリア教育の中で重視されるようになっています。",
-    relatedSlugs: ["jiko-kouryokukan", "gakushu-muryokukan"],
+    relatedSlugs: ["jiko-kouryokukan", "gakushu-muryokukan", "lazarus-coping-strategies", "diathesis-stress-model", "general-adaptation-syndrome-selye", "over-adaptation-burnout-prevention-students"],
     isCanonical: true,
     tags: ["心理的回復力", "ストレス対処"],
   },
@@ -104,7 +104,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "子どもが社会的・職業的に自立していくために必要な力や態度を、学校教育全体を通じて計画的に育成していく教育のこと。単なる進路指導とは異なる。",
     body: "キャリア教育とは、子ども一人ひとりが、社会の中で自分の役割を果たしながら自立して生きていくために必要な力や態度を、発達段階に応じて計画的・組織的に育成していく教育活動を指します。中央教育審議会の答申では「一人一人の社会的・職業的自立に向け、必要な基盤となる能力や態度を育てることを通して、キャリア発達を促す教育」と定義されています。\n\n進学先や就職先を選ぶことに焦点を当てた従来型の「進路指導」とは異なり、キャリア教育は小学校段階から始まり、働くことの意義を理解する、他者と協力する、自分で意思決定するといった、生涯にわたるキャリア発達の基盤を育てることを目指す、より広い概念です。\n\n職場見学や職業体験（インターンシップ）といった体験的な活動だけでなく、各教科の学習の中で「学ぶことと社会とのつながり」を意識させる指導も、キャリア教育の重要な一部として位置づけられています。",
-    relatedSlugs: ["tokubetsu-katsudo", "jiko-shido-noryoku"],
+    relatedSlugs: ["tokubetsu-katsudo", "jiko-shido-noryoku", "career-passport-reflective-guidance", "project-internship-problem-solving", "labor-dignity-gratitude-for-work", "designated-school-job-offer-system", "neet-freeter-school-to-work-transition-crisis", "krumboltz-planned-happenstance"],
     isCanonical: true,
     exam: true,
     tags: ["キャリア発達", "職業体験"],
@@ -118,7 +118,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学級活動・生徒会活動・学校行事・クラブ活動などからなる、学習指導要領に位置づけられた教育活動。「なすことによって学ぶ」を重視する。",
     body: "特別活動とは、学級活動（ホームルーム活動）、児童会・生徒会活動、クラブ活動（小学校）、学校行事という、教科の学習とは異なる形で学習指導要領に位置づけられている教育活動の総称です。\n\n特別活動の大きな特徴は、集団の一員としてよりよい生活や人間関係を築くために、子どもたち自身が話し合い、合意形成を図り、決めたことを実行していくという「なすことによって学ぶ」プロセスを重視する点にあります。学級会での話し合い、文化祭や運動会の企画・運営、係活動などが代表的な活動です。\n\nこうした自治的な活動の経験は、規範意識や自己指導能力、シティズンシップ教育が目指す社会参加の力の土台を築くものとして重要視されており、教科の学習だけでは育ちにくい「集団の中で生きる力」を育む場として、日本の学校教育の特色の一つとされています。",
-    relatedSlugs: ["jiko-shido-noryoku", "citizenship-education", "kihan-ishiki"],
+    relatedSlugs: ["jiko-shido-noryoku", "citizenship-education", "kihan-ishiki", "student-moderator-committee-training", "morning-homeroom-daily-moral-instruction", "school-lunch-cleaning-civic-responsibility", "club-activities-sportsmanship-etiquette", "classroom-goal-setting-shared-norms"],
     isCanonical: true,
     exam: true,
     tags: ["学級活動", "自治的活動"],
@@ -132,7 +132,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "一人ひとりの児童生徒の性格、興味・関心、家庭環境、人間関係などを、多面的な観察や情報をもとに深く把握しようとすること。",
     body: "生徒理解とは、教師が一人ひとりの児童生徒について、その性格や興味・関心、得意・不得意、家庭環境、友人関係、心身の状態などを、日々の観察や対話、記録などを通じて多面的に把握しようとする営みを指します。効果的な生徒指導や教育相談を行うための、最も基礎となる働きかけです。\n\n生徒理解の方法としては、授業や休み時間での行動観察、面談、日記や生活記録ノートへの記入、アンケート調査、他の教員や保護者からの情報共有など、さまざまな手段が組み合わせて用いられます。一度の観察や印象だけで決めつけず、継続的に、多様な角度から情報を集めることが重要とされます。\n\n近年では、いじめや不登校の予兆をできるだけ早期に把握するため、定期的なアンケートや、ICTを活用した心身の状態を記録するアプリなど、客観的なデータも活用しながら、教員の主観的な観察を補う取り組みも広がっています。",
-    relatedSlugs: ["seito-shido", "kyoiku-sodan"],
+    relatedSlugs: ["seito-shido", "kyoiku-sodan", "general-aptitude-test-battery-gatb", "seating-arrangement-peer-dynamics-adjustment", "bullying-survey-regular-administration-analysis", "online-game-addiction-in-app-billing-response", "narrative-therapy-externalization-problems", "unconditional-positive-regard-human-dignity"],
     isCanonical: true,
     tags: ["行動観察", "多面的な把握"],
   },
@@ -145,7 +145,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童生徒同士が仲間（ピア）として支え合う教育活動。傾聴や葛藤解決などのスキルを学んだ上で、悩みを抱える同級生や後輩に寄り添う取り組みを行う。",
     body: "ピアサポートとは、児童生徒同士が仲間（ピア）として支え合い、助け合う教育活動を指します。人間関係能力やコミュニケーション能力の育成を目的とし、傾聴の仕方や葛藤解決の方法などのスキルをトレーニングによって学んだ上で、実際に同級生や後輩の悩みに寄り添う活動を行います。\n\n活動内容は大きく、友達作りの支援、カウンセリング的な関わり、いじめやけんかなどの葛藤解決支援の三つに分類されます。日本では1990年代に大学生のピア・カウンセリングなどとして部分的に紹介され、2002年には日本ピア・サポート学会が設立されました。\n\n2013年施行のいじめ防止対策推進法以降は、いじめの未然防止や学校の心理的安全性を高める取り組みとして、多くの教育委員会・学校で導入が進んでいます。児童生徒の主体性を生かしながら、思いやりのある学級・学校づくりを目指す点が特徴です。",
-    relatedSlugs: ["ijime-boshi", "sst"],
+    relatedSlugs: ["ijime-boshi", "sst", "peer-support-caring-chain-school", "seating-arrangement-peer-dynamics-adjustment", "bystander-intervention-classroom-norms"],
     isCanonical: true,
     tags: ["仲間支援", "いじめ予防", "コミュニケーション能力"],
   },
@@ -158,7 +158,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "怒りの感情と上手に付き合うための心理教育プログラム。自分の怒りのパターンを理解し、衝動的な言動を防ぐスキルを身につける。",
     body: "アンガーマネジメントとは、1970年代にアメリカで開発された、怒りの感情をコントロールし、うまく付き合っていくための心理教育的なプログラムです。怒りそのものをなくすのではなく、怒りを感じたときに衝動的な言動をとらないよう対処するスキルを身につけることを目指します。\n\n代表的な技法として、怒りを感じた瞬間に頭の中で6秒数えて衝動的な反応を抑える方法や、自分がどのような場面で怒りを感じやすいかを記録して傾向を把握する方法などがあります。\n\n学校現場では、友人関係のトラブルや衝動的な問題行動の予防・対応の一環として、学級活動や特別支援教育の場面でアンガーマネジメントの考え方を取り入れた指導が広がっています。",
-    relatedSlugs: ["seito-shido", "kihan-ishiki", "sst"],
+    relatedSlugs: ["seito-shido", "kihan-ishiki", "sst", "verbal-abuse-classroom-disruption-intervention"],
     isCanonical: true,
     tags: ["怒りの感情", "ソーシャルスキル", "衝動性"],
   },
@@ -171,7 +171,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "友達との関わり方や気持ちの伝え方など、対人関係に必要な社会的スキルを、練習を通して身につけさせる指導方法。",
     body: "ソーシャルスキルトレーニング（SST）とは、他者と良好な関係を築き、集団生活に適応するために必要な社会的スキルを、実践的な練習を通して身につける指導方法です。もともとは精神科リハビリテーションの技法として発展し、日本では特別支援教育や発達障害のある子どもへの支援を中心に広く普及してきました。\n\n授業は一般に、スキルの必要性を言葉で説明する「インストラクション」、教員がよい例と悪い例を演じて見せる「モデリング」、児童生徒が小グループで実際に練習する「リハーサル」、練習を振り返り助言し合う「フィードバック」という流れで構成されます。\n\n現在では特別支援学級・通級指導教室にとどまらず、通常の学級やいじめ・不登校の予防的生徒指導の一環としても実施されており、感情理解や自己主張、断り方などのテーマを扱う実践が広がっています。",
-    relatedSlugs: ["ld", "adhd", "asd", "anger-management", "peer-support"],
+    relatedSlugs: ["ld", "adhd", "asd", "anger-management", "peer-support", "social-skills-training-roleplay-feedback", "social-skills-group-intervention"],
     isCanonical: true,
     tags: ["対人関係スキル", "特別支援教育", "ロールプレイ"],
   },
@@ -211,7 +211,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "自律神経の調節がうまく働かず、起立時に立ちくらみや倦怠感などの症状が生じる身体疾患。思春期に多く、不登校の一因となることがある。",
     body: "起立性調節障害（OD: Orthostatic Dysregulation）とは、自律神経の働きが不安定になり、横になった状態や座った状態から起立した際に脳への血流が低下することで、立ちくらみ、めまい、動悸、倦怠感、頭痛などの症状が現れる身体疾患です。思春期に好発し、症状は午前中に強く午後には軽くなる傾向があるため、周囲から「怠けている」と誤解されやすい点が特徴です。\n\n軽症例を含めると小学生の約5％、中学生の約10％に自覚症状があるとされ、不登校児童生徒の3〜4割に併存するとの報告もあります。朝起きられない、午前中の学校生活が困難といった症状が、結果的に遅刻や欠席の増加、不登校につながることがあります。\n\n医学的な診断・治療とあわせて、学校では登校時間の配慮や別室での休養、保護者・医療機関との連携など、本人の心身の状態に応じた柔軟な対応が求められます。",
-    relatedSlugs: ["futoko", "hokenshitsu-tokou", "kyoiku-sodan"],
+    relatedSlugs: ["futoko", "hokenshitsu-tokou", "kyoiku-sodan", "sleep-wake-rhythm-disorder-guidance", "smartphone-usage-hours-academic-emotional-impact"],
     isCanonical: true,
     tags: ["自律神経", "思春期", "不登校の背景"],
   },
@@ -224,7 +224,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "教育行政や学校が直面する法的な課題について、子どもの最善の利益の観点から継続的に助言を行う弁護士。いじめ対応や保護者対応などを支援する。",
     body: "スクールロイヤーとは、学校で発生するいじめ、保護者対応、体罰、虐待などのさまざまな問題について、教育や福祉の視点を取り入れながら法的観点から学校に助言を行う弁護士を指します。文部科学省は「もっぱら教育行政に関与する弁護士」と定義しており、日本弁護士連合会は「子どもの最善の利益を念頭に置きつつ継続的に助言を行う弁護士」と位置づけています。\n\n国の施策としては2015年の中央教育審議会での提案を経て、2017〜2019年度にいじめ防止等のためのスクールロイヤー活用に関する調査研究事業が実施されました。2020年には文部科学省が「教育行政に係る法務相談体制の充実について」を発出し、体制整備を進めています。\n\n保護者対応の代理人となる弁護士とは異なり、学校・教育委員会の相談役として、問題がこじれる前の予防的・早期の法的アドバイスを行う点が特徴です。教員の負担軽減や、法に基づいた適切な対応の実現に資するものとして活用が広がっています。",
-    relatedSlugs: ["seito-shido-teiyo", "ijime-judai-jitai", "taibatsu", "monster-parent-ron", "gakko-kiki-kanri", "school-lawyer-legal-consultation-framework"],
+    relatedSlugs: ["seito-shido-teiyo", "ijime-judai-jitai", "taibatsu", "monster-parent-ron", "gakko-kiki-kanri", "school-lawyer-legal-consultation-framework", "parent-complaints-school-conflict-resolution", "bullying-recognition-number-appropriate-grasp"],
     isCanonical: true,
     tags: ["法務相談", "いじめ対応", "チーム学校", "スクールロイヤー", "法的助言", "保護者対応"],
   },
@@ -237,7 +237,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "生徒指導の理論・考え方や実際の指導方法を体系的にまとめた、文部科学省作成の教職員向け基本書。2010年に初版、2022年に改訂された。",
     body: "生徒指導提要とは、小学校から高等学校までの生徒指導の意義や理論、具体的な指導方法を体系的にまとめた、文部科学省作成の教職員向けの基本書です。生徒指導に関する初の総合的な基本書として2010年に作成されました。\n\n2022年12月には12年ぶりに改訂版が公表されました。この間にこども基本法の成立、いじめ防止対策推進法をはじめとする関係法規の整備など学校を取り巻く環境が大きく変化したことを背景に、発達障害や性的マイノリティーの児童生徒への対応、校則の運用・見直し、チームとしての生徒指導体制などが新たに盛り込まれています。\n\n改訂版はデジタルテキストとして公開され、常に最新の内容を参照できるようになった点も特徴です。生徒指導を「一人一人の児童生徒の個性の発見とよさや可能性の伸長、社会的資質・能力の発達を支える」ものと位置づけ、問題行動への対応にとどまらない発達支持的な視点が強調されています。",
-    relatedSlugs: ["seito-shido", "kyoiku-sodan-coordinator", "kyoiku-sodan"],
+    relatedSlugs: ["seito-shido", "kyoiku-sodan-coordinator", "kyoiku-sodan", "early-detection-intervention-tier-two", "student-guidance-committee-operations", "classroom-management-guidance-alignment", "bullying-recognition-number-appropriate-grasp", "shoplifting-theft-incident-initial-response"],
     isCanonical: true,
     exam: true,
     tags: ["文部科学省", "教職員向け基本書", "2022年改訂"],
@@ -291,7 +291,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学校内の教育相談体制の中心となり、児童生徒の状況把握や校内外の関係者・関係機関との連絡調整、担任へのサポートなどを担う教職員の役割。",
     body: "教育相談コーディネーターとは、学校における教育相談体制の要として、児童生徒の状況を的確に把握し、校内の教職員間および学校外の関係機関との連絡調整を担う教職員の役割です。生徒指導提要（2022年改訂）でも、チームとしての教育相談を機能させる上で重要な役割として位置づけられています。\n\n主な業務としては、問題の早期発見・未然防止のための情報収集、担任へのサポートや助言、校内における情報共有の推進、スクールカウンセラーやスクールソーシャルワーカー、医療・福祉機関など校内外の関係者との連絡調整、危機対応時のコーディネート、校内研修の企画などが挙げられます。\n\n教育相談コーディネーターには、心理学の知識やカウンセリング技法に加え、医療・福祉・司法に関する基礎的な知識も求められるとされ、養護教諭や特別支援教育コーディネーターなどが兼務する場合も少なくありません。個々の教員が問題を抱え込まず、組織として児童生徒を支える体制づくりの中核を担っています。",
-    relatedSlugs: ["kyoiku-sodan", "seito-shido-teiyo", "case-kaigi", "school-counselor"],
+    relatedSlugs: ["kyoiku-sodan", "seito-shido-teiyo", "case-kaigi", "school-counselor", "counseling-newsletter-hotline-dissemination"],
     isCanonical: true,
     tags: ["教育相談体制", "チーム学校", "連絡調整"],
   },
@@ -304,7 +304,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "教室には入れないが登校はできる児童生徒が、学校にいる間は主に保健室で過ごす登校の形態。教室復帰への橋渡しとして位置づけられる。",
     body: "保健室登校とは、日本学校保健会が1997年に公表した『保健室利用者調査報告書』によれば、「常時保健室にいるか、特定の授業に出席できても学校にいる間は主として保健室にいる状態」と定義される登校の形態です。教室に入ることに強い不安や抵抗を感じる児童生徒が、養護教諭の見守りのもとで安心して過ごせる居場所として機能しています。\n\n類似の形態として「別室登校」があり、こちらは空き教室など保健室以外の場所で過ごす形を指し、学習支援員や教員が個別に学習指導にあたる点に重きが置かれることが多いとされます。両者はいずれも、教室にも自宅にも居場所を見いだせない児童生徒にとっての中間的な居場所という共通点を持ちます。\n\n保健室登校は単なる「教室に行けない状態」への対応にとどまらず、養護教諭を中心に担任や教育相談コーディネーターと連携しながら、心身の状態を見守りつつ段階的な教室復帰を支援する取り組みとして位置づけられています。",
-    relatedSlugs: ["futoko", "kiritsusei-chosetsu-shogai", "kyoiku-sodan-coordinator"],
+    relatedSlugs: ["futoko", "kiritsusei-chosetsu-shogai", "kyoiku-sodan-coordinator", "regular-health-checkup-items-followup", "smartphone-usage-hours-academic-emotional-impact", "physical-abuse-bruises-yogo-teacher-role", "counseling-room-environment-privacy-safety"],
     isCanonical: true,
     tags: ["養護教諭", "居場所づくり", "教室復帰"],
   },
@@ -330,7 +330,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "SNSやメッセージアプリなど、インターネットを介して行われるいじめ。匿名性や拡散性が高く、早期発見や解決が難しい特徴を持つ。",
     body: "ネットいじめとは、SNS、メッセージアプリ、オンラインゲームなどインターネット上の技術を悪用して行われるいじめの総称です。文部科学省の「児童生徒の問題行動・不登校等生徒指導上の諸課題に関する調査」では「パソコンや携帯電話等で、誹謗中傷や嫌なことをされる」いじめとして分類されています。\n\n対面のいじめとは異なり、加害者が匿名性を隠れみのにしやすいこと、被害が学校外・24時間続くこと、投稿の拡散によって被害が急速に広がりやすいことなどが特徴です。一方で、保護者や教員の目の届きにくい場で行われるため発見が遅れやすく、発見後も投稿の削除や事実確認に時間を要する場合が多いとされています。\n\n対策として、日頃から教職員が児童生徒の生活や交友関係のささいな変化を見逃さないこと、情報モラル教育を通じてSNS利用上のリスクを児童生徒自身に理解させること、学校・保護者・関係機関が連携して早期に対応することの重要性が指摘されています。",
-    relatedSlugs: ["ijime-boshi", "ijime-judai-jitai", "digital-citizenship"],
+    relatedSlugs: ["ijime-boshi", "ijime-judai-jitai", "digital-citizenship", "social-media-hyperconnection-youth", "online-slander-digital-tattoo-prevention"],
     isCanonical: true,
     tags: ["SNS", "匿名性", "情報モラル教育"],
   },
@@ -356,7 +356,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "支援を要する児童生徒の個別の事例について、教職員や関係者が集まり状況を検討し、具体的な指導・支援の方針を協議する会議。",
     body: "ケース会議とは、「事例検討会」「ケースカンファレンス」とも呼ばれ、いじめ、不登校、虐待の疑い、発達上の課題など、解決すべき問題を抱える児童生徒の個別事例について、関係者が集まって状況の理解を深め、具体的な対応策を検討する会議です。校内の教職員のみで行うものを狭義の「ケース会議」、これに保護者や外部の関係機関を交えるものを「支援会議」と呼んで区別する場合もあります。\n\n会議では、当該児童生徒や家庭に関する情報を持ち寄って共有し、背景要因のアセスメントを行った上で、誰が・いつ・何を行うかという役割分担を含めた支援方針を決定します。担任一人が問題を抱え込むことを防ぎ、チームとして一貫性のある支援を行える点が大きな意義とされています。\n\n「チームとしての学校」の考え方が広がる中、ケース会議は教育相談コーディネーターやスクールカウンセラー、スクールソーシャルワーカーなどの専門職が進行や助言に関わることも多く、校内の組織的な生徒指導・教育相談体制を支える中核的な仕組みとして位置づけられています。",
-    relatedSlugs: ["team-gakko", "kyoiku-sodan-coordinator", "yohogo-jido-taisaku-chiiki-kyogikai", "school-social-worker", "school-counselor-statutory-placement-criteria"],
+    relatedSlugs: ["team-gakko", "kyoiku-sodan-coordinator", "yohogo-jido-taisaku-chiiki-kyogikai", "school-social-worker", "school-counselor-statutory-placement-criteria", "reflecting-process-multidisciplinary-meeting", "student-guidance-records-documentation-storage"],
     isCanonical: true,
     tags: ["事例検討", "チーム学校", "アセスメント"],
   },
@@ -369,7 +369,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "自殺の危険を示すサインに気づき、声をかけ、話を聞き、必要な支援につなげる役割を担う人。学校では教職員向けの養成研修が行われている。",
     body: "ゲートキーパーとは、自殺予防の文脈において、身近な人の自殺のサイン（悩みや変化）に気づき、声をかけて話を聞き、必要な支援機関や専門家につなぎ、見守るという一連の役割を担う人を指す概念です。「命の門番」とも訳され、専門家に限らず誰もが担いうる役割として、政府広報などを通じて周知が進められています。\n\n学校現場では、文部科学省が2009年に教員向けの手引き「子どもの自殺予防」を作成して以降、教職員がゲートキーパーとして機能することへの期待が高まってきました。近年では、いのち支える自殺対策推進センターなどにより、中学校・高校の教職員を対象としたゲートキーパー研修が実施され、児童生徒のSOSサインへの気づき方や声かけの方法、専門機関へのつなぎ方が学ばれています。\n\n2023年にはこども家庭庁が「こどもの自殺対策緊急強化プラン」を取りまとめるなど、学校と関係機関が連携した自殺予防体制の強化が図られています。教職員が孤立せず、校内の教育相談体制の中でゲートキーパーの役割を果たせる仕組みづくりが課題とされています。",
-    relatedSlugs: ["kyoiku-sodan-coordinator", "school-counselor", "resilience"],
+    relatedSlugs: ["kyoiku-sodan-coordinator", "school-counselor", "resilience", "suicide-prevention-awareness-week-screening", "suicidal-ideation-signs-emergency-assessment"],
     isCanonical: true,
     tags: ["自殺予防", "SOSの受け止め", "教職員研修"],
   },
@@ -396,7 +396,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "身体的・性的・ネグレクト・心理的の4類型を定義し、学校等に虐待の早期発見の努力義務や通告義務を課す2000年制定の法律です。",
     body: "児童虐待の防止等に関する法律は2000年に制定され、身体的虐待・性的虐待・ネグレクト・心理的虐待の4類型を明確に定義した法律です。児童の権利利益の擁護を目的とし、虐待の禁止と早期発見・早期対応の重要性を社会全体に示しました。\n\n学校や教職員は、児童虐待を発見しやすい立場にあることから、早期発見に努める努力義務が課されています。また虐待を受けたと思われる児童を発見した場合は、確証がなくても市町村や児童相談所へ速やかに通告する義務があり、この通告は守秘義務違反に当たりません。\n\n学校現場では、欠席の続く児童生徒や不自然な外傷、極端な痩せなどのサインに注意し、教育委員会や児童相談所、警察と連携した組織的対応が求められます。虐待対応は生徒指導と福祉の接点にある重要な領域として位置づけられています。",
-    relatedSlugs: ["kyoiku-sodan", "school-social-worker", "young-carer", "child-abuse-mandated-reporting-school", "child-abuse-prevention-checklist-school", "psychological-abuse-witnessing-domestic-violence"],
+    relatedSlugs: ["kyoiku-sodan", "school-social-worker", "young-carer", "child-abuse-mandated-reporting-school", "child-abuse-prevention-checklist-school", "psychological-abuse-witnessing-domestic-violence", "early-detection-child-abuse-daycare-role"],
     isCanonical: true,
     tags: ["児童虐待", "法律", "通告義務"],
   },
@@ -422,7 +422,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "地毛証明や下着の色指定など、教育的合理性を欠くとして2017年頃から社会問題化した理不尽な校則を指す通称です。",
     body: "ブラック校則とは、地毛の色や髪型、下着の色を指定するなど、教育的必要性や合理性が説明しにくい理不尽な校則を指す通称です。生徒の人権や個人の尊厳を軽視しているとして、2017年頃から社会問題として広く報道されるようになりました。\n\n文部科学省は校則について、社会通念に照らして合理的と認められる範囲で定めるべきものとし、絶えず積極的に見直しを行う必要があるとの見解を示しています。近年は生徒会や保護者の意見を取り入れながら校則を点検・改定する自治体や学校が増えています。\n\n校則見直しの議論は、校則そのものの妥当性だけでなく、決定過程に生徒の声をどう反映させるかという学校運営の民主性の問題としても注目されています。生徒指導提要でも校則の見直しは組織的に行うべき課題とされています。",
-    relatedSlugs: ["seito-shido-teiyo", "jinken-kyoiku", "gakko-hyogiin-seido"],
+    relatedSlugs: ["seito-shido-teiyo", "jinken-kyoiku", "gakko-hyogiin-seido", "black-school-rules-human-rights-debate", "hair-dress-code-student-bodily-autonomy", "genderless-school-uniforms-choice"],
     isCanonical: true,
     tags: ["校則", "人権", "学校改革"],
   },
@@ -435,7 +435,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "自己存在感・共感的人間関係・自己決定という3要素を教科の授業や学級活動の中で生かしていく生徒指導の理論です。",
     body: "生徒指導の三機能論とは、児童生徒の自己指導能力を育てるために、日常のあらゆる教育活動の中で機能させるべき3つの働きを整理した考え方です。具体的には自己存在感を与えること、共感的な人間関係を育成すること、自己決定の場を与えることの3点から構成されます。\n\n自己存在感とは、自分がその集団に必要とされ受け入れられているという実感であり、共感的人間関係とは互いを認め合い尊重し合える関係性を指します。自己決定の場とは、児童生徒が自分の考えや感じ方をもって主体的に学習や活動に参加できる機会を意味します。\n\nこの三機能は生徒指導部の特別な取組としてではなく、教科の授業や学級活動、部活動など学校生活のあらゆる場面で意識的に働かせることが重要とされ、開発的生徒指導の理論的基盤の一つとして位置づけられています。",
-    relatedSlugs: ["jiko-shido-noryoku", "seito-shido", "seito-rikai"],
+    relatedSlugs: ["jiko-shido-noryoku", "seito-shido", "seito-rikai", "verbal-abuse-classroom-disruption-intervention"],
     isCanonical: true,
     tags: ["生徒指導", "自己指導能力", "学級経営"],
   },
@@ -448,7 +448,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "いじめなど子供のSOS全般について夜間・休日を含め24時間無料で相談できる、文部科学省が呼びかける全国共通の電話相談窓口です。",
     body: "24時間子供SOSダイヤルは、いじめをはじめとする子供の悩み全般について、夜間や休日を問わず24時間365日いつでも相談できる全国共通のフリーダイヤルです。文部科学省の呼びかけにより、各都道府県及び指定都市教育委員会が運営しています。\n\n電話をかけると発信地の教育委員会等が設置する相談機関に自動的につながる仕組みになっており、匿名での相談も可能です。相談内容や個人情報が外部に漏れる心配がないため、周囲に相談しづらい悩みでも安心して利用できる点が特徴です。\n\nこのダイヤルは学校の相談体制を補完する社会資源として、ポスターや1人1台端末を通じて児童生徒や保護者に周知が図られています。学校内の教育相談だけでは対応しきれない緊急性の高い悩みの受け皿としても機能しています。",
-    relatedSlugs: ["kyoiku-sodan", "ijime-boshi", "junkai-sodan"],
+    relatedSlugs: ["kyoiku-sodan", "ijime-boshi", "junkai-sodan", "counseling-newsletter-hotline-dissemination"],
     isCanonical: true,
     tags: ["相談窓口", "いじめ", "文部科学省"],
   },
@@ -461,7 +461,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "少年法上の非行少年は、年齢や行為の性質の違いにより犯罪少年・触法少年・ぐ犯少年という3つの類型に分類されます。",
     body: "少年法における非行少年は、年齢や行為の性質によって犯罪少年・触法少年・ぐ犯少年の3つに分類されます。犯罪少年は14歳以上で罪を犯した少年、触法少年は14歳未満で刑罰法令に触れる行為をした少年を指し、刑事責任年齢に満たないため刑罰の対象にはなりません。\n\nぐ犯少年は、保護者の正当な監督に従わない、家庭に寄り付かないなどの事情があり、その性格や環境から見て将来罪を犯す虞があると認められる18歳未満の少年です。触法少年やぐ犯少年は児童相談所への通告が原則となり、必要に応じて家庭裁判所へ送致されます。\n\n学校は非行の兆候を早期に把握し、警察や児童相談所、家庭裁判所と連携しながら適切な対応をとることが求められます。分類の違いは対応機関や手続きの違いに直結するため、生徒指導担当者が正しく理解しておくべき基礎知識とされています。",
-    relatedSlugs: ["shonenho-to-gakko", "seito-shido", "kyoiku-sodan"],
+    relatedSlugs: ["shonenho-to-gakko", "seito-shido", "kyoiku-sodan", "probation-officer-volunteer-network-prevention", "night-patrol-guidance-downtown-monitoring"],
     isCanonical: true,
     tags: ["少年法", "非行", "児童相談所"],
   },
@@ -487,7 +487,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "不登校児童生徒が自宅で行うICT等を活用した学習活動を、一定の要件を満たせば指導要録上の出席として扱える制度です。",
     body: "不登校児童生徒が自宅でコンピュータやインターネット、遠隔教育システムなどを活用して学習した場合、一定の要件を満たせば校長の判断により指導要録上の出席として扱うことができる制度です。文部科学省が通知により基準を示しています。\n\n要件としては、保護者と学校の間に十分な連携・協力関係が保たれていること、訪問等による対面指導が適切に行われることを前提とすること、学習内容が義務教育の教育課程に準じていること、その学習活動が登校再開や社会的自立を助ける上で有効・適切と校長が判断することなどが挙げられます。\n\nGIGAスクール構想による1人1台端末の整備により、この仕組みを活用しやすい環境が広がっています。学びの多様化学校や教育支援センターと並ぶ、不登校児童生徒の学習機会を保障する多様な選択肢の一つとして位置づけられます。",
-    relatedSlugs: ["futoko", "manabi-no-tayoka-gakko", "giga-school"],
+    relatedSlugs: ["futoko", "manabi-no-tayoka-gakko", "giga-school", "hyflex-learning-flexible-attendance-design", "rwanda-smart-classroom-ict-transformation"],
     isCanonical: true,
     tags: ["不登校", "ICT", "指導要録"],
   },
@@ -500,7 +500,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "事件・事故・災害の発生時に児童生徒の心身の安全を守り、教育活動の早期再開を図るための組織的な危機対応体制です。",
     body: "学校危機管理とは、事件・事故・自然災害・自殺など児童生徒の生命や心身に重大な影響を及ぼす事態が発生した際に、被害を最小限にとどめ、教育活動を早期に再開するための組織的な体制と対応を指します。予防・危機発生時の対応・事後対応の3段階で捉えられます。\n\n危機発生時には、管理職を中心とした対策本部の設置、教育委員会や関係機関への報告、正確な情報の把握と保護者への説明、報道対応などを迅速かつ組織的に行う必要があります。個々の教職員の判断に委ねず、あらかじめ定めたマニュアルに基づく対応が求められます。\n\n事後対応では、児童生徒や教職員の心のケアが重要となり、スクールカウンセラーによる緊急派遣や心理的応急処置の実施が行われます。日頃からの危機管理マニュアルの整備と訓練が、実効性のある危機対応の基盤となります。",
-    relatedSlugs: ["psychological-first-aid", "school-counselor", "ptsd-gakko-taio", "intruder-response-drill-sasumata-deployment"],
+    relatedSlugs: ["psychological-first-aid", "school-counselor", "ptsd-gakko-taio", "intruder-response-drill-sasumata-deployment", "special-school-bus-safety-management", "school-safety-crisis-management-liability", "child-consultation-center-temporary-custody", "sudden-death-crisis-management-all-school-assembly"],
     isCanonical: true,
     tags: ["危機管理", "学校安全", "心のケア"],
   },
@@ -513,7 +513,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "災害や事件で心的外傷を負った児童生徒に対し、安心できる学校環境を整えながら行う心のケアの基本的な対応です。",
     body: "心的外傷後ストレス障害(PTSD)は、生命の危険を伴うような衝撃的な出来事を体験した後、その記憶がフラッシュバックする、強い恐怖や無力感が続くなどの症状が1か月以上持続する状態です。災害や事件・事故に遭遇した児童生徒に生じることがあります。\n\n学校では、養護教諭やスクールカウンセラーが中心となり、児童生徒の変化を注意深く観察し、安心できる学校環境を整えることが基本となります。無理に体験を語らせるのではなく、日常の学校生活のリズムを取り戻すことを支援する姿勢が重要です。\n\n症状が重い場合は、医療機関や専門機関へのつなぎが必要になります。学級担任だけで抱え込まず、校内のチーム体制と保護者との連携のもとで、長期的な視点から見守り続けることが求められます。",
-    relatedSlugs: ["gakko-kiki-kanri", "psychological-first-aid", "school-counselor"],
+    relatedSlugs: ["gakko-kiki-kanri", "psychological-first-aid", "school-counselor", "trauma-screening-medical-cooperation"],
     isCanonical: true,
     tags: ["PTSD", "心のケア", "災害"],
   },
@@ -526,7 +526,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "身近な人との死別を経験した児童生徒の悲嘆に寄り添い、その心理的な回復のプロセスを支える支援を指します。",
     body: "グリーフケアとは、家族や友人など身近な人との死別によって生じる悲嘆(グリーフ)を抱える人に寄り添い、その心理的プロセスを支える支援を指します。学校においては、家族や同級生を亡くした児童生徒への対応として重要性が認識されています。\n\n悲嘆の表れ方は個人差が大きく、涙を見せる子もいれば、平静を装ったり学習や活動に意欲を示せなくなったりする子もいます。教職員は悲しみの表現を型にはめず、その子のペースを尊重しながら日常生活を支えることが基本姿勢となります。\n\n同級生の死などクラス全体が影響を受ける場合は、担任だけでなくスクールカウンセラーを交えた学級全体への心のケアが行われます。グリーフケアは学校危機管理における事後対応の重要な一部として位置づけられています。",
-    relatedSlugs: ["gakko-kiki-kanri", "school-counselor", "inochi-kyoiku"],
+    relatedSlugs: ["gakko-kiki-kanri", "school-counselor", "inochi-kyoiku", "postvention-crisis-intervention-protocol"],
     isCanonical: true,
     tags: ["死別", "心のケア", "悲嘆"],
   },
@@ -539,7 +539,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学校への過剰・理不尽な要求を行う保護者を指す通称語をめぐり、その背景や実態を慎重に検討する学術的な議論です。",
     body: "モンスターペアレントとは、学校に対して過剰または理不尽な要求を繰り返す保護者を指す通称であり、2000年代後半にマスメディアを通じて広まりました。教員の疲弊や対応困難の象徴として語られる一方、その実態や定義については学術的に慎重な検討が求められています。\n\n研究の立場からは、保護者の要求をすべて不当なクレームとみなすのではなく、家庭の孤立や社会構造の変化、学校と保護者の信頼関係の希薄化といった背景要因を踏まえて理解する必要性が指摘されています。安易なレッテル貼りは、正当な要望まで封じてしまう危険もあります。\n\n学校現場では、組織的な窓口の一本化や記録の徹底、複数教員による対応など、個人任せにしない体制づくりが進められています。保護者対応は生徒指導・学校経営双方に関わる実践的課題として位置づけられています。",
-    relatedSlugs: ["school-lawyer", "kyoiku-sodan", "shinraisei"],
+    relatedSlugs: ["school-lawyer", "kyoiku-sodan", "shinraisei", "parent-complaints-school-conflict-resolution"],
     isCanonical: true,
     tags: ["保護者対応", "学校経営", "クレーム対応"],
   },
@@ -565,7 +565,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "悩みを抱えたときに身近な信頼できる大人へ助けを求める力を育てる、自殺予防を目的とした学校での教育です。",
     body: "SOSの出し方に関する教育とは、児童生徒自身が心の変化や危機に気付き、身近な信頼できる大人に助けを求める力を身に付けることを目的とした自殺予防教育の一環です。自殺対策基本法において実施が努力義務として位置づけられています。\n\n文部科学省は2018年に、実施上の留意点や教材例を示す通知を都道府県教育委員会等に発出しました。学級活動やホームルーム活動、保健体育の授業などと関連させ、各学校で少なくとも年間1単位時間以上実施することが求められています。\n\n授業では、相談窓口の周知も重要な要素とされ、教室掲示や1人1台端末のポータルサイト、ブラウザのお気に入り機能などを活用した周知の工夫が進められています。ゲートキーパー養成などの大人向け取組と対をなす、子供自身への予防教育です。",
-    relatedSlugs: ["gatekeeper", "inochi-kyoiku", "kodomo-sos-dial"],
+    relatedSlugs: ["gatekeeper", "inochi-kyoiku", "kodomo-sos-dial", "suicide-prevention-awareness-week-screening"],
     isCanonical: true,
     tags: ["自殺予防", "SOS教育", "相談"],
   },
@@ -578,7 +578,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "災害や事件の直後、専門的な治療の前段階として非専門家でも実施できる人道的・実際的な心理的支援の枠組みです。",
     body: "心理的応急処置(Psychological First Aid、PFA)は、災害や事件・事故など危機的な出来事の直後に、被災者や被害者に対して行う人道的・支持的な支援の枠組みです。WHO等が普及を進めており、専門的なカウンセリングとは異なり、専門家でなくても学べば実施できる点が特徴です。\n\n基本原則は「見る・聞く・つなぐ」とされ、安全と安心の確保、当面のニーズの把握、心理教育的な情報提供、必要な機関への橋渡しなどを行います。無理に体験を語らせたり詳細を聞き出したりすることは避け、本人の自然な回復力を尊重する姿勢が重視されます。\n\n学校においては、事件・事故・災害発生後の緊急支援において、スクールカウンセラーや教職員がPFAの考え方に基づき児童生徒に接することで、二次的な心理的被害を防ぎ、その後の専門的なケアへつなぐ土台をつくります。",
-    relatedSlugs: ["gakko-kiki-kanri", "ptsd-gakko-taio", "school-counselor", "self-harm-first-aid-intervention-protocol"],
+    relatedSlugs: ["gakko-kiki-kanri", "ptsd-gakko-taio", "school-counselor", "self-harm-first-aid-intervention-protocol", "postvention-crisis-intervention-protocol", "sudden-death-crisis-management-all-school-assembly"],
     isCanonical: true,
     tags: ["PFA", "危機介入", "心のケア"],
   },
@@ -591,7 +591,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "2022年改訂の生徒指導提要が示す生徒指導の枠組みで、時間軸(常態的・先行的/即応的・継続的)と課題性の高低(3類)を組み合わせ、発達支持的・課題予防的・困難課題対応的の4層で全児童生徒への支援から個別対応までを整理する。",
     body: "生徒指導提要(令和4年12月改訂)は、生徒指導を単なる問題行動への対応ではなく、全ての児童生徒の人格が尊重され、個性の発見とよさや可能性の伸長を支援する働きかけと位置づけ直した。その中核となるのが「2軸3類4層」と呼ばれる重層的支援構造である。時間軸としては、日常的・先行的に行う「プロアクティブ」な生徒指導と、問題が起きてから対応する「リアクティブ」な生徒指導の2つの軸が設定される。\n\n課題性の高低による3類は、全ての児童生徒を対象とする発達支持的生徒指導、一部の児童生徒を対象とする課題予防的生徒指導、特定の児童生徒を対象とする困難課題対応的生徒指導に分かれる。さらに課題予防的生徒指導は「課題未然防止教育」と「課題早期発見対応」に分かれるため、全体としては第1層(発達支持的生徒指導)、第2層(課題未然防止教育)、第3層(課題早期発見対応)、第4層(困難課題対応的生徒指導)の4層構造として図式化される。日常的な発達支持を土台に、予防、早期発見、そして個別の困難対応へと段階的に対応の密度を深めていく考え方である。\n\nこの構造は、いじめや不登校などの個別事案対応(リアクティブ)に偏りがちだった従来の生徒指導観を見直し、日頃の人間関係づくりや自己指導能力の育成といった予防的・開発的な働きかけ(プロアクティブ)を重視する点に特徴がある。学校は校内研修等でこの構造を共有し、生徒指導の組織的な体制づくりや年間計画の見直しに活用している。",
-    relatedSlugs: ["seito-shido-teiyo", "seito-shido-sankino", "jiko-shido-noryoku", "universal-prevention-tier-one-guidance"],
+    relatedSlugs: ["seito-shido-teiyo", "seito-shido-sankino", "jiko-shido-noryoku", "universal-prevention-tier-one-guidance", "three-level-psychoeducational-service"],
     isCanonical: true,
     exam: true,
     tags: ["生徒指導提要", "予防的生徒指導", "文部科学省"],
@@ -605,7 +605,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学校教育法第11条・同法施行規則第26条に基づき校長が行う児童生徒への懲戒のうち、法的効果を伴う訓告・停学・退学の3処分。公立小中学校等の学齢児童生徒には停学・退学を科せず出席停止で対応する点が特徴。",
     body: "学校教育法第11条は、校長及び教員は教育上必要があると認めるときは、文部科学大臣の定めるところにより児童生徒に懲戒を加えることができるが、体罰を加えることはできないと定める。懲戒には、叱責や居残りなど教育的指導としての事実行為的懲戒と、法的効果を伴う処分としての懲戒(訓告・停学・退学)があり、後者は学校教育法施行規則第26条により校長のみが行うことができるとされる。処分に際しては児童生徒の心身の発達に応じた教育上の配慮が求められる。\n\n退学は、性行不良で改善の見込みがない、学力劣等で成業の見込みがない、正当な理由なく出席常でない、学校の秩序を乱すなど本分に反した場合などに行うことができるが、公立の小学校・中学校・義務教育学校・特別支援学校の学齢児童生徒に対しては行うことができない。同様に停学も学齢児童生徒には科すことができない。これは、憲法・教育基本法が保障する義務教育を受ける権利を最大限尊重するためであり、私立学校や高等学校以上の在学者には適用され得る。\n\nこのため、義務教育段階の公立学校で出席させることが適切でないほど問題行動が重大な場合には、学校教育法第35条に基づく市町村教育委員会による「出席停止」という別の制度が用いられる。出席停止はあくまで本人ではなく他の児童生徒の教育を受ける権利を保護するための措置であり、懲戒処分としての停学とは法的性質が異なる点に注意が必要である。",
-    relatedSlugs: ["shusseki-teishi", "taibatsu", "gakko-kyoiku-ho", "school-education-law-article-11-corporal-punishment"],
+    relatedSlugs: ["shusseki-teishi", "taibatsu", "gakko-kyoiku-ho", "school-education-law-article-11-corporal-punishment", "school-violence-property-damage-restoration"],
     isCanonical: true,
     tags: ["懲戒", "学校教育法", "出席停止"],
   },
@@ -618,7 +618,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童虐待の防止等に関する法律に基づき、学校や教職員には虐待の早期発見に努める努力義務と、虐待を受けたと思われる児童を発見した場合に市町村や児童相談所等へ速やかに通告する義務が課されている。",
     body: "児童虐待の防止等に関する法律(児童虐待防止法)第5条は、学校、児童福祉施設、病院その他児童の福祉に業務上関係のある団体及び学校の教職員、児童福祉施設の職員、医師、保健師、弁護士その他児童の福祉に職務上関係のある者は、児童虐待を発見しやすい立場にあることを自覚し、児童虐待の早期発見に努めなければならないと定める。学校及び教職員には、児童虐待の予防やその子ども・保護者への支援に関し、関係機関へ協力する努力義務も課されている。\n\nさらに同法第6条(児童福祉法第25条にも対応)は、児童虐待を受けたと思われる児童を発見した者は、速やかに市町村、都道府県の設置する福祉事務所もしくは児童相談所、または児童委員を介してこれらの機関に通告しなければならないと定める。この通告義務は「虐待を受けた」ことの確証を必要とせず、「受けたと思われる」段階、すなわち疑いの段階で発動する点が重要である。また同条では、通告が守秘義務(刑法の秘密漏示罪等)違反に当たらないことも明記されており、教職員が虐待通告をためらう心理的障壁を取り除く趣旨がある。\n\n文部科学省も、学校等における児童虐待防止に向けた取組の推進について通知等を発出し、日常の健康観察や欠席状況の把握、身体測定、家庭訪問などを通じて虐待の兆候(不自然な外傷、体重減少、不衛生、頻繁な欠席等)を早期に発見し、ためらわず児童相談所や市町村の窓口に通告・相談することを求めている。通告後は要保護児童対策地域協議会等を通じて関係機関が連携して対応することになる。",
-    relatedSlugs: ["jido-gyakutai-boshi-ho", "yohogo-jido-taisaku-chiiki-kyogikai", "maltreatment", "child-abuse-mandated-reporting-school"],
+    relatedSlugs: ["jido-gyakutai-boshi-ho", "yohogo-jido-taisaku-chiiki-kyogikai", "maltreatment", "child-abuse-mandated-reporting-school", "physical-abuse-bruises-yogo-teacher-role", "early-detection-child-abuse-daycare-role"],
     isCanonical: true,
     tags: ["児童虐待防止法", "通告義務", "児童相談所"],
   },
@@ -631,7 +631,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童福祉法第25条の2に基づき市町村が設置する、虐待や非行など支援を要する児童とその家庭に関する情報を関係機関が共有し支援を協議する法定ネットワーク組織。学校も構成員として参画する。",
     body: "要保護児童対策地域協議会(通称:要対協)は、平成16年の児童福祉法改正により児童福祉法第25条の2に位置づけられた組織で、市町村が要保護児童(虐待を受けた子どもなど保護者による監護が適切でない児童)及び要支援児童・特定妊婦への適切な支援を図ることを目的に設置・運営する。学校、教育委員会、児童相談所、福祉事務所、保健所、警察、医療機関、民生委員・児童委員など、子どもに関わる多様な機関が構成員となり、法律上の守秘義務を負いながら個人情報を共有できる点が特徴である。\n\n運営体制は一般に「代表者会議」「実務者会議」「個別ケース検討会議」の三層構造をとる。代表者会議は年1~2回程度、関係機関の代表者が協議会の活動状況を評価し合う場、実務者会議は定期的に実務者が全てのケースの進行管理を行う場、個別ケース検討会議は特定の児童について直接の支援関係者が具体的な支援方針を検討する場であり、学校が要保護児童の在籍校である場合には個別ケース検討会議に招集されることが多い。\n\n学校にとって要対協は、虐待を通告した後の対応が児童相談所任せにならず、進行管理台帳を通じて継続的に情報共有・状況確認ができる仕組みである。スクールソーシャルワーカーや生徒指導担当がケース会議での情報を学校内の支援体制(校内委員会等)につなぎ、日常の見守りや欠席状況の把握、家庭への働きかけを他機関と連携して行うことが求められる。",
-    relatedSlugs: ["gyakutai-tsuhou-gimu", "jido-gyakutai-boshi-ho", "case-kaigi", "school-social-worker", "young-carer", "child-neglect-signs-morning-observation"],
+    relatedSlugs: ["gyakutai-tsuhou-gimu", "jido-gyakutai-boshi-ho", "case-kaigi", "school-social-worker", "young-carer", "child-neglect-signs-morning-observation", "welfare-office-child-consultation-center-link"],
     isCanonical: true,
     tags: ["要対協", "児童福祉法", "多機関連携", "虐待対応", "関係機関連携"],
   },
@@ -657,7 +657,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "小学校から高等学校まで、児童生徒が特別活動等の学びを通じて自らのキャリア形成を見通し振り返るポートフォリオ教材。2020年度から全国の学校で導入され、学年間・校種間で引き継がれる。",
     body: "キャリア・パスポートは、小学校から高等学校を通じて、児童生徒が特別活動の学級活動・ホームルーム活動を中心に、各教科等と往還しながら、自らの学習状況やキャリア形成を見通したり振り返ったりして自己評価を行うためのポートフォリオ的な教材である。文部科学省の通知に基づき2020年度から全国の学校で導入され、様式は都道府県・学校の実態に応じて作成されるが、学年、校種を越えて持ち上がり、蓄積・活用されることが前提とされている。\n\n作成の背景には、キャリア教育が職場体験や進路指導など特定の学年・行事に限定されがちであった反省がある。児童生徒自身が学びのプロセスを記録し、教師や保護者との対話を通じて意味づけを行うことで、主体的に学びに向かう力を育み、社会的・職業的自立に必要な基盤となる能力や態度を育成することを目指す。単なる記録作成にとどめず、学級活動での話し合いや面談等と結び付けて活用することが重要とされる。\n\n運用上は、記入・蓄積が形式的な作業になりがちで教師の負担が増すこと、進学・転校時の引き継ぎの実務負担、電子化(デジタル・キャリア・パスポート)の是非などが課題として指摘されている。各学校はキャリア教育全体計画の中にキャリア・パスポートの活用場面を位置づけ、進路指導やホームルーム活動と連動させる工夫を進めている。",
-    relatedSlugs: ["career-education", "shinro-shido", "e-portfolio"],
+    relatedSlugs: ["career-education", "shinro-shido", "e-portfolio", "career-passport-reflective-guidance", "labor-dignity-gratitude-for-work", "krumboltz-planned-happenstance", "career-choice-autonomous-decision-support", "career-information-collection-annual-plan"],
     isCanonical: true,
     tags: ["キャリア教育", "ポートフォリオ", "特別活動"],
   },
@@ -670,7 +670,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "生徒が自らの将来の進路(進学・就職)を主体的に選択・決定できるよう、学校教育全体を通じて行われる指導・援助活動。より広範な人生設計を対象とするキャリア教育の中核的な実践領域として位置づけられる。",
     body: "進路指導とは、生徒がみずからの生き方を考え、将来の進路選択・決定を主体的に行うことができるよう、学校が組織的・計画的に行う指導・援助の総称であり、伝統的には主に中学校・高等学校において進学先・就職先の選択という具体的な出口指導として展開されてきた。学級活動やホームルーム活動、総合的な学習(探究)の時間、教科指導、個別面談など学校教育全体を通じて行われ、進路情報の提供、適性検査、進路相談、職場見学・職場体験、上級学校訪問などの活動を含む。\n\n1999年の中央教育審議会答申以降、進路指導は小学校段階からの発達段階に応じた「生き方指導」を含む、より広い「キャリア教育」の枠組みの中に位置づけ直された。キャリア教育が幼児期から成人期までの長期的な社会的・職業的自立を見据えた教育活動全体を指すのに対し、進路指導はその中でも主に中学・高校段階における具体的な進路選択・決定に関わる指導実践を指すという整理がなされている。両者はしばしば一体的に語られるが、進路指導はキャリア教育の一部を構成する実践領域と理解される。\n\n近年は、偏差値や学校の序列に基づく「出口指導」偏重への反省から、生徒本人の適性や興味関心、社会の変化を踏まえた主体的な進路選択を支援する方向へと転換が図られている。キャリア・パスポートの活用や、専門高校・総合学科における多様な進路実現の支援、高大接続改革を踏まえた進路指導の充実などが今日的な課題となっている。",
-    relatedSlugs: ["career-education", "career-passport", "shokuba-taiken"],
+    relatedSlugs: ["career-education", "career-passport", "shokuba-taiken", "seibetsu-senko-bunri", "career-choice-autonomous-decision-support", "vocational-readiness-test-vrt-utilization", "general-aptitude-test-battery-gatb", "career-counseling-basic-skills-listening"],
     isCanonical: true,
     tags: ["進路指導", "キャリア教育", "生き方指導"],
   },
@@ -683,7 +683,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "主に中学校で実施される、生徒が一定期間職場に赴き就業体験を行うキャリア教育の活動。働くことの意義を実感し、望ましい勤労観・職業観を育てることを目的とする。",
     body: "職場体験は、主に中学校の総合的な学習の時間や特別活動を中心に実施される、生徒が実際の職場に一定期間(多くは3~5日程度)赴いて働く体験をする学習活動である。文部科学省は2005年度から「キャリア・スタート・ウィーク」として原則5日間以上の職場体験の推進を全国的に展開し、以後多くの中学校で定着した。小学校で行われる比較的短時間の見学的活動は「職場見学」、高等学校では就業体験としての「インターンシップ」と呼ばれることが多く、発達段階に応じて呼称や体験の深さが異なる。\n\n職場体験のねらいは、生徒が働くことの厳しさや喜びを直接体感し、勤労観・職業観を育むとともに、社会人としてのマナーやコミュニケーション能力を身につけること、そして自己の生き方や進路選択について考えを深めることにある。実施にあたっては、学校が地域の企業・商店・福祉施設・官公庁等と連携して受け入れ先を確保し、事前指導(挨拶やマナー、目的意識の醸成)、体験、事後指導(振り返り・発表)という一連の流れで指導が行われる。体験内容はキャリア・パスポートに記録され、その後の進路指導につなげられることが多い。\n\n課題としては、受け入れ企業の確保や教員の引率・調整に伴う負担の大きさ、体験内容の質のばらつき、安全管理(事故・怪我への対応)などが挙げられる。近年はコロナ禍を経て、オンラインでの職業人インタビューや模擬的な職業体験プログラムを組み合わせるなど、実施形態の多様化も進んでいる。",
-    relatedSlugs: ["career-education", "shinro-shido", "career-passport"],
+    relatedSlugs: ["career-education", "shinro-shido", "career-passport", "internship-pre-post-reflection-guidance"],
     isCanonical: true,
     tags: ["職場体験", "キャリア教育", "勤労観・職業観"],
   },
@@ -696,7 +696,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "自分の気持ちや考えを、相手の権利を尊重しながら率直かつ適切に伝える「アサーティブ」なコミュニケーションを身につけるための訓練プログラム。学校では人間関係づくりやいじめ予防の一環として実施される。",
     body: "アサーション(assertion)とは、自分の意見や気持ちを、相手を攻撃したり無視したりすることなく、また自分の気持ちを抑え込むこともなく、率直かつ誠実に伝えるコミュニケーションのあり方を指す。もともとは1950年代のアメリカで対人関係における行動療法の一技法として発展し、日本には1980年代以降、平木典子らによって心理療法・カウンセリングの枠組みを超えて広く紹介された。自己表現の3類型として、自分の気持ちを抑え相手を優先する「非主張的(ノンアサーティブ)」、自分の意見を押し通し相手を軽視する「攻撃的(アグレッシブ)」、そして双方を尊重する「アサーティブ」が対比的に示される。\n\nアサーション・トレーニングは、ロールプレイやワークシートを用いた演習を通じて、依頼・断り・意見表明・苦情など様々な場面でアサーティブな自己表現の具体的な言い回しや態度を練習するプログラムである。学校教育では、学級活動やソーシャルスキルトレーニング(SST)の一環として、あるいはいじめ予防・人間関係づくりのプログラムとして導入されることが多く、「嫌なことを嫌だと適切に言える」「相手の誘いを角を立てずに断れる」といったスキルの獲得が、いじめの加害・被害双方の予防やストレス軽減に資するとされる。\n\n実践にあたっては、アサーションが単なる自己主張の技術ではなく、相手の権利も自分の権利と同様に尊重するという基本姿勢に基づくことを丁寧に指導することが重要である。教員自身が児童生徒や保護者との関わりにおいてアサーティブなコミュニケーションのモデルを示すことも、学校全体でのアサーション文化の醸成につながるとされる。",
-    relatedSlugs: ["sst", "peer-mediation", "sge"],
+    relatedSlugs: ["sst", "peer-mediation", "sge", "dating-dv-prevention-education-respect"],
     isCanonical: true,
     tags: ["アサーション", "自己表現", "ソーシャルスキル"],
   },
@@ -709,7 +709,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "問題の原因追求よりも、児童生徒がすでに持っている資源や解決の兆し・例外に着目し、短期間で望ましい変化を生み出そうとするカウンセリング技法。教育相談やスクールカウンセリングで広く活用される。",
     body: "解決志向アプローチ(Solution-Focused Approach、解決志向ブリーフセラピー)は、1980年代にアメリカのスティーブ・ド・シェイザーとインスー・キム・バーグらによって体系化された短期療法(ブリーフセラピー)の一種である。従来の心理療法が「なぜ問題が起きたのか」という原因の分析に重きを置いてきたのに対し、解決志向アプローチは「どうすれば解決に近づくか」という未来志向の視点に立ち、クライエントがすでに持っている強み・資源・成功体験(例外)に焦点を当てる点に特徴がある。\n\n代表的な技法には、問題が全て解決した状態を具体的にイメージさせる「ミラクル・クエスチョン」、現在の状態を0から10の尺度で評価させ小さな変化を可視化する「スケーリング・クエスチョン」、うまくいっている時・場面を探す「例外探し」などがある。教育相談やスクールカウンセリングの場面では、不登校やいじめ、友人関係のトラブルなどを抱える児童生徒に対し、短時間の面談を重ねる中で「少しでもうまくいっている時はどんな時か」を一緒に探ることで、生徒自身が解決への主体性を取り戻しやすくなるとされる。\n\nこのアプローチは、原因分析に長い時間を要する伝統的心理療法と比べて短期間での効果が期待できるため、多忙な学校現場や、限られた回数しか面談機会を持てないスクールカウンセラー・養護教諭・担任による教育相談との親和性が高いとされる。一方で、深刻なトラウマや複雑な家庭背景を抱えるケースでは、解決志向のみでは不十分な場合もあり、他の心理療法やケース会議による多職種連携と組み合わせて用いることが望ましいとされる。",
-    relatedSlugs: ["kyoiku-sodan", "school-counselor", "cbt", "solution-focused-brief-therapy-miracle-question", "scaling-questions-progress-monitoring", "finding-exceptions-positive-behavior-shifts"],
+    relatedSlugs: ["kyoiku-sodan", "school-counselor", "cbt", "solution-focused-brief-therapy-miracle-question", "scaling-questions-progress-monitoring", "finding-exceptions-positive-behavior-shifts", "narrative-therapy-externalization-problems"],
     isCanonical: true,
     tags: ["ブリーフセラピー", "解決志向", "スクールカウンセリング"],
   },
@@ -722,7 +722,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童生徒がストレスの仕組みを理解し、自分自身のストレス反応に気づき、リラクセーションや対処法を用いて上手に付き合う力を育てる教育プログラム。学級活動や保健教育の一環として実施される。",
     body: "ストレスマネジメント教育は、児童生徒がストレスとは何か、ストレス反応が心身にどう表れるかという基礎的な知識(ストレスの心理教育)を学んだ上で、呼吸法や漸進的筋弛緩法などのリラクセーション技法、問題解決的対処や気分転換的対処といったコーピング(対処法)を身につけることを目的とした心理教育プログラムである。学級活動、ホームルーム活動、保健の授業、道徳科などの時間を活用し、養護教諭やスクールカウンセラーが講師となって実施されることが多い。\n\n代表的なプログラムには、ストレスに関する講義とリラクセーション演習を組み合わせた「ストレスマネジメント授業」や、災害や事件・事故発生後の心のケアの一環として行われる心理教育プログラムなどがある。近年は、平常時の予防教育として位置づけるだけでなく、学校が自然災害や重大事故等の危機に見舞われた直後の心のケア(心理的応急処置)の一部としても実施され、心身の不調のサインを早期に把握し養護教諭やスクールカウンセラーへの相談につなげる橋渡しの役割も担う。\n\nこの教育は、いじめの未然防止やソーシャルスキルトレーニング(SST)、アンガーマネジメントなどと組み合わせて実施されることも多く、生徒指導提要が重視する「発達支持的生徒指導」の一環として、児童生徒の自己指導能力・自己調整力を高める予防的・開発的な取組として位置づけられる。学級担任が日常的にストレスサインに気づく視点を持つことも、プログラムの効果を高める上で重要とされる。",
-    relatedSlugs: ["anger-management", "sge", "psychological-first-aid"],
+    relatedSlugs: ["anger-management", "sge", "psychological-first-aid", "lazarus-coping-strategies", "diathesis-stress-model"],
     isCanonical: true,
     tags: ["ストレスマネジメント", "心理教育", "予防教育"],
   },
@@ -735,7 +735,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "支援者が児童生徒の問題行動の背景に見えないトラウマ(心的外傷)があるかもしれないという視点を持ち、再トラウマ化を避けながら対応する支援の枠組み。北米発祥で近年日本の教育現場にも広がりつつある。",
     body: "トラウマインフォームドケア(Trauma-Informed Care、TIC)は、支援者があらかじめトラウマに関する知識を身につけ、目の前の児童生徒に「トラウマがあるかもしれない」という視点を持って関わる支援の枠組みである。2000年代以降、北米を中心に医療・福祉・司法の分野で広がり、近年は教育分野にも応用されるようになった。背景には、逆境的小児期体験(ACE:Adverse Childhood Experiences)研究の知見があり、虐待やネグレクト、家庭内暴力の目撃などの逆境体験が、子どものその後の心身の健康や行動に長期的な影響を及ぼすことが明らかにされてきた。\n\nTICの中心的な考え方は、一見「問題行動」に見える児童生徒の乱暴な言動、無気力、過度の警戒心、授業中の離席などを、単なる意欲や性格の問題として叱責・指導するのではなく、「この行動の背景にトラウマの影響があるのではないか」という仮説を持って捉え直す点にある。この視点の転換により、教員は懲罰的・対決的な対応ではなく、安心・安全を土台にした関わりを選択しやすくなり、また再びトラウマを想起させ傷つきを深める「再トラウマ化」を避ける対応が可能になるとされる。\n\n学校でのTICの実践には、安全な環境づくり、予測可能な日課やルールの明示、児童生徒に選択の余地を残す関わり、教職員自身の心理的負担(二次受傷)への配慮なども含まれる。日本ではまだ体系的な導入は途上段階だが、いじめ、不登校、虐待、災害・事件後の心のケアなど、様々な生徒指導・教育相談の場面を横断する基盤的な視点として注目されている。",
-    relatedSlugs: ["psychological-first-aid", "ptsd-gakko-taio", "maltreatment"],
+    relatedSlugs: ["psychological-first-aid", "ptsd-gakko-taio", "maltreatment", "trauma-screening-medical-cooperation"],
     isCanonical: true,
     tags: ["トラウマ", "ACE", "心のケア"],
   },
@@ -748,7 +748,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "事件・事故・自然災害・自殺など、児童生徒の心に深刻な衝撃を与える危機的事態が発生した際、教育委員会等が学校に派遣し、心のケアや情報整理、保護者対応を支援する専門職から成るチーム。",
     body: "学校では、児童生徒や教職員の死亡事故、自殺、重大な事件・事故、自然災害などが発生した際、在校生に強い心理的衝撃(ショック、悲嘆、恐怖、罪悪感等)が広がることがある。こうした学校危機に対し、当該校の教職員だけでは対応が困難な場合に、教育委員会等の要請に基づいてスクールカウンセラーや臨床心理士、精神科医、養護教諭経験者などの専門職から編成され、現地に派遣される組織が緊急支援チーム(緊急派遣スクールカウンセラー等とも呼ばれる)である。\n\n緊急支援チームの役割は、被害を受けた児童生徒や教職員への直接的な心理的支援にとどまらない。学校が動揺する中で、管理職・教職員が落ち着いて対応できるよう、初期対応の助言、保護者説明会や全校集会での伝え方の相談、報道対応との調整、ハイリスクな児童生徒(現場を目撃した、故人と親しかった等)のスクリーニングと個別フォロー、教職員自身の心のケアなど、学校組織全体を支える機能を担う。対応にあたっては、心理的応急処置(サイコロジカル・ファーストエイド、PFA)の考え方に基づき、無理に感情を語らせる「デブリーフィング」を避け、安心・安全の確保と情報提供を優先することが基本とされる。\n\n多くの都道府県・政令市の教育委員会は、緊急時に迅速にチームを派遣できるよう、平時からスクールカウンセラー等の緊急派遣体制やマニュアルを整備している。緊急支援は数日から数週間の短期集中的な対応にとどまり、その後の中長期的なケアは学校の相談体制やスクールカウンセラーの通常配置、必要に応じた医療機関への紹介につなげていくことが重要とされる。",
-    relatedSlugs: ["psychological-first-aid", "gakko-kiki-kanri", "trauma-informed-care"],
+    relatedSlugs: ["psychological-first-aid", "gakko-kiki-kanri", "trauma-informed-care", "suicidal-ideation-signs-emergency-assessment"],
     isCanonical: true,
     tags: ["学校危機", "心のケア", "緊急派遣スクールカウンセラー"],
   },
@@ -813,7 +813,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童生徒が心身の発達や性に関する正しい知識を身につけ、自他の生命や人権を尊重した行動をとれるようにするための教育。学習指導要領の「はどめ規定」や、生命の安全教育の推進が近年の焦点となっている。",
     body: "学校における性教育は、児童生徒が発達段階に応じて心身の発達、性の多様性、生殖に関する科学的な知識を身につけるとともに、自己や他者の生命・身体・人権を尊重し、望ましい人間関係を築く力を育てることを目的とする教育活動である。保健体育科、特別活動、道徳科などを中心に、学校教育全体を通じて計画的に行われる。日本の学習指導要領には、いわゆる「はどめ規定」があり、例えば中学校保健体育では妊娠の経過を取り扱わないなど、発達段階を踏まえて指導内容に一定の制限が設けられている点が、諸外国の包括的性教育と比較してしばしば論点となる。\n\n近年は、性犯罪・性暴力の被害者にも加害者にもならず、傍観者にもならないための「生命(いのち)の安全教育」が文部科学省により推進されている。これは、幼児期から高校段階・特別支援教育まで発達段階別の教材を用い、自分と相手を尊重する態度、体の権利(プライベートゾーン)、SNS等を通じた性被害の危険性、性暴力が起きたときの相談先などを学ぶもので、生徒指導・教育相談とも密接に関連する。また、月経や射精などの身体変化への対応、性の多様性(性的指向・性自認)への理解を含む人権教育としての側面も重視されている。\n\n実施上の課題としては、保護者や地域社会の価値観の違いから指導内容への賛否が分かれやすいこと、教員自身の専門性・研修機会の不足、外部講師(助産師等)の活用のあり方などが挙げられる。学校は、学校保健計画や学校運営協議会等を通じて保護者・地域との合意形成を図りながら、系統的な性教育を進めることが求められている。",
-    relatedSlugs: ["inochi-kyoiku", "jinken-kyoiku", "gender-to-kyoiku", "safety-education-for-life-sexual-violence", "unintended-teen-pregnancy-prevention-guidance"],
+    relatedSlugs: ["inochi-kyoiku", "jinken-kyoiku", "gender-to-kyoiku", "safety-education-for-life-sexual-violence", "unintended-teen-pregnancy-prevention-guidance", "dating-dv-prevention-education-respect"],
     isCanonical: true,
     tags: ["性教育", "生命の安全教育", "人権教育"],
   },
@@ -839,7 +839,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "非行の未然防止や早期対応、少年の健全育成を目的に、学校と警察(少年サポートセンター等)が情報交換や合同補導、相互連絡票の運用などを通じて協力する仕組み。学校警察連絡協議会がその中心的な枠組みとなる。",
     body: "学校と警察の連携は、児童生徒の非行の未然防止、早期発見・早期対応、そして非行に及んだ少年の立ち直り支援を目的として、学校(教育委員会)と警察(少年サポートセンター、生活安全課等)が協力する仕組みの総称である。多くの都道府県・市区町村では「学校警察連絡協議会」が設置され、地域の非行情勢の情報交換、合同での街頭補導活動、薬物乱用防止教室や非行防止教室の開催などが行われている。\n\n代表的な運用の一つに「学校・警察相互連絡制度(相互連絡票)」があり、警察が補導・検挙した児童生徒について、本人・保護者の同意を得た上でその概要を学校に連絡し、学校側も生徒指導上必要な情報を警察に提供することで、双方が連携して当該少年の指導・支援にあたることができるようにする仕組みである。個人情報保護の観点から、連絡の対象となる事案の範囲や同意手続き、情報の管理方法について、都道府県ごとに要綱・協定で定められている。\n\n警察に置かれる少年サポートセンターは、少年補導職員や少年育成官等が非行少年やその保護者からの相談に応じるとともに、学校や児童相談所、要保護児童対策地域協議会等と連携しながら継続的な支援(継続補導)を行う機能を持つ。学校現場においては、こうした警察との連携を、単なる取り締まりへの協力としてではなく、生徒の立ち直りを多機関で支えるネットワークの一部として位置づけ、スクールソーシャルワーカーや生徒指導主事が窓口となって活用することが重要とされる。",
-    relatedSlugs: ["hogo-kansatsu", "hiko-shonen-bunrui", "yohogo-jido-taisaku-chiiki-kyogikai", "police-juvenile-liaison-delinquency-prevention"],
+    relatedSlugs: ["hogo-kansatsu", "hiko-shonen-bunrui", "yohogo-jido-taisaku-chiiki-kyogikai", "police-juvenile-liaison-delinquency-prevention", "online-slander-digital-tattoo-prevention", "night-patrol-guidance-downtown-monitoring"],
     isCanonical: true,
     tags: ["学校警察連携", "少年サポートセンター", "非行防止"],
   },
@@ -852,7 +852,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "ロジャーズが創始したカウンセリング理論。相談者の自己実現傾向を信頼し、カウンセラーの自己一致・無条件の肯定的関心・共感的理解を重んじる。",
     body: "来談者中心療法は、アメリカの心理学者カール・ロジャーズが1940年代に打ち出した心理療法です。1942年の『カウンセリングと心理療法』で、助言や解釈を与える従来の方法に対して、相談者自身の力を重視する「非指示的療法」を提唱しました。のちに「クライエント中心療法」「パーソン・センタード・アプローチ」と呼ばれるようになります。人は本来、成長し自己を実現しようとする傾向をもつという人間観が土台にあります。\n\nロジャーズは1957年の論文「治療的人格変化の必要十分条件」で、変化を促す条件を整理しました。そのうちカウンセラー側の態度が、自己一致（純粋性）、無条件の肯定的関心（尊重）、共感的理解の「三条件」です。評価や助言を急がず、相談者の感じている世界をそのまま受け止める傾聴の姿勢は、現在の教育相談の基本姿勢としても広く共有されています。\n\n学校では、教師やスクールカウンセラーが児童生徒の話を聴く場面の土台になります。一方で、危機介入や発達障害のある子への支援など、傾聴だけでは足りない場面もあり、行動面への助言や環境調整、他機関との連携を組み合わせる必要があります。受容は何でも認めることではなく、相手の感情を理解することと行動の善悪を区別する点に注意が要ります。",
-    relatedSlugs: ["kyoiku-sodan", "carl-rogers-gakushusha-chushin", "school-counselor", "seito-rikai", "congruence-genuineness-listening-attitude"],
+    relatedSlugs: ["kyoiku-sodan", "carl-rogers-gakushusha-chushin", "school-counselor", "seito-rikai", "congruence-genuineness-listening-attitude", "motivational-interviewing-behavioral-change", "unconditional-positive-regard-human-dignity"],
     isCanonical: true,
     tags: ["カウンセリング", "ロジャーズ", "傾聴"],
   },
@@ -917,7 +917,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "ホランドが提唱したキャリア理論。人と職業環境を六つの類型に分け、両者が一致するほど満足度や定着が高まると考える。",
     body: "ホランドの職業選択理論は、アメリカの心理学者ジョン・L・ホランドが体系化したキャリア理論です。人のパーソナリティと職業環境を、現実的（R）、研究的（I）、芸術的（A）、社会的（S）、企業的（E）、慣習的（C）の六つの類型で説明します。頭文字をとってRIASEC（リアセック）やホランド・コードと呼ばれ、類型どうしの似ている度合いは六角形の配置で表されます。\n\n理論の核心は、人の類型と職業環境の類型が一致するほど、職業的な満足や成果、安定が高まるという考え方です。個人はふつう一つの類型だけでなく、上位三つの組み合わせ（例：SAE）で表されます。興味や関心を測る自己診断式の検査を通じて、自分の傾向に合う職業群を探す手がかりを得ます。アメリカ労働省の職業情報サイトO*NETの「興味」の分類にも使われています。\n\n進路指導では、生徒が自分の興味や得意を言葉にして、職業や学科の選択につなげる材料になります。ただし、類型は固定された性格診断ではなく、あくまで探索の入口です。検査結果で選択肢を狭めず、体験活動や面談で確かめ、構成概念としての妥当性に批判があることも踏まえて、参考として扱う姿勢が求められます。",
-    relatedSlugs: ["shinro-shido", "career-education", "shokuba-taiken", "super-life-career-rainbow"],
+    relatedSlugs: ["shinro-shido", "career-education", "shokuba-taiken", "super-life-career-rainbow", "vocational-readiness-test-vrt-utilization"],
     isCanonical: true,
     tags: ["キャリア理論", "職業興味", "進路"],
   },
@@ -969,7 +969,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "学校安全を生活安全・交通安全・災害安全の三領域でとらえ、学校保健安全法に基づき学校安全計画で安全教育と安全管理を進める枠組み。",
     body: "学校安全は、児童生徒の安全に関わる諸活動を指し、安全教育と安全管理、そして両者を円滑に進める組織活動から成り立つとされます。内容は三つの領域で整理されます。生活安全は日常生活で起こる事件・事故（誘拐や傷害などの犯罪被害の防止を含む）、交通安全は様々な交通場面における危険と安全、災害安全は地震、津波、火山災害、風水害などの自然災害（火災や原子力災害を含む）です。\n\n学校保健安全法第27条は、すべての学校に学校安全計画の策定と実施を義務づけています。計画には、施設・設備の安全点検、通学を含む日常生活での安全指導、職員研修などを盛り込み、安全教育と安全管理の内容を関連づけた年間の総合的な基本計画とされます。同法第29条は、危険等発生時の対処要領（いわゆる危機管理マニュアル）の作成を求めています。\n\n国は学校保健安全法に基づき、学校安全の推進に関する計画を定めています。第3次計画は2022年3月25日に閣議決定され、2022年度から2026年度までの5年間を対象とし、地域の多様な主体と連携した取り組みと、子どもの視点を加えた安全対策の推進などを掲げています。計画は作るだけでなく、訓練や点検を通じて実効性を高めることが課題です。",
-    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-keisatsu-renkei", "ptsd-gakko-taio"],
+    relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kiki-kanri", "gakko-keisatsu-renkei", "ptsd-gakko-taio", "school-safety-crisis-management-liability", "probation-officer-volunteer-network-prevention", "school-safety-plan-disaster-crime-traffic", "school-route-safety-inspection-traffic-map"],
     isCanonical: true,
     tags: ["学校安全", "安全教育", "危機管理"],
   },
@@ -982,7 +982,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "児童生徒が薬物の危険性を理解し、誘いを断る力を身につけるための教育。保健学習と薬物乱用防止教室を組み合わせて行う。",
     body: "薬物乱用防止教育は、覚醒剤、大麻、危険ドラッグなどの違法薬物や、市販薬の不適切な使用が心身に及ぼす害を正しく理解させ、薬物に近づかない判断と行動を育てる教育です。小・中・高等学校を通じて、学習指導要領に基づき体育科・保健体育科を中心に指導が行われます。高校の保健体育では、2009年改訂の学習指導要領から大麻が新たに取り上げられました。\n\n学校では、保健学習に加えて、薬物乱用防止教室が開かれます。文部科学省の説明資料では、薬物乱用防止教室を学校保健計画に位置づけ、すべての中学校・高等学校で年1回は開催し、小学校も地域の実情に応じて開催に努めることとされています。警察職員、麻薬取締官、学校薬剤師などの専門家と連携して実施するのが望ましいとされます。\n\n近年は、若年層の大麻事犯の増加や、風邪薬・咳止め薬などの市販薬を過量に服用するオーバードーズが課題とされています。単に「ダメ、ゼッタイ」と伝えるだけでなく、断る技術を練習するライフスキル教育や、悩みを一人で抱えさせない相談体制づくりが重視されます。使用が疑われる場合は、叱責にとどまらず、保護者や専門機関と連携して回復を支える姿勢が必要です。",
-    relatedSlugs: ["life-skills-education", "kitsuen-inshu-boshi-kyoiku", "assertion-training", "gakko-keisatsu-renkei"],
+    relatedSlugs: ["life-skills-education", "kitsuen-inshu-boshi-kyoiku", "assertion-training", "gakko-keisatsu-renkei", "smoking-drinking-guidance-family-collaboration"],
     isCanonical: true,
     tags: ["薬物", "保健教育", "予防"],
   },
@@ -995,7 +995,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "20歳未満の喫煙・飲酒の害を理解させ、将来にわたる健康的な選択を促す教育。法律上の禁止年齢は成年年齢の引下げ後も20歳未満である。",
     body: "喫煙・飲酒防止教育は、たばこやアルコールが成長期の心身に及ぼす影響を学び、誘いを断る力を育てる教育です。学習指導要領に基づき、小学校高学年の体育科保健領域「病気の予防」、中学校の保健分野、高等学校の保健で、喫煙・飲酒・薬物乱用と健康の関わりが扱われます。生活習慣病の予防や依存の危険性とあわせて学ぶのが一般的です。\n\n法律では、2022年4月の民法改正による成年年齢の18歳への引下げにあわせて、「未成年者飲酒禁止法」が「二十歳未満ノ者ノ飲酒ノ禁止ニ関スル法律」に、喫煙についても同様に題名が改められました。禁止年齢は20歳未満のまま維持されており、成年年齢と必ずしも一致させる必要はないという考え方が政府から示されています。このため、18・19歳の高校生にも禁止であることを明確に指導する必要があります。\n\n学校の環境整備も重要です。改正健康増進法により、2019年7月1日から学校は敷地内禁煙となりました（屋外で受動喫煙防止の措置をとった場所に喫煙場所を設ける例外はあります）。加熱式たばこも規制の対象です。教員自身の喫煙行動が教育効果に影響することも指摘され、学校全体で禁煙環境を整える姿勢が求められます。",
-    relatedSlugs: ["yakubutsu-ranyo-boshi-kyoiku", "life-skills-education", "gakko-hoken-anzen-ho", "seito-shido"],
+    relatedSlugs: ["yakubutsu-ranyo-boshi-kyoiku", "life-skills-education", "gakko-hoken-anzen-ho", "seito-shido", "smoking-drinking-guidance-family-collaboration"],
     isCanonical: true,
     tags: ["喫煙", "飲酒", "健康教育"],
   },
@@ -1008,7 +1008,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "文部科学省が2023年3月に取りまとめた不登校対策。学びの場の確保、心のSOSの早期発見、学校風土の見える化を三本柱とする。",
     body: "COCOLOプランは、文部科学省が2023年3月に取りまとめた「誰一人取り残されない学びの保障に向けた不登校対策」の通称です。小・中学校の不登校児童生徒数が2021年度に約24.5万人と過去最多となるなど、増加が続く状況を受けて策定されました。「今すぐできる取り組みから直ちに実行する」方針のもと、行政、学校、地域、家庭、NPO、フリースクールなど社会全体の連携が打ち出されました。\n\nプランの柱は三つです。第一に、不登校の児童生徒全員の学びの場を確保すること。校内教育支援センターの設置促進、教育支援センターの機能強化、学びの多様化学校（旧・不登校特例校）の設置促進などを進めます。第二に、心の小さなSOSを「チーム学校」で早期に支援すること。第三に、学校の風土を見える化し、安心して通える学校づくりを進めることです。不登校特例校は2023年8月に「学びの多様化学校」へ名称が変更されました。\n\nプランは、不登校を「問題行動」と判断してはならないとする2019年通知の考え方を引き継ぎ、登校の有無にかかわらず学びを保障することを目指しています。その後も文部科学省の推進本部で進捗が確認され、取り組みが続けられています。学校には、欠席が目立ち始めた段階での早期の気づきと、学習支援・相談体制の整備が求められます。",
-    relatedSlugs: ["futoko", "manabi-no-tayoka-gakko", "kyoiku-kikai-kakuho-ho", "kounai-kyoiku-shien-center"],
+    relatedSlugs: ["futoko", "manabi-no-tayoka-gakko", "kyoiku-kikai-kakuho-ho", "kounai-kyoiku-shien-center", "multilingual-translation-apps-foreign-parents"],
     isCanonical: true,
     tags: ["不登校", "文部科学省", "学びの保障"],
   },
@@ -1060,7 +1060,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "ハーシが1969年に提唱した非行理論。人はなぜ非行をしないのかを問い、愛着・投資・巻き込み・規範観念の四つの絆が非行を抑えると説く。",
     body: "社会的絆理論（ボンド理論）は、アメリカの犯罪社会学者トラヴィス・ハーシが1969年の著書『非行の原因』で提唱した理論です。非行の原因を探る従来の理論とは逆に、人はなぜ非行をしないのかを問います。社会とのつながり（ボンド）が弱まったときに非行が生じるとする、社会統制理論の代表的な理論です。\n\nハーシは、非行を抑える絆として四つを挙げました。親や教師、友人への情緒的なつながりである「愛着」、教育や職業など社会的な目標への「投資（コミットメント）」、学業や部活動など慣習的活動に費やす時間である「巻き込み（インボルブメント）」、法や規範を正しいと信じる「規範観念（信念）」です。これらが強いほど非行の可能性は低くなると考えます。\n\n生徒指導の実践では、居場所づくりや絆づくりを重視する考え方の背景になっています。学級や部活動での役割、教師との信頼関係、進路への見通しが、非行の予防になるというわけです。非行少年をレッテル貼りで排除せず、学校との絆を保つ関わりを続けることの重要性が示唆されます。一方、現実の非行は複数の要因が重なるため、この理論だけで説明できない点には注意が必要です。",
-    relatedSlugs: ["hiko-shonen-bunrui", "labeling-riron", "seito-shido", "seinenki-yujin-shudan"],
+    relatedSlugs: ["hiko-shonen-bunrui", "labeling-riron", "seito-shido", "seinenki-yujin-shudan", "milgram-obedience-to-authority"],
     isCanonical: true,
     tags: ["非行理論", "犯罪社会学", "ハーシ"],
   },
@@ -1138,7 +1138,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "深刻な不登校や暴力、自傷行為など深刻な困難を抱える個別の児童生徒に対し、校内体制と外部専門機関が緊密に連携して集中的な支援を行う三次支援。",
     body: "困難課題への個別対応は、生徒指導提要における重層的支援構造の三次支援として定義される。長期化する不登校や深刻ないじめ、自傷行為や非行など、単独の指導では解決が困難な危機的状況にある児童生徒に対し、集中的かつ継続的な個別支援を行う方針である。\n\n支援体制では、校長を中心とする危機管理体制のもと、スクールカウンセラーやスクールソーシャルワーカーを中核に配置する。さらに児童相談所や医療機関、警察などの外部専門機関と緊密に連携し、個別支援計画に基づいた多職種協働による介入を展開する。\n\n困難な状況にある児童生徒の安全を確保し、心の安定と生活の回復を支えることは、自己回復力であるレジリエンスを育てる契機となる。学校が確かな支援の拠点として機能することで、孤立を防ぎ、社会的な自立に向けた再出発を可能にする。",
-    relatedSlugs: ["seito-shido-teiyo", "seito-shido-yonso-kozo", "school-social-worker", "school-counselor"],
+    relatedSlugs: ["seito-shido-teiyo", "seito-shido-yonso-kozo", "school-social-worker", "school-counselor", "multilevel-instruction-model-reading-mim"],
     isCanonical: true,
     tags: ["三次支援", "個別対応", "専門機関連携", "危機管理"],
   },
@@ -1177,7 +1177,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "朝の登校時に抵抗や不安、身体症状を示す児童生徒に対し、背景にある要因を早期に把握し、家庭と連携して段階的に安心感を育てる初期支援。",
     body: "登校しぶりは、不登校の初期兆候として現れることが多く、生徒指導提要においても早期発見と適切な初期対応が強く求められる現象である。朝の腹痛や頭痛、登校への強い抵抗感は、学級環境や学習、友人関係に対する不安の表明として理解される。\n\n学校現場では、担任や養護教諭が保護者からの連絡を丁寧に聞き取り、無理な登校を強制しない姿勢を共有する。保護者と連携して生活リズムや不安要因を整理し、保健室登校や遅刻登校、短時間登校など柔軟な登校形態を提案しながら支援手順を段階化する。\n\n本人の困り感に寄り添い受容的な関わりを続けることは、児童生徒に心理的安全性をもたらし、ストレスに対処する力を育む。早期に安心できる環境を整えることで、問題の深刻化や長期的な不登校を未然に防止し、学校への信頼感を再構築する。",
-    relatedSlugs: ["futoko", "kyoiku-sodan", "kiritsusei-chosetsu-shogai", "school-counselor"],
+    relatedSlugs: ["futoko", "kyoiku-sodan", "kiritsusei-chosetsu-shogai", "school-counselor", "early-detection-intervention-tier-two"],
     isCanonical: true,
     tags: ["登校しぶり", "行き渋り", "初期対応", "教育相談"],
   },
@@ -2087,7 +2087,7 @@ export const guidanceTerms: Term[] = [
     summary:
       "重大な規律違反を起こした生徒に対し、別室等で個別の反省計画を実施し、明確な解除基準に基づいて段階的な学校復帰を支援する生徒指導体制。",
     body: "特別指導とは、深刻な校則違反や非行等の問題行動を起こした生徒に対し、通常の学級生活から一定期間離して集中的な反省と生活態度の見直しを図る個別指導である。生徒指導提要では、指導の目的が生徒の排除ではなく自己統制力や規範意識の再構築にあると強調されており、教員の独断による指導を避けるための明確な運用基準が求められる。\n\n現場では、生徒指導部を中心に担任や養護教諭が協働して個別の指導計画を作成する。指導期間中は反省日誌の記述や個別面談、学習課題への取り組みを日課として位置づけ、進捗状況を組織的に記録する。指導の解除に向けては、客観的な行動観察や生活態度の改善、内省の深まりを総合的に評価する明確な解除基準を事前に共有しておく。\n\n反省期間の終了は支援の終わりではなく、学級への復帰と信頼回復の新たな出発点である。教員集団が温かく見守りながら居場所を整え、生徒自身が自己の感情や行動を主体的に調整する自己指導能力を育むことで、問題行動の再発を予防する。",
-    relatedSlugs: ["chokai-shobun", "seito-shido-teiyo", "jiko-shido-noryoku", "seito-rikai"],
+    relatedSlugs: ["chokai-shobun", "seito-shido-teiyo", "jiko-shido-noryoku", "seito-rikai", "shoplifting-theft-incident-initial-response"],
     isCanonical: true,
     tags: ["特別指導", "反省期間", "解除基準", "自己統制"],
   },

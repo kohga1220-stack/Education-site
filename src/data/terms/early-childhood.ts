@@ -10,7 +10,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "文部科学省が告示する幼稚園教育課程の国家基準。健康・人間関係など6領域で構成される。",
     body: "幼稚園教育要領は、学校教育法に基づき文部科学省が告示する幼稚園教育課程の国家基準です。全国どこの幼稚園でも一定水準の教育が受けられるよう、教育の目標やねらい、内容を定めています。おおむで10年ごとに改訂され、現行版は2017年（平成29年）に告示され2018年度から実施されています。\n\n教育内容は「健康」「人間関係」「環境」「言葉」「表現」の5領域に整理されており、これらは独立した教科ではなく、遊びを中心とした生活全体を通して相互に関連づけながら育まれるものとされています。\n\n2017年改訂では、小学校との円滑な接続を意識し「幼児期の終わりまでに育ってほしい姿」が新たに明記されました。同時改訂された保育所保育指針・幼保連携型認定こども園教育・保育要領と内容の整合が図られています。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "youho-renkei-kyoiku-hoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "youho-renkei-kyoiku-hoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "kurahashi-sozo-kindergarten-essence", "wada-minoru-kindergarten-play-theory", "kindergarten-order-1926-japan-first-law", "froebel-education-of-man-sacred-play"],
     isCanonical: true,
     tags: ["幼稚園", "教育課程", "5領域"],
   },
@@ -23,7 +23,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "厚生労働省が告示する保育所保育の国家基準。養護と教育を一体的に行うことを掲げる。",
     body: "保育所保育指針は、児童福祉施設である保育所における保育の基本原則や内容を定めた、厚生労働省（現・こども家庭庁）告示の基準です。保育所は児童福祉施設のため、幼稚園教育要領とは異なる法体系に位置づけられますが、就学前の子どもの育ちを支える点で共通の役割を担っています。\n\n指針では、子どもの生命の保持と情緒の安定を図る「養護」と、健やかな成長発達を促す「教育」を、切り離すことなく一体的に展開することが保育所保育の基本とされています。乳児保育に関する記載が充実している点も特徴です。\n\n2017年改訂により、幼稚園教育要領・幼保連携型認定こども園教育・保育要領と同時に見直され、「幼児期の終わりまでに育ってほしい姿」など共通の視点が盛り込まれ、三法令の整合性が高められました。",
-    relatedSlugs: ["youchien-kyoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "hoikushi-haichi-kijun"],
+    relatedSlugs: ["youchien-kyoiku-yoryo", "sanhorei-ittaika", "sodachite-hoshii-sugata", "hoikushi-haichi-kijun", "kurahashi-sozo-kindergarten-essence", "froebel-education-of-man-sacred-play", "uk-early-years-foundation-stage-eyfs", "traditional-nursery-rhymes-touch-play"],
     isCanonical: true,
     tags: ["保育所", "養護と教育", "厚生労働省告示"],
   },
@@ -36,7 +36,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼保連携型認定こども園の教育・保育の基準。内閣府・文科省・厚労省の共同告示による。",
     body: "幼保連携型認定こども園教育・保育要領は、幼稚園と保育所の両方の機能を併せ持つ幼保連携型認定こども園における教育・保育の内容を定めた基準です。内閣府・文部科学省・厚生労働省の三省が共同で告示するという、他の二法令にはない特徴を持っています。\n\nこの要領は、満3歳以上児には学校教育としての側面を、0〜2歳児には児童福祉としての保育の側面を担う認定こども園の性質に対応し、幼稚園教育要領と保育所保育指針の内容を統合する形で構成されています。\n\n2017年の改訂では他の二法令と足並みをそろえ、5領域や「幼児期の終わりまでに育ってほしい姿」を共通化することで、子どもがどの施設に通っても同じ水準の学びと育ちを保障できるよう整備されました。",
-    relatedSlugs: ["youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin", "sanhorei-ittaika", "nintei-kodomoen"],
+    relatedSlugs: ["youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin", "sanhorei-ittaika", "nintei-kodomoen", "sweden-preschool-curriculum-lpfo18", "storytelling-kamishibai-imagination-growth", "joint-early-primary-training-lesson-study", "certified-kodomoen-chief-teacher-role"],
     isCanonical: true,
     tags: ["認定こども園", "三省共同告示", "教育・保育要領"],
   },
@@ -62,7 +62,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼稚園教育要領が掲げる基本原則。子どもを取り巻く人・物・自然への働きかけを通じて学びを促す考え方。",
     body: "「環境を通した教育」は、幼稚園教育要領が幼稚園教育の基本として最初に掲げる考え方です。教師が一方的に知識を教え込むのではなく、子どもがふさわしい環境に主体的に関わり、そこから自ら試したり考えたりする過程を通じて発達に必要な経験を積み重ねていくことを重視します。\n\nここでいう「環境」とは、遊具や教材といった物的環境だけでなく、保育者や友達などの人的環境、季節や自然などの自然環境まで幅広く含みます。保育者は、子どもの興味や発達の状況を踏まえて計画的に環境を構成し、必要に応じて援助する役割を担います。\n\nこの考え方は保育所保育指針や認定こども園教育・保育要領にも共通しており、コーナー保育や自由保育など、子どもの主体性を尊重する保育実践の理論的な土台にもなっています。",
-    relatedSlugs: ["youchien-kyoiku-yoryo", "asobi-sogoteki-shido", "corner-hoiku", "issei-hoiku-jiyu-hoiku"],
+    relatedSlugs: ["youchien-kyoiku-yoryo", "asobi-sogoteki-shido", "corner-hoiku", "issei-hoiku-jiyu-hoiku", "playground-environment-fixed-movable-equipment", "indoor-play-environment-zoning-movement", "toy-selection-developmental-shelving-display"],
     isCanonical: true,
     tags: ["環境構成", "幼稚園教育の基本", "主体的な遊び"],
   },
@@ -75,7 +75,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児期の学びは教科ではなく遊びを中心に、5領域の内容が一体となって育つとする考え方。",
     body: "「遊びを通しての総合的な指導」は、幼稚園教育要領などが示す幼児教育のもう一つの基本原則です。幼児期の学びは小学校のような教科別の学習ではなく、子どもが夢中になって遊ぶ活動の中で、健康・人間関係・環境・言葉・表現という5領域の内容が絡み合いながら総合的に育っていくという考え方に基づいています。\n\n例えば砂場での遊びひとつをとっても、友達と協力する社会性、道具を工夫して使う思考力、会話によるやり取りなど、複数の領域にまたがる学びが同時に起きています。保育者はこうした遊びの価値を理解し、意図的に環境や関わりを工夫することが求められます。\n\nこの原則は「環境を通した教育」と並び、幼児教育が小学校以降の教科学習とは異なる独自の方法を持つことの根拠となっており、幼保小の架け橋プログラムでもその意義が強調されています。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "sodachite-hoshii-sugata", "seikatsu-asobi-manabi", "youhosho-kakehashi-program"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "sodachite-hoshii-sugata", "seikatsu-asobi-manabi", "youhosho-kakehashi-program", "youji-kazu-gainen", "storytelling-kamishibai-imagination-growth", "paper-puppet-theater-panel-theater-practice", "recycled-materials-craft-creative-transformation"],
     isCanonical: true,
     tags: ["遊びを通した学び", "5領域", "総合的な指導"],
   },
@@ -101,7 +101,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "特定の保育士が特定の子どもの食事・排せつ・睡眠を継続して担当し、愛着関係を築く乳児保育の方法。",
     body: "育児担当制保育とは、主に0〜2歳児クラスにおいて、決まった保育士が決まった少人数の子どもの食事・排せつ・着替え・睡眠といった生活面の世話を継続して担当する保育の方法です。日によって担当が変わる「一斉的な世話」とは異なり、同じ大人との繰り返しの関わりを通じて、子どもが安心感や信頼感を持てるようにすることをねらいとしています。\n\nこの方法は、特定の大人との安定した関係が乳幼児期の情緒の発達に重要であるとするアタッチメント（愛着）研究の知見を、保育の現場での具体的な実践に落とし込んだものと位置づけられます。子ども一人ひとりの生活リズムに合わせて対応できる点も特徴です。\n\n近年、多くの保育所で導入が進んでおり、保育士配置基準の改善とあわせて、より丁寧な乳児保育を実現する手立てとして注目されています。",
-    relatedSlugs: ["bowlby", "hoikushi-haichi-kijun", "seikatsu-asobi-manabi", "affect-attunement-intersubjectivity-stern"],
+    relatedSlugs: ["bowlby", "hoikushi-haichi-kijun", "seikatsu-asobi-manabi", "affect-attunement-intersubjectivity-stern", "sansaiji-shinwa", "seiriteki-souzan", "dressing-undressing-self-help-skills"],
     isCanonical: true,
     tags: ["乳児保育", "愛着形成", "担当制"],
   },
@@ -114,7 +114,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育者主導で全員が同じ活動を行う一斉保育と、子どもが主体的に活動を選ぶ自由保育という2つの保育形態。",
     body: "一斉保育とは、保育者が設定した時間・内容に沿って、クラスの子ども全員が同じ活動に一斉に取り組む保育の形態です。歌や制作、運動遊びなどを計画的・効率的に経験させやすい一方、子ども一人ひとりの興味や発達のペースには合わせにくいという面があります。\n\n一方、自由保育は、複数の遊びのコーナーや教材を用意した環境の中で、子どもが自分の興味に応じて活動を選び、主体的に遊びを展開できるようにする保育の形態です。「環境を通した教育」の考え方を強く反映しており、コーナー保育や見守る保育とも重なる部分があります。\n\n実際の保育現場では、どちらか一方だけを採用するのではなく、集団活動としての一斉保育の場面と、子どもの主体性を尊重する自由保育の場面を、ねらいに応じて組み合わせて実施することが一般的です。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "mimamoru-hoiku"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "mimamoru-hoiku", "oikawa-heiji-early-childhood-dynamic-method", "germany-situationsansatz-early-childhood"],
     isCanonical: true,
     tags: ["保育形態", "主体的な遊び", "保育者主導"],
   },
@@ -127,7 +127,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育室内をままごとや絵本など複数の活動空間に区切り、子どもが自ら遊びを選べるようにする環境構成の手法。",
     body: "コーナー保育とは、保育室の空間を、ままごとこーナー、絵本コーナー、積み木コーナー、製作コーナーなど、活動の性質ごとに複数の区画に分けて構成する方法です。子どもは自分の興味や気分に合わせて、その日取り組みたいコーナーを自ら選んで遊ぶことができます。\n\nこの手法は、幼稚園教育要領などが基本原則とする「環境を通した教育」を保育室の物理的な設計として具体化したものです。棚や仕切りの配置、教材の種類や量を工夫することで、子どもの遊びの質や集中力、友達との関わり方にも影響を与えるとされています。\n\nコーナー保育は自由保育の代表的な実践形態のひとつであり、少人数で落ち着いて遊べる環境を用意することで、異年齢保育や見守る保育とも組み合わせやすいという特徴があります。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "issei-hoiku-jiyu-hoiku", "tatewari-hoiku"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "issei-hoiku-jiyu-hoiku", "tatewari-hoiku", "collaborative-craft-large-scale-artworks", "indoor-play-environment-zoning-movement"],
     isCanonical: true,
     tags: ["環境構成", "自由保育", "遊びの選択"],
   },
@@ -140,7 +140,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "年齢別クラスではなく、異なる年齢の子どもを同じ集団に編成して保育を行う方法。",
     body: "縦割り保育（異年齢保育）とは、0歳児クラス、1歳児クラスというように年齢別にクラスを分けるのではなく、年齢の異なる子どもたちを一つの集団として編成し、日常的に一緒に生活・遊びをする保育の方法です。モンテッソーリ教育など海外の教育法でも取り入れられている考え方です。\n\nこの方法では、年上の子どもが年下の子どもの世話をしたり手本を見せたりする一方、年下の子どもは年上の子どもの姿にあこがれて真似ることで、思いやりや自立心、多様な人間関係の経験を得やすくなるとされます。きょうだいの少ない現代の家庭環境を補う役割も期待されています。\n\n一方で、発達段階の差が大きい子ども同士が同じ環境で過ごすため、保育者には一人ひとりの発達を丁寧に見取り、活動や声かけを個別に調整する専門性が求められます。",
-    relatedSlugs: ["montessori", "corner-hoiku", "mimamoru-hoiku"],
+    relatedSlugs: ["montessori", "corner-hoiku", "mimamoru-hoiku", "intergenerational-community-exchange-elderly"],
     isCanonical: true,
     tags: ["異年齢保育", "思いやり", "モンテッソーリ"],
   },
@@ -153,7 +153,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育者がすぐに手を出さず、子ども自身が試行錯誤する過程を尊重しながら必要な援助を行う保育の姿勢。",
     body: "見守る保育とは、子どもが困難な場面や葛藤に直面したときに、保育者がすぐに手や口を出して解決してしまうのではなく、まず子ども自身の力で試みる過程を尊重しながら、必要な場面でさりげなく援助する保育の姿勢を指します。社会福祉法人による保育実践のモデルとして広く知られるようになった考え方です。\n\nこの姿勢の背景には、大人が先回りして世話をしすぎると、子どもの自立心や問題解決力、自己肯定感が育ちにくくなるという考え方があります。子ども同士のけんかやいざこざについても、すぐに仲裁するのではなく、子ども自身で気持ちを調整する経験として捉えます。\n\n見守る保育は自由保育やコーナー保育、異年齢保育としばしば組み合わせて実践され、子どもの主体性や非認知能力を育む保育のあり方として、多くの保育所・幼稚園で参照されています。",
-    relatedSlugs: ["issei-hoiku-jiyu-hoiku", "tatewari-hoiku", "hi-ninchi-noryoku-ikusei"],
+    relatedSlugs: ["issei-hoiku-jiyu-hoiku", "tatewari-hoiku", "hi-ninchi-noryoku-ikusei", "secure-base-ainsworth-strange-situation-care", "toilet-training-responsive-guidance", "peer-conflict-resolution-mediation-reconciliation", "daily-reflection-sharing-outlook-tomorrow"],
     isCanonical: true,
     tags: ["子どもの主体性", "自立心", "見守る保育の理念"],
   },
@@ -166,7 +166,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "写真や動画、子どもの言葉を用いて遊びや学びの過程を可視化し、共有・振り返りに活かす記録手法。",
     body: "保育におけるドキュメンテーションとは、子どもの遊びや活動の様子を写真や動画、実際の発言などを用いて記録し、掲示物やアルバムなどの形で可視化する記録手法です。イタリア・レッジョ・エミリアの幼児教育実践で発展した手法として知られ、日本の保育所や幼稚園にも広く取り入れられています。\n\nドキュメンテーションは単なる活動の記録にとどまらず、保育者が子どもの育ちや学びの過程を丁寧に読み取り、次の保育計画に活かすための省察（リフレクション）の材料としても活用されます。また保護者に掲示・配布することで、園での子どもの姿や保育のねらいを分かりやすく伝える手段にもなります。\n\nこの手法は、子どもの学びの過程を物語として記録するラーニングストーリーとも親和性が高く、いずれも「評価」ではなく「子ども理解」を目的とする記録のあり方として位置づけられています。",
-    relatedSlugs: ["learning-story", "hoiku-yoroku", "portfolio-hyoka"],
+    relatedSlugs: ["learning-story", "hoiku-yoroku", "portfolio-hyoka", "episode-description", "daily-reflection-sharing-outlook-tomorrow", "childcare-daily-journal-planning-reflection", "childcare-dx-attendance-paperless-efficiency", "floorbook-approach-preschool"],
     isCanonical: true,
     tags: ["保育記録", "レッジョ・エミリア", "省察"],
   },
@@ -179,7 +179,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ニュージーランド発祥の、子どもの学びの姿を物語形式で肯定的に記述する評価・記録の手法。",
     body: "ラーニングストーリーは、ニュージーランドの保育カリキュラム「テ・ファリキ」の中で研究者マーガレット・カーらによって発展した、子どもの学びを記述する手法です。子どものできないことを測るのではなく、実際の場面で子どもが何に興味を持ち、どう関わり、何を学び取ったかを、物語（ストーリー）の形式で肯定的に描写する点に特徴があります。\n\n記録は「気づく（Noticing）」「認識する（Recognising）」「対応する（Responding）」という視点で構成されることが多く、保育者は子どもの興味の広がりや粘り強さといった非認知能力的な側面にも注目します。写真を添えて子ども本人や保護者と共有することも重視されます。\n\n日本でも近年、ドキュメンテーションと並ぶ子ども理解の手法として紹介されており、点数化や到達度評価とは異なる、子どもの育ちに寄り添う記録・評価のあり方として関心を集めています。",
-    relatedSlugs: ["hoiku-documentation", "hi-ninchi-noryoku-ikusei", "portfolio-hyoka"],
+    relatedSlugs: ["hoiku-documentation", "hi-ninchi-noryoku-ikusei", "portfolio-hyoka", "episode-description"],
     isCanonical: true,
     tags: ["テ・ファリキ", "肯定的評価", "子ども理解"],
   },
@@ -192,7 +192,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "児童発達支援センターなどの専門職が保育所等を訪問し、障害のある子どもの集団生活への適応を支援する制度。",
     body: "保育所等訪問支援は、児童福祉法に基づく障害児通所支援の一類型で、2012年（平成24年）の児童福祉法改正により創設された制度です。児童発達支援センターなどに所属する訪問支援員が、子どもが通う保育所・幼稚園・認定こども園・小学校などを実際に訪問して支援を行います。\n\n訪問支援員は、障害のある子ども本人への直接的な関わり方の助言だけでなく、その施設の保育者・教員に対して、集団生活の中での関わり方や環境の工夫について専門的な助言を行います。子どもを施設から切り離すのではなく、子どもが今いる環境の中で適応できるよう支援する点が特徴です。\n\nこの制度は、障害のある子どもの地域社会への参加・包摂（インクルージョン）を進める仕組みとして位置づけられており、園と専門機関が連携して子どもを支える体制づくりの一つとなっています。",
-    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tokubetsu-shien-coordinator"],
+    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tokubetsu-shien-coordinator", "itinerant-support-specialists-preschool-visits"],
     isCanonical: true,
     tags: ["障害児支援", "インクルージョン", "児童福祉法"],
   },
@@ -205,7 +205,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "病気や病後の子どもを、保護者に代わって専用施設等で一時的に預かり保育・看護する事業。",
     body: "病児保育とは、風邪や感染症などで病気にかかっている子ども、あるいは病気の回復期にある子どもを、保護者が就労等の理由で家庭でみることが難しい場合に、専用の施設等で一時的に預かり、保育と看護の両面から対応する事業です。子ども・子育て支援法に基づく地域子ども・子育て支援事業の一つに位置づけられています。\n\n実施形態には、病院や診療所に併設された「病児対応型」、保育所等に併設された「病後児対応型」、看護師等が自宅を訪問する「訪問型」などがあります。看護師や保育士が配置され、症状の観察や与薬の管理を行いながら保育を提供します。\n\n共働き家庭の増加に伴い、子どもの急な病気の際にも仕事を休まず対応できる仕組みとしてニーズが高まっている一方、利用施設数の地域格差や急な予約への対応の難しさが課題として指摘されています。",
-    relatedSlugs: ["ichiji-azukari-jigyo", "kodomo-kosodate-shien-shinseido"],
+    relatedSlugs: ["ichiji-azukari-jigyo", "kodomo-kosodate-shien-shinseido", "holiday-nighttime-childcare-safety-net"],
     isCanonical: true,
     tags: ["病児対応型", "子育て支援事業", "共働き支援"],
   },
@@ -231,7 +231,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "乳幼児を持つ親子が気軽に集い、交流や相談ができる常設の拠点を設置・運営する子育て支援事業。",
     body: "地域子育て支援拠点事業は、乳幼児とその保護者が気軽に立ち寄り、遊びや交流ができる常設の拠点を、公共施設や保育所、児童館、空き店舗などに設置・運営する事業です。子ども・子育て支援法に基づく地域子ども・子育て支援事業の一つとして位置づけられています。\n\n拠点では、子育て中の親子が交流できる場の提供に加え、子育てに関する相談・助言、地域の子育て関連情報の提供、子育てに関する講習会などが行われます。核家族化や地域のつながりの希薄化により孤立しがちな子育て家庭を支える役割が期待されています。\n\n実施形態には、主に子育て支援の専門スタッフが常駐する「一般型」と、より小規模な形で運営される「連携型」などがあり、全国の市区町村で幅広く展開されています。",
-    relatedSlugs: ["ichiji-azukari-jigyo", "kodomo-kosodate-shien-shinseido", "young-carer"],
+    relatedSlugs: ["ichiji-azukari-jigyo", "kodomo-kosodate-shien-shinseido", "young-carer", "parent-association-community-building-nursery", "childcare-counselor-parenting-anxiety-relief"],
     isCanonical: true,
     tags: ["子育て支援拠点", "孤立防止", "地域子ども・子育て支援事業"],
   },
@@ -244,7 +244,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2015年施行の、幼児教育・保育と地域の子育て支援を総合的に推進する制度。認定こども園制度の普及等を柱とする。",
     body: "子ども・子育て支援新制度は、2012年に成立した子ども・子育て関連3法に基づき、2015年（平成27年）4月に本格施行された制度です。すべての子どもに質の高い幼児期の学校教育・保育を保障するとともに、地域の子育て支援を総合的に推進することを目的としています。\n\n主な柱として、幼稚園と保育所の機能を併せ持つ認定こども園制度の普及、地域の実情に応じた小規模保育や家庭的保育などの「地域型保育」の創設、地域子育て支援拠点事業や一時預かり事業といった地域子ども・子育て支援事業の充実が挙げられます。\n\n財源には消費税率引き上げによる増収分の一部が充てられ、市町村が地域のニーズに基づいて「市町村子ども・子育て支援事業計画」を策定し、給付や事業を計画的に実施する仕組みとなっています。",
-    relatedSlugs: ["nintei-kodomoen", "ichiji-azukari-jigyo", "chiiki-kosodate-shien-kyoten", "taiki-jido-mondai", "jigyosho-nai-hoiku", "kyotaku-homon-hoiku"],
+    relatedSlugs: ["nintei-kodomoen", "ichiji-azukari-jigyo", "chiiki-kosodate-shien-kyoten", "taiki-jido-mondai", "jigyosho-nai-hoiku", "kyotaku-homon-hoiku", "children-cafeteria-community-support-learning", "extended-daycare-enrichment-work-support"],
     isCanonical: true,
     tags: ["2015年施行", "認定こども園", "地域型保育"],
   },
@@ -283,7 +283,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "他職種と比べ低いとされる保育士の給与水準を、公定価格の加算等により引き上げる国の施策。",
     body: "保育士の処遇改善とは、他業種と比較して低い水準にあるとされてきた保育士の給与等を引き上げるため、国が保育所等の運営費である公定価格に加算を設けて実施してきた一連の施策を指します。技能・経験に応じて処遇を改善する仕組みとして「処遇改善等加算I・II・III」が段階的に整備されています。\n\n背景には、保育士資格を持ちながら保育の仕事に就かない、あるいは早期に離職する「潜在保育士」の存在があり、これが待機児童問題を悪化させる一因とも指摘されてきました。処遇改善は、保育士の確保・定着を図るための重要な施策として位置づけられています。\n\n近年は、副主任保育士など一定の経験を積んだ職員のキャリアアップの仕組みと連動させながら加算が行われており、保育士配置基準の改善とあわせて、保育の質の向上を支える車の両輪として進められています。",
-    relatedSlugs: ["hoikushi-haichi-kijun", "taiki-jido-mondai"],
+    relatedSlugs: ["hoikushi-haichi-kijun", "taiki-jido-mondai", "region-limited-childcare-worker-system"],
     isCanonical: true,
     tags: ["公定価格", "処遇改善等加算", "潜在保育士"],
   },
@@ -296,7 +296,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2019年10月開始。3〜5歳児クラス全世帯等の幼稚園・保育所・認定こども園等の利用料を無償とする制度。",
     body: "幼児教育・保育の無償化は、2019年（令和元年）10月から実施されている制度で、幼稚園・保育所・認定こども園等を利用する3歳から5歳までの子どもの利用料（保育料）を、原則としてすべての世帯を対象に無償とするものです。0〜2歳児クラスについては、住民税非課税世帯が無償化の対象となります。\n\n認可外保育施設や一時預かり事業、病児保育事業などについても、保育の必要性の認定を受けた場合には一定の上限額まで利用料が助成の対象となります。財源には消費税率10%への引き上げによる増収分の一部が充てられています。\n\nこの施策は、子育て世帯の経済的負担の軽減とともに、幼児教育の重要性への社会的関心の高まりを背景に実現しました。一方で、無償化が保育需要をさらに押し上げ、待機児童問題や保育士不足に影響を与えるとの指摘もあります。",
-    relatedSlugs: ["kodomo-kosodate-shien-shinseido", "taiki-jido-mondai", "heckman-youji-kyoiku-toshi", "nintei-kodomoen", "kyoiku-kikai-kinto", "kodomo-kihon-ho", "early-childhood-free-education-redistribution"],
+    relatedSlugs: ["kodomo-kosodate-shien-shinseido", "taiki-jido-mondai", "heckman-youji-kyoiku-toshi", "nintei-kodomoen", "kyoiku-kikai-kinto", "kodomo-kihon-ho", "early-childhood-free-education-redistribution", "youji-kazu-gainen"],
     isCanonical: true,
     tags: ["2019年10月", "利用料無償化", "子育て支援", "幼児教育無償化", "認定こども園"],
   },
@@ -335,7 +335,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ノーベル賞経済学者ヘックマンが提唱した、就学前教育への投資は他の教育段階より高い収益率を持つとする理論。",
     body: "ヘックマンの幼児教育投資論は、2000年にノーベル経済学賞を受賞した米国の経済学者ジェームズ・ヘックマンが提唱した理論で、人的資本への投資は、就学前の幼児期に行うほど、その後の教育段階に投資するよりも社会的な収益率が高いと主張するものです。\n\n根拠の一つとされるのが、1960年代に米国で低所得層の子どもを対象に実施された「ペリー就学前プロジェクト」の追跡調査です。就学前教育を受けたグループは受けなかったグループに比べ、成人後の学歴や所得、就労状況が良好で、犯罪率も低いという結果が示され、その経済的収益率は年7〜10%程度と算出されています。\n\nヘックマンは、こうした効果の多くは学力よりも、粘り強さや協調性といった非認知能力の向上によってもたらされると論じており、この理論は日本を含む各国の幼児教育無償化政策や、幼児教育の質向上策を後押しする根拠として広く引用されています。",
-    relatedSlugs: ["hi-ninchi-noryoku", "hi-ninchi-noryoku-ikusei", "youji-kyoiku-mushoka"],
+    relatedSlugs: ["hi-ninchi-noryoku", "hi-ninchi-noryoku-ikusei", "youji-kyoiku-mushoka", "non-cognitive-skills-self-regulation-ten-forms"],
     isCanonical: true,
     tags: ["ヘックマン", "ペリー就学前プロジェクト", "人的資本投資"],
   },
@@ -348,7 +348,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児期の学びは教科学習ではなく、日々の生活と遊びの中に自然な形で存在するという幼児教育の基本的な考え方。",
     body: "「生活と遊びを通した学び」とは、幼児期の子どもにとっての学びは、時間割に沿った教科の学習としてではなく、食事や着替え、片付けといった日々の生活の営みと、友達や物との自発的な遊びの中に、自然な形で存在しているという幼児教育の基本的な考え方を表す言葉です。\n\n例えば衣服のボタンを自分で留める、順番を待つ、友達と積み木を分け合うといった何気ない生活場面の一つひとつが、子どもにとっては自立心や社会性を育む重要な学びの機会になります。保育者はこうした生活や遊びの意味を丁寧に読み取り、環境や関わりを整えることが求められます。\n\nこの考え方は「環境を通した教育」や「遊びを通しての総合的な指導」という幼稚園教育要領等の基本原則の土台となっており、小学校教育の教科学習とは異なる、幼児教育独自の学びのあり方を説明する際にしばしば用いられます。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "asobi-sogoteki-shido", "sodachite-hoshii-sugata"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "asobi-sogoteki-shido", "sodachite-hoshii-sugata", "food-education-vegetable-growing-cooking", "mealtime-manners-social-dining-atmosphere", "eating-utensils-chopsticks-transition", "toilet-training-responsive-guidance", "dressing-undressing-self-help-skills"],
     isCanonical: true,
     tags: ["生活と遊び", "幼児教育の独自性", "自立心"],
   },
@@ -361,7 +361,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育所等が就学先の小学校へ子どもの育ちの姿を伝える公的な書類。幼稚園の指導要録に相当する。",
     body: "保育要録（正式には「保育所児童保育要録」）とは、保育所に通っていた子どもが小学校に就学する際、保育所での育ちの姿や保育の過程を小学校へ伝えるために作成される公的な書類です。幼稚園における「幼稚園幼児指導要録」、認定こども園における「認定こども園こども要録」に相当するものです。\n\n要録には、子どもの発達の状況や、園での生活・遊びの様子、健康面での配慮事項などが記載され、「幼児期の終わりまでに育ってほしい姿（10の姿）」を踏まえた記述が求められます。保育所（園）長の責任のもと作成され、就学先の小学校に送付されます。\n\nこの書類は、幼児教育・保育施設と小学校とが子ども一人ひとりの育ちの情報を共有し、指導に生かすための重要な接続ツールであり、幼保小の架け橋プログラムが目指す学びの連続性を支える実務的な仕組みの一つです。",
-    relatedSlugs: ["youhosho-kakehashi-program", "sodachite-hoshii-sugata", "hoiku-documentation"],
+    relatedSlugs: ["youhosho-kakehashi-program", "sodachite-hoshii-sugata", "hoiku-documentation", "elementary-school-visit-pre-transition-experience", "transition-support-sheet-elementary-handover"],
     isCanonical: true,
     tags: ["保育所児童保育要録", "幼保小接続", "就学支援"],
   },
@@ -452,7 +452,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "児童福祉法に基づく国家資格。保育所等で乳幼児の保育や保護者への保育指導を行う専門職で、指定保育士養成校の卒業または保育士試験合格により取得できる。",
     body: "保育士は、児童福祉法第18条の4に規定される国家資格であり、専門的知識及び技術をもって、児童の保育並びに児童の保護者に対する保育に関する指導を行うことを業とする者と定義される。資格取得の方法は主に2つあり、都道府県知事が指定する保育士養成施設（短期大学・大学・専門学校等）を卒業する方法と、年2回実施される保育士試験に合格する方法がある。かつては「保母」という名称であったが、1999年の児童福祉法施行令改正により、男女を問わない名称として「保育士」に統一された。また、2003年の法改正により、保育士は名称独占資格として法定化された。\n\n保育士の勤務先は保育所が中心であるが、幼保連携型認定こども園、乳児院、児童養護施設、障害児入所施設など、児童福祉施設全般に及ぶ。近年は保育需要の増大に対して保育士の担い手不足が深刻な社会課題となっており、処遇改善加算による賃金水準の引き上げや、保育士試験の年2回実施化、保育士修学資金貸付制度の拡充など、人材確保に向けた施策が継続的に講じられている。\n\n保育士配置基準の見直しや、保育の質の確保・向上との両立をめぐる議論、幼稚園教諭免許状との併有を促す特例制度の運用なども、保育士制度をめぐる現在進行形の政策課題である。",
-    relatedSlugs: ["hoikushi-haichi-kijun", "hoikushi-shogu-kaizen", "hoikukyoyu", "taiki-jido-mondai", "childcare-worker-career-up-training-leaders"],
+    relatedSlugs: ["hoikushi-haichi-kijun", "hoikushi-shogu-kaizen", "hoikukyoyu", "taiki-jido-mondai", "childcare-worker-career-up-training-leaders", "novice-childcare-worker-mentor-training", "region-limited-childcare-worker-system"],
     isCanonical: true,
     tags: ["国家資格", "児童福祉法", "保育士不足", "処遇改善"],
   },
@@ -478,7 +478,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "育児・介護休業法に基づき、原則1歳未満の子を養育する労働者が申し出により取得できる休業制度。待機児童など特別な事情がある場合は最長2歳まで延長できる。",
     body: "育児休業制度は、「育児休業、介護休業等育児又は家族介護を行う労働者の福祉に関する法律」（育児・介護休業法）に基づき、原則として1歳に満たない子を養育する労働者が、事業主に申し出ることで取得できる休業制度である。性別を問わず取得でき、原則として子が1歳になる誕生日の前日まで、2回に分割して取得することが可能である。保育所に入所できないなど一定の事情がある場合には、1歳6か月まで、さらに要件を満たせば最長2歳まで延長することができる。\n\n育児休業制度は、乳幼児期の子どもと保護者が家庭で十分な時間を過ごせるようにするとともに、労働者が働き続けながら子育てをすることを可能にするための基盤的な制度であり、待機児童問題とも密接に関連している。すなわち、保育所への入所が決まらないことを理由とした育児休業の延長は、待機児童問題の解消が遅れている状況を映す指標の一つとしても注目されてきた。休業期間中は雇用保険から育児休業給付金が支給され、近年の法改正では、出生直後に取得できる「出生時育児休業（産後パパ育休）」の創設など、男性の育児休業取得を促進する見直しが重ねられている。\n\n育児休業から復帰した後も、子が3歳になるまでの短時間勤務制度や、小学校就学前の子を対象とする子の看護休暇制度など、仕事と育児の両立を支える制度が育児・介護休業法に定められている。保育所や認定こども園における0～2歳児の受け入れ体制の整備と、育児休業制度の利用促進は、車の両輪として子育て支援施策の中で位置づけられている。",
-    relatedSlugs: ["taiki-jido-mondai", "kodomo-kosodate-shien-shinseido", "byoji-hoiku", "hoikushi-haichi-kijun"],
+    relatedSlugs: ["taiki-jido-mondai", "kodomo-kosodate-shien-shinseido", "byoji-hoiku", "hoikushi-haichi-kijun", "female-teacher-career-childcare-reintegration"],
     isCanonical: true,
     tags: ["育児・介護休業法", "仕事と育児の両立", "待機児童", "子育て支援"],
   },
@@ -491,7 +491,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育所等が定める通常の開所時間を超えて、保護者の就労状況等に応じて子どもを保育するサービス。保育標準時間・保育短時間の区分を超える部分の利用にあたる。",
     body: "延長保育とは、保育所等が定める基本の保育時間（保育標準時間として最大11時間、保育短時間として最大8時間）を超えて子どもを保育するサービスである。保護者の残業や通勤時間の長さなど、多様な就労形態に対応するために提供されており、多くの保育所で実施されている。利用にあたっては、基本保育料とは別に延長保育料が徴収されることが一般的である。\n\n子ども・子育て支援新制度のもとでは、延長保育事業は地域子ども・子育て支援事業の一つに位置づけられ、市町村が地域の実情に応じて実施している。延長保育を利用する子どもは在園時間が長時間に及ぶため、家庭的でくつろげる環境の確保や、夕方以降の異年齢保育における安全面への配慮、保育士の勤務シフト編成など、通常保育とは異なる運営上の工夫が求められる。\n\n一方で、子どもの生活リズムや心身の負担、保育士の労働環境への影響といった観点から、延長保育の長時間化そのものを問題視する指摘もある。共働き世帯の増加や保育の受け皿拡大が進む中で、延長保育は保護者の就労を支える重要な機能を果たす一方、子どもの最善の利益をどう確保するかという保育の質の議論とも結びつく論点である。",
-    relatedSlugs: ["ichiji-azukari-jigyo", "byogoji-hoiku", "hoikushi-haichi-kijun", "hoiku-no-shitsu"],
+    relatedSlugs: ["ichiji-azukari-jigyo", "byogoji-hoiku", "hoikushi-haichi-kijun", "hoiku-no-shitsu", "extended-daycare-enrichment-work-support", "holiday-nighttime-childcare-safety-net"],
     isCanonical: true,
     tags: ["子育て支援", "保育時間", "共働き"],
   },
@@ -517,7 +517,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "障害のある子どもを保育所等で健常児とともに保育する取り組み。インクルーシブ保育の考え方に基づき、個別の配慮と集団での育ち合いの両立が目指される。",
     body: "障害児保育とは、心身に障害のある子どもを、保育所や幼稚園、認定こども園等において、障害のない子どもとともに、あるいは個別的な配慮を加えながら保育する取り組みを指す。1974年に国が保育所における障害児保育事業への補助を開始して以降、対象となる障害の範囲は身体障害から知的障害、発達障害へと拡大し、現在では多くの保育所で障害のある子どもの受け入れが行われている。\n\n実施にあたっては、障害の状態や発達の特性に応じて個別の指導計画を作成し、必要に応じて加配保育士を配置するなどの体制が取られる。また、児童発達支援センターや保育所等訪問支援など障害児支援の専門機関と連携し、専門的な助言を保育に取り入れる仕組みも整備されている。単に同じ場にいるだけでなく、集団の中で子ども同士が互いの違いを認め合いながら育ち合うことを目指す点が重要であり、近年はこうした考え方を「インクルーシブ保育」と呼ぶことも増えている。\n\n障害児保育をめぐっては、加配保育士の確保や専門性の担保、医療的ケア児の受け入れ体制整備など、依然として多くの課題が残されている。2016年の児童福祉法改正以降、医療的ケア児への支援も法的に位置づけられ、保育所における受け入れ拡大に向けた取り組みが進められている。",
-    relatedSlugs: ["hoikusho-tou-homon-shien", "hattatsu-shogaisha-shien-ho", "jido-hattatsu-shien", "hoikushi-haichi-kijun"],
+    relatedSlugs: ["hoikusho-tou-homon-shien", "hattatsu-shogaisha-shien-ho", "jido-hattatsu-shien", "hoikushi-haichi-kijun", "special-needs-childcare-additional-staffing", "transition-support-sheet-elementary-handover", "case-conference-childcare-understanding-peers"],
     isCanonical: true,
     tags: ["インクルーシブ保育", "障害児支援", "加配保育士"],
   },
@@ -530,7 +530,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "子どもの発達や幸福に資する保育環境・実践の良さを表す概念。保育者の配置基準といった構造の質と、日々の関わりといったプロセスの質の両面から議論される。",
     body: "「保育の質」は、保育所や幼稚園、認定こども園における保育の営みが、子どもの健やかな発達や心身の幸福（ウェルビーイング）にどれだけ資するものであるかを問う概念である。OECDの国際調査「国際幼児教育・保育従事者調査(TALIS Starting Strong)」など国際的な議論の枠組みを踏まえ、日本でも保育の質に関する検討が政策的に進められてきた。\n\n保育の質は大きく「構造の質」と「プロセスの質」に分けて論じられることが多い。構造の質とは、保育士配置基準、施設・設備の面積基準、保育者の資格や研修体制など、比較的数値で捉えやすい条件を指す。一方プロセスの質とは、保育者と子どもとの応答的な関わり、子ども同士の相互作用、遊びや環境構成の在り方など、日々の保育実践の内実を指し、数値化が難しいが子どもの経験の質に直結するとされる。近年は、保育所保育指針にも位置づけられる保育の記録・自己評価・第三者評価の仕組みが、プロセスの質を可視化し改善につなげる手法として注目されている。\n\n待機児童解消に向けた保育の量的拡大が進められる一方で、量の拡大が質の低下を招かないようにする両立が政策課題として強く意識されており、こども家庭庁の設置後も、保育所等における自己評価ガイドラインの整備や、保育士配置基準の改善など、保育の質の向上に向けた取り組みが続けられている。",
-    relatedSlugs: ["hoikushi-haichi-kijun", "taiki-jido-mondai", "hoiku-documentation", "reggio-emilia-approach", "reggio-emilia-pedagogista-coordination", "preschool-self-evaluation-third-party-assessment"],
+    relatedSlugs: ["hoikushi-haichi-kijun", "taiki-jido-mondai", "hoiku-documentation", "reggio-emilia-approach", "reggio-emilia-pedagogista-coordination", "preschool-self-evaluation-third-party-assessment", "user-complaint-handling-system-preschool", "in-house-research-open-childcare-quality"],
     isCanonical: true,
     tags: ["保育の質", "OECD", "プロセスの質", "第三者評価"],
   },
@@ -647,7 +647,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "アメリカの発達心理学者パーテンが1932年に示した、幼児の遊びを他の子どもとの関わり方から6種類に分ける枠組み。保育での遊びの観察の物差しとして広く知られる。",
     body: "パーテン（Mildred Parten）は1932年に、幼児の遊びを「他の子どもとどの程度かかわっているか」という社会的参加の度合いで分類しました。分類は、何もしない行動、一人遊び、傍観、並行遊び、連合遊び、協同遊びの6種類で、前の3つを非社会的な遊び、後の3つを社会的な遊びとして整理するのが一般的です。\n\n一人遊びは周囲と関わらず単独で遊ぶ状態、傍観は他児の遊びを見ているが加わらない状態です。並行遊びは似た玩具で隣り合って遊ぶが直接のやりとりはない状態、連合遊びは玩具を貸し借りするなど交流はあるが共通の目標はない状態、協同遊びは共通の目的に向けて役割を分担する状態を指します。一般に、年齢が上がるにつれて連合遊びや協同遊びが増えるとされます。\n\nただし、一人遊びや並行遊びが「未熟な遊び」とは限らないことには注意が必要です。集中して取り組む構成遊びなど、年長児でも見られる意味のある遊びだからです。保育者は分類を優劣の基準ではなく、子どもの今の関わり方を捉える観察の視点として用い、仲間入りを急がせない配慮に生かします。",
-    relatedSlugs: ["shocho-asobi", "asobi-sogoteki-shido", "hoiku-documentation", "ninchi-hattatsu"],
+    relatedSlugs: ["shocho-asobi", "asobi-sogoteki-shido", "hoiku-documentation", "ninchi-hattatsu", "non-cognitive-skills-self-regulation-ten-forms", "peer-conflict-resolution-mediation-reconciliation"],
     isCanonical: true,
     tags: ["遊び", "社会性の発達", "保育の観察"],
   },
@@ -660,7 +660,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ピアジェは遊びを練習（機能）遊び、象徴遊び、規則のある遊びの3つに整理し、認知発達の段階と対応づけた。保育での遊びの発達を見通す代表的な枠組みである。",
     body: "ピアジェ（Jean Piaget）は、遊びを子どもの認知発達と結びつけて理論化しました。一般には、感覚運動期に多い「練習遊び（機能遊び）」、前操作期に盛んになる「象徴遊び」、具体的操作期にかけて中心となる「規則のある遊び」の3段階で説明されます。遊びは、外の世界を自分の枠組みに取り込む同化の働きが優位な活動だと捉えられました。\n\n練習遊びは、物を振る、落とす、出し入れするなど、動作そのものを楽しんで繰り返す遊びです。象徴遊びは、積み木を電車に見立てたり、母親役を演じたりする、ふり・見立てを伴う遊びで、表象の発達の表れとされます。規則のある遊びは、鬼ごっこやカードゲームのように、共通のルールを理解し守ることで成り立つ遊びです。\n\n保育の分野では、積み木やブロックで何かを組み立てる構成遊びを加えて整理することも多く、その位置づけは文献により異なります。段階は目安であり、実際の子どもは複数の遊びを行き来します。保育者は年齢で遊びを決めつけず、今の子どもの認知の姿に合った素材や環境を用意することが大切です。",
-    relatedSlugs: ["shocho-asobi", "ninchi-hattatsu", "parten-play-categories", "asobi-sogoteki-shido"],
+    relatedSlugs: ["shocho-asobi", "ninchi-hattatsu", "parten-play-categories", "asobi-sogoteki-shido", "scribbling-schematic-drawing-development"],
     isCanonical: true,
     tags: ["遊び", "認知発達", "ピアジェ"],
   },
@@ -725,7 +725,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2017年改定の保育所保育指針が、0歳児（乳児）の保育のねらい及び内容を示すために用いた「健やかに伸び伸びと育つ」「身近な人と気持ちが通じ合う」「身近なものと関わり感性が育つ」の3つの視点。",
     body: "2017年3月に告示され、2018年4月から適用された保育所保育指針では、乳児・3歳未満児の保育に関する記載が充実しました。そのなかで乳児（0歳児）の保育は、5領域ではなく、「健やかに伸び伸びと育つ」「身近な人と気持ちが通じ合う」「身近なものと関わり感性が育つ」という3つの視点で、ねらい及び内容が示されています。\n\nこれは、乳児期は心身の発達が未分化であり、5領域に分けて捉えるよりも、生活や遊びのなかで発達が重なり合って進むことを重視した整理です。そして、1歳以上3歳未満児では、健康・人間関係・環境・言葉・表現の5領域で示され、3歳以上児の保育へと連続しています。乳児期の3つの視点は、その後の5領域の学びの基盤につながるものと位置づけられます。\n\n保育者には、特定の大人との応答的で温かな関わりを通して、愛着を育むことが求められます。育児担当制など、関わる大人を固定する工夫とも結びつきやすい考え方です。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "go-ryoiki", "ikuji-tantosei-hoiku", "bowlby"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "go-ryoiki", "ikuji-tantosei-hoiku", "bowlby", "seiriteki-souzan", "treasure-basket-infant-exploration"],
     isCanonical: true,
     tags: ["乳児保育", "保育所保育指針", "愛着"],
   },
@@ -751,7 +751,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "1歳頃の初語に始まり、1歳半から2歳頃にかけて語彙が急増し、やがて文を話すようになる乳幼児期の言葉の発達。個人差が大きく、大人との応答的な関わりが土台となる。",
     body: "子どもの言葉は、泣き声や喃語のあと、1歳頃に初めての意味のある言葉（初語）が現れることで本格的に始まります。しばらくは単語を一つずつ発する時期が続き、語彙に占める割合は食べ物や身近な物の名前などの名詞が高いとされます。日本語児の研究では、大人の語を言い始めるのは15か月頃、幼児語から大人語へ移る転換点は21か月頃という報告があります。\n\n1歳半から2歳頃には、語彙が急に増える「語彙爆発」と呼ばれる現象が語られ、日本語児の縦断研究では平均20か月頃から獲得語数が増えたという報告もあります。ただし、語彙爆発が本当に一定の時期に急に起こるのか、連続的な増加なのかは研究者の間で議論が続いており、時期にも個人差があります。その後、二つ以上の語をつなげて話すようになり、助詞や文法も整っていきます。\n\n言葉の発達の土台には、指さしや共同注意など、大人との気持ちの通い合いがあります。保育者は、子どもの発話を丁寧に受け止めて言い換えたり、絵本や歌遊びを楽しんだりして、言葉への関心を育てます。保育の領域「言葉」のねらいにも関わる内容です。",
-    relatedSlugs: ["kyodo-chui-sanko-kankei", "hitomishiri", "ninchi-hattatsu", "ehon-yomikikase"],
+    relatedSlugs: ["kyodo-chui-sanko-kankei", "hitomishiri", "ninchi-hattatsu", "ehon-yomikikase", "picture-book-shared-reading-attachment", "paper-puppet-theater-panel-theater-practice"],
     isCanonical: true,
     tags: ["言語発達", "乳幼児期", "領域「言葉」"],
   },
@@ -777,7 +777,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ショーンの「反省的実践家」の考え方を手がかりに、保育者の専門性を自らの実践を振り返り意味づけ直す力として捉える見方。保育カンファレンスなどの実践につながる。",
     body: "ショーン（Donald Schön）は、専門家を、既存の知識や技術を当てはめる技術的熟達者ではなく、状況のなかで行為しながら考え、実践を振り返る「反省的実践家」として捉えました。この見方は日本の保育学にも紹介され、保育者の専門性を、知識や技能の豊かさだけでなく、自らの実践を省みる行為そのものに見いだす考え方として広まりました。\n\n保育学者の秋田喜代美は、省察に技術的省察、実践的省察、批判的省察といった異なる層があることを整理しています。また、実践、想起、言語化、解釈、再実践という循環を省察のモデルとして示す研究もあります。保育者が暗黙のうちに行っている省察を言葉にし、他の保育者と語り合う場として、保育カンファレンスが活用されています。\n\n子どもの育ちに唯一の正解はなく、保育は状況ごとの判断の連続です。そのため、ドキュメンテーションや保育記録を用いて子どもの姿を振り返り、同僚と解釈を交わすことが、保育の質の向上や自己評価と結びつきます。省察は、個人の反省に終わらず、園全体で学び合う文化づくりとも関わります。",
-    relatedSlugs: ["hoiku-documentation", "hoiku-no-shitsu", "learning-story", "lesson-study"],
+    relatedSlugs: ["hoiku-documentation", "hoiku-no-shitsu", "learning-story", "lesson-study", "childcare-daily-journal-planning-reflection", "instructional-plan-evaluation-pdca-childcare", "case-conference-childcare-understanding-peers", "in-house-research-open-childcare-quality"],
     isCanonical: true,
     tags: ["保育者の専門性", "省察", "保育カンファレンス"],
   },
@@ -816,7 +816,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "2016年3月に国が策定した、保育施設等での重大事故の予防と、発生時の適切な対応をまとめたガイドライン。睡眠中や食事中などの場面ごとの注意点を示す。",
     body: "教育・保育施設等における事故防止及び事故発生時の対応のためのガイドラインは、保育施設での死亡事故などの重大事故が毎年発生していることを受けて、2016年3月に策定されました。2015年に施行された子ども・子育て支援新制度の運営基準で、事故発生時の対応などを定めた指針の整備が義務づけられたことが背景にあります。\n\nガイドラインは、事故の予防と、事故が起きた際の対応の両面を扱います。睡眠中の窒息事故を防ぐため、やわらかい布団やぬいぐるみを避けること、ひもを置かないこと、口の中に異物がないか確認することなどが例として示されています。食事中の誤嚥を防ぐための食材や形状の工夫、プールや水遊びでの監視、また、事故発生後の救急対応、保護者への連絡、関係機関への報告、再発防止のための検証も重視されます。\n\n担当は現在、こども家庭庁成育局の安全対策課です。保育者が日常の保育のなかで危険を予測する力を高める研修や、ヒヤリハットの共有が、事故防止の基本とされます。認可外保育施設も含め、すべての施設に関わる課題です。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "ninkagai-hoiku-shisetsu", "hoiku-allergy-taio", "gakko-hoken-anzen-ho", "nap-check-five-minute-monitoring-protocol"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "ninkagai-hoiku-shisetsu", "hoiku-allergy-taio", "gakko-hoken-anzen-ho", "nap-check-five-minute-monitoring-protocol", "nap-time-sleep-environment-sids-prevention", "disaster-crime-crisis-management-preschool"],
     isCanonical: true,
     tags: ["安全管理", "事故防止", "保育施設"],
   },
@@ -842,7 +842,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "絵本を大人が声に出して読み、子どもと楽しみを共有する営み。言葉や想像力、大人との信頼関係を育むとされ、2001年の法律で国全体の推進が定められた。",
     body: "絵本の読み聞かせは、保育所や幼稚園、家庭、図書館などで広く行われており、子どもが絵を見ながら物語を聞く体験を通して、言葉の豊かさや想像力、物語の世界への関心を育てるとされています。大人の膝の上で読んでもらう時間は、安心感や信頼関係を深める機会にもなります。乳児期の保育では、繰り返しのある言葉や音の響きを楽しむ絵本が活用されます。\n\n日本では、2000年が国会決議により「子ども読書年」とされ、2001年12月に議員立法で「子どもの読書活動の推進に関する法律」が成立・公布されました。この法律に基づき、2002年8月に第一次の基本計画が閣議決定され、4月23日は「子ども読書の日」とされています。ほかに、乳児期から絵本に親しむ機会を設けるブックスタートの運動も、2000年頃から広がりました。\n\n保育では、読む側が一方的に教え込むのではなく、子どもの反応を見ながら間を取り、読んだ後に子ども同士で感想を交わす時間を大切にします。領域「言葉」や「表現」のねらいと深く結びつき、図書環境の整備や、保護者への働きかけも課題です。",
-    relatedSlugs: ["youji-gengo-hattatsu", "asa-no-dokusho", "hoikusho-hoiku-shishin", "go-ryoiki"],
+    relatedSlugs: ["youji-gengo-hattatsu", "asa-no-dokusho", "hoikusho-hoiku-shishin", "go-ryoiki", "animacion-a-la-lectura-santos"],
     isCanonical: true,
     tags: ["絵本", "読書活動", "領域「言葉」"],
   },
@@ -855,7 +855,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育士の業務として、子どもの保育に加えて保護者に対する保育に関する指導を行うことが児童福祉法に定められている。保護者の養育力を支え、子育てを支援する取り組みである。",
     body: "児童福祉法第18条の4は、保育士を、登録を受けて保育士の名称を用い、専門的知識及び技術をもって、児童の保育と児童の保護者に対する保育に関する指導を行うことを業とする者と定めています。2001年の児童福祉法改正により保育士資格が国家資格化されるとともに、保護者への保育指導が業務として位置づけられたと説明されることが多い一方、資料によって法定化の時期の扱いは異なります。背景には、子育ての基盤である家庭の機能の低下がありました。\n\n保育所保育指針でも、保護者に対する支援は保育所の重要な役割として位置づけられ、入所している子どもの保護者への支援と、地域の子育て家庭への支援に分けて整理されています。連絡帳や送迎時の会話、行事、個別面談などを通して、子どもの育ちを共有し、保護者の気持ちを受け止めることが基本です。「指導」という語には疑問を示す研究もあり、保護者と共に子どもの育ちを支える関係づくりが重視されます。\n\n保護者支援では、守秘義務を守ることや、子どもの最善の利益を優先すること、必要に応じて関係機関と連携することが求められます。児童虐待の疑いがある場合の通告など、他の制度との接続も重要になります。",
-    relatedSlugs: ["hoikushi-kokka-shikaku", "hoikusho-hoiku-shishin", "jido-gyakutai-boshi-ho", "chiiki-kosodate-shien-kyoten"],
+    relatedSlugs: ["hoikushi-kokka-shikaku", "hoikusho-hoiku-shishin", "jido-gyakutai-boshi-ho", "chiiki-kosodate-shien-kyoten", "morning-arrival-departure-health-inspection", "parent-association-community-building-nursery", "user-complaint-handling-system-preschool", "childcare-counselor-parenting-anxiety-relief"],
     isCanonical: true,
     tags: ["保護者支援", "保育士", "児童福祉法"],
   },
@@ -894,7 +894,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "1948年の保育要領に始まり、1956年の制定、1964年の告示、1989年の5領域化を経て、2017年改訂に至る幼稚園教育の基準の歩み。",
     body: "幼稚園教育要領の前身は、1948年に試案として発行された「保育要領－幼児教育の手引き－」です。1956年に「幼稚園教育要領」として制定され、領域ごとに望ましい経験を示しました。ただし、領域が小学校の教科のように捉えられ、領域別に指導する傾向が生じたと指摘されています。\n\n1964年の改訂は文部省の告示として行われ、健康・社会・自然・言語・音楽リズム・絵画制作の6領域を踏まえつつ、ねらいが具体的に示されました。約25年ぶりとなる1989年の改訂では、6領域が健康・人間関係・環境・言葉・表現の5領域に改められ、幼児の主体性を重視し、遊びを通した指導という考え方が示されました。その後、1998年、2008年と改訂が重ねられています。\n\n2017年の改訂では、幼稚園教育要領、保育所保育指針、幼保連携型認定こども園教育・保育要領が同時に告示され、2018年4月から施行されました。幼稚園教育要領としては9年ぶりの改訂でした。改訂の数え方（第何次改訂か）は資料によって異なります。",
-    relatedSlugs: ["youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin", "sanhorei-ittaika", "gakushu-shido-yoryo-hensen"],
+    relatedSlugs: ["youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin", "sanhorei-ittaika", "gakushu-shido-yoryo-hensen", "kindergarten-order-1926-japan-first-law"],
     isCanonical: true,
     tags: ["幼稚園教育要領", "改訂史", "5領域"],
   },
@@ -907,7 +907,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "障害のある子どもや特別な支援・医療的ケアを必要とする子どもが、他のすべての子どもと共に生活し育ち合うことを保障する保育実践。",
     body: "障害の有無や発達の遅れ、国籍や言語の違い、家庭環境の差異などにかかわらず、すべての子どもが排除されることなく同じ保育環境の中で共に生活し、共に遊び、育ち合うことを目指す保育の実践および理念である。\n\n従来の統合保育から発展し、子ども一人ひとりの多様なニーズや個性を尊重し、保育の側が環境や関わり方を柔軟に調整・工夫する点に本質がある。個別の配慮を要する子どもに対する適切な環境整備を行いながら、集団全体の中で相互理解と思いやりの心を育む。\n\n実践においては、保育士・幼稚園教諭に加え、加配保育士の配置や特別支援教育コーディネーター、巡回支援専門員、作業療法士等の多職種連携が不可欠であり、地域療育機関との密接な協力体制が求められている。",
-    relatedSlugs: ["hoikusho-tou-homon-shien", "hoikushi-haichi-kijun", "tokubetsu-shien-coordinator"],
+    relatedSlugs: ["hoikusho-tou-homon-shien", "hoikushi-haichi-kijun", "tokubetsu-shien-coordinator", "uk-early-years-foundation-stage-eyfs", "sweden-preschool-curriculum-lpfo18", "special-needs-childcare-additional-staffing", "itinerant-support-specialists-preschool-visits", "multicultural-children-mother-tongue-respect"],
     isCanonical: true,
     tags: ["特別な支援", "多様性", "共に育つ", "環境調整"],
   },
@@ -933,7 +933,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "保育施設での重大事故を未然に防止するため、事故には至らなかった危険事例（ヒヤリとした・ハッとした経験）を共有・分析し再発防止を図る活動。",
     body: "保育の日常の中で、重大な事故や怪我には至らなかったものの、「一歩間違えれば重大事故につながったかもしれない」と職員がヒヤリとしたりハッとしたりした出来事を把握・分析し、安全対策に生かす危機管理の取り組みである。ハインリッヒの法則に基づく安全対策として重視される。\n\n食事中の誤嚥やアレルギー誤食、水遊びでの溺水、睡眠中の乳幼児突然死症候群、遊具からの転落、園外活動中の見失いなど、保育現場には多様なリスクが存在する。ヒヤリハット報告書の作成を通じて、個人の不注意として片づけるのではなく、園全体の施設環境や人員配置、業務手順の不備として捉える組織的安全管理への転換が求められる。\n\nこども家庭庁が策定するガイドラインに基づき、定期的な園内研修や情報共有、チェックリストの見直しを実施することが義務付けられている。",
-    relatedSlugs: ["hoikushi-haichi-kijun", "gakkou-hoken-yoji", "hoiku-jiko-boshi"],
+    relatedSlugs: ["hoikushi-haichi-kijun", "gakkou-hoken-yoji", "hoiku-jiko-boshi", "nap-time-sleep-environment-sids-prevention", "outdoor-excursions-nature-walks-traffic-safety", "disaster-crime-crisis-management-preschool"],
     isCanonical: true,
     tags: ["安全管理", "事故防止", "リスクマネジメント", "危機管理"],
   },
@@ -959,7 +959,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児教育において、絵の具・粘土・紙・廃材などの多様な素材に自ら触れ、描く・作る体験を通して豊かな感性と表現力を育む遊び活動。",
     body: "幼稚園教育要領および保育所保育指針における領域「表現」の中核をなす活動であり、描画、粘土細工、紙工作、木工、廃材利用など、視覚的・触覚的な素材を使って自らのイメージを形にする創造的な遊びである。\n\n子どもの造形活動は、乳児期の「なぐりがき」から始まり、描いたものに意味づけをする象徴期、目に見える形を自分なりの図式で描く図式期へと発達する。完成した作品の上手・下手を評価するのではなく、素材の感触を楽しみ、思いを自由に発散させ、試行錯誤する「造形活動のプロセスそのもの」を尊重することが指導の基本となる。\n\n子どもが自発的に素材を選び、自由な発想で工夫できるよう、保育室に多様な素材や用具を使いやすく配置する環境構成や、保育者が子どもの表現意図に共感的に寄り添う関わりが重視される。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "yoji-ongaku-rhythm-asobi", "go-ryoiki", "constructive-play-blocks-clay-modelling"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "yoji-ongaku-rhythm-asobi", "go-ryoiki", "constructive-play-blocks-clay-modelling", "scribbling-schematic-drawing-development", "recycled-materials-craft-creative-transformation"],
     isCanonical: true,
     tags: ["領域表現", "造形活動", "感性の育成", "描画発達"],
   },
@@ -972,7 +972,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "歌唱、手遊び、リトミック、楽器演奏などを通して、身近な音やリズムに親しみ、身体全体で音楽の楽しさを味わい表現する幼児教育の活動。",
     body: "幼稚園教育要領等の領域「表現」に位置づけられる活動で、身の回りの様々な音への気づきから始まり、わらべうた、手遊び歌、季節の歌の歌唱、身体を使ったリズム運動、打楽器などの演奏を通じて音を楽しむ総合的な遊びである。\n\n幼児にとって音楽は、単に楽譜通りに歌ったり演奏したりする技術的な訓練ではなく、心地よいリズムに合わせて身体を動かしたり、感情を音に託して解放したりする主体的・情動的な体験である。言葉の獲得と密接に連動しており、リズミカルな言葉の繰り返しや模倣を通して、言語発達やコミュニケーション能力の育成にも寄与する。\n\n集団での合唱や合奏を通じて、友達の音に耳を傾け、音を重ね合わせる心地よさを共有することで、協調性や一体感を育む重要な役割も担っている。",
-    relatedSlugs: ["kodaly-method", "yoji-zoukei-asobi", "go-ryoiki"],
+    relatedSlugs: ["kodaly-method", "yoji-zoukei-asobi", "go-ryoiki", "traditional-nursery-rhymes-touch-play", "expressive-body-movement-mimicry-play"],
     isCanonical: true,
     tags: ["領域表現", "手遊び歌", "リズム遊び", "情操教育"],
   },
@@ -985,7 +985,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "鬼ごっこ・サーキット遊び・遊具遊び等を通し、走る・跳ぶ・登るなどの多様な基本動作を楽しみながら総合的な身体調整力を培う遊び。",
     body: "幼稚園教育要領や保育所保育指針の領域「健康」に基づき、幼児が自発的かつ楽しみながら身体を動かす多様な遊びの総称である。文部科学省の「幼児期運動指針」においても、生涯にわたる運動習慣や健康づくりの基盤として推奨されている。\n\n幼児期は神経系の発達が著しく、走る・跳ぶ・投げる・登る・くぐる・ぶら下がる・バランスをとるなど、多様な基本動作を経験することが極めて重要とされる。決まった運動種目の反復練習ではなく、鬼ごっこ、固定遊具遊び、ボール遊び、リズム体操、自然の中での坂道登りや木登りなど、遊びの中で自然に全身を使う工夫が求められる。\n\n仲間と一緒に体を動かす心地よさやルールを守る楽しさを知ることで、敏捷性や持久力といった体力面だけでなく、挑戦心や達成感、社会的協調性を育む総合的な人間形成の基盤となる。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "go-ryoiki", "sodachite-hoshii-sugata"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "go-ryoiki", "sodachite-hoshii-sugata", "loss-of-playgrounds-physical-activity-decline", "expressive-body-movement-mimicry-play", "playground-environment-fixed-movable-equipment"],
     isCanonical: true,
     tags: ["領域健康", "幼児期運動指針", "基本動作", "体力向上"],
   },
@@ -998,7 +998,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "「楽しく食べる子ども」を目標に、栽培・調理・会食や食に関する多様な体験を通して、生涯にわたる健康な食習慣と感謝の心を育む保育活動。",
     body: "保育所保育指針および厚生労働省「保育所における食育に関する指針」に基づき、乳幼児期から食に関わる健全な心と身体を育成する組織的な取り組みである。食を単なる栄養補給と捉えず、子どもの健やかな心身の成長と豊かな人間性を培う基本と位置づける。\n\n「お腹がすくリズムをもてる子ども」「食べたいもの、好きなものが増える子ども」「一緒に食べたい人がいる子ども」「食事づくり、準備に関わる子ども」「食べものを話題にする子ども」という5つの子ども像を目標に掲げる。野菜の栽培・収穫、簡単なクッキング保育、旬の食材や地域の郷土食の体験、命への感謝の指導が展開される。\n\n保育士と栄養士・調理員が密接に連携し、安心・安全な給食の提供やアレルギー対応を徹底するとともに、家庭に対する離乳食や偏食の相談支援を行う重要な実践領域である。",
-    relatedSlugs: ["hoikusho-hoiku-shishin", "eiyo-kyoyu", "kankyo-wo-tsujita-kyoiku"],
+    relatedSlugs: ["hoikusho-hoiku-shishin", "eiyo-kyoyu", "kankyo-wo-tsujita-kyoiku", "food-education-vegetable-growing-cooking", "mealtime-manners-social-dining-atmosphere", "eating-utensils-chopsticks-transition", "toothbrushing-oral-hygiene-instruction"],
     isCanonical: true,
     tags: ["食育", "保育所指針", "給食", "健康教育"],
   },
@@ -1011,7 +1011,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児の自発的な活動を誘発するため、空間・物的遊具・人的関わり・自然などの環境を保育者が意図的・計画的にデザインすること。",
     body: "幼稚園教育要領および保育所保育指針に示される「環境を通して行う教育」の根幹をなす実践原理である。幼児が自発的・主体的に活動を展開できるよう、園内外のあらゆる環境（空間、施設設備、遊具、素材、自然、人など）を保育者が意図的・計画的に設定することを指す。\n\n保育室の環境構成では、子どもが集中して遊べるコーナーの配置や、玩具が子どもの手の届く高さに整頓されていること、静と動の活動空間の区分などが配慮される。また、物的環境だけでなく、保育者自身の温かい表情や言葉かけ、子ども同士の関わりといった「人的環境」も重要な要素を占める。\n\n環境は一度作って固定するのではなく、子どもの興味・関心の変化や発達の段階、季節の移り変わりに応じて柔軟に再構成され続ける動的なプロセスである。",
-    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "go-ryoiki"],
+    relatedSlugs: ["kankyo-wo-tsujita-kyoiku", "corner-hoiku", "go-ryoiki", "oikawa-heiji-early-childhood-dynamic-method", "germany-situationsansatz-early-childhood", "waldorf-kindergarten-rhythm-natural-materials", "sand-water-mud-play-sensory-plasticity", "picture-book-shared-reading-attachment"],
     isCanonical: true,
     tags: ["環境を通した教育", "コーナー保育", "物的環境", "人的環境"],
   },
@@ -1050,7 +1050,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "指定保育士養成施設において、保育所や児童福祉施設での現場実習（見学・参加・責任実習）を通じ実践的専門性と職業倫理を培う必修科目。",
     body: "指定保育士養成施設において、学生が保育所や児童養護施設・乳児院などの児童福祉施設に赴き、実際の現場で子どもと関わりながら保育士としての専門知識・技術・態度を総合的に体得する必修教育課程である。\n\n一般に保育実習I（保育所および施設）、保育実習II（保育所）またはIII（施設）として段階的に実施される。見学実習から始まり、日々の保育を補助する参加実習、そして自ら指導案を作成して主導的な立場で半日または一日保育を行う責任実習へと進む。\n\n養成校における事前指導（オリエンテーション、指導案作成法、守秘義務・倫理教育）と事後指導（カンファレンス、省察・自己評価）が密接に組み合わされており、実習指導担当教員と実習園の指導保育士が連携して専門的成長を支える。",
-    relatedSlugs: ["zentaiteki-na-keikaku", "hoikushi-kokka-shikaku", "hoikusha-hansei-senmonsei"],
+    relatedSlugs: ["zentaiteki-na-keikaku", "hoikushi-kokka-shikaku", "hoikusha-hansei-senmonsei", "novice-childcare-worker-mentor-training"],
     isCanonical: true,
     tags: ["教員養成", "保育士養成", "実習指導案", "責任実習"],
   },
@@ -1063,7 +1063,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "幼児が遊びや集団生活での友達との葛藤や自己主張を重ねる中で、感情をコントロールし相手の気持ちに気づく自己抑制の力を育む発達過程。",
     body: "幼児期における社会性や情動の発達において中核をなすテーマであり、自らの欲求や意思を言葉や行動で表す「自己主張」と、状況や他者への配慮に応じて衝動や感情をコントロールする「自己抑制」のバランスが形成される過程である。\n\n2歳前後の第1次反抗期（イヤイヤ期）に自己意識が芽生え、強い自己主張が始まる。3歳以降、友達と一緒に遊ぶ場面が増える中で、玩具の取り合いや遊びの主導権をめぐるトラブルが頻繁に起こるようになる。\n\n保育者が安易に仲裁・指示して解決してしまうのではなく、互いの思いを言葉で代弁し、双方が納得できる解決方法を子ども自身が見出せるよう援助することで、相手にも自分と同じような気持ちがあることに気づき、ルールや協調性が自律的に身についていく。",
-    relatedSlugs: ["iyaiya-ki", "parten-play-categories", "sodachite-hoshii-sugata"],
+    relatedSlugs: ["iyaiya-ki", "parten-play-categories", "sodachite-hoshii-sugata", "collaborative-craft-large-scale-artworks"],
     isCanonical: true,
     tags: ["社会性の発達", "自己主張", "感情コントロール", "心の理論"],
   },
@@ -1076,7 +1076,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "動植物の飼育栽培や四季折々の自然との触れ合いを通して、命の尊さへの実感や知的好奇心・探究心の芽生えを育む幼児教育の実践。",
     body: "幼稚園教育要領および保育所保育指針の領域「環境」において極めて重視される実践領域であり、身近な自然環境（土、水、草花、樹木、虫や小動物、気象など）との五感を通した直接体験を重ねる活動である。\n\n泥水遊びや砂遊び、昆虫の観察、草花を使った色水遊び、どんぐりや落ち葉拾い、雪遊びなど、四季折々の自然現象との触れ合いは、子どもの感覚を刺激し、豊かな感性と「なぜだろう」という科学的探究心の芽生えを促す。また、小動物の誕生や死、植物が枯れる姿に直面することで、生命の尊さや有限性を肌で実感する情操教育の場となる。\n\n近年では、園庭のビオトープ化や森のようちえんのような自然体験特化型保育の実践が広がりを見せており、持続可能な社会の創り手を育む環境教育の原点としても注目されている。",
-    relatedSlugs: ["forest-kindergarten", "kankyo-wo-tsujita-kyoiku", "go-ryoiki"],
+    relatedSlugs: ["forest-kindergarten", "kankyo-wo-tsujita-kyoiku", "go-ryoiki", "loss-of-playgrounds-physical-activity-decline", "waldorf-kindergarten-rhythm-natural-materials", "sand-water-mud-play-sensory-plasticity", "outdoor-excursions-nature-walks-traffic-safety"],
     isCanonical: true,
     tags: ["領域環境", "自然体験", "探究心", "持続可能性"],
   },
@@ -1440,7 +1440,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "ボウルビィの愛着理論に基づき、保育者が乳幼児の要求に敏感かつ温かく応答することで基本的信頼感と情緒的安定を育む関わり。",
     body: "ボウルビィが提唱した愛着理論は、乳幼児期における特定の養育者との持続的な情緒的結びつきが子どもの健全な人格形成の基礎であると説く。長時間の集団生活を送る保育所や認定こども園において、保育者が特定の代理養育者として安定した愛着関係を形成することの重要性が理論的に裏づけられた。\n\n園の現場では、担当制保育などを導入して特定の保育者が乳幼児の授乳や食事、排せつ、睡眠などの身の回りの世話を一貫して担う環境が整えられる。乳幼児が泣いたり不安を示したりした際、保育者が要求を敏感に察知して共感的に抱き留め、受容的な言葉かけを行う応答的な関わりが実践される。\n\n保育者との間に形成された安定した愛着は、乳幼児が安心感を得て自己を肯定し、仲間や周囲の環境へと自発的に探索の手を伸ばす心の基盤となる。この基本的信頼感は、幼児期から小学校期における良好な人間関係の構築や主体的な社会性の発達を支える決定的な礎石となる。",
-    relatedSlugs: ["bowlby", "ikuji-tantosei-hoiku", "nyuji-hoiku-san-shiten", "hoikusho-hoiku-shishin"],
+    relatedSlugs: ["bowlby", "ikuji-tantosei-hoiku", "nyuji-hoiku-san-shiten", "hoikusho-hoiku-shishin", "treasure-basket-infant-exploration"],
     isCanonical: true,
     exam: true,
     tags: ["愛着理論", "応答的関わり", "乳児保育", "基本的信頼"],
@@ -1532,7 +1532,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "鬼ごっこやカードゲームなどの共通の規則を理解・共有し、仲間と協力や葛藤を経験しながら規範意識と社会性を培う集団遊び。",
     body: "ルール遊びとは、参加者全員が共通の決まり事を受け入れ、その枠組みの中で勝敗を競ったり協同したりする遊びである。幼児期後半に顕著となり、ピアジェの道徳的判断の発達論においても、他律的な規則の受容から自律的な合意形成へと移行する社会性発達の重要な節目とされる。\n\n保育現場では、鬼ごっこや陣取り、簡単なカードゲームなどを導入する際、子どもの実態に合わせて規則を簡潔に設定する。保育者は審判として一方的に判定を下すのではなく、勝ち負けに伴う悔しさや葛藤を受け止め、子ども同士で話し合って新しいルールを工夫できるように仲介する援助手順を重視する。\n\n集団の中で自己主張と自己抑制のバランスを学び、互いに納得できる規則をつくる経験は、規範意識と民主的な態度の素地を培う。これは幼保小接続期における学級集団への円滑な適応や協同的な学習活動を支える決定的な力となる。",
-    relatedSlugs: ["yoji-shakaisei-hatsutatsu", "parten-play-categories", "piaget-play-stages", "asobi-sogoteki-shido"],
+    relatedSlugs: ["yoji-shakaisei-hatsutatsu", "parten-play-categories", "piaget-play-stages", "asobi-sogoteki-shido", "wada-minoru-kindergarten-play-theory"],
     isCanonical: true,
     tags: ["ルール遊び", "集団遊び", "規範意識", "社会性発達"],
   },
@@ -1883,7 +1883,7 @@ export const earlyChildhoodTerms: Term[] = [
     summary:
       "個人懇談における子どもの発達共有と相談とは、保育者と保護者が一対一で対話し、園と家庭での生活や遊びの様子を共有しながら、育児の悩みや発達課題について共に考え協働を深める面談活動である。",
     body: "個人懇談における子どもの発達共有と相談は、幼稚園教育要領や保育所保育指針が掲げる保護者支援と幼児理解の深化を目的とした重要な面談機会である。集団場面では伝えきれない個別の発達状況や家庭の教育方針、育児不安に深く向き合い、家庭と園が協働して子どもを育てる関係性を築くために制度化されている。\n\n保育者は日頃の観察記録や作品、活動の様子を整理して面談に臨み、子どもの長所や主体的な遊びの姿を具体的に伝える。保護者の思いや家庭での悩みを傾聴的態度で受け止め、一方的な助言に偏ることなく、子どものより良い育ちに向けて何ができるかを共に探る対話の手順を大切にする。\n\n個人懇談を通して保育者と保護者の相互理解が深まることは、保護者の育児不安の軽減と養育力の向上をもたらし、家庭での情緒的安定へと直結する。園と家庭が一貫した方針で寄り添う安心感の中で、子どもは自己を十分に発揮し、小学校生活へとつながる社会性や主体的な意欲を豊かに育んでいく。",
-    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "chiiki-kosodate-shien-kyoten", "open-class-day-parent-participation-events"],
+    relatedSlugs: ["hogosha-shien-hoiku", "hoikusho-hoiku-shishin", "chiiki-kosodate-shien-kyoten", "open-class-day-parent-participation-events", "morning-arrival-departure-health-inspection"],
     isCanonical: true,
     tags: ["個人懇談", "保護者面談", "発達理解", "相談支援"],
   },

@@ -10,7 +10,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害の有無にかかわらず、すべての子どもができるだけ同じ場でともに学ぶことを目指す教育のあり方。国連の障害者権利条約が理念の背景にある。",
     body: "インクルーシブ教育とは、障害のある子どもと障害のない子どもが、可能な限り同じ場でともに学ぶことを追求しつつ、一人ひとりの教育的ニーズに応じた指導や支援を提供する教育のあり方を指します。国連の障害者権利条約が理念の重要な背景となっています。\n\n日本では、通常の学級、通級による指導、特別支援学級、特別支援学校という複数の学びの場を用意し、子どもの状態や本人・保護者の意向に応じて、柔軟に選択・変更できる「多様な学びの場」を整備する形で、インクルーシブ教育システムの構築が進められています。\n\nこの実現のために欠かせない考え方が「合理的配慮」です。障害のある子どもが他の子どもと平等に教育を受けられるよう、個々の状況に応じた配慮を、負担が重すぎない範囲で行うことが学校に求められています。",
-    relatedSlugs: ["goriteki-hairyo", "tsukyu", "ud-jugyo"],
+    relatedSlugs: ["goriteki-hairyo", "tsukyu", "ud-jugyo", "new-sports-inclusive-physical-education", "down-shokogun", "captioning-notetaking-support", "residence-school-exchange-dual-registration", "parent-mentor-family-support-network"],
     isCanonical: true,
     exam: true,
     tags: ["障害者権利条約", "多様な学びの場"],
@@ -24,7 +24,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある子どもが他の子どもと平等に教育を受けられるよう、個別の状況に応じて行われる、負担が過重にならない範囲での調整や変更。",
     body: "合理的配慮とは、障害のある人が障害のない人と平等に人権を享受し行使できるよう、個々の場面で必要とされる、負担が過重ではない範囲での必要かつ適切な変更・調整のことを指します。障害者権利条約や日本の障害者差別解消法に基づく考え方です。\n\n学校教育においては、例えば、聴覚に障害のある子どものために座席を前方に配置する、書字に困難のある子どものためにタブレット端末での入力を認める、聴覚過敏のある子どものために教室の音環境を調整するといった対応が、合理的配慮の具体例として挙げられます。\n\n重要なのは、配慮の内容が画一的なマニュアルで決まるのではなく、本人・保護者と学校が「建設的対話」を重ねながら、その子に合った配慮を個別に検討していく点です。決定された配慮の内容は、多くの場合「個別の教育支援計画」に記載され、引き継がれていきます。",
-    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku"],
+    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tourette-shokogun", "captioning-notetaking-support", "hearing-aid-characteristics-environment", "roger-wireless-assistive-listening", "comuoon-dialogue-support", "spina-bifida-urinary-care-school"],
     isCanonical: true,
     exam: true,
     tags: ["障害者差別解消法", "建設的対話"],
@@ -38,7 +38,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある子ども一人ひとりについて、家庭・学校・福祉機関などが連携して長期的な支援内容を計画する文書。",
     body: "個別の教育支援計画とは、障害のある子ども一人ひとりについて、教育、医療、福祉、労働などの関係機関が連携しながら、乳幼児期から学校卒業後までを見通した長期的な支援の内容を計画・記録する文書です。\n\n進学や転校のたびに一から状況を説明しなくて済むよう、それまでの配慮の内容や成長の様子、関わってきた機関の情報などを、年度をまたいで引き継いでいくことを目的としています。学校内の指導計画である「個別の指導計画」（各教科の目標や指導方法を年間・学期単位で具体化するもの）とは役割が異なり、両者は補い合う関係にあります。\n\nこの計画は保護者との連携のもとで作成されることが原則であり、合理的配慮の内容を具体的な形で記録し、関係者間で共有するための重要なツールとしても機能します。",
-    relatedSlugs: ["goriteki-hairyo", "inclusive-education", "suspected-developmental-delays-individual-plan"],
+    relatedSlugs: ["goriteki-hairyo", "inclusive-education", "suspected-developmental-delays-individual-plan", "kidney-disease-dialysis-school", "enjoji-developmental-screening-test", "tsumori-infant-developmental-diagnosis", "vineland-adaptive-behavior-scales-second", "local-independence-support-council-children"],
     isCanonical: true,
     exam: true,
     tags: ["個別の指導計画", "関係機関連携"],
@@ -52,7 +52,7 @@ export const specialTerms: Term[] = [
     summary:
       "全般的な知的発達に遅れはないが、「聞く」「話す」「読む」「書く」「計算する」「推論する」の特定の能力の習得に著しい困難がある状態（LD）。",
     body: "学習障害（Learning Disabilities、LD）とは、全般的な知的発達には遅れが見られないものの、「聞く」「話す」「読む」「書く」「計算する」「推論する」といった特定の能力の習得と使用に、著しい困難を示す状態を指します。文部科学省の定義では、その原因を中枢神経系の何らかの機能障害によるものと推定しています。\n\n代表的なものに、文字の読みに困難がある「ディスレクシア（読字障害）」や、書字表出に困難がある「ディスグラフィア（書字障害）」があります。知的な遅れがないため、努力不足や怠けと誤解されやすい点が、当事者や家族にとって大きな負担となることがあります。\n\n支援にあたっては、読み上げソフトの活用、文字の拡大やフォントの工夫、計算の際の電卓利用の許可といった、その子の困難に応じたICT機器や教材の活用（合理的配慮）が有効とされています。",
-    relatedSlugs: ["working-memory", "goriteki-hairyo", "ud-jugyo", "neurodiversity", "multimedia-daisy-textbook", "resource-room-guidance-expansion-history"],
+    relatedSlugs: ["working-memory", "goriteki-hairyo", "ud-jugyo", "neurodiversity", "multimedia-daisy-textbook", "resource-room-guidance-expansion-history", "gifted-2e", "cog-tre-cognitive-training"],
     isCanonical: true,
     tags: ["ディスレクシア", "発達障害"],
   },
@@ -65,7 +65,7 @@ export const specialTerms: Term[] = [
     summary:
       "不注意、多動性、衝動性を特徴とする発達障害の一つ（ADHD）。年齢や発達に不釣り合いな形でこれらの特徴が見られ、生活に支障が出る状態。",
     body: "注意欠如・多動症（Attention-Deficit/Hyperactivity Disorder、ADHD）は、発達障害の一つで、「不注意（集中を持続することの困難、忘れ物やケアレスミスの多さなど）」「多動性（じっとしていることの困難）」「衝動性（考える前に行動してしまうこと）」を特徴とします。これらの特徴が、年齢や発達の水準に比べて強く現れ、学校生活や対人関係に支障をきたす場合に診断が検討されます。\n\n特性の現れ方には個人差が大きく、不注意が目立つタイプ、多動・衝動性が目立つタイプ、両方が混在するタイプなどがあります。脳の機能的な特性によるものであり、しつけの問題ではないという理解が近年広まってきています。\n\n学校での支援としては、指示を短く区切って伝える、座席の位置を工夫する、こまめに休憩や活動の切り替えを入れる、達成できたことをその都度具体的に認めるといった環境調整が効果的とされます。",
-    relatedSlugs: ["asd", "ld", "goriteki-hairyo", "adhd-rating-scale-rs-education"],
+    relatedSlugs: ["asd", "ld", "goriteki-hairyo", "adhd-rating-scale-rs-education", "tourette-shokogun", "progressive-muscle-relaxation-special", "executive-function-working-memory-training"],
     isCanonical: true,
     tags: ["発達障害", "不注意", "多動性"],
   },
@@ -78,7 +78,7 @@ export const specialTerms: Term[] = [
     summary:
       "対人的なコミュニケーションの困難さと、特定のものへのこだわりや感覚の偏りを特徴とする発達障害（ASD）。症状の現れ方は連続的（スペクトラム）で個人差が大きい。",
     body: "自閉スペクトラム症（Autism Spectrum Disorder、ASD）とは、対人関係や社会的コミュニケーションにおける困難さと、特定の物事への強いこだわりや、興味・活動の限定、感覚の過敏さ・鈍感さを特徴とする発達障害です。「スペクトラム（連続体）」という言葉が示す通り、特性の強さや現れ方には個人差が大きく、一人ひとり異なる特性のプロファイルを持ちます。\n\n以前は自閉症、アスペルガー症候群などと別々に分類されていた状態が、現在の診断基準では連続的な特性として一つの診断名にまとめられています。言葉の発達に遅れがない場合も多く、その場合、周囲から特性に気づかれにくいことがあります。\n\n教育現場では、予定の変更を事前に具体的に伝える、視覚的なスケジュール表を活用する、感覚過敏に配慮した環境（照明や音）を整えるといった、見通しを持たせ、安心感を高める支援が重視されます。",
-    relatedSlugs: ["adhd", "ud-jugyo", "neurodiversity"],
+    relatedSlugs: ["adhd", "ud-jugyo", "neurodiversity", "gifted-2e", "power-card-strategy-special-interest", "incidental-teaching-naturalistic", "pivotal-response-treatment-prt", "social-skills-training-roleplay-feedback"],
     isCanonical: true,
     tags: ["発達障害", "こだわり", "感覚過敏"],
   },
@@ -91,7 +91,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害の有無にかかわらず、できるだけ多くの子どもにとって「わかりやすく、参加しやすい」よう、あらかじめ工夫して設計された授業。",
     body: "授業のユニバーサルデザインとは、特別な支援が必要な子どもに限らず、学級のできるだけ多くの子どもにとって「わかりやすく、参加しやすい」授業となるよう、あらかじめ工夫して設計する考え方です。建築分野の「バリアフリー」が一部の人のために後から改修するのに対し、ユニバーサルデザインは最初から誰もが使いやすいように設計する発想である点が特徴です。\n\n具体的な工夫としては、黒板の周りの掲示物を減らして注意をそらす刺激を減らす「焦点化」、指示や説明を短く区切って伝える「スモールステップ化」、話し言葉だけでなく絵や図で示す「視覚化」、その日の学習の流れをあらかじめ示す「共有化」などが挙げられます。\n\nこうした工夫は特別な支援が必要な子どもにとって特に効果が大きい一方、学級全体の子どもにとってもわかりやすい授業につながるとされ、通常学級における特別支援教育の視点を生かした授業づくりとして広く普及しています。",
-    relatedSlugs: ["inclusive-education", "ld", "working-memory", "universal-design-lesson-framework"],
+    relatedSlugs: ["inclusive-education", "ld", "working-memory", "universal-design-lesson-framework", "nudge-theory-classroom-design", "new-sports-inclusive-physical-education", "reading-fluency-repeated-reading-paired", "kanji-writing-decomposition-instruction"],
     isCanonical: true,
     tags: ["視覚化", "スモールステップ"],
   },
@@ -104,7 +104,7 @@ export const specialTerms: Term[] = [
     summary:
       "通常の学級に在籍する子どもが、一部の時間だけ別の教室に通い、障害の状態に応じた特別な指導を受ける制度。",
     body: "通級指導教室（通級による指導）とは、通常の学級に在籍している、比較的軽度の障害のある子どもが、大部分の授業は通常の学級で受けながら、週に数時間程度、別途設置された教室に通い、その子の障害の状態に応じた特別な指導を受ける制度です。\n\n対象となるのは、言語障害、自閉症、情緒障害、弱視、難聴、学習障害（LD）、注意欠如・多動症（ADHD）などのある子どもです。通級指導教室では、各教科の補充学習だけでなく、コミュニケーションの取り方を学ぶ、感情のコントロールの方法を学ぶといった「自立活動」に重点を置いた指導が行われます。\n\n通常の学級に籍を置きながら必要な支援を受けられるため、特別支援学級や特別支援学校に比べて、通常の学級の仲間との学びや交流を維持しやすいという特徴があり、インクルーシブ教育システムにおける「多様な学びの場」の一つとして位置づけられています。",
-    relatedSlugs: ["inclusive-education", "ld", "adhd", "kotoba-no-kyoshitsu"],
+    relatedSlugs: ["inclusive-education", "ld", "adhd", "kotoba-no-kyoshitsu", "cochlear-implant-language-instruction", "social-skills-group-intervention", "cog-tre-cognitive-training", "reading-fluency-repeated-reading-paired"],
     isCanonical: true,
     exam: true,
     tags: ["自立活動", "多様な学びの場"],
@@ -118,7 +118,7 @@ export const specialTerms: Term[] = [
     summary:
       "各学校で特別支援教育を推進するために校長が指名する教員。校内の関係者や保護者、巡回相談員などの外部の専門機関との連絡調整の窓口となり、校内委員会の運営や個別の教育支援計画の作成にも関わる。",
     body: "特別支援教育コーディネーターとは、各学校において特別な支援を必要とする子どもへの対応を推進するために、校長が指名する教員です。2003年の「今後の特別支援教育の在り方について」の最終報告や、その後の文部科学省通知に基づき、幼稚園・小中学校・高等学校を含むすべての学校に配置することとされ、担当校務分掌として明確に位置づけられるようになりました。\n\n主な役割は、校内の関係者や関係機関との連絡調整、保護者に対する学校の窓口、校内委員会の運営、担任への支援などです。担任一人が対応を抱え込むのではなく、学校全体で組織的かつ計画的に支援できる体制をつくるための要としての役割を担い、必要に応じて巡回相談員や特別支援学校のセンター的機能を活用する橋渡しも行います。\n\n特別支援学級の担任経験者や、特別支援教育に関する研修を受けた教員が指名されることが多く、通級指導教室の担当者や医療・福祉機関とも連携しながら、個別の教育支援計画や個別の指導計画の作成・見直しにも深く関わっています。校務分掌上の負担が大きいことや、専任化・複数配置の遅れが各地で課題として指摘されています。",
-    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tsukyu"],
+    relatedSlugs: ["inclusive-education", "kobetsu-shien-keikaku", "tsukyu", "pars-tr-pervasive-developmental-disorders", "high-school-special-needs-promotion", "local-independence-support-council-children", "disabled-children-consultation-support-plan", "parent-mentor-family-support-network"],
     isCanonical: true,
     tags: ["校内委員会", "連絡調整", "文部科学省通知"],
   },
@@ -131,7 +131,7 @@ export const specialTerms: Term[] = [
     summary:
       "人工呼吸器の管理やたんの吸引など、日常生活を営むために恒常的に医療行為を必要とする子どものこと。2021年施行の医療的ケア児支援法により国や自治体の支援責務が定められ、保育・教育現場の受け入れ体制整備が進められている。",
     body: "医療的ケア児とは、人工呼吸器による呼吸管理、たんの吸引、経管栄養などの医療行為（医療的ケア）を、日常生活や社会生活を営むために恒常的に必要とする児童のことです。新生児医療の進歩により救命率が向上した一方で、退院後も継続的な医療的ケアを必要とする子どもの数は年々増加してきました。\n\n2021年6月に「医療的ケア児及びその家族に対する支援に関する法律」が成立し、同年9月に施行されました。この法律により、国や地方公共団体は医療的ケア児とその家族への支援を実施する責務を負うこととなり、医療、保健、福祉、教育、労働等の関係機関が緊密に連携し、切れ目なく支援を行うことが定められました。それまで保護者が付き添いを求められることが多かった保育・教育現場の受け入れ体制整備にも弾みがつきました。\n\n学校においては、看護師の配置や教職員による喀痰吸引等の実施、主治医との連携などを通じて、医療的ケア児が可能な限り他の子どもと共に教育を受けられるよう最大限配慮することが求められています。文部科学省も学校における医療的ケアの実施体制構築に関する指針を示し、各自治体の取組を後押ししています。",
-    relatedSlugs: ["inclusive-education", "goriteki-hairyo", "tokubetsu-shien-in"],
+    relatedSlugs: ["inclusive-education", "goriteki-hairyo", "tokubetsu-shien-in", "muscular-dystrophy-education", "spina-bifida-urinary-care-school", "kidney-disease-dialysis-school", "suction-care-training-teachers-specified", "medical-care-child-coordinator-role"],
     isCanonical: true,
     tags: ["医療的ケア児支援法", "2021年", "看護師配置"],
   },
@@ -157,7 +157,7 @@ export const specialTerms: Term[] = [
     summary:
       "特別支援教育の専門的知識・経験を持つ相談員が幼稚園や小中学校等を訪問し、通常の学級の発達障害等のある子どもへの対応について、授業観察を通じて担任への助言や実態把握を行う支援の仕組み。",
     body: "巡回相談とは、特別支援教育に関する専門的な知識・経験を持つ巡回相談員が幼稚園や小中学校等を定期的に訪問し、通常の学級に在籍する発達障害等のある子どもへの対応について、担任教員や学校全体に助言を行う取組です。特別支援学校の教員や教育委員会に配置された専門家、臨床心理士、言語聴覚士などが担当することが多くあります。\n\n巡回相談員は授業観察や行動観察を通じて子どもの実態を丁寧に把握し、具体的な指導方法や環境調整の工夫を担任とともに検討します。単発の助言にとどまらず、年間を通じた計画的な訪問により、学校全体の特別支援教育に関する専門性を底上げすることも重要な目的とされています。\n\n特別支援教育コーディネーターが窓口となって巡回相談員を招き、校内委員会での検討や個別の指導計画・個別の教育支援計画の作成に活用するなど、学校内外の連携体制を支える仕組みの一つとして各地の教育委員会で運用されています。相談員一人当たりの担当校数が多く、十分な訪問回数や助言の時間を確保しにくい地域があることも、今後の体制整備における課題として指摘されています。",
-    relatedSlugs: ["tokubetsu-shien-coordinator", "kobetsu-shido-keikaku", "center-teki-kino"],
+    relatedSlugs: ["tokubetsu-shien-coordinator", "kobetsu-shido-keikaku", "center-teki-kino", "enjoji-developmental-screening-test", "pars-tr-pervasive-developmental-disorders"],
     isCanonical: true,
     tags: ["専門家派遣", "授業観察", "早期支援"],
   },
@@ -170,7 +170,7 @@ export const specialTerms: Term[] = [
     summary:
       "特別支援学校の教育課程に設けられた独自の指導領域。障害による学習上・生活上の困難を子ども自身が主体的に改善・克服する力を養うことを目標とし、内容は6区分27項目に整理されている。",
     body: "自立活動とは、特別支援学校の教育課程において、幼稚部・小学部・中学部・高等部の各段階に共通して設けられている独自の指導領域です。通常の教科教育とは性格が異なり、個々の子どもが持つ障害による学習上または生活上の困難を、主体的に改善・克服するために必要な知識、技能、態度及び習慣を養い、心身の調和的発達の基盤を培うことを目標としています。\n\n内容は学習指導要領において「健康の保持」「心理的な安定」「人間関係の形成」「環境の把握」「身体の動き」「コミュニケーション」の6区分、計27項目に整理されています。すべての項目を一律に指導するのではなく、この中から一人一人の実態に応じて必要な項目を選定し、相互に関連付けながら指導計画を組み立てる点が特徴です。\n\n自立活動の指導は、個別の指導計画に基づいて計画的に行うことが定められており、特別支援学級や通級による指導においても、その考え方や内容に準じた指導が積極的に取り入れられています。指導の効果を高めるためには、担任だけでなく専科教員や外部専門家との協働も欠かせません。",
-    relatedSlugs: ["kobetsu-shido-keikaku", "tsukyu", "icf", "deaf-education-jiratsu-katsudo"],
+    relatedSlugs: ["kobetsu-shido-keikaku", "tsukyu", "icf", "deaf-education-jiratsu-katsudo", "snoezelen-multisensory", "low-vision-loupe-monocular", "homebound-bedside-education", "body-temperature-dysregulation-classroom"],
     isCanonical: true,
     exam: true,
     diagram: {
@@ -209,7 +209,7 @@ export const specialTerms: Term[] = [
     summary:
       "手先の動きや全身運動の協調（きょうちょう）に著しい不器用さがみられる発達障害の一つ。DSM-5では神経発達症群に位置づけられ、学業や日常動作、体育の授業などに支障を来すことがある。",
     body: "発達性協調運動障害（DCD：Developmental Coordination Disorder）とは、年齢や知的水準から期待される水準に比べて、粗大運動や微細運動などの協調運動の獲得・遂行に著しい困難がみられる発達障害の一つです。米国精神医学会の診断基準DSM-5では神経発達症群の一つに位置づけられており、単なる練習不足ではなく神経学的な発達の特性によるものと理解されています。\n\n具体的には、縄跳びやボール運動、自転車の運転が極端に苦手であったり、箸や鉛筆の扱い、ボタンかけ、はさみの使用、文字を書くことなどに不器用さが表れたりします。学齢期の子どもの5〜6%程度にみられるとされ、注意欠陥多動性障害（ADHD）や学習障害（LD）などの他の発達障害と併存することも少なくありません。\n\n学校教育においては、体育や図画工作、書字などの場面で本人の努力不足や不注意と誤解されやすいため、特性への正しい理解が不可欠です。道具や課題量の工夫、成功体験を積める活動の設定、必要に応じた作業療法士等の専門家との連携が支援のポイントとされています。",
-    relatedSlugs: ["ld", "adhd", "goriteki-hairyo", "co-op-approach-motor-coordination"],
+    relatedSlugs: ["ld", "adhd", "goriteki-hairyo", "co-op-approach-motor-coordination", "spatial-cognition-vision-training"],
     isCanonical: true,
     tags: ["DSM-5", "協調運動", "不器用さ"],
   },
@@ -235,7 +235,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある子どもとその保護者が、就学先や学びの場について教育委員会等と相談しながら決めていく仕組み。2013年の学校教育法施行令改正以降、本人・保護者の意向を尊重した総合的な判断が重視されている。",
     body: "就学相談とは、障害のある子どもが小学校に入学する際などに、本人や保護者、学校、専門家が協議しながら、その子どもに最も適した学びの場を検討していく仕組みです。かつては「就学指導委員会」が、障害の種類や程度に応じて機械的に就学先を振り分ける運用が中心でしたが、近年は本人・保護者の意向をできる限り尊重する仕組みへと大きく転換が図られてきました。\n\n2013年（平成25年）の学校教育法施行令改正により、一定の障害がある場合には原則として特別支援学校に就学させるとしていた従来の規定が改められ、障害の状態、教育的ニーズ、本人・保護者の意見、専門家の意見、学校や地域の状況等を総合的に勘案して就学先を決定する仕組みへと変わりました。この検討を担う組織は「教育支援委員会」などの名称で呼ばれることが多くなっています。\n\n就学相談は一度きりの手続きで完結するものではなく、就学後も本人の発達や状況の変化に応じて学びの場を柔軟に見直していく考え方とも結び付けられており、特別支援教育コーディネーターや巡回相談員が助言する場面もあります。",
-    relatedSlugs: ["inclusive-education", "kyoiku-sodan", "kobetsu-shien-keikaku", "shugaku-saki-kettei"],
+    relatedSlugs: ["inclusive-education", "kyoiku-sodan", "kobetsu-shien-keikaku", "shugaku-saki-kettei", "cars-2-childhood-autism-rating-scale"],
     isCanonical: true,
     tags: ["学校教育法施行令", "教育支援委員会", "2013年改正"],
   },
@@ -261,7 +261,7 @@ export const specialTerms: Term[] = [
     summary:
       "見えない・見えにくい子どもを対象とする教育領域。点字や拡大教材の活用、白杖を用いた歩行指導など、明治期以来の長い歴史の中で専門的な指導方法が発達してきた特別支援教育の一分野。",
     body: "視覚障害教育とは、盲（全く見えない、あるいはそれに近い状態）や弱視（見えにくさがある状態）の子どもを対象とする特別支援教育の一領域です。日本では明治時代の盲学校の創設以来、長い歴史を持つ分野であり、現在は特別支援学校（視覚障害）や弱視特別支援学級、弱視通級指導教室などで、それぞれの見え方に応じた指導が行われています。\n\n指導内容には、点字の読み書き、白杖を用いた歩行指導（オリエンテーション・アンド・モビリティ）、拡大教材や音声教材の活用、触覚や聴覚を生かした学習方法の工夫などがあります。自立活動の内容とも深く関わり、見えないこと・見えにくいことによる学習上・生活上の困難を、子ども自身が主体的に克服する力を育てることが重視されます。\n\n近年はICT機器の発達により、音声読み上げソフトや画面拡大機能、点字ディスプレイなど、弱視の子どもや盲の子どもの学習を支える手段が広がっており、通常の学級に在籍しながら通級指導教室等で専門的な支援を受けるケースも増えています。教科書のデジタル化・音声化の推進も学習環境の改善に寄与しています。",
-    relatedSlugs: ["jiritsu-katsudo", "ud-jugyo", "goriteki-hairyo", "blind-orientation-mobility-white-cane"],
+    relatedSlugs: ["jiritsu-katsudo", "ud-jugyo", "goriteki-hairyo", "blind-orientation-mobility-white-cane", "low-vision-loupe-monocular"],
     isCanonical: true,
     tags: ["点字", "歩行指導", "弱視"],
   },
@@ -274,7 +274,7 @@ export const specialTerms: Term[] = [
     summary:
       "聞こえない・聞こえにくい子どもを対象とする教育領域。手話や口話、補聴器・人工内耳の活用など多様な指導法をめぐる議論が続いており、乳幼児期からの早期の言語獲得支援が特に重視される。",
     body: "聴覚障害教育とは、聴力に障害のある子どもを対象とする特別支援教育の一領域で、特別支援学校（聴覚障害、いわゆる聾学校）や難聴特別支援学級、難聴通級指導教室などで指導が行われます。日本でも明治期の聾学校創設以来、聴覚障害教育独自の指導法や教材が積み重ねられてきた長い実践の歴史があります。\n\n指導方法をめぐっては、話し言葉の獲得を重視する口話法と、手話を中心的なコミュニケーション手段として位置づける立場との間で長く議論が続いてきました。現在では、手話、口話、指文字、筆談、補聴器や人工内耳の活用など、子ども一人一人の聴力や発達の状況に応じて多様な手段を組み合わせて用いる考え方が広がっています。\n\n乳幼児期からの早期の言語獲得支援がとりわけ重要とされ、新生児聴覚スクリーニング検査の普及とあわせて、早期からの教育相談や家庭への支援、保護者への手話・コミュニケーション方法の情報提供なども重視されるようになっています。近年は人工内耳を装用する子どもの増加に伴い、聴覚活用と手話を組み合わせた指導の実践も広がっています。",
-    relatedSlugs: ["jiritsu-katsudo", "shugaku-sodan", "goriteki-hairyo"],
+    relatedSlugs: ["jiritsu-katsudo", "shugaku-sodan", "goriteki-hairyo", "hearing-aid-characteristics-environment", "cochlear-implant-language-instruction", "comuoon-dialogue-support"],
     isCanonical: true,
     tags: ["手話", "口話法", "人工内耳"],
   },
@@ -287,7 +287,7 @@ export const specialTerms: Term[] = [
     summary:
       "脳性まひや筋疾患などにより上肢・下肢や体幹の動きに困難のある子どもを対象とする教育領域。姿勢の保持や移動など自立活動を軸に、理学療法士等の専門家と連携した指導が行われる。",
     body: "肢体不自由教育とは、脳性まひや筋ジストロフィーなどの疾患・外傷により、上肢・下肢や体幹の運動機能に困難のある子どもを対象とする特別支援教育の一領域です。特別支援学校（肢体不自由）や肢体不自由特別支援学級で指導が行われ、学校には理学療法士（PT）や作業療法士（OT）が外部専門家として定期的に関わることも少なくありません。\n\n指導に当たっては、教科の学習に加えて、姿勢の保持や移動、身の回りの動作の習得を目指す自立活動が重要な位置を占めます。車いすや歩行器、意思伝達装置などのコミュニケーション機器といった補助具・支援機器の活用、教室の段差解消や動線の工夫といったバリアフリー化も欠かせません。\n\n近年は人工呼吸器の管理など医療的ケアを必要とする子どもの在籍が増加していることから、看護師の配置や医療機関との日常的な連携など、教育と医療・福祉が密接に協働する体制づくりが一層重視されるようになっています。特別支援学校卒業後の進路として、生活介護事業所や就労継続支援事業所などとの連携も課題となっており、在学中から福祉制度の利用を見据えた進路指導が行われています。",
-    relatedSlugs: ["jiritsu-katsudo", "iryoteki-care-ji", "goriteki-hairyo", "wheelchair-mobility-barrier-free"],
+    relatedSlugs: ["jiritsu-katsudo", "iryoteki-care-ji", "goriteki-hairyo", "wheelchair-mobility-barrier-free", "muscular-dystrophy-education", "body-temperature-dysregulation-classroom"],
     isCanonical: true,
     tags: ["脳性まひ", "自立活動", "PT・OT連携"],
   },
@@ -300,7 +300,7 @@ export const specialTerms: Term[] = [
     summary:
       "慢性疾患などにより継続的な医療や生活規制を必要とする子どもを対象とする教育領域。病院内学級（院内学級）での学習継続を支え、近年は遠隔授業による前籍校との学びのつながりも重視される。",
     body: "病弱・身体虚弱教育とは、慢性疾患（小児がん、心臓疾患、腎臓疾患、ぜんそくなど）により継続的または断続的な医療や生活の規制を必要とする子ども、あるいは身体が弱く運動や生活に制限のある子どもを対象とする特別支援教育の一領域です。特別支援学校（病弱）や、病院内に設置される病院内学級（院内学級）、病弱・身体虚弱特別支援学級で、それぞれの子どもの病状に応じた指導が行われます。\n\n病気による長期の入院・治療のために学習の空白が生じやすいことから、学習の遅れを最小限に抑え、学びを継続することが大きな目的の一つとなります。あわせて、病気に対する不安の軽減や、治療への意欲の維持、心理的な安定の確保、退院後の前籍校への円滑な復帰を支えることも重要な役割です。\n\n近年はICTを活用した遠隔授業（同時双方向型授業配信）の導入が進み、入院中の子どもが前籍校の授業にリアルタイムで参加したり、友人とのつながりを保ったりする取組が全国的に広がっています。退院後に前籍校へ円滑に戻れるよう、入院中から在籍校との情報共有を続けることも重視されています。",
-    relatedSlugs: ["jiritsu-katsudo", "giga-school", "goriteki-hairyo", "hospital-in-school-classroom"],
+    relatedSlugs: ["jiritsu-katsudo", "giga-school", "goriteki-hairyo", "hospital-in-school-classroom", "kousei-nou-kinou-shogai", "homebound-bedside-education"],
     isCanonical: true,
     tags: ["院内学級", "慢性疾患", "遠隔授業"],
   },
@@ -313,7 +313,7 @@ export const specialTerms: Term[] = [
     summary:
       "通常の学級等に在籍する障害のある子どもの日常生活動作や学習活動を補助するために配置される支援スタッフ。2007年度から公立小中学校を対象に地方財政措置が講じられ、対象校種は段階的に拡大された。",
     body: "特別支援教育支援員とは、公立幼稚園・小中学校・高等学校において、障害のある子どもの学校生活上の介助（食事、排せつ、教室移動等）や、発達障害の子どもに対する学習活動上の支援、安全確保、周囲の児童生徒の障害理解の促進などを行うために配置されるスタッフです。教員免許を必須とせず、市区町村教育委員会が地域の実情に応じて任用することが一般的です。\n\n2007年度（平成19年度）から、公立小中学校への配置費用について地方交付税による財政措置が開始され、その後2009年度には公立幼稚園、2011年度には公立高等学校にも対象が拡大されました。配置人数は年々増加しており、通常の学級におけるインクルーシブ教育システムの実践を人的な面から支える重要な資源として位置づけられています。\n\n担任教員や特別支援教育コーディネーターと日常的に連携しながら、個別の指導計画に基づいて一人一人の子どもの実態に応じた支援を行うことが求められ、専門性を高めるための研修機会の充実や、雇用の安定性の確保、他の職員との役割分担の明確化も各自治体の課題とされています。",
-    relatedSlugs: ["tokubetsu-shien-coordinator", "inclusive-education", "goriteki-hairyo"],
+    relatedSlugs: ["tokubetsu-shien-coordinator", "inclusive-education", "goriteki-hairyo", "suction-care-training-teachers-specified"],
     isCanonical: true,
     tags: ["地方交付税措置", "2007年度", "介助員", "学校配置人材", "生活介助", "学習支援"],
   },
@@ -352,7 +352,7 @@ export const specialTerms: Term[] = [
     summary:
       "一人一人の子どもの実態に応じて、単元や学期ごとの具体的な指導目標・内容・方法・評価の観点を定める計画。長期的な個別の教育支援計画を踏まえ、学校が日々の授業に即して作成する。",
     body: "個別の指導計画とは、障害のある子ども一人一人の実態に応じて、学校が具体的な指導目標、指導内容・方法、評価の観点などを定める計画のことです。特別支援学校の学習指導要領において作成が義務付けられているほか、特別支援学級に在籍する子どもや、通級による指導を受ける子ども、通常の学級に在籍する障害のある子どもについても作成が求められるようになっています。\n\n乳幼児期から学校卒業後までを見通し、福祉・医療等の関係機関と連携しながら長期的に作成される「個別の教育支援計画」を踏まえつつ、より短期的（学期や単元単位など）で、日々の授業に直結する具体的な指導の設計図としての性格を持つ点が特徴です。教科ごと、あるいは自立活動の内容ごとに具体的な目標を設定し、定期的に見直しながら指導の改善に活用されます。\n\n担任教員が中心となって作成しますが、特別支援教育コーディネーターや巡回相談員の助言を受けたり、保護者と目標を共有し合意形成を図ったりしながら、実効性のある内容にしていくことが重要とされています。作成した計画は定期的に評価・見直しを行い、次の学期や年度の指導に生かしていくことが求められます。",
-    relatedSlugs: ["kobetsu-shien-keikaku", "jiritsu-katsudo", "chiteki-shogai-gakkyu", "suspected-developmental-delays-individual-plan"],
+    relatedSlugs: ["kobetsu-shien-keikaku", "jiritsu-katsudo", "chiteki-shogai-gakkyu", "suspected-developmental-delays-individual-plan", "kousei-nou-kinou-shogai", "down-shokogun", "dn-cas-pass", "frostig-developmental-test-visual-perception"],
     isCanonical: true,
     exam: true,
     tags: ["指導目標", "評価", "短期計画"],
@@ -366,7 +366,7 @@ export const specialTerms: Term[] = [
     summary:
       "自閉症や学習障害、注意欠陥多動性障害などの発達障害の早期発見・早期支援や、学校教育・就労等における支援について定めた法律。2004年に制定され、2016年に理念面を中心に大きく改正された。",
     body: "発達障害者支援法とは、自閉症、アスペルガー症候群その他の広汎性発達障害、学習障害、注意欠陥多動性障害などの発達障害について、早期発見と早期の発達支援に関する国・地方公共団体・国民の責務を明らかにするとともに、学校教育における支援、就労の支援、発達障害者支援センターの設置などを定めた法律です。2004年（平成16年）12月に成立し、2005年4月に施行されました。\n\n2016年（平成28年）には大幅な改正が行われ、発達障害者の定義に「発達障害及び社会的障壁により日常生活又は社会生活に制限を受けるもの」という文言が加えられ、支援は社会的障壁を除去するために行うという理念が明記されました。また、乳幼児期から高齢期に至るまでライフステージに応じた切れ目のない支援を行うことや、教育現場における個別の教育支援計画・個別の指導計画の作成の推進などが盛り込まれました。\n\nこの法律を受けて、都道府県・指定都市には発達障害者支援センターが設置され、本人や家族への相談支援、関係機関への研修・情報提供、就労支援機関との連絡調整などを行う中核的な機関として機能しています。",
-    relatedSlugs: ["ld", "adhd", "asd", "kobetsu-shien-keikaku"],
+    relatedSlugs: ["ld", "adhd", "asd", "kobetsu-shien-keikaku", "multilevel-instruction-model-reading-mim"],
     isCanonical: true,
     tags: ["2004年制定", "2016年改正", "発達障害者支援センター"],
   },
@@ -379,7 +379,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害の有無にかかわらず誰もが地域社会で普通の生活条件を享受できるようにすべきだとする理念。デンマークのバンク=ミケルセンが提唱し、スウェーデンのニィリエが8つの原理として体系化した。",
     body: "ノーマライゼーションとは、障害のある人もない人も、地域社会の中で他の人々と同じような普通の生活条件のもとで暮らせるようにすべきだという理念です。1950年代のデンマークで、知的障害者施設の劣悪な処遇の改善に取り組んだバンク=ミケルセンによって提唱されたのが始まりとされ、彼は「ノーマライゼーションの父」と呼ばれています。\n\nその後スウェーデンのベンクト・ニィリエが、この理念を「1日のノーマルなリズム」「1週間のノーマルなリズム」「1年間のノーマルなリズム」など8つの原理として体系化し、北欧から欧米、そして日本を含む世界各国へと広がっていきました。障害者を保護・隔離する施設中心の福祉から、地域社会での生活を基盤とする福祉・教育への転換を促す考え方として、大きな影響を与えています。\n\n日本においても、障害者基本法や特別支援教育の理念、インクルーシブ教育システムの構築などの背景にある基本的な思想として位置づけられており、合理的配慮や交流及び共同学習といった今日の学校現場の取組の源流の一つともいわれています。",
-    relatedSlugs: ["inclusive-education", "goriteki-hairyo", "koryu-kyodo-gakushu"],
+    relatedSlugs: ["inclusive-education", "goriteki-hairyo", "koryu-kyodo-gakushu", "barrier-free-heart-disability-understanding", "outlier-detection-skewness-test-scores"],
     isCanonical: true,
     tags: ["バンク=ミケルセン", "ニィリエ", "北欧発祥"],
   },
@@ -392,7 +392,7 @@ export const specialTerms: Term[] = [
     summary:
       "知的発達に遅れがないのに文字の読み書きに著しい困難を示す限局性学習症の代表的な下位分類。",
     body: "発達性ディスレクシアとは、全般的な知的発達に遅れがなく、視力・聴力にも問題がないにもかかわらず、文字の読みや書きに著しい困難を示す状態を指します。学習障害（LD）のうち読字や書字に困難が集中するタイプであり、音と文字の対応（音韻処理）の弱さが背景にあるとされ、日本語では「発達性読み書き障害」とも呼ばれます。\n\n読みにおいては、文字を一つずつ拾い読みする、単語のまとまりとして認識できない、音読が極端に遅い・不正確といった様子が見られます。知的能力や努力不足の問題ではなく、脳の情報処理特性によるものであることが近年の研究で明らかになっています。\n\n教育現場では、読み上げ機能付きデジタル教科書の活用、文字の拡大やフォント変更、音声での指示補助といった合理的配慮が有効とされます。早期に気づき、通級による指導などを通じて特性に応じた支援を行うことが重要です。",
-    relatedSlugs: ["ld", "goriteki-hairyo", "tsukyu", "kobetsu-shido-keikaku"],
+    relatedSlugs: ["ld", "goriteki-hairyo", "tsukyu", "kobetsu-shido-keikaku", "spatial-cognition-vision-training"],
     isCanonical: true,
     tags: ["学習障害", "読み書き困難", "合理的配慮"],
   },
@@ -405,7 +405,7 @@ export const specialTerms: Term[] = [
     summary:
       "全般的な知的発達に遅れがないのに数の概念理解や計算に著しい困難を示す限局性学習症の一分類。",
     body: "算数障害（ディスカリキュリア）とは、全般的な知的発達には遅れがないにもかかわらず、数の大小や量の把握、暗算、筆算、文章題の理解など算数・数学の特定領域に著しい困難を示す状態を指します。学習障害（LD）の下位分類の一つとして位置づけられ、数処理の基盤となる「数感覚」の弱さが関与すると考えられています。\n\n具体的には、指を使わないと簡単な計算ができない、九九を覚えても応用できない、位取りの概念が理解しにくい、図形やグラフの読み取りが苦手といった特徴が現れます。読字障害（ディスレクシア）と併存することも少なくありません。\n\n支援としては、具体物やタイルを使った視覚的な操作活動、電卓や計算補助ツールの使用、スモールステップでの反復学習などが効果的とされています。通級による指導や個別の指導計画の中で、つまずきの背景を丁寧に見極めた指導が求められます。",
-    relatedSlugs: ["ld", "kobetsu-shido-keikaku", "tsukyu", "shindan-hyoka"],
+    relatedSlugs: ["ld", "kobetsu-shido-keikaku", "tsukyu", "shindan-hyoka", "dyscalculia-number-line-manipulatives"],
     isCanonical: true,
     tags: ["学習障害", "算数のつまずき", "限局性学習症"],
   },
@@ -418,7 +418,7 @@ export const specialTerms: Term[] = [
     summary:
       "知的発達に遅れがないのに文字を書く際に著しい困難を示す限局性学習症の一分類。",
     body: "書字障害（ディスグラフィア）とは、全般的な知的能力に問題がないにもかかわらず、文字を正しく書き写す、漢字の形を覚える、まとまった文章を書くといった書字活動に著しい困難を示す状態を指します。学習障害（LD）の下位分類の一つで、読字障害と併存することが多いとされています。\n\n鏡文字や字形の誤りが多い、マス目からはみ出す、漢字の細部を覚えられない、書く速度が極端に遅いといった様子が見られます。手先の不器用さ（発達性協調運動症）が背景にある場合もあり、原因は一様ではありません。\n\n支援としては、タブレット端末やパソコンによる代替入力、マス目や罫線を工夫したノート、書く量を調整した課題設定などが有効です。無理に書き取りを反復させるのではなく、本人の負担を軽減しながら学習内容の理解を優先する配慮が重要とされています。",
-    relatedSlugs: ["ld", "dcd", "goriteki-hairyo", "tsukyu"],
+    relatedSlugs: ["ld", "dcd", "goriteki-hairyo", "tsukyu", "kanji-writing-decomposition-instruction", "frostig-developmental-test-visual-perception"],
     isCanonical: true,
     tags: ["学習障害", "書字困難", "ICT活用"],
   },
@@ -483,7 +483,7 @@ export const specialTerms: Term[] = [
     summary:
       "米国ノースカロライナ州で開発された自閉スペクトラム症の人を対象とする包括的な生涯支援プログラム。",
     body: "TEACCH（Treatment and Education of Autistic and related Communication-handicapped Children）プログラムとは、1972年にアメリカ・ノースカロライナ大学のエリック・ショプラーらによって開発された、自閉スペクトラム症とその関連するコミュニケーション障害のある人を対象とする包括的な生涯支援プログラムです。\n\n本人が地域社会の中で自立し、有意義に暮らせるよう支援することを目的とし、周囲の物理的環境やコミュニケーション環境を本人の特性に合わせて調整する「構造化」を中核的な技法とします。空間を活動ごとに区切る物理的構造化、スケジュールを視覚的に示す時間の構造化、作業の手順を明確にするワークシステムなどが代表的です。\n\n日本でも特別支援学校や療育機関を中心に構造化の考え方が広く取り入れられており、見通しを持ちにくいという自閉スペクトラム症児の特性に配慮した学習環境づくりの基盤の一つとなっています。",
-    relatedSlugs: ["asd", "kobetsu-shien-keikaku", "kankaku-kabin", "kihan-ishiki", "autism-physical-structuring-schedule", "work-system-autism-independent-tasks", "teacch-five-elements-structuring"],
+    relatedSlugs: ["asd", "kobetsu-shien-keikaku", "kankaku-kabin", "kihan-ishiki", "autism-physical-structuring-schedule", "work-system-autism-independent-tasks", "teacch-five-elements-structuring", "pep-3-psychoeducational-profile"],
     isCanonical: true,
     tags: ["自閉スペクトラム症", "構造化", "療育プログラム"],
   },
@@ -522,7 +522,7 @@ export const specialTerms: Term[] = [
     summary:
       "わが子に障害があるという事実を保護者が心理的に受け止めていく過程を表す概念。ドローターの段階モデルが有名。",
     body: "障害受容とは、わが子に障害があるという診断や事実を、保護者が心理的にどのように受け止め、折り合いをつけていくかという過程を表す概念です。代表的な理論として、先天的な障害のある子どもの誕生に対する親の心理的反応を段階的に描いたドローターの段階的モデルがあり、ショック、否認、悲しみと怒り、適応、再起という5段階が示されています。\n\nもっとも、実際の保護者の心理は一直線に進むものではなく、適応したように見えても再び否認や悲しみの感情が現れることが指摘され、段階説と慢性的悲哀説を統合した螺旋型モデルも提唱されています。障害受容は最終的な到達点というより、受け入れたい気持ちと否定したい気持ちの間を行き来しながら向き合い続ける過程だと捉えられています。\n\n教育相談やケース会議の場面では、保護者を「受容できていない」と一方的に評価するのではなく、揺れ動く心情に寄り添いながら、時間をかけて信頼関係を築き、必要な支援情報を伝えていく姿勢が求められています。",
-    relatedSlugs: ["kyoiku-sodan", "kobetsu-shien-keikaku", "case-kaigi"],
+    relatedSlugs: ["kyoiku-sodan", "kobetsu-shien-keikaku", "case-kaigi", "tsumori-infant-developmental-diagnosis", "sibling-support-special-needs"],
     isCanonical: true,
     tags: ["保護者支援", "心理的過程", "教育相談"],
   },
@@ -561,7 +561,7 @@ export const specialTerms: Term[] = [
     summary:
       "視覚障害・聴覚障害・知的障害・肢体不自由・病弱(身体虚弱を含む)の児童生徒に対し、幼稚部から高等部まで一貫した教育を行う学校種。2007年の学校教育法改正で盲学校・聾学校・養護学校を一本化して成立した。",
     body: "特別支援学校は、学校教育法第72条に定められた学校種で、視覚障害者、聴覚障害者、知的障害者、肢体不自由者、病弱者(身体虚弱者を含む)に対し、幼稚園、小学校、中学校または高等学校に準ずる教育を施すとともに、障害による学習上または生活上の困難を克服し自立を図るために必要な知識技能を授けることを目的とする。2006年の学校教育法等の一部改正(2007年施行)により、従来別々に設置されていた盲学校・聾学校・養護学校が「特別支援学校」に一本化され、複数の障害種を対象とする学校の設置や、地域の特別支援教育のセンター的機能を担うことが可能になった。\n\n特別支援学校の教育課程は、小学校・中学校・高等学校に準じた各教科等に加え、障害による学習上または生活上の困難を主体的に改善・克服するための指導領域である「自立活動」を独自に設けている点が特徴である。知的障害者を教育する特別支援学校では、児童生徒の実態に応じて教科の目標・内容を大幅に替えた独自の教科編成が行われる。在籍者数は近年増加傾向にあり、特に知的障害を対象とする学校・学級の在籍者数の伸びが著しい。\n\nまた特別支援学校は、地域の小・中学校等に対して助言や援助を行う「センター的機能」を担うことが学校教育法に位置づけられており、巡回相談や研修協力、教材の貸し出しなどを通じてインクルーシブ教育システムの中核的な地域資源としての役割も期待されている。",
-    relatedSlugs: ["tokubetsu-shien-gakkyu", "center-teki-kino", "inclusive-education", "tsukyu", "transition-to-special-needs-school-2007"],
+    relatedSlugs: ["tokubetsu-shien-gakkyu", "center-teki-kino", "inclusive-education", "tsukyu", "transition-to-special-needs-school-2007", "special-school-bus-safety-management", "residence-school-exchange-dual-registration"],
     isCanonical: true,
     tags: ["特別支援学校", "学校教育法", "自立活動", "センター的機能"],
   },
@@ -574,7 +574,7 @@ export const specialTerms: Term[] = [
     summary:
       "小・中学校等に設置され、知的障害、肢体不自由、病弱・身体虚弱、弱視、難聴、言語障害、自閉症・情緒障害の児童生徒を対象に、少人数で障害の状態に応じた教育を行う学級。",
     body: "特別支援学級は、学校教育法第81条第2項に基づき、小学校、中学校、義務教育学校、高等学校等に設置される学級で、知的障害者、肢体不自由者、病弱者及び身体虚弱者、弱視者、難聴者、言語障害者、自閉症・情緒障害者を対象とする。原則として1学級の在籍者数は8人を上限とし、通常の学級よりも少人数の中で、一人一人の障害の状態や特性、発達の段階等に応じたきめ細かな指導が行われる。\n\n特別支援学級では、小学校・中学校の学習指導要領に基づく教育課程を編成することを原則としつつ、必要に応じて特別支援学校学習指導要領を参考に、知的障害者を教育する特別支援学級では各教科等を合わせた指導や独自の教科編成を行うなど、対象児童生徒の実態に応じて弾力的な教育課程を編成できる。特別の教育課程を編成する場合には、通常の学級に在籍しながら特定の時間のみ別室で指導を受ける通級による指導とは異なり、特別支援学級は主たる学びの場として日常的な学級生活の基盤となる点が特徴である。\n\n特別支援学級に在籍する児童生徒については、可能な限り通常の学級の児童生徒と共に活動する機会を設けることが求められており、交流及び共同学習の推進や、個別の教育支援計画・個別の指導計画の作成・活用を通じて、一人一人の教育的ニーズに応じた指導の充実が図られている。近年、特別支援学級の在籍者数は全国的に増加を続けており、担当教員の専門性向上や支援体制の整備が課題となっている。",
-    relatedSlugs: ["tokubetsu-shien-gakko", "tsukyu", "chiteki-shogai-gakkyu", "jiheisho-jocho-gakkyu", "jiritsu-katsudo", "gakkyu-hensei-kijun", "awase-shido"],
+    relatedSlugs: ["tokubetsu-shien-gakko", "tsukyu", "chiteki-shogai-gakkyu", "jiheisho-jocho-gakkyu", "jiritsu-katsudo", "gakkyu-hensei-kijun", "awase-shido", "cars-2-childhood-autism-rating-scale"],
     isCanonical: true,
     tags: ["特別支援学級", "学校教育法", "少人数指導", "交流及び共同学習", "学級編制", "少人数教育"],
   },
@@ -600,7 +600,7 @@ export const specialTerms: Term[] = [
     summary:
       "児童福祉法に基づき、未就学の障害のある子どもに対して日常生活動作の指導や集団生活への適応訓練などを行う障害児通所支援サービス。",
     body: "児童発達支援は、児童福祉法に規定される障害児通所支援の一類型で、主に小学校就学前の障害のある子ども(概ね0歳から6歳)を対象に、日常生活における基本的な動作の指導、知識技能の習得、集団生活への適応訓練などを提供する通所サービスである。市町村が実施主体となり、児童発達支援センターや児童発達支援事業所において、保育所や幼稚園等に通いながら、あるいは単独で利用することができる。\n\n2012年の児童福祉法改正により、それまで障害種別ごとに分かれていた通園施設が「児童発達支援」に一元化され、身近な地域で障害種別を問わず支援が受けられる体制に再編された。支援に当たっては、児童発達支援管理責任者が中心となって児童発達支援計画を作成し、子ども一人一人の発達段階や特性に応じた個別支援と、遊びを通じた集団での育ちを組み合わせて実施する。医療的ケアを要する子どもを対象とする医療型児童発達支援(現在は児童発達支援に一元化)や、保育所等訪問支援と組み合わせて利用されることも多い。\n\n児童発達支援は、就学後を対象とする放課後等デイサービスと対をなす制度であり、両者は児童福祉法上の障害児通所支援として位置づけられている。早期からの発達支援は、その後の学校生活への適応や、保護者の子育てに対する安心感の醸成にも寄与するとされ、幼稚園・保育所・認定こども園や医療機関、市町村保健センターとの連携が重視されている。",
-    relatedSlugs: ["hokago-day-service", "soki-hakken-soki-ryoiku", "hoikusho-tou-homon-shien", "child-development-support-center-functions"],
+    relatedSlugs: ["hokago-day-service", "soki-hakken-soki-ryoiku", "hoikusho-tou-homon-shien", "child-development-support-center-functions", "disabled-children-consultation-support-plan"],
     isCanonical: true,
     tags: ["児童福祉法", "障害児通所支援", "早期支援", "就学前"],
   },
@@ -626,7 +626,7 @@ export const specialTerms: Term[] = [
     summary:
       "特別支援学校高等部等の卒業を控えた生徒が、就労や福祉サービスの利用など学校卒業後の生活へ円滑に移れるよう、在学中から関係機関と連携して行う進路支援の取組。",
     body: "移行支援とは、障害のある生徒が学校段階から社会生活・職業生活へと円滑に移行できるよう、在学中から労働、福祉、医療等の関係機関と連携しながら計画的に行う支援の総称である。特別支援学校高等部を中心に、卒業後の進路として就職、就労移行支援事業所や就労継続支援事業所(A型・B型)等の障害福祉サービス、生活介護、進学など多様な選択肢がある中で、生徒本人の希望や適性を踏まえた進路指導・職業教育が行われる。\n\n移行支援の中核となるのが「個別の移行支援計画」であり、これは個別の教育支援計画の一部として、卒業後の生活を見据えた目標や必要な支援内容を、本人・保護者・学校・企業・ハローワーク・障害者就業・生活支援センター・相談支援事業所等の関係者間で共有するために作成される。在学中の職場実習や現場実習を通じて、生徒の適性把握と企業側の理解促進を図るとともに、卒業後の生活を支える福祉サービスの利用計画(サービス等利用計画)へと情報を円滑に引き継ぐことが重視される。\n\n2017年の学校教育法施行規則改正等を通じて、就労系障害福祉サービス事業所等との連携の推進が制度的に位置づけられ、教育と福祉、労働行政の一体的な取組が強化されてきた。移行支援の充実は、卒業後の生活の安定や地域社会への参加を左右する重要な要素であり、ジョブコーチによる職場定着支援などと組み合わせて実施されることも多い。",
-    relatedSlugs: ["job-coach", "kobetsu-shien-keikaku", "shugaku-sodan", "hattatsu-shogaisha-shien-center"],
+    relatedSlugs: ["job-coach", "kobetsu-shien-keikaku", "shugaku-sodan", "hattatsu-shogaisha-shien-center", "high-school-special-needs-promotion", "neet-freeter-school-to-work-transition-crisis"],
     isCanonical: true,
     tags: ["進路指導", "個別の移行支援計画", "就労支援", "特別支援学校高等部"],
   },
@@ -665,7 +665,7 @@ export const specialTerms: Term[] = [
     summary:
       "重度の肢体不自由と重度の知的障害とが重複した状態にある子どもを指す児童福祉分野の行政上の定義。大島分類によって重症度が区分され、自立活動を中心とした教育が行われる。",
     body: "重症心身障害児とは、重度の肢体不自由と重度の知的障害とが重複した状態にある子どもを指す用語で、医学的な診断名ではなく、児童福祉法に基づく行政上の措置を行うために用いられる定義である。判定の目安として広く用いられているのが、東京都立府中療育センターの元院長・大島一良が1971年に発表した「大島分類」で、運動機能(寝たきり・座れる・歩けるなど)と知能指数(IQ)を組み合わせた25の区分からなり、このうち運動機能が低くIQが著しく低い分類1~4が狭義の重症心身障害とされる。\n\n重症心身障害児は、呼吸や摂食、体温調節などに医療的な管理を要する場合が多く、特別支援学校においては重度・重複障害のある児童生徒として扱われ、教育課程上は各教科等の指導よりも自立活動を中心とした指導が編成されることが一般的である。訪問教育(教員が家庭や医療機関等を訪問して行う教育)の対象となることも多く、医療的ケアを担う看護師との連携や、体調の変化に応じた無理のない指導計画の作成が不可欠となる。\n\n福祉制度としては、重症心身障害児(者)を対象とする医療型障害児入所施設や、短期入所(ショートステイ)、在宅サービスなどが整備されており、教育・医療・福祉が一体となって家族を含めた包括的な支援を行うことが求められている。近年は、大島分類には含まれない重度の運動障害や医療的ケアを要する「周辺児」への支援の在り方も課題として議論されている。",
-    relatedSlugs: ["iryoteki-care-ji", "juufuku-shogai-kyoiku", "jiritsu-katsudo", "shitai-fujiyu-kyoiku"],
+    relatedSlugs: ["iryoteki-care-ji", "juufuku-shogai-kyoiku", "jiritsu-katsudo", "shitai-fujiyu-kyoiku", "snoezelen-multisensory"],
     isCanonical: true,
     tags: ["大島分類", "重度重複障害", "自立活動", "医療的ケア"],
   },
@@ -717,7 +717,7 @@ export const specialTerms: Term[] = [
     summary:
       "話す・聞く・読む・書くなどのコミュニケーションに困難のある人が、身振りや文字盤、機器などを用いて自分の意思を相手に伝えるための技法や手段の総称。ノンテク・ローテク・ハイテクに大別される。",
     body: "AAC(Augmentative and Alternative Communication、拡大・代替コミュニケーション)とは、話し言葉によるコミュニケーションに著しい制限や困難のある人が、残存する能力とさまざまな技法・機器を組み合わせて自分の意思や気持ちを表現し、他者と意思疎通を図るための方法の総称である。重度の肢体不自由や知的障害、自閉スペクトラム症、言語障害などにより音声言語の獲得や使用が難しい子どもの教育・療育において重要な支援技法として位置づけられている。\n\nAACの手段は一般に、身振りやサイン、指さしなど機器を用いない「ノンテク」、絵カードや文字盤、コミュニケーションブックなど電源を用いない道具による「ローテク」、音声出力機器(VOCA)やタブレット端末上のコミュニケーションアプリなど電子機器を用いる「ハイテク」の3つに大別される。特別支援教育の現場では、これらを子どもの認知発達や運動機能、コミュニケーションの目的に応じて組み合わせて活用することが重要とされ、代表的な支援体系であるPECS(絵カード交換式コミュニケーションシステム)もAACの一手法として位置づけられる。\n\nAACの導入に当たっては、単に話せない子どもの代替手段としてだけでなく、話し言葉のある子どもの理解を補ったり、表出の負担を軽減したりする目的でも活用され、早期からの導入がその後の言語発達やコミュニケーション意欲の向上につながるとされる。近年はICT機器の普及により、タブレット端末上のシンボルベースのコミュニケーションアプリを活用する事例が増えており、個別の指導計画に基づいて家庭・学校・専門機関が連携しながら継続的に活用することが求められている。",
-    relatedSlugs: ["pecs", "digital-kyozai-ud", "kobetsu-shido-keikaku", "shitai-fujiyu-kyoiku", "voca-assistive-technology-communication"],
+    relatedSlugs: ["pecs", "digital-kyozai-ud", "kobetsu-shido-keikaku", "shitai-fujiyu-kyoiku", "voca-assistive-technology-communication", "incidental-teaching-naturalistic"],
     isCanonical: true,
     tags: ["AAC", "コミュニケーション支援", "VOCA", "PECS"],
   },
@@ -756,7 +756,7 @@ export const specialTerms: Term[] = [
     summary:
       "発達障害のある子どもの保護者を対象に、行動理論に基づいて子どもの行動理解や関わり方を学ぶグループ形式のプログラム。国立肥前療養所で開発され、現在は広く発達支援の現場で活用されている。",
     body: "ペアレント・トレーニングとは、発達障害のある子どもを育てる保護者を対象に、子どもの行動の背景にある特性を理解し、応用行動分析(ABA)の考え方に基づいて子どもとの関わり方や行動への対応方法を具体的に学ぶことを目的とした、体系的なグループプログラムである。国立肥前療養所(現・独立行政法人肥前精神医療センター)で開発され、当初は知的障害を伴う自閉スペクトラム症のある子どもの家族を主な対象としていたが、現在は知的障害を伴わないASDやADHDなど、幅広い発達障害のある子どもの家族を対象としたプログラムへと発展している。\n\n標準的なプログラムは全10回程度のセッションで構成され、前半は行動理論に関する講義、後半は少人数のグループに分かれて、子どもの良い行動に注目してほめる、行動を客観的に観察・記録する、指示の出し方を工夫するといった具体的な関わり方について、保護者同士が体験を共有しながら学ぶ形式で進められる。ロールプレイやホームワークを通じて、学んだ関わり方を日常生活の中で実践し、次回セッションで振り返るというサイクルを繰り返す点が特徴である。\n\nプログラムを通じて、子どもの望ましい行動の増加、保護者の抑うつ傾向の改善、養育に関する知識・技術の向上などの効果が報告されている。学校教育との関わりでは、家庭と学校が一貫した対応をとることが子どもの安定した行動につながることから、特別支援教育コーディネーターや発達障害者支援センターを通じて保護者にプログラムの情報提供が行われることも多く、家庭と学校をつなぐ支援策の一つとして位置づけられている。",
-    relatedSlugs: ["oyo-kodo-bunseki", "hattatsu-shogaisha-shien-center", "niji-shogai", "adhd"],
+    relatedSlugs: ["oyo-kodo-bunseki", "hattatsu-shogaisha-shien-center", "niji-shogai", "adhd", "pivotal-response-treatment-prt"],
     isCanonical: true,
     tags: ["ペアレントトレーニング", "応用行動分析", "保護者支援", "発達障害"],
   },
@@ -769,7 +769,7 @@ export const specialTerms: Term[] = [
     summary:
       "0歳から92歳までを対象に、コミュニケーション・日常生活スキル・社会性・運動スキルなどの適応行動を、保護者等への半構造化面接を通じて評価するアセスメントツール。",
     body: "Vineland-II適応行動尺度は、0歳0か月から92歳11か月までを対象に、日常生活を送る上で必要な適応行動(個人的・社会的な充足に必要な日常活動の能力)を評価するための検査で、米国で開発され日本語版も刊行されている。IQのような認知能力の検査とは異なり、本人をよく知る保護者や支援者等への半構造化面接を通じて、実際の生活場面でどの程度自立して行動できているかを評価する点に特徴がある。\n\n検査は、コミュニケーション(受容言語・表出言語・読み書き)、日常生活スキル(身辺自立・家事・地域生活)、社会性(対人関係・遊びと余暇・コーピングスキル)、運動スキル(粗大運動・微細運動)の4領域と、必要に応じて測定される不適応行動の領域から構成される。各領域の得点から、生活年齢に対して適応行動がどの程度の水準にあるかを標準得点として算出でき、知的障害や自閉スペクトラム症のある子どもの実態把握、療育・教育方針の検討、福祉サービスの利用判定などに広く活用されている。\n\n知能検査(WISCなど)が認知能力の高さを測るのに対し、Vineland-IIは「実際の生活でどれだけできているか」という適応行動の側面を評価するため、両者を組み合わせることで、認知能力と実生活での自立度とのギャップを把握し、個別の指導計画や個別の教育支援計画における具体的な目標設定に役立てることができる。特別支援学校や発達障害者支援センター、医療機関等で実施されることが多い。",
-    relatedSlugs: ["wisc", "k-abc", "kobetsu-shido-keikaku", "chiteki-shogai-gakkyu"],
+    relatedSlugs: ["wisc", "k-abc", "kobetsu-shido-keikaku", "chiteki-shogai-gakkyu", "vineland-adaptive-behavior-scales-second"],
     isCanonical: true,
     tags: ["適応行動", "アセスメント", "半構造化面接", "知的障害"],
   },
@@ -782,7 +782,7 @@ export const specialTerms: Term[] = [
     summary:
       "カウフマン夫妻が開発した子ども向けの心理・教育検査で、情報を処理する「認知処理過程」と、既に学習した知識・技能である「習得度」を分けて測定し、指導方針の立案に生かすことを特徴とする。",
     body: "K-ABC心理・教育アセスメントバッテリーは、アラン・S・カウフマンとナデン・L・カウフマンの夫妻によって開発された子ども向けの検査で、日本ではK-ABC及びその改訂版であるKABC-IIとして広く用いられている。従来の知能検査が知的能力を単一の指標(IQ)で表すのに対し、K-ABCはルリアの神経心理学理論を背景に、情報を認知的に処理して問題を解決する力である「認知処理過程」と、それまでに学校や生活の中で学習してきた知識・技能である「習得度」とを分けて測定する点に最大の特徴がある。\n\n認知処理過程は、情報を一つずつ順番に処理する「継次処理」(手の動作、数唱、語の配列など)と、複数の情報を全体的・同時に処理する「同時処理」(絵の統合、模様の構成、視覚類推など)の2つの様式に整理され、子どもがどちらの処理様式を得意とするかを明らかにできる。一方、習得度尺度は語彙、算数、なぞなぞ、読み、文の理解などから構成され、実際の学力の習得状況を評価する。\n\nこの検査結果から、子どもの認知的な強みを生かした指導方法(例えば同時処理が得意な子どもには図や絵を用いた説明を、継次処理が得意な子どもには順序立てた説明を用いるなど)を検討できることから、通常の学級における個に応じた指導や、特別支援学級・通級指導教室における個別の指導計画の作成に活用されている。WISCなどの知能検査と並び、学習障害(LD)の可能性のある子どものアセスメントにも用いられる代表的な心理検査の一つである。",
-    relatedSlugs: ["wisc", "vineland-ii", "ld", "kobetsu-shido-keikaku"],
+    relatedSlugs: ["wisc", "vineland-ii", "ld", "kobetsu-shido-keikaku", "dn-cas-pass"],
     isCanonical: true,
     tags: ["K-ABC", "認知処理過程", "習得度", "アセスメント"],
   },
@@ -847,7 +847,7 @@ export const specialTerms: Term[] = [
     summary:
       "視力や視野の制限はあるが、残存視力を活用できる状態をロービジョンといい、拡大教科書や視覚補助具などで学びを支える。",
     body: "ロービジョン（弱視）とは、視力の低下や視野狭窄、まぶしさなどにより日常生活や学習に支障が出ているが、保有する視覚を活用できる状態を指します。WHOの基準では、良いほうの眼の矯正視力が0.05以上0.3未満をロービジョンとし、米国では0.1以上0.5未満とするなど基準は一定せず、日本には統一的な診断基準はありません。見え方は視力だけでなく、視野、色覚、コントラストへの感度などで大きく異なります。\n\n学習では、文字や図を拡大した拡大教科書が重要な教材です。教科書バリアフリー法により、標準的な規格が文部科学大臣によって定められ、教科書発行者に標準拡大教科書の発行が求められています。あわせて、弱視レンズ（ルーペ・単眼鏡）、拡大読書器、タブレットやデジタル教科書の拡大・色反転機能、罫線の太いノートなどの視覚補助具を活用します。\n\n配慮の要点は、「一律に大きくすればよい」わけではない点にあります。照明や座席の位置、板書のコントラスト、作業時間の延長、試験問題の拡大など、本人の見え方に合わせた調整が必要です。見えにくさは周囲から分かりにくいため、本人が自分の見え方を説明し必要な支援を求められるよう、自己理解を育てる指導も大切にされます。",
-    relatedSlugs: ["shikaku-shogai-kyoiku", "tenji-kyoiku", "digital-kyozai-ud", "kyokasho-musho-seido"],
+    relatedSlugs: ["shikaku-shogai-kyoiku", "tenji-kyoiku", "digital-kyozai-ud", "kyokasho-musho-seido", "large-print-braille-textbooks-accessibility"],
     isCanonical: true,
     tags: ["視覚障害", "弱視", "拡大教科書"],
   },
@@ -860,7 +860,7 @@ export const specialTerms: Term[] = [
     summary:
       "聴覚障害のある子どもの聴覚活用を支える人工内耳・補聴器と、話し手の声を直接届けるFM補聴システムなどの補聴援助システムの総称。",
     body: "聴覚障害教育では、補聴器や人工内耳を装用して残存聴力を活用する「聴覚活用」が重要な柱になっています。人工内耳は、体内に埋め込む装置で音を電気信号に変えて聴神経を刺激するもので、補聴器の効果が十分でない高度難聴児を中心に用いられます。装用すれば自然に話し声が理解できるわけではなく、装用後の継続的な聴能・言語指導や適切な教育的対応が必要とされています。\n\n教室は雑音や反響、話し手との距離のために聞き取りにくい環境になりがちです。そこで話し手がマイク（送信機）を身に着け、声を補聴器や人工内耳に直接届ける補聴援助システムが使われます。FM補聴システムは169MHz帯の電波を用いる方式として普及し、近年はデジタル方式の機器が多くの学校で使われています。\n\n通常の学級に在籍する人工内耳・補聴器装用児も多く、聞き逃しに本人が気づきにくい点への配慮が必要です。板書やICTなど視覚的な情報の併用、座席の工夫、電池切れへの備え、頭部に強い衝撃が想定される運動への注意などが学校での留意点として挙げられます。聴覚活用と手話などの視覚的手段のどれを重視するかは、子ども一人ひとりと家族の意向を踏まえて検討されます。",
-    relatedSlugs: ["chokaku-shogai-kyoiku", "bilingual-rou-kyoiku", "goriteki-hairyo", "tsukyu"],
+    relatedSlugs: ["chokaku-shogai-kyoiku", "bilingual-rou-kyoiku", "goriteki-hairyo", "tsukyu", "roger-wireless-assistive-listening"],
     isCanonical: true,
     tags: ["聴覚障害", "人工内耳", "補聴援助"],
   },
@@ -990,7 +990,7 @@ export const specialTerms: Term[] = [
     summary:
       "キャロル・グレイが提唱した、自閉スペクトラム症のある人に社会的状況や期待される行動を短い文章で分かりやすく伝える支援技法。",
     body: "ソーシャルストーリーは、アメリカのキャロル・グレイが1990年代に提唱した支援技法で、自閉スペクトラム症（ASD）のある人が、社会的な状況や場面の「暗黙のルール」を理解しやすいように、個別に作成した短い文章で説明します。「その場で何が起こるのか」「周りの人が何を考えているのか」「自分はどう振る舞えるのか」を、本人の視点に配慮した言葉で示します。\n\n文章は、状況を事実として述べる記述文、他者の考えや感情を説明する視点文、望ましい行動の選択肢を示す指示文などで構成されます。指示文は「〜するようにします」「〜してみます」のように、強制ではなく本人が取りうる行動を穏やかに示すのが原則とされています。肯定文などを加え、一人ひとりに合わせた長さ・表現・イラストで作ります。\n\nこの技法は、行動を直接変えさせることよりも、社会的な期待を明確に伝えて安心して見通しを持てるようにすることに重点があります。学校では、避難訓練、順番を待つ場面、予定の変更など、不安が強くなる場面の事前説明として活用されています。心の理論の弱さや見通しの立てにくさに対応する、視覚的支援の一つとして位置づけられます。",
-    relatedSlugs: ["asd", "theory-of-mind", "teacch-program", "sst", "visual-schedules-symbols-support", "comic-strip-conversations-gray"],
+    relatedSlugs: ["asd", "theory-of-mind", "teacch-program", "sst", "visual-schedules-symbols-support", "comic-strip-conversations-gray", "power-card-strategy-special-interest"],
     isCanonical: true,
     tags: ["ASD", "支援技法", "視覚的支援"],
   },
@@ -1029,7 +1029,7 @@ export const specialTerms: Term[] = [
     summary:
       "医療的ケア児とその家族を社会全体で支えることを定めた2021年施行の法律。国・自治体の責務や、保育所・学校での支援体制、支援センターの設置などを規定する。",
     body: "医療的ケア児及びその家族に対する支援に関する法律（医療的ケア児支援法）は、2021年6月に超党派の議員立法として成立し、同年9月18日に施行されました。人工呼吸器やたんの吸引、経管栄養などの医療的ケアが日常的に必要な子どもが増えるなか、その生活を社会全体で支え、家族の離職防止や負担軽減にもつなげることを目的としています。\n\n法律は、国や地方公共団体に、医療的ケア児が適切な教育を受けられるよう体制を整える責務を定めています。学校の設置者には、看護師等の配置など、保育・教育を行う体制の拡充を求めており、家族が付き添わなくても通学できる環境をめざします。また、都道府県は医療的ケア児支援センターを設置または指定し、医療・福祉・教育の関係機関と連携しながら、本人や家族の相談に応じ、情報提供や助言を行います。\n\n学校での医療的ケアは、看護師が実施することが基本とされ、教育委員会が看護職員の配置や研修を担うことが多くなっています。施行後3年を目途とした見直しが条文で定められており、通常の学級に在籍する子どもへの支援や、災害時の対応、学校外活動への付き添いなど、残された課題の検討が続いています。",
-    relatedSlugs: ["iryoteki-care-ji", "juushinshin-shogaiji", "houmon-kyoiku", "gakko-hoken-anzen-ho", "school-medical-care-system-nurse"],
+    relatedSlugs: ["iryoteki-care-ji", "juushinshin-shogaiji", "houmon-kyoiku", "gakko-hoken-anzen-ho", "school-medical-care-system-nurse", "medical-care-child-coordinator-role"],
     isCanonical: true,
     tags: ["医療的ケア", "法律", "家族支援"],
   },
@@ -1289,7 +1289,7 @@ export const specialTerms: Term[] = [
     summary:
       "画面を見つめる瞳の動きや停留時間を赤外線カメラ等で検出し、手足の運動が困難な重度障害児の意志疎通や学習を可能にする先進的な入力支援技術。",
     body: "視線入力装置は、手足や声を用いた意思表出が困難な重度肢体不自由児や重症心身障害児のために導入された最先端のアシステクノロジーである。赤外線照射とカメラによる瞳孔検出技術の向上に伴い、教育や療育の現場で意思疎通を拓く決定的なツールとして急速に定着した。\n\n画面上の文字や絵カード、スイッチを一定時間見つめることで確定操作が行われ、発語が難しい子どもでも自らの考えを文字や音声で表現できる。導入初期には画面を注視すると音が鳴る遊びや因果関係を楽しむアプリを用い、楽しみながら注視や追従の目の動きを育てる指導が行われる。\n\n特別支援学校だけでなく通常の学級でも活用が広がり、授業中の発表や友達との会話、作品づくりが可能となっている。他者との双方向のコミュニケーションが実現することで、子どもの認知的な可能性が大きく開花し、主体的な自己実現を支える要となっている。",
-    relatedSlugs: ["juushinshin-shogaiji", "shitai-fujiyu-kyoiku", "aac", "assistive-technology-kyoiku", "switch-materials-severe-motor-disabilities"],
+    relatedSlugs: ["juushinshin-shogaiji", "shitai-fujiyu-kyoiku", "aac", "assistive-technology-kyoiku", "switch-materials-severe-motor-disabilities", "special-needs-assistive-tech-input-devices"],
     isCanonical: true,
     tags: ["視線入力", "アイトラッカー", "重度障害", "意思表出"],
   },
@@ -2108,7 +2108,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害者の雇用促進と安定を図るため、親会社が特別な配慮を施した子会社を設立し、実質的な法定雇用率に算定できる法制度の仕組み。",
     body: "障害者雇用促進法に基づき、親会社が障害者の雇用を特別に配慮して設立する子会社の形態である。一定の要件を満たすことで、子会社で雇用する障害者を親会社全体の法定雇用率算定に含めることができる特例制度として創設された。\n\n施設設備のバリアフリー化や作業工程の細分化、専任の指導員や生活相談員の配置など、障害特性に応じた手厚い環境が整えられる。事務補助、清掃、農園運営、データ入力など、個々の適性に合致した業務を切り出して専門的に担当させる工夫がなされる。\n\n特別支援学校高等部の卒業生にとって主要な進路先の一つとなっており、安定した待遇と長期的な就労継続を実現している。今後は親会社本体の従業員との交流を深め、企業グループ全体における共生文化の醸成を先導することが期待される。",
-    relatedSlugs: ["shogaisha-sabetsu-kaisho-ho", "tokubetsu-shien-gakko", "ikou-shien"],
+    relatedSlugs: ["shogaisha-sabetsu-kaisho-ho", "tokubetsu-shien-gakko", "ikou-shien", "special-needs-vocational-upper-secondary"],
     isCanonical: true,
     tags: ["特例子会社", "障害者雇用", "法定雇用率", "就労移行"],
   },
@@ -2121,7 +2121,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある個人の就労適性や課題を多面的に把握する評価手法と、就職後に職場環境や生活リズムの安定を継続的に支える福祉的支援の仕組み。",
     body: "障害者の社会参加と経済的自立を促すため、障害福祉サービスや教育の領域で確立された就労支援プロセスである。就職前の適性把握から就職後の長期的な生活・職場維持までを一貫して見守る体制づくりを根本的な目的としている。\n\n就労アセスメントでは模擬作業や実習を通じて、作業遂行力、体力、指示理解、対人対応などの強みと課題を客観的に評価する。就労定着支援では支援員が定期的に職場を訪問し、本人の相談支援を行うとともに企業側へ業務調整等の助言を実施する。\n\n特別支援学校においては、進路指導の段階からこの仕組みを活用し、障害者就業・生活支援センター等の外部機関と密接に連携する。移行支援計画の質を高め、卒業後も途切れないセーフティネットを築くことが現場の要務となっている。",
-    relatedSlugs: ["kino-teki-assessment", "kobetsu-shien-keikaku", "ikou-shien"],
+    relatedSlugs: ["kino-teki-assessment", "kobetsu-shien-keikaku", "ikou-shien", "special-needs-vocational-upper-secondary"],
     isCanonical: true,
     tags: ["就労アセスメント", "就労定着支援", "進路指導", "福祉連携"],
   },
@@ -2212,7 +2212,7 @@ export const specialTerms: Term[] = [
     summary:
       "小学部から高等部に至る教育活動全体を通じ、自己理解を深め人間関係を築きながら、生涯にわたる自立と社会参加の力を育む体系的な指導。",
     body: "特別支援教育におけるキャリア教育は、単なる就職指導にとどまらず、子どもが生涯にわたって自分らしく生きる基盤を培う総合的な人間形成の営みである。幼児期・小学部からの段階的な積み重ねを通じて、自立と社会参加に必要な資質・能力を育てる。\n\n個別の教育支援計画やキャリア・パスポートを活用し、自己の障害特性の理解、他者との協調、問題解決力、生活管理能力などを発達段階に応じて系統的に指導する。児童生徒自らが強みや必要な配慮を言語化し、支援を求める力を養う工夫が凝らされる。\n\n学校から地域や職場への円滑な移行を果たすため、福祉施設やハローワーク等の関係機関と早期から連携した体験活動を重視する。インクルーシブな社会において、生涯にわたる主体的な学びと自己実現を支える体制整備が不可欠である。",
-    relatedSlugs: ["career-education", "career-passport", "ikou-shien", "kobetsu-shien-keikaku"],
+    relatedSlugs: ["career-education", "career-passport", "ikou-shien", "kobetsu-shien-keikaku", "adult-guardianship-system-school-awareness"],
     isCanonical: true,
     tags: ["キャリア教育", "キャリア発達", "社会参加", "移行支援"],
   },
@@ -2264,7 +2264,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある児童生徒が学習用端末やデジタル教材を制約なく利用できるよう、文字拡大や音声読み上げ、入力支援等の操作環境を整える基準。",
     body: "障害のある児童生徒が情報通信技術（ICT）の恩恵を等しく享受し、学習活動に完全に参加できるようにするための環境設計基準である。GIGAスクール構想の進展に伴い、端末の操作性や教材の接近性を保障することが教育上の重大な責務となった。\n\n画面の文字拡大や色調反転、音声読み上げ、スイッチや視線入力装置の導入など、児童生徒の身体・感覚特性に適合したアクセシビリティ機能を設定する。発達障害児には読み書きを補助する辞書機能や画面の集中支援ソフトが有効に活用される。\n\nICTの活用は障害による学習上の困難を大幅に軽減し、通常の学級における合理的配慮としても極めて重要な手段となっている。一人ひとりのニーズに応じた個別最適な学びを実現し、主体的・対話的な協働学習への参加を強力に後押ししている。",
-    relatedSlugs: ["assistive-technology-kyoiku", "goriteki-hairyo", "inclusive-education"],
+    relatedSlugs: ["assistive-technology-kyoiku", "goriteki-hairyo", "inclusive-education", "diversity-learning-schools-ict-support", "school-website-accessibility-standards"],
     isCanonical: true,
     tags: ["ICT", "アクセシビリティ", "支援機器", "合理的配慮"],
   },
