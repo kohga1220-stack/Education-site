@@ -24,7 +24,7 @@ export const psychologyTerms: Term[] = [
       ],
     },
     tags: ["ピアジェ", "発達段階"],
-    sources: ["https://www.jstage.jst.go.jp/article/trr/14/0/14_e1400.3.001/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/pamjaep/26/0/26_S26_3/_article/-char/ja", "https://www.jstage.jst.go.jp/article/trr/14/0/14_e1400.3.001/_article/-char/ja"],
   },
   {
     slug: "zpd",
@@ -406,7 +406,7 @@ export const psychologyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["ガードナー", "8つの知能", "個別最適な学び"],
-    sources: ["https://www.jstage.jst.go.jp/article/essfr/11/4/11_266/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/jacm/7/conference/7_55/_article/-char/ja", "https://www.jstage.jst.go.jp/article/essfr/11/4/11_266/_article/-char/ja"],
   },
   {
     slug: "forgetting-curve",
