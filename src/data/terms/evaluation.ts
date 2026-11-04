@@ -976,7 +976,7 @@ export const evaluationTerms: Term[] = [
   },
   {
     slug: "assessment-for-learning",
-    title: "学習のための評価（Assessment for Learning）",
+    title: "学習のための評価（AfL）",
     reading: "がくしゅうのためのひょうか",
     kana: "か",
     categories: ["evaluation"],
@@ -985,11 +985,11 @@ export const evaluationTerms: Term[] = [
     body: "学習のための評価（Assessment for Learning, AfL）は、評価を学習の結果を判定するためだけでなく、学習者と教師が次の学習に向けた手がかりを得て指導と学習を改善するために用いるという考え方です。英国のブラック（Paul Black）とウィリアム（Dylan Wiliam）が1998年に発表した「Inside the Black Box」（Phi Delta Kappan誌）で、教室での形成的評価が学力向上に強い効果をもつ根拠を整理したことで広く知られました。この論文は同名の大規模な文献レビューの要約でした。\n\nAfLの実践としては、学習目標と成功の基準を学習者と共有すること、質問や対話を通じて理解の状況を把握すること、得点でなく次の一歩を示すフィードバックを返すこと、自己評価や仲間同士の評価を促すことなどが挙げられます。ハッティとティンパーリー（Hattie & Timperley, 2007）は、効果的なフィードバックを「目標はどこか」「今どこにいるか」「次にどこへ進むか」という三つの問いに答えるものと整理しました。\n\n英国では評価を学習の対象（Assessment of Learning）、学習のため（for Learning）、学習としての（as Learning）に区別する整理もあります。日本の指導と評価の一体化の考え方や形成的評価と重なり合いますが、成績のための評価が主流の環境では、点数のつく評価が内発的動機を損なう懸念への配慮も必要です。評価を教師から学習者へ委ねていく視点が特徴です。",
     relatedSlugs: ["keiseiteki-hyoka", "shido-hyoka-ittaika", "jiko-hyoka", "self-regulated-learning"],
     isCanonical: true,
-    tags: ["形成的評価", "フィードバック", "英国"],
+    tags: ["形成的評価", "フィードバック", "英国", "Assessment for Learning"],
   },
   {
     slug: "visible-learning-hattie",
-    title: "ハッティの「可視化された学び」（Visible Learning）",
+    title: "ハッティの可視化された学び",
     reading: "はってぃのかしかされたまなび",
     kana: "は",
     categories: ["evaluation"],
@@ -998,7 +998,7 @@ export const evaluationTerms: Term[] = [
     body: "ニュージーランド出身の教育学者ジョン・ハッティ（John Hattie）が2009年に刊行した『Visible Learning』は、学力に関する800を超えるメタ分析の結果を統合し、教育上の多様な要因（教師の働きかけ、指導方法、カリキュラム、学校・家庭の特性など）の効果を効果量で比較した大規模な研究です。介入の効果量の平均がおよそ0.40となったことから、0.40を「蝶番（ヒンジ）の点」として、これを上回る要因を学力向上に効果が大きいと解釈する枠組みを提案しました。\n\nハッティは、ほぼすべての介入が正の効果をもつため、単に効果がある（0より大きい）だけでは基準として弱いと指摘しました。その後、研究対象の要因数は増え、その後の改訂で影響要因の数は増え、2015年の高等教育版では195の効果が示されたほか、250を超える要因を載せる版もあります。評価やフィードバックが学習に与える効果が大きいとされる点は、形成的評価や学習のための評価の重要性を支える知見として広く引用されています。\n\n一方で、異なる研究の効果量を単純に平均化することへの統計的批判、測定や研究デザインの違いを無視した比較の問題、効果量の大小で政策や実践を選ぶことへの懸念も出されています。教室の文脈や費用との兼ね合いを無視した機械的な適用は避け、実践を振り返り教師が自分の指導の影響を見えるようにするための参考資料として位置づけることが大切です。",
     relatedSlugs: ["koka-ryo", "assessment-for-learning", "ebpm-kyoiku", "keiseiteki-hyoka", "meta-analysis-effect-size-integration"],
     isCanonical: true,
-    tags: ["メタ分析", "効果量", "エビデンス"],
+    tags: ["メタ分析", "効果量", "エビデンス", "ハッティ", "Visible Learning"],
   },
   {
     slug: "tyler-hyoka",

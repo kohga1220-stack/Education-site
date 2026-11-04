@@ -445,7 +445,7 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "naplan-australia",
-    title: "NAPLAN(全国学力・リテラシー・ニューメラシー評価プログラム)",
+    title: "NAPLAN（オーストラリアの全国学力調査）",
     reading: "なぷらん",
     kana: "A–Z",
     categories: ["comparative", "evaluation"],
@@ -454,7 +454,7 @@ export const comparativeTerms: Term[] = [
     body: "NAPLAN(National Assessment Program – Literacy and Numeracy)は、オーストラリアの全州・準州で2008年から毎年実施されている全国統一の学力テストであり、3年生・5年生・7年生・9年生を対象に、読解・作文・言語のきまり(綴り・文法・句読点)・数的能力の4領域を測定する。2020年は新型コロナウイルスの影響で中止となったが、それ以外は毎年継続して実施されており、2023年からは実施時期が5月から3月へと早められ、結果がより早期に活用できるようになった。\n\nNAPLANの結果は複数の目的で利用される。連邦・州政府は結果をもとに予算配分の優先順位を検討し、学校は自校の弱点分野を把握して指導計画の改善に、教員は個々の生徒への介入策の立案にそれぞれ活用する。結果は学校ごとに公開される「マイスクール(My School)」ウェブサイトを通じて保護者や地域社会にも共有され、学校選択の材料ともなっている。\n\n一方で、学校の序列化や「テストのための指導」への偏重、公開データによる学校間の過度な比較といった副作用も指摘されており、日本の全国学力・学習状況調査やイギリスのSATsなど、各国の全国一斉学力テスト政策と比較しながら、説明責任と教育の質保証のあり方を論じる際の重要な事例となっている。",
     relatedSlugs: ["zenkoku-gakuryoku-chosa", "gcse-a-level", "assessment-policy", "pisa", "hyojun-gakuryoku-kensa", "australian-curriculum-acara-framework", "uk-key-stage-national-assessment-sats"],
     isCanonical: true,
-    tags: ["オーストラリア", "学力テスト", "全国調査", "説明責任", "NAPLAN", "全国学力調査"],
+    tags: ["オーストラリア", "学力テスト", "全国調査", "説明責任", "NAPLAN", "全国学力調査", "全国学力・リテラシー・ニューメラシー評価プログラム"],
   },
   {
     slug: "ncea-new-zealand",
@@ -562,7 +562,7 @@ export const comparativeTerms: Term[] = [
   },
   {
     slug: "cambridge-international-education",
-    title: "ケンブリッジ国際教育機構(Cambridge International)",
+    title: "ケンブリッジ国際教育機構",
     reading: "けんぶりっじこくさいきょういくきこう",
     kana: "け",
     categories: ["comparative"],
@@ -571,7 +571,7 @@ export const comparativeTerms: Term[] = [
     body: "ケンブリッジ国際教育機構(Cambridge Assessment International Education、通称Cambridge International)は、ケンブリッジ大学の一部門として、世界各国の学校向けに国際的に通用するカリキュラムと資格試験を提供している機関である。代表的な資格の一つであるIGCSE(International General Certificate of Secondary Education)は、主に14〜16歳の生徒を対象とする中等教育修了資格であり、世界160を超える国・地域で年間100万人以上の生徒が受験する、世界で最も広く受験されている国際資格の一つとされる。多くの生徒は10年生からシラバスを学び始め、11年生の終わりに試験を受ける。\n\nIGCSEでは70以上の科目が提供されており、学校は自校の方針に応じて自由に科目の組み合わせを設計できる。評価は筆記試験を中心に、科目によっては実技試験や課題(コースワーク)も組み合わされ、知識・理解だけでなく応用力や探究的な思考力、国際的な視野を養うことを重視したカリキュラム設計となっている。IGCSE修了後は、より上級のAレベルに相当するケンブリッジ・インターナショナルAレベルへと接続することが一般的である。\n\n比較教育学の観点からは、ケンブリッジ国際教育機構はIB(国際バカロレア)と並んで、国境を越えて共通に通用するカリキュラムと評価基準を提供する「国際カリキュラム」の代表例として位置づけられ、各国のインターナショナルスクールや国内の私立学校がグローバルな大学進学の窓口としてこれらの資格を導入する動きが世界的に広がっている。",
     relatedSlugs: ["ib-baccalaureate", "gcse-a-level", "international-school"],
     isCanonical: true,
-    tags: ["イギリス", "国際資格", "IGCSE", "国際カリキュラム"],
+    tags: ["イギリス", "国際資格", "IGCSE", "国際カリキュラム", "Cambridge International"],
   },
   {
     slug: "shadow-education",
