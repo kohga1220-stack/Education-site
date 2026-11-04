@@ -47,3 +47,15 @@ jobs:
             echo "$bad"
             exit 1
           fi
+
+      - name: Antigravity append-only guard
+        if: startsWith(github.head_ref, 'antigravity/') && !startsWith(github.head_ref, 'antigravity/review-')
+        run: |
+          # 既存用語の書き換えは Claude Code の担当。src/data/terms/ は行の追加のみ許可
+          # (例外: 孤立語の解消で既存語の relatedSlugs 行を更新すること)
+          bad=$(git diff -U0 origin/${{ github.base_ref }}...HEAD -- src/data/terms | grep -E '^-[^-]' | grep -Ev '^-    relatedSlugs: ' || true)
+          if [ -n "$bad" ]; then
+            echo "antigravity/* ブランチは既存の用語行を変更・削除できません。既存語の訂正は docs/PROJECT_STATE.md の申し送りに書いてください。変更された行:"
+            echo "$bad" | head -20
+            exit 1
+          fi

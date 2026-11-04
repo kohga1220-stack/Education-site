@@ -10,7 +10,9 @@
     "start": "next start",
     "lint": "next lint",
     "validate": "node scripts/validate-terms.mjs",
-    "ingest": "node scripts/ingest-terms.mjs"
+    "ingest": "node scripts/ingest-terms.mjs",
+    "attach-sources": "node scripts/attach-sources.mjs",
+    "verify-sources": "node scripts/verify-sources.mjs --base origin/main"
   },
   "dependencies": {
     "next": "14.2.35",

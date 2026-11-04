@@ -46,6 +46,12 @@ npm run validate && git add -A && git commit -m "rebase: 用語を再取り込�
 
 `.github/workflows/validate.yml` は `antigravity/*` ブランチの PR で、`data-inbox/`・`src/data/terms/`・`docs/PROJECT_STATE.md` 以外のファイルが変更されていると失敗する。
 
+さらに `src/data/terms/` は**行の追加のみ**許可する(既存の用語行の変更・削除は失敗。例外: 孤立語の解消による `relatedSlugs` 行の更新)。既存語の誤りは自分で直さず「申し送り」に書く。ブランチ名が `antigravity/review-` で始まる見直しタスクだけはこのガードの対象外。
+
+## 既存語への出典追加(`npm run attach-sources`)
+
+既存語には `sources` がない。Antigravity は `data-inbox/sources-<内容>.json` を作り、`npm run attach-sources -- --dry-run` → `npm run attach-sources -- --keep` で追加する。形式は `data-inbox/README.md`。変更されるのは該当語に `sources:` 行が1行加わるだけで、PR の CI(`Verify sources`)が URL の到達と題名の記載を確認する。
+
 ## 注意点
 
 - `GITHUB_TOKEN` によるマージは別ワークフローを起動しないため、自動マージ専用の GitHub Action は置いていない。各エージェントが CI の緑を確認して自分でマージする。

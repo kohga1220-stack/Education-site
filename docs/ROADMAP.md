@@ -15,7 +15,7 @@
 - 検証・データの誤りを増やさない。出典のない語に「確認済み」を付けない。
 
 ## 実装後の運用メモ
-- **出典**: 取り込み時の `sources` はデータに保存され、PRのCI(`Verify sources`)が確認する。既存語には出典が入っていない(今後の追加分と、Antigravityへの再確認依頼で埋める)。
+- **出典**: 取り込み時の `sources` はデータに保存され、PRのCI(`Verify sources`)が確認する。既存語には出典が入っていない。`npm run attach-sources`(`data-inbox/sources-*.json`)で Antigravity が語ごとに追加していく。
 - **全文検索**: `public/search-index.json` はビルド時に生成される(gitに入れない)。クイズも同じ索引を使う。
 - **孤立語**: 提案しても残る孤立語は `node scripts/suggest-related.mjs --list` で一覧できる(Antigravityへの依頼候補)。
 - **試験の基本語**(`exam: true`): 編集部が選んだ111語。出題頻度を調べたものではない。拡張する場合は、過去問の分析など根拠を示して提案する。
