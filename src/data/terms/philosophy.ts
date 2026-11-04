@@ -14,6 +14,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["自然主義", "消極的教育", "エミール", "子ども中心主義"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyouikutetsugaku1959/2004/90/2004_90_20/_article/-char/ja"],
   },
   {
     slug: "pestalozzi",
@@ -28,6 +29,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["直観教授", "頭心手", "近代教育学の父"],
+    sources: ["https://www.jstage.jst.go.jp/article/arted1951/1989/258/1989_258_1/_article/-char/ja"],
   },
   {
     slug: "froebel",
@@ -42,6 +44,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["幼稚園", "恩物", "遊びを通した学び"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyoiku1932/46/1/46_1_11/_article/-char/ja"],
   },
   {
     slug: "comenius",
@@ -56,6 +59,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["汎知学", "大教授学", "世界図絵"],
+    sources: ["https://www.jstage.jst.go.jp/article/joej1997/11/2/11_2_1/_article/-char/ja"],
   },
   {
     slug: "dewey",
@@ -70,6 +74,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["プラグマティズム", "なすことによって学ぶ", "経験主義"],
+    sources: ["https://www.jstage.jst.go.jp/article/jsser/34/5/34_No_5_190509/_article/-char/ja"],
   },
   {
     slug: "montessori",
@@ -84,6 +89,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["敏感期", "自己教育力", "モンテッソーリ教具"],
+    sources: ["https://www.jstage.jst.go.jp/article/shukulib/42/42/42_3/_article/-char/ja"],
   },
   {
     slug: "freire",
@@ -382,6 +388,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["近代教育学の祖", "四段階教授法", "ドイツ教育学"],
+    sources: ["https://www.jstage.jst.go.jp/article/hets/20/0/20_KJ00009887752/_article/-char/ja"],
   },
   {
     slug: "omura-hama",
