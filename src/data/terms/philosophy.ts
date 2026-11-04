@@ -29,7 +29,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["直観教授", "頭心手", "近代教育学の父"],
-    sources: ["https://www.jstage.jst.go.jp/article/arted1951/1989/258/1989_258_1/_article/-char/ja"],
+    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317589.htm", "https://www.jstage.jst.go.jp/article/kyouikutetsugaku1959/1960/2/1960_2_27/_article/-char/ja"],
   },
   {
     slug: "froebel",
@@ -59,7 +59,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["汎知学", "大教授学", "世界図絵"],
-    sources: ["https://www.jstage.jst.go.jp/article/joej1997/11/2/11_2_1/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyouikutetsugaku1959/1998/77/1998_77_1/_article/-char/ja"],
   },
   {
     slug: "dewey",
@@ -74,7 +74,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["プラグマティズム", "なすことによって学ぶ", "経験主義"],
-    sources: ["https://www.jstage.jst.go.jp/article/jsser/34/5/34_No_5_190509/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/kyoikujissen/7/0/7_47/_article/-char/ja"],
   },
   {
     slug: "montessori",
@@ -89,7 +89,7 @@ export const philosophyTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["敏感期", "自己教育力", "モンテッソーリ教具"],
-    sources: ["https://www.jstage.jst.go.jp/article/shukulib/42/42/42_3/_article/-char/ja"],
+    sources: ["https://www.jstage.jst.go.jp/article/nasemjournal/6/0/6_KJ00006621965/_article/-char/ja"],
   },
   {
     slug: "freire",
