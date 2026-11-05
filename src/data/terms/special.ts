@@ -40,7 +40,7 @@ export const specialTerms: Term[] = [
     summary:
       "障害のある子ども一人ひとりについて、家庭・学校・福祉機関などが連携して長期的な支援内容を計画する文書。",
     body: "個別の教育支援計画とは、障害のある子ども一人ひとりについて、教育、医療、福祉、労働などの関係機関が連携しながら、乳幼児期から学校卒業後までを見通した長期的な支援の内容を計画・記録する文書です。\n\n進学や転校のたびに一から状況を説明しなくて済むよう、それまでの配慮の内容や成長の様子、関わってきた機関の情報などを、年度をまたいで引き継いでいくことを目的としています。学校内の指導計画である「個別の指導計画」（各教科の目標や指導方法を年間・学期単位で具体化するもの）とは役割が異なり、両者は補い合う関係にあります。\n\nこの計画は保護者との連携のもとで作成されることが原則であり、合理的配慮の内容を具体的な形で記録し、関係者間で共有するための重要なツールとしても機能します。",
-    relatedSlugs: ["goriteki-hairyo", "inclusive-education", "suspected-developmental-delays-individual-plan", "kidney-disease-dialysis-school", "enjoji-developmental-screening-test", "tsumori-infant-developmental-diagnosis", "vineland-adaptive-behavior-scales-second", "local-independence-support-council-children"],
+    relatedSlugs: ["goriteki-hairyo", "inclusive-education", "suspected-developmental-delays-individual-plan", "kidney-disease-dialysis-school", "enjoji-developmental-screening-test", "tsumori-infant-developmental-diagnosis", "vineland-ii", "local-independence-support-council-children"],
     isCanonical: true,
     exam: true,
     tags: ["個別の指導計画", "関係機関連携"],
@@ -775,9 +775,9 @@ export const specialTerms: Term[] = [
     summary:
       "0歳から92歳までを対象に、コミュニケーション・日常生活スキル・社会性・運動スキルなどの適応行動を、保護者等への半構造化面接を通じて評価するアセスメントツール。",
     body: "Vineland-II適応行動尺度は、0歳0か月から92歳11か月までを対象に、日常生活を送る上で必要な適応行動(個人的・社会的な充足に必要な日常活動の能力)を評価するための検査で、米国で開発され日本語版も刊行されている。IQのような認知能力の検査とは異なり、本人をよく知る保護者や支援者等への半構造化面接を通じて、実際の生活場面でどの程度自立して行動できているかを評価する点に特徴がある。\n\n検査は、コミュニケーション(受容言語・表出言語・読み書き)、日常生活スキル(身辺自立・家事・地域生活)、社会性(対人関係・遊びと余暇・コーピングスキル)、運動スキル(粗大運動・微細運動)の4領域と、必要に応じて測定される不適応行動の領域から構成される。各領域の得点から、生活年齢に対して適応行動がどの程度の水準にあるかを標準得点として算出でき、知的障害や自閉スペクトラム症のある子どもの実態把握、療育・教育方針の検討、福祉サービスの利用判定などに広く活用されている。\n\n知能検査(WISCなど)が認知能力の高さを測るのに対し、Vineland-IIは「実際の生活でどれだけできているか」という適応行動の側面を評価するため、両者を組み合わせることで、認知能力と実生活での自立度とのギャップを把握し、個別の指導計画や個別の教育支援計画における具体的な目標設定に役立てることができる。特別支援学校や発達障害者支援センター、医療機関等で実施されることが多い。",
-    relatedSlugs: ["wisc", "k-abc", "kobetsu-shido-keikaku", "chiteki-shogai-gakkyu", "vineland-adaptive-behavior-scales-second"],
+    relatedSlugs: ["wisc", "k-abc", "kobetsu-shido-keikaku", "chiteki-shogai-gakkyu", "jiritsu-katsudo", "kobetsu-shien-keikaku", "ikou-shien"],
     isCanonical: true,
-    tags: ["適応行動", "アセスメント", "半構造化面接", "知的障害"],
+    tags: ["適応行動", "アセスメント", "半構造化面接", "知的障害", "生活自立", "社会性", "進路支援", "適応行動尺度（バインランド）"],
   },
   {
     slug: "k-abc",
@@ -1922,32 +1922,6 @@ export const specialTerms: Term[] = [
     relatedSlugs: ["adhd", "tokubetsu-shien-coordinator", "niji-shogai", "kobetsu-shien-keikaku"],
     isCanonical: true,
     tags: ["多軸評価", "実行機能", "生徒指導", "多面的評価"],
-  },
-  {
-    slug: "vineland-adaptive-behavior-scales-second",
-    title: "適応行動尺度（バインランド）",
-    reading: "てきおうこうどうしゃくどばいんらんど",
-    kana: "て",
-    categories: ["special"],
-    summary:
-      "日常生活や社会生活で実際に発揮されている適応能力を多領域から包括的に測定し、知能検査を補完して自立支援計画に生かす評価尺度。",
-    body: "適応行動尺度（バインランドの活用）とは、個人の知的能力だけでなく、社会生活を営む上で必要とされる実践的な自立スキルを測定する標準化尺度である。知的障害や発達障害の判定において、知能指数の単独基準による偏りを排し、日常生活の適応機能を重視する国際的潮流から広く活用されている。\n\n評価領域は「コミュニケーション」「日常生活スキル」「社会性」「運動スキル」など多岐にわたり、保護者や支援者への半構造化面接等を通じて評定する。本人が「できる能力」があるかではなく、実際の日常場面で「自立して行っているか」を測定するため、実質的な生活自立度と支援ニーズを的確に把握できる。\n\n学校教育においては、特別支援学校や学級での自立活動の目標設定、個別の教育支援計画や進路指導の立案に直結する。就労支援や社会参加に向け、金銭管理や時間管理、対人関係などの弱点を具体的に抽出できる。インクルーシブ教育における実効性ある合理的配慮や生活支援の基準として不可欠な存在である。",
-    relatedSlugs: ["vineland-ii", "jiritsu-katsudo", "kobetsu-shien-keikaku", "ikou-shien"],
-    isCanonical: true,
-    tags: ["適応行動", "生活自立", "社会性", "進路支援"],
-  },
-  {
-    slug: "school-attendance-incentive-allowance",
-    title: "就学奨励費（特別支援教育）",
-    reading: "しゅうがくしょうれいひとくべつしえんきょういく",
-    kana: "し",
-    categories: ["special"],
-    summary:
-      "障害のある子どもが通学や学習に必要な経費について、保護者の経済的負担を軽減し教育の機会均等を保障するために国と自治体が支給する制度。",
-    body: "特別支援教育就学奨励費とは、特別支援学校や小中学校の特別支援学級、通級指導教室に通う児童生徒の保護者に対し、経済的負担を軽減するために国および地方自治体が必要経費を補助する公的支援制度である。憲法が定める教育の機会均等と義務教育無償の精神を具現化するものとして成立した。\n\n支給の対象となる経費には、教科用図書費、学用品費、通学費、修学旅行費、学校給食費、寄宿舎日用品費などが含まれる。保護者の世帯所得に応じて段階的な支給区分（全額補助や半額補助など）が設定されており、自治体の教育委員会を通じて申請と支給の手続きが厳格に運用されている。\n\n特別支援教育の普及に伴い、通常の学級に在籍しながら通級による指導を受ける児童生徒の通学費や教材費への支援拡大など、制度の充実が進められている。家庭の経済状況に関わらず、すべての子どもが適切な教育環境と必要な支援器具を享受できるようにすることは、インクルーシブ社会を支える不可欠な基盤である。",
-    relatedSlugs: ["tokubetsu-shien-shugaku-shoreihi", "shugaku-enjo-seido", "tokubetsu-shien-gakko", "tokubetsu-shien-gakkyu"],
-    isCanonical: true,
-    tags: ["就学奨励費", "教育費支援", "教育機会均等", "学校制度"],
   },
   {
     slug: "school-postponement-exemption-history",

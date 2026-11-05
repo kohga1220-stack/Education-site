@@ -602,7 +602,7 @@ export const evaluationTerms: Term[] = [
     summary:
       "学校が自らの教育活動や学校運営の状況について目標に照らして評価を行い、改善につなげる仕組み。自己評価・学校関係者評価・第三者評価の3種類からなる。",
     body: "学校評価は、各学校が教育活動その他の学校運営の状況について評価を行い、その結果に基づいて学校運営の改善を図る仕組みである。日本では平成19年（2007年）の学校教育法および同法施行規則の改正により、校長のリーダーシップの下で全教職員が参加して行う「自己評価」の実施・公表が義務化され、保護者や地域住民等で構成される委員会等が自己評価の結果を評価する「学校関係者評価」の実施・公表が努力義務とされた。あわせて、評価結果を設置者へ報告することも義務づけられている。\n\nこれに加えて、学校と直接の関わりを持たない専門家等が、自己評価・学校関係者評価の結果を資料として活用しながら、教育活動や学校運営全般について専門的・客観的な立場から行う「第三者評価」がある。第三者評価は法令上の実施義務はないが、より高い客観性と専門性を確保する手段として位置づけられている。\n\n学校評価の目的は、単なる格付けや序列化ではなく、各学校が組織として教育活動を検証し、課題を明確にして改善サイクル（PDCA）を機能させること、また評価結果を公表し保護者・地域に説明責任を果たすことで、学校・家庭・地域の連携協力による学校づくりを進めることにある。",
-    relatedSlugs: ["ninsho-hyoka-seido", "curriculum-management", "kyoiku-iinkai", "school-stakeholder-evaluation-practice", "third-party-school-evaluation-agency", "education-board-annual-inspection-report", "assessment-results-public-disclosure", "school-improvement-data-informed-action"],
+    relatedSlugs: ["ninsho-hyoka-seido", "curriculum-management", "kyoiku-iinkai", "school-stakeholder-evaluation-practice", "school-third-party-evaluation-audit", "education-board-annual-inspection-report", "assessment-results-public-disclosure", "school-improvement-data-informed-action"],
     isCanonical: true,
     exam: true,
     tags: ["学校評価", "自己評価", "第三者評価", "PDCA", "説明責任"],
@@ -1809,19 +1809,6 @@ export const evaluationTerms: Term[] = [
     relatedSlugs: ["gakko-hyoka", "curriculum-management", "community-school"],
     isCanonical: true,
     tags: ["学校改善", "教育データ", "学校経営", "目標設定"],
-  },
-  {
-    slug: "third-party-school-evaluation-agency",
-    title: "学校第三者評価の機関評価",
-    reading: "がっこうだいさんしゃひょうかのきかんひょうか",
-    kana: "か",
-    categories: ["evaluation"],
-    summary:
-      "学校や設置者から独立した専門機関が、標準化された基準に基づいて教育水準や学校運営を公正に審査し質保証を図る外部評価の仕組み。",
-    body: "学校内部の関係者や設置者から独立した専門評価機関が、客観的な基準に照らして教育活動や管理運営の妥当性を審査する評価制度である。自己評価や関係者評価の主観性を補正し、社会的な信頼性と教育水準の客観的な質保証を確立するために導入された。\n\n評価基準に基づき、事前に提出された学校の自己点検報告書や各種運営データを綿密に分析する。専門調査員が学校を訪問して授業観察、教職員や児童生徒への聞き取り調査を行い、多角的な視点から強みと改善課題を判定した公式評価報告書を取りまとめて公表する。\n\n専門的かつ中立的な評価結果は、学校組織が自らの運営課題を正確に自覚し教育課程の抜本的改善を図るための指標となる。社会に対する高度な説明責任を果たすとともに、保護者や社会全体からの信頼を獲得し、持続的な教育水準の維持向上に貢献する。",
-    relatedSlugs: ["gakko-hyoka", "ninsho-hyoka-seido", "jiko-tenken-hyoka"],
-    isCanonical: true,
-    tags: ["第三者評価", "教育の質保証", "外部評価", "学校評価"],
   },
   {
     slug: "teacher-self-declaration-management-by-objectives",
