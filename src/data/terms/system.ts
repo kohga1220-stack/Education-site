@@ -767,13 +767,13 @@ export const systemTerms: Term[] = [
     title: "特別支援教育就学奨励費",
     reading: "とくべつしえんきょういくしゅうがくしょうれいひ",
     kana: "と",
-    categories: ["system"],
+    categories: ["system", "special"],
     summary:
       "特別支援学校や特別支援学級等に通う児童生徒の保護者に対し、通学費・学用品費・給食費等を所得に応じて補助する国の制度。",
     body: "特別支援教育就学奨励費は、「特別支援学校への就学奨励に関する法律」等を根拠に、特別支援学校及び小・中学校の特別支援学級等に在籍する児童生徒の保護者の経済的負担を軽減し、特別支援教育の普及奨励を図ることを目的とする制度である。対象となるのは、特別支援学校に在籍する幼児児童生徒、小中学校の特別支援学級に在籍する児童生徒、通級による指導を受ける児童生徒、及び学校教育法施行令第22条の3に定める程度の障害がある児童生徒等の保護者である。\n\n補助の対象費目には、学用品費、通学用品費、修学旅行費、校外活動費、寄宿舎居住に伴う経費、給食費、通学費、交流及び共同学習に係る交通費などが含まれる。支給額は世帯の所得水準に応じて区分され、生活保護基準の一定倍率を基準に、全額補助・半額補助・補助なしといった段階が設けられている。国は都道府県・市町村が支弁した費用の一部を補助する形で財政的に関与している。\n\n本制度は、特別支援教育を受ける児童生徒の家庭の経済的負担が通常の就学援助制度でカバーしきれない特有の費用(通学の付添い、寄宿舎経費等)を含む点に特徴があり、就学援助制度と並んで教育の機会均等を経済面から支える仕組みとして位置づけられている。",
-    relatedSlugs: ["shugaku-enjo-seido", "tokubetsu-shien-gakko", "tokubetsu-shien-gakkyu", "school-attendance-incentive-allowance"],
+    relatedSlugs: ["shugaku-enjo-seido", "tokubetsu-shien-gakko", "tokubetsu-shien-gakkyu"],
     isCanonical: true,
-    tags: ["特別支援教育", "就学支援", "経済的支援", "法制度"],
+    tags: ["特別支援教育", "就学支援", "経済的支援", "法制度", "就学奨励費", "教育費支援", "教育機会均等", "学校制度"],
     sources: ["https://www.mext.go.jp/a_menu/shotou/tokubetu/hattatu_00002.htm"],
   },
   {
@@ -1855,13 +1855,13 @@ export const systemTerms: Term[] = [
     title: "第三者評価（学校評価）",
     reading: "だいさんしゃひょうかがっこうひょうか",
     kana: "た",
-    categories: ["system"],
+    categories: ["system", "evaluation"],
     summary:
       "学校や設置者から独立した外部の専門家・評価機関が客観的かつ専門的な視点から教育水準と学校運営を検証する評価制度。",
     body: "学校やその設置者から直接の利害関係を持たない外部の専門機関や学識経験者が、学校の教育活動や経営状況を検証する評価制度である。文部科学省の学校評価ガイドラインにおいて、自己評価や関係者評価の客観性を補強する発展的な取り組みと位置づけられる。\n\n大学教員、教育経営の専門家、企業や民間の評価員などが学校を訪問して現地調査を実施する。学校の自己評価資料や財務状況、授業風景を多角的に観察し、標準化された評価基準に沿って詳細な評価報告書を作成し、改善勧告や助言を提示する。\n\n組織の内外に対する高い透明性と信頼性を確立し、学校運営の抜本的な質保証や特色ある学校づくりを強力に支援する意義を持つ。一方で受審に伴う費用負担や学校側の準備負担が重いため、導入校の拡大に向けた公的支援の充実が求められている。",
-    relatedSlugs: ["gakko-hyoka", "ninsho-hyoka-seido", "jiko-tenken-hyoka", "third-party-school-evaluation-agency", "preschool-self-evaluation-third-party-assessment"],
+    relatedSlugs: ["gakko-hyoka", "ninsho-hyoka-seido", "jiko-tenken-hyoka", "preschool-self-evaluation-third-party-assessment"],
     isCanonical: true,
-    tags: ["第三者評価", "外部評価", "学校経営", "質保証"],
+    tags: ["第三者評価", "外部評価", "学校経営", "質保証", "教育の質保証", "学校評価", "学校第三者評価の機関評価"],
   },
   {
     slug: "crisis-management-manual-evacuation-drills",

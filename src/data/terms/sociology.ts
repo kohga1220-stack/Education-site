@@ -51,7 +51,7 @@ export const sociologyTerms: Term[] = [
     summary:
       "すべての人が、能力に応じてひとしく教育を受ける機会を与えられるべきだという理念。教育基本法にも明記されている。",
     body: "教育の機会均等とは、すべての国民が、人種、信条、性別、社会的身分、経済的地位、あるいは門地（家柄）によって教育上差別されることなく、その能力に応じてひとしく教育を受ける機会を与えられるべきだという理念です。教育基本法第4条に明文で規定されています。\n\nこの理念を実現するための具体的な制度として、義務教育の無償、経済的に困難な家庭への就学援助、高等学校等就学支援金、奨学金制度などが整備されています。障害のある子どもに対する特別支援教育やインクルーシブ教育も、この機会均等の理念を具体化する取り組みの一つと位置づけられます。\n\nもっとも、制度上の機会が形式的に平等であっても、家庭の文化資本や経済状況によって実質的な結果には差が生まれてしまうという教育格差の問題は残っており、「機会の平等」をどこまで「結果の平等」に近づけるべきかは、現在も政策上の重要な論点となっています。",
-    relatedSlugs: ["kyoiku-kakusa", "kyoiku-kihon-ho", "school-attendance-incentive-allowance", "special-admissions-foreign-students-quota"],
+    relatedSlugs: ["kyoiku-kakusa", "kyoiku-kihon-ho", "tokubetsu-shien-shugaku-shoreihi", "special-admissions-foreign-students-quota"],
     isCanonical: true,
     tags: ["教育基本法", "機会の平等"],
   },
