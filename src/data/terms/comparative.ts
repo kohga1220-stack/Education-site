@@ -218,7 +218,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "先住民マオリの言葉で「編み物」を意味する、ニュージーランドの国レベル幼児教育カリキュラムです。",
     body: "テ・ファリキは1996年にニュージーランドで策定された、世界初とされる国レベルの幼児教育カリキュラムです。マオリ語で「編みマット」を意味し、多様な家庭・文化的背景を持つ子どもを一つの敷物のように織り込むという理念を表しています。\n\nウェルビーイング・帰属感・貢献・コミュニケーション・探究の5つの原理を柱とし、到達すべき知識やスキルの一覧ではなく、子どもの学びの構えや興味関心の育ちを「ラーニング・ストーリー」という記録法で捉える点が特徴です。\n\n子ども主体で文化的多様性を尊重する幼児教育モデルとして国際的に高く評価されており、日本の幼稚園教育要領・保育所保育指針における「育みたい資質・能力」の議論にも影響を与えています。",
-    relatedSlugs: ["nintei-kodomoen", "hattatsu-shogaisha-shien-ho"],
+    relatedSlugs: ["nintei-kodomoen", "hattatsu-shogaisha-shien-ho", "youchien-kyoiku-yoryo", "hoikusho-hoiku-shishin"],
     isCanonical: true,
     tags: ["ニュージーランド教育", "幼児教育カリキュラム"],
   },
@@ -348,7 +348,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "小学4年生を対象に、IEAが4年ごとに実施する国際的な読解力の比較調査です。",
     body: "PIRLS(Progress in International Reading Literacy Study)は、国際教育到達度評価学会(IEA)が2001年から4年ごとに実施している、小学4年生を対象とした国際読解力調査です。物語文と説明文の読解力を測定し、各国・地域の児童の読解力を比較します。\n\n読んだ内容の情報を取り出す力、推論して解釈する力、内容を評価・批判する力などを測定するとともに、家庭での読書環境や学校の指導方法に関する質問紙調査も行い、読解力と学習環境の関連を分析します。\n\nOECDが実施するPISAが15歳を対象とするのに対し、PIRLSはIEAが実施し初等教育段階を対象とする点で異なり、両調査は国際的な学力比較研究において相互に補完する代表的な指標とされています。",
-    relatedSlugs: ["pisa", "timss"],
+    relatedSlugs: ["pisa", "timss", "iea-evaluation-association"],
     isCanonical: true,
     tags: ["国際学力調査", "読解力"],
   },
@@ -634,7 +634,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "アメリカの比較教育学者ジョージ・ベレデイが体系化した「記述-解釈-並置-比較」の4段階からなる比較教育研究の方法論。各国事例の個別分析から国境を越えた比較へと進む手順を示す。",
     body: "ジョージ・Z・F・ベレデイ(1920〜1983年)は、コロンビア大学で活躍した比較教育学者であり、その代表的著作『比較の方法(Comparative Method in Education, 1964)』において、比較教育研究を体系的に進めるための「四段階法(four steps of comparison)」を提示したことで知られる。この方法は、記述(description)、解釈(interpretation)、並置(juxtaposition)、比較(comparison)という4つの段階から構成される。\n\n第一段階の「記述」では、対象国における教育現象に関する情報を、その国の歴史・地理・文化・政治・宗教・言語といった文脈に十分配慮しながら体系的に収集する。第二段階の「解釈」では、収集した情報を社会科学の理論や分析枠組みを用いて分析する。この2段階までは各国ごとに個別に行われるのに対し、第三段階の「並置」では複数の国の事例を同時に並べて検討し、比較のための共通の枠組みを設定する。そして最終段階の「比較」では、まず特定の課題(問題)に絞った比較を行い、次に教育制度全体の関連性についてのより包括的な比較へと進む。\n\nベレデイのこの方法論は、それまで個別事例の記述にとどまりがちであった比較教育研究に、明確な手続きと分析段階を与えた点で画期的であった。近年の研究では、ベレデイのこの枠組みが、ドイツの比較教育学者フランツ・ヒルカーの先行研究に多くを負っていたことも指摘されているが、いずれにせよこの4段階法は今日に至るまで比較教育学の基礎的な方法論として教育・研究され続けている。",
-    relatedSlugs: ["sadler-comparative-education", "policy-borrowing-lending"],
+    relatedSlugs: ["sadler-comparative-education", "policy-borrowing-lending", "jullien-comparative-education", "kandel-comparative-education", "hans-comparative-education"],
     isCanonical: true,
     tags: ["比較教育学", "研究方法論", "教育学史"],
   },
@@ -2740,7 +2740,7 @@ export const comparativeTerms: Term[] = [
     summary:
       "教員の高度な専門性を評価し、全米共通の上級プロフェッショナル教員資格を認定する米国の独立機関。",
     body: "1986年のカーネギー教育経済フォーラム報告書『国家の準備：21世紀の教員』の提言に基づき、1987年に設立された米国の民間非営利機関（National Board for Professional Teaching Standards）である。教職の専門職化を推進し、各州の初任免許を超える高度な優秀教員を認定する全米基準を構築した。\n\n認定制度（ナショナル・ボード・サーティフィケーション）は、教育実践の録画ビデオ、生徒作品の分析、学習指導案の省察レポートからなる「ポートフォリオ評価」と、教科専門知識を測る「アセスメント・センター試験」で構成される。合格した教員には「NBCT（ナショナル・ボード認定教員）」の称号が与えられ、多くの州で給与の増額や免許更新免除などの優遇措置が講じられる。\n\n教職を医師や弁護士のような自律的専門職として確立するモデルとして高く評価され、世界各国の教職基準開発や教員評価制度の改革に多大な影響を与えた。",
-    relatedSlugs: ["us-education-system", "teach-for-america-tfa"],
+    relatedSlugs: ["us-education-system", "teach-for-america-tfa", "kyoin-hyoka"],
     isCanonical: true,
     tags: ["教員資格", "専門職基準", "アメリカ教育", "教員評価"],
   },
