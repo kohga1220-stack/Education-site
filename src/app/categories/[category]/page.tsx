@@ -36,7 +36,9 @@ export default function CategoryPage({ params }: { params: { category: string } 
           <span>{cat.label}</span>
         </nav>
         <div className="flex items-center gap-2">
-          <span className={`category-badge ${CATEGORY_BADGE_CLASS[cat.id]}`}>{cat.label}</span>
+          <h1 className="flex">
+            <span className={`category-badge ${CATEGORY_BADGE_CLASS[cat.id]}`}>{cat.label}</span>
+          </h1>
           <span className="text-sm text-slate-500 dark:text-slate-400">{terms.length}語</span>
         </div>
       </div>
