@@ -146,13 +146,13 @@ export const guidanceTerms: Term[] = [
     title: "ピアサポート",
     reading: "ぴあさぽーと",
     kana: "ひ",
-    categories: ["guidance"],
+    categories: ["guidance", "moral"],
     summary:
       "児童生徒同士が仲間（ピア）として支え合う教育活動。傾聴や葛藤解決などのスキルを学んだ上で、悩みを抱える同級生や後輩に寄り添う取り組みを行う。",
     body: "ピアサポートとは、児童生徒同士が仲間（ピア）として支え合い、助け合う教育活動を指します。人間関係能力やコミュニケーション能力の育成を目的とし、傾聴の仕方や葛藤解決の方法などのスキルをトレーニングによって学んだ上で、実際に同級生や後輩の悩みに寄り添う活動を行います。\n\n活動内容は大きく、友達作りの支援、カウンセリング的な関わり、いじめやけんかなどの葛藤解決支援の三つに分類されます。日本では1990年代に大学生のピア・カウンセリングなどとして部分的に紹介され、2002年には日本ピア・サポート学会が設立されました。\n\n2013年施行のいじめ防止対策推進法以降は、いじめの未然防止や学校の心理的安全性を高める取り組みとして、多くの教育委員会・学校で導入が進んでいます。児童生徒の主体性を生かしながら、思いやりのある学級・学校づくりを目指す点が特徴です。",
-    relatedSlugs: ["ijime-boshi", "sst", "peer-support-caring-chain-school", "seating-arrangement-peer-dynamics-adjustment", "bystander-intervention-classroom-norms"],
+    relatedSlugs: ["ijime-boshi", "sst", "seating-arrangement-peer-dynamics-adjustment", "bystander-intervention-classroom-norms", "omoiyari-shinsetsu", "peer-culture-gakko", "yujo-shinrai"],
     isCanonical: true,
-    tags: ["仲間支援", "いじめ予防", "コミュニケーション能力"],
+    tags: ["仲間支援", "いじめ予防", "コミュニケーション能力", "ピアサポート", "思いやり", "仲間づくり", "援助要請", "ピア・サポート活動"],
   },
   {
     slug: "anger-management",
@@ -427,13 +427,13 @@ export const guidanceTerms: Term[] = [
     title: "ブラック校則",
     reading: "ぶらっくこうそく",
     kana: "ふ",
-    categories: ["guidance"],
+    categories: ["guidance", "sociology"],
     summary:
       "地毛証明や下着の色指定など、教育的合理性を欠くとして2017年頃から社会問題化した理不尽な校則を指す通称です。",
     body: "ブラック校則とは、地毛の色や髪型、下着の色を指定するなど、教育的必要性や合理性が説明しにくい理不尽な校則を指す通称です。生徒の人権や個人の尊厳を軽視しているとして、2017年頃から社会問題として広く報道されるようになりました。\n\n文部科学省は校則について、社会通念に照らして合理的と認められる範囲で定めるべきものとし、絶えず積極的に見直しを行う必要があるとの見解を示しています。近年は生徒会や保護者の意見を取り入れながら校則を点検・改定する自治体や学校が増えています。\n\n校則見直しの議論は、校則そのものの妥当性だけでなく、決定過程に生徒の声をどう反映させるかという学校運営の民主性の問題としても注目されています。生徒指導提要でも校則の見直しは組織的に行うべき課題とされています。",
-    relatedSlugs: ["seito-shido-teiyo", "jinken-kyoiku", "gakko-hyogiin-seido", "black-school-rules-human-rights-debate", "hair-dress-code-student-bodily-autonomy", "genderless-school-uniforms-choice"],
+    relatedSlugs: ["seito-shido-teiyo", "jinken-kyoiku", "gakko-hyogiin-seido", "hair-dress-code-student-bodily-autonomy", "genderless-school-uniforms-choice", "kodomo-no-kenri-joyaku"],
     isCanonical: true,
-    tags: ["校則", "人権", "学校改革"],
+    tags: ["校則", "人権", "学校改革", "校則問題", "ブラック校則", "子どもの権利", "規律訓練", "ブラック校則問題"],
   },
   {
     slug: "seito-shido-sankino",

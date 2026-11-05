@@ -94,9 +94,9 @@ export const specialTerms: Term[] = [
     summary:
       "障害の有無にかかわらず、できるだけ多くの子どもにとって「わかりやすく、参加しやすい」よう、あらかじめ工夫して設計された授業。",
     body: "授業のユニバーサルデザインとは、特別な支援が必要な子どもに限らず、学級のできるだけ多くの子どもにとって「わかりやすく、参加しやすい」授業となるよう、あらかじめ工夫して設計する考え方です。建築分野の「バリアフリー」が一部の人のために後から改修するのに対し、ユニバーサルデザインは最初から誰もが使いやすいように設計する発想である点が特徴です。\n\n具体的な工夫としては、黒板の周りの掲示物を減らして注意をそらす刺激を減らす「焦点化」、指示や説明を短く区切って伝える「スモールステップ化」、話し言葉だけでなく絵や図で示す「視覚化」、その日の学習の流れをあらかじめ示す「共有化」などが挙げられます。\n\nこうした工夫は特別な支援が必要な子どもにとって特に効果が大きい一方、学級全体の子どもにとってもわかりやすい授業につながるとされ、通常学級における特別支援教育の視点を生かした授業づくりとして広く普及しています。",
-    relatedSlugs: ["inclusive-education", "ld", "working-memory", "universal-design-lesson-framework", "nudge-theory-classroom-design", "new-sports-inclusive-physical-education", "reading-fluency-repeated-reading-paired", "kanji-writing-decomposition-instruction"],
+    relatedSlugs: ["inclusive-education", "ld", "working-memory", "nudge-theory-classroom-design", "new-sports-inclusive-physical-education", "reading-fluency-repeated-reading-paired", "kanji-writing-decomposition-instruction", "digital-kyozai-ud"],
     isCanonical: true,
-    tags: ["視覚化", "スモールステップ"],
+    tags: ["視覚化", "スモールステップ", "ユニバーサルデザイン", "焦点化", "共有化", "授業のユニバーサルデザイン"],
   },
   {
     slug: "tsukyu",
