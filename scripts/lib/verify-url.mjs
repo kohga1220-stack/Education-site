@@ -50,8 +50,10 @@ export async function verifyUrl(url, keywords, { timeoutMs = 20000, fetchImpl = 
     return { level: 'warn', reason: 'PDFのため本文は確認していません(開けることのみ確認)' }
   }
   if (!/html|text|xml/i.test(type)) return { level: 'warn', reason: `HTML以外(${type || '種別不明'})のため本文は確認していません` }
-  const text = norm(htmlToText((await res.text()).slice(0, 3_000_000)))
+  const html = (await res.text()).slice(0, 3_000_000)
+  const pageTitle = (html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? '').replace(/\s+/g, ' ').trim().slice(0, 120)
+  const text = norm(htmlToText(html))
   const hit = keywords.find((k) => text.includes(norm(k)))
-  if (!hit) return { level: 'fail', reason: `本文に ${keywords.map((k) => `「${k}」`).join('・')} がありません(別の語の資料の疑い)` }
-  return { level: 'ok', reason: `本文に「${hit}」を確認` }
+  if (!hit) return { level: 'fail', reason: `本文に ${keywords.map((k) => `「${k}」`).join('・')} がありません(別の語の資料の疑い)`, pageTitle }
+  return { level: 'ok', reason: `本文に「${hit}」を確認`, pageTitle }
 }

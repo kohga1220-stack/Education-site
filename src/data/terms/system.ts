@@ -469,7 +469,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["kyoiku-komuin-tokurei-ho", "kyoin-menkyojo", "kyoiku-iinkai", "conditional-appointment-probation-period", "temporary-appointed-teacher-employment-challenges"],
     isCanonical: true,
     tags: ["教員採用", "教育委員会", "教員養成"],
-    sources: ["https://www.jstage.jst.go.jp/article/jsste/16/0/16_179/_article/-char/ja/"],
   },
   {
     slug: "shoninsha-kenshu",
@@ -540,7 +539,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["senshu-gakko", "gakko-kyoiku-ho", "career-education"],
     isCanonical: true,
     tags: ["高専", "技術者養成", "高等教育"],
-    sources: ["https://www.jstage.jst.go.jp/article/kakyoshi/65/11/65_545/_article/-char/ja/"],
   },
   {
     slug: "tsushinsei-kotogakko",
@@ -554,7 +552,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["teijisei-kotogakko", "futoko", "koko-chuutai", "part-time-correspondence-high-school-safety", "high-school-dropouts-social-exclusion"],
     isCanonical: true,
     tags: ["通信制高校", "高校教育", "学び直し"],
-    sources: ["https://www.jstage.jst.go.jp/article/jph/68/6/68_20-078/_article/-char/ja/"],
   },
   {
     slug: "teijisei-kotogakko",
@@ -1506,7 +1503,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-hoken-anzen-ho", "gakkou-hoken-yoji", "gakko-kyoiku-ho", "school-environmental-sanitation-standards", "heatstroke-prevention-guidelines-wbgt", "gan-kyoiku"],
     isCanonical: true,
     tags: ["健康診断", "学校保健", "学校環境衛生", "健康管理"],
-    sources: ["https://www.mext.go.jp/a_menu/shotou/tokubetu/material/07061116/003/054.htm"],
   },
   {
     slug: "school-education-law-article-13-closure-orders",
@@ -1601,7 +1597,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kyoiku-ho", "gakkou-hoken-yoji", "school-environmental-sanitation-standards"],
     isCanonical: true,
     tags: ["学校医", "学校歯科医", "学校薬剤師", "学校環境衛生"],
-    sources: ["https://www.mext.go.jp/b_menu/activity/detail/2026/20261028.html"],
   },
   {
     slug: "local-civil-service-law-fundamental-duty",

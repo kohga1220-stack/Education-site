@@ -59,7 +59,8 @@ await Promise.all(
 
 const icon = { ok: '✅', warn: '⚠', fail: '✗' }
 results.sort((a, b) => a.slug.localeCompare(b.slug))
-for (const r of results) console.log(`${icon[r.level]} ${r.title} (${r.slug})\n    ${r.url}\n    ${r.reason}`)
+// 資料の実際の題名も出す。語の定義の根拠になる資料か(別分野の応用研究や、お知らせ記事ではないか)を、PRの確認者が見るため
+for (const r of results) console.log(`${icon[r.level]} ${r.title} (${r.slug})\n    ${r.url}\n    ${r.reason}${r.pageTitle ? `\n    資料の題名: ${r.pageTitle}` : ''}`)
 
 // 語ごとに集計。1件でも失敗(存在しない/本文に用語名がない)があれば、その語は失敗(サイトに表示されるリンクが誤りになるため)
 const bySlug = new Map()
