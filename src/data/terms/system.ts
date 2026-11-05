@@ -86,7 +86,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gimu-kyoiku", "gakko-kyoiku-ho", "philippines-k-twelve-basic-education-reform"],
     isCanonical: true,
     tags: ["学校制度", "義務教育学校"],
-    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317789.htm"],
   },
   {
     slug: "chukyo-shin",
@@ -115,7 +114,6 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["多職種連携", "専門スタッフ"],
-    sources: ["https://www.mext.go.jp/a_menu/shotou/hatarakikata/mext_00009.html"],
   },
   {
     slug: "community-school",
@@ -145,7 +143,6 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教科横断", "PDCAサイクル"],
-    sources: ["https://www.mext.go.jp/a_menu/shotou/new-cs/index.htm"],
   },
   {
     slug: "kyokasho-kentei",
@@ -173,7 +170,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["shoninzu-gakkyu", "gimu-kyoikuhi-kokko-futan-seido", "rokusansei"],
     isCanonical: true,
     tags: ["義務標準法", "学級編制", "教職員定数"],
-    sources: ["https://www.jstage.jst.go.jp/article/taikaip/56/0/56_KJ00002424706/_article/-char/ja/"],
   },
   {
     slug: "kyoin-menkyojo",
@@ -202,7 +198,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["koko-shugaku-shienkin-seido", "kyoiku-kikai-kinto", "gakko-kyoiku-ho"],
     isCanonical: true,
     tags: ["私立学校", "財政援助", "就学支援"],
-    sources: ["https://www.jstage.jst.go.jp/article/taikaip/29/0/29_KJ00001924090/_article/-char/ja/"],
   },
   {
     slug: "kyoiku-shinko-kihon-keikaku",
@@ -231,7 +226,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakkyu-hensei-kijun", "kobetsu-saiteki", "gimu-kyoikuhi-kokko-futan-seido"],
     isCanonical: true,
     tags: ["学級編制", "きめ細かな指導", "教職員配置"],
-    sources: ["https://www.jstage.jst.go.jp/article/jspa/50/0/50_09/_article/-char/ja/"],
   },
   {
     slug: "gimu-kyoiku-gakko",
@@ -398,7 +392,6 @@ export const systemTerms: Term[] = [
       ],
     },
     tags: ["幼保一元化", "就学前教育", "子ども・子育て支援法"],
-    sources: ["https://www.jstage.jst.go.jp/article/jscr/1/0/1_k01001/_article/-char/ja/"],
   },
   {
     slug: "koko-shugaku-shienkin-seido",
@@ -426,7 +419,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakkyu-hensei-kijun", "kyoiku-kikai-kinto", "shoninzu-gakkyu", "shichosonritsu-gakko-shokuin-kyuyo-futan-ho"],
     isCanonical: true,
     tags: ["三位一体改革", "教職員給与", "教育の機会均等"],
-    sources: ["https://www.jstage.jst.go.jp/article/pfsjipf/10/0/10_259/_article/-char/ja/"],
   },
   {
     slug: "yutori-kyoiku",
@@ -497,7 +489,6 @@ export const systemTerms: Term[] = [
     isCanonical: true,
     exam: true,
     tags: ["教員の働き方改革", "教職調整額", "労働環境"],
-    sources: ["https://www.mext.go.jp/b_menu/hakusho/mext_00026.html"],
   },
   {
     slug: "shigaku-ho",
@@ -565,7 +556,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["tsushinsei-kotogakko", "koko-chuutai", "shugaku-enjo-seido", "part-time-correspondence-high-school-safety", "high-school-dropouts-social-exclusion"],
     isCanonical: true,
     tags: ["定時制高校", "高校教育", "勤労青少年"],
-    sources: ["https://www.jstage.jst.go.jp/article/taikaip/59/0/59_KJ00001923192/_article/-char/ja/"],
   },
   {
     slug: "shugaku-yuyo-menjo",
@@ -623,7 +613,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["kyoiku-kikai-kinto", "giga-school", "shoninzu-gakkyu", "gakusei-1872", "gimu-kyoiku-nengen-encho", "gakko-kyoiku-ho-seitei", "remote-area-school-designation-allowance"],
     isCanonical: true,
     tags: ["へき地教育", "教育の機会均等", "教職員処遇", "国庫補助", "へき地手当"],
-    sources: ["https://www.jstage.jst.go.jp/article/jeas/46/0/46_107/_article/-char/ja/"],
   },
   {
     slug: "kodomo-kihon-ho",
@@ -650,7 +639,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["kyoiku-kikai-kakuho-ho", "gimu-kyoiku", "tabunka-kyosei-kyoiku", "night-junior-high-school-social-inclusion"],
     isCanonical: true,
     tags: ["夜間中学", "教育機会確保法", "学び直し"],
-    sources: ["https://www.jstage.jst.go.jp/article/jeas/46/0/46_150/_article/-char/ja/"],
   },
   {
     slug: "jasso-shogakukin",
@@ -745,7 +733,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["koto-gakko-hyojunho", "shoninzu-gakkyu", "gakkyu-hensei-kijun"],
     isCanonical: true,
     tags: ["義務教育", "法制度", "教職員定数", "35人学級"],
-    sources: ["https://www.jstage.jst.go.jp/article/jjseso/2014/21/2014_153/_article/-char/ja/"],
   },
   {
     slug: "gakko-toshokan-ho",
@@ -815,7 +802,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["shugaku-enjo-seido", "hinkon-no-rensa", "koko-sei-shogaku-kyufukin"],
     isCanonical: true,
     tags: ["生活保護", "就学支援", "教育格差", "法制度"],
-    sources: ["https://www.jstage.jst.go.jp/article/jjseso/2019/26/2019_156/_article/-char/ja/"],
   },
   {
     slug: "koko-sei-shogaku-kyufukin",
@@ -829,7 +815,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["koko-shugaku-shienkin-seido", "kyoiku-fujo", "shugaku-enjo-seido"],
     isCanonical: true,
     tags: ["高校教育", "経済的支援", "就学支援", "教育格差"],
-    sources: ["https://www.mext.go.jp/a_menu/shotou/mushouka/detail/1353842.htm"],
   },
   {
     slug: "menkyo-koshinsei-haishi",
@@ -858,7 +843,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["team-gakko", "kyoshi-tabosei-burnout", "staff-development", "school-education-law-article-37-principal-vice"],
     isCanonical: true,
     tags: ["学校組織", "教員制度", "法制度", "ミドルリーダー"],
-    sources: ["https://www.mext.go.jp/b_menu/toukei/chousa01/jouhouka/yougo/1260037.htm"],
   },
   {
     slug: "bukatsudo-chiiki-ikou",
@@ -1447,7 +1431,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-kyoiku-ho", "senshu-gakko-seido", "gimu-kyoiku-gakko", "gakko-kihon-chosa", "shugaku-yuyo-menjo"],
     isCanonical: true,
     tags: ["学校教育法第1条", "一条校", "学校の範囲", "学制"],
-    sources: ["https://www.mext.go.jp/a_menu/shotou/shugaku/detail/1422252.htm"],
   },
   {
     slug: "school-education-law-article-2-founders",
@@ -1461,7 +1444,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-kyoiku-ho", "kyoiku-iinkai", "kyoiku-kihon-ho", "shigaku-ho"],
     isCanonical: true,
     tags: ["学校設置者", "設置者主義", "学校法人", "学校管理"],
-    sources: ["https://www.jstage.jst.go.jp/article/kyoiku1932/48/1/48_1_33/_article/-char/ja/"],
   },
   {
     slug: "school-education-law-article-9-disqualification",
@@ -1542,7 +1524,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-kyoiku-ho", "team-gakko", "shukan-kyoyu-shido-kyoyu"],
     isCanonical: true,
     tags: ["学校教育法", "校長", "副校長", "教頭"],
-    sources: ["https://www.jstage.jst.go.jp/article/jasea/59/0/59_144/_article/-char/ja/"],
   },
   {
     slug: "yogo-teacher-statutory-duties",
@@ -1556,7 +1537,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-hoken-anzen-ho", "gakko-kyoiku-ho", "hokenshitsu-tokou", "school-health-examination-data-utilization"],
     isCanonical: true,
     tags: ["養護教諭", "学校保健", "保健室", "健康相談活動"],
-    sources: ["https://www.jstage.jst.go.jp/article/jpnjschhealth/44/2/44_181/_article/-char/ja/"],
   },
   {
     slug: "school-administrative-staff-duties",
@@ -1570,7 +1550,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-kyoiku-ho", "team-gakko", "kyoin-gyomu-shien-in"],
     isCanonical: true,
     tags: ["学校事務職員", "事務をつかさどる", "学校経営", "共同学校事務室"],
-    sources: ["https://www.jstage.jst.go.jp/article/kansaisea/16/0/16_1/_article/-char/ja/"],
   },
   {
     slug: "school-librarian-teacher-appointment",
@@ -1792,7 +1771,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["kyoiku-iinkai", "community-school", "team-gakko", "local-board-of-education-statutory-powers"],
     isCanonical: true,
     tags: ["教育長", "地方教育行政法", "新教育長制度", "任命手続き"],
-    sources: ["https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/toushin/attach/1382466.htm"],
   },
   {
     slug: "board-members-appointment-parent-quota",
@@ -2475,7 +2453,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["kyoin-menkyojo", "gakko-kyoiku-ho", "kyoiku-kihon-ho", "menkyo-koshinsei-haishi", "tokubetsu-menkyojo-hijokin-koshi"],
     isCanonical: true,
     tags: ["教育法規", "教員免許", "開放制", "教員養成"],
-    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317768.htm"],
   },
   {
     slug: "gakko-kyoikuho-shikokisoku",
@@ -2489,7 +2466,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["gakko-kyoiku-ho", "gakushu-shido-yoryo", "kyoiku-kihon-ho", "kyoiku-shokuin-menkyoho"],
     isCanonical: true,
     tags: ["教育法規", "省令", "教育課程", "学校管理"],
-    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317741.htm"],
   },
   {
     slug: "toshokan-ho",
@@ -2503,7 +2479,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["shakai-kyoiku-ho", "gakko-toshokan-ho", "hakubutsukan-ho", "community-learning-centers-kominkan-act", "kodomo-dokusho-suishin-ho"],
     isCanonical: true,
     tags: ["教育法規", "社会教育", "司書", "生涯学習"],
-    sources: ["https://www.mext.go.jp/a_menu/shougai/tosho/index.htm"],
   },
   {
     slug: "sports-kihon-ho",
@@ -2559,7 +2534,6 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["kodomo-kihon-ho", "young-carer", "young-carer-educational-impact-support", "kyoiku-kihon-ho"],
     isCanonical: true,
     tags: ["教育法規", "若者支援", "こども家庭庁", "ヤングケアラー"],
-    sources: ["https://www.jstage.jst.go.jp/article/jws/22/0/22_99/_article/-char/ja"],
   },
   {
     slug: "shakai-kyoiku-iin",
@@ -2573,6 +2547,5 @@ export const systemTerms: Term[] = [
     relatedSlugs: ["shakai-kyoiku-ho", "fundamental-law-article-12-social-education", "community-learning-centers-kominkan-act", "toshokan-ho"],
     isCanonical: true,
     tags: ["社会教育", "教育法規", "教育委員会", "生涯学習"],
-    sources: ["https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317780.htm"],
   },
 ]
