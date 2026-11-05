@@ -777,7 +777,7 @@ export const moralTerms: Term[] = [
     summary:
       "道徳科の内容項目Bの一つで、他者の立場や気持ちを理解し、進んで親切な行動をとろうとする態度を育てることを目的とする。道徳科の中でも最も早い発達段階から扱われる基礎的な内容項目。",
     body: "「思いやり、親切」は、道徳科の内容項目のうち視点B「主として人との関わりに関すること」に位置付けられる内容項目であり、身近な人々に温かい心で接し、相手の立場に立って親切にする態度を育てることを目標とする。学習指導要領解説では、単に相手に優しくするという表面的な行動にとどまらず、相手の気持ちを想像し理解しようとする心の働き（共感性）を土台とすることが強調されている。\n\nこの内容項目は小学校低学年から一貫して指導される基礎的な価値であり、学年が上がるにつれて、身近な人への親切から、見知らぬ人や社会的に弱い立場にある人々への思いやり、さらには他者を思いやる気持ちと自らを律する気持ちとのバランスといった、より複雑な人間関係の中での思いやりのあり方へと内容が深まっていく。中学校段階の関連内容項目では「思いやり、感謝」として、支えてくれる人々への感謝の心とも結び付けて扱われる。\n\n心理学の知見との関わりでは、ホフマンの共感喚起理論やセルマンの視点取得（役割取得）の発達理論が、この内容項目の指導を理論的に基礎づけるものとしてしばしば参照される。単に「親切にしましょう」という結論を押し付けるのではなく、親切にすることが時に相手にとって迷惑になる場合もあることなど、思いやりの複雑さについて考え議論させる授業展開が、教科化後の実践では重視されている。",
-    relatedSlugs: ["hoffman-empathy-arousal", "selman-shiten-shutoku", "naiyo-komoku", "noddings-care", "friendship-mutual-support-growth", "empathy-perspective-taking-others", "tolerance-forgiveness-accepting-others", "peer-support-caring-chain-school"],
+    relatedSlugs: ["hoffman-empathy-arousal", "selman-shiten-shutoku", "naiyo-komoku", "noddings-care", "friendship-mutual-support-growth", "empathy-perspective-taking-others", "tolerance-forgiveness-accepting-others", "peer-support"],
     isCanonical: true,
     tags: ["思いやり", "親切", "内容項目"],
   },
@@ -1024,7 +1024,7 @@ export const moralTerms: Term[] = [
     summary:
       "1989年に国連総会で採択された、18歳未満の子どもを権利の主体と位置づける条約。差別の禁止、最善の利益、生命・生存・発達、意見の尊重を四原則とする。",
     body: "子どもの権利条約（児童の権利に関する条約）は、1989年11月20日に国連総会で採択され、1990年に発効した国際条約です。18歳未満の子どもを、保護の対象であるだけでなく、権利をもつ主体として位置づけ、成長の過程で特別な保護や配慮が必要な子ども固有の権利も定めています。日本は1994年に批准しました。\n\n条約を貫く四つの一般原則として、差別の禁止（すべての子どもが差別されないこと）、生命、生存及び発達に対する権利、子どもの最善の利益（子どもに関わる決定ではその子にとって最もよいことを第一に考えること）、子どもの意見の尊重（自分に関係する事柄について意見を表明でき、その意見が年齢と成熟に応じて考慮されること）が挙げられます。これらの原則は、日本のこども基本法にも取り入れられていると説明されています。\n\n教育との関係では、人権教育の中心的な教材として扱われ、学校では子どもの意見表明権の保障や、校則の見直し、いじめ・体罰の防止などの文脈で参照されます。また、条約は子ども自身に権利を知らせる教育（権利教育）を重視しており、道徳科や特別活動、社会科などで、自分や他者の権利を尊重する態度を育む手がかりとなります。権利を主張するだけでなく、他者の権利も尊重する責任とあわせて学ぶことが大切です。",
-    relatedSlugs: ["jinken-kyoiku", "kodomo-kihon-ho", "jido-gyakutai-boshi-ho", "unicef-education", "black-school-rules-human-rights-debate", "hair-dress-code-student-bodily-autonomy", "multicultural-children-mother-tongue-respect", "child-rights-advocacy-respectful-caregiving"],
+    relatedSlugs: ["jinken-kyoiku", "kodomo-kihon-ho", "jido-gyakutai-boshi-ho", "unicef-education", "black-kosoku", "hair-dress-code-student-bodily-autonomy", "multicultural-children-mother-tongue-respect", "child-rights-advocacy-respectful-caregiving"],
     isCanonical: true,
     exam: true,
     tags: ["子どもの権利", "国際条約", "人権"],
@@ -1835,19 +1835,6 @@ export const moralTerms: Term[] = [
     relatedSlugs: ["setsudo-sessei", "moral-skill-training", "peer-mediation", "zenaku-jiritsu-jiyu-sekinin"],
     isCanonical: true,
     tags: ["怒りの制御", "自己主張", "感情調整", "対人関係"],
-  },
-  {
-    slug: "peer-support-caring-chain-school",
-    title: "ピア・サポート活動（道徳）",
-    reading: "ぴあさぽーとかつどう",
-    kana: "ひ",
-    categories: ["moral"],
-    summary:
-      "児童生徒同士が互いの悩みに寄り添い支え合う活動を通じて、学校全体に思いやりと相互扶助の連鎖を広げる指導実践。",
-    body: "ピア・サポートとは、同じ仲間としての立場から互いを支え合う実践であり、教育心理学やカウンセリング理論に基づいて体系化された支援法である。道徳教育においては、他者への関心と思いやりを具体的な行動として具現化し、共助の倫理を共同体の中に定着させる試みとして位置づけられる。\n\n実践展開では、傾聴や肯定的な声かけのスキルを学ぶ演習と道徳的な価値理解を連動させる。教材を通じて困っている友人に声をかける際のためらいや不安を共有し、どのように関われば心が通い合うかを対話的に探究することで、児童生徒が自発的に他者を支える意欲を高める。\n\n孤立感や不安を抱える子どもが増加する教育現場において、仲間同士の温かい支援の輪を広げる意義は極めて大きい。思いやりの連鎖を創出する取り組みは、学校を心理的安全性の高い居場所へと変容させ、豊かな人間性と共生への実践力を育てる。",
-    relatedSlugs: ["peer-support", "omoiyari-shinsetsu", "peer-culture-gakko", "yujo-shinrai"],
-    isCanonical: true,
-    tags: ["ピアサポート", "思いやり", "仲間づくり", "援助要請"],
   },
   {
     slug: "belonging-self-worth-creation-classroom",

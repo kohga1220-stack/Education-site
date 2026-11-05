@@ -353,7 +353,7 @@ export const methodsTerms: Term[] = [
     body: "シンキングツールとは、比較・分類・関係づけ・順序づけ・多面的に見るといった、頭の中で行われるさまざまな思考のはたらきを、ベン図やY字チャート、座標軸、フィッシュボーンなどの図式に置き換えて可視化するための道具の総称です。本来は目に見えない思考のプロセスを、線や枠で構造化された図として書き出すことで、子ども自身が自分の考えを整理し、他者と共有しやすくなります。\n\n日本では関西大学の黒上晴夫が中心となり、アメリカで開発された「シンキングマップ」などの考え方を参考にしながら、日本の学校現場で扱いやすい形に整理し、その普及に長年取り組んできました。近年は児童生徒一人一台の情報端末の普及に伴い、デジタル上でシンキングツールを自由に操作し、友達と共有できる学習支援アプリも広く使われるようになっています。\n\n国語や社会、総合的な学習の時間など教科の枠を問わず幅広く活用でき、比較・分類・構造化といった思考のスキルそのものを育成し、対話を通じた協働的な学びを支える手立てとして、多くの学校で注目され実践が積み重ねられています。",
     relatedSlugs: ["kp-method", "metacognition", "mondai-kaiketsu", "fishbone-cause-and-effect-diagram", "venn-diagram-comparison-tool", "thinking-routines-project-zero", "pyramid-structure-thinking-tool", "y-chart-x-chart-multidimensional"],
     isCanonical: true,
-    tags: ["黒上晴夫", "思考の可視化", "ICT活用"],
+    tags: ["黒上晴夫", "思考の可視化", "ICT活用", "思考ツール", "思考可視化", "クラウド共有", "論理的思考", "シンキングツール活用"],
   },
   {
     slug: "role-playing",
@@ -478,7 +478,7 @@ export const methodsTerms: Term[] = [
     summary:
       "概念間の関係を線と言葉でつなぎ図式化し、知識構造の可視化と理解深化を図る学習技法です。",
     body: "コンセプトマップ（概念地図法）は、アメリカの教育心理学者ジョセフ・ノヴァクがオーズベルの有意味受容学習の理論を基に開発した図解技法です。学習内容に含まれる概念（ノード）を丸や四角で表し、それらを矢印や線でつなぎ、関係を示す言葉（リンクワード）を添えて命題として表現します。\n\n作成の過程で学習者は既有知識と新しい情報の関連づけを意識化し、自分の理解の構造を外化することができます。授業では単元導入時の予備知識の把握、学習後の知識の整理、グループでの共同作成による対話的な理解の深化などに用いられます。\n\n近年はデジタルツールを使ったマップ作成も普及し、理科や社会科をはじめ幅広い教科で思考の可視化・メタ認知の促進を目的に活用されています。",
-    relatedSlugs: ["meaningful-reception-learning", "metacognition", "thinking-tools", "visible-thinking-pedagogy", "social-studies-issue-inquiry", "concept-mapping-thinking-process-evaluation", "thinking-tools-cloud-based-usage", "concept-mapping-apps-externalization"],
+    relatedSlugs: ["meaningful-reception-learning", "metacognition", "thinking-tools", "visible-thinking-pedagogy", "social-studies-issue-inquiry", "concept-mapping-thinking-process-evaluation", "concept-mapping-apps-externalization"],
     isCanonical: true,
     tags: ["思考の可視化", "有意味学習", "図解"],
   },
@@ -1538,19 +1538,6 @@ export const methodsTerms: Term[] = [
     tags: ["ナッジ理論", "教室環境", "環境デザイン", "行動経済学"],
   },
   {
-    slug: "universal-design-lesson-framework",
-    title: "授業のユニバーサルデザイン",
-    reading: "じゅぎょうのゆにばーさるでざいん",
-    kana: "し",
-    categories: ["methods"],
-    summary:
-      "すべての児童生徒が主体的・円滑に学べるよう、授業のめあてや学習課題の焦点化、板書や指示の視覚化、学び合いによる共有化を組織的に推進する指導枠組み。",
-    body: "授業のユニバーサルデザインは、特別支援教育の知見を通常の授業づくりに統合し、特別な配慮を必要とする子どもを含めた学級全員の学びを成立させる指導理論である。「通常学級におけるユニバーサルデザイン」として発展し、困難を抱える子どものつまずきを予防しつつ、全員の学力を保障することを目指す。\n\n授業構成は「焦点化」「視覚化」「共有化」の三原則を基軸とする。焦点化では授業の目標や発問を絞り込んで学習の核心を明確にする。視覚化では板書の構造化や具体物の提示により見て理解できる手がかりを整える。共有化ではペア対話や小集団交流を取り入れ、思考の過程や達成感を互いに確かめ合う活動を展開する。\n\nつまずきやすい学習者を基準にして授業を綿密に設計することにより、結果として学級全体の理解度と集中力が高まる。指導の標準化と個別配慮が調和し、どの子も取り残されないインクルーシブな学級風土を醸成する授業改革の柱として高く評価されている。",
-    relatedSlugs: ["ud-jugyo", "digital-kyozai-ud", "kiso-teki-kankyo-seibi", "scaffolding"],
-    isCanonical: true,
-    tags: ["ユニバーサルデザイン", "焦点化", "視覚化", "共有化"],
-  },
-  {
     slug: "small-step-instructional-method",
     title: "スモールステップの原理",
     reading: "すもーるすてっぷのげんり",
@@ -2251,19 +2238,6 @@ export const methodsTerms: Term[] = [
     relatedSlugs: ["tankyu-gakushu", "pbl", "chiiki-gakko-kyodo-katsudo", "community-school"],
     isCanonical: true,
     tags: ["地域協働", "探究学習", "地域活性化", "市民教育"],
-  },
-  {
-    slug: "unplugged-computer-science-education",
-    title: "アンプラグド・プログラミング",
-    reading: "あんぷらぐどぷろぐらみんぐ",
-    kana: "あ",
-    categories: ["methods"],
-    summary:
-      "パソコンやタブレット端末を使わず、身体運動やカードゲームなどを通じてアルゴリズムや情報科学の基礎概念を直感的に学ぶプログラミング導入指導法。",
-    body: "アンプラグド・プログラミング教育法は、ニュージーランドのベル教授らが提唱した教育法を起源とする情報科学教育の手法である。高価な計算機環境に依存せず、誰でも遊び感覚でコンピュータの動作原理や論理的思考の本質に触れられる教授法として世界的に普及した。\n\n授業では、記号が書かれたカードの並べ替え、マス目を使った指示通りの歩行ゲーム、人間による探索の実演などを行う。学習者は身体を動かしたり仲間と相談したりしながら、順次・分岐・反復といったアルゴリズムの基本構造や情報の符号化規則を体感的に見出す。\n\n機器の操作習熟にとらわれず、計算論的思考（プログラミング的思考）の本質的な論理構造に集中できる利点がある。小学校低学年からの情報教育の導入や、デジタル格差に左右されない普遍的な思考力育成の授業として、現代の情報活用教育において広く活用されている。",
-    relatedSlugs: ["computational-thinking", "joho-kyoiku", "steam-education", "joho-katsuyo-noryoku"],
-    isCanonical: true,
-    tags: ["アンプラグド", "プログラミング教育", "情報科学", "論理的思考"],
   },
   {
     slug: "digital-storytelling-media-expression",

@@ -425,7 +425,7 @@ export const ictTerms: Term[] = [
     summary:
       "コンピュータや情報通信ネットワークを活用しながら、児童生徒の情報活用能力を系統的に育成する教育活動。プログラミング教育や情報モラル教育を包含する、より上位の概念として位置づけられる。",
     body: "情報教育とは、児童生徒が情報や情報手段を主体的に選択し、活用していくための基礎的な資質・能力である「情報活用能力」を育成することを目的とした教育活動の総称です。特定の教科に限らず、各教科等の学習全体を通じて計画的に取り組むべきものとされています。1980年代から高等学校での取り組みが始まり、順次充実が図られてきました。\n\n情報活用能力は、情報を収集・判断・表現・処理・創造する力、情報を適切に伝え合う力、情報社会に参画する態度などから構成され、学習指導要領では言語能力と並ぶ「学習の基盤となる資質・能力」の一つに明確に位置づけられています。プログラミング教育や情報モラル教育は、情報教育を構成する具体的な取り組みの一部です。\n\nGIGAスクール構想による1人1台端末環境の整備を背景に、日常の授業の中でコンピュータや情報通信ネットワークを活用する機会が大きく広がり、情報教育の内容も、機器の操作技能の習得にとどまらず、データの分析や生成AIとの向き合い方まで、より幅広く、そして高度なものへと発展してきています。",
-    relatedSlugs: ["programming-education", "joho-katsuyo-noryoku", "giga-school", "unplugged-computer-science-education"],
+    relatedSlugs: ["programming-education", "joho-katsuyo-noryoku", "giga-school", "unplugged-programming"],
     isCanonical: true,
     tags: ["情報教育", "情報活用能力", "プログラミング教育"],
   },
@@ -441,19 +441,6 @@ export const ictTerms: Term[] = [
     relatedSlugs: ["giga-school", "joho-kyoiku", "kyoiku-dx"],
     isCanonical: true,
     tags: ["法律", "ICT政策", "GIGAスクール"],
-  },
-  {
-    slug: "tougou-komu-shien-system",
-    title: "統合型校務支援システム",
-    reading: "とうごうがたこうむしえんしすてむ",
-    kana: "と",
-    categories: ["ict"],
-    summary:
-      "出欠管理・成績処理・指導要録の作成といった多様な校務を一つのシステムで一元管理し、教員の業務負担の軽減を図る仕組みです。",
-    body: "統合型校務支援システムとは、出欠管理、成績処理、通知表・指導要録の作成、保健関係業務など、教員が行うさまざまな校務を一つのシステムで一元的に処理できるようにした情報システムです。文部科学省は「統合型校務支援システムの導入のための手引き」を作成し、全国の学校への導入を推進してきました。\n\n従来は業務ごとに別々のソフトや紙の帳票で処理していたため、二重入力や転記ミスが生じやすく、教員の長時間労働の一因ともされていました。統合型システムの導入により、データを一度入力すれば複数の帳票に自動反映されるなど、業務の効率化と正確性の向上が期待されています。\n\n近年は自治体ごとに異なる帳票様式やシステム仕様がクラウド化・広域連携の妨げになっているとの指摘を受け、文部科学省は帳票の標準化やフルクラウド型システムへの移行を進める方針を示しています。働き方改革と校務DXを支える基盤として、今後も普及と機能の高度化が進むと見込まれています。",
-    relatedSlugs: ["kyoiku-dx", "shusseki-teishi", "school-affairs-learning-network-integration", "digital-cumulative-record-data-transfer"],
-    isCanonical: true,
-    tags: ["校務DX", "働き方改革", "システム"],
   },
   {
     slug: "vr-ar-kyoiku",
@@ -620,7 +607,7 @@ export const ictTerms: Term[] = [
     summary:
       "Google WorkspaceやMicrosoft 365など、教育機関向けに提供されているクラウド型の学習・業務基盤を活用する取り組みです。",
     body: "学校向けクラウドサービスとは、Google Workspace for EducationやMicrosoft 365 Educationのように、教育機関向けに提供される文書作成・共同編集・オンライン会議・データ保存などの機能をまとめたクラウド基盤を指します。GIGAスクール構想による1人1台端末の整備に伴い、多くの自治体・学校で導入が進みました。\n\nクラウドサービスを活用することで、児童生徒は端末やアプリのバージョンに縛られずどこからでも同じ環境で作業でき、共同編集機能を使ったグループでの資料作成や、オンラインでの課題配布・提出が容易になります。教員にとっても、授業資料や成績関連データを一元管理しやすくなる利点があります。\n\n一方で、自治体ごとに異なるサービスを採用していることによる互換性の低さ、個人情報を含むデータを海外事業者のサーバーに保存することへのセキュリティ・プライバシー上の懸念、通信環境の格差による利用機会の不均衡などが課題として指摘されています。",
-    relatedSlugs: ["giga-school", "lms", "joho-security-policy", "cloud-collaborative-learning-realtime", "thinking-tools-cloud-based-usage", "online-sticky-notes-brainstorming", "collaborative-presentation-slides-co-creation", "online-polling-realtime-survey-classroom"],
+    relatedSlugs: ["giga-school", "lms", "joho-security-policy", "cloud-collaborative-learning-realtime", "thinking-tools", "online-sticky-notes-brainstorming", "collaborative-presentation-slides-co-creation", "online-polling-realtime-survey-classroom"],
     isCanonical: true,
     tags: ["クラウド", "GIGAスクール", "共同編集"],
   },
@@ -659,9 +646,9 @@ export const ictTerms: Term[] = [
     summary:
       "出欠管理や成績処理、通知表・指導要録の作成など学校の事務業務をデジタル化し、教員の働き方改革を支える情報システム。",
     body: "校務支援システムとは、出欠管理、成績処理、通知表・指導要録の作成、保健室運営、学校徴収金管理といった学校の校務(事務業務)をデジタル化し、効率化するための情報システムの総称である。従来は紙や個別のExcelファイルで管理されていた情報を一元的にデータベース化することで、集計や転記の手作業を減らし、教員の負担軽減につなげることを目的とする。\n\n文部科学省は「GIGAスクール構想の下での校務DXについて」(令和5年3月)などを通じて、学習系ネットワークとの統合や、境界防御型からゼロトラスト型のセキュリティへの移行を前提とした校務支援システムの高度化を推進している。従来は情報セキュリティの観点から校務系ネットワークと学習系ネットワークを分離する運用が主流だったが、クラウド活用の進展に伴い、両者を安全に連携させる方向へ見直しが進んでいる。\n\n校務支援システムの普及は教員の時間外勤務の縮減に資する一方、自治体ごとにシステムの仕様や導入状況が異なり、人事異動時の操作習熟や、システム間のデータ連携の不十分さが課題として指摘されている。今後は学習eポータルや教育データ標準との連携を進め、学習系データと校務系データを統合的に活用する「教育DX」の基盤としての役割が期待されている。",
-    relatedSlugs: ["kyoiku-dx", "komu-gakushu-network-bunri", "gakushu-e-portal", "kyoshi-tabosei-burnout"],
+    relatedSlugs: ["kyoiku-dx", "komu-gakushu-network-bunri", "gakushu-e-portal", "kyoshi-tabosei-burnout", "shusseki-teishi", "school-affairs-learning-network-integration", "digital-cumulative-record-data-transfer"],
     isCanonical: true,
-    tags: ["校務支援システム", "校務DX", "働き方改革"],
+    tags: ["校務支援システム", "校務DX", "働き方改革", "システム", "統合型校務支援システム"],
   },
   {
     slug: "gakushu-e-portal",
@@ -720,13 +707,13 @@ export const ictTerms: Term[] = [
     title: "アンプラグド・プログラミング教育",
     reading: "あんぷらぐどぷろぐらみんぐきょういく",
     kana: "あ",
-    categories: ["ict"],
+    categories: ["ict", "methods"],
     summary:
       "コンピュータを使わずにカードや身体活動でプログラミングの考え方を学ぶ指導法。低年齢の児童や機器が限られる環境でも実践できる。",
     body: "アンプラグド・プログラミング教育とは、パソコンやタブレットなどのコンピュータ機器を使用せずに、カードゲームやボードゲーム、身体を動かす活動などを通じてプログラミング的な考え方(順次・分岐・繰り返しなどのアルゴリズムの基礎)を体験的に学ぶ指導法である。ニュージーランドの研究者らが開発した「Computer Science Unplugged」の取り組みが国際的な原型として知られ、日本でも小学校のプログラミング教育の導入段階でしばしば活用される。\n\n具体的には、児童同士が指示カードを組み合わせてロボット役の友達を目的地まで誘導する活動や、日常動作(顔を洗う、朝食を食べるなど)を手順に分解して並べ替える活動などがあり、機器の操作スキルに依存せずに論理的思考の基礎を養える点が特徴である。ICT環境が十分に整っていない学校や、低学年など機器操作に慣れていない発達段階の児童生徒にも導入しやすく、GIGAスクール構想以前から実践例が蓄積されてきた。\n\n一方で、アンプラグドの活動だけでは、実際にプログラムを作成し動かす体験や、コンピュータならではの試行錯誤(デバッグ)の経験を得ることは難しい。そのため、多くの実践ではアンプラグド活動を導入・動機づけの段階に位置づけ、その後、実際のプログラミングツールを用いた活動へと発展させる段階的な指導計画が推奨されている。",
-    relatedSlugs: ["programming-education", "computational-thinking", "coding-programming-chigai", "unplugged-computer-science-education", "visual-programming-scratch-foundations", "algorithm-basics-sequence-branch-loop"],
+    relatedSlugs: ["programming-education", "computational-thinking", "coding-programming-chigai", "visual-programming-scratch-foundations", "algorithm-basics-sequence-branch-loop", "joho-kyoiku", "steam-education", "joho-katsuyo-noryoku"],
     isCanonical: true,
-    tags: ["アンプラグド", "プログラミング教育", "アルゴリズム"],
+    tags: ["アンプラグド", "プログラミング教育", "アルゴリズム", "情報科学", "論理的思考", "アンプラグド・プログラミング"],
   },
   {
     slug: "ai-literacy-kyoiku",
@@ -893,7 +880,7 @@ export const ictTerms: Term[] = [
     summary:
       "GIGAスクール環境を前提に、校務系・学習系ネットワークの統合やクラウド型校務支援システムの導入を進め、教職員の負担軽減と教育データの活用を図る文部科学省の方針。",
     body: "次世代の校務DXとは、1人1台端末とクラウドを前提とした学校の校務の再設計を指す。文部科学省の「GIGAスクール構想の下での校務の情報化に関する専門家会議」が2023年3月にまとめた提言（「GIGAスクール構想の下での校務DXについて」）が出発点とされ、従来の閉じたネットワーク内での校務処理から、場所を選ばず安全にアクセスできる環境への転換が打ち出された。\n\n方向性の柱は、校務系ネットワークと学習系ネットワークの統合、ゼロトラストの考え方に基づくアクセス制御によるセキュリティ確保、パブリッククラウド上での校務支援システムの運用、そしてダッシュボード等によるデータの可視化である。出欠や健康観察のデータを一元的に扱うことで、教職員の入力作業の削減や、児童生徒の変化の早期把握につなげることがねらいとされる。\n\n国は2025年3月に「次世代校務DXガイドブック」を示し、都道府県域全体での取組や、現在の環境でもできる業務の見直し・汎用クラウドツールの活用を促している。移行の時期や進め方は自治体ごとに異なり、既存の統合型校務支援システムの更新時期と合わせて段階的に進める例が多い。詳細な要件は文部科学省の最新資料で確認する必要がある。",
-    relatedSlugs: ["komu-gakushu-network-bunri", "tougou-komu-shien-system", "kyoiku-dx", "joho-security-policy", "school-affairs-learning-network-integration", "software-license-management-school-wide", "open-school-digital-transformation-future"],
+    relatedSlugs: ["komu-gakushu-network-bunri", "komu-shien-system", "kyoiku-dx", "joho-security-policy", "school-affairs-learning-network-integration", "software-license-management-school-wide", "open-school-digital-transformation-future"],
     isCanonical: true,
     tags: ["校務DX", "クラウド", "働き方改革"],
   },
@@ -1299,19 +1286,6 @@ export const ictTerms: Term[] = [
     relatedSlugs: ["denshi-kokuban", "giga-school", "joho-katsuyo-noryoku", "active-learning"],
     isCanonical: true,
     tags: ["画面提示", "焦点化指導", "注意喚起", "一斉配信"],
-  },
-  {
-    slug: "thinking-tools-cloud-based-usage",
-    title: "シンキングツール活用",
-    reading: "しんきんぐつーるかつよう",
-    kana: "し",
-    categories: ["ict"],
-    summary:
-      "ベン図やクラゲチャート等の思考枠組みをクラウド上でデジタル化し、アイデアの整理や比較、構造化を共同で深めながら思考力を育む学習手法。",
-    body: "思考ツールのクラウド活用とは、クラゲチャート、ベン図、ピラミッドチャートなどの思考の枠組みをクラウド上でデジタルカード等として操作し、考えを整理・発展させる学習活動である。主体的・対話的で深い学びの中で、情報活用能力や論理的思考力を高める基盤として定着している。\n\n授業手順として、児童生徒は手元の端末上で思考シートを選択し、浮かんだ発想や調べた事実をデジタルカードに書き込んで配置する。クラウドの共有機能を活用して班員同士のシートを結合し、カードの分類や並べ替えを共同で行いながら、多角的な議論を展開する。\n\n思考の過程が画面上で直感的に可視化されることで、児童生徒は自らの考えをメタ認知し、他者との相違点や共通点を客観的に捉えることができる。協働的な対話を通じて自らの思考を更新し、納得解や新たな価値を創造する確かな資質・能力が養われる。",
-    relatedSlugs: ["thinking-tools", "concept-map", "kyodo-gakushu", "school-cloud-service"],
-    isCanonical: true,
-    tags: ["思考ツール", "思考可視化", "クラウド共有", "論理的思考"],
   },
   {
     slug: "concept-mapping-apps-externalization",
@@ -1998,7 +1972,7 @@ export const ictTerms: Term[] = [
     summary:
       "文部科学省のセキュリティ指針に基づき、校務系と学習系のネットワークを分離・統制して児童生徒や教職員の重要データを堅固に保護する施策。",
     body: "学校情報セキュリティ指針とネットワーク分離とは、学校における機密性の高い重要データをサイバー攻撃や誤操作から保護するための設計原則である。成績や指導要録などの校務系情報と、児童生徒が自由にネット接続して学ぶ学習系環境を切り分けることで、高い安全性を確保してきた。\n\n学校や教育委員会は、指針に準拠して校務用コンピュータと学習端末の通信経路を論理的または物理的に分離し、不正な侵入を防御する。校務系ネットワークから学習系や外部網へ接続する際は、画面転送技術や安全な認証窓口を介してデータの直接持ち出しを制限する。\n\n厳格な安全基準のもとでデータを守ることは、児童生徒が安心して協働的・個別最適なクラウド学習を展開するための大前提である。近年のクラウド化推進と利便性向上に伴い、セキュリティの強度を保ちつつ柔軟な接続を可能にする新たな指針への適合が推進されている。",
-    relatedSlugs: ["joho-security-policy", "komu-gakushu-network-bunri", "school-cloud-service", "tougou-komu-shien-system"],
+    relatedSlugs: ["joho-security-policy", "komu-gakushu-network-bunri", "school-cloud-service", "komu-shien-system"],
     isCanonical: true,
     tags: ["情報セキュリティ", "ネットワーク分離", "学校指針", "校務支援"],
   },
@@ -2024,7 +1998,7 @@ export const ictTerms: Term[] = [
     summary:
       "分離されていた校務用と学習用の端末環境を統合し、強固な認証と暗号化により一台の端末で安全かつ柔軟にクラウドを活用する取り組み。",
     body: "校務系・学習系端末の統合と安全なクラウド利用とは、これまで物理的または論理的に分けられていた端末を統合し、教員の利便性を飛躍的に高める政策的施策である。教員が授業用と校務処理用で複数台の端末を使い分ける非効率を解消し、教育DXを一気に加速させる目的を持つ。\n\nクラウド型認証基盤を活用し、端末上に安全な作業領域を構築することで、児童生徒の成績データや授業用教材へ同一端末からアクセスさせる。通信経路の完全な暗号化や多要素認証、持ち出し時のデータ流出防止機能を施し、自宅や教室からでも安全に校務と授業を両立させる。\n\n端末の一元化は教職員の負担を大幅に削減し、授業準備や児童生徒へのきめ細かな個別最適な指導に向き合う時間を生み出す。安全なクラウド基盤の上で教育データの相互利活用を進めることで、学校教育全体の質的向上と持続可能な学校経営が実現する。",
-    relatedSlugs: ["komu-gakushu-network-bunri", "school-cloud-service", "jisedai-komu-dx", "tougou-komu-shien-system"],
+    relatedSlugs: ["komu-gakushu-network-bunri", "school-cloud-service", "jisedai-komu-dx", "komu-shien-system"],
     isCanonical: true,
     tags: ["端末統合", "校務DX", "クラウド活用", "セキュリティ"],
   },
@@ -2037,7 +2011,7 @@ export const ictTerms: Term[] = [
     summary:
       "校務系システムと児童生徒の学習eポータルをデータ連携させ、指導と評価の一体化や教育ビッグデータの活用による個別指導の高度化を図る構想。",
     body: "統合型校務支援システムと学習ポータルの連携とは、教職員の校務処理システムと児童生徒の学習履歴を記録する学習eポータルを接続する施策である。文部科学省のデータ利活用ロードマップに基づき、学校内のあらゆる情報を一元化して教育の質を高める政策的背景がある。\n\n国際標準仕様に準拠した認証連携により、一度のログインで出席管理や成績処理、児童生徒のデジタル教科書や教材の進捗状況を相互参照する。教員は学習ポータルに蓄積された個々の学習記録を校務システムへ反映させ、指導要録の作成や指導計画の策定を円滑に連動させる。\n\n日々の学習履歴と出欠や健康観察データが統合されることで、一人ひとりのつまずきや成長を多角的に把握する個別最適な学びの実現が加速する。組織的な協働指導の精度が飛躍的に向上し、誰一人取り残さない確かな教育実践がデータ基盤の上で力強く推進される。",
-    relatedSlugs: ["gakushu-e-portal", "tougou-komu-shien-system", "jisedai-komu-dx", "kyoiku-data-hyojun"],
+    relatedSlugs: ["gakushu-e-portal", "komu-shien-system", "jisedai-komu-dx", "kyoiku-data-hyojun"],
     isCanonical: true,
     tags: ["統合型校務支援", "学習eポータル", "データ連携", "校務効率化"],
   },
@@ -2050,7 +2024,7 @@ export const ictTerms: Term[] = [
     summary:
       "指導要録や出欠記録などの生徒指導データを電子化し、進学や転校の際に暗号化通信を用いて学校間で安全かつ迅速に引き継ぐ仕組みと運用指針。",
     body: "生徒指導データの電子化と学校間移行とは、指導要録や出欠記録、支援履歴などの教育情報をデジタルデータとして安全に管理し、進学や転校の際に学校間で迅速かつ確実に引き継ぐ仕組みである。国の教育DX推進において、校務効率化と指導の連続性を支える重要課題とされる。\n\n校務においては、統合型校務支援システムを通じて標準化されたフォーマットでデータを作成・保管する。学校間移行の際は、暗号化通信や強固なアクセス制御を備えた公的教育ネットワーク基盤を活用し、不正アクセスや情報流出を厳格に防止する。\n\n切れ目のない指導データの共有は、進学時における児童生徒の学習面や心理面のつまずきを早期に発見し、個別最適な支援へつなげることに寄与する。厳格な権限管理のもとで子どものプライバシーを保護しつつ、協働的な指導体制を発展させることが重要である。",
-    relatedSlugs: ["jisedai-komu-dx", "tougou-komu-shien-system", "joho-security-policy", "kyoiku-data-hyojun"],
+    relatedSlugs: ["jisedai-komu-dx", "komu-shien-system", "joho-security-policy", "kyoiku-data-hyojun"],
     isCanonical: true,
     tags: ["指導要録", "データ移行", "情報保護", "校務支援"],
   },
